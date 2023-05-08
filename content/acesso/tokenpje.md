@@ -2,6 +2,7 @@
 title: "Token PJe (PJe Mobile)"
 date: 2022-11-21T15:22:31-03:00
 weight: 4
+draft: true
 ---
 
 Usuários internos (servidores e magistrados) podem configurar o aparelho celular para ser usado como token no PJe. Para tal fim, é necessário baixar o aplicativo compatível com o sistema operacional do celular e fazer o pareamento.
