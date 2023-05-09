@@ -19,10 +19,10 @@ Processo que é remetido (na instância de origem da remessa) precisa:
 
 Processo que é recebido (na instância de destino da remessa) precisa:
 
-{{<marcar texto="SE FOR PRIMEIRA REMESSA">}}
+**{{<marcar texto="SE FOR PRIMEIRA REMESSA">}}**
 + ser autuado/distribuído.
 
-{{<marcar texto="SE FOR RETORNO PARA A INSTÂNCIA">}}
+**{{<marcar texto="SE FOR RETORNO PARA A INSTÂNCIA">}}**
 + ter os documentos produzidos na instância de origem;
 + sair da tarefa estacionária;
 + ter movimentos de recebimento (ou recebimento e reativação, caso seja um processo que já tenha passado pela instância);

@@ -63,8 +63,8 @@ div.notices.tip p:first-child:after {
 mark.destaquedicas {
   background-color: yellow;
   color: black;
-  font-weight: bold;
-  text-transform: uppercase;
+  /* font-weight: bold; */
+  /* text-transform: uppercase; */
 }
 
 table.variaveismodelo {

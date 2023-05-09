@@ -23,11 +23,11 @@ O usuário pode configurar a variável no modelo de documento de diversas formas
 
 processoJudicialAction.recuperarParte(true, false,'A')
 
-{{<marcar texto="ou">}}
+**{{<marcar texto="OU">}}**
 
 processoJudicialAction.recuperarParte(true, true,'A', 'P')
 
-{{<marcar texto="ou">}}
+**{{<marcar texto="OU">}}**
 
 processoJudicialAction.recuperarParte(false, true,'T')
 
