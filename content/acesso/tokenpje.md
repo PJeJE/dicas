@@ -2,7 +2,7 @@
 title: "Token PJe (PJe Mobile)"
 date: 2022-11-21T15:22:31-03:00
 weight: 4
-draft: true
+draft: false
 ---
 
 Usuários internos (servidores e magistrados) podem configurar o aparelho celular para ser usado como token no PJe. Para tal fim, é necessário baixar o aplicativo compatível com o sistema operacional do celular e fazer o pareamento.
@@ -11,7 +11,7 @@ Usuários internos (servidores e magistrados) podem configurar o aparelho celula
 [Clicando aqui](/docs/PJE_token_virtual_smartphone_v100.pdf) você encontra um tutorial com o passo-a-passo necessário para essa configuração (material cedido pelo TRESC).
 {{% /notice %}}
 
-{{% notice warning %}}
+<!-- {{% notice warning %}}
 Diante das restrições atuais na Play Store para utilização do aplicativo TokenPJe para quem tem smartphone com a versão do Android mais recente, existem duas possibilidades, ambas restritas a usuários internos:
 {{% /notice %}}
 
@@ -19,4 +19,4 @@ Diante das restrições atuais na Play Store para utilização do aplicativo Tok
     * [Clique aqui](/outros/TokenPJe.apk) para fazer o download do arquivo. 
     * [Este link](https://canaltech.com.br/android/como-instalar-um-apk-no-android/) explica como realizar a instalação de um aplicativo usando o arquivo APK;
         
-2. Utilizar o PJeOffice Versão Justiça Eleitoral (Certificado P12). [Clique aqui](https://pjeje.github.io/dicas/acesso/certvirtual/) para mais informações.
+2. Utilizar o PJeOffice Versão Justiça Eleitoral (Certificado P12). [Clique aqui](https://pjeje.github.io/dicas/acesso/certvirtual/) para mais informações. -->
