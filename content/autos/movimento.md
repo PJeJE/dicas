@@ -17,3 +17,5 @@ Quando necessário (na ausência de certidão), a instância de destino pode ver
 A opção está disponível para qualquer servidor com acesso aos autos, desde que o processo tenha chegado à instância atual através da remessa entre instâncias. Ao acioná-la, o servidor verá os dados do processo conforme constam na instância originária, inclusive seus movimentos:
 
 ![Tela de dados do processo referência](/imagens/dados_processo_referencia_1.jpg)
+
+Se houve remessa do primeiro grau para o TRE, por exemplo, no TRE o servidor terá acesso à opção "Dados do processo referência". Já ao retornar o processo para o primeiro grau, no primeiro grau a opção não estará disponível.
