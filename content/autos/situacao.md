@@ -77,6 +77,7 @@ A situação **jus:andamento** é finalizada quando as situações **jus:arquiva
 1. Quando um processo entra na tarefa **Manter Processos Expedidos**. A situação é finalizada quando o processo sair da tarefa por meio das transições **Retornar para análise**, **Retornar para análise com registro de movimento** e **Retornar para análise sem registro de movimento**
 2. Quando um processo entra nas tarefas **Aguardando apreciação de outra instância - Corregedoria** e **Aguardando apreciação de outra instância - Processo Corregedoria**. A situação é finalizada quando o processo entra nas tarefas **Recebimento de outra instância - Corregedoria** e **Recebimento de outra instância - Processo Corregedoria**, quando também é acrescentada a situação jus:andamento.
 3. Quando um processo entra na tarefa **Manter Processos Devolvidos a Origem**. A situação é finalizada quando o processo sair da tarefa por meio das transições **Prosseguir** e **Desarquivar processo**. 
+4. Quando um processo entra em uma das seguintes tarefas do segundo grau: **Aguardando apreciação de outra instância**, **Processos remetidos ao TSE** e **Processos remetidos à zona**. A situação é finalizada quando o processo sair da tarefa por meio da transição **Reativar com registro de movimento**.
 
 ### jus:remetidostf
 
