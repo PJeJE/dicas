@@ -7,18 +7,15 @@ weight: 4
 ## Introdução
 
 As situações processuais foram criadas no PJe para possibilitar a implementação da distribuição por sucessão, mas elas têm reflexos e utilidades múltiplas.
-Elas são "etapas" do ciclo de vida do processo cadastradas pelo próprio tribunal e utilizadas no fluxo de tramitação para que se possa recuperar os processos de acordo com esse parâmetro.
-A utilização de situações processuais permite identificar a etapa em que o processo se encontra sem que seja necessário recorrer ao histórico de tramitação do processo.
-Sem a situação processual a realização de algumas consultas, mesmo que por meio do banco de dados, é uma tarefa complexa, pois varia muito de acordo com as maneiras de trabalhar de cada tribunal. Em muitos casos se faz necessário um conjunto de movimentos e tarefas para chegar ao resultado desejado. 
 
+Elas são "etapas" do ciclo de vida do processo cadastradas pelo próprio tribunal e utilizadas no fluxo de tramitação para que se possa recuperar os processos de acordo com esse parâmetro.
 {{% notice info %}}
 As situações são cumulativas, salvo se forem encerradas. 
 {{% /notice %}}
+A utilização de situações processuais permite identificar a etapa em que o processo se encontra sem que seja necessário recorrer ao histórico de tramitação do processo.
+Sem a situação processual a realização de algumas consultas, mesmo que por meio do banco de dados, é uma tarefa complexa, pois varia muito de acordo com as maneiras de trabalhar de cada tribunal. Em muitos casos se faz necessário um conjunto de movimentos e tarefas para chegar ao resultado desejado. 
 {{% notice info %}}
 Quando um processo é arquivado, a situação em andamento também é finalizada.
-{{% /notice %}}
-{{% notice warning %}}
-As situações documentadas aqui são válidas para o fluxo do TSE.
 {{% /notice %}}
 
 Abaixo estão listadas as situações processuais definidas até o momento. Cada situação é identificada por um código e pode ser acessada por meio do link correspondente.
@@ -36,6 +33,9 @@ Abaixo estão listadas as situações processuais definidas até o momento. Cada
 | [jus:acordao](#jusacordao) | Situação de processos com julgamento finalizado. |
 | [jus:acordaofinalizado](#jusacordaofinalizado) | Situação de processos com acórdão assinado e finalizado. |
 
+{{% notice warning %}}
+As situações documentadas aqui são válidas para o fluxo do TSE.
+{{% /notice %}}
 
 ## Cenários
 
