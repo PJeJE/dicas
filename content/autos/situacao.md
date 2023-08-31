@@ -6,7 +6,7 @@ weight: 4
 
 ## Introdução
 
-As situações processuais foram criadas no PJe para possibilitar a implementação da distribuição por sucessão, mas elas têm reflexos e utilidades múltiplas.
+As situações processuais foram criadas no PJe para possibilitar a implementação da redistribuição por sucessão, mas elas têm reflexos e utilidades múltiplas.
 
 Elas são "etapas" do ciclo de vida do processo cadastradas pelo próprio tribunal e utilizadas no fluxo de tramitação para que se possa recuperar os processos de acordo com esse parâmetro.
 
