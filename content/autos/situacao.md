@@ -35,6 +35,7 @@ Abaixo estão listadas as situações processuais definidas até o momento. Cada
 | [jus:emjulgamento](#jusemjulgamento) | Situação de processos aguardando julgamento. |
 | [jus:acordao](#jusacordao) | Situação de processos com julgamento finalizado. |
 | [jus:acordaofinalizado](#jusacordaofinalizado) | Situação de processos com acórdão assinado e finalizado. |
+| [jus:corregedoria](#juscorregedoria) | Situação de processos administrativos de corregedoria (DP, RSE, CO). |
 
 {{% notice warning %}}
 As situações foram documentadas com base no fluxo do TSE, sendo aplicadas, no que cabe, para os Regionais e Zonas.
@@ -101,3 +102,8 @@ A situação **jus:andamento** é finalizada quando as situações **jus:arquiva
 ### jus:acordaofinalizado
 
 1. Quando um processo entra na tarefa **Analisar Acórdão Assinado - SJD**. Nesse momento, a situação jus:acordao é finalizada.
+
+### jus:corregedoria
+
+1. Quando um processo entra na tarefa **Verificar dados - Processo Corregedoria**. 
+
