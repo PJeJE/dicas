@@ -17,6 +17,7 @@ weight: 6
 | Cidade Órgão Julgador Processo | #{processoTrfHome.instance.orgaoJulgador.localizacao.endereco.cep.municipio} |  |
 | Classe do Processo | #{processoTrfHome.instance.classeJudicial} |  |
 | Classe do processo para uso em modelos de oficial de justiça | #{processoExpedienteCentralMandadoHome.instance.processoExpediente.processoTrf.classeJudicial} |  |
+| Competência da Distribuição |  #{processoTrfHome.instance.getCompetencia().competencia} |  |
 | Data Atual | #{currentDate} |  |
 | Data Atual Abreviada | #{dataAtualAbreviada} |  |
 | Data Atual Extenso | #{dataAtual} |  |
@@ -33,7 +34,7 @@ weight: 6
 | Endereço Partes Polo Passivo | #{processoTrfHome.processoParteEnderecoPoloPassivoStr} |  |
 | Escreve título Juiz ou Juíza de acordo com a informação sexo do cadastro do magistrado relator | #{processoTrfHome.getRelator(processoTrfHome.instance) != null and processoTrfHome.getRelator(processoTrfHome.instance).sexo == 'F'? 'Juíza': 'Juiz'} |  |
 | Hora Atual | #{currentTime} |  |
-| Juiz Órgão Julgador | #{processoTrfHome.instance.nomeJuizOrgaoJulgador} |  |
+| Juiz Órgão Julgador - retorna o nome do último usuáriod da localização do processo que tenha o papel magistrado (se houver mais de um magistrado no OJ, vai mostrar o último, não necessariamente o atual, não necessariamente o relator do processo | #{processoTrfHome.instance.nomeJuizOrgaoJulgador} |  |
 | Lista Nome Autor | #{processoTrfHome.nomeCpfAutorList} |  |
 | Lista Tipo Nome Advogado Autor | #{processoTrfHome.instance.tipoNomeAdvogadoAutorList} |  |
 | Lista Tipo Nome Advogado Réu | #{processoTrfHome.instance.tipoNomeAdvogadoReuList} |  |
