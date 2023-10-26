@@ -69,6 +69,8 @@ Para verificar audiências do processo e seu estado atual, o usuário deverá ab
 ## Movimento processual
 O movimento lançado quando há designação ou realização da audiência é o mesmo, de código 970. O que muda é o complemento. O movimento segue o seguinte formato: Audiência #{tipo_de_audiencia} #{situacao_da_audiencia} conduzida por #{dirigida_por} em/para #{data_hora}, #{local} onde: tipo_de_audiencia - preenchido com o tipo de audiência respectivo.
 
+Também é possível lançar movimento quando o processo está na tarefa Audiências (uso opcional). Essa opção permite que, em havendo alguma decisão proferida em audiência, o movimento desta possa ser registrado nos autos. 
+
 {{% notice note %}}
 [Clicando aqui](/docs/manual_audiencias.pdf) você encontra um tutorial com o passo-a-passo necessário para a realização dessa atividade (material cedido pelo TREMG).
 {{% /notice %}}
