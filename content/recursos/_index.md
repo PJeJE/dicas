@@ -19,3 +19,7 @@ Além disso, é primordial identificar qual a origem do recurso, ou seja, se a p
 Neste tópico descreveremos o mecanismo utilizado no PJe para que o registro de recurso seja realizado de forma a permitir o tratamento diferenciado que a interposição recursal requer.
 
 {{% children  %}}
+
+{{% notice note %}}
+As funcionalidades referentes ao registro de recurso, em especial a alteração de partes e de orgão julgador, funcionam melhor no navegador **Mozilla Firefox.** 
+{{% /notice %}}
