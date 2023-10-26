@@ -8,6 +8,10 @@ O primeiro passo no registro do recurso é a classificação. Nessa etapa, serã
 
 A lista de **Recursos já registrados (1)** exibe todos os recursos já registrados para o processo. Cada item corresponde a uma capa processual a mais já gerada para o processo originário.
 
+{{% notice warning %}}
+Para que a cadeia recursal se forme sobre um recurso já registrado, este precisa ser selecionado. Caso contrário, a cadeia recursal conterá apenas a classe do recurso novo e do processo originário.
+{{% /notice %}}
+
 A lista de **Recursos não registrados (2)** exibe todos os documentos vinculados a classes recursais classificadas como recurso interno e que não estão ainda vinculados a uma capa processual recursal.
 
 Caso a classificação da peça recursal tenha sido feita errada, o documento estará na lista **Outros documentos do processo (3)** e a reclassificação acontece nessa mesma tela, por meio do ícone de lápis (4) disponível na coluna **Ações**, do documento correspondente:
