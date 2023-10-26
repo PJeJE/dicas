@@ -11,7 +11,7 @@ weight: 10
 1. A alteração de classe originária faz com que os outros cadernos tenham a cadeia alterada para refletir a nova classe.
 1. **{{<marcar texto="NÃO É POSSÍVEL ALTERAR A CLASSE DOS RECURSOS">}}**. Caso o recurso tenha sido registrado errado, o usuário deve remover o registro ou arquivá-lo. Caso o julgamento do recurso o receba numa outra categoria, pode-se optar por registrar um novo recurso, mas o registro no acórdão e na certidão de julgamento são os que estarão disponíveis para o usuário externo. O registro dos cadernos não são disponibilizados para o usuário externo.
 1. A redistribuição não reflete em todos os cadernos.
-1. A distribuição/redistribuição de recursos não gera novos pesos para o cargo que recebe o caderno (essa atividade deve ser feita pela tarefa Alterar Órgão Julgador).
+1. A distribuição/redistribuição de recursos não gera novos pesos para o cargo que recebe o caderno (essa atividade deve ser feita pela tarefa **Alterar Órgão Julgador**).
 1. A inclusão de partes no processo originário e nos cadernos recursais não reflete em alterações fora do caderno alterado, já que as partes podem trocar de polo dependendo do caderno. No entanto, a inclusão de advogados deve sempre refletir em todos os cadernos de forma a manter as representações de acordo com a última atualização. Isso quer dizer que os advogados inseridos no recurso ou no principal vão sempre refletir em todas as capas, do mesmo modo os que forem removidos de um ou de outro.
 
 {{% notice note %}}
