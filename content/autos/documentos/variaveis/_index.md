@@ -64,7 +64,7 @@ weight: 6
 | Recupera data da última sessão de julgamento onde o processo foi "Julgado" | #{sessaoProcessoDocumentoManager.getDataUltimaSessaoJulgamento(null)} |  |
 | Relator (processos de sgundo grau/TSE) | #{processoTrfHome.nomeRelator} |  |
 | Revisor | #{pessoaMagistradoManager.getMagistradoTitular(orgaoJulgadorColegiadoOrgaoJulgadorManager<br>.recuperarOrgaoJulgadorRevisorPadrao(tramitacaoProcessualService.recuperaProcesso()).orgaoJulgadorRevisor.orgaoJulgador).getNome().toUpperCase()} |  |
-| Sala de Audiência | #{processoTrfHome.nomeRelator} |  |
+| Sala de Audiência | #{processoTrfHome.salaAudiencia} |  |
 | Tipo de Audiência | #{processoTrfHome.tipoAudiencia} |  |
 | Tipo Nome Réu Processo | #{processoTrfHome.instance.tipoNomeReuProcesso} |  |
 | UF Órgão Julgador | #{processoTrfHome.instance.orgaoJulgador.localizacao.endereco.cep.municipio.estado.codEstado} |  |
