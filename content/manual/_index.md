@@ -13,7 +13,7 @@ pre = "<b>18. </b>"
 + [Configuração do Token PJe](/docs/PJE_token_virtual_smartphone_v100.pdf)
 + [Criação de Certificado Virtual (Arquivo P12)](/docs/PJE_certificado_token_virtual_v100.pdf)
 + [Funcionalidades de Audiências](/docs/manual_audiencias.pdf)
-+ [Extensão PJe + R](static/docs/manual_pje_r.pdf)
++ [Extensão PJe + R](/docs/manual_pje_r.pdf)
 + [Remessa ao STF](/docs/manual_remessa_ao_stf.pdf)
 + [Competência por Município](/docs/manual_competencia_por_municipio.pdf)
 + [Ajuste de Movimentação](/docs/manual_ajustar_movimentacao.pdf)
