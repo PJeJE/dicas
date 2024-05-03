@@ -24,7 +24,7 @@ Ao concluir um caderno processual ao gabinete (agravo, por exemplo), não é nec
 
 ## Cadernos processuais e autos suplementares.
 
-A implantação dos cadernos processuais, apesar de resolver vários outros problemas (como indicado linhas acima, de forma exemplificativa), não resolve a questão dos autos suplementares. Finalizada a tramitação do caderno processual recomenda-se arquivá-lo. Recomenda-se arquivar todos os cadernos processuais antes da remessa. Não será possível trabalhar no caderno (dentro do TRE) enquanto o principal está no TSE.  O que vem para o TSE é o principal (conforme consta acima). A solução para os autos suplementares é outra e está em fase de testes e regulamentação própria.
+A implantação dos cadernos processuais, apesar de resolver vários outros problemas (como indicado linhas acima, de forma exemplificativa), não resolve a questão dos autos suplementares. Finalizada a tramitação do caderno processual recomenda-se arquivá-lo. Recomenda-se arquivar todos os cadernos processuais antes da remessa. Não será possível trabalhar no caderno (dentro do TRE) enquanto o principal está no TSE.  O que vem para o TSE é o principal (conforme consta acima). A solução para os autos suplementares é o desmembramento.
 
 ## Configurações realizadas pelas ASPJE.
 
