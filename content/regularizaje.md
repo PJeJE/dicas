@@ -47,6 +47,24 @@ Ao entrar nesse fluxo, caso não tenha havido no processo movimento de decisão 
 
 No caso de processos do programa Regulariza JE, o processo iniciará na tarefa [Verificar processo Regulariza JE](regularizaje.md#verificar-processo-regulariza-je)
 
+### Verificar processo Regulariza JE
+
+Responsabilidade: [Secretaria Judiciária](regularizaje.md#secretaria-judiciaria)
+
+Características:
+
+- Possibilitar construir documento
+- Movimentar em lote
+- Publica em lote
+- Minutar em lote
+- Possibilitar retificar autuação
+- Possibilitar definir objeto (Causa de pedir)
+
+Saídas:
+
+[Processo com prazo Regulariza JE](regularizaje.md#processo-com-prazo-regulariza-je)
+[Verificar e Certificar dados do processo](regularizaje.md#verificar-e-certificar-dados-do-processo)
+
 ### Verificar e Certificar dados do processo
 
 Responsabilidade: [Unidade de autuação e distribuição](regularizaje.md#unidade-de-autuacao-e-distribuicao)
@@ -55,6 +73,3 @@ Um processo de uma classe não corregedoria entra no PJe por meio do [Fluxo Orig
 
 O processo da classe Petição Cível do programa Regulariza JE deve ser encaminhado para a tarefa [Verificar processo Regulariza JE](regularizaje.md#verificar-processo-regulariza-je)
 
-### Verificar processo Regulariza JE
-
-Responsabilidade: [Secretaria Judiciária](regularizaje.md#secretaria-judiciaria)
