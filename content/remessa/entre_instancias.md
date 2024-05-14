@@ -20,6 +20,5 @@ Após a confirmação, o sistema movimentará o processo para a tarefa **Aguarda
 
 {{% notice info %}}
 Todas as remessas (exceto a remessa entre jurisdições, utilizada entre zonas do mesmo Estado) utilizam o MNI. Essa remessa **não permite a escolha de um órgão julgador específico,** essa definição se dará pela distribuição inicial do processo, de acordo com as competências previamente configuradas.
-
 Caso o processo já exista na instância, **a remessa só realiza a atualização dos documentos e o desbloqueio do processo, mas não consegue fazer com que o processo que já existe seja redistribuído para outra zona.**
 {{% /notice %}}
