@@ -1,7 +1,7 @@
 ---
 title: "Devolução para a origem"
 date: 2022-11-29T16:29:32-03:00
-weight: 4
+weight: 5
 ---
 
 **Devolver processo à origem** é uma tarefa exclusiva do 2º e 3º graus e deve ser utilizada para devolver um processo para alguma instância em que ele já esteve anteriormente, ou seja, o processo deve existir na instância de destino (já deve ter ocorrido uma remessa entre instâncias no sistema).

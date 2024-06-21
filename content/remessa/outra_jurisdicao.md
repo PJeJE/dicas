@@ -1,7 +1,7 @@
 ---
 title: "Remessa para outra jurisdição"
 date: 2022-11-29T16:29:16-03:00
-weight: 3
+weight: 4
 ---
 
 Tarefa disponível apenas no PJe Zona, a **Remessa para outra jurisdição** permite que se remeta o processo para outro órgão jurisdicional.
