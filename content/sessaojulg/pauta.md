@@ -49,3 +49,5 @@ A partir da versão 2.1.8.0, o processo que tiver sido adiado ou retirado de pau
 Se o processo não estiver mais no gabiente, volte o processo para a tarefa de **Aguarda sessão de julgamento** (faça as tramitações necessárias para enviar o processo para o gabinete e coloque nessa tarefa por meio do elaborar decisão colegiada). Nessa tarefa, clique na opção **Retirar processo apto para julgamento** e o processo some do painel do assessor de plenário.
 
 Depois, basta retornar o processo para a tarefa em que estava e seguir com a tramitação do feito.
+
+Outra opção para retirada da aptidão de julgamento é a utilização da transição ** Retirar da aba Adiados do Assessor de Plenário,** disponível a partir das tarefas de análise, na unidade de processamento. 
