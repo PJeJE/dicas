@@ -34,12 +34,14 @@ weight: 6
 | Endereço Partes Polo Passivo | #{processoTrfHome.processoParteEnderecoPoloPassivoStr} |  |
 | Escreve título Juiz ou Juíza de acordo com a informação sexo do cadastro do magistrado relator | #{processoTrfHome.getRelator(processoTrfHome.instance) != null and processoTrfHome.getRelator(processoTrfHome.instance).sexo == 'F'? 'Juíza': 'Juiz'} |  |
 | Escreve título Procurador ou Procuradora de acordo com a informação sexo do cadastro do procurador na sessão | #{sessaoHome.instance.getPessoaProcurador() != null and sessaoHome.instance.getPessoaProcurador().sexo == 'F'? 'Procurador': 'Procurador'} |  |
+| Estado da autuação do Processo | #{processoTrfHome.instance.complementoJE.estadoEleicao.estado} |  |
 | Hora Atual | #{currentTime} |  |
 | Juiz Órgão Julgador - retorna o nome do último usuáriod da localização do processo que tenha o papel magistrado (se houver mais de um magistrado no OJ, vai mostrar o último, não necessariamente o atual, não necessariamente o relator do processo | #{processoTrfHome.instance.nomeJuizOrgaoJulgador} |  |
 | Lista Nome Autor | #{processoTrfHome.nomeCpfAutorList} |  |
 | Lista Tipo Nome Advogado Autor | #{processoTrfHome.instance.tipoNomeAdvogadoAutorList} |  |
 | Lista Tipo Nome Advogado Réu | #{processoTrfHome.instance.tipoNomeAdvogadoReuList} |  |
 | Login Usuário Logado | #{usuarioLogado.login} |  |
+| Município da autuação do Processo | #{processoTrfHome.instance.complementoJE.municipioEleicao.municipio} |  |
 | Nome Autor Ativo Processo | #{processoTrfHome.instance.nomeAutorAtivoProcesso} |  |
 | Nome Autor Processo | #{processoTrfHome.instance.tipoNomeAutorProcesso} |  |
 | Nome do Usuário Logado | #{usuarioLogado.nome} |  |
