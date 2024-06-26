@@ -50,4 +50,4 @@ Se o processo não estiver mais no gabiente, volte o processo para a tarefa de *
 
 Depois, basta retornar o processo para a tarefa em que estava e seguir com a tramitação do feito.
 
-Outra opção para retirada da aptidão de julgamento é a utilização da transição ** Retirar da aba Adiados do Assessor de Plenário,** disponível a partir das tarefas de análise, na unidade de processamento. 
+Outra opção para retirada da aptidão de julgamento é a utilização da transição **Retirar da aba Adiados do Assessor de Plenário,** disponível a partir das tarefas de análise, na unidade de processamento. 
