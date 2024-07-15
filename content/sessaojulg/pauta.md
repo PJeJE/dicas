@@ -34,6 +34,7 @@ Essas configurações de movimento dizem respeito ao registro final no processo 
 + poloPassivo, contendo a lista de partes do polo passivo com seus respectivos tipos e a lista de advogados que representam partes do polo passivo com seus respectivos números de OAB;
 + localSessao;
 + dataSessao;
++ periodoSessao, onde o sistema trará a data da sessão no formato "DATA DA SESSÃO: [data]", para o caso de sessões não contínuas (presenciais) ou o período da sessão no formato"PERÍODO DA SESSÃO: [data] a [data]", para o caso de sessões contínuas;
 + horaSessao;
 + tipoSessao;
 + Estado; 
