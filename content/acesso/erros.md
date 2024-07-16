@@ -12,7 +12,7 @@ IMPORTANTE: na situação narrada o sistema não apresenta nenhum aviso de erro,
 
 A solução é solicitar uma senha na tela inicial do PJe aguardar a chegada do e-mail contendo o link para definição desta. Uma vez gerada a senha e feito o login com ela, basta acessar novamente com certificado digital e o problema estará resolvido.
 
-Aparentemente o erro decorre de falta de sincronia na PDPJ (Plataforma do Poder Judiciário do CNJ) e a geração de uma senha faz os ajustes necessários. O CNJ utiliza uma tecnologia de login único (SSO), que combina as telas de login de vários aplicativos diferentes em uma única tela.
+Aparentemente o erro decorre de falta de sincronia na PDPJ (Plataforma do Poder Judiciário do CNJ) e a geração de uma senha faz os ajustes necessários, pois o CNJ utiliza uma tecnologia de login único (SSO), que combina as telas de login de vários aplicativos diferentes em uma única tela.
 
 {{% notice warning %}}
 Sugerimos que a senha cadastrada seja a mesma eventualmente utilizada em outros sitemas do CNJ vinculados à PDPJ, para evitar conflitos, pois o login é único, por meio do RHSSO, para todos os sistemas vinculados à Plataforma.
