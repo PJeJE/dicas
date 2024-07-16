@@ -6,7 +6,9 @@ menuTitle: "Erros de acesso"
 ---
 ## Ao logar com token físico (certificado digital) o PJe apenas "pisca" e volta para a tela inicial
 
-Temos recebido reclamações, principalemtne de advogados, no sentido de que - sem qualquer aviso de erro, após clicar em entrar com certificado digital e digitar a senha, a tela do PJe é atualizada mas não acontece nada, conforme vídeo abaixo.
+Ao tentar logar, após clicar em entrar com certificado digital e digitar a senha, a tela do PJe é atualizada mas não acontece nada, conforme vídeo abaixo. 
+
+IMPORTANTE: na situação narrada o sistema não apresenta nenhum aviso de erro, apenas atualiza a página sem a realização do login.
 
 A solução é solicitar uma senha na tela inicial do PJe aguardar a chegada do e-mail contendo o link para definicação da mesma. Uma vez gerada a senha e feito o login com ela, basta acessar novamente com certificado digital e o problema estará resolvido.
 
