@@ -10,7 +10,9 @@ Ao tentar logar, após clicar em entrar com certificado digital e digitar a senh
 
 IMPORTANTE: na situação narrada o sistema não apresenta nenhum aviso de erro, apenas atualiza a página sem a realização do login.
 
-A solução é solicitar uma senha na tela inicial do PJe aguardar a chegada do e-mail contendo o link para definição desta. Uma vez gerada a senha e feito o login com ela, basta acessar novamente com certificado digital e o problema estará resolvido.
+Inicie verificando no PJe Office se o endereço do PJe que você está tentando acessar está autorizado (clique com o botão direito do mouse sobre o ícone do PJe Office e vá em Segurança/Sites Autorizados), especialmente se estiver com a versões anteriores à PRO.
+
+Caso não seja problema de permissão, a solução é solicitar uma senha na tela inicial do PJe aguardar a chegada do e-mail contendo o link para definição desta. Uma vez gerada a senha e feito o login com ela, basta acessar novamente com certificado digital e o problema estará resolvido.
 
 Aparentemente o erro decorre de falta de sincronia na PDPJ (Plataforma do Poder Judiciário do CNJ) e a geração de uma senha faz os ajustes necessários, pois o CNJ utiliza uma tecnologia de login único (SSO), que combina as telas de login de vários aplicativos diferentes em uma única tela.
 
