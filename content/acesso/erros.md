@@ -4,7 +4,7 @@ date: 2023-07-16T12:21:54-03:00
 weight: 7
 menuTitle: "Erros de acesso"
 ---
-## Ao logar com token físico (certificado digital) o PJe apenas "pisca" e volta para a tela inicial
+## 1. Ao logar com token físico (certificado digital) o PJe apenas "pisca" e volta para a tela inicial
 
 Ao tentar logar, após clicar em entrar com certificado digital e digitar a senha, a tela do PJe é atualizada mas não acontece nada, conforme vídeo abaixo. 
 
