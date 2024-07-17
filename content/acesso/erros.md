@@ -8,7 +8,7 @@ menuTitle: "Erros de acesso"
 
 Ao tentar logar, após clicar em entrar com certificado digital e digitar a senha, a tela do PJe é atualizada mas não acontece nada, conforme vídeo abaixo. 
 
-{{< video "/videos/1607_saida.mp4" "my-play1" >}}
+{{< video "/videos/video_erro_tela_piscando.mp4" "my-play1" >}}
 
 IMPORTANTE: na situação narrada o sistema não apresenta nenhum aviso de erro, apenas atualiza a página sem a realização do login.
 
