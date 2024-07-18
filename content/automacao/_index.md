@@ -10,3 +10,4 @@ pre = "<b>19. </b>"
 
 # Iniciativas de Automação
 
+{{% children  %}}
