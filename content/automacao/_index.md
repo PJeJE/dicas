@@ -12,6 +12,6 @@ pre = "<b>19. </b>"
 
 Com o objetivo de divulgar de forma centralizada as iniciativas de automação do PJe Eleitoral, a ASPJe criou esta área do Dicas
 
-Caso seu TRE tenha alguma melhoria que possa ser divulgada e compartilhada, responda este formulário para podermos disponibilizar as informações no Dicas.
+Caso seu TRE tenha alguma melhoria que possa ser divulgada e compartilhada, responda (este formulário)[https://docs.google.com/forms/d/e/1FAIpQLSeGMJdTgRua73sDky-pFh0P79SYIVHrgsk8c2-9Hl1XaxVA3Q/viewform] para podermos disponibilizar as informações no Dicas.
 
 {{% children  %}}
