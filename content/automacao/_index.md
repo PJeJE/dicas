@@ -10,8 +10,8 @@ pre = "<b>19. </b>"
 
 # Iniciativas de Automação
 
-{{% children  %}}
-
 Com o objetivo de divulgar de forma centralizada as iniciativas de automação do PJe Eleitoral, a ASPJe criou esta área do Dicas
 
 Caso seu TRE tenha alguma melhoria que possa ser divulgada e compartilhada, responda este formulário para podermos disponibilizar as informações no Dicas.
+
+{{% children  %}}
