@@ -61,7 +61,6 @@ weight: 6
 | Período (sessões contínuas) ou data (sessão presencial) da sessão - para uso no documento de intimação de Pauta | #{periodoSessao} |  |
 | Presidente da sessão | #{sessaoComposicaoOrdemManager.obterPresidenteSessao(sessaoPautaProcessoTrfManager<br>.getSessaoPautaProcessoTrfJulgado(tramitacaoProcessualService.recuperaProcesso()).sessao, true)} |  |
 | Processos associados | #{processoTrfHome.instance.getProcessoTrfConexaoListStr()} |  |
-| Processos associados - teste | #{processoTrfHome.instance.getProcessoTrfConexaoListStr()} |  |
 | Procurador da sessão | #{pessoaProcuradorManager.getTituloProcurador(sessaoPautaProcessoTrfManager<br>.getSessaoPsautaProcessoTrfJulgado(tramitacaoProcessualService.recuperaProcesso()).sessao)} |  |
 | Recupera a última composição do processo na sessão. False = não traz o presidente. True = traz o presidente | #{sessaoComposicaoOrdemManager.obterComposicaoSessao(sessaoHome.instance, false)} |  |
 | Recupera conteúdo do documento ementa vinculada à última sessão onde o processo foi "Julgado" e a sessão teve movimento registrado ou o processo teve o julgamento individual finalizado | #{sessaoProcessoDocumentoManager.getEmenta()} |  |
