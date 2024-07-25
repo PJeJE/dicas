@@ -25,11 +25,11 @@ Ao selecionar essa opção, o processo é movimentado para a tarefa **Selecionar
 Uma vez liberado o processo para voto escrito, a opção **Remeter para assinatura** é desabilitada até que todos os gabinetes realizem a devolução.
 {{% /notice %}}
 
-{{< video "/videos/votoparalelo_video1_enviado_para_vogais.mp4" "my-play1" >}}
+{{< video src="/videos/votoparalelo_video1_enviado_para_vogais.mp4">}}
 
 Enquanto existir pendência de algum gabinete para voto escrito, é possível visualizar o processo e quais gabinetes se está aguardando na tarefa **Aguardando votos escritos**.
 
-{{< video "/videos/votoparalelo_video2_processo_em_aguardando_votos_escritos.mp4" "my-play2" >}}
+{{< video src="/videos/votoparalelo_video2_processo_em_aguardando_votos_escritos.mp4">}}
 
 ## Visã do Gabinete
 
@@ -37,14 +37,14 @@ Assim que liberado, pela COARE, para voto escrito, o processo aparece no gabinet
 na tarefa **Elaborar Voto Escrito Paralelo**. Onde é possível elaborar o voto e realizar a devolução
 para a COARE por meio da opção **Devolver à SJD**.
 
-{{< video "/videos/votoparalelo_video3_visao_do_gabinete_voto_e_devolucao_sjd.mp4" "my-play3" >}}
+{{< video src="/videos/votoparalelo_video3_visao_do_gabinete_voto_e_devolucao_sjd.mp4">}}
 
 ## Atualização em Tempo Real
 
 Na medida em que os gabinetes realizam as devoluções à SJD, a tarefa **Aguardando votos escritos**
 é atualizada, tornando possível à COARE o acompanhamento em tempo real dos gabinetes pendentes.
 
-{{< video "/videos/votoparalelo_video4_visao_do_gabinete_outro_voto_e_visao_aguardando_coare.mp4" "my-play4" >}}
+{{< video src="/videos/votoparalelo_video4_visao_do_gabinete_outro_voto_e_visao_aguardando_coare.mp4">}}
 
 ## Votos Escritos Devolvidos
 
@@ -52,4 +52,4 @@ No momento em que o último gabinete pendente realizar a devolução à SJD, o p
 "Aguardando votos escritos" para **Votos escritos devolvidos**. Sinalizando portanto que não existe mais pendência
 de voto escrito pelos gabinetes e que a COARE pode prosseguir com a elaboração do acórdão e remessa para assinatura.
 
-{{< video "/videos/votoparalelo_video5_visao_ultima_devolucao_tarefa_votos_escritos_devolvidos.mp4" "my-play5" >}}
+{{< video src="/videos/votoparalelo_video5_visao_ultima_devolucao_tarefa_votos_escritos_devolvidos.mp4">}}

@@ -1,8 +1,8 @@
+{{- $src := .Get "src" -}}
+
 <div class="video-container-dicas">  
     <video controls height="{{ .Get "height" | default "360" }}" width="{{ .Get "width" | default "640" }}">
-        <source src="{{ .Get "caminho" }}" type="video/mp4">
+        <source src="{{ $src }}" type="video/mp4">
         Seu navegador não suporta a tag de vídeo.
     </video>
 </div>
-
-  

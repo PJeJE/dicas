@@ -51,4 +51,5 @@ Utilizando a opção de conferência antes da assinatura como método de trabalh
 {{% notice note %}}
 Caso prefira, acompanhe a execução do procedimento de elaboração de documento em lote assistindo o vídeo a seguir.
 {{% /notice %}}
-{{< video caminho="/videos/elaborar_documentos_lote.mp4" >}} 
+
+{{< video src="/videos/elaborar_documentos_lote.mp4">}}
