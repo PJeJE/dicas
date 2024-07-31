@@ -1,8 +1,8 @@
 ---
-title: "Atribuição automática de visibilidade em documentos sigilosos em RCAND"
+title: "Visibilidade em documentos sigilosos em processos RCAND"
 date: 2022-11-29T16:31:34-03:00
 menuTitle: "Documentos sigilosos em RCAND"
-weight: 4
+weight: 2
 ---
 
 É possível atribuir visibilidade automática ao Ministério Público durante a juntada de documentos sigilosos de tipos específicos no PJe, em processos de Registro de Candidatura, por meio da configuração dos seguintes parâmetros:
