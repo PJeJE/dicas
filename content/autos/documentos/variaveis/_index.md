@@ -36,7 +36,7 @@ weight: 6
 | Escreve título Procurador ou Procuradora de acordo com a informação sexo do cadastro do procurador na sessão | #{sessaoHome.instance.getPessoaProcurador() != null and sessaoHome.instance.getPessoaProcurador().sexo == 'F'? 'Procurador': 'Procurador'} |  |
 | Estado da autuação do Processo | #{processoTrfHome.instance.complementoJE.estadoEleicao.estado} |  |
 | Hora Atual | #{currentTime} |  |
-| Juiz Órgão Julgador - retorna o nome do último usuáriod da localização do processo que tenha o papel magistrado (se houver mais de um magistrado no OJ, vai mostrar o último, não necessariamente o atual, não necessariamente o relator do processo | #{processoTrfHome.instance.nomeJuizOrgaoJulgador} |  |
+| Juiz Órgão Julgador - retorna o nome do último usuário da localização do processo que tenha o papel magistrado (se houver mais de um magistrado no OJ, vai mostrar o último, não necessariamente o atual, não necessariamente o relator do processo | #{processoTrfHome.instance.nomeJuizOrgaoJulgador} |  |
 | Lista Nome Autor | #{processoTrfHome.nomeCpfAutorList} |  |
 | Lista Tipo Nome Advogado Autor | #{processoTrfHome.instance.tipoNomeAdvogadoAutorList} |  |
 | Lista Tipo Nome Advogado Réu | #{processoTrfHome.instance.tipoNomeAdvogadoReuList} |  |
