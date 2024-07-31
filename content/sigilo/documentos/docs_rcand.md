@@ -17,7 +17,7 @@ weight: 2
   - O valor desse parâmetro corresponde ao id de um tipo de parte válido no PJe.
 
 {{% notice warning %}}
-Essa funcionalidade é aplicável apenas a processos da classe REGISTRO DE CANDIDATURA (11532).
+Essa funcionalidade é aplicável apenas a processos da classe REGISTRO DE CANDIDATURA (11532) e somente para novas juntadas após a ativação.
 {{% /notice %}}
 
 {{% notice info %}}
