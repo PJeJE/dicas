@@ -8,7 +8,7 @@ weight: 2
 É possível atribuir visibilidade automática ao Ministério Público durante a juntada de documentos sigilosos de tipos específicos no PJe, em processos de Registro de Candidatura, por meio da configuração dos seguintes parâmetros:
 
 - **Parâmetro `pje:FiscalDaLei`**:
-  - O valor desse parâmetro corresponde ao ID de ente ou autoridade pública (ou fiscal da lei) ativo no PJe.
+  - O valor desse parâmetro corresponde ao ID do fiscal da lei (que pode ser consultado no cadastro de entes ou autoridades) ativo no PJe.
 
 - **Parâmetro `pje:tipodocumento:acrescentavisualizadores`**:
   - O valor desse parâmetro corresponde à lista IDs dos tipos de documento, separados por vírgula, que serão monitorados (ex: Identidade, Documento de Identificação, RRC).
