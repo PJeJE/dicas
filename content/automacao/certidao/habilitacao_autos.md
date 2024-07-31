@@ -1,6 +1,7 @@
 ---
 title: "Certidão de habilitação nos autos"
 date: 2024-07-18T16:34:02-03:00
+menuTitle: "Habilitação nos autos"
 weight: 2
 ---
 
