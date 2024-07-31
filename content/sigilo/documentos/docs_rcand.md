@@ -24,7 +24,7 @@ Essa funcionalidade é aplicável apenas a processos da classe REGISTRO DE CANDI
 Os tipos de documentos devem estar configurados como sigilosos.
 {{% /notice %}}
 
-A __configuração inicial__ desses parâmetros foi realizada conforme descrito a seguir:
+A __configuração inicial__ desses parâmetros foi realizada conforme descrita a seguir:
 
 - **Parâmetro `pje:FiscalDaLei`**:
   - Contém o ID da pessoa 'Fiscal da Lei'.
