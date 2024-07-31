@@ -1,7 +1,7 @@
 ---
 title: "Certidão de relatoria provisória"
 date: 2024-07-18T16:34:02-03:00
-menuTitle: "Relatoria Provisória"
+menuTitle: "Relatoria provisória"
 weight: 1
 ---
 
