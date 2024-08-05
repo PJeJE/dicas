@@ -4,7 +4,7 @@ date: 2024-07-18T16:34:02-03:00
 weight: 4
 ---
 
-O Judi-bot é uma ferramenta da automação por meio de robos criada pelo TRERJ. Ele possibilita a confecção e assinatura de certidões no PJe de 2º grau.
+A Judi-bot é uma ferramenta desenvolvida pelo TRE-RJ com a finalidade de automatizar, por meio de robô, tarefas executadas no sistema PJe. As etapas dessa automação incluem a confecção de certidões e ainda a movimentação dos feitos entre tarefas do PJe, bem como a aplicação de filtro que distingue processos já certificados daqueles não certificados, havendo a possibilidade de se selecionar, por meio de etiqueta específica, processos para os quais não deve ser elaborada certidão.
 
 Unidade responsável pela área negocial: gabsjd@tre-rj.jus.br.
 Unidade responsável pela área técnica: sti@tre-rj.jus.br.
