@@ -57,12 +57,12 @@ Rotinas Robôs do Janus
 
 O Janus está em utilização desde sua instituição em 2021 no TRE-BA. 
 
-Protocolo para compartilhamento da ferramenta
+**Protocolo para compartilhamento da ferramenta**
 
 Termo de Cessão entre o TRE-BA e os Regionais interessados. 
 Já houve cessão do Janus para 25 Regionais. 
 
-Unidade(s) responsável(eis) para esclarecimentos técnicos e negociais
+**Unidade(s) responsável(eis) para esclarecimentos técnicos e negociais**
 
 Comissão Gestora do Janus - e-mail: janus@tre-ba.jus.br 
 André Luiz Cavalcanti e Cavalcante -  Presidente da Comissão, Gestor da Área Técnica, Secretário de Tecnologia da Informação e Comunicação do TRE-BA.
