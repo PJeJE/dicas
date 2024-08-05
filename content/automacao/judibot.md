@@ -1,8 +1,10 @@
 ---
 title: "Judi-bot"
 date: 2024-07-18T16:34:02-03:00
-weight: 4
+menuTitle: "Judi-bot"
+weight: 2
 ---
+
 
 A Judi-bot é uma ferramenta desenvolvida pelo TRE-RJ com a finalidade de automatizar, por meio de robô, tarefas executadas no sistema PJe. As etapas dessa automação incluem a confecção de certidões e ainda a movimentação dos feitos entre tarefas do PJe, bem como a aplicação de filtro que distingue processos já certificados daqueles não certificados, havendo a possibilidade de se selecionar, por meio de etiqueta específica, processos para os quais não deve ser elaborada certidão.
 
