@@ -1,10 +1,9 @@
 ---
-title: "Janus"
+title: "Janus - Automação Processual e Inteligência Artificial"
 date: 2024-07-18T16:34:02-03:00
-weight: 3
+menuTitle: "Janus"
+weight: 2
 ---
-
-Janus - Automação Processual e Inteligência Artificial
 
 Rotinas Robôs do Janus
 
