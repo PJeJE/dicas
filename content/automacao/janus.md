@@ -5,7 +5,7 @@ menuTitle: "Janus"
 weight: 2
 ---
 
-Rotinas Robôs do Janus
+**Rotinas Robôs do Janus**
 
 1. Inicial-Edital (PC-PP, 1º Grau)
    - Objetivo: Delimitar objeto, inserir edital, preparar comunicação (publicar DJE e intimar MP).
