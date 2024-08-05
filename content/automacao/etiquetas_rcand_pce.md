@@ -1,4 +1,10 @@
-Automação de etiquetas para RCAND e PCE
+---
+title: "Automação de etiquetas para RCAND e PCE"
+date: 2024-08-05T14:16:02-03:00
+menuTitle: "Automação de etiquetas para RCAND e PCE"
+weight: 2
+---
+
 
 Em conjunto com o TRE-SP, foram desenvolvidos ajustes no fluxo do PJe de primeiro grau para, de acordo com a tramitação e com a presença ou ausência de alguns documentos no processo, permitir que o sistema vincule etiquetas automaticamente de forma a sinalizar ao servidor a situação de processos RCAND e PCE quanto à necessidade documentos obrigatórios para o prosseguimento da tramitação do processo.
 
