@@ -6,7 +6,7 @@ weight: 5
 menuTitle: "Impedimentos e suspeições"
 ---
 
-O registro de impedimento é feito pela aba **Impedimento/Suspeição** localizada no menu de três barras horizontais no canto superior direito dos autos digitais, onde estão todos os magistrados vinculados ao órgão julgador ativo na ZE/TRE/TSE.
+O registro de impedimento para um processo específico é feito pela aba **Impedimento/Suspeição** localizada no menu de três barras horizontais no canto superior direito dos autos digitais, onde estão todos os magistrados vinculados ao órgão julgador ativo na ZE/TRE/TSE.
 
 Para registrar o impedimento deve-se selecionar o magistrado e vincular um documento assinado do processo. Nesse momento, o sistema pede confirmação do registro do impedimento e do documento selecionado.
 
