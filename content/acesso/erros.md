@@ -21,3 +21,19 @@ Aparentemente o erro decorre de falta de sincronia na [Plataforma do Poder Judic
 {{% notice warning %}}
 Sugerimos que a senha cadastrada seja a mesma eventualmente utilizada em outros sitemas do CNJ vinculados à PDPJ, para evitar conflitos, pois o login é único, por meio do RHSSO, para todos os sistemas vinculados à Plataforma.
 {{% /notice %}}
+
+## 1. Erro de usuário não encontrado no momento de gerar a senha de acesso
+
+Ao abrir o link para cadastramento de senha, deve aparecer uma tela como a da imagem abaixo, indicando o **nome** e o **CPF** corretos do usuário:
+
+IMG_SENHA_1
+
+Quando o usuário solicita mais de uma vez, se o e-mail demora muito para chegar, ou se o usuário ultrapassa o limite de validade do link, a tela apresentada será diferente:
+
+IMG_SENHA_2
+
+Isso acontece porque os links enviados por e-mail tem um prazo de validade, eles precisam ser utilizados antes da expiração. Além disso, sempre que um novo link é gerado (seja por solicitação do usuário ou por um administrador do sistema), o antigo perde a validade. Caso o usuário já tenha feito uma nova solicitação de recuperação de senha e utilize um link enviado anteriormente, haverá erro.
+
+Caso tenha dificuldades ao executar o procedimento, todos os e-mails com links para geração de senha devem ser apagados antes de fazer nova tentativa. Ao efetivar o cadastro da nova senha, o sistema apresenta a seguinte tela:
+
+IMG_SENHA_3
