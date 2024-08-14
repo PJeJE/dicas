@@ -62,3 +62,6 @@ Para registrar um pedido de vista, vc deverá colocar o processo em julgamento e
 Após o encerramento, a tarefa de elaborar voto vista estará disponível para o gabinete vogal selecionado para a vista
 
 Lá vc verá a opção de construir o voto e liberá-lo ou não para os demais órgãos julgadores
+
+Caso o gabinete encerre o fluxo de vista por engano, um novo fluxo de vista pode ser iniciado por meio das tarefas Aguarda Sessão de Julgamento, Aguarda Julgamento - incluído em pauta virtual e	
+Aguarda Julgamento - incluído em pauta. Isso fará com que o sistema recupera a última sessão onde o processo não foi julgado e verifique se nessa sessão houve pedido de vista. Caso tenha ocorrido, o sistema encaminhará o fluxo de vista para o vistor. Caso contrário, abrirá o fluxo no gabinete do relator. 
