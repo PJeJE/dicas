@@ -28,7 +28,7 @@ Ao abrir o link para cadastramento de senha, deve aparecer uma tela como a da im
 
 IMG_SENHA_1
 
-Quando o usuário solicita mais de uma vez, se o e-mail demora muito para chegar, ou se o usuário ultrapassa o limite de validade do link, a tela apresentada será diferente:
+Quando o usuário solicita a nova senha mais de uma vez, se o e-mail demora muito para chegar, ou se o usuário ultrapassa o limite de validade do link, a tela apresentada será diferente:
 
 IMG_SENHA_2
 
