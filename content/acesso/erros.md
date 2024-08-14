@@ -22,7 +22,7 @@ Aparentemente o erro decorre de falta de sincronia na [Plataforma do Poder Judic
 Sugerimos que a senha cadastrada seja a mesma eventualmente utilizada em outros sitemas do CNJ vinculados à PDPJ, para evitar conflitos, pois o login é único, por meio do RHSSO, para todos os sistemas vinculados à Plataforma.
 {{% /notice %}}
 
-## 1. Erro de usuário não encontrado no momento de gerar a senha de acesso
+## 2. Erro de usuário não encontrado no momento de gerar a senha de acesso
 
 Ao abrir o link para cadastramento de senha, deve aparecer uma tela como a da imagem abaixo, indicando o **nome** e o **CPF** corretos do usuário:
 
