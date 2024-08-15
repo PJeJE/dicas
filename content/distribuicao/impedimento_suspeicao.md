@@ -22,6 +22,10 @@ Exemplo:
 
 Após salvar a regra, o sistema poderá recuperar a informação gravada após distribuído o processo, mediante configuração em tarefa de fluxo com a variável Processo_Fluxo_visualizarImpedimentoSuspeicao, que é um "frame". Quando a tarefa contiver essa variável em sua configuração, para processos cujo magistrado relator tenha o impedimento registrado, a lista de impedimentos aparecerá. Da mesma forma, a lista de impedimentos será exibida pelo acionamento do botão "Verificar impedimento/suspeição" na composição do processo na sessão e na relação de julgamento.
 
+Nos ambientes de produção dos TREs e TSE, a tarefa que exibe os impedimentos cadastrados é "Verificar e Certificar dados do processo". Caso o sistema encontre batimento entre o relator e as regras cadastradas, exibirá na tela uma imagem semelhante a que segue:
+
+![Exibição regras](/imagens/impedimento_2.jpg)
+
 ## Impedimento e suspeição em autos específicos
 
 Um magistrado pode se declarar impedido por motivo de foro íntimo, sem necessidade de declarar suas razões, nos termos do que autoriza o art. 145, §1º do NCPC:
