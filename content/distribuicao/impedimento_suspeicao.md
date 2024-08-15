@@ -28,7 +28,7 @@ Um magistrado pode se declarar impedido por motivo de foro íntimo, sem necessid
 
  "§ 1º Poderá o juiz declarar-se suspeito por motivo de foro íntimo, sem necessidade de declarar suas razões."
 
-Para auxiliar na realização do controle pela unidade de autuação e distribuição de forma a evitar redistribuição dos autos ao ministro impedido e também agilizar a atuação da Assessoria de Plenário na configuração da composição da sessão, especialmente quando o magistrado não é o relator do processo, existe a funcionalidade de registro de impedimento/suspeição em autos específicos, de forma a gerar os mesmos efeitos da anotação de impedimento por município, estado, nome de parte ou nome de advogado.
+Para auxiliar na realização do controle pela unidade de autuação e distribuição de forma a evitar redistribuição dos autos ao ministro impedido e também ajudar na atuação da Assessoria de Plenário na configuração da composição da sessão, existe a funcionalidade de registro de impedimento/suspeição em autos específicos, de forma a gerar os mesmos efeitos da anotação de impedimento por município, estado, nome de parte ou nome de advogado, mas com foco especial ao cenário de o magistrado impedido/suspeito não ser o relator do processo.
 
 O registro de impedimento para um processo específico é feito pela aba **Impedimento/Suspeição** localizada no menu de três barras horizontais no canto superior direito dos autos digitais, onde estão todos os magistrados vinculados ao órgão julgador ativo na ZE/TRE/TSE.
 
@@ -64,7 +64,7 @@ Para atualização da lista de impedidos para os autos é fundamental realizar u
 
 Na tarefa que exibe impedimento do relator (SJD), serão considerados também esses registros para apontá-los em conjunto com os outros existentes vinculados a regras específicas pelas características do processo, conforme o caso. 
 
-Nas telas de sessão, no local onde eram exibidos os impedimentos dos magistrados do colegiado da sessão vinculados a regras específicas pelas características do processo, também serão exibidos os impedimentos por processo (botão **Verificar impedimentos**).
+Nas telas de sessão, no local onde são exibidos os impedimentos dos magistrados do colegiado da sessão vinculados a regras específicas pelas características do processo, também serão exibidos os impedimentos por processo (botão **Verificar impedimento/suspeição**).
 
 {{% /tab %}}
 {{< /tabs >}}
