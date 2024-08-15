@@ -20,7 +20,7 @@ Exemplo:
 111111- A – DF
 111111- DF
 
-Após salvar a regra, o sistema poderá recuperar a informação gravada após distribuído o processo, mediante configuração em tarefa de fluxo com a variável Processo_Fluxo_visualizarImpedimentoSuspeicao, que é um "frame". Quando a tarefa contiver essa variável em sua configuração, para processos cujo magistrado relator tenha o impedimento registrado, a lista de impedimentos aparecerá. Da mesma forma, a lista de impedimentos será exibida pelo acionamento do botão "Verificar impedimento/suspeição" na composição do processo e na relação de julgamento.
+Após salvar a regra, o sistema poderá recuperar a informação gravada após distribuído o processo, mediante configuração em tarefa de fluxo com a variável Processo_Fluxo_visualizarImpedimentoSuspeicao, que é um "frame". Quando a tarefa contiver essa variável em sua configuração, para processos cujo magistrado relator tenha o impedimento registrado, a lista de impedimentos aparecerá. Da mesma forma, a lista de impedimentos será exibida pelo acionamento do botão "Verificar impedimento/suspeição" na composição do processo na sessão e na relação de julgamento.
 
 ## Impedimento e suspeição em autos específicos
 
