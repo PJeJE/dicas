@@ -7,15 +7,20 @@ menuTitle: "Impedimentos e suspeições"
 ---
 ## ## Impedimento e suspeição por município, estado, nome de parte ou nome de advogado
 
-Na configuração da pessoa magistrado haverá uma aba específica para um perfil de "administrador da autuação" registrar o impedimento/suspeição previamente comunicada pelo magistrado.
+Conforme §4º. art. 5º da Resolução 185 do CNJ, não é permitida exclusão automática de magistrado por impedimento/suspeição. Há, por outro lado, previsão de funcionalidade que faça indicação prévia de possível suspeição ou impedimento, que não influenciará na distribuição, cabendo ao magistrado analisar a existência, ou não, da suspeição ou do impedimento.
 
-Na aba Impedimento/suspeição, os servidores da unidade competente incluirão as regras que poderão ser relacionadas a parte, ao advogado, ao Estado, ao município ou ao ano de eleição. As opções município e ano da eleição só devem ser exibidas para a Justiça Eleitoral. As regras serão executadas seguindo a ordem da sua inclusão no sistema. Sendo pela parte, deve-se indicar o CPF da parte que provoca o impedimento/suspeição e o polo ao qual está vinculada (Se em ambos os polos, o identificador deve ser "Ambos"). Sendo pelo advogado, deve-se indicar o CPF ou número da OAB do advogado que provoca o impedimento/suspeição e o polo ao qual está vinculado. Sendo pelo Estado ou município, deve-se indicá-lo. Sendo pelo ano de eleição, deve-se indicar uma eleição previamente cadastrada. No campo motivo, o usuário deve descrever, em campo livre, o documento que determinou o impedimento/suspeição.
+O cadastro prévio do impedimento ou suspeição fará com que, em determinados pontos do sistema, o usuário veja os impedimentos e possa redistribuir o processo ou excluir magistrados da composição da sessão com base na informação cadastrada. Em tarefas, a informação aparecerá mediante configuração de variável de fluxo. Na relação de julgamento e na composição de julgamento do processo, ao abrir as respectivas telas, o sistema disponibiliza um botão "Verificar impedimento/suspeição", que pesquisa, pelos magistrados presentes, se já algum impedimento de acordo com as características do processo e aponta os resultados para o servidor.
+
+Para realizar o cadastro do impedimento/suspeição, na configuração do magistrado em Configuração - Pessoa - Magistrado, por meio da aba Impedimento/suspeição disponível para o perfil "administrador da autuação", o usuário poderá registrar o impedimento/suspeição previamente comunicada pelo magistrado.
+
+Na aba mencionada, os servidores da unidade competente incluirão as regras que poderão ser relacionadas a parte, ao advogado, ao Estado, ao município ou ao ano de eleição. As regras serão executadas seguindo a ordem da sua inclusão no sistema. Sendo pela parte, deve-se indicar o CPF da parte que provoca o impedimento/suspeição e o polo ao qual está vinculada (Se em ambos os polos, o identificador deve ser "Ambos"). Sendo pelo advogado, deve-se indicar o CPF ou número da OAB do advogado que provoca o impedimento/suspeição e o polo ao qual está vinculado. Sendo pelo Estado ou município, deve-se indicá-lo. Sendo pelo ano de eleição, deve-se indicar uma eleição previamente cadastrada. No campo motivo, o usuário deve descrever, em campo livre, o que determinou o impedimento/suspeição.
 
 Quando for cadastrada regra “pelo advogado”, caso o usuário informe o número da OAB, não é necessário informar a letra. O número da OAB do advogado é formado pelo número + letra + sigla da UF, ou seja, a informação da letra não é obrigatória.
-Exemplo: 111111- A – DF
+Exemplo: 
+111111- A – DF
 111111- DF
 
-Após salvar a regra, o sistema poderá recuperar a informação gravada após distribuído o processo, mediante configuração de frame em tarefa de fluxo com a variável Processo_Fluxo_visualizarImpedimentoSuspeicao, que é um frame. Quando a tarefa tiver configurada com essa variável, para processos cujo magistrado relator tenha o impedimento registrado, a lista de impedimentos aparecerá.
+Após salvar a regra, o sistema poderá recuperar a informação gravada após distribuído o processo, mediante configuração em tarefa de fluxo com a variável Processo_Fluxo_visualizarImpedimentoSuspeicao, que é um "frame". Quando a tarefa contiver essa variável em sua configuração, para processos cujo magistrado relator tenha o impedimento registrado, a lista de impedimentos aparecerá.
 
 ## Impedimento e suspeição em autos específicos
 
