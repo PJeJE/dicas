@@ -5,6 +5,18 @@ date: 2023-01-20T16:20:20-03:00
 weight: 5
 menuTitle: "Impedimentos e suspeições"
 ---
+## ## Impedimento e suspeição por município, estado, nome de parte ou nome de advogado
+
+Na configuração da pessoa magistrado haverá uma aba específica para um perfil de "administrador da autuação" registrar o impedimento/suspeição previamente comunicada pelo magistrado.
+
+Na aba Impedimento/suspeição, os servidores da unidade competente incluirão as regras que poderão ser relacionadas a parte, ao advogado, ao Estado, ao município ou ao ano de eleição. As opções município e ano da eleição só devem ser exibidas para a Justiça Eleitoral. As regras serão executadas seguindo a ordem da sua inclusão no sistema. Sendo pela parte, deve-se indicar o CPF da parte que provoca o impedimento/suspeição e o polo ao qual está vinculada (Se em ambos os polos, o identificador deve ser "Ambos"). Sendo pelo advogado, deve-se indicar o CPF ou número da OAB do advogado que provoca o impedimento/suspeição e o polo ao qual está vinculado. Sendo pelo Estado ou município, deve-se indicá-lo. Sendo pelo ano de eleição, deve-se indicar uma eleição previamente cadastrada. No campo motivo, o usuário deve descrever, em campo livre, o documento que determinou o impedimento/suspeição.
+
+Quando for cadastrada regra “pelo advogado”, caso o usuário informe o número da OAB, não é necessário informar a letra. O número da OAB do advogado é formado pelo número + letra + sigla da UF, ou seja, a informação da letra não é obrigatória.
+Exemplo: 111111- A – DF
+111111- DF
+
+Após salvar a regra, o sistema poderá recuperar a informação gravada após distribuído o processo, mediante configuração de frame em tarefa de fluxo com a variável Processo_Fluxo_visualizarImpedimentoSuspeicao, que é um frame. Quando a tarefa tiver configurada com essa variável, para processos cujo magistrado relator tenha o impedimento registrado, a lista de impedimentos aparecerá.
+
 ## Impedimento e suspeição em autos específicos
 
 Um magistrado pode se declarar impedido por motivo de foro íntimo, sem necessidade de declarar suas razões, nos termos do que autoriza o art. 145, §1º do NCPC:
