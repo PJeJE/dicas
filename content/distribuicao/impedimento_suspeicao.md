@@ -5,6 +5,9 @@ date: 2023-01-20T16:20:20-03:00
 weight: 5
 menuTitle: "Impedimentos e suspeições"
 ---
+## Impedimento e suspeição em autos específicos
+
+Um magistrado pode se declarar impedidido ou com suspeição em relação a um processo específico. 
 
 O registro de impedimento para um processo específico é feito pela aba **Impedimento/Suspeição** localizada no menu de três barras horizontais no canto superior direito dos autos digitais, onde estão todos os magistrados vinculados ao órgão julgador ativo na ZE/TRE/TSE.
 
