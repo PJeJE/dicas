@@ -7,7 +7,11 @@ menuTitle: "Impedimentos e suspeições"
 ---
 ## Impedimento e suspeição em autos específicos
 
-Um magistrado pode se declarar impedidido ou com suspeição em relação a um processo específico. 
+Um magistrado pode se declarar impedido por motivo de foro íntimo, sem necessidade de declarar suas razões, nos termos do que autoriza o art. 145, §1º do NCPC:
+
+ "§ 1º Poderá o juiz declarar-se suspeito por motivo de foro íntimo, sem necessidade de declarar suas razões."
+
+Para auxiliar na realização do controle pela unidade de autuação e distribuição de forma a evitar redistribuição dos autos ao ministro impedido e também agilizar a atuação da Assessoria de Plenário na configuração da composição da sessão, especialmente quando o magistrado não é o relator do processo, existe a funcionalidade de registro de impedimento/suspeição em autos específicos, de forma a gerar os mesmos efeitos da anotação de impedimento por município, estado, nome de parte ou nome de advogado.
 
 O registro de impedimento para um processo específico é feito pela aba **Impedimento/Suspeição** localizada no menu de três barras horizontais no canto superior direito dos autos digitais, onde estão todos os magistrados vinculados ao órgão julgador ativo na ZE/TRE/TSE.
 
