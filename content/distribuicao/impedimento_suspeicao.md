@@ -5,7 +5,7 @@ date: 2023-01-20T16:20:20-03:00
 weight: 5
 menuTitle: "Impedimentos e suspeições"
 ---
-## ## Impedimento e suspeição por município, estado, nome de parte ou nome de advogado
+## Impedimento e suspeição por município, estado, nome de parte ou nome de advogado
 
 Conforme §4º. art. 5º da Resolução 185 do CNJ, não é permitida exclusão automática de magistrado por impedimento/suspeição. Há, por outro lado, previsão de funcionalidade que faça indicação prévia de possível suspeição ou impedimento, que não influenciará na distribuição, cabendo ao magistrado analisar a existência, ou não, da suspeição ou do impedimento.
 
