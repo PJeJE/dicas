@@ -19,7 +19,7 @@ No menu **Configuração - Tabelas Básicas - Calendário** é possível criar o
 
 Observe, na imagem abaixo, a tela de criação de evento, aba **Formulário** (A):
 
-IMG_CALENDARIO
+![diario 1](/imagens/calendario.jpg)
 
 B - **Descrição:** campo textual para registro do nome dado ao feriado ou evento que impacta na contagem de prazos;
 
