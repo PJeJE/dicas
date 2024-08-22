@@ -92,7 +92,9 @@ Unidade de Processamento Judiciário	Chefe de Processamento
 Unidade de Processamento Judiciário	Servidor de Processamento
 Corregedoria Regional Eleitoral	Correição
 
-O principal fluxo por onde se inicia um processo no PJe é o [Fluxo Originárias](tramitacao2grau.md#fluxo-classes-originarias), mas quando um processo é protocolado em classes de corregedoria, o fluxo é o [Fluxo principal de corregedoria](tramitacao2grau.md#fluxo-principal-corregedoria).
+O principal fluxo por onde se inicia um processo no PJe é o [Fluxo Originárias](tramitacao2grau.md#fluxo-classes-originarias).
+
+Quando um processo é protocolado em classes de corregedoria, o fluxo é o [Fluxo principal de corregedoria](tramitacao2grau.md#fluxo-principal-corregedoria).
 
 ## Fluxo - Classes Originárias
 
