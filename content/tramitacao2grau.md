@@ -205,45 +205,45 @@ Essa tarefa é de encaminhamento. Ela exibe os documentos do processo e permite 
 
 - Encaminhar para o gabinete - O encaminhamento para o gabinete pode ser diretamente para uma decisão colegiada - Elaborar decisão colegiada - inicia fluxo de [decisão colegiada](tramitacao2grau.md#fluxo-preparacao-de-decisao-colegiada) ou para decisão monocrática - Elaborar Decisão Monocrática - inicia fluxo de [preparação de ato judicial](tramitacao2grau.md#fluxo-preparacao-de-ato-judicial). Ao retornar do gabinete, se não tiver sido realizada decisão, o sistema encaminha o processo para o [Verificar pendências](tramitacao2grau.mdverificar-pendências---processo-corregedoria). Caso contrário, o processo vai para o [cumprimento de determinações](tramitacao2grau.md#fluxo---cumprimento-de-determinação---corregedoria).
  
-- Remeter ao TSE desde que a aplicação seja de segundo grau, que faz com que o processo vá para o [fluxo de remessa para instância superior - Corregedoria](tramitacao2grau.md#fluxo---remessa-para-instância-superior---corregedoria). Caso o processo retorne do fluxo de remessa, será encaminhado para o [Verificar Pendências - Processo Corregedoria](corregedoria.md#verificar-pendências---processo-corregedoria)
+- Remeter ao TSE desde que a aplicação seja de segundo grau, que faz com que o processo vá para o [fluxo de remessa para instância superior - Corregedoria](tramitacao2grau.md#fluxo---remessa-para-instância-superior---corregedoria). Caso o processo retorne do fluxo de remessa, será encaminhado para o [Verificar Pendências - Processo Corregedoria](tramitacao2grau.md#verificar-pendências---processo-corregedoria)
 
-- Arquivar processo - lança movimento e envia processo para [Manter Processos Arquivados - Processo Corregedoria](corregedoria.md#manter-processos-arquivados---processo-corregedoria)
+- Arquivar processo - lança movimento e envia processo para [Manter Processos Arquivados - Processo Corregedoria](tramitacao2grau.md#manter-processos-arquivados---processo-corregedoria)
 
-- Devolver Processo Corregedoria a Origem, que coloca o processo na tarefa  [Devolver Processo Corregedoria a Origem](corregedoria.md#devolver-processo-corregedoria-a-origem)
+- Devolver Processo Corregedoria a Origem, que coloca o processo na tarefa  [Devolver Processo Corregedoria a Origem](tramitacao2grau.md#devolver-processo-corregedoria-a-origem)
 
 ### Manter Processos Arquivados - Processo Corregedoria
 
-Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](corregedoria.md#corregedoria-unidade-de-fiscalizacao-e-cadastro)
+Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](tramitacao2grau.md#corregedoria-unidade-de-fiscalizacao-e-cadastro)
 
 Essa tarefa é o arquivo do processo. Ela exibe os documentos do processo e sua tramitação para ser realizada em lote. A partir dela, o servidor pode:
 
-- Desarquivar processos, que lançará o movimento 893 e enviará o processo para a tarefa [Analisar processo desarquivado](corregedoria.md#analisar-processo-desarquivado)
+- Desarquivar processos, que lançará o movimento 893 e enviará o processo para a tarefa [Analisar processo desarquivado](tramitacao2grau.md#analisar-processo-desarquivado)
 
-- Encaminhar o processo para a tarefa [Manter Processos Devolvidos a Origem](corregedoria.md#manter-processos-devolvidos-a-origem)
+- Encaminhar o processo para a tarefa [Manter Processos Devolvidos a Origem](tramitacao2grau.md#manter-processos-devolvidos-a-origem)
 
 ### Manter Processos Devolvidos a Origem
 
-Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](corregedoria.md#corregedoria-unidade-de-fiscalizacao-e-cadastro)
+Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](tramitacao2grau.md#corregedoria-unidade-de-fiscalizacao-e-cadastro)
 
 Essa tarefa é uma tarefa de arquivo. Ela serve para diferenciar processos arquivados e que tramitaram normalmente na instância dos processos que foram arquivados por terem sido devolvidos à origem. Ela exibe os documentos do processo e sua tramitação para ser realizada em lote. A partir dela, o servidor pode:
 
-- Desarquivar processos, o que enviará o processo para a tarefa [Verificar pendências da corregedoria](corregedoria.md#verificar-pendências---processo-corregedoria)
+- Desarquivar processos, o que enviará o processo para a tarefa [Verificar pendências da corregedoria](tramitacao2grau.md#verificar-pendências---processo-corregedoria)
 
-- Manter Processos Arquivados - Processo Corregedoria - envia processo para [Manter Processos Arquivados - Processo Corregedoria](corregedoria.md#manter-processos-arquivados---processo-corregedoria)
+- Manter Processos Arquivados - Processo Corregedoria - envia processo para [Manter Processos Arquivados - Processo Corregedoria](tramitacao2grau.md#manter-processos-arquivados---processo-corregedoria)
 
 ### Analisar processo desarquivado
 
-Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](corregedoria.md#corregedoria-unidade-de-fiscalizacao-e-cadastro)
+Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](tramitacao2grau.md#corregedoria-unidade-de-fiscalizacao-e-cadastro)
 
 Nessa tarefa, o servidor poderá ver os documentos processuais e poderá utilizar tramitação em lote. 
 
 A partir dela, o servidor pode:
 
-- [Remeter ao verificar dados](corregedoria.md#verificar-e-certificar-dados-do-processo)
+- [Remeter ao verificar dados](tramitacao2grau.md#verificar-e-certificar-dados-do-processo)
 
-- [Remeter ao Certificar e alterar dados](corregedoria.md#certificar-e-alterar-dados---processo-corregedoria)
+- [Remeter ao Certificar e alterar dados](tramitacao2grau.md#certificar-e-alterar-dados---processo-corregedoria)
 
-- Remeter ao [Cumprimento de Determinações Corregedoria](corregedoria.md#fluxo---cumprimento-de-determinação---corregedoria)
+- Remeter ao [Cumprimento de Determinações Corregedoria](tramitacao2grau.md#fluxo---cumprimento-de-determinação---corregedoria)
 
 - Remeter à SJD, que encerra fluxo da corregedoria e inicia [fluxo originárias](corregedoria.md#fluxo-classes-originarias), lançando movimento (60005).
 
