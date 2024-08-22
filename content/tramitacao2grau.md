@@ -1,6 +1,6 @@
 # Tramitação processual
 
-![Início](/imagens/fluxo1.png)
+![Início](/imagens/fluxo1.jpg)
 
 Um processo judicial se inicia no PJe da Justiça Eleitoral quando um [usuário externo](http://www.pje.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN277), que pode ser advogado, Ministério Público, Autoridade Policial ou qualquer jurisdicionado, cadastra o processo incluindo os dados e a petição inicial apresentando seu pleito. O processo pode também ser iniciado por um servidor da Justiça Eleitoral com características de [usuário interno](http://www.pje.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN394). Ao finalizar o que denomina-se como protocolo do processo, ocorre a [distribuição automática](http://www.pje.jus.br/wiki/index.php/Distribui%C3%A7%C3%A3o), ou seja, o processo tem o relator designado de acordo com competências e utilizando um mecanismo de sorteio.
 
@@ -8,7 +8,7 @@ O processo, após ser protocolado, pode ser pesquisado dentro do sistema, mas a 
 
 Ao ser iniciado, o processo judicial, via de regra, passa por três unidades principais dentro do tribunal: Autuação e Distribuição, Gabinete e Processamento.
 
-![Tramitação padrão](/imagens/fluxo2.png)
+![Tramitação padrão](/imagens/fluxo2.jpg)
 
 Na Autuação e Distribuição, é realizada uma [triagem](tramitacao2grau.md#verificar-e-certificar-dados-do-processo), onde um servidor verifica os dados do processo e encaminha o pleito para [análise do relator](tramitacao2grau.md#fluxo-gabinetes), ou seja, do Gabinete. No Gabinete, o processo é analisado e são expedidos os atos judiciais. O processo é então encaminhado para a Unidade de processamento, onde são realizados [os devidos cumprimentos](tramitacao2grau.md#fluxo-cumprimento-de-determinacao). 
 
