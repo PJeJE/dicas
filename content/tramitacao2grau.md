@@ -245,50 +245,50 @@ A partir dela, o servidor pode:
 
 - Remeter ao [Cumprimento de Determinações Corregedoria](tramitacao2grau.md#fluxo---cumprimento-de-determinação---corregedoria)
 
-- Remeter à SJD, que encerra fluxo da corregedoria e inicia [fluxo originárias](corregedoria.md#fluxo-classes-originarias), lançando movimento (60005).
+- Remeter à SJD, que encerra fluxo da corregedoria e inicia [fluxo originárias](tramitacao2grau.md#fluxo-classes-originarias), lançando movimento (60005).
 
-- Encaminhar para o gabinete - O encaminhamento para o gabinete pode ser diretamente para uma decisão colegiada - Elaborar decisão colegiada - inicia fluxo de [decisão colegiada](corregedoria.md#fluxo-preparacao-de-decisao-colegiada) ou para decisão monocrática - Elaborar Decisão Monocrática - inicia fluxo de [preparação de ato judicial](corregedoria.md#fluxo-preparacao-de-ato-judicial). Ao retornar do gabinete, se não tiver sido realizada decisão, o sistema encaminha o processo para o [Verificar pendências](corregedoria.md#verificar-pendências---processo-corregedoria). Caso contrário, o processo vai para o [cumprimento de determinações](corregedoria.md#fluxo---cumprimento-de-determinação---corregedoria).
+- Encaminhar para o gabinete - O encaminhamento para o gabinete pode ser diretamente para uma decisão colegiada - Elaborar decisão colegiada - inicia fluxo de [decisão colegiada](tramitacao2grau.md#fluxo-preparacao-de-decisao-colegiada) ou para decisão monocrática - Elaborar Decisão Monocrática - inicia fluxo de [preparação de ato judicial](tramitacao2grau.md#fluxo-preparacao-de-ato-judicial). Ao retornar do gabinete, se não tiver sido realizada decisão, o sistema encaminha o processo para o [Verificar pendências](tramitacao2grau.md#verificar-pendências---processo-corregedoria). Caso contrário, o processo vai para o [cumprimento de determinações](tramitacao2grau.md#fluxo---cumprimento-de-determinação---corregedoria).
 
-- Remeter ao TSE desde que a aplicação seja de segundo grau, que faz com que o processo vá para o [fluxo de remessa para instância superior - Corregedoria](corregedoria.md#fluxo---remessa-para-instância-superior---corregedoria). Caso o processo retorne do fluxo de remessa, será encaminhado para o [Verificar Pendências - Processo Corregedoria](corregedoria.md#verificar-pendências---processo-corregedoria)
+- Remeter ao TSE desde que a aplicação seja de segundo grau, que faz com que o processo vá para o [fluxo de remessa para instância superior - Corregedoria](tramitacao2grau.md#fluxo---remessa-para-instância-superior---corregedoria). Caso o processo retorne do fluxo de remessa, será encaminhado para o [Verificar Pendências - Processo Corregedoria](tramitacao2grau.md#verificar-pendências---processo-corregedoria)
 
-- Arquivar processo - lança movimento e envia processo para [Manter Processos Arquivados - Processo Corregedoria](corregedoria.md#manter-processos-arquivados---processo-corregedoria)
+- Arquivar processo - lança movimento e envia processo para [Manter Processos Arquivados - Processo Corregedoria](tramitacao2grau.md#manter-processos-arquivados---processo-corregedoria)
 
-- Devolver Processo Corregedoria a Origem, que coloca o processo na tarefa  [Devolver Processo Corregedoria a Origem](corregedoria.md#devolver-processo-corregedoria-a-origem)
+- Devolver Processo Corregedoria a Origem, que coloca o processo na tarefa  [Devolver Processo Corregedoria a Origem](tramitacao2grau.md#devolver-processo-corregedoria-a-origem)
 
-- Encaminhar o processo para a tarefa [Manter Processos Devolvidos a Origem](corregedoria.md#manter-processos-devolvidos-a-origem)
+- Encaminhar o processo para a tarefa [Manter Processos Devolvidos a Origem](tramitacao2grau.md#manter-processos-devolvidos-a-origem)
 
 ### Devolver Processo Corregedoria a Origem
 
-Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](corregedoria.md#corregedoria-unidade-de-fiscalizacao-e-cadastro)
+Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](tramitacao2grau.md#corregedoria-unidade-de-fiscalizacao-e-cadastro)
 
 É uma tarefa de devolução do processo a outra instância. 
 
-Ela apresenta um aviso pedindo que o usuário, antes de devolver o processo, verifique se não há expedientes abertos ou tarefas em andamento, de modo a evitar que o processo seja encaminhado sem o devido cumprimento. A tela da tarefa permite a seleção do motivo da devolução e o acionamento do botão “Retorno do processo à origem”. O usuário pode também desistir da tarefa, retornando ao [Verificar pendências](corregedoria.md#verificar-pendências---processo-corregedoria). Se selecionar o botão de retorno do processo à origem, o sistema verificará se há documentos não assinados para que o usuário possa desistir da execução da tarefa, se for o caso. Na confirmação da execução, o sistema retornará o processo para a última instância de origem (se veio do TSE, retornará para o TSE, se veio do primeiro grau, retornará para o primeiro grau, se veio do TRE, retornará ao TRE que enviou). O sistema lancará o movimento de baixa e deixará o processo bloqueado na tarefa [Manter Processos Devolvidos a Origem](corregedoria.md#manter-processos-devolvidos-a-origem). 
+Ela apresenta um aviso pedindo que o usuário, antes de devolver o processo, verifique se não há expedientes abertos ou tarefas em andamento, de modo a evitar que o processo seja encaminhado sem o devido cumprimento. A tela da tarefa permite a seleção do motivo da devolução e o acionamento do botão “Retorno do processo à origem”. O usuário pode também desistir da tarefa, retornando ao [Verificar pendências](tramitacao2grau.md#verificar-pendências---processo-corregedoria). Se selecionar o botão de retorno do processo à origem, o sistema verificará se há documentos não assinados para que o usuário possa desistir da execução da tarefa, se for o caso. Na confirmação da execução, o sistema retornará o processo para a última instância de origem (se veio do TSE, retornará para o TSE, se veio do primeiro grau, retornará para o primeiro grau, se veio do TRE, retornará ao TRE que enviou). O sistema lancará o movimento de baixa e deixará o processo bloqueado na tarefa [Manter Processos Devolvidos a Origem](tramitacao2grau.md#manter-processos-devolvidos-a-origem). 
 
 ## Fluxo - Cumprimento de determinação - Corregedoria
 
-Este fluxo contém encaminhamentos para cumprimentos diversos. Inicialmente, ele envia o processo para a tarefa [Analisar Determinação Processo Corregedoria](corregedoria.md@analisar-determinação-processo-corregedoria).
+Este fluxo contém encaminhamentos para cumprimentos diversos. Inicialmente, ele envia o processo para a tarefa [Analisar Determinação Processo Corregedoria](tramitacao2grau.md@analisar-determinação-processo-corregedoria).
 
 ###  Analisar Determinação Processo Corregedoria
 
-Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](corregedoria.md#corregedoria-unidade-de-fiscalizacao-e-cadastro) (não habilitada para os administradores do sistema)
+Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](tramitacao2grau.md#corregedoria-unidade-de-fiscalizacao-e-cadastro) (não habilitada para os administradores do sistema)
 
 Essa tarefa exibe a última decisão terminativa do processo. A tramitação em lote está habilitada.
 
 O servidor tem as seguintes possibilidades:
 
-- Elaborar documentos - que envia o processo para a tarefa [Elaborar documentos - Processo Corregedoria](corregedoria.md#elaborar-documentos-processocorregedoria)
+- Elaborar documentos - que envia o processo para a tarefa [Elaborar documentos - Processo Corregedoria](tramitacao2grau.md#elaborar-documentos-processocorregedoria)
 
-- Verificar controle de prazos - encaminha o processo para o [Fluxo - Controle de Prazos - Corregedoria](corregedoria.md#fluxo-controle-de-prazos-corregedoria). Finalizado o fluxo, o processo retorna para a tarefa atual.
+- Verificar controle de prazos - encaminha o processo para o [Fluxo - Controle de Prazos - Corregedoria](tramitacao2grau.md#fluxo-controle-de-prazos-corregedoria). Finalizado o fluxo, o processo retorna para a tarefa atual.
 
-- Preparar comunicação - encaminha o processo para o [Fluxo - Ato de Comunicação - Corregedoria](corregedoria.md#fluxo-ato-de-comunicacao-corregedoria). Finalizado o fluxo, o processo retorna para a tarefa atual. 
+- Preparar comunicação - encaminha o processo para o [Fluxo - Ato de Comunicação - Corregedoria](tramitacao2grau.md#fluxo-ato-de-comunicacao-corregedoria). Finalizado o fluxo, o processo retorna para a tarefa atual. 
 
 - Nada mais a cumprir - Finaliza o fluxo e retorna o processo para a tarefa de onde tinha vindo.
 
 
 ### Elaborar documentos - Processo Corregedoria
 
-Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](corregedoria.md#corregedoria-unidade-de-fiscalizacao-e-cadastro) (não habilitada para os administradores do sistema)
+Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](tramitacao2grau.md#corregedoria-unidade-de-fiscalizacao-e-cadastro) (não habilitada para os administradores do sistema)
 
 Essa tarefa permite a elaboração de documentos. Os tipos de documento permitidos são Ofício, Certidão, Memorando e Ata de Audiência
 
@@ -296,9 +296,9 @@ O servidor tem acesso a eles desde que tenha papel vinculado ao tipo de document
 
 Na tarefa, para servidores com papel de assinatura para o tipo de documento selecionado, há a possibilidade de assinar o documento já construído em lote. Se o documento já tiver sido construído, ele ficará disponível para assinatura em lote na opção Assinaturas do painel do usuário. 
 
-O usuário pode utilizar a transição Retornar sem que o documento tenha sido preenchido. Isso fará com que o processo vá para [Analisar Determinação Processo Corregedoria](corregedoria.md#analisar-determinação-processo-corregedoria). Se assinar o documento na própria tarefa, o sistema também encaminhará o processo para o [Analisar Determinação Processo Corregedoria](corregedoria.md#analisar-determinação-processo-corregedoria).
+O usuário pode utilizar a transição Retornar sem que o documento tenha sido preenchido. Isso fará com que o processo vá para [Analisar Determinação Processo Corregedoria](tramitacao2grau.md#analisar-determinação-processo-corregedoria). Se assinar o documento na própria tarefa, o sistema também encaminhará o processo para o [Analisar Determinação Processo Corregedoria](tramitacao2grau.md#analisar-determinação-processo-corregedoria).
 
-Se o usuário selecionar a transição Encaminhar para assinatura do Corregedor, o processo é encaminhado para a tarefa [Assinar documentos - Processo Corregedoria](corregedoria.md#assinar-documentos-processo-corregedoria). 
+Se o usuário selecionar a transição Encaminhar para assinatura do Corregedor, o processo é encaminhado para a tarefa [Assinar documentos - Processo Corregedoria](tramitacao2grau.md#assinar-documentos-processo-corregedoria). 
 
 Há também a possibilidade de utilizar a transição Desbloquear editor. Essa transição foi inserido para corrigir defeitos de outras tarefas de edição de documentos, que guardam o documento criado indevidamente para recuperação em unidades não pertinentes. Se isso ocorrer, o documento de outra unidade é recuperado assinado no editor da tarefa atual e o servidor não consegue construir seu próprio documento. Assim, ele pode utilizar a transição para carregar o editor sem o documento indevido, prosseguindo com a construção de seu próprio documento. 
 
@@ -312,7 +312,7 @@ Observações para ajuste:
 
 ### - Assinar documentos - Processo Corregedoria
 
-Responsabilidade: [Corregedoria - Magistrado](corregedoria.md#corregedoria-magistrado) 
+Responsabilidade: [Corregedoria - Magistrado](tramitacao2grau.md#corregedoria-magistrado) 
 
 Essa tarefa permite a elaboração de documentos. Os tipos de documento permitidos são Ofício, Certidão, Carta de ordem, Mandado, Intimação, Edital, Informação e Despacho de Ofício
 
@@ -320,9 +320,9 @@ Os modelos de documento permitidos são: 85,86,87,88,89,90,91,92,93,94,95,96,97,
 
 Na tarefa, para servidores com papel de assinatura para o tipo de documento selecionado, há a possibilidade de assinar o documento já construído em lote. Se o documento já tiver sido construído, ele ficará disponível para assinatura em lote na opção Assinaturas do painel do usuário. 
 
-O servidor pode utilizar a transição Devolver para correção que deixará o processo de volta na tarefa [Elaborar documento - Processo Corregedoria](corregedoria.md#elaborar-documentos-processocorregedoria).
+O servidor pode utilizar a transição Devolver para correção que deixará o processo de volta na tarefa [Elaborar documento - Processo Corregedoria](tramitacao2grau.md#elaborar-documentos-processocorregedoria).
 
-Caso o usuário assine o documento, o sistema lança o movimento de juntada e envia o processo para a tarefa  [Analisar Determinação Processo Corregedoria](corregedoria.md@analisar-determinação-processo-corregedoria).
+Caso o usuário assine o documento, o sistema lança o movimento de juntada e envia o processo para a tarefa  [Analisar Determinação Processo Corregedoria](tramitacao2grau.md@analisar-determinação-processo-corregedoria).
 
 Observações para ajuste:
 
@@ -335,49 +335,49 @@ Observações para ajuste:
 
 Os fluxos de remessa são configurados de forma similar, permitindo que se utiliza a tarefa de remessa para que uma instância do PJe da Justiça Eleitoral envie processos para outra instância.
 
-O fluxo de remessa da corregedoria, ao ser iniciado, verifica se o processo é das classes Duplicidade/Pluralidade de Inscrições - Coincidências (CO 12553), Regularização de Situação do Eleitor (RS 12063) ou Direitos Políticos (DP 12064) e envia para a tarefa [Remeter ao TSE - Corregedoria](corregedoria.md#remeter-ao-tse-corregedoria). Se não for dessas classes, o sistema envia o processo para a tarefa [Remeter ao TSE - Processo Corregedoria](corregedoria.md#remeter-ao-tse-processo-corregedoria). São tarefas similares, mas executadas por perfis diferentes. 
+O fluxo de remessa da corregedoria, ao ser iniciado, verifica se o processo é das classes Duplicidade/Pluralidade de Inscrições - Coincidências (CO 12553), Regularização de Situação do Eleitor (RS 12063) ou Direitos Políticos (DP 12064) e envia para a tarefa [Remeter ao TSE - Corregedoria](tramitacao2grau.md#remeter-ao-tse-corregedoria). Se não for dessas classes, o sistema envia o processo para a tarefa [Remeter ao TSE - Processo Corregedoria](tramitacao2grau.md#remeter-ao-tse-processo-corregedoria). São tarefas similares, mas executadas por perfis diferentes. 
 
 O usuário pode selecionar a opção Cancelar, o que finalizará o fluxo de remessa e retornará o processo para a tarefa que tinha acionado o fluxo.
 
 ### Remeter ao TSE - Corregedoria
 
-Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](corregedoria.md#corregedoria-unidade-de-fiscalizacao-e-cadastro)
+Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](tramitacao2grau.md#corregedoria-unidade-de-fiscalizacao-e-cadastro)
 
 A tarefa permite que se protocole um novo processo no destino, com classes e assuntos específicos e também com novas configurações de partes. As classes exibidas são as classes passíveis de serem recebidas como recurso configuradas no destino. Caso a classe selecionada esteja configurada no destino com a marcação “exige numeração própria”, um novo número de processo será gerado. O novo processo conterá uma cópia dos documentos do processo originário, preservando os dados de assinatura originais.
 
-Após a confirmação, o sistema lançará o movimento de remessa conforme o destino selecionado (TSE ou Zona eleitoral) e manterá o processo em [Aguardando apreciação pela instância Superior - Corregedoria](corregedoria.md#aguardando-apreciacao-pela-instancia-superior-corregedoria) bloqueado para novas petições ou edições. 
+Após a confirmação, o sistema lançará o movimento de remessa conforme o destino selecionado (TSE ou Zona eleitoral) e manterá o processo em [Aguardando apreciação pela instância Superior - Corregedoria](tramitacao2grau.md#aguardando-apreciacao-pela-instancia-superior-corregedoria) bloqueado para novas petições ou edições. 
 
 O usuário pode selecionar a opção Cancelar, o que finalizará o fluxo de remessa e retornará o processo para a tarefa que tinha acionado o fluxo. 
 
 ### Remeter ao TSE - Processo Corregedoria
 
-Responsabilidade: [Corregedoria - Judiciária](corregedoria.md#corregedoria-judiciaria)
+Responsabilidade: [Corregedoria - Judiciária](tramitacao2grau.md#corregedoria-judiciaria)
 
 A tarefa permite que se protocole um novo processo no destino, com classes e assuntos específicos e também com novas configurações de partes. As classes exibidas são as classes passíveis de serem recebidas como recurso configuradas no destino. Caso a classe selecionada esteja configurada no destino com a marcação “exige numeração própria”, um novo número de processo será gerado.  O novo processo conterá uma cópia dos documentos do processo originário, preservando os dados de assinatura originais.
 
-Após a confirmação, o sistema lançará o movimento de remessa conforme o destino selecionado (TSE ou Zona eleitoral) e manterá o processo em [Aguardando apreciação pela instância Superior - Processo Corregedoria](corregedoria.md#aguardando-apreciacao-pela-instancia-superior-processo-corregedoria) bloqueado para novas petições ou edições. 
+Após a confirmação, o sistema lançará o movimento de remessa conforme o destino selecionado (TSE ou Zona eleitoral) e manterá o processo em [Aguardando apreciação pela instância Superior - Processo Corregedoria](tramitacao2grau.md#aguardando-apreciacao-pela-instancia-superior-processo-corregedoria) bloqueado para novas petições ou edições. 
 
 ### Aguardando apreciação pela instância Superior - Corregedoria
 
-Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](corregedoria.md#corregedoria-unidade-de-fiscalizacao-e-cadastro)
+Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](tramitacao2grau.md#corregedoria-unidade-de-fiscalizacao-e-cadastro)
 
-Essa tarefa armazena os processos que foram enviados para outra instância pela Unidade de Fiscalização e Cadastro. Eles permanecem bloqueados para tramitação. Se o processo retorna da instância para onde foi enviado, o sistema automaticamente desbloqueia o processo e o tramita para a tarefa [Recebimento de instância Superior - Corregedoria](corregedoria.md#recebimento-de-instancia-superior-corregedoria).
+Essa tarefa armazena os processos que foram enviados para outra instância pela Unidade de Fiscalização e Cadastro. Eles permanecem bloqueados para tramitação. Se o processo retorna da instância para onde foi enviado, o sistema automaticamente desbloqueia o processo e o tramita para a tarefa [Recebimento de instância Superior - Corregedoria](tramitacao2grau.md#recebimento-de-instancia-superior-corregedoria).
 
 ### Aguardando apreciação pela instância Superior - Processo Corregedoria
 
-Responsabilidade: [Corregedoria - Judiciária](corregedoria.md#corregedoria-judiciaria)
+Responsabilidade: [Corregedoria - Judiciária](tramitacao2grau.md#corregedoria-judiciaria)
 
-Essa tarefa armazena os processos que foram enviados para outra instância pela Unidade de Assuntos Judiciários. Eles permanecem bloqueados para tramitação. Se o processo retorna da instância para onde foi enviado, o sistema automaticamente desbloqueia o processo e o tramita para a tarefa [Recebimento de instância Superior - Processo Corregedoria](corregedoria.md#recebimento-de-instancia-superior-processo-corregedoria).
+Essa tarefa armazena os processos que foram enviados para outra instância pela Unidade de Assuntos Judiciários. Eles permanecem bloqueados para tramitação. Se o processo retorna da instância para onde foi enviado, o sistema automaticamente desbloqueia o processo e o tramita para a tarefa [Recebimento de instância Superior - Processo Corregedoria](tramitacao2grau.md#recebimento-de-instancia-superior-processo-corregedoria).
 
 ### Recebimento de instância Superior - Corregedoria
 
-Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](corregedoria.md#corregedoria-unidade-de-fiscalizacao-e-cadastro)
+Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](tramitacao2grau.md#corregedoria-unidade-de-fiscalizacao-e-cadastro)
 
 Essa tarefa notifica o servidor da unidade de fiscalização e cadastro que o processo retornou da instância para onde tinha ido. A partir dela, o servidor finaliza o fluxo de remessa e retorna o processo para a tarefa que o chamou. 
 
 ### Recebimento de instância Superior - Processo Corregedoria
 
-Responsabilidade: [Corregedoria - Judiciária](corregedoria.md#corregedoria-judiciaria)
+Responsabilidade: [Corregedoria - Judiciária](tramitacao2grau.md#corregedoria-judiciaria)
 
 Essa tarefa notifica o servidor da unidade de assuntos judiciários que o processo retornou da instância para onde tinha ido. A partir dela, o servidor finaliza o fluxo de remessa e retorna o processo para a tarefa que o chamou. 
 
@@ -388,9 +388,9 @@ Essa tarefa notifica o servidor da unidade de assuntos judiciários que o proces
 
 Responsabilidade - Corregedoria - Judiciária
 
-A partir dessa tarefa, o usuário tem, entre outras opções, o "Remeter ao gabinete Corregedoria" e o "Remeter à Presidência", ambas as transições encaminhando o processo para o [Fluxo de Gabinetes](corregedoria.md#Fluxo---Gabinetes). Ao finalizar a execução do fluxo de gabinetes, o sistema verifica que o processo está com o órgão julgador corregedoria e faz o seguinte teste:
+A partir dessa tarefa, o usuário tem, entre outras opções, o "Remeter ao gabinete Corregedoria" e o "Remeter à Presidência", ambas as transições encaminhando o processo para o [Fluxo de Gabinetes](tramitacao2grau.md#Fluxo---Gabinetes). Ao finalizar a execução do fluxo de gabinetes, o sistema verifica que o processo está com o órgão julgador corregedoria e faz o seguinte teste:
 
-Se o parâmetro "pje:je:CumprimentoPelaCorregedoria" estiver setado como true e o movimento de código 60001 estiver presente no processo, o processo continua no fluxo atual de corregedoria, sendo encaminhado para o analisar processo ou determinação, de acordo com movimento da árvore de magistrado lançado ou não nos autos. Caso a condição não seja atendida,  o processo é encaminhado para o [cumprimento](corregedoria.md#Fluxo---Cumprimento-de-determinação). Quando o cumprimento for encerrado, o processo retorna ao fluxo de processar atividades de corregedoria por meio da tarefa Verficar Pendências - Processo Corregedoria.
+Se o parâmetro "pje:je:CumprimentoPelaCorregedoria" estiver setado como true e o movimento de código 60001 estiver presente no processo, o processo continua no fluxo atual de corregedoria, sendo encaminhado para o analisar processo ou determinação, de acordo com movimento da árvore de magistrado lançado ou não nos autos. Caso a condição não seja atendida,  o processo é encaminhado para o [cumprimento](tramitacao2grau.md#Fluxo---Cumprimento-de-determinação). Quando o cumprimento for encerrado, o processo retorna ao fluxo de processar atividades de corregedoria por meio da tarefa Verficar Pendências - Processo Corregedoria.
 
 ### Verificar Pendências - Processo Corregedoria
 
