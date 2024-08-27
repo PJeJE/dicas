@@ -14,6 +14,11 @@ A partir das tarefas "Analisar Novo Processo - ZE", "Analisar Processo" ou "Anal
 
 Caso nenhum modelo tenha sido definido, o sistema encaminhará o processo para a tarefa "Informar identificador do modelo de certidão". Ele será apresentado a uma tela que conterá um campo onde ele deve informar o identificador de um modelo de documento válido. Ele deve informar um identificador e selecionar "Confirmar". Ele pode também desistir de gerar a certidão, selecionando "Cancelar". 
 
+{{% notice note %}}
+A seleção do identificador do modelo de documento é de um identificado por zona eleitoral. Para selecionar, basta realizar o procedimento em um processo. A partir de então, a seleção estará valendo para todos os processos daquela zona.
+{{% /notice %}}
+
+
 Caso o usuário não informe nenhum valor ou informe um identificador de modelo que não existe na base, o sistema encaminhará o processo para a tarefa "Aviso de não seleção de modelo". A partir dessa tarefa, ele pode tentar informar novamente selecionando "Informar identificador do modelo de certidão". Caso o usuário já tenha cadastrado em algum momento o identificador de modelo, ele poderá selecionar a transição "Gerar certidão com identificador gravado previamente". Ele pode também desistir de gerar a certidão, selecionando "Cancelar". 
 
 Caso tenha selecionado um identificador válido anteriormente, ele será encaminhado para a tarefa "Confirmar identificador do modelo de certidão". Essa tarefa exibirá o identificador cadastrado. Ele pode selecionar a correção do identificador, selecionando a transição "Informar identificador diferente". Ele pode também desistir de gerar a certidão, selecionando "Cancelar". Caso o identificador esteja correto e o usuário queira realmente gerar as certidões, deverá selecionar a transição "Gerar certidão". Após executada, será juntada uma certidão no processo com o conteúdo do modelo de documento, contendo suas respectivas variáveis traduzidas, de acordo com o processo, vinculado ao movimento "Expedição de Certidão". Se houver mais processos nessa tarefa, o usuário poderá realizar a seleção da movimentação em lote, o que fará com que todos os processos selecionados tenham a certidão juntada com seu respectivo movimento. Após execução da geração, o sistema encaminhará o processo para a tarefa "Verificar certidão", para que o usuário finalize o procedimento. 
