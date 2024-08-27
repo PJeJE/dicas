@@ -6,7 +6,7 @@ menuTitle: "Certidão genérica"
 weight: 1
 ---
 
-É possível juntar em lote, utilizando um modelo previamente definido, uma certidão genérica de acordo com as necessidades do cartório. 
+É possível juntar, individualmente ou em lote, uma certidão genérica de acordo com as necessidades do cartório utilizando um modelo previamente definido. 
 
 Para isso, o servidor de cada zona deverá definir qual modelo de documento será utilizado na geração da certidão.
 
