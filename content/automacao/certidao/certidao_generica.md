@@ -23,7 +23,7 @@ A partir da tarefa "Verificar certidão", o usuário pode selecionar "Finalizar"
 **Observações para administradores:**
 
 O identificador do modelo de documento selecionado será gravado em um parâmetro do sistema denominado 
-- **pje:automacao:certidaogenerica:id:XXX`**:
+- **pje:automacao:certidaogenerica:id:XXX**:
   - Onde XXX é o identificador do órgão julgador do processo utilizado para selecionar o modelo. O valor desse parâmetro corresponde ao ID do modelo de documento que será utilizado para a certidão genérica.
 
 {{% notice note %}}
