@@ -6,9 +6,9 @@ menuTitle: "Certidão genérica"
 weight: 1
 ---
 
-É possível juntar, individualmente ou em lote, uma certidão genérica de acordo com as necessidades do cartório utilizando um modelo previamente definido. 
+É possível juntar, individualmente ou em lote, uma certidão genérica utilizando um modelo previamente definido. O modelo será selecionado de acordo com as necessidades do cartório/secretaria.
 
-Para isso, o servidor de cada zona deverá definir qual modelo de documento será utilizado na geração da certidão.
+Para isso, no primeiro grau, o servidor de cada zona deverá definir qual modelo de documento será utilizado na geração da certidão.
 
 A partir das tarefas "Analisar Novo Processo - ZE", "Analisar Processo" ou "Analisar Determinações", o usuário pode selecionar a transição "Gerar certidão genérica". 
 
