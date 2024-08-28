@@ -30,6 +30,8 @@ O identificador do modelo de documento selecionado será gravado em um parâmetr
 - **pje:automacao:certidaogenerica:id:XXX**:
   - Onde XXX é o identificador do órgão julgador do processo utilizado para selecionar o modelo. O valor desse parâmetro corresponde ao ID do modelo de documento que será utilizado para a certidão genérica.
 
+O tipo de documento utilizado é o que está cadastrado no parâmetro **idTipoDocumentoCertidao**, que deve ser o de código 6000014. Esse tipo de documento deve estar associado ao papel "Sistema" com exigibilidade "Suficiente".
+
 {{% notice note %}}
 Para a correta utilização da funcionalidade, os modelos de documento devem estar configurados corretamente. Se houver problemas na tradução de variáveis, as certidões não serão geradas e a tramitação dos processos pode apresentar erros na tela. Caso isso ocorra, atualize a tela do painel de tarefas, retire o processo da tarefa, cancelando o processo e corrija o modelo de certidão utilizado. Para verificar se a tradução das variáveis ocorre sem problemas, você pode abrir os autos do processo, selecionar a opção de "Juntar documentos", selecionar o tipo de documento "Certidão" e selecionar o modelo desejado. O sistema traduzirá as variáveis ou apresentará erro na tradução, conforme o caso. Após a confirmação, cancele a edição do documento.
 {{% /notice %}}
