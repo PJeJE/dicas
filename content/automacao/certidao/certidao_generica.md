@@ -12,7 +12,7 @@ Para isso, no primeiro grau, o servidor de cada zona deverá definir qual modelo
 
 A partir das tarefas "Analisar Novo Processo - ZE", "Analisar Processo" ou "Analisar Determinações", o usuário pode selecionar a transição "Gerar certidão genérica". 
 
-Caso nenhum modelo tenha sido definido, o sistema encaminhará o processo para a tarefa "Informar identificador do modelo de certidão". Ele será apresentado a uma tela que conterá um campo onde ele deve informar o identificador de um modelo de documento válido. Ele deve informar um identificador e selecionar "Confirmar". Ele pode também desistir de gerar a certidão, selecionando "Cancelar". 
+Caso nenhum modelo tenha sido definido, o sistema encaminhará o processo para a tarefa "Informar identificador do modelo de certidão". Ele será apresentado a uma tela que conterá um campo onde ele deve informar o identificador de um modelo de documento válido. Ele deve informar um identificador, selecionar o botão "Salvar" e, após finalizado, selecionar a transição "Confirmar". Ele pode também desistir de gerar a certidão, selecionando "Cancelar". 
 
 {{% notice note %}}
 A seleção do identificador do modelo de documento registrará um identificador por zona eleitoral. Para selecionar, basta realizar o procedimento em um processo. A partir de então, a seleção estará valendo para todos os processos daquela zona. O usuário poderá alterar o modelo selecionado sempre que precisar.
