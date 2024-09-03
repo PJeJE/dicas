@@ -47,9 +47,26 @@ Independente de cadastros equivocados, a alteração de papéis é sempre uma at
 Ao vincular um novo papel a um perfil já existente, a alteração só terá efeito após o usuário sair e entrar novamente da aplicação. Se você é Administrador e vinculou um novo papel ao perfil Administrador, acione o botão "Sair" do PJe para que consiga fazer sua identificação (login) novamente e, aí sim, verificar os efeitos do novo papel adicionado.
 {{% /notice %}}
 
-**Instruções para cadastro de papeis e suas vinculações:**
+**Instruções para cadastro de papéis e suas vinculações:**
 
-**Instruções para cadastro de recursos e suas vinculações:**
+O cadastro de papeis é realizado por meio da opção **Configuração - Controle de acesso - Papéis**. Por meio da aba Formulário, o usuário coloca o **Identificador** do papel e o **Nome*. Para papéis que liberam acessos específicos no PJe, o campo **Identificador** deve ser preenchido com o nome do papel exatamente como deve ser utilizado, com respeito às letras maiúsculas e minúsculas. Já o campo **Nome** servirá para facilitar a visualização do próprio usuário a respeito do significado do papel ou da visualização do perfil que o usuário está vinculado.
+
+Uma vez cadastrado o papel, a tela de configuração exibe, entre outras informações, as seguintes abas que merecem atenção:
+
+- Papeis
+- Herdeiros
+- Recursos
+
+A aba Papéis exibe dois quadros: 
+- uma lista do lado esquerdo contendo todos os papéis no sistema que não cedem permissão para o papel atual
+- uma lista do lado direito contendo todos os papéis cadastrados no sistema que cedem permissão para o papel atual
+
+Com essa configuração, pode-se configurar outros papeis cujas permissões serão aproveitadas pelo papel atual. 
+
+**Instruções para cadastro de funcionalidades e suas vinculações:**
+
+O cadastro de recursos/funcionalidades é realizado por meio da opção **Configuração - Controle de acesso - Funcionalidades**. Por meio da aba Formulário, o usuário coloca o **Identificador** do funcionalidade e o **Nome*. O campo **Identificador** deve ser preenchido com o nome do recurso exatamente como deve ser utilizado, com respeito às letras maiúsculas e minúsculas. Já o campo **Nome** servirá para que o item de menu seja exibido conforme o cadastro, salvo alguns itens que já vêm com o nome padrão dentro do próprio PJe.
+
 
 **Papéis existentes:**
 
