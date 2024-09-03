@@ -1,12 +1,12 @@
 +++
 title = "Manuais de Usuários"
 date = 2023-12-12T15:00:35-03:00
-weight = 19
+weight = 20
 chapter = true
-pre = "<b>18. </b>"
+pre = "<b>19. </b>"
 +++
 
-### Seção 18
+### Seção 19
 
 # Manuais de Usuários
 
