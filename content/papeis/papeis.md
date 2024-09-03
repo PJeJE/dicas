@@ -44,6 +44,10 @@ Independente de cadastros equivocados, a alteração de papéis é sempre uma at
 Ao vincular um novo papel a um perfil já existente, a alteração só terá efeito após o usuário sair e entrar novamente da aplicação. Se você é Administrador e vinculou um novo papel ao perfil Administrador, acione o botão "Sair" do PJe para que consiga fazer sua identificação (login) novamente e, aí sim, verificar os efeitos do novo papel adicionado.
 {{% /notice %}}
 
+**Instruções para cadastro de papeis e suas vinculações:**
+
+**Instruções para cadastro de recursos e suas vinculações:**
+
 **Papéis existentes:**
 
 O identificador do modelo de documento selecionado será gravado em um parâmetro do sistema denominado 
