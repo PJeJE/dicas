@@ -24,7 +24,7 @@ Caso tenha selecionado um identificador válido anteriormente, ele será encamin
 
 A partir da tarefa **Verificar certidão**, o usuário pode selecionar **Finalizar**, o que retornará o processo para a tarefa inicial, qual seja, **Analisar Novo Processo - ZE**, **Analisar Processo** ou **Analisar Determinações**. Ele pode também selecionar **Gerar outra certidão**, o que deixará o processo na tarefa **Confirmar identificador do modelo da certidão**.
 
-**Observações para administradores:**
+**Observações para administradores (não são administradores de estado - observações são para verificação de comportamento por parte da ASPJE e SESIP):**
 
 O identificador do modelo de documento selecionado será gravado em um parâmetro do sistema denominado 
 - **pje:automacao:certidaogenerica:id:XXX**:
