@@ -19,7 +19,7 @@ A redefinição de papéis sem a correspondente revisão das raias pode levar à
 
 **Papéis e perfis**
 
-É mais natural visualizar os papéis como perfis. O papel **Administrador** na verdade mapeia um perfil de utilização do sistema, ou seja, um tipo de atuação que agrupa permissões diversas para uma série de funcionalidades. Da mesma forma ocorre com o papel **Servidor**. Há muitas situações onde os papéis são usados no PJe como liberação de permissões específicas, e não um agrupamento de permissões. A esses papéis, em geral, não se vincula o cadastro de pessoas. A vinculação é por meio da hierarquia de papéis, ou seja, papéis vinculados a outros papéis.
+É mais natural enxergar os papéis como perfis. O papel **Administrador** na verdade mapeia um perfil de utilização do sistema, ou seja, um tipo de atuação que agrupa permissões diversas para uma série de funcionalidades. Da mesma forma ocorre com o papel **Servidor**. Há muitas situações onde os papéis são usados no PJe como liberação de permissões específicas, e não um agrupamento de permissões. A esses papéis, em geral, não se vincula o cadastro de pessoas. A vinculação é por meio da hierarquia de papéis, ou seja, papéis vinculados a outros papéis.
 
 É importante avaliar a estrutura de papéis de sua aplicação para assegurar que os papéis principais do sistema não herdem funcionalidades uns dos outros. Em outras palavras, por exemplo, servidores não podem ficar "abaixo" de magistrados na hierarquia de papéis, nem tampouco isso pode acontecer com advogados etc. Na estrutura de papéis, deve-se ficar com uma árvore parecida com a seguinte: 
 
