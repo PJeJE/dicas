@@ -39,7 +39,7 @@ A redefinição de papéis sem a correspondente revisão das raias pode levar à
         Oficial de justiça distribuidor
             Oficial de justiça 
 
-Outro caso concreto de situações que não devem ocorrer é, por exemplo:
+Outro caso concreto de situações que não devem ocorrer é:
  - o papel assessor-chefe é detentor do papel que permite a ele visualizar processos sigilosos
  - o papel assessor também é detentor do papel que permite a ele visualizar processos sigilosos
  - o papel assessor-chefe é detentor do papel assessor
