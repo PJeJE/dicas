@@ -10,6 +10,11 @@ weight: 1
 
 Para isso, no primeiro grau, o servidor de cada zona deverá definir qual modelo de documento será utilizado na geração da certidão.
 
+{{% notice note %}}
+Os modelos que já estão cadastrados podem ser recuperados por meio da funcionalidade **Configuração - Documento - Modelo de documento**. QUALQUER modelo disponível pode ter seu identificador utilizado para gerar a certidão (campo Id na lista de modelos da referida funcionalidade), desde que a tradução das variáveis seja possível.
+{{% /notice %}}
+
+
 A partir das tarefas **Analisar Novo Processo - ZE**, **Analisar Processo** ou **Analisar Determinações**, o usuário pode selecionar a transição **Gerar certidão genérica**. 
 
 Caso nenhum modelo tenha sido definido, o sistema encaminhará o processo para a tarefa **Informar identificador do modelo de certidão**. Ele será apresentado a uma tela que conterá um campo onde ele deve informar o identificador de um modelo de documento válido. Ele deve informar um identificador, selecionar o botão **Salvar** e, após finalizado, selecionar a transição **Confirmar**. Ele pode também desistir de gerar a certidão, selecionando **Cancelar**. 
