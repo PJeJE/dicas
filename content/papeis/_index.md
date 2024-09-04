@@ -8,7 +8,7 @@ pre = "<b>12. </b>"
 
 ### Seção 12
 
-O controle de acesso no PJe utiliza o cadastro de pessoas, suas localizações e dois outros conceitos: o de papéis e o de recursos. Por recursos, entenda-se as funcionalidades acessíveis dentro do PJe. São, basicamente, itens de menu. Essas funcionalidades podem ser agrupadas em papéis criados pelo próprio usuário, como um conjunto de funcionalidades. Os papéis, por sua vez, podem conter outros papéis, criando uma hierarquia de papéis. 
+O controle de acesso no PJe utiliza o cadastro de pessoas, suas localizações e dois outros conceitos: o de papéis e o de recursos. Por recursos, entenda-se as funcionalidades acessíveis dentro do PJe. São, basicamente, itens de menu. Essas funcionalidades podem ser agrupadas em papéis criados pelo próprio usuário, como um conjunto de funcionalidades. Os papéis, por sua vez, podem conter outros papéis. 
 
 A partir desses elementos, o PJe limita a visão de funcionalidades disponibilizadas ao usuário, reduzindo ou ampliando os menus e as opções disponíveis nos menus. Também limita a visualização de objetos, restringindo o acesso a essas edições. A criação de papéis e sua associação a usuários é livre ao administrador, mas esse tipo de modificação deve ser cuidadosamente planejada a fim de evitar desvios de segurança e integridade das informações. De igual modo, a criação de papéis deve ser acompanhada por uma revisão das definição das raias nos fluxos de negócio, ou seja, a definição das tarefas às quais o usuário pode acessar.
 
@@ -19,7 +19,7 @@ A redefinição de papéis sem a correspondente revisão das raias pode levar à
 
 **Papéis e perfis**
 
-É mais natural visualizar os papéis como perfis. Ou seja, o papel **Administrador** na verdade mapeia um perfil de utilização do sistema, ou seja, um tipo de atuação que agrupa permissões diversas para uma série de funcionalidades. Da mesma forma ocorre com o papel **Servidor**. Há muitas situações onde os papéis são usados no PJe como liberação de permissões específicas, e não um agrupamento de permissões. A esses papéis, em geral, não se vincula o cadastro de pessoas. A vinculação é por meio da hierarquia de papéis, ou seja, papéis vinculados a outros papéis.
+É mais natural visualizar os papéis como perfis. O papel **Administrador** na verdade mapeia um perfil de utilização do sistema, ou seja, um tipo de atuação que agrupa permissões diversas para uma série de funcionalidades. Da mesma forma ocorre com o papel **Servidor**. Há muitas situações onde os papéis são usados no PJe como liberação de permissões específicas, e não um agrupamento de permissões. A esses papéis, em geral, não se vincula o cadastro de pessoas. A vinculação é por meio da hierarquia de papéis, ou seja, papéis vinculados a outros papéis.
 
 É importante avaliar a estrutura de papéis de sua aplicação para assegurar que os papéis principais do sistema não herdem funcionalidades uns dos outros. Em outras palavras, por exemplo, servidores não podem ficar "abaixo" de magistrados na hierarquia de papéis, nem tampouco isso pode acontecer com advogados etc. Na estrutura de papéis, deve-se ficar com uma árvore parecida com a seguinte: 
 
