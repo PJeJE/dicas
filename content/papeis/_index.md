@@ -139,7 +139,7 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
 - **pje:relacaoJulgamento:permiteRemoverProcessoPautaFechada**:
   - Papel que permite remover processo da relação de julgamento quando a pauta já está fechada
    
-	
+<!--	
 	/pages/Processo/RetificacaoAutuacao/updateRetificacaoAutuacao.seam
 	pje:papel:visualizaSituacoesAtuais
 	pje:processo:fluxo:deflagrar:digitalizacao
@@ -178,7 +178,7 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
 	pje:sessao:permiteDesvincularVoto
 	pje:papel:procuradorJE
 
-<!--
+
 	
 	  Papel a ser herdado pelos papeis com função de alteração dos movimentos do processo em uma instalação do PJe.
 	 
