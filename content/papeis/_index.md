@@ -100,43 +100,43 @@ Pode-se realizar a liberação de itens de menu a perfis pela movimentação dos
 **Papéis existentes:**
 
 Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específicos se cadastrados no PJe
-- **pje:sistema**:
+- **pje:sistema**
   - Papel utilizado para vincular ações que sejam realizadas de forma automática
    
-- **pje:administrador**:
+- **pje:administrador**
   - Papel a ser herdado pelos papéis com função de administração em uma instalação do PJe.
  
-- **magistrado** ou **pje:magistrado**:
+- **magistrado** ou **pje:magistrado**
   - Papel a ser herdado pelos papéis com função jurisdicional em uma instalação do PJe
 
-- **pje:auxiliarInterno**:
+- **pje:auxiliarInterno**
   - Papel a ser herdado pelos papéis que atuam como servidores ou auxiliares internos em uma instalação do PJe.
 	
-- **pje:advogado** ou **advogado**:
+- **pje:advogado** ou **advogado**
   - Papel a ser herdado pelos papéis de advogado em uma instalação do PJe
 
-- **pje:assistenteAdvogado** ou **assistAdvogado**:
+- **pje:assistenteAdvogado** ou **assistAdvogado**
   - Papel a ser herdado pelos papéis de assistente de advogado em uma instalação do PJe.
  
-- **pje:perito** ou **perito**:
+- **pje:perito** ou **perito**
   - Papel a ser herdado pelos papéis de peritos em uma instalação do PJe.
 	
 - **pje:papel:podeReclassificarDocumento**:
   - Papel que permite visualizar a aba Expedientes dos autos digitais
 	
-- **pje:visualizaAbaAssociados**:
+- **pje:visualizaAbaAssociados**
   - Papel que permite visualizar a aba Associados dos autos digitais
  
-- **pje:visualizaAbaAssociados260CE**:
+- **pje:visualizaAbaAssociados260CE**
   - Papel que permite visualizar a aba Associados 260 dos autos digitais
 	
-- **pje:processoPublicarSessao**:
+- **pje:processoPublicarSessao**
   - Papel da JE que permite publicar decições na publicação em sessão
 
-- **pje:processoGravarSessaoPublicacao**:
+- **pje:processoGravarSessaoPublicacao**
   - Papel da JE para atribuir a funcionalidade de gravar decisoes para publicação em sessão
    
-- **pje:relacaoJulgamento:permiteRemoverProcessoPautaFechada**:
+- **pje:relacaoJulgamento:permiteRemoverProcessoPautaFechada**
   - Papel que permite remover processo da relação de julgamento quando a pauta já está fechada
    
 <!--	
