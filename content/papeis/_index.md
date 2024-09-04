@@ -99,7 +99,7 @@ Pode-se realizar a liberação de itens de menu a perfis pela movimentação dos
 
 **Papéis existentes:**
 
-O identificador do modelo de documento selecionado será gravado em um parâmetro do sistema denominado 
+Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específicos se cadastrados no PJe
 - **pje:sistema**:
   - Papel utilizado para vincular ações que sejam realizadas de forma automática
 
