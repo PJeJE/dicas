@@ -62,11 +62,17 @@ Uma vez cadastrado o papel, a tela de configuração exibe, entre outras informa
 - Herdeiros
 - Recursos
 
-A aba Papéis exibe dois quadros: 
+A aba **Papéis** exibe dois quadros: 
 - uma lista do lado esquerdo contendo todos os papéis no sistema que não cedem permissão para o papel atual
 - uma lista do lado direito contendo todos os papéis cadastrados no sistema que cedem permissão para o papel atual
 
 Com essa configuração, pode-se configurar outros papeis cujas permissões serão aproveitadas pelo papel atual. 
+
+A aba **Herdeiros** exibe dois quadros: 
+- uma lista do lado esquerdo contendo todos os papéis no sistema para os quais o papel atual não cede permissão
+- uma lista do lado direito contendo todos os papéis cadastrados no sistema para os quais o papel atual cede permissão
+
+Com configurações realizadas nessas abas se realiza a hierarquia de papéis, ou seja, papeis cujas permissões serão aproveitadas por outros papéis. 
 
 Caso concreto onde se deseja cadastrar o papel **pje:papel:administrarAutuacao** ao **Administrador** 
 
@@ -77,6 +83,9 @@ Caso concreto onde se deseja cadastrar o papel **pje:papel:administrarAutuacao**
         Se o usuário cadastrar o **Administrador** na aba **Herdeiros**, o sistema não se comportará como se deseja.
         Nesse caso, o papel **pje:papel:administrarAutuacao**, que não deve ser vinculado a perfil algum, será detentor de todas as permissões do **Administrador**, o que não é correto.
         
+A aba **Recursos** exibe dois quadros: 
+- uma lista do lado esquerdo contendo todos os recursos do sistema aos quais o papel atual não tem acesso
+- uma lista do lado direito contendo todos os recursos do sistema aos quais o papel atual tem acesso
 
 **Instruções para cadastro de funcionalidades e suas vinculações:**
 
