@@ -138,6 +138,14 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
    
 - **pje:relacaoJulgamento:permiteRemoverProcessoPautaFechada**
   - Papel que permite remover processo da relação de julgamento quando a pauta já está fechada
+
+- **pje:processo:objeto:editor**
+  - Papel que permite editar o objeto do processo
+ 
+- **pje:processo:objeto:visualizador**
+  - Papel que visualizar o objeto do processo
+ 
+  
    
 <!--	
 	/pages/Processo/RetificacaoAutuacao/updateRetificacaoAutuacao.seam
@@ -145,7 +153,7 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
 	pje:processo:fluxo:deflagrar:digitalizacao
 	pje:papel:visualizaPartesExcluidas
 	pje:papel:visualizaSituacoes
-	pje:processo:objeto:editor
+	
 	pje:processo:visualizaPeticionamentoAvulso
 	pje:papel:manipulaSubstituicaoMagistrado
 	pje:papel:visualizaMagistradosAssociadosProcesso
@@ -376,9 +384,7 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
 	public static final String PUSH = "UsuPush";
 	
 	
-	 * Papel de Processo Objeto Visualizador
 	 
-	public static final String PROCESSO_OBJETO_VISUALIZADOR = "pje:processo:objeto:visualizador";
 	
 	
 	 * Papel de Diretor de Secretaria
