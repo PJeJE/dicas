@@ -49,24 +49,22 @@ Essa situação faz com que, ao salvar novos papeis vinculados ao papel assessor
 Independente de cadastros equivocados, a alteração de papéis é sempre uma atividade demorada para o sistema. Em algumas vezes, pode acontecer de o sistema "desistir" de finalizar devido ao tempo máximo de espera para uma operação ter sido atingido. Não é desejável aumentar esse tempo então, caso isso ocorra, abra um chamado para que a TI realize a vinculação desejada diretamente por meio de scripts de banco de dados, reportando as evidências de impossibilidade da vinculação por meio da aplicação.
 
 {{% notice note %}}
-Ao vincular um novo papel a um papel já existente, a alteração só terá efeito após o usuário sair e entrar novamente da aplicação. Se você é Administrador e vinculou um novo papel ao papel Administrador, acione o botão "Sair" do PJe para que consiga fazer sua identificação (login) novamente e, aí sim, verificar os efeitos do novo papel adicionado.
+Ao vincular um novo papel a um papel já existente, a alteração só terá efeito após o usuário sair e entrar novamente na aplicação. Se você é **Administrador** e vinculou um novo papel ao papel **Administrador**, acione o botão **Sair** do PJe para que consiga fazer sua identificação (login) novamente e, aí sim, verificar os efeitos do novo papel adicionado.
 {{% /notice %}}
 
 **Instruções para cadastro de papéis e suas vinculações:**
 
-O cadastro de papeis é realizado por meio da opção **Configuração - Controle de acesso - Papéis**. Por meio da aba Formulário, o usuário coloca o **Identificador** do papel e o **Nome*. Para papéis que liberam acessos específicos no PJe, o campo **Identificador** deve ser preenchido com o nome do papel exatamente como deve ser utilizado, com respeito às letras maiúsculas e minúsculas. Já o campo **Nome** servirá para facilitar a visualização do próprio usuário a respeito do significado do papel ou da visualização do perfil que o usuário está vinculado.
+O cadastro de papéis é realizado por meio da opção **Configuração - Controle de acesso - Papéis**. Na aba Formulário, o usuário informa o **Identificador** do papel e o **Nome**. Para papéis que liberam acessos específicos no PJe, o campo **Identificador** deve ser preenchido com o nome do papel exatamente como deve ser utilizado, com respeito às letras maiúsculas e minúsculas. Já o campo **Nome** servirá para facilitar a visualização do próprio usuário sobre o significado do papel ou da visualização do perfil ao qual o usuário está vinculado.
 
 Uma vez cadastrado o papel, a tela de configuração exibe, entre outras informações, as seguintes abas que merecem atenção:
 
-- Papeis
+- Papéis
 - Herdeiros
 - Recursos
 
 A aba **Papéis** exibe dois quadros: 
-- uma lista do lado esquerdo contendo todos os papéis no sistema que não cedem permissão para o papel atual
-- uma lista do lado direito contendo todos os papéis cadastrados no sistema que cedem permissão para o papel atual
-
-Com essa configuração, pode-se configurar outros papeis cujas permissões serão aproveitadas pelo papel atual. 
+- uma lista do lado esquerdo contendo todos os papéis no sistema que não cedem permissão ao papel atual
+- uma lista do lado direito contendo todos os papéis cadastrados no sistema que cedem permissão ao papel atual
 
 A aba **Herdeiros** exibe dois quadros: 
 - uma lista do lado esquerdo contendo todos os papéis no sistema para os quais o papel atual não cede permissão
@@ -74,7 +72,7 @@ A aba **Herdeiros** exibe dois quadros:
 
 Com configurações realizadas nessas abas se realiza a hierarquia de papéis, ou seja, papeis cujas permissões serão aproveitadas por outros papéis. 
 
-Caso concreto onde se deseja cadastrar o papel **pje:papel:administrarAutuacao** ao **Administrador** 
+Caso concreto onde se deseja cadastrar o papel **pje:papel:administrarAutuacao** ao **Administrador**: 
 
     Caso o usuário esteja no cadastro do papel **pje:papel:administrarAutuacao**, ele deve selecionar a aba **Herdeiros** e vincular o papel **Administrador** na lista **Papéis para os quais cede permissões**.
         Se o usuário cadastrar o **Administrador** na aba **Papeis**, o sistema não se comportará como se deseja.
