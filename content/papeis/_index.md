@@ -16,6 +16,11 @@ A partir desses elementos, o PJe limita a visão de funcionalidades disponibiliz
 A redefinição de papéis sem a correspondente revisão das raias pode levar à impressão de que os processos pendentes de tarefas “desapareceram”, já que o usuário que utilizar o novo papel não verá processos pendentes na sua caixa de tarefas. 
 {{% /notice %}}
 
+
+**Papéis e perfis**
+
+É mais natural visualizar os papéis como perfis. Ou seja, o papel **Administrador** na verdade mapeia um perfil de utilização do sistema, ou seja, um tipo de atuação que agrupa permissões diversas para uma série de funcionalidades. Da mesma forma ocorre com o papel **Servidor**. Há muitas situações onde os papéis são usados no PJe como liberação de permissões específicas, e não um agrupamento de permissões. A esses papéis, em geral, não se vincula o cadastro de pessoas. A vinculação é por meio da hierarquia de papéis, ou seja, papéis vinculados a outros papéis.
+
 É importante avaliar a estrutura de papéis de sua aplicação para assegurar que os papéis principais do sistema não herdem funcionalidades uns dos outros. Em outras palavras, por exemplo, servidores não podem ficar "abaixo" de magistrados na hierarquia de papéis, nem tampouco isso pode acontecer com advogados etc. Na estrutura de papéis, deve-se ficar com uma árvore parecida com a seguinte: 
 
     Administrador (raiz)
@@ -39,12 +44,12 @@ Outro caso concreto de situações que não devem ocorrer é, por exemplo:
  - o papel assessor também é detentor do papel que permite a ele visualizar processos sigilosos
  - o papel assessor-chefe é detentor do papel assessor
 
-Essa situação faz com que, ao salvar novos papeis vinculados ao papel assessor-chefe ou ao papel assessor ou ainda a alguma papel acima na sua hierarquia, o sistema tente fazer referências a todos os papéis da hierarquia e entre em uma referência cíclica, impedindo a finalizadação do cadastro.
+Essa situação faz com que, ao salvar novos papeis vinculados ao papel assessor-chefe ou ao papel assessor ou ainda a alguma papel acima na sua hierarquia, o sistema tente fazer referências a todos os papéis da hierarquia e entre em uma referência cíclica, impedindo a finalização do cadastro.
 
 Independente de cadastros equivocados, a alteração de papéis é sempre uma atividade demorada para o sistema. Em algumas vezes, pode acontecer de o sistema desistir de finalizar devido ao tempo máximo de espera para uma operação ter sido atingido. Não é desejável aumentar esse tempo então, caso isso ocorra, abra um chamado para que a TI realize a vinculação desejada direto no banco de dados.
 
 {{% notice note %}}
-Ao vincular um novo papel a um perfil já existente, a alteração só terá efeito após o usuário sair e entrar novamente da aplicação. Se você é Administrador e vinculou um novo papel ao perfil Administrador, acione o botão "Sair" do PJe para que consiga fazer sua identificação (login) novamente e, aí sim, verificar os efeitos do novo papel adicionado.
+Ao vincular um novo papel a um papel já existente, a alteração só terá efeito após o usuário sair e entrar novamente da aplicação. Se você é Administrador e vinculou um novo papel ao papel Administrador, acione o botão "Sair" do PJe para que consiga fazer sua identificação (login) novamente e, aí sim, verificar os efeitos do novo papel adicionado.
 {{% /notice %}}
 
 **Instruções para cadastro de papéis e suas vinculações:**
@@ -63,9 +68,19 @@ A aba Papéis exibe dois quadros:
 
 Com essa configuração, pode-se configurar outros papeis cujas permissões serão aproveitadas pelo papel atual. 
 
+Caso concreto onde se deseja cadastrar o papel **pje:papel:administrarAutuacao** ao **Administrador** 
+
+    Caso o usuário esteja no cadastro do papel **pje:papel:administrarAutuacao**, ele deve selecionar a aba **Herdeiros** e vincular o papel **Administrador** na lista **Papéis para os quais cede permissões**.
+        Se o usuário cadastrar o **Administrador** na aba **Papeis**, o sistema não se comportará como se deseja.
+        Nesse caso, o papel **pje:papel:administrarAutuacao**, que não deve ser vinculado a perfil algum, será detentor de todas as permissões do **Administrador**, o que não é correto.
+    Caso o usuário esteja no cadastro do papel **Administrador**, ele deve selecionar a aba **Papéis** e vincular o papel **pje:papel:administrarAutuacao** na lista **Papéis dos quais recebe permissões**.
+        Se o usuário cadastrar o **Administrador** na aba **Herdeiros**, o sistema não se comportará como se deseja.
+        Nesse caso, o papel **pje:papel:administrarAutuacao**, que não deve ser vinculado a perfil algum, será detentor de todas as permissões do **Administrador**, o que não é correto.
+        
+
 **Instruções para cadastro de funcionalidades e suas vinculações:**
 
-O cadastro de recursos/funcionalidades é realizado por meio da opção **Configuração - Controle de acesso - Funcionalidades**. Por meio da aba Formulário, o usuário coloca o **Identificador** do funcionalidade e o **Nome*. O campo **Identificador** deve ser preenchido com o nome do recurso exatamente como deve ser utilizado, com respeito às letras maiúsculas e minúsculas. Já o campo **Nome** servirá para que o item de menu seja exibido conforme o cadastro, salvo alguns itens que já vêm com o nome padrão dentro do próprio PJe.
+O cadastro de recursos/funcionalidades é realizado por meio da opção **Configuração - Controle de acesso - Funcionalidades**. Por meio da aba Formulário, o usuário coloca o **Identificador** do funcionalidade e o **Nome*. O campo **Identificador** deve ser preenchido com o nome do recurso exatamente como deve ser utilizado, com respeito às letras maiúsculas e minúsculas. Já o campo **Nome** servirá para que o item de menu seja exibido conforme o cadastro, salvo alguns itens que já vêm com o nome estabelecido pela própria versão de produção do PJe.
 
 
 **Papéis existentes:**
