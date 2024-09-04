@@ -44,7 +44,7 @@ Um caso concreto de situações que não devem ocorrer é:
  - o papel assessor também é detentor do papel que permite a ele visualizar processos sigilosos
  - o papel assessor-chefe é detentor do papel assessor
 
-Essa situação faz com que, ao salvar novos papeis vinculados ao papel assessor-chefe ou ao papel assessor ou ainda a alguma papel acima na sua hierarquia, o sistema tente fazer referências a todos os papéis da hierarquia e entre em uma referência cíclica, impedindo a finalização do cadastro.
+Essa situação faz com que, ao salvar novos papéis vinculados ao papel assessor-chefe ou ao papel assessor ou ainda a alguma papel acima na sua hierarquia, o sistema tente fazer referências a todos os papéis da hierarquia e entre em uma referência cíclica, impedindo a finalização do cadastro.
 
 Independente de cadastros equivocados, a alteração de papéis é sempre uma atividade demorada para o sistema. Em algumas vezes, pode acontecer de o sistema "desistir" de finalizar devido ao tempo máximo de espera para uma operação ter sido atingido. Não é desejável aumentar esse tempo então, caso isso ocorra, abra um chamado para que a TI realize a vinculação desejada diretamente por meio de scripts de banco de dados, reportando as evidências de impossibilidade da vinculação por meio da aplicação.
 
