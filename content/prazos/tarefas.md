@@ -6,11 +6,11 @@ weight: 2
 
 As intimações são realizadas no PJe por meio de tarefas específicas onde o usuário informa as pessoas, os meios, os prazos e o conteúdo da intimação. 
 
-Após realizada, o sistema encaminha o processo para uma tarefa de controle de prazos, para sinalizar ao servidor que existem prazos correndo naquele processo. O nome da tarefa pode conter outros termos no final para diferenciar o controle de prazos de instâncias/situações específicas mas, via de regra, a tarefa é denominada **Processo com prazo em curso**.
+Após realizada a intimação, o sistema encaminha o processo para uma tarefa de controle de prazos, para sinalizar ao servidor que existem prazos correndo naquele processo. O nome da tarefa pode conter outros termos no final para diferenciar o controle de prazos de instâncias/situações específicas mas, via de regra, a tarefa é denominada **Processo com prazo em curso**.
 
 O servidor pode atuar no processo por meio da transição **Verificar existência de outros pendentes**, o que fará com que um teste de expedientes abertos seja realizado. Caso não haja expediente aberto, o sistema finalizará o controle de prazos e encaminhará o processo para a respectiva tarefa de secretaria/cartório.
 
-Caso haja alguma expediente aberto, o sistema encaminharáo processo para a tarefa **Analisar resposta do expediente**, permitindo ao servidor selecionar a transição **Ignorar demais expedientes abertos**, finalizando o controle de prazos e encaminhando o processo para a respectiva tarefa de secretaria/cartório. 
+Caso haja alguma expediente aberto, o sistema encaminharáo processo para a tarefa **Analisar resposta do expediente**, permitindo ao servidor selecionar a transição **Ignorar demais expedientes abertos**, finalizando o controle de prazos e encaminhando o processo para a respectiva tarefa de secretaria/cartório. Esse procedimento é utilizado quando o servidor precisa realizar alguma atividade no processo enquanto os prazos estão correndo.
 
 {{% notice note %}}
 As tarefas de controle de prazos são **Processo com prazo em curso** ou **Analisar resposta do expediente**. 
