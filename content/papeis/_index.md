@@ -46,7 +46,7 @@ Outro caso concreto de situações que não devem ocorrer é:
 
 Essa situação faz com que, ao salvar novos papeis vinculados ao papel assessor-chefe ou ao papel assessor ou ainda a alguma papel acima na sua hierarquia, o sistema tente fazer referências a todos os papéis da hierarquia e entre em uma referência cíclica, impedindo a finalização do cadastro.
 
-Independente de cadastros equivocados, a alteração de papéis é sempre uma atividade demorada para o sistema. Em algumas vezes, pode acontecer de o sistema desistir de finalizar devido ao tempo máximo de espera para uma operação ter sido atingido. Não é desejável aumentar esse tempo então, caso isso ocorra, abra um chamado para que a TI realize a vinculação desejada direto no banco de dados.
+Independente de cadastros equivocados, a alteração de papéis é sempre uma atividade demorada para o sistema. Em algumas vezes, pode acontecer de o sistema "desistir" de finalizar devido ao tempo máximo de espera para uma operação ter sido atingido. Não é desejável aumentar esse tempo então, caso isso ocorra, abra um chamado para que a TI realize a vinculação desejada diretamente por meio de scripts de banco de dados, reportando as evidências de impossibilidade da vinculação por meio da aplicação.
 
 {{% notice note %}}
 Ao vincular um novo papel a um papel já existente, a alteração só terá efeito após o usuário sair e entrar novamente da aplicação. Se você é Administrador e vinculou um novo papel ao papel Administrador, acione o botão "Sair" do PJe para que consiga fazer sua identificação (login) novamente e, aí sim, verificar os efeitos do novo papel adicionado.
