@@ -103,7 +103,19 @@ Pode-se realizar a liberação de itens de menu a perfis pela movimentação dos
 
 **Vinculação de perfis**
 
-Alguns papéis no PJe são, como já falado mais acima, perfis de utilização, ou seja, agrupam um conjunto de recursos e permissões. Muitas vezes, o cadastro desses perfis será pela própria opção que sinaliza o nome do perfil, ou seja, se o objetivo é cadastrar um magistrado, o cadastro será por **Configuração - Pessoa - Magistrado**, se o objetivo é cadastrar um perito, o cadastro será por **Configuração - Pessoa - Perito**, se o objetivo é cadastrar um procurador, o cadastro será por **Configuração - Pessoa - Procurador**. Já para vincular perfis específicos de servidores, o cadastro será por meio da opção **Configuração - Pessoa - Servidor**. Por meio dessa opção, o cadastro deve ser realizado e, posteriormente, a atribuição de papéis/perfis, juntamente com a localização onde o servidor atuará, deve ser realizada pela aba **Localização**, exibida para servidores ativos. A exibição das opções dessa aba, ou seja, lista **Órgão julgador colegiado** (só para instâncias que não seja primeiro grau), lista **Órgão julgador**, **Localização física** e **Papel** estão relacionadas ao perfil utilizado pelo usuário cadastrador. Por exemplo, se o usuário cadastrador está vinculado a um órgão julgador colegiado específico, a lista **Órgão julgador colegiado** aparecerá desabilitada para edição com o órgão do usuário cadastrador previamente selecionado. Caso o usuário não seja vinculado a órgão julgador colegiado, o sistema recuperará os colegiados disponíveis naquela instalação que estejam abaixo da localização atual do usuário cadastrador na hierarquia de localizações. Se não houver colegiado com essa característica, a opção ficará desabilitada. 
+Alguns papéis no PJe são, como já falado mais acima, perfis de utilização, ou seja, agrupam um conjunto de recursos e permissões. Muitas vezes, o cadastro desses perfis será pela própria opção que sinaliza o nome do perfil, ou seja, se o objetivo é cadastrar um magistrado, o cadastro será por **Configuração - Pessoa - Magistrado**, se o objetivo é cadastrar um perito, o cadastro será por **Configuração - Pessoa - Perito**, se o objetivo é cadastrar um procurador, o cadastro será por **Configuração - Pessoa - Procurador**. 
+
+Já para vincular perfis específicos de servidores, o cadastro será por meio da opção **Configuração - Pessoa - Servidor**. Por meio dessa opção, o cadastro deve ser realizado e, posteriormente, a atribuição de papéis/perfis, juntamente com a localização onde o servidor atuará, deve ser realizada pela aba **Localização**, exibida para servidores ativos. 
+
+A exibição das opções dessa aba, ou seja, lista **Órgão julgador colegiado** (só para instâncias que não seja primeiro grau), lista **Órgão julgador**, **Localização física** e **Papel** estão relacionadas ao perfil utilizado pelo usuário cadastrador. Por exemplo, se o usuário cadastrador está vinculado a um órgão julgador colegiado específico, a lista **Órgão julgador colegiado** aparecerá desabilitada para edição com o órgão do usuário cadastrador previamente selecionado. Caso o usuário não seja vinculado a órgão julgador colegiado, o sistema recuperará os colegiados disponíveis naquela instalação que estejam abaixo da localização atual do usuário cadastrador na hierarquia de localizações. Se não houver colegiado com essa característica, a opção ficará desabilitada. 
+
+A exibição da lista **Órgão julgador** depende, a exemplo da lista **Órgão julgador colegiado**, do perfil do usuário cadastrador e da opção selecionada em **Órgão julgador colegiado**. Segue a mesma regra acima, ou seja, obedece à hierarquia de localizações. 
+
+A exibição da lista **Localização** depende, conforme listas descritas acima, do perfil do usuário cadastrador e da(s) opção(ões) selecionada(s) em **Órgão julgador colegiado** e em **Órgão julgador**. Segue a mesma regra acima, ou seja, obedece à hierarquia de localizações. 
+
+A exibição do campo **Modelo de localização** depende da **Localização** selecionada. Caso a **Localização** selecionada não tenha filhos na sua estrutura modelo, essa opção virá preenchida e desabilitada. Caso tenha filhos, o usuário poderá selecionar dentre as localizações modelo disponíveis na estrutura filha da localização física preenchida. 
+
+A exibição do campo **Papel** depende do perfil do usuário cadastrador. Toda a hierarquia de papéis será exibida caso o usuário tenha um dos perfis a seguir: **admin**, **administrador**, **pje:administrador**, **pje:papel:permissaoCadastroUsuarioTodosPapeis** ou um perfil que herde este último. Caso contrário, será exibida a hierarquia de papéis filha do papel do usuário cadastrador. 
 
 
 **Papéis existentes:**
@@ -112,7 +124,7 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
 - **pje:sistema**
   - Papel utilizado para vincular ações que sejam realizadas de forma automática
    
-- **pje:administrador**
+- **pje:administrador** ou **admin** ou **administrador**
   - Papel a ser herdado pelos papéis com função de administração em uma instalação do PJe.
  
 - **magistrado** ou **pje:magistrado**
