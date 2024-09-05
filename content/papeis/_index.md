@@ -101,6 +101,11 @@ Uma vez cadastrado o recurso/funcionalidade, a tela de configuração exibe a ab
   
 Pode-se realizar a liberação de itens de menu a perfis pela movimentação dos itens entre os dois quadros.
 
+**Vinculação de perfis**
+
+Alguns papéis no PJe são, como já falado mais acima, perfis de utilização, ou seja, agrupam um conjunto de recursos e permissões. Muitas vezes, o cadastro desses perfis será pela própria opção que sinaliza o nome do perfil, ou seja, se o objetivo é cadastrar um magistrado, o cadastro será por **Configuração - Pessoa - Magistrado**, se o objetivo é cadastrar um perito, o cadastro será por **Configuração - Pessoa - Perito*, se o objetivo é cadastrar um procurador, o cadastro será por **Configuração - Pessoa - Procurador**. Já para vincular perfis específicos de servidores, o cadastro será por meio da opção **Configuração - Pessoa - Servidor**. Por meio dessa opção, o cadastro deve ser realizado e, posteriormente, a atribuição de papéis/perfis, juntamente com a localização onde o servidor atuará, deve ser realizada pela aba **Localização**. A exibição das opções dessa aba, ou seja, lista **Órgão julgador colegiado** (só para instâncias que não seja primeiro grau), lista **Órgão julgador**, **Localização física** e **Papel** estão relacionadas ao perfil utilizado pelo usuário cadastrador.
+
+
 **Papéis existentes:**
 
 Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específicos se cadastrados no PJe
@@ -149,7 +154,9 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
 - **pje:processo:objeto:visualizador**
   - Papel que visualizar o objeto do processo
  
-  
+- **/OrgaoJulgador/abaCompetencia**
+  - Papel que exibe a aba Competência na configuração do Órgão julgador
+
    
 <!--	
 	/pages/Processo/RetificacaoAutuacao/updateRetificacaoAutuacao.seam
