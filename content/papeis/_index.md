@@ -78,12 +78,12 @@ Com configurações realizadas nessas abas se realiza a hierarquia de papéis, o
 
 Caso concreto onde se deseja cadastrar o papel **pje:papel:administrarAutuacao** ao **Administrador**: 
 
-    Caso o usuário esteja no cadastro do papel **pje:papel:administrarAutuacao**, ele deve selecionar a aba **Herdeiros** e vincular o papel **Administrador** na lista **Papéis para os quais cede permissões**.
-        Se o usuário cadastrar o **Administrador** na aba **Papeis**, o sistema não se comportará como se deseja.
-        Nesse caso, o papel **pje:papel:administrarAutuacao**, que não deve ser vinculado a perfil algum, será detentor de todas as permissões do **Administrador**, o que não é correto.
-    Caso o usuário esteja no cadastro do papel **Administrador**, ele deve selecionar a aba **Papéis** e vincular o papel **pje:papel:administrarAutuacao** na lista **Papéis dos quais recebe permissões**.
-        Se o usuário cadastrar o **Administrador** na aba **Herdeiros**, o sistema não se comportará como se deseja.
-        Nesse caso, o papel **pje:papel:administrarAutuacao**, que não deve ser vinculado a perfil algum, será detentor de todas as permissões do **Administrador**, o que não é correto.
+    Caso o usuário esteja no cadastro do papel pje:papel:administrarAutuacao, ele deve selecionar a aba Herdeiros e vincular o papel Administrador na lista Papéis para os quais cede permissões.
+        Se o usuário cadastrar o Administrador na aba Papeis, o sistema não se comportará como se deseja.
+        Nesse caso, o papel pje:papel:administrarAutuacao, que não deve ser vinculado a perfil algum, será detentor de todas as permissões do Administrador, o que não é correto.
+    Caso o usuário esteja no cadastro do papel Administrador, ele deve selecionar a aba Papéis e vincular o papel pje:papel:administrarAutuacao na lista Papéis dos quais recebe permissões.
+        Se o usuário cadastrar o Administrador na aba Herdeiros, o sistema não se comportará como se deseja.
+        Nesse caso, o papel pje:papel:administrarAutuacao, que não deve ser vinculado a perfil algum, será detentor de todas as permissões do Administrador, o que não é correto.
         
 A aba **Recursos** exibe dois quadros: 
 - uma lista do lado esquerdo contendo todos os recursos do sistema aos quais o papel atual não tem acesso
