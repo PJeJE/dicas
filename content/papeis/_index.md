@@ -107,7 +107,7 @@ https://pje.tre-go.jus.br/pje/Push/listView.seam
 Para esse exemplo, a pesquisa pelo campo **Identificador** da opção **Configuração - Controle de acesso - Funcionalidades** deve ser feita com o termo **pages/Push/listView.seam**. O sistema retornará o recurso vinculado ao item de menu correspondente e o usuário poderá acrescentar/retirar papéis para o acesso a funcionalidade.
 
 {{% notice note %}}
-O acesso a tarefas, via de regra, é liberado por meio de alterações do fluxo, sem a necessidade do cadastro de recursos, salvo permissões específicas dentro de algumas tarefas. O usuário precisa, sim, ter acesso ao painel do usuário por meio do cadastro do recurso do painel, mas essa permissão já está disponível em todas as bases de produção da Justiça Eleitoral para os perfis de servidor. 
+O acesso a tarefas, via de regra, é liberado por meio de alterações do fluxo, sem a necessidade do cadastro de recursos, salvo permissões específicas dentro de algumas tarefas. Além do papel vinculado às respectivas raias de fluxo, o usuário precisa, sim, ter acesso ao painel do usuário por meio do cadastro do recurso do painel, mas essa permissão já está disponível em todas as bases de produção da Justiça Eleitoral para os perfis de servidor. 
 {{% /notice %}}
 
 
