@@ -100,7 +100,7 @@ Uma vez cadastrado o recurso/funcionalidade, a tela de configuração exibe a ab
 - uma lista contendo todos os papéis do sistema que acessam a funcionalidade
   
 Pode-se realizar a liberação de itens de menu a perfis pela movimentação dos itens entre os dois quadros.
-Para melhor identificar qual recurso se deseja acrescentar a um determinado perfil, acesse a tela como Administrador e observe no campo disponível para digitar a URL do seu navegador o que está escrito. Por exemplo, a opção "Processo - Outras ações - Incluir no push", ao ser acessada, exibe no campo URL o seguinte:
+Para melhor identificar qual recurso se deseja acrescentar a um determinado perfil, acesse a tela como Administrador e observe no campo disponível para digitar a URL do seu navegador o que está escrito. Por exemplo, a opção **Processo - Outras ações - Incluir no push**, ao ser acessada, exibe no campo URL o seguinte:
 
 https://pje.tre-go.jus.br/pje/Push/listView.seam
 
