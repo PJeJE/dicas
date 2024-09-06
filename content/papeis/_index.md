@@ -93,7 +93,14 @@ Pode-se realizar a liberação de itens de menu a perfis pela movimentação dos
 
 **Instruções para cadastro de funcionalidades e suas vinculações:**
 
-O cadastro de recursos/funcionalidades é realizado por meio da opção **Configuração - Controle de acesso - Funcionalidades**. Por meio da aba Formulário, o usuário coloca o **Identificador** do funcionalidade e o **Nome*. O campo **Identificador** deve ser preenchido com o nome do recurso exatamente como deve ser utilizado, com respeito às letras maiúsculas e minúsculas. Já o campo **Nome** servirá para que o item de menu seja exibido conforme o cadastro, salvo alguns itens que já vêm com o nome estabelecido pela própria versão de produção do PJe.
+O cadastro de recursos/funcionalidades é realizado por meio da opção **Configuração - Controle de acesso - Funcionalidades**. Por meio da aba Formulário, o usuário coloca o **Identificador** do funcionalidade e o **Nome*. O campo **Identificador** deve ser preenchido com o nome do recurso exatamente como deve ser utilizado, com respeito às letras maiúsculas e minúsculas. Já o campo **Nome** servirá para que o item de menu seja exibido conforme o cadastro, salvo alguns itens que já vêm com o nome estabelecido pela própria versão de produção do PJe.  Para melhor identificar qual recurso se deseja acrescentar a um determinado perfil, acesse a tela como Administrador e observe no campo disponível para digitar a URL do seu navegador o que está escrito. Por exemplo, a opção "Processo - Outras ações - Incluir no push", ao ser acessada, exibe no campo URL o seguinte:
+
+https://pje.tre-go.jus.br/pje/Push/listView.seam
+
+Para esse exemplo, a pesquisa pelo campo **Identificador** da opção **Configuração - Controle de acesso - Funcionalidades** deve ser feita com o termo **pages/Push/listView.seam**. O sistema retornará o recurso vinculado ao item de menu correspondente e o usuário poderá acrescentar/retirar papéis para o acesso a funcionalidade.
+
+
+
 
 Uma vez cadastrado o recurso/funcionalidade, a tela de configuração exibe a aba **Papéis que acessam** que contém dois quadros:
 - uma lista contendo todos os papéis do sistema que não acessam a funcionalidade
