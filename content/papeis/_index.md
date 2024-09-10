@@ -76,7 +76,7 @@ A aba **Herdeiros** exibe dois quadros:
 
 Com configurações realizadas nessas abas se realiza a hierarquia de papéis, ou seja, papeis cujas permissões serão aproveitadas por outros papéis. 
 
-Caso concreto onde se deseja cadastrar o papel **pje:papel:administrarAutuacao** ao **Administrador**: 
+Caso concreto onde se deseja vincular o papel **pje:papel:administrarAutuacao** ao **Administrador**: 
 
     Caso o usuário esteja no cadastro do papel pje:papel:administrarAutuacao, ele deve selecionar a aba Herdeiros e vincular o papel Administrador na lista Papéis para os quais cede permissões.
         Se o usuário cadastrar o Administrador na aba Papeis, o sistema não se comportará como se deseja.
