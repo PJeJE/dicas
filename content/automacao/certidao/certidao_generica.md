@@ -3,7 +3,7 @@
 title: "Certidão genérica"
 date: 2024-08-27T16:33:02-03:00
 menuTitle: "Certidão genérica"
-weight: 1
+weight: 3
 ---
 
 É possível juntar, individualmente ou em lote, uma certidão genérica utilizando um modelo previamente definido. O modelo será selecionado de acordo com as necessidades do cartório/secretaria.
