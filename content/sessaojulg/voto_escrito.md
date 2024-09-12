@@ -6,11 +6,13 @@ menuTitle: "Voto escrito paralelo"
 hidden: true
 ---
 
+Há situações em que um processo é julgado em sessão apenas com o conteúdo de voto (documento) do relator do processo e do voto vencedor, podendo esses dois serem coincidentes. Em outras situações, outros gabinetes vogais proferem votos que contém observações relevantes para o acórdão, mas não fazem o documento de voto no decorrer da sessão. Ao iniciar a construção do acórdão desse processo, o servidor precisa encaminhá-lo para os vogais desses votos colocarem os conteúdos de seus votos escritos, de forma que possam compor o acórdão. Para esse fim, foi criada a possibilidade de envio do processo a mais de um gabinete ao mesmo tempo para disponibilização de documentos de votos de vogais.
+
 ## Envio para os Gabinetes
 
-A partir da tarefa "Elaborar acórdão ou resolução", uma nova opção foi criada: **Enviar para votos escritos paralelos**. Essa opção aparece somente após a liberação do voto pelo relator.
+A partir da tarefa "Elaborar acórdão ou resolução", foi criada a opção: **Enviar para votos escritos paralelos**. Essa opção aparece somente após a liberação do voto pelo relator.
 
-Ao selecionar essa opção, o processo é movimentado para a tarefa **Selecionar vogal para voto escrito parelelo**. Nesta tarefa é possível selecionar para qual vogal o processo será liberado para voto escrito:
+Ao selecionar essa opção, o processo é movimentado para a tarefa **Selecionar vogal para voto escrito paralelo**. Nesta tarefa é possível selecionar para qual vogal o processo será liberado para voto escrito:
 
 1. Selecionar o vogal na lista;
 * Clicar no botão **Salvar**;
