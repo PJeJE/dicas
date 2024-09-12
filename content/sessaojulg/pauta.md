@@ -8,7 +8,7 @@ Quem monta a sessão de julgamento é o Assessor de Plenário. Esse perfil não 
 
 Após construção de documentos da sessão e liberação do processo para inclusão em pauta, o Assessor de plenário precisa criar a sessão de julgamento, que será do tipo **Contínua** ou não, dependendo da seleção feita por meio do passo **Processo liberado para julgamento sessão presencial** ou **Processo liberado para julgamento sessão virtual** realizado pelo gabinete relator do processo.
 
-Para criar a sessão, ele deverá acessar, pelo menu **Audiências e Sessões - Cadastro de sessão de julgamento**, a tela da sessão de julgamento. Atividades de manutenção da sessão podem ser realizadas por essa tela também, como por exemplo, a alteração da data da sessão, descrita em [altera_data.md].
+Para criar a sessão, ele deverá acessar, pelo menu **Audiências e Sessões - Cadastro de sessão de julgamento**, a tela da sessão de julgamento. Atividades de manutenção da sessão podem ser realizadas por essa tela também, como por exemplo, a alteração da data da sessão, descrita [nas instruções para alterar data da sessão](alterar_data.md)
 
 Ele deve criar a sessão de julgamento com a marcação de **Contínua** ou não de acordo com sua necessidade, ou seja, contínua para virtual, não contínua para presencial, e preencher os demais campos obrigatórios. Os processos disponíveis para inclusão em pauta respeitarão essa diferença, ou seja, se o gabinete liberou para sessão presencial, o processo estará disponível para sessões não contínuas, se o gabinete liberou para sessão virtual, o processo estará disponível para sessões contínuas.
 
