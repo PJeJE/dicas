@@ -1,8 +1,10 @@
 ---
 title: "Painel do magistrado"
 date: 2022-11-29T16:30:45-03:00
-weight: 2
+weight: 3
 ---
+
+Após sessão iniciada, os magistrados podem acessar os dados da sessão e seus processos por meio do **Painel do magistrado na sessão**. 
 
 ## Orientações gerais sobre o painel do Magistrado na Sessão
 
@@ -18,11 +20,15 @@ Para cada processo, são apresentados os dados básicos, a possibilidade de aber
 
 Após selecionar a opção de voto, o sistema disponibiliza a opção **Redigir voto,** que apresentará o editor de texto permitindo inserir voto escrito.
 
+{{% notice warning %}}
+O magistrado relator pode alterar seu próprio voto pelas tarefas de construção de documentos da sessão, conforme orientações descritas para esse [procedimento](/sessaojulg/pauta). 
+{{% /notice %}}
+
 Além das opções de voto, também estão disponíveis **Enviar para pauta presencial, Registrar pedido de vista** e **Registrar impedimento ou suspeição.** Com exceção da última, estas opções, após acionadas, só poderão ser desfeitas com auxílio do Assessor de plenário, que deverá colocar o processo em julgamento novamente, se precisar desfazê-las.
 
 É válido ressaltar que, após o registro de um pedido de vista, os outros gabinetes não têm mais disponíveis as opções para retirada de julgamento ou envio para a pauta presencial. Caso a vista tenha sido lançada de forma equivocada, o Assessor de plenário deverá atuar colocando o processo em julgamento novamente.
 
 {{% notice warning %}}
-Para poder utilizar o Painel do Magistrado na Sessão antes de iniciar a sessão de julgamento, o valor do parâmetro pje:sessao:habilitarAcoesEmVotacaoAntecipada precisa ser true.
+Para poder utilizar o Painel do Magistrado na Sessão antes de iniciar a sessão de julgamento, o valor do parâmetro **pje:sessao:habilitarAcoesEmVotacaoAntecipada** precisa ser true.
 {{% /notice %}}
 
