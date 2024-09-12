@@ -6,10 +6,6 @@ menuTitle: "Voto escrito paralelo"
 hidden: true
 ---
 
-{{% notice warning %}}
-Disponível apenas no ambiente de produção do TSE.
-{{% /notice %}}
-
 ## Envio para os Gabinetes
 
 A partir da tarefa "Elaborar acórdão ou resolução", uma nova opção foi criada: **Enviar para votos escritos paralelos**. Essa opção aparece somente após a liberação do voto pelo relator.
