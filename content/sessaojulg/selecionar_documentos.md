@@ -1,9 +1,15 @@
 ---
 title: "Selecionar documentos para acórdão"
-date: 2023-01-20T16:20:20-03:00
-weight: 7
+date: 2024-09-12T14:39:20-03:00
+weight: 6
 menuTitle: "Selecionar documentos"
 ---
+
+Na justiça eleitoral, os processos, após julgamento em sessão, são encaminhadaos para tarefas de elaboração de acórdão. Muitas vezes o processo vai a julgamento novamente sem ter tido o acórdão anterior assinado. O usuário precisa poder selecionar para qual sessão será construído o acórdão. Além disso, existem situações em que foram construídos vários documentos de relatório, voto ou ementa, e o usuário precisa definir quais serão utilizados para construção daquele acórdão. Para esse fim, temos a tarefa **Selecionar documentos para acórdão**. 
+
+A referida tarefa permite também que se façam ajustes nos documentos de sessão relacionados à vinculação desses documentos a uma sessão ou à vinculação dos documentos a órgãos julgadores.
+
+As alterações permitidas por meio dessa tarefa podem deixar os documentos de sessão inconsistentes e afetarem a execução de outras tarefas relacionadas a documentos de sessão. Dessa forma, antes de utilizar a tarefa, tenha certeza sobre quais campos precisam estar preenchidos para cada documento ajustado.
 
 A tarefa **Selecionar documentos para acórdão** é apresentada no início do fluxo de elaboração do acórdão. O fluxo é iniciado automaticamente após o encerramento do julgamento do processo ou quando o usuário seleciona a opção **iniciar novo fluxo de acórdão.**
 
