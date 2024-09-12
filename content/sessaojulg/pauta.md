@@ -4,11 +4,30 @@ date: 2022-11-29T16:30:31-03:00
 weight: 1
 ---
 
+Quem monta a sessão de julgamento é o Assessor de Plenário. Esse perfil não tem órgão julgador vinculado, ele fica vinculado ao Colegiado + Secretaria Judiciária.
+
+Após construção de documentos da sessão e liberação do processo para inclusão em pauta, o Assessor de plenário precisa criar a sessão de julgamento, que será do tipo **Contínua** ou não, dependendo da seleção feita por meio do passo **Processo liberado para julgamento sessão presencial** ou **Processo liberado para julgamento sessão virtual** realizado pelo gabinete relator do processo.
+
+Ele deverá acessar, pelo menu **Audiências e Sessões - Cadastro de sessão de julgamento**, a tela para criar sessão de julgamento.
+
+Deve criar a sessão de julgamento com a marcação de Contínua ou não de acordo com o selecionado aqui, ou seja, contínua para virtual, não contínua para presencial, e preencher os demais campos obrigatórios.
+
+As sessões de julgamento podem ser criadas antes mesmo de liberação de processos por parte do gabinete, já que o calendário de sessões do ano, via de regra, já é conhecido pelo **Assessor de plenário**.
+
+Depois de criada a sessão, ele deve ir ao menu “Audiências e Sessões - Relação de julgamento”. Será apresentada uma tela com um calendário. Ele deve selecionar o dia utilizado para a sessão que ele criou
+
+A tela da relação de julgamento abrirá.
+
+Ele deve ir na aba “Aptos para inclusão em pauta” e selecionar o processo cujo relator fez o voto, relatório e ementa pela tarefa respectiva pela qual já passamos
+
+Após selecionar o processo para incluir em pauta, ele deve selecionar o botão “Fechar pauta” na aba “Relação de julgamento”
+
+
 ## Intimação de pauta na publicação da lista e no fechamento da pauta:
 
-A publicação de pauta (última aba na Relação de julgamento) no diário, utiliza a pessoa Destinatário para ciência pública. A intimação não é gerada para pessoas individuais, já que aquele é um aviso geral da sessão que acontecerá. As intimações individuais são geradas no fechamento mesmo (primeira aba da Relação de julgamento), ou via fluxo, em **Preparar ato de comunicação.**
+A publicação de pauta (última aba na Relação de julgamento) no diário, utiliza a pessoa Destinatário para ciência pública. A intimação não é gerada para pessoas individuais, já que aquele é um aviso geral da sessão que acontecerá. Há intimações individuais que são geradas no fechamento da pauta (primeira aba da Relação de julgamento), que dispara intimações para todas as partes do processo que possam receber intimações via sistema. Para inibir essas intimações, deve-se usar a configuração do Órgão julgador colegiado, onde há um campo indicando a intimação automática da pauta. As intimações de pauta são sempre **Sem prazo** e não haverá decurso registrado.
 
-Para inibir as intimações gerais, tem que usar a configuração do Órgão julgador colegiado, onde há um campo indicando a intimação automática da pauta.
+Pode-ser também realizar intimação de pauta via fluxo, por meio da tarefa **Preparar ato de comunicação**, caso o tipo da intimação esteja apropriadamente configurado no fluxo.
 
 + Campos na intimação de pauta:
 
