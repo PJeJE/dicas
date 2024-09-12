@@ -26,7 +26,7 @@ A aba **Adiados e pautas anteriores** exibe processos que já estiveram em outra
 
 A aba **Pedido de vista** exibe processos que tiveram pedido de vista registrado em outras pautas e ainda não foram julgados.
 
-Após selecionar o processo para incluir em pauta, ele deve selecionar o botão “Fechar pauta” na aba “Relação de julgamento”
+Após selecionar o processo para incluir em pauta, ele deve selecionar o botão **Fechar pauta** na aba **Relação de julgamento**. Essa ação não pode ser revertida.
 
 
 ## Intimação de pauta na publicação da lista e no fechamento da pauta:
