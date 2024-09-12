@@ -22,6 +22,28 @@ A partir desse momento, quem monta a sessão de julgamento incluindo esse proces
 Se o usuário autenticado estiver em um órgão julgador diferente do órgão julgador do relator do processo, é gerada uma inconsistência só resolvida via banco de dados. Essa inconsistência - relator do processo diferente do órgão julgador que está construindo documentos de sessão - impede a utilização das tarefas de construções dos documentos de sessão. 
 {{% /notice %}}
 
+## Redistribuição de processo quando o processo já está em tarefas de construção de documentos de sessão
+
+A tarefa **Minutar relatório voto e ementa** não deve ser executada por gabinete diferente do gabinete do relator. Caso isso ocorra, o PJe cria documentos repetidos na mesma tarefa e o usuário não percebe, já que o documento não é recarregado no editor. 
+
+Depois que entrar na tarefa, é muito difícil corrigir essa situação porque o sistema fica sempre tentando recuperar aquele documento errado já criado e não consegue.
+
+Para contornar esse problema, foi criada no fluxo uma tarefa chamada **Minutar relatório voto e ementa RE.** Essa tarefa faz com que o processo seja redistribuído para o gabinete atual sem que haja movimento de redistribuição. A transição está disponível pela tarefa **Minutar Relatório Voto e Ementa.**
+
+Foi também criada uma trava no fluxo para impedir que o processo seja remetido para **Minutar relatório voto e ementa** caso o gabinete em que o processo se encontra não seja o relator do processo.
+
+{{% notice warning %}}
+Essa transição deve ser usada antes de construir documento de relatório voto e ementa pelo gabinete. Se utilizada depois, terá que ser acionada a TI para ajustar ou apagar os documentos errados produzidos. 
+{{% /notice %}} 
+
+No TSE há uma orientação passada para a COARE e gabinetes sobre essa questão. Está no SEI 2020.00.000009345-3. As alterações no fluxo foram feitas a partir de setembro de 2020. Apesar da alteração ter sido realizada para atender à necessidade de julgamento de Recurso Extraordinário, pode ser utilizada sempre que se precisar redistribuir o processo para o gabinete atual, sem gerar movimento ou pesos.
+
+## Voto de ex-membro
+
+Para encaminhar para o ministro que está no gabinete de ex-presidência ou ex-membro, utilize, pela judiciária, as opções disponíveis para encaminhamento em sustituição. Não utilize as opções disponíveis para recesso. Pode-se utilizar a transição **Minutar relatório voto e ementa RE.** para redistribuir o processo para o gabinete ex-membro ou ex-presidência. 
+
+Via de regra, o que ocorre após saída de um ministro no TSE é a disponibilização de tarefas para construção/assinatura de acórdão. Para esse fim, as transições disponíveis por meio das tarefas de acórdão posteriores ao julgamento do processo, que encaminham o processo para um gabinete específico, podem ser utilizadas sem prejuízo, diferente do que ocorre com as tarefas de relatório voto e ementa que são apresentadas antes do processo ir a julgamento. 
+
 ## Visualização de documentos da sessão
 
 A visualização de documentos da sessão não assinados só é possível se as respectivas marcações **Liberar voto**, **Liberar relatório** e **Liberar ementa** forem realizadas.
