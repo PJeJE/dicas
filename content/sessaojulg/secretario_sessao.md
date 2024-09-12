@@ -1,7 +1,7 @@
 ---
-title: "Painéis da sessão de julgamento"
+title: "Documentos de sessão"
 date: 2022-11-29T16:30:58-03:00
-weight: 3
+weight: 1
 ---
 ## Construção de documentos da sessão
 No PJe da Justiça Eleitoral, relatório, voto e ementa, são construídos na tarefa **Minutar relatório, voto e ementa** pelo relator do processo. Por voto, entenda-se que é o conjunto da indicação do voto e o próprio documento de voto.
