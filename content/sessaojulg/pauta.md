@@ -1,7 +1,7 @@
 ---
 title: "Pauta de Julgamentos"
 date: 2022-11-29T16:30:31-03:00
-weight: 1
+weight: 2
 ---
 
 Quem monta a sessão de julgamento é o Assessor de Plenário. Esse perfil não tem órgão julgador vinculado, ele fica vinculado ao Colegiado + Secretaria Judiciária.
