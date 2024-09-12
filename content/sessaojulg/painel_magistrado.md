@@ -26,24 +26,3 @@ Além das opções de voto, também estão disponíveis **Enviar para pauta pres
 Para poder utilizar o Painel do Magistrado na Sessão antes de iniciar a sessão de julgamento, o valor do parâmetro pje:sessao:habilitarAcoesEmVotacaoAntecipada precisa ser true.
 {{% /notice %}}
 
-## Visualização de Documentos da Sessão
-
-No PJe da Justiça Eleitoral, relatório, voto e ementa, são construídos na tarefa **Minutar relatório, voto e ementa** pelo relator do processo.
-
-Se o usuário autenticado estiver em um órgão julgador diferente do órgão julgador do relator do processo, é gerada uma inconsistência só resolvida via banco de dados.
-
-Por voto, entenda-se que é o conjunto da indicação do voto e o próprio documento de voto. A visualização desses itens/documentos não assinados só é possível se as respectivas marcações **Liberar voto, Liberar relatório** e **Liberar ementa forem realizadas.**
-
-Os pontos do sistema onde poderão ser visualizadas são:
-
-+ Painel do secretário da sessão; 
-+ Painel do magistrado na sessão; 
-+ Painel do membro da OAB na sessão; 
-+ Painel do membro do ministério público na sessão; 
-+ Púlpito de sustentação oral;
-+ Internet - opção Pautas de julgamento (http://www.tse.jus.br/servicosjudiciais/sessoes-de-julgamento/pautas-de-julgamento/pje); 
-+ Tarefas de vogais. 
-
-Depois que inicia a sessão, quando o Assessor de plenário colocar em julgamento, vai aparecer na Internet, sem necessidade de usuário e senha, o tipo de voto (concedo, nego, etc.) mas não aparece o documento do voto. Na Internet, sem login e senha, só aparece o documento depois de assinado. 
-
-Já no painel do membro da OAB, basta iniciar a sessão, o documento já aparece. Em todos os casos, é sempre necessária liberação por meio da tarefa do gabinete
