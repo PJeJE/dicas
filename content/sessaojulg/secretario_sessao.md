@@ -1,10 +1,22 @@
 ---
-title: "Paineis da sessão de julgamento"
+title: "Painéis da sessão de julgamento"
 date: 2022-11-29T16:30:58-03:00
 weight: 3
 ---
 ## Construção de documentos da sessão
 No PJe da Justiça Eleitoral, relatório, voto e ementa, são construídos na tarefa **Minutar relatório, voto e ementa** pelo relator do processo.
+
+Para isso, o processo estará com um servidor de gabinete, ou seja, vinculado ao órgão julgador do processo. Se o processo for do Ministro Ramos Tavares, por exemplo, o processo estará no perfil Colegiado do Tribunal Superior Eleitoral/Ministro Ramos Tavares/Assessoria/Assessor Chefe
+
+O processo inicialmente chega ao gabinete em Realizar Triagem Ordinários
+
+Para ir para sessão, o usuário deve selecionar **Minutar Relatório Voto e Ementa** e construir os três documentos que essa tarefa tem.
+
+O relator do processo faz o seu voto, acompanhado dos outros documentos.
+
+Após finalizado, ele encaminha o processo para **Conferir Relatório Voto e Ementa** e depois para **Processo liberado para julgamento sessão presencial** (poderia ser virtual também).
+
+A partir desse momento, quem monta a sessão de julgamento incluindo esse processo é o Assessor de Plenário
 
 Se o usuário autenticado estiver em um órgão julgador diferente do órgão julgador do relator do processo, é gerada uma inconsistência só resolvida via banco de dados.
 
