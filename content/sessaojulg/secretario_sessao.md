@@ -4,9 +4,9 @@ date: 2022-11-29T16:30:58-03:00
 weight: 3
 ---
 ## Construção de documentos da sessão
-No PJe da Justiça Eleitoral, relatório, voto e ementa, são construídos na tarefa **Minutar relatório, voto e ementa** pelo relator do processo.
+No PJe da Justiça Eleitoral, relatório, voto e ementa, são construídos na tarefa **Minutar relatório, voto e ementa** pelo relator do processo. Por voto, entenda-se que é o conjunto da indicação do voto e o próprio documento de voto.
 
-Para isso, o processo estará com um servidor de gabinete, ou seja, vinculado ao órgão julgador do processo. Se o processo for do Ministro Ramos Tavares, por exemplo, o processo estará no perfil Colegiado do Tribunal Superior Eleitoral/Ministro Ramos Tavares/Assessoria/Assessor Chefe
+Para isso, o processo estará com um servidor de gabinete vinculado ao órgão julgador do processo. Se o processo for do Ministro Ramos Tavares no TSE, por exemplo, o processo estará no perfil **Colegiado do Tribunal Superior Eleitoral/Ministro Ramos Tavares/Assessoria/Assessor Chefe**
 
 O processo inicialmente chega ao gabinete em Realizar Triagem Ordinários
 
@@ -18,9 +18,9 @@ Após finalizado, ele encaminha o processo para **Conferir Relatório Voto e Eme
 
 A partir desse momento, quem monta a sessão de julgamento incluindo esse processo é o Assessor de Plenário
 
-Se o usuário autenticado estiver em um órgão julgador diferente do órgão julgador do relator do processo, é gerada uma inconsistência só resolvida via banco de dados.
-
-Por voto, entenda-se que é o conjunto da indicação do voto e o próprio documento de voto.
+{{% notice note %}} 
+Se o usuário autenticado estiver em um órgão julgador diferente do órgão julgador do relator do processo, é gerada uma inconsistência só resolvida via banco de dados. Essa inconsistência - relator do processo diferente do órgão julgador que está construindo documentos de sessão - impede a utilização das tarefas de construções dos documentos de sessão. 
+{{% /notice %}}
 
 ## Visualização de documentos da sessão
 
