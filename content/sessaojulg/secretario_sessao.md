@@ -4,6 +4,8 @@ date: 2022-11-29T16:30:58-03:00
 weight: 3
 ---
 
+## Visualização de Documentos da Sessão
+
 Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa e o parâmetro “pje:sessao:ocultarVotosAntecipadosNaoMagistrado” estiver marcado como false o voto/documentos serão exibidos para o Assessor de plenário.
 
 Nas sessões contínuas, os processos são colocados em julgamento automaticamente após o início da sessão, de acordo com o horário planejado. Nas sessões não contínuas o Assessor de plenário pode liberar os processos para que sejam visualizados na Internet - opção **Pautas de julgamento,** quando inicia a sessão.
