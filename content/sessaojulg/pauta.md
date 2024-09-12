@@ -16,11 +16,15 @@ Ele deve criar a sessão de julgamento com a marcação de **Contínua** ou não
 As sessões de julgamento podem ser criadas antes mesmo de liberação de processos por parte do gabinete, já que o calendário de sessões do ano, via de regra, já é conhecido pelo **Assessor de plenário**.
 {{% /notice %}}
 
-Depois de criada a sessão, ele deve ir ao menu “Audiências e Sessões - Relação de julgamento”. Será apresentada uma tela com um calendário. Ele deve selecionar o dia utilizado para a sessão que ele criou
+Depois de criada a sessão, ele deve ir ao menu “Audiências e Sessões - Relação de julgamento”. Será apresentada uma tela com um calendário. Ele deve selecionar o dia utilizado para a sessão que ele criou e a tela da relação de julgamento abrirá.
 
-A tela da relação de julgamento abrirá.
+Ele deve ir na aba “Aptos para inclusão em pauta” e selecionar os processos que comporão a pauta daquela sessão. 
 
-Ele deve ir na aba “Aptos para inclusão em pauta” e selecionar o processo cujo relator fez o voto, relatório e ementa pela tarefa respectiva pela qual já passamos
+Ele pode selecionar processos por outras abas também. A aba **Aptos para inclusão em mesa** exibe processos liberados pelo gabinete cujas classes não têm a marcação de **Exige inclusão em pauta** e exibe também uma consulta para que o assessor possa buscar processos que não consegue encontrar em outras abas e exibirá processos que não estejam em outra sessão em andamento e que já tenham tido eventos de conclusão registrado (código 51).
+
+A aba **Adiados e pautas anteriores** exibe processos que já estiveram em outras pautas e ainda não foram julgados.
+
+A aba **Pedido de vista** exibe processos que tiveram pedido de vista registrado em outras pautas e ainda não foram julgados.
 
 Após selecionar o processo para incluir em pauta, ele deve selecionar o botão “Fechar pauta” na aba “Relação de julgamento”
 
