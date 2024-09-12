@@ -8,11 +8,13 @@ Quem monta a sessão de julgamento é o Assessor de Plenário. Esse perfil não 
 
 Após construção de documentos da sessão e liberação do processo para inclusão em pauta, o Assessor de plenário precisa criar a sessão de julgamento, que será do tipo **Contínua** ou não, dependendo da seleção feita por meio do passo **Processo liberado para julgamento sessão presencial** ou **Processo liberado para julgamento sessão virtual** realizado pelo gabinete relator do processo.
 
-Ele deverá acessar, pelo menu **Audiências e Sessões - Cadastro de sessão de julgamento**, a tela para criar sessão de julgamento.
+Para criar a sessão, ele deverá acessar, pelo menu **Audiências e Sessões - Cadastro de sessão de julgamento**, a tela da sessão de julgamento. Atividades de manutenção da sessão podem ser realizadas por essa tela também, como por exemplo, a alteração da data da sessão, descrita em [altera_data.md].
 
-Deve criar a sessão de julgamento com a marcação de Contínua ou não de acordo com o selecionado aqui, ou seja, contínua para virtual, não contínua para presencial, e preencher os demais campos obrigatórios.
+Ele deve criar a sessão de julgamento com a marcação de **Contínua** ou não de acordo com sua necessidade, ou seja, contínua para virtual, não contínua para presencial, e preencher os demais campos obrigatórios. Os processos disponíveis para inclusão em pauta respeitarão essa diferença, ou seja, se o gabinete liberou para sessão presencial, o processo estará disponível para sessões não contínuas, se o gabinete liberou para sessão virtual, o processo estará disponível para sessões contínuas.
 
+{{% notice note %}} 
 As sessões de julgamento podem ser criadas antes mesmo de liberação de processos por parte do gabinete, já que o calendário de sessões do ano, via de regra, já é conhecido pelo **Assessor de plenário**.
+{{% /notice %}}
 
 Depois de criada a sessão, ele deve ir ao menu “Audiências e Sessões - Relação de julgamento”. Será apresentada uma tela com um calendário. Ele deve selecionar o dia utilizado para a sessão que ele criou
 
