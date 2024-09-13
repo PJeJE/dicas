@@ -25,9 +25,84 @@ Os votos não vinculados a documentos não são exibidos.
 
 Essas informações encontram-se em abas separadas, assim o usuário pode selecionar quais desses documentos serão o relatório, a ementa, o voto do relator, o voto do vencedor e os votos de vogais do acórdão a ser montado, bem como para qual pauta será produzido o acórdão.
 
-As abas **Ementa, Relatório, Voto Relator, Voto Vencedor** e **Acórdão** permitem a seleção de apenas uma opção de documento, mas a seleção não é obrigatória. Isso porque um processo julgador só pode conter um desses documentos. 
+As abas **Ementa, Relatório, Voto Relator, Voto Vencedor** e **Acórdão** permitem a seleção de apenas uma opção de documento, mas a seleção não é obrigatória. Isso porque um processo julgador só pode conter um desses documentos. A aba de votos vogais permite a seleção de mais de um documento
 
-Dessa forma, se não houver seleção para uma determinada aba, ao enviar o processo para elaboração do acórdão, a aba correspondente não terá documento previamente construído. Essa seleção refletirá na elaboração do acórdão desde que, após selecionadas todas as opções conjuntamente, o usuário utilize o botão **Salvar seleção.**
+Dessa forma, se não houver seleção para uma determinada aba, ao enviar o processo para elaboração do acórdão, a aba correspondente não terá documento previamente construído. Essa seleção refletirá na elaboração do acórdão desde que, após selecionadas todas as opções conjuntamente, o usuário utilize o botão **Salvar seleção.**. Um alerta avisará quais abas não tiveram documentos selecionados. É só um alerta. Ao serem carregadas abas com documentos em branco na tarefa de elaboração do acórdão, o usuário pode construir um documento novo, de acordo com as permissões já existentes na elaboração de acórdão. 
+
+A aba que exibe as pautas contém as seguintes informações:
+
+
+1.   O nome do órgão julgador que pautou o processo; 
+
+2.   A sessão junto com o voto vencedor
+
+3.   A situação de julgamento do processo ao final da sessão 
+
+4.   A proclamação de julgamento do processo naquela sessão
+
+5.   O momento de inclusão na pauta.
+
+As abas de documentos são bem parecidas e apresentam as seguintes informações:
+
+
+1.  Identificador do documento: esse número é o mesmo número pelo qual o documento pode ser visto, caso o usuário tenha permissão, na lista de documentos dos autos;
+  
+2.  O nome do usuário que incluiu o documento e o setor de inclusão do documento;
+  
+3.  Localização: as lotações que o usuário que incluiu o documento tinha no momento da inclusão;
+ 
+4.  Sessão/Órgão julgador: a sessão à qual o documento está vinculado e o órgão julgador vinculado ao documento;
+  
+5.  Um ícone de visualização do documento;
+  
+6.  Um ícone para sinalizar que o documento já foi assinado, quando for o caso (cadeado fechado);
+  
+7.  Um ícone para permitir ajustar órgão julgador do documento (lápis);
+  
+8.  Um ícone para permitir desvincular órgão e sessão do documento (lixeira).
+ 
+9.  Nas abas de voto é exibida indicação do voto. Por exemplo, "Nego provimento".
+
+
+{{% notice note %}} 
+Ao utilizar o ícone da lixeira, os documentos são desvinculados do órgão julgador e da sessão. É útil quando se deseja desvincular um documento de uma sessão, mas não esqueça de vincular sempre a um órgão julgador. 
+{{% /notice %}}
+
+As abas de votos (voto relator, voto vencedor e votos vogais) exibirão sempre  o mesmo conteúdo, ou seja, todos os documentos construídos e não excluídos da instância atual, cujos tipos sejam os configurados nos parâmetros: idTipoProcessoDocumentoVoto, pje:painel:magistrado:sessao:tiposVotoVogal:ids e pje:flx:votacaoVogal:tiposVoto:ids. 
+
+A aba de ementa trará todos os documentos do tipo, configurado no parâmetro: idTipoProcessoDocumentoEmenta.
+
+A aba relatório trará todos os documentos do tipo, configurado no parâmetro: idTipoProcessoDocumentoRelatorio.
+
+A aba acórdão trará todos os documentos do tipo, configurado no parâmetro: idTipoProcessoDocumentoAcordao.
+
+Caso não seja selecionado um acórdão na aba correspondente, o sistema criará um documento de acórdão em branco e o utilizará na tarefa seguinte. Ao selecionar documentos em outros abas, selecionar um acórdão na aba de sessão e selecionar **Salvar seleção**, o sistema vincula os documentos das outras abas ao acórdão selecionado.
+
+Ao selecionar "Sim" para o **Salvar seleção**, o sistema exibirá uma mensagem notificando as divergências relacionadas à seleção. 
+
+As possíveis divergências serão notificadas ao usuário quando:
+
+•	O voto do relator não for do gabinete que pautou o processo;
+
+•	O relatório não for do gabinete que pautou o processo;
+
+•	O voto do vencedor não for do gabinete vencedor do julgamento;
+
+•	Os votos de vogais estiverem vinculados ao gabinete que pautou o processo;
+
+•	A ementa não for do gabinete vencedor do julgamento;
+
+•	O acórdão não for do gabinete vencedor do julgamento;
+
+•	Os documentos não estiverem vinculados à sessão ou estiverem vinculados à sessão distinta da sessão selecionada.
+
+O usuário poderá selecionar "Cancelar" para desistir da seleção. Pode selecionar "Prosseguir sem ajustar informações", ou seja, as divergências informadas serão mantidas e o sistema não alterará os documentos existentes para saná-las. Em alguns casos, isso fará com que os documentos selecionados possam não ser devidamente carregados na tarefa seguinte, mas é necessário que o aviso exista para que o usuário possa apenas sinalizar que aqueles documentos serão carregados nas tarefas de acórdão, mas não serão vinculados à sessão selecionada. Ao selecionar "Prosseguir ajustando informações", o sistema vinculará todos os documentos à sessão selecionada.
+
+As  atualizações  realizadas  podem   não  estar  disponíveis  de  imediato  nas  abas.  Atualize a  página para poder verificar, caso tenha solicitado "Prosseguir ajustando informações".
+
+O  usuário  poderá  selecionar, pelos três pontinhos da tarefa, prosseguir por meio do "Elaborar acórdão ou resolução" ou "Iniciar novo fluxo de acórdão", caso tenha mais de
+um acórdão para construir.
+
 
 ## Informações técnicas sobre a configuração de parâmetros
 
