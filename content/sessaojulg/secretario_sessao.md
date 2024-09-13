@@ -24,6 +24,29 @@ O PJe armazena algumas informações relevantes em cada tipo de documento de ses
 
 Abaixo listamos os documentos e quais informações relevantes ele contém, incluindo as obrigatoriedades.
 
++ Relatório
+Informações relevantes - órgão julgador e sessão 
+
+O relatório precisa sempre estar vinculado ao órgão julgador, que deve ser sempre o órgão julgador relator do processo. Caso o processo vá a julgamento e o resultado do julgamento aponte um vogal (não relator) como vencedor, ainda assim o relatório é sempre do relator que levou o processo a julgamento inicialmente, mesmo que o processo seja distribuído para o vencedor do julgamento. Os editores de documentos de sessão se comportam de forma inconsistente se essa relação não for respeitada.
+
+A sessão de julgamento é uma informação relevante, mas não obrigatória, visto que, quando o relator inicia a construção dos documentos de sessão, não sabe ainda em qual sessão estará o processo. 
+
+A vinculação à sessão de julgamento ocorre quando o assessor de plenário inclui o processo em uma pauta de julgamento. Caso o processo vá a julgamento e seja adiado, por exemplo, o sistema desvincula o documento da sessão para que seja vinculado posteriormente na nova pauta. 
+
+Para a construção do acórdão  vinculado ao relatório após julgado o processo, é importante que o relatório esteja vinculado à sessão para a qual será construído o acórdão.
+
++ Ementa
+Informações relevantes - órgão julgador e sessão 
+
+O ementa precisa sempre estar vinculado ao órgão julgador, que deve ser o órgão julgador relator do processo inicialmente. Caso o processo vá a julgamento e o resultado do julgamento aponte um vogal (não relator) como vencedor, a ementa precisa ser do vencedor. Via de regra, o vencedor constrói novo documento. O sistema está preparado, no editor de documento de sessão posterior ao julgamento do processo, para verificar quem foi o vencedor do julgamento e recuperar o documento de ementa respectivo que estiver vinculado ao órgão julgador vencedor. Caso não exista, o sistema carrega o editor com um novo documento em branco, para que o vencedor construa sua própria ementa.
+
+A sessão de julgamento é uma informação relevante, mas não obrigatória, visto que, quando o relator inicia a construção dos documentos de sessão, não sabe ainda em qual sessão estará o processo. 
+
+A vinculação à sessão de julgamento ocorre quando o assessor de plenário inclui o processo em uma pauta de julgamento. Caso o processo vá a julgamento e seja adiado, por exemplo, o sistema desvincula o documento da sessão para que seja vinculado posteriormente na nova pauta. 
+
+Para a construção do acórdão  vinculado à ementa após julgado o processo, é importante que a ementa esteja vinculada à sessão para a qual será construído o acórdão.
+
+
 ## Construção de documentos da sessão
 No PJe da Justiça Eleitoral, relatório, voto e ementa, são construídos na tarefa **Minutar relatório, voto e ementa** pelo relator do processo. Por voto, entenda-se que é o conjunto da indicação do voto e o próprio documento de voto.
 
