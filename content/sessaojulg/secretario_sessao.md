@@ -33,7 +33,7 @@ A sessão de julgamento é uma informação relevante, mas não obrigatória, vi
 
 A vinculação à sessão de julgamento ocorre quando o assessor de plenário inclui o processo em uma pauta de julgamento. Caso o processo vá a julgamento e seja adiado, por exemplo, o sistema desvincula o documento da sessão para que seja vinculado posteriormente na nova pauta. 
 
-Para a construção do acórdão  vinculado ao relatório após julgado o processo, é importante que o relatório esteja vinculado à sessão para a qual será construído o acórdão.
+Para a construção do acórdão vinculado ao relatório após julgado o processo, é importante que o relatório esteja vinculado à sessão para a qual será construído o acórdão.
 
 + Ementa
 Informações relevantes - órgão julgador e sessão 
@@ -44,7 +44,27 @@ A sessão de julgamento é uma informação relevante, mas não obrigatória, vi
 
 A vinculação à sessão de julgamento ocorre quando o assessor de plenário inclui o processo em uma pauta de julgamento. Caso o processo vá a julgamento e seja adiado, por exemplo, o sistema desvincula o documento da sessão para que seja vinculado posteriormente na nova pauta. 
 
-Para a construção do acórdão  vinculado à ementa após julgado o processo, é importante que a ementa esteja vinculada à sessão para a qual será construído o acórdão.
+Para a construção do acórdão vinculado à ementa após julgado o processo, é importante que a ementa esteja vinculada à sessão para a qual será construído o acórdão.
+
++ Voto relator
+Informações relevantes - tipo de voto, órgão julgador, órgão julgador acompanhado e sessão 
+
+O documento de voto precisa sempre ter um tipo de voto associado. Se não tiver, o sistema apresenta incosistências nas telas que exibem/precisam o voto relator.
+
+O voto relator precisa sempre estar vinculado ao órgão julgador, que deve ser o órgão julgador relator do processo quando o processo foi pautado. 
+
+A informação de órgão julgador acompanhado é onde o PJe registra se um órgão julgador acompanha outro órgão julgador no seu voto. Para o relator, essa informação armazena o mesmo órgão julgador relator do processo. Caso haja redistribuição do processo, mesmo que o órgão julgador dono do voto seja alterado para o novo relator do processo, o órgão julgador acompanhado continuará apontando para o relator anterior. Essa dado causa uma inconsistência na exibição dos placares da sessão, já que placar é o principal componente do sistema que leva a informação do órgão julgador acompanhado em consideração. Essa informação nunca é exibida nas telas do PJe, por mais que seja relevante para o correto funcionamento. Existe uma opção disponível na aba **Recursos e sessões** dos autos digitais que exibe essa informação de cada voto do processo em uma sessão para ajudar a elucidar casos que estejam gerando inconsistência nas telas do PJe. A exibição dos votos está condicionada ao papel **pje:sessao:permiteVisualizarVotos**.
+
+
+{{% notice warning %}}
+Pela aba **Recursos e sessões**, para votos com documento associado, o sistema também apresentará um ícone que permitirá ao usuário visualizar o conteúdo do documento, mesmo quando ainda estiver em construção. Dessa forma, esse papel só deve ser liberado para administradores do sistema.
+{{% /notice %}}
+
+A sessão de julgamento é uma informação relevante, mas não obrigatória, visto que, quando o relator inicia a construção dos documentos de sessão, não sabe ainda em qual sessão estará o processo. 
+
+A vinculação à sessão de julgamento ocorre quando o assessor de plenário inclui o processo em uma pauta de julgamento. Caso o processo vá a julgamento e seja adiado, por exemplo, o sistema desvincula o documento da sessão para que seja vinculado posteriormente na nova pauta. 
+
+Para a construção do acórdão vinculado ao voto do relator após julgado o processo, é importante que o voto do relator esteja vinculado à sessão para a qual será construído o acórdão.
 
 
 ## Construção de documentos da sessão
@@ -158,4 +178,5 @@ Além disso, a permissão para o painel deve ser também configurada por meio do
 Sobre essas duas funcionalidades, a liberação do assessor de plenário só é necessária quando se usa o painel do púlpito.
 
 {{% notice warning %}}
-Há um erro conhecido em processos migrados. Os documentos não aparecem na aba para selecionar documentos para acórdão, e a orientação para a TI é ajustar o nr_instancia do client.tb_processo_trf para o mesmo ds_instancia do core.tb_processo_documento. A migração tem que ser também ajustada para preencher esse campo e o problema deixar de ocorrer (a solução, nestes casos, depende de abertura de chamado).{{% /notice %}}
+Há um erro conhecido em processos migrados. Os documentos não aparecem na aba para selecionar documentos para acórdão, e a orientação para a TI é ajustar o nr_instancia do client.tb_processo_trf para o mesmo ds_instancia do core.tb_processo_documento. A migração tem que ser também ajustada para preencher esse campo e o problema deixar de ocorrer (a solução, nestes casos, depende de abertura de chamado).
+{{% /notice %}}
