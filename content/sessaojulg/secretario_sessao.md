@@ -14,7 +14,7 @@ Os documentos de sessão no PJe são:
 + o relatório, quando um relator de um processo constrói o texto que norteia seu voto
 + a ementa, que contém um resumo do assunto da causa em questão a ser levada a julgamento
 + o voto do relator, que é documento que contém seu encaminhamento em relação à questão
-+ o voto dos vogais, que é o documento que contém o encaminhamento que os magistrados não relatores que compõem a sessão dão à causa
++ o voto do vogal, que é o documento que contém o encaminhamento que o magistrado não relator que compõe a sessão dá à causa 
 + a certidão de julgamento, que é o documento que registra, resumidamente, o que foi definido ao final da sessão de julgamento sobre a causa
 + o acórdão, que é o documento final que agrega a decisão completa relacionada à causa que foi levada à sessão
 
@@ -35,6 +35,8 @@ A vinculação à sessão de julgamento ocorre quando o assessor de plenário in
 
 Para a construção do acórdão vinculado ao relatório após julgado o processo, é importante que o relatório esteja vinculado à sessão para a qual será construído o acórdão.
 
+Ajustes na vinculação de documentos à sessão e ao órgão julgador podem ser feitos pela tarefa [Selecionar documentos para acórdão](/sessaljulg/selecionar_documentos).
+
 ### Ementa
 Informações relevantes - órgão julgador e sessão 
 
@@ -44,17 +46,18 @@ A sessão de julgamento é uma informação relevante, mas não obrigatória, vi
 
 A vinculação à sessão de julgamento ocorre quando o assessor de plenário inclui o processo em uma pauta de julgamento. Caso o processo vá a julgamento e seja adiado, por exemplo, o sistema desvincula o documento da sessão para que seja vinculado posteriormente na nova pauta. 
 
-Para a construção do acórdão vinculado à ementa após julgado o processo, é importante que a ementa esteja vinculada à sessão para a qual será construído o acórdão.
+Para a construção do acórdão vinculado à ementa após julgado o processo, é importante que a ementa esteja vinculada à sessão para a qual será construído o acórdão. 
 
-### Voto relator
+Ajustes na vinculação de documentos à sessão e ao órgão julgador podem ser feitos pela tarefa [Selecionar documentos para acórdão](/sessaljulg/selecionar_documentos).
+
+### Voto do relator
 Informações relevantes - tipo de voto, órgão julgador, órgão julgador acompanhado e sessão 
 
-O documento de voto precisa sempre ter um tipo de voto associado. Se não tiver, o sistema apresenta incosistências nas telas que exibem/precisam o voto relator.
+O documento de voto precisa sempre ter um tipo de voto associado. Se não tiver, o sistema apresenta incosistências nas telas que exibem/tratam o voto do relator.
 
-O voto relator precisa sempre estar vinculado ao órgão julgador, que deve ser o órgão julgador relator do processo quando o processo foi pautado. 
+O voto do relator precisa sempre estar vinculado ao órgão julgador, que deve ser o órgão julgador relator do processo quando o processo foi pautado. 
 
 A informação de órgão julgador acompanhado é onde o PJe registra se um órgão julgador acompanha outro órgão julgador no seu voto. Para o relator, essa informação armazena o mesmo órgão julgador relator do processo. Caso haja redistribuição do processo, mesmo que o órgão julgador dono do voto seja alterado para o novo relator do processo, o órgão julgador acompanhado continuará apontando para o relator anterior. Essa dado causa uma inconsistência na exibição dos placares da sessão, já que placar é o principal componente do sistema que leva a informação do órgão julgador acompanhado em consideração. Essa informação nunca é exibida nas telas do PJe, por mais que seja relevante para o correto funcionamento. Existe uma opção disponível na aba **Recursos e sessões** dos autos digitais que exibe essa informação de cada voto do processo em uma sessão para ajudar a elucidar casos que estejam gerando inconsistência nas telas do PJe. A exibição dos votos está condicionada ao papel **pje:sessao:permiteVisualizarVotos**.
-
 
 {{% notice warning %}}
 Pela aba **Recursos e sessões**, para votos com documento associado, o sistema também apresentará um ícone que permitirá ao usuário visualizar o conteúdo do documento, mesmo quando ainda estiver em construção. Dessa forma, esse papel só deve ser liberado para administradores do sistema.
@@ -64,7 +67,30 @@ A sessão de julgamento é uma informação relevante, mas não obrigatória, vi
 
 A vinculação à sessão de julgamento ocorre quando o assessor de plenário inclui o processo em uma pauta de julgamento. Caso o processo vá a julgamento e seja adiado, por exemplo, o sistema desvincula o documento da sessão para que seja vinculado posteriormente na nova pauta. 
 
-Para a construção do acórdão vinculado ao voto do relator após julgado o processo, é importante que o voto do relator esteja vinculado à sessão para a qual será construído o acórdão.
+Para a construção do acórdão vinculado ao voto do relator após julgado o processo, é importante que o voto do relator esteja vinculado à sessão para a qual será construído o acórdão. 
+
+Ajustes na vinculação de documentos à sessão podem ser feitos pela tarefa [Selecionar documentos para acórdão](/sessaljulg/selecionar_documentos).
+
+### Voto do vogal
+Informações relevantes - tipo de voto, órgão julgador, órgão julgador acompanhado e sessão 
+
+O documento de voto precisa sempre ter um tipo de voto associado. Se não tiver, o sistema apresenta incosistências nas telas que exibem/tratam o voto do vogal.
+
+O voto do vogal precisa sempre estar vinculado ao órgão julgador, que deve ser o órgão julgador dono do voto. 
+
+A informação de órgão julgador acompanhado é onde o PJe registra se um órgão julgador acompanha outro órgão julgador no seu voto. Para os vogais, o voto pode acompanhar o relator, pode acompanhar ele mesmo ou pode acompanhar outro vogal que já votou. Essa informação nunca é exibida nas telas do PJe, por mais que seja relevante para o correto funcionamento. Existe uma opção disponível na aba **Recursos e sessões** dos autos digitais que exibe essa informação de cada voto do processo em uma sessão para ajudar a elucidar casos que estejam gerando inconsistência nas telas do PJe. A exibição dos votos está condicionada ao papel **pje:sessao:permiteVisualizarVotos**.
+
+{{% notice warning %}}
+Pela aba **Recursos e sessões**, para votos com documento associado, o sistema também apresentará um ícone que permitirá ao usuário visualizar o conteúdo do documento, mesmo quando ainda estiver em construção. Dessa forma, esse papel só deve ser liberado para administradores do sistema.
+{{% /notice %}}
+
+A sessão de julgamento é uma informação relevante, mas não obrigatória, visto que, quando um processo tem um pedido de vista, o vogal inicia a construção de seu voto e não sabe ainda em qual sessão estará o processo. 
+
+A vinculação à sessão de julgamento ocorre quando o assessor de plenário inclui o processo em uma pauta de julgamento. Caso o processo vá a julgamento e seja adiado, por exemplo, o sistema desvincula o documento da sessão para que seja vinculado posteriormente na nova pauta. 
+
+Para a construção do acórdão vinculado ao voto do vogal após julgado o processo, é importante que o voto do vogal esteja vinculado à sessão para a qual será construído o acórdão. 
+
+Ajustes na vinculação de documentos à sessão podem ser feitos pela tarefa [Selecionar documentos para acórdão](/sessaljulg/selecionar_documentos).
 
 
 ## Construção de documentos da sessão
