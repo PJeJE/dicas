@@ -69,14 +69,6 @@ As abas de documentos são bem parecidas e apresentam as seguintes informações
 Ao utilizar o ícone da lixeira, os documentos são desvinculados do órgão julgador e da sessão. É útil quando se deseja desvincular um documento de uma sessão, mas não esqueça de vincular sempre a um órgão julgador. 
 {{% /notice %}}
 
-As abas de votos (voto relator, voto vencedor e votos vogais) exibirão sempre  o mesmo conteúdo, ou seja, todos os documentos construídos e não excluídos da instância atual, cujos tipos sejam os configurados nos parâmetros: idTipoProcessoDocumentoVoto, pje:painel:magistrado:sessao:tiposVotoVogal:ids e pje:flx:votacaoVogal:tiposVoto:ids. 
-
-A aba de ementa trará todos os documentos do tipo, configurado no parâmetro: idTipoProcessoDocumentoEmenta.
-
-A aba relatório trará todos os documentos do tipo, configurado no parâmetro: idTipoProcessoDocumentoRelatorio.
-
-A aba acórdão trará todos os documentos do tipo, configurado no parâmetro: idTipoProcessoDocumentoAcordao.
-
 Caso não seja selecionado um acórdão na aba correspondente, o sistema criará um documento de acórdão em branco e o utilizará na tarefa seguinte. Ao selecionar documentos em outros abas, selecionar um acórdão na aba de sessão e selecionar **Salvar seleção**, o sistema vincula os documentos das outras abas ao acórdão selecionado.
 
 Ao selecionar "Sim" para o **Salvar seleção**, o sistema exibirá uma mensagem notificando as divergências relacionadas à seleção. 
