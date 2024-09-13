@@ -3,6 +3,27 @@ title: "Documentos de sessão"
 date: 2022-11-29T16:30:58-03:00
 weight: 1
 ---
+## Documentos de sessão
+
+Um processo judicial se constitui, em termos básicos, da capa processual, que contém a autuação, e de seus documentos e movimentos. No PJe, os documentos processuais têm uma série de regras e comportamentos associados. O roteiro
+https://www.pje.jus.br/wiki/index.php/Roteiro_de_configura%C3%A7%C3%A3o_de_documentos agrega definições sobre como são tratados documentos processuais no PJe. 
+
+Existem alguns documentos especiais no PJe de segundo instância/especiais que são os documentos de sessão. São documentos que, além de agregarem as características dos documentos processuais, encerram também características relacionadas a uma sessão de julgamento, já que o objetivo principal deles é a vinculação a uma sessão de órgão julgador colegiado. Para construir esses documentos, o PJe precisa de editores de texto diferenciados para que consiga vincular o documento à sessão corretamente e agregar outras informações relevantes na identificação dos documentos. 
+
+Os documentos de sessão no PJe são:
++ o relatório, quando um relator de um processo constrói o texto que norteia seu voto
++ a ementa, que contém um resumo do assunto da causa em questão a ser levada a julgamento
++ o voto do relator, que é documento que contém seu encaminhamento em relação à questão
++ o voto dos vogais, que é o documento que contém o encaminhamento que os magistrados não relatores que compõem a sessão dão à causa
++ a certidão de julgamento, que é o documento que registra, resumidamente, o que foi definido ao final da sessão de julgamento sobre a causa
++ o acórdão, que é o documento final que agrega a decisão completa relacionada à causa que foi levada à sessão
+
+## Informações dos documentos de sessão
+
+O PJe armazena algumas informações relevantes em cada tipo de documento de sessão. Para alguns tipos de documentos de sessão, caso a informação não esteja presente, o sistema fica inconsistente em diversos pontos. A falta da informação porde ocorrer por erro do sistema ou por ajustes em documentos realizados inadvertidamente.
+
+Abaixo listamos os documentos e quais informações relevantes ele contém, incluindo as obrigatoriedades.
+
 ## Construção de documentos da sessão
 No PJe da Justiça Eleitoral, relatório, voto e ementa, são construídos na tarefa **Minutar relatório, voto e ementa** pelo relator do processo. Por voto, entenda-se que é o conjunto da indicação do voto e o próprio documento de voto.
 
