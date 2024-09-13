@@ -148,6 +148,11 @@ Para processos julgados em que o Assessor de plenário marcou um órgão julgado
 
 Em casos que, no final do julgamento, o processo não esteja na tarefa correta, a redistribuição para o vencedor diferente do relator não ocorrerá, assim como não ocorrera a finalização do fluxo de colegiado. Se desejar forçar essa redistribuição com o fluxo de colegiado ainda em andamento, a partir das tarefas **Aguarda Sessão de Julgamento** ou **Aguarda Sessão de Julgamento Virtual** ou **Aguarda Julgamento - incluído em pauta** ou **Aguarda Julgamento - incluído em pauta virtual**, deve-se selecionar a transição **Verificar julgamento do processo**. Essa transição, quando disponível, verifica se o processo foi julgado na última sessão para finalizar o fluxo de colegiado e realizar os procedimentos automáticas já descritos, de acordo com o resultado do julgamento.
 
+Caso tenha sido registrado um pedido de vista no julgamento, o sistema iniciará a tarefa de **Elaborar voto vista** para o gabinete vogal que pediu vista.
+
+Ele poderá construir o voto e liberar o processo para julgamento. 
+
+Caso o gabinete encerre o fluxo de vista por engano, um novo fluxo de vista pode ser iniciado por meio das tarefas **Aguarda Sessão de Julgamento**, **Aguarda Sessão de Julgamento Virtual**, **Aguarda Julgamento - incluído em pauta virtual** e **Aguarda Julgamento - incluído em pauta**. Isso fará com que o sistema recupere a última sessão onde o processo não foi julgado e verifique se nessa sessão houve pedido de vista. Caso tenha ocorrido, o sistema encaminhará o fluxo de vista para o vistor. Caso contrário, abrirá o fluxo no gabinete do relator. Se for necessário, o gabinete pode utilizar a opção de **Escolher órgão julgador** para encaminhar para o real vistor.
 
 ## Redistribuição de processo quando o processo já está em tarefas de construção de documentos de sessão
 
