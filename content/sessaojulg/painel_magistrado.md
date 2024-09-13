@@ -21,7 +21,7 @@ Para cada processo, são apresentados os dados básicos, a possibilidade de aber
 Após selecionar a opção de voto, o sistema disponibiliza a opção **Redigir voto,** que apresentará o editor de texto permitindo inserir voto escrito.
 
 {{% notice warning %}}
-O magistrado relator pode alterar seu próprio voto pelas tarefas de construção de documentos da sessão, conforme orientações descritas para esse [procedimento](/sessaojulg/secretario_sessao). 
+O magistrado relator pode alterar seu próprio voto pelas tarefas de construção de documentos da sessão, conforme orientações descritas no [seção de documentos da sessão](/sessaojulg/secretario_sessao). 
 {{% /notice %}}
 
 Além das opções de voto, também estão disponíveis **Enviar para pauta presencial, Registrar pedido de vista** e **Registrar impedimento ou suspeição.** Com exceção da última, estas opções, após acionadas, só poderão ser desfeitas com auxílio do Assessor de plenário, que deverá colocar o processo em julgamento novamente, se precisar desfazê-las.
