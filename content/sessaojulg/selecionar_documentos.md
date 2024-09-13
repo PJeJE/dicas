@@ -27,7 +27,7 @@ Essas informações encontram-se em abas separadas, assim o usuário pode seleci
 
 As abas **Ementa, Relatório, Voto Relator, Voto Vencedor** e **Acórdão** permitem a seleção de apenas uma opção de documento, mas a seleção não é obrigatória. Isso porque um processo julgador só pode conter um desses documentos. A aba de votos vogais permite a seleção de mais de um documento
 
-Dessa forma, se não houver seleção para uma determinada aba, ao enviar o processo para elaboração do acórdão, a aba correspondente não terá documento previamente construído. Essa seleção refletirá na elaboração do acórdão desde que, após selecionadas todas as opções conjuntamente, o usuário utilize o botão **Salvar seleção.**. Um alerta avisará quais abas não tiveram documentos selecionados. É só um alerta. Ao serem carregadas abas com documentos em branco na tarefa de elaboração do acórdão, o usuário pode construir um documento novo, de acordo com as permissões já existentes na elaboração de acórdão. 
+Se não houver seleção para uma determinada aba, ao enviar o processo para elaboração do acórdão, a aba correspondente não terá documento previamente construído. Essa seleção refletirá na elaboração do acórdão desde que, após selecionadas todas as opções conjuntamente, o usuário utilize o botão **Salvar seleção.**. Um alerta avisará quais abas não tiveram documentos selecionados. É só um alerta. Ao serem carregadas abas com documentos em branco na tarefa de elaboração do acórdão, o usuário pode construir um documento novo, de acordo com as permissões já existentes na elaboração de acórdão para seu perfil. 
 
 A aba que exibe as pautas contém as seguintes informações:
 
@@ -43,7 +43,6 @@ A aba que exibe as pautas contém as seguintes informações:
 5.   O momento de inclusão na pauta.
 
 As abas de documentos são bem parecidas e apresentam as seguintes informações:
-
 
 1.  Identificador do documento: esse número é o mesmo número pelo qual o documento pode ser visto, caso o usuário tenha permissão, na lista de documentos dos autos;
   
@@ -62,6 +61,8 @@ As abas de documentos são bem parecidas e apresentam as seguintes informações
 8.  Um ícone para permitir desvincular órgão e sessão do documento (lixeira).
  
 9.  Nas abas de voto é exibida indicação do voto. Por exemplo, "Nego provimento".
+    
+10. Na aba de acórdão, é exibida a lista de documentos vinculados a cada acórdão e um ícone de lixeira ao lado de cada documento que permite desvincular àquele documento do acórdão relacionado.  
 
 
 {{% notice note %}} 
