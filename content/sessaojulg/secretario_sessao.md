@@ -24,7 +24,7 @@ O PJe armazena algumas informações relevantes em cada tipo de documento de ses
 
 Abaixo listamos os documentos e quais informações relevantes ele contém, incluindo as obrigatoriedades.
 
-+ Relatório
+### Relatório
 Informações relevantes - órgão julgador e sessão 
 
 O relatório precisa sempre estar vinculado ao órgão julgador, que deve ser sempre o órgão julgador relator do processo. Caso o processo vá a julgamento e o resultado do julgamento aponte um vogal (não relator) como vencedor, ainda assim o relatório é sempre do relator que levou o processo a julgamento inicialmente, mesmo que o processo seja distribuído para o vencedor do julgamento. Os editores de documentos de sessão se comportam de forma inconsistente se essa relação não for respeitada.
@@ -35,7 +35,7 @@ A vinculação à sessão de julgamento ocorre quando o assessor de plenário in
 
 Para a construção do acórdão vinculado ao relatório após julgado o processo, é importante que o relatório esteja vinculado à sessão para a qual será construído o acórdão.
 
-+ Ementa
+### Ementa
 Informações relevantes - órgão julgador e sessão 
 
 O ementa precisa sempre estar vinculado ao órgão julgador, que deve ser o órgão julgador relator do processo inicialmente. Caso o processo vá a julgamento e o resultado do julgamento aponte um vogal (não relator) como vencedor, a ementa precisa ser do vencedor. Via de regra, o vencedor constrói novo documento. O sistema está preparado, no editor de documento de sessão posterior ao julgamento do processo, para verificar quem foi o vencedor do julgamento e recuperar o documento de ementa respectivo que estiver vinculado ao órgão julgador vencedor. Caso não exista, o sistema carrega o editor com um novo documento em branco, para que o vencedor construa sua própria ementa.
@@ -46,7 +46,7 @@ A vinculação à sessão de julgamento ocorre quando o assessor de plenário in
 
 Para a construção do acórdão vinculado à ementa após julgado o processo, é importante que a ementa esteja vinculada à sessão para a qual será construído o acórdão.
 
-+ Voto relator
+### Voto relator
 Informações relevantes - tipo de voto, órgão julgador, órgão julgador acompanhado e sessão 
 
 O documento de voto precisa sempre ter um tipo de voto associado. Se não tiver, o sistema apresenta incosistências nas telas que exibem/precisam o voto relator.
