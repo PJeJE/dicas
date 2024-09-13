@@ -59,7 +59,7 @@ O voto do relator precisa sempre estar vinculado ao órgão julgador, que deve s
 
 A informação de órgão julgador acompanhado é onde o PJe registra se um órgão julgador acompanha outro órgão julgador no seu voto. Para o relator, essa informação armazena o mesmo órgão julgador relator do processo. Caso haja redistribuição do processo, mesmo que o órgão julgador dono do voto seja alterado para o novo relator do processo, o órgão julgador acompanhado continuará apontando para o relator anterior. Essa dado causa uma inconsistência na exibição dos placares da sessão, já que placar é o principal componente do sistema que leva a informação do órgão julgador acompanhado em consideração. Essa informação nunca é exibida nas telas do PJe, por mais que seja relevante para o correto funcionamento. Existe uma opção disponível na aba **Recursos e sessões** dos autos digitais que exibe essa informação de cada voto do processo em uma sessão para ajudar a elucidar casos que estejam gerando inconsistência nas telas do PJe. A exibição dos votos está condicionada ao papel **pje:sessao:permiteVisualizarVotos**.
 
-{{% notice warning %}}
+{{% notice note %}}
 Pela aba **Recursos e sessões**, para votos com documento associado, o sistema também apresentará um ícone que permitirá ao usuário visualizar o conteúdo do documento, mesmo quando ainda estiver em construção. Dessa forma, esse papel só deve ser liberado para administradores do sistema.
 {{% /notice %}}
 
@@ -80,7 +80,7 @@ O voto do vogal precisa sempre estar vinculado ao órgão julgador, que deve ser
 
 A informação de órgão julgador acompanhado é onde o PJe registra se um órgão julgador acompanha outro órgão julgador no seu voto. Para os vogais, o voto pode acompanhar o relator, pode acompanhar ele mesmo ou pode acompanhar outro vogal que já votou. Essa informação nunca é exibida nas telas do PJe, por mais que seja relevante para o correto funcionamento. Existe uma opção disponível na aba **Recursos e sessões** dos autos digitais que exibe essa informação de cada voto do processo em uma sessão para ajudar a elucidar casos que estejam gerando inconsistência nas telas do PJe. A exibição dos votos está condicionada ao papel **pje:sessao:permiteVisualizarVotos**.
 
-{{% notice warning %}}
+{{% notice note %}}
 Pela aba **Recursos e sessões**, para votos com documento associado, o sistema também apresentará um ícone que permitirá ao usuário visualizar o conteúdo do documento, mesmo quando ainda estiver em construção. Dessa forma, esse papel só deve ser liberado para administradores do sistema.
 {{% /notice %}}
 
@@ -104,7 +104,7 @@ Informações relevantes - órgão julgador e sessão
 
 O acórdão precisa sempre estar vinculado ao órgão julgador, que deve ser sempre o órgão julgador redator para o acórdão. Algumas vezes são criados vários documentos de acórdão para uma mesma sessão, mas o usuário às vezes não consegue apagá-los já que o sistema tem impedimentos para apagar documentos de sessão, ao contrário dos documentos processuais usuais. Dessa forma, é importante que os acórdãos que não são relevantes e não serão assinados sejam desvinculados da sessão. A vinculação a órgão julgador também é relevante para que o sistema não apresente inconsistências em algumas telas que trabalham, em seu processamento, com essa informação. Sendo assim, caso o acórdão não vá ser utilizado e esteja sem órgão julgador vinculado, o sistema apresenta erros do tipo **Há elementos de julgamento não vinculados a órgão julgador e a tela não poderá ser carregada.** Caso isso aconteça, vincule o acórdão a um órgão julgador qualquer, não relevante para o julgamento, e o sistema não apresentará inconsistências relacionadas a isso.
 
-{{% notice warning %}}
+{{% notice note %}}
 Ajustes na vinculação de documentos à sessão e ao órgão julgador podem ser feitos pela tarefa [Selecionar documentos para acórdão](/sessaljulg/selecionar_documentos).
 {{% /notice %}}
 
@@ -114,8 +114,8 @@ O tarefa de construção do acórdão tem uma validação para ser corretamente 
 
 O fluxo para construção do acórdão foi desenhado de forma a permitir que se inicie a construção do acórdão antes mesmo da sessão ocorrer. Quando o processo é liberado para julgamento (tarefas **Aguarda sessão de julgamento** ou **Aguarda sessão de julgamento virtual**. Para o TSE, o processo vai iniciar uma tarefa paralelamento denominada **Aguardar Julgamento do Processo**, que pode ser tramitada para iniciar o fluxo de acórdão. Já para os TREs, caso o parâmetro **pje_je_ElaboraAcordaoAntesDaSessao** estiver configurado com o valor **true**, o sistema apresentará a transição para o usuário **Iniciar fluxo de elaboração de acórdão**, quando o gabinete que elabora o acórdão no regional, ou **Iniciar Elaboração de Acórdão**, quando a SJD elabora acórdão no regional. Caso o processo permaneça nessa tarefa, ao ser julgado, será automaticamente tramitado para a tarefa de elaboração de acórdão.
 
-{{% notice warning %}}
-Se a tarefa **Iniciar Acórdão - SJD** ou **Iniciar Acórdão** ou **Aguardar Julgamento do Processo** forem finalizadas, ao ser julgado o processo, o fluxo de acórdão não iniciará automaticamente. O usuário terá que iniciar manualmente por meio das tarefas disponíveis nas tarefas de cumprimento na Unidade de Processamento Judiciário.
+{{% notice note %}}
+Se as tarefas **Iniciar Acórdão - SJD** ou **Iniciar Acórdão** ou **Aguardar Julgamento do Processo** forem finalizadas, ao ser julgado o processo, o fluxo de acórdão não iniciará automaticamente. O usuário terá que iniciar manualmente por meio das tarefas disponíveis nas tarefas de cumprimento na Unidade de Processamento Judiciário.
 {{% /notice %}}
 
 
@@ -159,7 +159,7 @@ Para contornar esse problema, foi criada no fluxo uma tarefa chamada **Minutar r
 
 Foi também criada uma trava no fluxo para impedir que o processo seja remetido para **Minutar relatório voto e ementa** caso o gabinete em que o processo se encontra não seja o relator do processo.
 
-{{% notice warning %}}
+{{% notice note %}}
 Essa transição deve ser usada antes de construir documento de relatório voto e ementa pelo gabinete. Se utilizada depois, terá que ser acionada a TI para ajustar ou apagar os documentos errados produzidos. 
 {{% /notice %}} 
 
@@ -240,6 +240,6 @@ Além disso, a permissão para o painel deve ser também configurada por meio do
 
 Sobre essas duas funcionalidades, a liberação do assessor de plenário só é necessária quando se usa o painel do púlpito.
 
-{{% notice warning %}}
+{{% notice note %}}
 Há um erro conhecido em processos migrados. Os documentos não aparecem na aba para selecionar documentos para acórdão, e a orientação para a TI é ajustar o nr_instancia do client.tb_processo_trf para o mesmo ds_instancia do core.tb_processo_documento. A migração tem que ser também ajustada para preencher esse campo e o problema deixar de ocorrer (a solução, nestes casos, depende de abertura de chamado).
 {{% /notice %}}
