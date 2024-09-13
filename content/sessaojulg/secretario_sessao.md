@@ -130,13 +130,24 @@ Para ir para sessão, o usuário deve selecionar **Minutar Relatório Voto e Eme
 
 O relator do processo faz o seu voto, acompanhado dos outros documentos.
 
-Após finalizado, ele encaminha o processo para **Conferir Relatório Voto e Ementa** e depois para **Processo liberado para julgamento sessão presencial** (poderia ser virtual também).
-
-A partir desse momento, quem monta a sessão de julgamento incluindo esse processo é o Assessor de Plenário
-
 {{% notice note %}} 
 Se o usuário autenticado estiver em um órgão julgador diferente do órgão julgador do relator do processo, é gerada uma inconsistência só resolvida via banco de dados. Essa inconsistência - relator do processo diferente do órgão julgador que está construindo documentos de sessão - impede a utilização das tarefas de construções dos documentos de sessão. 
 {{% /notice %}}
+
+Após finalizado, ele encaminha o processo para **Conferir Relatório Voto e Ementa** e depois para **Processo liberado para julgamento sessão presencial** (poderia ser virtual também). O processo ficará na tarefa **Aguarda Sessão de Julgamento** ou **Aguarda Sessão de Julgamento Virtual**. Nesse ponto, é também iniciado o fluxo de acórdão.
+
+A partir desse momento, quem monta a sessão de julgamento incluindo esse processo é o Assessor de Plenário, conforme descrito nos [procedimentos de pauta de julgamento](/sessaojulg/pauta).
+
+Caso o Assessor de Plenário inclua o processo em uma pauta, o sistema automaticamente moverá o processo para a tarefa **Aguarda Julgamento - incluído em pauta** ou **Aguarda Julgamento - incluído em pauta virtual**. Se o processo for julgado em sessão, o fluxo do colegiado é encerrado. Caso a sessão ocorra e o processo tenha sido retirado de julgamento, adiado ou tenha pedido de vista registrado, o sistema tramita o processo novamente para **Aguarda Sessão de Julgamento** ou **Aguarda Sessão de Julgamento Virtual**.
+
+{{% notice note %}} 
+Caso o usuário retire manualmente os processos das tarefas **Aguarda Sessão de Julgamento** ou **Aguarda Sessão de Julgamento Virtual** ou **Aguarda Julgamento - incluído em pauta** ou **Aguarda Julgamento - incluído em pauta virtual**, deve sempre retornar para a mesma tarefa de acordo com a situação do processo. Caso isso não ocorra, os procedimentos automáticos na inclusão do processo em pauta, na retirada ou no julgamento não serão realizados corretamente. 
+{{% /notice %}}
+
+Para processos julgados em que o Assessor de plenário marcou um órgão julgador vencedor diferente do relator e que foi um julgamento de mérito, para instalações do PJe que tenha marcado o parâmetro **pje:je:redistribuiMerito** como **true**, ao tramitar o processo automaticamente para encerrar o fluxo de colegiado, o sistema redistribui o processo para o vencedor do pleito, lançando movimento respectivo de redistribuição em razão de lavratura de acórdão. 
+
+Em casos que, no final do julgamento, o processo não esteja na tarefa correta, a redistribuição para o vencedor diferente do relator não ocorrerá, assim como não ocorrera a finalização do fluxo de colegiado. Se desejar forçar essa redistribuição com o fluxo de colegiado ainda em andamento, a partir das tarefas **Aguarda Sessão de Julgamento** ou **Aguarda Sessão de Julgamento Virtual** ou **Aguarda Julgamento - incluído em pauta** ou **Aguarda Julgamento - incluído em pauta virtual**, deve-se selecionar a transição **Verificar julgamento do processo**. Essa transição, quando disponível, verifica se o processo foi julgado na última sessão para finalizar o fluxo de colegiado e realizar os procedimentos automáticas já descritos, de acordo com o resultado do julgamento.
+
 
 ## Redistribuição de processo quando o processo já está em tarefas de construção de documentos de sessão
 
