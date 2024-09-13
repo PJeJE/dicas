@@ -46,8 +46,13 @@ Feito isso, é preciso deletar a remessa (na aba processo) e fazer nova tentativ
 
 ## Ausência de novos documentos processuais
 
-Quando se tenta remeter um processo sem que tenha sido elaborado ou juntado algum documento na instância, o erro “Não foram encontrados novos documentos processuais” impede o envio. A solução consiste na elaboração de algum documento. Como sugestão, pode ser incluída uma certidão de remessa.
+Na remessa ou na devolução, o sistema pode emitir o erro “Não foram encontrados novos documentos processuais”, que impede o envio.
+
+Se o sistema apontar esse erro, em primeiro lugar, verifique se o processo já chegou à instância de destino. Pode ser que tenha chegado e que tenha sido gerado um outro erro na hora da tentativa de remessa. O erro pode ter afetado apenas a tramitação do processo na origem para a tarefa estacionária na hora do envio. O usuário, vendo o erro, pensa que o processo não chegou e tenta remeter novamente, e aí o sistema acusa que não há novos documentos. Se for o caso, atue para colocar o processo na origem conforme deva estar, ou seja, bloqueado, com movimentos de baixa e em uma tarefa estacionária. 
+
+Pode ocorrer também que seja o caso de remessa de retorno de um processo à instância de origem sem que tenha sido elaborado ou juntado algum documento na instância atual. A solução consiste na elaboração de algum documento. Como sugestão, pode ser incluída uma certidão de remessa.
 Feito isso, é preciso deletar a remessa (na aba processo) e fazer nova tentativa de envio.
+
 
 {{% notice tip %}}
 Além destes erros tratados, existem casos em que a remessa é concluída com falhas, ou ainda, situações em que aparentemente a remessa foi feita, mas o processo não chegou ao destino. Na maior parte das vezes uma nova tentativa de remessa resolve o problema. Na sequência você encontra orientações para correção dos erros de remassa não tratados pelo sistema.
