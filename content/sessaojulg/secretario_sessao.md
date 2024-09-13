@@ -92,8 +92,34 @@ Para a construção do acórdão vinculado ao voto do vogal após julgado o proc
 
 Ajustes na vinculação de documentos à sessão podem ser feitos pela tarefa [Selecionar documentos para acórdão](/sessaljulg/selecionar_documentos).
 
+### Certidão de julgamento
+Informações relevantes - sessão 
 
-## Construção de documentos da sessão
+A certidão de julgamento pode ser um documento processual usual, construído por um editor comum. Quando ela é construída pelo **Painel do secretário da sessão**, o sistema a vincula à sessão correspondente. Se já há documento de sessão do tipo certidão de julgamento vinculado àquela sessão, o sistema impedirá que se faça um novo por meio do referido painel.
+
+Pode-se construir documento de certidão de julgamento pelos autos digitais. Nesse caso, o sistema apresenta uma caixa de combinação (combo box) contendo as sessões em que o processo já esteve para que o usuário selecione e vincule a certidão corretamente à sessão correspondente. 
+
+### Acórdão
+Informações relevantes - órgão julgador e sessão 
+
+O relatório precisa sempre estar vinculado ao órgão julgador, que deve ser sempre o órgão julgador redator para o acórdão. Algumas vezes são criados vários documentos de acórdão para uma mesma sessão, mas o usuário não consegue apagá-los já que o sistema impede apagar documentos de sessão, ao contrário dos documentos processuais usuais. Dessa forma, é importante que os acórdãos que não são relevantes e não será assinados sejam desvinculados da sessão. A vinculação a órgão julgador também é relevante para que o sistema não apresente inconsistências em algumas telas que trabalham, em seu processamento, com essa informação. Sendo assim, caso o acórdão não vá ser utilizado e esteja sem órgão julgador vinculado, o sistema apresenta erros do tipo **Há elementos de julgamento não vinculados a órgão julgador e a tela não poderá ser carregada.** Caso isso aconteça, vincule o acórdão a um órgão julgador qualquer, não relevante para o julgamento e o sistema não apresentará inconsistências relacionadas a isso.
+
+{{% notice warning %}}
+Ajustes na vinculação de documentos à sessão e ao órgão julgador podem ser feitos pela tarefa [Selecionar documentos para acórdão](/sessaljulg/selecionar_documentos).
+{{% /notice %}}
+
+A sessão de julgamento é uma informação sempre relevante para o acórdão. Os documentos de sessão que devem ser vinculados ao acórdão precisam sempre estar com a mesma sessão que o acórdão. Além disso, os documentos precisam ser anexos do acórdão, ou seja, o acórdão é o documento principal ao qual eles ficam vinculados. A vinculação de documentos de sessão ao acórdão pode ser realizada pela tarefa [Selecionar documentos para acórdão](/sessaljulg/selecionar_documentos).
+
+O tarefa de construção do acórdão tem uma validação para ser corretamente carregada que é a existência de sessão de julgamento onde o processo foi julgado e o acórdão não foi construído ainda. Caso essa situação não ocorra, o sistema apresenta a mensagem **Processo pendente de vinculação a sessão de julgamento.** 
+
+O fluxo para construção do acórdão foi desenhado de forma a permitir que se inicie a construção do acórdão antes mesmo da sessão ocorrer. Quando o processo é liberado para julgamento (tarefas **Aguarda sessão de julgamento** ou **Aguarda sessão de julgamento virtual**. Para o TSE, o processo vai iniciar uma tarefa paralelamento denominada **Aguardar Julgamento do Processo**, que pode ser tramitada para iniciar o fluxo de acórdão. Já para os TREs, caso o parâmetro **pje_je_ElaboraAcordaoAntesDaSessao** estiver configurado com o valor **true**, o sistema apresentará a transição para o usuário **Iniciar fluxo de elaboração de acórdão**, quando o gabinete que elabora o acórdão no regional, ou **Iniciar Elaboração de Acórdão**, quando a SJD elabora acórdão no regional. Caso o processo permaneça nessa tarefa, ao ser julgado, será automaticamente tramitado para a tarefa de elaboração de acórdão.
+
+{{% notice warning %}}
+Se a tarefa **Iniciar Acórdão - SJD** ou **Iniciar Acórdão** ou **Aguardar Julgamento do Processo** forem finalizadas, ao ser julgado o processo, o fluxo de acórdão não iniciará automaticamente. O usuário terá que iniciar manualmente por meio das tarefas disponíveis nas tarefas de cumprimento na Unidade de Processamento Judiciário.
+{{% /notice %}}
+
+
+## Construção de documentos da sessão relatório, voto e ementa
 No PJe da Justiça Eleitoral, relatório, voto e ementa, são construídos na tarefa **Minutar relatório, voto e ementa** pelo relator do processo. Por voto, entenda-se que é o conjunto da indicação do voto e o próprio documento de voto.
 
 Para isso, o processo estará com um servidor de gabinete vinculado ao órgão julgador do processo. Se o processo for do Ministro Ramos Tavares no TSE, por exemplo, o processo estará no perfil **Colegiado do Tribunal Superior Eleitoral/Ministro Ramos Tavares/Assessoria/Assessor Chefe**
