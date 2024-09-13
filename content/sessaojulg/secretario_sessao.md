@@ -8,7 +8,7 @@ weight: 1
 Um processo judicial se constitui, em termos básicos, da capa processual, que contém a autuação, e de seus documentos e movimentos. No PJe, os documentos processuais têm uma série de regras e comportamentos associados. O roteiro
 https://www.pje.jus.br/wiki/index.php/Roteiro_de_configura%C3%A7%C3%A3o_de_documentos agrega definições sobre como são tratados documentos processuais no PJe. 
 
-Existem alguns documentos especiais no PJe de segundo instância/especiais que são os documentos de sessão. São documentos que, além de agregarem as características dos documentos processuais, encerram também características relacionadas a uma sessão de julgamento, já que o objetivo principal deles é a vinculação a uma sessão de órgão julgador colegiado. Para construir esses documentos, o PJe precisa de editores de texto diferenciados para que consiga vincular o documento à sessão corretamente e agregar outras informações relevantes na identificação dos documentos. 
+Existem alguns documentos especiais no PJe de segunda instância/especiais que são os documentos de sessão. São documentos que, além de agregarem as características dos documentos processuais, encerram também características relacionadas a uma sessão de julgamento, já que o objetivo principal deles é a vinculação a uma sessão de órgão julgador colegiado. Para construir esses documentos, o PJe precisa de editores de texto diferenciados para que consiga vincular o documento à sessão corretamente e agregar outras informações relevantes na identificação dos documentos. 
 
 Os documentos de sessão no PJe são:
 + o relatório, quando um relator de um processo constrói o texto que norteia seu voto
