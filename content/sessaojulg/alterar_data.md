@@ -1,7 +1,7 @@
 ---
 title: "Alterar data da sessão"
 date: 2023-05-08T20:00:45-03:00
-weight: 5
+weight: 6
 menuTitle: "Alterar data"
 ---
 
