@@ -16,4 +16,6 @@ Para fazer esse cadastro, o servidor deve ter o CPF do advogado. Pela opção **
 
 Na opção **Confirmar credenciamento**, o servidor deve utilizar o CPF do advogado para recuperar o cadastro dele que foi iniciado. Após recuperar, deve selecionar o ícone de lápis disponível na tela de resultado. Deve complementar os dados do cadastro com a OAB do advogado e selecionar **Salvar**. Após isso, deve selecionar a opção **Anexar termo**. O sistema apresentará um documento modelo contendo o termo de compromisso que, usualmente, deve ser assinado pelo advogado. Nesse caso, o servidor assinará o termo, acionando a opção **Assinar termo de compromisso** disponível ao final do texto do termo. O cadastro do advogado estará finalizado. 
 
+Se for o caso de remessas, o servidor terá que retirar o advogado da autuação na origem. O sistema permitirá a remessa. No destino, o servidor deve adicionar o advogado, que deve ter sido previamente cadastrado conforme orientações acima.
+
 
