@@ -1,7 +1,7 @@
 ---
 title: "Selecionar documentos para acórdão"
 date: 2024-09-12T14:39:20-03:00
-weight: 6
+weight: 7
 menuTitle: "Selecionar documentos para acórdão"
 ---
 
