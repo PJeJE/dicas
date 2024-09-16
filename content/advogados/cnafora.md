@@ -18,3 +18,7 @@ Na opção **Confirmar credenciamento**, o servidor deve utilizar o CPF do advog
 
 Se for o caso de remessas, o servidor terá que retirar o advogado da autuação na origem. O servidor pode remover a parte com os advogados na tela **Partes** da remessa, o que não altera a retificação do processo na origem. O sistema permitirá a remessa. No destino, o servidor deve adicionar o advogado, que deve ter sido previamente cadastrado conforme orientações acima. Caso o servidor tenha optado por retificar a autuação do processo na origem antes da remessa, não pode esquecer de retificar novamente após realizar a remessa. Para realizar esse procedimento, ele terá que desbloquear o processo, **Iniciar digitalização**. O sistema abrirá uma tarefa **Processo destravado** que deve ser finalizada. O servidor realizada a retificação da autuação e depois precisa utilizar a transição **Bloquear processo que está em outra instância**, disponível nas tarefas de análise, para deixar o processo corretamente bloqueado em tarefa estacionário, conforme esperado após uma remessa.
 
+{{% notice warning %}} 
+Para o caso de remessas em que for necessário retirar o advogado antes do envio, é essecial que se faça uma certidão notificando a exclusão para que, no destino, o processo seja alterado para ficar com a autuação correta. **CERTIFIQUE SEMPRE**.
+{{% /notice %}}
+
