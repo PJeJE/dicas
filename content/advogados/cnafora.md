@@ -6,7 +6,7 @@ menuTitle: "Indisponibilidade na OAB"
 
 O cadastro de advogados no PJe ocorre quando o advogado é inserido na autuação de um processo ou pelo próprio login do advogado. Esse cadastro sempre utiliza o serviço do **Cadastro Nacional de Advogados** mantido pelo Conselho Federal da OAB - https://cna.oab.org.br.
 
-Conforme regra https://www.pje.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN266, caso haja indisponibilidade do serviço que consulta da situação de advogados na OAB, o servidor poderá atuar para realizar o cadastro ele mesmo, sem validações. 
+Conforme regra https://www.pje.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN266, caso haja indisponibilidade do serviço que consulta a situação de advogados na OAB, o servidor poderá atuar para realizar o cadastro ele mesmo, sem validações. 
 
 Essa possibilidade pode ser utilizada quando o servidor tem certeza que o advogado possui cadastro, que é o caso, por exemplo, de um processo que foi protocolado no primeiro grau com um advogado em um momento em que o serviço da OAB estava disponível e, na remessa do processo como recurso para o segundo grau o serviço da OAB esteja indisponível. Caso o recurso seja protocolado em um período de um a dois meses posterior ao protocolo inicial do processo, o servidor saberá que o advogado tem cadastro válido. 
 
