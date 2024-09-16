@@ -1,7 +1,7 @@
 ---
 title: "Procedimento para julgar processo em sessão"
 date: 2024-04-24T14:00:45-03:00
-weight: 8
+weight: 9
 menuTitle: "Procedimento para julgar processo em sessão"
 ---
 
