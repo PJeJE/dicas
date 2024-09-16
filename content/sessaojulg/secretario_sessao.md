@@ -8,15 +8,15 @@ weight: 1
 Um processo judicial se constitui, em termos básicos, da capa processual, que contém a autuação, e de seus documentos e movimentos. No PJe, os documentos processuais têm uma série de regras e comportamentos associados. O roteiro
 https://www.pje.jus.br/wiki/index.php/Roteiro_de_configura%C3%A7%C3%A3o_de_documentos agrega definições sobre como são tratados documentos processuais no PJe. 
 
-Existem alguns documentos especiais no PJe de segunda instância/especiais que são os documentos de sessão. São documentos que, além de agregarem as características dos documentos processuais, encerram também características relacionadas a uma sessão de julgamento, já que o objetivo principal deles é a vinculação a uma sessão de órgão julgador colegiado. Para construir esses documentos, o PJe precisa de editores de texto diferenciados para que consiga vincular o documento à sessão corretamente e agregar outras informações relevantes na identificação dos documentos. 
+Existem alguns documentos especiais no PJe de segunda instância/especiais que são os documentos de sessão. São documentos que, além de agregarem as características dos documentos processuais, encerram também características relacionadas a uma sessão de julgamento, já que o objetivo principal deles é a vinculação a uma sessão de órgão julgador colegiado. Para construir esses documentos, o PJe precisa de editores de texto diferenciados para que se consiga vincular o documento à sessão corretamente e agregar outras informações relevantes na identificação dos documentos. 
 
 Os documentos de sessão no PJe são:
-+ o relatório, quando um relator de um processo constrói o texto que norteia seu voto
++ o relatório, quando um relator de um processo constrói o texto que norteia seu voto, tomando por base os fatos descritos e o direito que está sendo discutido
 + a ementa, que contém um resumo do assunto da causa em questão a ser levada a julgamento
 + o voto do relator, que é documento que contém seu encaminhamento em relação à questão
 + o voto do vogal, que é o documento que contém o encaminhamento que o magistrado não relator que compõe a sessão dá à causa 
 + a certidão de julgamento, que é o documento que registra, resumidamente, o que foi definido ao final da sessão de julgamento sobre a causa
-+ o acórdão, que é o documento final que agrega a decisão completa relacionada à causa que foi levada à sessão
++ o acórdão, que é o documento final que agrega a decisão colegiada completa relacionada à causa que foi levada à sessão
 
 ## Informações dos documentos de sessão
 
@@ -198,9 +198,9 @@ Já no painel do membro da OAB, basta iniciar a sessão e o documento já aparec
 
 Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa e o parâmetro **pje:sessao:ocultarVotosAntecipadosNaoMagistrado** estiver marcado como false o voto/documentos serão exibidos para o Assessor de plenário no **Painel do secretário da sessão**.
 
-Nas sessões contínuas, os processos são colocados em julgamento automaticamente após o início da sessão, de acordo com o horário planejado. Nas sessões não contínuas o Assessor de plenário pode liberar os processos para que sejam visualizados na Internet - opção **Pautas de julgamento**, quando inicia a sessão. Antes de iniciada a sessão, os processos não são exibidos.
+Nas sessões contínuas, os processos são colocados em julgamento automaticamente na data escolhida para a sessão após o início, que também é automático, e ocorre entre 0h00 e 2h00, do horário de Brasília, independente do horário informado na configuração da sessão. No TSE, as sessões contínuas se iniciam às 0h00 no dia da sessão. Nas sessões não contínuas o Assessor de plenário pode liberar os processos para que sejam visualizados na Internet - opção **Pautas de julgamento**, quando inicia a sessão. Antes de iniciada a sessão, os processos não são exibidos.
 
-O Assessor de plenário pode liberar o voto/documentos para que sejam visualizados na Internet - opção **Pautas de julgamento** quando finaliza a sessão. Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, os votos serão exibidos na opção Pautas de julgamento desde que:
+O Assessor de plenário pode liberar o voto/documentos para que sejam visualizados na Internet - opção **Pautas de julgamento** quando finaliza a sessão. No gabinete, o magistrado pode liberar os documentos de sessão clicando nas respectivas opções **Liberar voto**, **Liberar relatório** e **Liberar ementa**. Ao clicar na opção **Liberar relatório**, somente este será liberado. Ao clicar na opção **Liberar voto**, os três documentos serão liberados. Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, os votos serão exibidos na opção Pautas de julgamento desde que:
 
 + O parâmetro pje:sessao:plenarioVirtual:documentoAssinado esteja configurado como false;
 + O gabinete tenha liberado o voto;
