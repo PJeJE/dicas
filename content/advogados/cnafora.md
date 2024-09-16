@@ -1,7 +1,7 @@
 ---
-title: "Indisponibilidade do cadastro na OAB"
+title: "Indisponibilidade na OAB"
 date: 2024-09-16T19:29:29-03:00
-menuTitle: "Indisponibilidade do cadastro na OAB"
+menuTitle: "Indisponibilidade na OAB"
 ---
 
 Conforme regra https://www.pje.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN266, caso haja indisponibilidade do serviço que consulta situação de advogados na OAB, o servidor poderá atuar para realizar o cadastro ele mesmo, sem validações. 
