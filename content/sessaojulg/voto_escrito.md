@@ -1,9 +1,7 @@
 ---
 title: "Voto Escrito dos Vogais em Paralelo"
 date: 2024-09-12T15:09:20-03:00
-weight: 7
-menuTitle: "Voto escrito paralelo"
-hidden: true
+weight: 8
 ---
 
 Há situações em que um processo é julgado em sessão apenas com o conteúdo de voto (documento) do relator do processo e do voto vencedor, podendo esses dois serem coincidentes. Em outras situações, outros gabinetes vogais proferem votos que contém observações relevantes para o acórdão, mas não fazem o documento de voto no decorrer da sessão. Ao iniciar a construção do acórdão desse processo, o servidor precisa encaminhá-lo para os vogais desses votos colocarem os conteúdos de seus votos escritos, de forma que possam compor o acórdão. Para esse fim, foi criada a possibilidade de envio do processo a mais de um gabinete ao mesmo tempo para disponibilização de documentos de votos de vogais.
