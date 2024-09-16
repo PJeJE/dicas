@@ -1,7 +1,7 @@
 ---
 title: "Publicação em sessão"
 date: 2022-11-29T16:31:12-03:00
-weight: 4
+weight: 5
 ---
 
 Na Justiça eleitoral, ao ser proferida decisão em processo na sessão de julgamento, a intimação do acórdão pode ser feita na própria sessão de julgamento, passando a fluir prazo a partir dali.
