@@ -1,1 +1,16 @@
+---
+title: "Indisponibilidade do cadastro na OAB"
+date: 2024-09-16T19:29:29-03:00
+menuTitle: "Indisponibilidade do cadastro na OAB"
+---
+
+Conforme regra https://www.pje.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN266, caso haja indisponibilidade do serviço que consulta situação de advogados na OAB, o servidor poderá atuar para realizar o cadastro ele mesmo, sem validações. 
+
+Essa possibilidade pode ser utilizada quando o servidor tem certeza que o advogado possui cadastro, que é o caso, por exemplo, de um processo que foi protocolado no primeiro grau com um advogado em um momento em que o serviço da OAB estava disponível e, na remessa do processo como recurso para o segundo grau o serviço da OAB esteja indisponível. Caso o recurso seja protocolado em um período de um a dois meses posterior ao protocolo inicial do processo, o servidor saberá que o advogado tem cadastro válido. 
+
+
+Pode acontecer também de o advogado apresentar documentações que comprovem a regularidade de seu cadastro.
+
+Para fazer esse cadastro, o servidor deve ter o CPF do advogado. Pela opção **Configuração - Pessoa - Física**, o servidor deve selecionar a aba **Pré-cadastro**, informar o CPF e selecionar **Pesquisar**. O sistema trará o nome da pessoa e o servidor deve selecionar a opção **Confirmar**. Os dados da pessoa conforme seu cadastro da Receita Federal serão recuperados. O servidor deve utilizar a opção **Tornar advogado/procurador**. O sistema apresentará uma tela de confirmação com a opção **Especializar para** selecionada com o valor **Advogado**. O servidor deve selecionar a opção **Especializar e fechar**. O sistema apresentará a mensagem **Especialização concluída. Complemente o cadastro**. O servidor deve selecionar **OK** e complementar o cadastro do advogado pela opção **Configuração - Pessoa - Advogado - Confirmar credenciamento**.
+
 
