@@ -96,6 +96,10 @@ As  atualizações  realizadas  podem   não  estar  disponíveis  de  imediato 
 O  usuário  poderá  selecionar, pelos três pontinhos da tarefa, prosseguir por meio do "Elaborar acórdão ou resolução" ou "Iniciar novo fluxo de acórdão", caso tenha mais de
 um acórdão para construir.
 
+{{% notice note %}} 
+Ao utilizar a opção **Salvar seleção**, o sistema sinaliza para aquele fluxo de acórdão que a sessão utilizada naquele fluxo é a que foi selecionada na aba **Pautas** da tarefa **Selecionar documentos para acórdão**. Se você utilizar a tarefa para ajuste de documentos de uma pauta e utilizar o **Salvar seleção**, após encaminhar o processo para a tarefa de elaboração de acórdão, a sessão que será utilizada na elaboração será a mesma. Se não for essa a pauta que deseja trabalhar, terá que retornar ao **Selecionar documentos para acórdão** e utilizar o ***Salvar seleção** com a pauta desejada. Possivelmente, terá que fazer ajustes nos documentos novamente.
+{{% /notice %}}
+
 
 ## Informações técnicas sobre a configuração de parâmetros
 
