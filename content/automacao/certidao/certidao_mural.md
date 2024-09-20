@@ -39,6 +39,10 @@ Cada Regional é responsável por criar o próprio modelo de acordo com suas nec
 deve ser configurado no parâmetro `idModeloCertidaoPublicacaoMural`.
 {{% /notice %}}
 
+{{% notice warning %}}
+Esse modelo é de uso exclusivo da funcionalidade de certidão automática de publicação no Mural e **NÃO** deve ser selecionado *manualmente* em nenhum editor de texto.
+{{% /notice %}}
+
 {{% notice note %}}
 Para a correta utilização da funcionalidade, todos os parâmetros devem estar ativos e devidamente configurados.
 {{% /notice %}}
