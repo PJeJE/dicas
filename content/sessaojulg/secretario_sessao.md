@@ -152,7 +152,9 @@ Em casos que, no final do julgamento, o processo não esteja na tarefa correta, 
 Caso o processo tenha sido julgado, o usuário não deve mais construir/atualizar documentos de sessão por meio das tarefas **Minutar Relatório Voto e Ementa**, **Conferir Relatório Voto e Ementa**, **Revisar Relatório Voto e Ementa**, **Aguarda Sessão de Julgamento**, **Aguarda Sessão de Julgamento Virtual**, **Aguarda Julgamento - incluído em pauta** ou **Aguarda Julgamento - incluído em pauta virtual**. Se o processo for julgado e ainda estiver em uma dessas tarefas, realize a tramitação do processo até a transição **Verificar julgamento do processo**, o que iniciará novo fluxo de acórdão, caso não tenha sido iniciado ainda. A edição dos documentos de sessão deve ser realizada por meio do fluxo de acórdão.
 {{% /notice %}}
 
-Caso tenha sido registrado um pedido de vista no julgamento, o sistema iniciará a tarefa de **Elaborar voto vista** para o gabinete vogal que pediu vista.
+## Voto vista
+
+Caso tenha sido registrado um pedido de vista no julgamento, após registrado o movimento ao ginal da sessão, o sistema iniciará a tarefa de **Elaborar voto vista** para o gabinete vogal que pediu vista.
 
 Ele poderá construir o voto e liberar o processo para julgamento. 
 
