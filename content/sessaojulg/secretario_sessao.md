@@ -184,14 +184,19 @@ Para encaminhar para o ministro que está no gabinete de ex-presidência ou ex-m
 
 Via de regra, o que ocorre após saída de um ministro no TSE é a disponibilização de tarefas para construção/assinatura de acórdão. Para esse fim, as transições disponíveis por meio das tarefas de acórdão posteriores ao julgamento do processo, que encaminham o processo para um gabinete específico, podem ser utilizadas sem prejuízo, diferente do que ocorre com as tarefas de relatório voto e ementa que são apresentadas antes do processo ir a julgamento. 
 
-## Situações de inconsistência
+## Situações de inconsistência para documentos de sessão e pautas
 
-Existem determinados cenários com documentos de sessão que são situações de inconsistência e impedem o correto carregamento/funcionamento de telas relacionadas à sessão de julgamento. Exemplificaremos algumas delas abaixo:
+Existem determinados cenários com documentos de sessãoou com resultados de julgamento que são situações de inconsistência e impedem o correto carregamento/funcionamento de telas relacionadas à sessão de julgamento. Muitas dessas situações são causadas quando o usuário tenta ajustar algum documento de sessão ou alguma pauta por meio das tarefas ou telas que permitem o ajuste.  Exemplificaremos algumas delas abaixo:
 
 + relatório sem vinculação ao orgão julgador
 + ementa sem vinculação ao orgão julgador
 + voto sem vinculação a tipo de voto
 + voto sem vinculação a órgão julgador
 + acórdão sem vinculação a órgão julgador
++ voto relator acompanhando órgão julgador distinto dele mesmo
++ voto **Acompanho o relator** acompanhando órgão julgador distinto do relator
++ pauta com registro de processo julgado sem órgão julgador vencedor
 + dois ou mais documentos de voto, ementa ou relatório associados a um mesmo órgão julgador e a uma sessão
 Em cada sessão de julgamento, para aquele processo, o órgão julgador só pode emitir um voto. Se houver mais de um voto/documento de voto associados ao mesmo órgão julgador e à mesma sessão, as telas de sessão e editores de documentos de sessão não funcionarão corretamente. Da mesma forma, só pode existir uma ementa e um relatório para uma sessão, e só podem estar vinculados ao órgão relator do processo.
+
+
