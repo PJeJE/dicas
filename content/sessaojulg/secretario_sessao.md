@@ -158,6 +158,8 @@ Caso tenha sido registrado um pedido de vista no julgamento, após registrado o 
 
 Ele poderá construir o voto e liberar o processo para julgamento. 
 
+Há casos em que, ao final do julgamento, o pedido de vista é registrado em nome de outro gabinete, diferente do gabinete que realmente realizou o pedido. Caso o fluxo de vista seja iniciado em um gabinete que não é o do vistor, o assessor do gabinete pode encaminhar o processo para o gabinete devido. Para realizar o encaminhamento, o servidor deve, a partir da tarefa **Elaborar voto vista**, selecionar a transição **Escolher órgão julgador**. Pela tarefa apresentada, ele escolhe o órgão julgador correto e encaminha o processo. 
+
 Caso o gabinete encerre o fluxo de vista por engano, um novo fluxo de vista pode ser iniciado por meio das tarefas **Aguarda Sessão de Julgamento**, **Aguarda Sessão de Julgamento Virtual**, **Aguarda Julgamento - incluído em pauta virtual** e **Aguarda Julgamento - incluído em pauta**. Isso fará com que o sistema recupere a última sessão onde o processo não foi julgado e verifique se nessa sessão houve pedido de vista. Caso tenha ocorrido, o sistema encaminhará o fluxo de vista para o vistor. Caso contrário, abrirá o fluxo no gabinete do relator. Se for necessário, o gabinete pode utilizar a opção de **Escolher órgão julgador** para encaminhar para o real vistor.
 
 ## Redistribuição de processo quando o processo já está em tarefas de construção de documentos de sessão
