@@ -8,7 +8,7 @@ weight: 2
 
 A visualização de documentos da sessão não assinados só é possível se as respectivas marcações **Liberar voto**, **Liberar relatório** e **Liberar ementa** forem realizadas. Essa marcações são realizadas pelo magistrado relator, por meio das tarefas de contrução dos documentos da sessão.
 
-Os pontos do sistema onde poderão ser visualizadas são:
+Os pontos do sistema onde poderão ser visualizados são:
 
 + Painel do secretário da sessão; 
 + Painel do magistrado na sessão; 
