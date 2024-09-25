@@ -8,11 +8,11 @@ weight: 4
 
 É possível juntar automaticamente, após a publicação de expediente no Mural, uma certidão com os dados da publicação, por meio da configuração dos seguintes parâmetros:
 
-- **Parâmetro `pje:publicacao:mural:geraCertidaoPublicacao`**:
-  - O valor desse parâmetro deve ser `S` para habilitar a utilização da funcionalidade e `N` para desabilitá-la.
-
 - **Parâmetro `idModeloCertidaoPublicacaoMural`**:
   - O valor desse parâmetro corresponde ao ID do modelo de documento que será utilizado para a certidão com as informações alteradas pelo usuário no momento da solicitação.
+  
+- **Parâmetro `pje:publicacao:mural:geraCertidaoPublicacao`**:
+  - O valor desse parâmetro deve ser `S` para habilitar a utilização da funcionalidade e `N` para desabilitá-la.
 
 {{% notice warning %}}
 O ID do modelo de documento informado no parâmetro `idModeloCertidaoPublicacaoMural` deve fazer referência a um modelo de documento válido e ativo. Caso contrário, a certidão automática não será juntada ao processo.
