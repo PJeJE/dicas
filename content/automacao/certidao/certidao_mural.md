@@ -44,5 +44,5 @@ Esse modelo é de uso exclusivo da funcionalidade de certidão automática de pu
 {{% /notice %}}
 
 {{% notice note %}}
-Para a correta utilização da funcionalidade, todos os parâmetros devem estar ativos e devidamente configurados.
+Para a correta utilização da funcionalidade, todos os parâmetros devem estar **ativos** e devidamente configurados.
 {{% /notice %}}
