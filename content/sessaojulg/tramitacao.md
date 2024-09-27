@@ -38,6 +38,10 @@ Caso o processo tenha sido julgado e estiver em uma das tarefas **Minutar Relat�
 
 A tarefa **Processo julgado** notifica o usuário que **Esse processo foi julgado e seus documentos não podem ser editados pela tarefa anterior.**. O usuário terá duas opções: **Finalizar procedimentos pós julgamento** e **Finalizar fluxo de decisão colegiada**.
 
+{{% notice note %}}
+A tramitação automática para a tarefa **Processo julgado** só ocorrerá se o processo tiver sido tramitado em uma das tarefas do fluxo de decisão colegiada após a atualização realizada em outubro de 2024. 
+{{% /notice %}}
+
 A transição **Finalizar procedimentos pós julgamento** fará com que o processo seja redistribuído, se for o caso, e que seja acrescentada a situação processual **Confecção do acórdão**. Também iniciará o fluxo de acórdão, caso não esteja ainda aberto, além de finalizar o fluxo de colegiado, retornando o processo para cumprimento. A transição **Finalizar fluxo de decisão colegiada** só finalizará o fluxo de colegiada, retornando o processo para cumprimento.
 
 **Aguarda Julgamento - incluído em pauta** ou **Aguarda Julgamento - incluído em pauta virtual**. Se o processo for julgado e ainda estiver em uma dessas tarefas, realize a tramitação do processo até a transição **Verificar julgamento do processo**, o que iniciará novo fluxo 
