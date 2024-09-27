@@ -34,6 +34,7 @@ O ícone de cruz (sinal de soma) pode ser usado para criar novas etiquetas.
 
 Para criar nova etiqueta, o usuário fornecerá o nome e selecionará o botão Salvar. O nome utilizado pode conter espaços e acentos. Tente usar nomes que identifiquem a classificação desejada ao agrupamento de processos. Por exemplo, o nome de um servidor que está trabalhando naqueles processos ou referências a características dos processos.
 
+
 ## Filtros de etiquetas
 
 Após a criação da etiqueta, a tela de configuração dos filtros é exibida.
@@ -57,6 +58,9 @@ A vinculação da regra pode ser excluída a qualquer tempo.
 ## Vincular etiqueta manualmente
 
 O usuário pode também vincular processos a etiquetas manualmente, ou seja, selecionando o processo no painel de tarefas e vinculando-o à etiqueta que desejar. Neste caso, as etiquetas disponíveis serão exibidas e o usuário poderá vincular a uma ou mais etiquetas a lista de processos selecionados.
+
+Se, ao pesquisar uma etiqueta por um nome, o usuário selecionar a tecla **Enter**, o sistema criará uma nova etiqueta com aquele nome e a vinculará ao processo, ainda que o nome utilizado já exista. O sistema notifica o usuário com um aviso verde ao fundo **Etiqueta - Nova etiqueta criada**, assim como mostra a etiqueta nova marcada na lista de pesquisa. Se não era esse o objetivo, o usuário deve apagar a etiqueta criada, de forma a evitar excesso de etiquetas sem uso na unidade, dificultando a organização de seu trabalho. 
+
 
 ## Lista de Processos
 
