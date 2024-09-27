@@ -22,7 +22,7 @@ Caso o processo seja colocado manualmente na tarefa de incluído em pauta antes 
 
 ## Tramitação após processo incluído em pauta
 
-Quando o processo estiver em na tarefa **Conferir Relatório, Voto e Ementa** e o usuário selecionar uma das transições **Processo liberado para julgamento sessão presencial** ou **Processo liberado para julgamento sessão virtual**, o sistema automaticamente iniciará, caso não tenha sido iniciado ainda, os fluxos de aguardando elaboração de acórdão e os fluxos do assessor de plenário. Para os fluxos do assessor de plenário, caso já tenham sido iniciados, se o processo estiver 
+Quando o processo estiver em na tarefa **Conferir Relatório, Voto e Ementa** e o usuário selecionar uma das transições **Processo liberado para julgamento sessão presencial** ou **Processo liberado para julgamento sessão virtual**, o sistema automaticamente iniciará, caso não tenha sido iniciado ainda, os fluxos de aguardando elaboração de acórdão e os fluxos do assessor de plenário. Sobre o fluxo do assessor de plenário, temos um manual disponível neste link: https://pjeje.github.io/dicas/docs/manual_fluxo_da_asplen.pdf.
 
 Caso o processo esteja em uma das tarefas **Aguarda Julgamento - incluído em pauta** e **Aguarda Julgamento - incluído em pauta virtual** e for retirado de pauta ou for a julgamento e for adiado,  o sistema automaticamente encaminhará o processo para as tarefas **Aguarda Sessão de Julgamento** e **Aguarda Sessão de Julgamento Virtual** respectivamente.
 
