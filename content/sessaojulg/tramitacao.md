@@ -36,7 +36,7 @@ Quando o processo estiver em uma das tarefas **Aguarda Julgamento - incluído em
 
 Caso o processo tenha sido julgado e estiver em uma das tarefas **Minutar Relatório Voto e Ementa**, **Conferir Relatório Voto e Ementa**, **Revisar Relatório Voto e Ementa**, **Aguarda Sessão de Julgamento**, **Aguarda Sessão de Julgamento Virtual**, a fim de impedir que o usuário utilize essas tarefas para edição de documentos da sessão após processo julgado, o sistema tramitará o processo automaticamente para a tarefa **Processo julgado**. Esse impedimento existe para evitar inconsistências na construção de documentos de sessão. 
 
-A tarefa **Processo julgado** notifica o usuário que **Esse processo foi julgado e seus documentos não podem ser editados pela tarefa anterior.**. O usuário terá duas opções: **Finalizar procedimentos pós julgamento** e **Finalizar fluxo de decisão colegiada**.
+A tarefa **Processo julgado** notifica o usuário que **Esse processo foi julgado e seus documentos não podem ser editados pela tarefa anterior.** O usuário terá duas opções: **Finalizar procedimentos pós julgamento** e **Finalizar fluxo de decisão colegiada**.
 
 {{% notice note %}}
 A tramitação automática para a tarefa **Processo julgado** só ocorrerá se o processo tiver sido tramitado em uma das tarefas do fluxo de decisão colegiada após a atualização realizada em outubro de 2024. 
