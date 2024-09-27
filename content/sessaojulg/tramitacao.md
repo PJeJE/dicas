@@ -24,4 +24,12 @@ Caso o processo esteja em uma das tarefas **Aguarda Julgamento - incluído em pa
 Caso o processo seja colocado manualmente na tarefa de incluído em pauta antes de ter realmente sido incluído e o assessor de plenário realizar a inclusão do processo em alguma pauta, o sistema o tramitará para as tarefas **Aguarda Sessão de Julgamento** e **Aguarda Sessão de Julgamento Virtual**. 
 {{% /notice %}}
 
-## Tramitação após processo julgado
+## Tramitação após encerramento do julgamento do processo
+
+A tramitação de que trata essa seção ocorrerá após lançamento do movimento de julgamento **Deliberado em sessão**.
+
+Quando o processo estiver em uma das tarefas **Aguarda Julgamento - incluído em pauta** e **Aguarda Julgamento - incluído em pauta virtual** e o assessor de plenário registrar o movimento de julgamento do processo, o sistema tramitará o processo automaticamente. Nessa tramitação, ele verificará o resultado do julgamento.
+
++ se o processo foi **Julgado**, o sistema finalizará o fluxo de decisão colegiada e o processo retornará para as tarefas de cumprimento (**Analisar Processos ou **Analisar Processos - Urgentes** caso não tenha sido registrado movimento da árvore de Magistrado, conforme TPU,  **Analisar determinação** ou **Analisar determinação - Urgentes** caso exista algum movimento daquele tipo lançado pela instância atual.)
++ + caso tenha sido marcado julgamento de mérito e o órgão julgador vencedor tenha sido marcado como distinto do relator, o sistema redistribuirá o processo para o órgão julgador vencedor, lançando o movimento **Redistribuído**.
++ se o processo não tiver sido **Julgado**, o sistema o tramitará automaticamente para as tarefas **Aguarda Sessão de Julgamento** e **Aguarda Sessão de Julgamento Virtual**, conforme o caso.
