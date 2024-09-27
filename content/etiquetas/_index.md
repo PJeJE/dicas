@@ -67,7 +67,7 @@ O usuário pode também vincular processos a etiquetas manualmente, ou seja, sel
 
 
 {{% notice note %}}
-Se, ao pesquisar uma etiqueta por um nome, o usuário selecionar a tecla **Enter**, o sistema criará uma nova etiqueta com aquele nome e a vinculará ao processo, ainda que o nome utilizado já exista. O sistema notifica o usuário com um aviso verde ao fundo **Etiqueta - Nova etiqueta criada**, assim como mostra a etiqueta nova marcada na lista de pesquisa. Se não era esse o objetivo, o usuário deve apagar a etiqueta criada, de forma a evitar excesso de etiquetas sem uso na unidade, dificultando a organização de seu trabalho. 
+Se, ao pesquisar uma etiqueta por um nome, o usuário selecionar a tecla **Enter**, o sistema criará uma nova etiqueta com aquele nome e a vinculará ao processo, ainda que o nome utilizado já exista. O sistema notifica o usuário com um aviso verde ao fundo **Etiqueta - Nova etiqueta criada**, assim como mostra a etiqueta nova SELECIONADA na lista de pesquisa. Se não era esse o objetivo, o usuário deve apagar a etiqueta criada, de forma a evitar excesso de etiquetas sem uso na unidade, dificultando a organização de seu trabalho. 
 {{% /notice %}}
 
 
