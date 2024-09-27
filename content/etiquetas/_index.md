@@ -55,9 +55,15 @@ A partir de então, todos os processos que atenderem a essa regra serão automat
 
 A vinculação da regra pode ser excluída a qualquer tempo.
 
+Caso o servidor crie um filtro e queira aplicá-lo a processos que já estejam na sua unidade, poderá utilizar o ícone da varinha de condão **Realizar mágica**, e o sistema verificará todos os processos da unidade para identificar quais se encaixam no filtro e vincular, conforme o caso. ESSE É UM PROCEDIMENTO DEMORADO, já que envolve verificar todos os processos da unidade de uma só vez.
+
+{{% notice note %}}
+Os filtros configurados serão aplicados automaticamente no protocolo de processos e quando o processo transitar para uma nova tarefa. O sistema verifica se o processo atende a um dos filtros e vincula ou desvincula etiquetas, conforme a regra definida. 
+{{% /notice %}}
+
 ## Vincular etiqueta manualmente
 
-O usuário pode também vincular processos a etiquetas manualmente, ou seja, selecionando o processo no painel de tarefas e vinculando-o à etiqueta que desejar. Neste caso, as etiquetas disponíveis serão exibidas e o usuário poderá vincular a uma ou mais etiquetas a lista de processos selecionados.
+O usuário pode também vincular processos a etiquetas manualmente, ou seja, selecionando o processo no painel de tarefas e vinculando-o à etiqueta que desejar. Neste caso, as etiquetas disponíveis serão exibidas e o usuário poderá vincular a uma ou mais etiquetas a lista de processos selecionados. As etiquetas vinculadas manualmente sempre serão novamente vinculadas no retorno do processo à unidade. 
 
 
 {{% notice note %}}
