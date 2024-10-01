@@ -24,7 +24,7 @@ Diante das restrições atuais na Play Store para utilização do aplicativo Tok
 
 ## Erro conhecido na versão 1.5.0 para iPhone
 
-O aplicativo PJe token tem apresentado um problema ao tentar realizar novo pareamento quando se utiliza a versão 1.5.0. Ao clicar para iniciar novo pareamento, a câmera não carrega e fica aparecendo apenas uma tela branca com o título **Parear Dispositivo**.
+O aplicativo PJe token tem apresentado um problema ao tentar realizar novo pareamento quando se utiliza a versão 1.5.0 em aparelhos com sistema iOS (celulares iPhone). Ao clicar para iniciar novo pareamento, a câmera não carrega e fica aparecendo apenas uma tela branca com o título **Parear Dispositivo**.
 
 Para solucionar, deve-se clicar duas vezes da tela inicial.
 
