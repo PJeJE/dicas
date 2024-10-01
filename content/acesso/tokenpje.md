@@ -20,3 +20,10 @@ Diante das restrições atuais na Play Store para utilização do aplicativo Tok
     * [Este link](https://canaltech.com.br/android/como-instalar-um-apk-no-android/) explica como realizar a instalação de um aplicativo usando o arquivo APK;
         
 2. Utilizar o PJeOffice Versão Justiça Eleitoral (Certificado P12). [Clique aqui](https://pjeje.github.io/dicas/acesso/certvirtual/) para mais informações. -->
+
+
+## Erro conhecido na versão 1.5.0 para iPhone
+
+O aplicativo PJe token tem apresentado um problema ao tentar realizar novo pareamento quando se utiliza a versão 1.5.0. Ao clicar para iniciar novo pareamento, a câmera não carrega e fica aparecendo apenas uma tela branca com o título **Parear Dispositivo**.
+
+
