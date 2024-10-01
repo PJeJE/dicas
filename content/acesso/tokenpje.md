@@ -26,4 +26,6 @@ Diante das restrições atuais na Play Store para utilização do aplicativo Tok
 
 O aplicativo PJe token tem apresentado um problema ao tentar realizar novo pareamento quando se utiliza a versão 1.5.0. Ao clicar para iniciar novo pareamento, a câmera não carrega e fica aparecendo apenas uma tela branca com o título **Parear Dispositivo**.
 
+Para solucionar, deve-se clicar duas vezes da tela inicial.
+
 
