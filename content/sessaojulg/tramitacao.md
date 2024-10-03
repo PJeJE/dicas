@@ -6,13 +6,20 @@ weight: 4
 
 ## Tramitação automática após ações em telas do PJe
 
-O PJe tem a capacidade de realizar tramitações automáticas de fluxo em algumas situações específicas. Descreveremos aqui as tramitações automáticas realizadas no contexto das sessões de julgamento.
+O PJe tem a capacidade de realizar tramitações automáticas de fluxo em algumas situações específicas. Esse procedimento é muito útil na sinalização para o servidor que houve alguma mudança no processo realizada por outro unidade.  Descreveremos aqui as tramitações automáticas realizadas no contexto das sessões de julgamento.
 
 ## Tramitação após liberação do processo para julgamento
 
-Quando o processo estiver em na tarefa **Conferir Relatório, Voto e Ementa** e o usuário selecionar uma das transições **Processo liberado para julgamento sessão presencial** ou **Processo liberado para julgamento sessão virtual**, o sistema automaticamente iniciará, caso não tenha sido iniciado ainda, os fluxos de aguardando elaboração de acórdão e os fluxos do assessor de plenário. Sobre o fluxo do assessor de plenário, temos um manual disponível neste link: https://pjeje.github.io/dicas/docs/manual_fluxo_da_asplen.pdf.
+Em geral, quem constrói os documentos de sessão e os disponibiliza para julgamento é o **gabinete do relator**. Já quem monta a sessão de julgamento é o **Assessor de plenário**. Quem constrói o acórdão, em alguns TREs, é o próprio **gabinete que assinará** o acórdão. Em outros é a **Secretaria Judiciária**. Dessa forma, é importante a notificação de finalização de cada passo nesse processo para que as diferentes unidades possam realizar seu trabalho de forma tempestiva. 
 
-Caso o processo esteja em uma das tarefas **Aguarda Julgamento - incluído em pauta** e **Aguarda Julgamento - incluído em pauta virtual** e for retirado de pauta ou for a julgamento e for adiado,  o sistema automaticamente encaminhará o processo para as tarefas **Aguarda Sessão de Julgamento** e **Aguarda Sessão de Julgamento Virtual** respectivamente.
+No **gabinete do relator**, quando o processo estiver na tarefa **Conferir Relatório, Voto e Ementa** e o usuário selecionar uma das transições **Processo liberado para julgamento sessão presencial** ou **Processo liberado para julgamento sessão virtual**, o sistema automaticamente iniciará a tarefa **Aguardar Julgamento do Processo**, para o caso do TSE, ou **Iniciar Acórdão - SJD**, para os TREs que têm a **Secretaria Judiciária** como responsável pela elaboração do acórdão. Para os TREs onde o gabinete elabora o acórdão, a tarefa **Selecionar documentos para acórdão - Gabinete** será iniciada. Essas tarefas serão iniciadas caso não existam ainda. 
+Também nesse momento, o fluxo do **Assessor de plenário** será iniciado. Sobre o fluxo do assessor de plenário, temos um manual disponível neste link: https://pjeje.github.io/dicas/docs/manual_fluxo_da_asplen.pdf.
+
+{{% notice note %}}
+Para trocar do gabinete para a Secretaria Judiciária como responsável pela elaboração do acórdão ou vice-versa, o parâmetro a ser utilizado é **pje:je:elaboraAcordaoGabinete**, ou seja, caso esteja marcado como **true**, o gabinete é o responsável, caso esteja marcado como **false**, a secretaria é a responsável.
+{{% /notice %}}
+
+Caso o processo esteja em uma das tarefas **Aguarda Julgamento - incluído em pauta** e **Aguarda Julgamento - incluído em pauta virtual** e for retirado de pauta ou for a julgamento e for adiado,  o sistema automaticamente encaminhará o processo para as tarefas **Aguarda Sessão de Julgamento** e **Aguarda Sessão de Julgamento Virtual** respectivamente, de forma que o gabinete poderá, a seu tempo, novamente liberá-lo para julgamento.
 
 ## Tramitação após processo incluído em pauta
 
