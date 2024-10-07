@@ -42,7 +42,7 @@ Quando o processo estiver em uma das tarefas **Aguarda Julgamento - incluído em
 + se o processo não tiver sido **Julgado**, o sistema o tramitará automaticamente para as tarefas **Aguarda Sessão de Julgamento** e **Aguarda Sessão de Julgamento Virtual**, conforme o caso.
  
 {{% notice note %}}
-Para tribunais que tenham o parâmetro **pje:je:redistribuiMerito** configurado com o valor **false**, o sistema não fará a redistribuição automática para o caso de órgão julgador vencedor diferente do órgão julgador relator.. 
+Para tribunais que tenham o parâmetro **pje:je:redistribuiMerito** configurado com o valor **false**, o sistema não fará a redistribuição automática para o caso de órgão julgador vencedor diferente do órgão julgador relator. 
 {{% /notice %}}
 
 Caso o processo tenha sido julgado e estiver em uma das tarefas **Minutar Relatório Voto e Ementa**, **Conferir Relatório Voto e Ementa**, **Revisar Relatório Voto e Ementa**, **Aguarda Sessão de Julgamento**, **Aguarda Sessão de Julgamento Virtual**, a fim de impedir que o usuário utilize essas tarefas para edição de documentos da sessão após processo julgado, o sistema tramitará o processo automaticamente para a tarefa **Processo julgado**. Esse impedimento existe para evitar inconsistências na construção de documentos de sessão. 
