@@ -31,7 +31,7 @@ Caso o processo esteja em uma das tarefas **Aguarda Julgamento - incluído em pa
 Caso o processo seja colocado manualmente na tarefa de incluído em pauta antes de ter realmente sido incluído e o assessor de plenário realizar a inclusão do processo em alguma pauta, o sistema o tramitará para as tarefas **Aguarda Sessão de Julgamento** e **Aguarda Sessão de Julgamento Virtual**. 
 {{% /notice %}}
 
-As tramitações automáticas incluem um passo de verificação de julgamento do processo. Caso o processo seja incluído em pauta e já tenha tido julgamento anterior, o sistema tramitará o processo para a tarefa **Incluído em pauta** ou **Incluído em pauta virtual**. Essa tarefa não tem editores de documentos de sessão. Caso o servidor precise editar os documentos, pode selecionar a transição **Editar Relatório, Voto e Ementa**, o que fará com que o processo vá para as tarefas **Aguarda Julgamento - incluído em pauta** e **Aguarda Julgamento - incluído em pauta virtual**. Caso a tramitação automática tenha ocorrido por causa do julgamento do processo, conforme descrito mais abaixo, o servidor pode selecionar a transição **Processo julgado**.
+As tramitações automáticas incluem um passo de verificação de julgamento do processo. Caso o processo seja incluído em pauta e já tenha tido julgamento anterior, o sistema tramitará o processo para a tarefa **Incluído em pauta** ou **Incluído em pauta virtual**, conforme configuração da sessão. Essa tarefa não tem editores de documentos de sessão. Caso o servidor precise editar os documentos, pode selecionar a transição **Editar Relatório, Voto e Ementa**, o que fará com que o processo vá para as tarefas **Aguarda Julgamento - incluído em pauta** e **Aguarda Julgamento - incluído em pauta virtual**. Caso a tramitação automática tenha ocorrido por causa do julgamento do processo, conforme descrito mais abaixo, o servidor pode selecionar a transição **Processo julgado**.
 
 ## Tramitação após encerramento do julgamento do processo
 
@@ -48,6 +48,10 @@ Para tribunais que tenham o parâmetro **pje:je:redistribuiMerito** configurado 
 {{% /notice %}}
 
 Caso o processo tenha sido julgado e estiver em uma das tarefas **Minutar Relatório Voto e Ementa**, **Conferir Relatório Voto e Ementa**, **Revisar Relatório Voto e Ementa**, com a finalidade de impedir que o usuário utilize essas tarefas para edição de documentos da sessão após processo julgado, o sistema tramitará o processo automaticamente para a tarefa **Processo julgado**. Esse impedimento existe para evitar inconsistências na construção de documentos de sessão. Caso o processo esteja em uma das tarefas **Aguarda Sessão de Julgamento** ou **Aguarda Sessão de Julgamento Virtual**, o processo será tramitado para a tarefa **Incluído em pauta** ou **Incluído em pauta virtual**. O servidor, sabendo que o processo foi julgado, tramitará o processo para a tarefa **Processo julgado**. Se o processo foi julgado, o servidor **NÃO DEVE TRAMITAR O PROCESSO POR MEIO DA TRANSIÇÃO EDITAR RELATÓRIO, VOTO E EMENTA**. Conforme instruções disponíveis na seção [Documentos de sessão](/sessaojulg/secretario_sessao/#construção-de-documentos-da-sessão-relatório-voto-e-ementa), a edição de documentos por meio dessas tarefas após processo julgado causa inconsitẽncias no PJe.
+
+{{% notice note %}}
+As tarefas **Incluído em pauta** e **Incluído em pauta virtual** têm o mesmo comportamento de tramitação automática após encerramento da sessão que ocorre nas tarefas **Aguarda Julgamento - incluído em pauta** e **Aguarda Julgamento - incluído em pauta virtual**
+{{% /notice %}}
 
 A tarefa **Processo julgado** notifica o usuário que **Esse processo foi julgado e seus documentos não podem ser editados pela tarefa anterior.** O usuário terá duas opções: **Finalizar procedimentos pós julgamento** e **Finalizar fluxo de decisão colegiada**.
 
