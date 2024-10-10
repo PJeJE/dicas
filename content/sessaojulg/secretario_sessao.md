@@ -186,7 +186,7 @@ Via de regra, o que ocorre após saída de um ministro no TSE é a disponibiliza
 
 ## Situações de inconsistência para documentos de sessão e pautas
 
-Existem determinados cenários com documentos de sessãoou com resultados de julgamento que são situações de inconsistência e impedem o correto carregamento/funcionamento de telas relacionadas à sessão de julgamento. Muitas dessas situações são causadas quando o usuário tenta ajustar algum documento de sessão ou alguma pauta por meio das tarefas ou telas que permitem o ajuste.  Exemplificaremos algumas delas abaixo:
+Existem determinados cenários com documentos de sessão ou com resultados de julgamento que são situações de inconsistência e impedem o correto carregamento/funcionamento de telas relacionadas à sessão de julgamento. Muitas dessas situações são causadas quando o usuário tenta ajustar algum documento de sessão ou alguma pauta por meio das tarefas ou telas que permitem o ajuste.  Exemplificaremos algumas delas abaixo:
 
 + relatório sem vinculação ao orgão julgador
 + ementa sem vinculação ao orgão julgador
