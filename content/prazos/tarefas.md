@@ -23,7 +23,28 @@ A partir da tarefa **Analisar resposta do expediente**, o servidor pode encaminh
 Sempre que o processo estiver em um das tarefas de controle de prazos, caso o intimado responda ao expediente ou haja o decurso de prazo sem a resposta, o sistema encaminha automaticamente o processo para o teste de expedientes abertos. O processo só sairá das tarefas de controle de prazos por atuação do próprio servidor ou se, no teste de expedientes abertos, o processo não tenha mais nenhum expediente com prazo aberto. Processos em que todos os expedientes estão com prazo **Fechado** não devem constar nas tarefas de controle de prazos.
 
 {{% notice note %}}
-O sistema verifica o decurso de prazo sem resposta por meio de um procedimento automático executado todas as madrugadas. Caso haja o decurso, o sistema lança, no processo correspondente para a pessoa correspondente, o movimento **Decorrido prazo de XXX**, onde XXX é o nome da pessoa intimada. Expedientes sem prazo não provocam o decurso de prazo nem são controlados por meio de tarefas, ou seja, o sistema não encaminha o processo para tarefas de controle de prazos. 
+O sistema verifica o decurso de prazo sem resposta por meio de um procedimento automático executado todas as madrugadas denominado **Verificador periódico**. Caso haja o decurso, o sistema lança, no processo correspondente para a pessoa correspondente, o movimento **Decorrido prazo de XXX**, onde XXX é o nome da pessoa intimada. Expedientes sem prazo não provocam o decurso de prazo nem são controlados por meio de tarefas, ou seja, o sistema não encaminha o processo para tarefas de controle de prazos. 
+{{% /notice %}}
+
+## Verificador periódico
+
+O Verificador Periódico é uma rotina da aplicação PJe que é executada automaticamente com periodicidade diária em hora previamente programada (na Justiça Eleitoral, em geral o procedimento é executado às 2 da madrugada). Essa rotina é responsável pela realização de diversas tarefas executadas na seguinte ordem:
+
++ Obtém o identificador do usuário do sistema conforme cadastrado no parâmetro "idUsuarioSistema".
++ Recupera os feriados que afetam o órgão julgador dado, ou seja, àqueles que pertencem ao próprio órgão, ao seu município sede (municipais), à unidade federativa em que está o município (estaduais ou distritais) e a todo o país (nacionais).
++ Registra a ciência automática de expedientes com prazo processual de graça expirado.
++ Registra a movimentação de decurso de prazo para os expedientes com prazo processual expirado. 
+
+## Novos feriados com prazos abertos
+
+Existem casos em que um prazo está correndo e o servidor registra um novo feriado, mas o prazo final não reflete o registro.
+
+Por exemplo, em uma intimação, houve registro de ciência no dia 19/04/2024 e o prazo final de resposta à intimação está registrado como 23/04/2024. O servidor verifica que dia 22/04/2024 é feriado e registra no calendário do PJe, mas nos autos do processo, o prazo final continua exibindo dia 23, quando deveria registrar 24. Esse é o comportamento esperando e não haverá o decurso no dia 23. O que ocorre no sistema é que quando há o registro da ciência, o sistema faz a conta do prazo verificando os feriados e registra o dia do prazo final utilizando essa conta. Todos os dias que a rotina executa, o sistema recupera os expedientes que finalizam naquele dia. Ou seja, enquanto não chegar dia 22, ele não recupera esse expediente.
+
+Quando chegar o dia 22, ele recupera o expediente e, por isso, recalcula o prazo. Nesse momento, o sistema verifica que houve mudança no prazo final por causa do feriado novo cadastrado e não lança o decurso. Ao mesmo tempo, ele atualiza o prazo final para o dia 23/04. 
+
+{{% notice note %}}
+Novos feriados não afetarão prazos já encerrados, ou seja, não adianta registrar feriados de dias passados. 
 {{% /notice %}}
 
 
