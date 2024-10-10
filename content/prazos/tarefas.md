@@ -33,8 +33,14 @@ O Verificador Periódico é uma rotina da aplicação PJe que é executada autom
 + Obtém o identificador do usuário do sistema conforme cadastrado no parâmetro "idUsuarioSistema".
 + Recupera os feriados que afetam o órgão julgador dado, ou seja, àqueles que pertencem ao próprio órgão, ao seu município sede (municipais), à unidade federativa em que está o município (estaduais ou distritais) e a todo o país (nacionais).
 + Registra a ciência automática de expedientes com prazo processual de graça expirado.
-+ Registra a movimentação de decurso de prazo para os expedientes com prazo processual expirado. 
++ Registra a movimentação de decurso de prazo para os expedientes com prazo processual expirado.
 
+O processamento automático para atestar o decurso de prazo sempre executa nas máquinas do TSE, que ficam em Brasília. O fuso horário utilizado, portanto, é o de Brasília. Dessa forma, a rotina é sempre executada após as duas da manhã para que em locais com fuso horário diferente não seja lançado decurso antes de o dia terminar. 
+
+{{% notice note %}}
+Quando o servidor informar prazos com um horário específico do dia para serem encerrados, não será possível a verificação automática do encerramento no horário estabelecido, visto que o procedimento automática executa apenas em horário específico. A rotina é por demais custosa e não é desejável que seja executada mais de uma vez por dia, principalmente em horários que atrapalhem a utilização do sistema por seus usuários em decorrência da sobrecarga do procedimento. 
+{{% /notice %}}
+  
 ## Novos feriados com prazos abertos
 
 Existem casos em que um prazo está correndo e o servidor registra um novo feriado, mas o prazo final não reflete o registro.
