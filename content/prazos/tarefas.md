@@ -38,7 +38,7 @@ O Verificador Periódico é uma rotina da aplicação PJe que é executada autom
 O processamento automático para atestar o decurso de prazo sempre executa nas máquinas do TSE, que ficam em Brasília. O fuso horário utilizado, portanto, é o de Brasília. Dessa forma, a rotina é sempre executada após as duas da manhã para que em locais com fuso horário diferente não seja lançado decurso antes de o dia terminar. 
 
 {{% notice note %}}
-Quando o servidor informar prazos com um horário específico do dia para serem encerrados, não será possível a verificação automática do encerramento no horário estabelecido, visto que o procedimento automática executa apenas em horário específico. A rotina é por demais custosa e não é desejável que seja executada mais de uma vez por dia, principalmente em horários que atrapalhem a utilização do sistema por seus usuários em decorrência da sobrecarga do procedimento. 
+Quando o servidor informar prazos com um horário específico do dia para serem encerrados, não será possível a verificação automática do encerramento no horário estabelecido, visto que o procedimento automático executa apenas em horário específico. A rotina é por demais custosa e não é desejável que seja executada mais de uma vez por dia, principalmente em horários que atrapalhem a utilização do sistema por seus usuários em decorrência da sobrecarga do procedimento. 
 {{% /notice %}}
   
 ## Novos feriados com prazos abertos
