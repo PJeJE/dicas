@@ -179,6 +179,10 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
  
 - **/OrgaoJulgador/abaCompetencia**
   - Papel que exibe a aba Competência na configuração do Órgão julgador
+   
+- **pje:orgaoJulgador:abaCargosJudiciais:visualizar**
+  - Papel que exibe a aba Cargos na configuração do Órgão julgador
+  
 
    
 <!--	
