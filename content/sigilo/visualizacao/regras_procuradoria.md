@@ -9,6 +9,8 @@ Esse papel existe para que procuradorias possam atribuir a servidores a função
 
 A visualização dos procuradores depende do correto cadatramento da porcuradoria como visualizador do processo. Observe a imagem abaixo:
 
+![Visualização Procuradorias](/imagens/visualizacao_procuradorias.jpg)
+
 IMG_VISUALIZACAO_PROCURADORIAS
 
 No destaque em amarelo (número 1) o cadastramento está correto e todos os usuários da procuradoria, respeitadas as regras de visualização dentro das caixas, terão acesso aos autos. 
