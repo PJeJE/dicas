@@ -182,6 +182,9 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
    
 - **pje:orgaoJulgador:abaCargosJudiciais:visualizar**
   - Papel que exibe a aba Cargos na configuração do Órgão julgador
+ 
+- **pje:papel:controleVisibilidadeMovimentoProcesso**
+  - Papel que exibe a aba Movimentações nos autos do processo - depende de outras retrições
   
 
    
