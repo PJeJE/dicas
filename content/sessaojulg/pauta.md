@@ -77,3 +77,13 @@ Se o processo não estiver mais no gabiente, volte o processo para a tarefa de *
 Depois, basta retornar o processo para a tarefa em que estava e seguir com a tramitação do feito.
 
 Outra opção para retirada da aptidão de julgamento é a utilização da transição **Retirar da aba Adiados do Assessor de Plenário,** disponível a partir das tarefas de análise, na unidade de processamento. 
+
+## Lista de pautas
+
+O usuário detentor do papel **pje:papel:pesquisaRecursoInterno** nas instalações do PJe que não sejam de primeiro grau têm acesso, por meio dos autos digitais, a aba **Recursos e sessões**. Por meio dessa aba, pode-se visualizar todos os recursos associados àquela capa e também verificar todas as sessões onde o capa foi pautada.
+
+O sistema lista, para cada pauta onde a capa foi incluída, o nome da sessão, a situação de julgamento (**Em julgamento** ou **Aguardando julgamento** ou **Julgado** ou **Não julgado** ou **Inclusão em pauta cancelada**), a data da inclusão naquela sessão, a data de exclusão (se houver), a situação de **Adiado/Vista** (**Adiado** ou **Pedido de Vista** ou **Pauta Presencial**), caso o processo tenha sido **Não julgado**, o órgão julgador do pedido de vista, caso exista, o relator na hora em que o processo foi incluído naquela sessão e o vencedor, caso o processo tenha sido **Julgado**.
+
+As informações sobre as pautas são úteis para que o usuário consiga identificar situações onde o usuário relata alguma inconsistência. Por exemplo, o magistrado é relator do processo, mas não consegue inserir voto de relator na sessão. Pode ter sido o caso de o relator na pauta ser diferente do relator atual. O processo foi julgado mas não tem órgão julgador vencedor, e isso ocasiona erro nas tarefas de elaboração de acórdão. 
+
+Além de lista de pautas, para detentores do papel **pje:sessao:permiteVisualizarVotos**, o sistema exibe, caso seja selecionado o ícone de olho, os votos vinculados àquela sessão. 
