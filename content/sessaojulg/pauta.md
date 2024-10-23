@@ -86,4 +86,6 @@ O sistema lista, para cada pauta onde a capa foi incluída, o nome da sessão, a
 
 As informações sobre as pautas são úteis para que o usuário consiga identificar situações onde o usuário relata alguma inconsistência. Por exemplo, o magistrado é relator do processo, mas não consegue inserir voto de relator na sessão. Pode ter sido o caso de o relator na pauta ser diferente do relator atual. O processo foi julgado mas não tem órgão julgador vencedor, e isso ocasiona erro nas tarefas de elaboração de acórdão. 
 
-Além de lista de pautas, para detentores do papel **pje:sessao:permiteVisualizarVotos**, o sistema exibe, caso seja selecionado o ícone de olho, os votos vinculados àquela sessão. 
+Além de lista de pautas, para detentores do papel **pje:sessao:permiteVisualizarVotos**, o sistema apresentará um ícone - Ícone de visualização de votos - ao lado de cada pauta da capa processual. Ao clicar no ícone, o sistema exibirá a lista de votos já lançados vinculados àquela pauta. 
+
+Para votos com documento associado, o sistema também apresentará um ícone que permitirá ao usuário visualizar o conteúdo do documento, mesmo quando ainda estiver em construção. Dessa forma, esse papel só deve ser liberado para administradores do sistema.
