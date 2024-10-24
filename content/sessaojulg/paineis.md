@@ -12,6 +12,12 @@ Após montada a pauta de julgamento, o assessor de plenário precisará montar a
 
 Ao abrir a tela do **Painel do secretário da sessão** antes de ter gerado a composição, o sistema exibe uma tela com o botão **Gerar composição inicial dos participantes**. Ao acionar o botão, o sistema recuperará todos os gabinetes ativos (data inicial menor ou igual ao dia de hoje, data final vazia ou maior ou igual ao dia de hoje) vinculados ao colegiado daquele sessão. A exibição dos gabinetes obedece à ordem conforme composição da configuração do **Órgão julgador colegiado**, primeiramente, e à ordem alfabética, secundariamente. 
 
+O sistema gerará a composição marcando o presidente da sessão e os presentes de acordo com configurações do órgão julgador colegiado. Os magistrados titulares já serão vinculados à composição. Essa montagem pode ser alterada pelo Assessor de plenário de acordo com suas necessidades. 
+
+{{% notice note %}}
+Caso existam órgãos julgadores sem marcação de titulares, o sistema exibirá um aviso perguntando se o usuário deseja gerar a composição inicial ainda assim. Como a composição é gerada a partir de todos os órgãos vinculados ao colegiado, o sistema não impede a geração, já que não serão todos os que irão compor a sessão. É IMPORTANTE QUE TODOS OS ÓRGÃOS JULGADORES PRESENTES TENHAM TITULARES VINCULADOS. Caso o usuário queira revisar a configuração dos gabinetes antes da geração da composição, ele poderá responder ao aviso cancelando a geração da composição. De toda maneira, a composição sempre pode ser ajustada, ou seja, não há maiores prejuízos se o usuário marcar *Sim*. 
+{{% /notice %}}
+
 ## Visualização de documentos da sessão
 
 A visualização de documentos da sessão não assinados só é possível se as respectivas marcações **Liberar voto**, **Liberar relatório** e **Liberar ementa** forem realizadas. Essa marcações são realizadas pelo magistrado relator, por meio das tarefas de contrução dos documentos da sessão.
