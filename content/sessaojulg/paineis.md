@@ -30,6 +30,8 @@ Só após gerada a composição inicial da sessão, com os respectivos presentes
 Após criada a composição inicial, o usuário pode selecionar a opção **Recriar a composião da sessão**. É uma opção útil quando há a alteração das configurações do órgão julgador colegiado e o usuário deseja que essas novas configurações reflitam na composição. Caso o usuário queira, a nova composição poderá ser refletida nos processos também. Para isso, ele deverá utilizar a opção **Aplicar composição para processos pendentes de julgamento**. O sistema não alterará composição de processos que não estejam pendentes de julgamento.
 {{% /notice %}}
 
+O usuário sempre pode alterar o procurador da sessão. Essa alteração não reflete na composição dos processos, mas só esse procurador conseguirá acompanhar as sessões não contínuas por meio do **Painel do membro do ministério público na sessão**. 
+
 ## Visualização de documentos da sessão
 
 A visualização de documentos da sessão não assinados só é possível se as respectivas marcações **Liberar voto**, **Liberar relatório** e **Liberar ementa** forem realizadas. Essa marcações são realizadas pelo magistrado relator, por meio das tarefas de contrução dos documentos da sessão.
