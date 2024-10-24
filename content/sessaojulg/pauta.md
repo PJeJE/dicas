@@ -28,6 +28,10 @@ A aba **Pedido de vista** exibe processos que tiveram pedido de vista registrado
 
 Após selecionar o processo para incluir em pauta, ele deve selecionar o botão **Fechar pauta** na aba **Relação de julgamento**. Essa ação não pode ser revertida.
 
+{{% notice note %}} 
+Após incluído em uma pauta, o processo não deve estar mais disponível para inclusão em outras pautas, ainda que a pauta onde ele tenha sido incluído não tenha sido fechada.
+{{% /notice %}}
+
 
 ## Intimação de pauta na publicação da lista e no fechamento da pauta:
 
