@@ -4,18 +4,30 @@ date: 2024-09-16T16:39:58-03:00
 weight: 4
 ---
 
-Após montada a pauta de julgamento, o assessor de plenário precisará montar a composição da sessão de julgamento. Pelo **Painel do secretário da sessão**, ele selecionará a sessão por meio do dia respectivo exibido no calendário. 
+Após montada a pauta de julgamento, o assessor de plenário precisará montar a composição da sessão de julgamento. Pelo **Painel do secretário da sessão**, ele selecionará a sessão por meio do dia respectivo exibido no calendário. A composição do julgamento inclui órgãos julgadores (gabinetes) e seus magistrados. Os votos são sempre vinculados a gabinetes, mas os magistrados são exibidos nos placares das sessões, dando maior visibilidade aos participantes do julgamento sobre quem é o responsável pelo voto.
 
 {{% notice note %}}
-É importante ressaltar que existe a composição da sessão de julgamento e a composição do processo. A diferença entre os dois conceitos é que o primeiro diz respeito ao conjunto de membros que está presente na sessão e a composição do processo são os magistrados que votam naquele processo específico. Ocorre, muitas vezes, de um magistrado da composição da sessão estar impedido de votar em um processo específico. O assessor de plenário, para aquele processo, marca o gabinete como não presente e insere um outro para substituir. Pode ocorrer também de a substituição ocorrer dentro do próprio gabinete. Outra situação onde a composição da sessão é diferente da composição do processo é quando um processo foi trazido de outra sessão que já tinha votos proferidos. Se o gabinete que votou não estiver presente na sessão atual, o voto dele estará no processo, já que foi proferido em sessão anterior, mas ele não estará presente na sessão. Dessa forma, ele fará parte apenas da composição do processo.
+É importante ressaltar que existe a composição da sessão de julgamento e a composição do processo. A diferença entre os dois conceitos é que o primeiro diz respeito ao conjunto de membros que está presente na sessão e a composição do processo são os magistrados que votam naquele processo específico. Ocorre, muitas vezes, de um magistrado da composição da sessão estar impedido de votar em um processo. O assessor de plenário, para aquele processo, marca o gabinete como não presente e insere um outro para substituir. A substituição pode ocorrer dentro do próprio gabinete, só com a marcação do magistrado, não afetando, nesse caso, a titularidade do voto. Outra situação onde a composição da sessão é diferente da composição do processo é quando um processo foi trazido de outra sessão que já tinha votos proferidos. Se o gabinete que votou não estiver presente na sessão atual, o voto dele estará no processo, já que foi proferido em sessão anterior, mas ele não estará presente na sessão. Dessa forma, ele fará parte apenas da composição do processo.
 {{% /notice %}}
 
-Ao abrir a tela do **Painel do secretário da sessão** antes de ter gerado a composição, o sistema exibe uma tela com o botão **Gerar composição inicial dos participantes**. Ao acionar o botão, o sistema recuperará todos os gabinetes ativos (data inicial menor ou igual ao dia de hoje, data final vazia ou maior ou igual ao dia de hoje) vinculados ao colegiado daquele sessão. A exibição dos gabinetes obedece à ordem conforme composição da configuração do **Órgão julgador colegiado**, primeiramente, e à ordem alfabética, secundariamente. 
+Ao abrir a tela do **Painel do secretário da sessão** antes de ter gerado a composição, o sistema exibe uma tela com o botão **Gerar composição inicial dos participantes**. Ao acionar o botão, o sistema recuperará todos os gabinetes ativos (data inicial menor ou igual ao dia de hoje, data final vazia ou maior ou igual ao dia de hoje) vinculados ao colegiado daquele sessão. A exibição dos gabinetes obedece ao campo **Ordem** conforme composição da configuração do **Órgão julgador colegiado**, primeiramente, e à ordem alfabética, secundariamente. 
 
 O sistema gerará a composição marcando o presidente da sessão e os presentes de acordo com configurações do órgão julgador colegiado. Os magistrados titulares já serão vinculados à composição. Essa montagem pode ser alterada pelo Assessor de plenário de acordo com suas necessidades. 
 
 {{% notice note %}}
 Caso existam órgãos julgadores sem marcação de titulares, o sistema exibirá um aviso perguntando se o usuário deseja gerar a composição inicial ainda assim. Como a composição é gerada a partir de todos os órgãos vinculados ao colegiado, o sistema não impede a geração, já que não serão todos os que irão compor a sessão. É IMPORTANTE QUE TODOS OS ÓRGÃOS JULGADORES PRESENTES TENHAM TITULARES VINCULADOS. Caso o usuário queira revisar a configuração dos gabinetes antes da geração da composição, ele poderá responder ao aviso cancelando a geração da composição. De toda maneira, a composição sempre pode ser ajustada, ou seja, não há maiores prejuízos se o usuário marcar *Sim*. 
+{{% /notice %}}
+
+Na composição da sessão, o assessor de plenário também marcará quem será o procurador do ministério público na sessão. Para essa seleção, o sistema apresentará todos os procuradores ativos cadastrados que tenham a marcação **Acompanha a Sessão de Julgamento** selecionada.
+
+{{% notice note %}}
+Ao gerar a composição da sessão, o sistema gera também a composição dos processos pautados na sessão utilizando a mesma composição marcada. Posteriormente, o usuário poderá selecionar marcações diferentes por processo.
+{{% /notice %}}
+
+Só após gerada a composição inicial da sessão, com os respectivos presentes, presidente e procurador da sessão, o sistema permitirá que o usuário selecione **Continuar** para prosseguir com a condução da sessão. 
+
+{{% notice note %}}
+Após criada a composição inicial, o usuário pode selecionar a opção **Recriar a composião da sessão**. É uma opção útil quando há a alteração das configurações do órgão julgador colegiado e o usuário deseja que essas novas configurações reflitam na composição. Caso o usuário queira, a nova composição poderá ser refletida nos processos também. Para isso, ele deverá utilizar a opção **Aplicar composição para processos pendentes de julgamento**. O sistema não alterará composição de processos que não estejam pendentes de julgamento.
 {{% /notice %}}
 
 ## Visualização de documentos da sessão
