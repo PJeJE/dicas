@@ -76,7 +76,7 @@ Os pontos do sistema onde poderão ser visualizados são:
 
 Depois que inicia a sessão, quando o Assessor de plenário colocar o processo em julgamento, vai aparecer na Internet, sem necessidade de usuário e senha, o tipo de voto (concedo, nego, etc.) mas não aparece o documento do voto. Na Internet, sem login e senha, só aparece o documento de voto depois de assinado. 
 
-Já no painel do membro da OAB, basta iniciar a sessão e o documento já aparece. Em todos os casos, é sempre necessária liberação por meio da tarefa do gabinete
+Já no painel do membro da OAB, assim como no painel do membro do ministério público na sessão, basta iniciar a sessão e o documento já aparece. Em todos os casos, é sempre necessária liberação por meio da tarefa do gabinete
 
 ## Visualização de Documentos em outros painéis
 
