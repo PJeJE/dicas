@@ -128,6 +128,12 @@ A exibição do campo **Modelo de localização** depende da **Localização** s
 
 A exibição do campo **Papel** depende do perfil do usuário cadastrador. Toda a hierarquia de papéis será exibida caso o usuário tenha um dos perfis a seguir: **admin**, **administrador**, **pje:administrador**, **pje:papel:permissaoCadastroUsuarioTodosPapeis** ou um perfil que herde este último. Caso contrário, será exibida a hierarquia de papéis filha do papel do usuário cadastrador. 
 
+**Localizações**
+
+As localizações são bastantes utilizadas na exibição de tarefas no painel do usuário. Quando mais acima na hierarquia de localizações estiver configurado o perfil, mais processos o usuário vinculado àquele perfil conseguirá enxergar.
+
+No primeiro grau da Justiça Eleitoral, muitas vezes é necessário um perfil que visualize todos os processos do estado. Caso seja essa a necessidade, deve-se, como Administrador Estado, ir em **Configuração - Pessoa - Servidor**, cadastrar o servidor e, na aba **Localização**, não selecionar o campo **Órgão julgador**, selecionar a **Localização física** da UF do estado, selecionar o **Modelo de localização** como **Cartório** e no campo **Papel** selecionar o papel **Servidor**. Depois, cadastrar **Visibilidade** como **Todos**.
+
 
 **Papéis existentes:**
 
