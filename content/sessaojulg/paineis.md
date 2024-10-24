@@ -1,8 +1,16 @@
 ---
-title: "Visualização de documentos e painéis"
+title: "Condução da sessão"
 date: 2024-09-16T16:39:58-03:00
-weight: 2
+weight: 4
 ---
+
+Após montada a pauta de julgamento, o assessor de plenário precisará montar a composição da sessão de julgamento. Pelo **Painel do secretário da sessão**, ele selecionará a sessão por meio do dia respectivo exibido no calendário. 
+
+{{% notice note %}}
+É importante ressaltar que existe a composição da sessão de julgamento e a composição do processo. A diferença entre os dois conceitos é que o primeiro diz respeito ao conjunto de membros que está presente na sessão e a composição do processo são os magistrados que votam naquele processo específico. Ocorre, muitas vezes, de um magistrado da composição da sessão estar impedido de votar em um processo específico. O assessor de plenário, para aquele processo, marca o gabinete como não presente e insere um outro para substituir. Pode ocorrer também de a substituição ocorrer dentro do próprio gabinete. Outra situação onde a composição da sessão é diferente da composição do processo é quando um processo foi trazido de outra sessão que já tinha votos proferidos. Se o gabinete que votou não estiver presente na sessão atual, o voto dele estará no processo, já que foi proferido em sessão anterior, mas ele não estará presente na sessão. Dessa forma, ele fará parte apenas da composição do processo.
+{{% /notice %}}
+
+Ao abrir a tela do **Painel do secretário da sessão** antes de ter gerado a composição, o sistema exibe uma tela com o botão **Gerar composição inicial dos participantes**. Ao acionar o botão, o sistema recuperará todos os gabinetes ativos (data inicial menor ou igual ao dia de hoje, data final vazia ou maior ou igual ao dia de hoje) vinculados ao colegiado daquele sessão. A exibição dos gabinetes obedece à ordem conforme composição da configuração do **Órgão julgador colegiado**, primeiramente, e à ordem alfabética, secundariamente. 
 
 ## Visualização de documentos da sessão
 
