@@ -32,6 +32,34 @@ Após criada a composição inicial, o usuário pode selecionar a opção **Recr
 
 O usuário sempre pode alterar o procurador da sessão. Essa alteração não reflete na composição dos processos, mas só esse procurador conseguirá acompanhar as sessões não contínuas por meio do **Painel do membro do ministério público na sessão**. 
 
+## Opções do painel do secretário
+
+Após criada a composição, o sistema exibe o painel do secretário da sessão. Sempre que a sessão não estiver aberta ainda e o usuário selecionar alguma data de sessão com composição criada no calendário, o sistema abrirá a tela de composição montada antes de apresentar a lista de processos na sessão. O usuário deve selecionar o botão **Continuar** para que a lista de processos seja exibida.
+
+O sistema apresenta informações básicas sobre a sessão no cabeçalho da tela e menu de ferramentas por meio do ícone de três barrinhas no canto superior direito. 
+
+Ações na sessão - opções disponíveis que afetam a configuração da sessão
++ Atualizar todos os processos
++ Atualizar resultado sessão
++ Anotações da sessão
++ Incluir processos em mesa
++ Lista de presença na sessão
++ Iniciar (Pausar e Encerrar também são é apresentados quando a sessão está aberta)
++ Visualizar ata de sessão de julgamento
+
+Ações em lote - opções disponíveis que afetam uma lista de processos selecionados
+
++ Adicionar a um bloco de julgamento
++ Marcar preferência
++ Retirar preferência
++ Tornar pendente de julgamento
++ Redistrar votação em lote
++ Adiar para próxima sessão
++ Colocar em julgamento (só apresentada com sessão aberta)
++ Retirar de julgamento (só apresentada com sessão aberta)
++ Registrar julgamento (só apresentada com sessão aberta)
++ Registrar pedido de vista (só apresentada com sessão aberta)
+
 ## Visualização de documentos da sessão
 
 A visualização de documentos da sessão não assinados só é possível se as respectivas marcações **Liberar voto**, **Liberar relatório** e **Liberar ementa** forem realizadas. Essa marcações são realizadas pelo magistrado relator, por meio das tarefas de contrução dos documentos da sessão.
