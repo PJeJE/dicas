@@ -80,6 +80,7 @@ A barra de ferramentas por processo tem as seguintes opções:
 + Adiar para próxima sessão
 + Registrar pedido de vista
 + Composição do processo
+ 
 Essa opção permite ao usuário alterar a composição de julgamento daquele processo. Ao acionar a opção, o sistema exibirá a lista de órgão julgadores da composição da sessão com a indicação de qual papel aquele gabinete tem naquele processo (relator ou vogal) e se o gabinete está presente ou não. A tela permite que se altere essa composição, com exceção do relator, já que esse gabinete nunca pode deixar de compor o processo. 
 Pode ocorrer de, no momento em que o processo foi pautado, o relator do processo era um gabinete. Após a pauta fechada, ocorre a redistribuição do processo para outro gabinete. Nessa situação, o sistema exibirá o gabinete anterior à redistribuição como relator na composição. Essa situação não deveria ocorrer, mas, para esses casos, o usuário deve corrigir a composição para permitir que os votos sejam lançados de forma correta, respeitando o papel de cada componente da sessão. Para retirar o relator da composição, o usuário deverá ter o papel **pje:sessao:permiteAlterarComposicao**. Esse papel deve ser liberado apenas para administradores, já que pode deixar o sistema inconsistente caso o usuário remova o relator da composição e não o insira novamente.
 
