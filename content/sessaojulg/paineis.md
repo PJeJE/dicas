@@ -62,7 +62,9 @@ Ações em lote - opções disponíveis que afetam uma lista de processos seleci
 
 O sistema apresenta também a lista de processos da sessão. A lista separa em um agrupador inicialmente fechado (sem exibição do conteúdo) os processos já proclamados, ou seja, onde já houve atuação do Assessor de plenário para resultado seu resultado de julgamento. Caso o usuário queira visualizar os detalhes desses processos deve clicar no ícone correspondente para abertura do agrupador. 
 
-Em seguida, são apresentados os processos que ainda não foram proclamados. Para cada capa processual (pode estar em julgamento a capa principal e/ou o(s) recurso(s)), são exibidos: uma opção para selecionar o processo (utilizada para as ações em lote do menu de ferramentas da sessão), os dados principais do cabeçalho da capa, uma caixinha de texto para informar a proclamação de julgamento e uma barra de ferramentas do processo. 
+Em seguida, são apresentados os processos que ainda não foram proclamados. Para cada capa processual (pode estar em julgamento a capa principal e/ou o(s) recurso(s)), são exibidos: uma opção para selecionar o processo (utilizada para as ações em lote do menu de ferramentas da sessão), um ícone que exibe a situação de julgamento do processo e, caso o processo esteja em julgamento (ícone apresentado é o da balança), um ícone de liberação do processo para ser visualizado no **Púlpito de sustentação oral**, painel que pode ser utilizado pelos advogados em sessões presenciais. 
+
+Além disso, são apresentados os dados principais do cabeçalho da capa, uma caixinha de texto para informar a proclamação de julgamento, o placar de julgamento daquele processo e uma barra de ferramentas. 
 
 ## Visualização de documentos da sessão
 
