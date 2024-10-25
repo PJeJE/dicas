@@ -62,9 +62,26 @@ Ações em lote - opções disponíveis que afetam uma lista de processos seleci
 
 O sistema apresenta também a lista de processos da sessão. A lista separa em um agrupador inicialmente fechado (sem exibição do conteúdo) os processos já proclamados, ou seja, onde já houve atuação do Assessor de plenário para resultado seu resultado de julgamento. Caso o usuário queira visualizar os detalhes desses processos deve clicar no ícone correspondente para abertura do agrupador. 
 
-Em seguida, são apresentados os processos que ainda não foram proclamados. Para cada capa processual (pode estar em julgamento a capa principal e/ou o(s) recurso(s)), são exibidos: uma opção para selecionar o processo (utilizada para as ações em lote do menu de ferramentas da sessão), um ícone que exibe a situação de julgamento do processo e, caso o processo esteja em julgamento (ícone apresentado é o da balança), um ícone de liberação do processo para ser visualizado no **Púlpito de sustentação oral**, painel que pode ser utilizado pelos advogados em sessões presenciais. 
+Em seguida, são apresentados os processos que ainda não foram proclamados. 
+
+Para cada capa processual (pode estar em julgamento a capa principal e/ou o(s) recurso(s)), são exibidos: uma opção para selecionar o processo (utilizada para as ações em lote do menu de ferramentas da sessão), a ordem do processo na pauta, um ícone para acrescentar anotações relacionadas ao julgamento daquele processo (registros de comunicação entre os gabinetes que compõem a sessão são realizados por essas anotações), um ícone que exibe a situação de julgamento do processo e, caso o processo esteja em julgamento (ícone apresentado é o da balança), um ícone de liberação do processo para ser visualizado no **Púlpito de sustentação oral**, painel que pode ser utilizado pelos advogados em sessões presenciais. 
 
 Além disso, são apresentados os dados principais do cabeçalho da capa, uma caixinha de texto para informar a proclamação de julgamento, o placar de julgamento daquele processo e uma barra de ferramentas. 
+
+A barra de ferramentas por processo tem as seguintes opções:
+
++ Atualizar dados
++ Adicionar anotação
++ Marcar preferência
++ Marcar para sustentação oral
++ Marcar para julgamento célere
++ Retirar de julgamento
++ Tornar pendente de julgamento
++ Adiar para próxima sessão
++ Registrar pedido de vista
++ Composição do processo
+Essa opção permite ao usuário alterar a composição de julgamento daquele processo. Ao acionar a opção, o sistema exibirá a lista de órgão julgadores da composição da sessão com a indicação de qual papel aquele gabinete tem naquele processo (relator ou vogal) e se o gabinete está presente ou não. A tela permite que se altere essa composição, com exceção do relator, já que esse gabinete nunca pode deixar de compor o processo. 
+Pode ocorrer de, no momento em que o processo foi pautado, o relator do processo era um gabinete. Após a pauta fechada, ocorre a redistribuição do processo para outro gabinete. Nessa situação, o sistema exibirá o gabinete anterior à redistribuição como relator na composição. Essa situação não deveria ocorrer, mas, para esses casos, o usuário deve corrigir a composição para permitir que os votos sejam lançados de forma correta, respeitando o papel de cada componente da sessão. 
 
 ## Visualização de documentos da sessão
 
