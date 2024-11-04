@@ -26,6 +26,6 @@ Depois de tudo finalizado, o PJe gera uma intimação para as partes envolvidas 
 O Ministério Público, como fiscal da lei, pode não ser intimado caso os parâmetros estejam configurados como **false**.
 
 {{% notice note %}}
-A geração da intimação não altera a tramitação do processo, ou seja, caso o processo esteja na tarefa "Selecionar documento para acórdão" e "Analisar processso", por exemplo, permanecerá nessas tarefas. Caso seja o desejo do servidor, ele pode encaminhar o processo para o controle de prazos por meio da transisão *Verificar controle de prazos*, conforme descrito na seção Controle de prazos. 
+A geração da intimação não altera a tramitação do processo, ou seja, caso o processo esteja na tarefa "Selecionar documento para acórdão" e "Analisar processso", por exemplo, permanecerá nessas tarefas. Caso seja o desejo do servidor, ele pode encaminhar o processo para o controle de prazos por meio da transisão *Verificar controle de prazos*, conforme descrito na seção [Controle de prazos](/prazos/tarefas/).
 {{% /notice %}}
 
