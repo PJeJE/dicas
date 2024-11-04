@@ -18,6 +18,10 @@ As tarefas de controle de prazos são **Processo com prazo em curso** ou **Anali
 
 O servidor pode proceder com sua atuação e pode também retornar o processo para o controle de prazos por meio da transição **Verificar controle de prazos**.
 
+{{% notice note %}}
+Sempre que o processo tiver algum prazo aberto e não estiver em tarefas de controle de prazos, caso seja o desejo do servidor, pode-se encaminhar o processo para tarefas de controle de prazos por meio da transição **Verificar controle de prazos**.
+{{% /notice %}}
+
 A partir da tarefa **Analisar resposta do expediente**, o servidor pode encaminhar o processo para **Aguardar demais manifestações**, que, havendo ainda expedientes abertos, manterá o processo na tarefa **Processo com prazo em curso**. 
 
 Sempre que o processo estiver em um das tarefas de controle de prazos, caso o intimado responda ao expediente ou haja o decurso de prazo sem a resposta, o sistema encaminha automaticamente o processo para o teste de expedientes abertos. O processo só sairá das tarefas de controle de prazos por atuação do próprio servidor ou se, no teste de expedientes abertos, o processo não tenha mais nenhum expediente com prazo aberto. Processos em que todos os expedientes estão com prazo **Fechado** não devem constar nas tarefas de controle de prazos.
