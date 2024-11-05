@@ -28,13 +28,13 @@ Existe uma diferença entre as configurações do DJE para publicações de mat�
 
 No DJe existem duas configurações possíveis:
 
-![diario 1](/imagens/diario_1.jpg)
+![diario 1](/imagens/diario_1.png)
 
 **a) Ativar Funcionalidade Diário Eleitoral,** que permite que a marcação feita no PJe (período especial) seja válida para o DJe. Essa opção (destacada em azul na imagem acima), faz com que existam dois diários: um eleitoral, que circula direto (sábados, domingos e feriados) e outro comum (só circula nos dias úteis).
 
 Neste caso, no momento da criação do ato no PJe, é preciso usar a opção “período especial” do PJe para separar o que vai para o diário eleitoral:
 
-![diario 2](/imagens/diario_2.jpg)
+![diario 2](/imagens/diario_2.png)
 
 Estando ativo o parâmetro e o usuário marcando período especial no PJe, o diário circula no dia seguinte, seja ele feriado, final de semana ou dia útil.
 
