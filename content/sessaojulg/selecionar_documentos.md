@@ -10,7 +10,7 @@ Na justiça eleitoral, os processos, após julgamento em sessão, são encaminha
 A referida tarefa permite também que se façam ajustes nos documentos de sessão relacionados à vinculação desses documentos a uma sessão ou à vinculação dos documentos a órgãos julgadores.
 
 {{% notice note %}} 
-As alterações permitidas por meio da tarefa **Selecionar documentos para acórdão** podem deixar os documentos de sessão inconsistentes e afetarem a execução de outras tarefas relacionadas a documentos de sessão. Dessa forma, antes de utilizar a tarefa, tenha certeza sobre quais campos precisam estar preenchidos para cada documento ajustado.
+As alterações permitidas por meio da tarefa **Selecionar documentos para acórdão** podem deixar os documentos de sessão inconsistentes e afetarem a execução de outras tarefas/funcionalidades relacionadas a documentos de sessão. Dessa forma, antes de utilizar a tarefa, tenha certeza sobre quais campos precisam estar preenchidos para cada documento ajustado.
 {{% /notice %}}
 
 ## Utilização da tarefa
