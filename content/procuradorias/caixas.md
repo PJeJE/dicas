@@ -1,7 +1,7 @@
 ---
 title: "Caixas"
 date: 2022-11-29T16:24:48-03:00
-weight: 5
+weight: 6
 ---
 
 O PJe do primeiro grau tem uma funcionalidade em que, ao ser protocolado um novo processo, os filtros cadastrados nas caixas de advogados e procuradores são automaticamente acionados, de forma a preencher as caixas com os processos respectivos.
