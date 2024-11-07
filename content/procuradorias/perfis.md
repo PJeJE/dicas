@@ -12,14 +12,17 @@ Desse modo, ao protocolar um processo onde uma pessoa representada pela procurad
 Existem vários tipos de perfis dentro das procuradorias:
 
 **Procurador Gestor** 
+
 O representante processual configurado como gestor terá acesso total a todos os processos e expedientes direcionados para o seu Órgão de Representação, independentemente da jurisdição em que estes processos ou expedientes estiverem.
 
 Usuários com este perfil podem dar ciência nos expedientes, assinar e protocolar petições nos processos e cadastrar/inativar usuários com o perfil de procurador e assistente de procuradoria.
 
 **Procurador Distribuidor**
+
 O representante processual configurado como distribuidor terá acesso total a todos os processos e expedientes direcionados para o seu Órgão de Representação, desde que eles sejam da mesma jurisdição da qual este usuário é distribuidor. 
 
 **Procurador Padrão / Representante Processual**
+
 O representante processual que não for configurado como gestor e nem como distribuidor é chamado de representante processual padrão, podendo atuar apenas nos processos ou expedientes distribuídos para as caixas nas quais está associado.
 
 Usuários com este perfil podem dar ciência nos expedientes, assinar e protocolar petições nos processos e cadastrar/inativar usuários com o perfil de assistente de procuradoria.
