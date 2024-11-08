@@ -32,7 +32,7 @@ No modelo de documento podem ser utilizadas as seguintes variáveis para recuper
 | Tipo do documento | #{certidaoDisponibilizacaoDJEService.getTipoAto()}  |
 | Id do documento | #{certidaoDisponibilizacaoDJEService.getIdAto()} |
 | URL para o documento | #{certidaoDisponibilizacaoDJEService.getUrlVisualizarDocumento()} |
-| Data da publicação | #{certidaoDisponibilizacaoDJEService.getDataDisponibilizacao()} |
+| Data da disponibilização | #{certidaoDisponibilizacaoDJEService.getData()} |
 
 {{</table>}}
 
