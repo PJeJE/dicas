@@ -88,5 +88,10 @@ weight: 6
 | Id do documento | #{certidaoPublicacaoMuralService.getIdAto()} | Disponível somente para a [funcionalidade de certidão automática de publicação no Mural]({{< relref "automacao/certidao/certidao_mural" >}}). |
 | URL para o documento | #{certidaoPublicacaoMuralService.getUrlVisualizarDocumento()} | Disponível somente para a [funcionalidade de certidão automática de publicação no Mural]({{< relref "automacao/certidao/certidao_mural" >}}). |
 | Data da publicação | #{certidaoPublicacaoMuralService.getDataPublicacao()} | Disponível somente para a [funcionalidade de certidão automática de publicação no Mural]({{< relref "automacao/certidao/certidao_mural" >}}). |
+| Tipo do documento | #{certidaoDisponibilizacaoDJEService.getTipoAto()} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_dje" >}}). |
+| Id do documento | #{certidaoDisponibilizacaoDJEService.getIdAto()} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_dje" >}}). |
+| URL para o documento | #{certidaoDisponibilizacaoDJEService.getUrlVisualizarDocumento()} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_dje" >}}). |
+| Data da publicação | #{certidaoDisponibilizacaoDJEService.getDataDisponibilizacao()} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_dje" >}}). |
 
 {{</table>}}
+
