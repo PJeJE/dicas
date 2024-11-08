@@ -16,7 +16,7 @@ Esta funcionalidade está em fase final de homologação. Portanto, **ainda não
 - **Parâmetro `idModeloCertidaoDisponibilizacao`**:
   - O valor desse parâmetro corresponde ao ID do modelo de documento que será utilizado para a certidão com as informações alteradas pelo usuário no momento da solicitação.
   
-- **Parâmetro `pje:disponibilizacao:dje:geraCertidaoDisponibilizacao`**:
+- **Parâmetro `pje:disponibilizacao:dje:geraCertidao`**:
   - O valor desse parâmetro deve ser `S` para habilitar a utilização da funcionalidade e `N` para desabilitá-la.
 
 {{% notice warning %}}
