@@ -7,7 +7,7 @@ weight: 5
 ---
 
 {{% notice warning %}}
-Está funcionalidade está em fase final de homologação. Portanto, **ainda não disponível nos ambientes de produção**.
+Esta funcionalidade está em fase final de homologação. Portanto, **ainda não disponível nos ambientes de produção**.
 {{% /notice %}}
 
 
