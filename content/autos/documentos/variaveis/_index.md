@@ -34,8 +34,8 @@ weight: 6
 | Endereço Advogado Polo Passivo | #{processoTrfHome.advogadoEnderecoPoloPassivoStr} |  |
 | Endereço da Sala de Audiência | #{processoTrfHome.enderecoSalaAudiencia} |  |
 | Endereço Órgão Julgador | #{processoTrfHome.instance.orgaoJulgador.localizacao.endereco.enderecoCompleto} |  |
-| Endereço Partes Polo Ativo | #{processoTrfHome.processoParteEnderecoPoloAtivoStr} |  |
-| Endereço Partes Polo Passivo | #{processoTrfHome.processoParteEnderecoPoloPassivoStr} |  |
+| Endereço s Polo Ativo | #{processoTrfHome.processoEnderecoPoloAtivoStr} |  |
+| Endereço s Polo Passivo | #{processoTrfHome.processoEnderecoPoloPassivoStr} |  |
 | Escreve título Juiz ou Juíza de acordo com a informação sexo do cadastro do magistrado relator | #{processoTrfHome.getRelator(processoTrfHome.instance) != null and processoTrfHome.getRelator(processoTrfHome.instance).sexo == 'F'? 'Juíza': 'Juiz'} |  |
 | Escreve título Procurador ou Procuradora de acordo com a informação sexo do cadastro do procurador na sessão | #{sessaoHome.instance.getPessoaProcurador() != null and sessaoHome.instance.getPessoaProcurador().sexo == 'F'? 'Procurador': 'Procuradora'} |  |
 | Para pessoas cadastradas com a marcação do sexo como **Feminino**, escreve título Servidora para papéis que tenham em seu texto o nome "Servidor". Para pessoas com o cadastro do sexo como **Masculino** ou que não tenha o texto "Servidor" no nome do papel, escreve o nome original do papel | #{authenticator.getPessoaLogada().sexo == 'F' and usuarioLogadoLocalizacaoAtual.papel.toString().contains('Servidor') ? 'Servidora' :usuarioLogadoLocalizacaoAtual.papel} |  |
@@ -61,8 +61,10 @@ weight: 6
 | Partes dentro da certidão de julgamento | #{processoJudicialManager.recuperarParteFormatada(sessaoProcessoDocumentoHome.sessaoPautaProcessoTrf.processoTrf, false,true,false,'A','P','T')} |  |
 | Partes do processo para uso em modelos de oficial de justiça | #{processoJudicialManager.recuperarParteFormatada(processoExpedienteCentralMandadoHome<br>.instance.processoExpediente.processoTrf, false,true,false,'A','P','T')} |  |
 | Partes formatadas | #{processoJudicialAction.recuperarParteFormatada(true, true, 'A', 'P', 'T')} | [Detalhamento]({{< relref "recuperarparteformatada" >}}) |
-| Partes polo Ativo | #{processoTrfHome.processoPartePoloAtivoSemAdvogadoStr} |  |
-| Partes Polo Passivo | #{processoTrfHome.processoPartePoloPassivoSemAdvogadoStr} |  |
+| Partes polo ativo | #{processoTrfHome.processoPartePoloAtivoSemAdvogadoStr} |  |
+| Partes polo passivo | #{processoTrfHome.processoPartePoloPassivoSemAdvogadoStr} |  |
+| Uma das partes do polo ativo (Se usar 0 retorna a primeira parte do polo ativo) | #{processoTrfHome.instance.getProcessoPartePoloAtivoSemAdvogadoList().get(0)} |  |
+| Uma das partes do polo passivo (Se usar 0 retorna a primeira parte do polo passivo) | #{processoTrfHome.instance.getProcessoPartePoloPassivoSemAdvogadoList().get(0)} |  |
 | Período (sessões contínuas) ou data (sessão presencial) da sessão - para uso no documento de intimação de Pauta | #{periodoSessao} |  |
 | Presidente da sessão | #{sessaoComposicaoOrdemManager.obterPresidenteSessao(sessaoPautaProcessoTrfManager<br>.getSessaoPautaProcessoTrfJulgado(tramitacaoProcessualService.recuperaProcesso()).sessao, true)} |  |
 | Processos associados | #{processoTrfHome.instance.getProcessoTrfConexaoListStr()} |  |
