@@ -15,6 +15,6 @@ A remessa entre jurisdições pode ser realizada por encaminhamento ou por compe
 
 A remessa por competência exibirá, para seleção, as competências possíveis de acordo com a jurisdição selecionada, a classe e os assuntos do processo. Quando essa opção é selecionada, a aba órgão julgador só permite a seleção do órgão julgador quando a competência selecionada permitir a escolha de órgão julgador.
 
-Na remessa por encaminhamento, o servidor escolhe qual órgão julgador receberá o processo. A remessa não será possível caso não exista nenhuma competência configurada naquela jurisdição para a classe e os assuntos do processo.
+Na remessa por encaminhamento, o servidor escolhe qual órgão julgador receberá o processo. A remessa por encaminhamento não necessita de configurações de competência e deve manter a competência originária do processo. Existia regra anterior que restringia a remessa para outra jurisdição a existir alguma competência configurada naquela jurisdição para a classe e os assuntos do processo, mas não há razão dessa regra existir.
 
 Ao final da remessa, para distribuição por competência, o sistema lança movimento de redistribuído por competência exclusiva em razão de incompetência, se for por encaminhamento, o movimento registra apenas redistribuído por competência exclusiva.
