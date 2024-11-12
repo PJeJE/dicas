@@ -63,8 +63,10 @@ weight: 6
 | Partes formatadas | #{processoJudicialAction.recuperarParteFormatada(true, true, 'A', 'P', 'T')} | [Detalhamento]({{< relref "recuperarparteformatada" >}}) |
 | Partes polo ativo | #{processoTrfHome.processoPartePoloAtivoSemAdvogadoStr} |  |
 | Partes polo passivo | #{processoTrfHome.processoPartePoloPassivoSemAdvogadoStr} |  |
-| Uma das partes do polo ativo (Se usar 0 retorna a primeira parte do polo ativo) | #{processoTrfHome.instance.getProcessoPartePoloAtivoSemAdvogadoList().get(0)} |  |
-| Uma das partes do polo passivo (Se usar 0 retorna a primeira parte do polo passivo) | #{processoTrfHome.instance.getProcessoPartePoloPassivoSemAdvogadoList().get(0)} |  |
+| Uma das partes do polo ativo com cpf (Se usar 0 retorna a primeira parte do polo ativo) | #{processoTrfHome.instance.getProcessoPartePoloAtivoSemAdvogadoList().get(0)} |  |
+| Uma das partes do polo passivo com cpf (Se usar 0 retorna a primeira parte do polo passivo) | #{processoTrfHome.instance.getProcessoPartePoloPassivoSemAdvogadoList().get(0)} |  |
+| Uma das partes do polo ativo sem cpf (Se usar 0 retorna a primeira parte do polo ativo) | #{processoTrfHome.instance.getProcessoPartePoloAtivoSemAdvogadoList().get(0).getTipoParte()} - #{processoTrfHome.instance.getProcessoPartePoloAtivoSemAdvogadoList().get(0).getPessoa()} |  |
+| Uma das partes do polo passivo sem cpf (Se usar 0 retorna a primeira parte do polo passivo) | #{processoTrfHome.instance.getProcessoPartePoloPassivoSemAdvogadoList().get(0).getTipoParte()} - #{processoTrfHome.instance.getProcessoPartePoloAtivoSemAdvogadoList().get(0).getPessoa()} |  |
 | Período (sessões contínuas) ou data (sessão presencial) da sessão - para uso no documento de intimação de Pauta | #{periodoSessao} |  |
 | Presidente da sessão | #{sessaoComposicaoOrdemManager.obterPresidenteSessao(sessaoPautaProcessoTrfManager<br>.getSessaoPautaProcessoTrfJulgado(tramitacaoProcessualService.recuperaProcesso()).sessao, true)} |  |
 | Processos associados | #{processoTrfHome.instance.getProcessoTrfConexaoListStr()} |  |
