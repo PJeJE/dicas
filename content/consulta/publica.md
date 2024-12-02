@@ -25,5 +25,5 @@ Considerando que a publicidade dos atos processuais da Justiça Eleitoral é ass
 É importante observar que pode haver um pequeno *delay* entre a movimentação no PJe e a atualização da Consulta Pública.
 
 {{% notice note %}}
-A Consulta Processual Unificada da Justiaça Eleitoral tem **regras negociais próprias,** para ter acesso a elas, clique aqui.
+A Consulta Pública Unificada da Justiaça Eleitoral tem **regras negociais próprias,** para ter acesso a elas, clique aqui.
 {{% /notice %}}
