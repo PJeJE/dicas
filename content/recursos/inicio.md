@@ -8,8 +8,10 @@ O recurso é interposto quando o usuário externo (advogado, procurador, parte) 
 
 Feito isso, é iniciada a tarefa **Registrar recurso** para que o servidor faça o devido registro. 
 
+Como o início dessa tarefa é resultado de uma configuração no tipo de documento, caso o usuário externo não classifique corretamente sua petição ou o tipo de documento não esteja corretamente configurado, a tarefa não será iniciada automaticamente. 
+
 {{% notice warning %}}
-Como o início dessa tarefa é resultado de uma configuração no tipo de documento, caso o usuário externo não classifique corretamente sua petição, a tarefa não será iniciada automaticamente.
+Para configurar corretamente a tarefa a ser iniciada quando da juntada pelo usuário externo (advogado/procurador) de documento recursal, o tipo de documento deve ter como **Fluxo associado** o fluxo que contém a tarefa de registro de recurso. O sistema entende, desse forma, que ao ser inserido um documento desse tipo, será iniciada uma tarefa de registro de recurso.
 {{% /notice %}}
 
 Quando, ao analisar os autos do processo, o servidor percebe que o documento de petição inserido pelo advogado é um recurso que foi indevidamente classificado, basta que este inicie a tarefa de registro de recurso. Está possibilidade se dá a partir da tarefa **Analisar determinação:**
