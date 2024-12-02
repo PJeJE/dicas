@@ -18,12 +18,8 @@ Para facilitar o acesso ao cidadão que busca informações sobre os processos e
 
 Pela consulta unificada o usuário tem acesso à movimentação processual, sentenças, votos e acórdãos em todas as instâncias da Justiça Eleitoral, não apenas no Tribunal Superior Eleitoral (TSE), suprindo a necessidade antes existente de percorrer cada um dos sites dos Tribunais Regionais Eleitorais.
 
-O sistema respeita eventuais registros de sigilo e só apresenta movimentos e documentos públicos.
+O sistema respeita eventuais registros de sigilo e só apresenta movimentos e documentos públicos. Verifique as **regras negociais da Consulta Pública Unificada**.
 
 Considerando que a publicidade dos atos processuais da Justiça Eleitoral é assegurada como preceito fundamental da Constituição Federal (artigo 5º,inciso LX), a Consulta Pública Unificada facilita o acesso de qualquer pessoa às informações sobre atos processuais, mesmo não sendo advogado ou uma das partes envolvidas.
 
 É importante observar que pode haver um pequeno *delay* entre a movimentação no PJe e a atualização da Consulta Pública.
-
-{{% notice note %}}
-A Consulta Pública Unificada da Justiaça Eleitoral tem **regras negociais próprias,** para ter acesso a elas, clique aqui.
-{{% /notice %}}
