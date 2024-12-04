@@ -13,7 +13,7 @@ hidden: false
 
 2 - cuja situação seja Ativa (A), Baixada (B) ou Suspensa (S), sendo as duas últimas apresentadas taxadas;
     
-Importante: nomes de partes menores de idade serão abreviados.
+IMPORTANTE: nomes de partes menores de idade serão abreviados.
 
 **RN003 -** Serão retornados todos os **{{<marcar texto="MOVIMENTOS">}}** que tenham visibilidade externa e que não sejam sigilosos.
 
