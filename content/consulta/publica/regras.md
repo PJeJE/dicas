@@ -10,6 +10,7 @@ hidden: false
 **RN002 -** Serão retornadas as **{{<marcar texto="PARTES">}}**:
 
 1 - que não sejam sigilosas (caso a parte seja sigilosa, não retornam ela nem seus advogados); 
+
 2 - cuja situação seja Ativa (A), Baixada (B) ou Suspensa (S), sendo as duas últimas apresentadas taxadas;
     
 Importante: nomes de partes menores de idade serão abreviados.
