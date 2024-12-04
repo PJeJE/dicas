@@ -5,7 +5,7 @@ weight: 1
 hidden: false
 ---
 
-**RN001-** Serão retornados os DADOS BÁSICOS de todos os processos, com exceção daqueles em segredo de justiça, caso em que será apresentada a mensagem “Nenhum processo encontrado”. 
+**RN001-** Serão retornados os **{{<marcar texto="DADOS BÁSICOS">}}** de todos os processos, com exceção daqueles em segredo de justiça, caso em que será apresentada a mensagem “Nenhum processo encontrado”. 
 
 **RN002 -** Serão retornadas as PARTES:
 
