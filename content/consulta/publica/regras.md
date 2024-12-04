@@ -5,11 +5,11 @@ weight: 1
 hidden: false
 ---
 
-**RN001-** Serão retornados os DADOS BÁSICOS de todos os processos, com exceção dos processos em segredo de justiça, caso em que será apresentada a mensagem “Nenhum processo encontrado”. 
+**RN001-** Serão retornados os DADOS BÁSICOS de todos os processos, com exceção daqueles em segredo de justiça, caso em que será apresentada a mensagem “Nenhum processo encontrado”. 
 
 **RN002 -** Serão retornadas as PARTES:
 
-1 - que não sejam sigilosas (caso a parte seja sigilosa, não retorna ela nem seus advogados); 
+1 - que não sejam sigilosas (caso a parte seja sigilosa, não retornam ela nem seus advogados); 
 2 - cuja situação seja Ativa (A), Baixada (B) ou Suspensa (S), sendo as duas últimas apresentadas taxadas;
     
 Importante: nomes de partes menores de idade serão abreviados.
