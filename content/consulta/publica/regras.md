@@ -17,7 +17,7 @@ IMPORTANTE: nomes de partes menores de idade serão abreviados.
 
 **RN003 -** Serão retornados todos os **MOVIMENTOS** que tenham visibilidade externa e que não sejam sigilosos.
 
-**RN004 -** Serão exibidos os **DOCUMENTOS** assinados, desde que: ativos na base de dados, que não sejam sigilosos e que cuja sua visibilidade esteja marcada como pública;
+**RN004 -** Serão exibidos os **DOCUMENTOS** assinados, desde que: ativos na base de dados, que não sejam sigilosos e que cuja sua visibilidade esteja marcada como pública.
         
 Exceção: para as classes abaixo, todos os documentos serão apresentados (mesmo os não públicos), desde que o documento ou o processo não sejam sigilosos:
 
