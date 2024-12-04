@@ -4,7 +4,7 @@ date: 2024-12-04T12:09:20-03:00
 weight: 6
 menuTitle: "Redistribuições"
 ---
-As redistribuições no PJe em muitos casos seguem as mesmas regras da distribuição inicial realizada no protocolo do processo. 
+As redistribuições no PJe, em muitos casos, seguem as mesmas regras da distribuição inicial realizada no protocolo do processo. 
 
 Abordaremos algumas particularidades das redistribuições nesta seção.
 
