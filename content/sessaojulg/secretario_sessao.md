@@ -162,6 +162,17 @@ Há casos em que, ao final do julgamento, o pedido de vista é registrado em nom
 
 Caso o gabinete encerre o fluxo de vista por engano, um novo fluxo de vista pode ser iniciado por meio das tarefas **Aguarda Sessão de Julgamento**, **Aguarda Sessão de Julgamento Virtual**, **Aguarda Julgamento - incluído em pauta virtual** e **Aguarda Julgamento - incluído em pauta**. Isso fará com que o sistema recupere a última sessão onde o processo não foi julgado e verifique se nessa sessão houve pedido de vista. Caso tenha ocorrido, o sistema encaminhará o fluxo de vista para o vistor. Caso contrário, abrirá o fluxo no gabinete do relator. Se for necessário, o gabinete pode utilizar a opção de **Escolher órgão julgador** para encaminhar para o real vistor.
 
+## Votos de vogais 
+
+Os votos dos órgãos julgadores não relatores que compõem a sessão de julgamento (vogais) podem ser contruídos pelo [Painel do magistrado na sessão](/sessaojulg/painel_magistrado), que é a tela do PJe por onde os magistrados acompanham a sessão de julgamento. 
+
+Em algumas sessões de julgamentos, o vogal vota mas não escreve o documento de voto quando a sessão está aberta. Em outras situações, ele até escreve, mas deseja complementar alguma informação no documento de voto após encerramento da sessão. Para essas situações pontuais, ou seja, onde apenas um vogal precisa construir documento de voto, pode-se utilizar a tarefa **Elaborar Voto Escrito**, disponível por meio da transição **Escolher órgão julgador para voto escrito** na tarefa de elaboração de acórdão. A tarefa permite ao vogal construir um ou mais documentos de voto. Finalizada a construção, o vogal pode selecionar a transição **Devolver à SJD** que retornará o processo para a tarefa de elaboração de acórdão.  
+
+{{% notice note %}} 
+Em geral, após encerramento da sessão de julgamento, essa tarefa é exibida com a mensagem **Voto do relator não liberado**. Não há impedimento de construção do voto nesses casos. Esse comportamento é porque a tarefa foi construída inicialmente para construção de voto vista, quando o processo não foi julgado ainda, e foi aproveitada para situações pós julgamento, onde a recuperação dos documentos sofre algumas restrições relacionadas à construção de votos anterior À sessão. O usuário pode prosseguir com o preenchimento do voto sem prejuízos.
+{{% /notice %}}
+
+
 ## Redistribuição de processo quando o processo já está em tarefas de construção de documentos de sessão
 
 A tarefa **Minutar relatório voto e ementa** não deve ser executada por gabinete diferente do gabinete do relator. Caso isso ocorra, o PJe cria documentos repetidos na mesma tarefa e o usuário não percebe, já que o documento não é recarregado no editor. 
