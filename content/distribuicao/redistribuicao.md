@@ -16,7 +16,7 @@ Para redistribuições, existe a posssibilidade do servidor selecionar, como mot
 
 
 {{% notice warning %}}
-Informação para administradores: A conexão registrada, para o caso de tarefas de fluxo configuradas com a variável do tipo **frame** de nome **Processo_Fluxo_prevencao_analiseProcessosPreventos** será exibida na referida tarefa do processo. Caso a conexão seja confirmada, a conexão deixará de ser exibida na tarefa. O usuário administrador pode também remover a variável da configuração da tarefa no fluxo e a pendência de confirmação deixará de ser exibida. Essa exibição não afeta em nada a tramitação do processo. 
+Informação apenas para administradores: A conexão registrada, para o caso de tarefas de fluxo configuradas com a variável do tipo **frame** de nome **Processo_Fluxo_prevencao_analiseProcessosPreventos**, será exibida na referida tarefa do processo. Caso a conexão seja confirmada, a conexão deixará de ser exibida na tarefa. O usuário administrador pode também remover a variável da configuração da tarefa no fluxo e a pendência de confirmação deixará de ser exibida(botão de lixeira na lista de **Variável** da tarefa no fluxo). Essa exibição não afeta em nada a tramitação do processo. 
 {{% /notice %}}
 
 
