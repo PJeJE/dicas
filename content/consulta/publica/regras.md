@@ -19,7 +19,7 @@ Importante: nomes de partes menores de idade serão abreviados.
 **RN004 -** Serão exibidos os DOCUMENTOS dos processos
 1 - assinados, desde que: ativos na base de dados, que não sejam sigilosos e que cuja sua visibilidade esteja marcada como pública;
         
-Exceção: para as classes abaixos, todos os documentos serão apresentados (mesmo os não públicos), desde que o documento ou o processo não sejam sigilosos:
+Exceção: para as classes abaixo, todos os documentos serão apresentados (mesmo os não públicos), desde que o documento ou o processo não sejam sigilosos:
 
 • PRESTAÇÃO DE CONTAS ANUAL (Código: 12377);
 
