@@ -7,16 +7,16 @@ hidden: false
 
 **RN001-** Serão retornados os **{{<marcar texto="DADOS BÁSICOS">}}** de todos os processos, com exceção daqueles em segredo de justiça, caso em que será apresentada a mensagem “Nenhum processo encontrado”. 
 
-**RN002 -** Serão retornadas as PARTES:
+**RN002 -** Serão retornadas as **{{<marcar texto="PARTES">}}**:
 
 1 - que não sejam sigilosas (caso a parte seja sigilosa, não retornam ela nem seus advogados); 
 2 - cuja situação seja Ativa (A), Baixada (B) ou Suspensa (S), sendo as duas últimas apresentadas taxadas;
     
 Importante: nomes de partes menores de idade serão abreviados.
 
-**RN003 -** Serão retornados todos os MOVIMENTOS que tenham visibilidade externa e que não sejam sigilosos.
+**RN003 -** Serão retornados todos os **{{<marcar texto="MOVIMENTOS">}}** que tenham visibilidade externa e que não sejam sigilosos.
 
-**RN004 -** Serão exibidos os DOCUMENTOS dos processos
+**RN004 -** Serão exibidos os **{{<marcar texto="DOCUMENTOS">}}** dos processos
 1 - assinados, desde que: ativos na base de dados, que não sejam sigilosos e que cuja sua visibilidade esteja marcada como pública;
         
 Exceção: para as classes abaixo, todos os documentos serão apresentados (mesmo os não públicos), desde que o documento ou o processo não sejam sigilosos:
