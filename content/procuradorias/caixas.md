@@ -23,3 +23,7 @@ Sobre a criação de caixas:
 + Não há existe restrição de quantidade de caixas possíveis;
 + É possível definir quem tem acesso (visibilidade) a cada caixa;
 + Não é possível criar uma caixa dentro de outra caixa (subcaixas).
+
+Ainda com relação às configurações das caixas, na Aba Pessoas Associadas é possível definir se o Procurador ou Assistente também terá permissão para gerenciar usuários ou apenas vizualizar a caixa (essa é a opção padrão), conforme imagem abaixo:
+
+IMG_ACESSO_CAIXAS
