@@ -26,4 +26,6 @@ Sobre a criação de caixas:
 
 Ainda com relação às configurações das caixas, na Aba Pessoas Associadas é possível definir se o Procurador ou Assistente também terá permissão para gerenciar usuários ou apenas vizualizar a caixa (essa é a opção padrão), conforme imagem abaixo:
 
-IMG_ACESSO_CAIXAS
+
+![Acesso Caixas](/imagens/acesso-caixas.jpg)
+
