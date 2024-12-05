@@ -10,7 +10,7 @@ Abordaremos algumas particularidades das redistribuições nesta seção.
 
 ## Redistribuição por prevenção
 
-Conforme descrito no sítio https://www.pje.jus.br/wiki/index.php/Distribui%C3%A7%C3%A3o, existem situações de prevenção abordadas na distribuição de processos. Temos na Justiça Eleitoral, inclusive, um caso de prevenção específico, conforme detalhamos na seção do Artigo 260 do código eleitoral. 
+Conforme descrito no sítio https://www.pje.jus.br/wiki/index.php/Distribui%C3%A7%C3%A3o, existem situações de prevenção abordadas na distribuição de processos. Temos na Justiça Eleitoral, inclusive, um caso de prevenção específico, conforme detalhamos na seção do [Artigo 260 do código eleitoral](distribuicao/260). 
 
 Para redistribuições, existe a posssibilidade do servidor selecionar, como motivo da redistribuição, a opção **Prevenção**. Para esses casos, o sistema registrará, nas conexões do processo (aba **Processos associados** dos autos digitais), uma ligação com o processo informado como **Processo paradigma** e encaminhará o processo sendo redistribuído para o mesmo órgão julgador do processo paradigma informado. 
 
