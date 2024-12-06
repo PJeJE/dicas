@@ -29,7 +29,7 @@ As abas **Ementa, Relatório, Voto Relator, Voto Vencedor** e **Acórdão** perm
 
 Se não houver seleção para uma determinada aba, ao enviar o processo para elaboração do acórdão, a aba correspondente não terá documento previamente construído. Essa seleção refletirá na elaboração do acórdão desde que, após selecionadas todas as opções conjuntamente, o usuário utilize o botão **Salvar seleção.**. Um alerta avisará quais abas não tiveram documentos selecionados. É só um alerta. Ao serem carregadas abas com documentos em branco na tarefa de elaboração do acórdão, o usuário pode construir um documento novo, de acordo com as permissões já existentes na elaboração de acórdão para seu perfil. 
 
-{{% notice caution %}}
+{{% notice warning %}}
 As abas de votos sempre exibem todos os documentos de voto vinculados ao processo. É MUITO IMPORTANTE QUE O DOCUMENTO SEJA SELECIONADO APENAS EM UMA ABA. A seleção do mesmo documento em abas diferentes causam a edição equivocada de documentos, fazendo com que conteúdos sejam perdidos. Deve-se ter muito cuidado nessa seleção.
 {{% /notice %}}
 
