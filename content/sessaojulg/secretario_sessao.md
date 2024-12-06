@@ -42,6 +42,10 @@ Informações relevantes - órgão julgador e sessão
 
 O ementa precisa sempre estar vinculado ao órgão julgador, que deve ser o órgão julgador relator do processo inicialmente. Caso o processo vá a julgamento e o resultado do julgamento aponte um vogal (não relator) como vencedor, a ementa precisa ser do vencedor. Via de regra, o vencedor constrói novo documento. O sistema está preparado, no editor de documento de sessão posterior ao julgamento do processo, para verificar quem foi o vencedor do julgamento e recuperar o documento de ementa respectivo que estiver vinculado ao órgão julgador vencedor. Caso não exista, o sistema carrega o editor com um novo documento em branco, para que o vencedor construa sua própria ementa.
 
+{{% notice note %}}
+Caso a ementa do relator tenha sido marcada para carregamento na tarefa **Selecionar documentos para acórdão**, o sistema carregará aquela ementa mesmo que o vogal tenha sido vencendor e permitirá que o vogal edite o documento de ementa construído originalmente pelo relator, fazendo com que o conteúdo seja perdido. Conforme explicado na seção que detalha a tarefa [Selecionar documentos para acórdão](/sessaljulg/selecionar_documentos), sua utilização deve ser sempre muito criteriosa porque pode causar diversas situações de inconsistência.
+{{% /notice %}}
+
 A sessão de julgamento é uma informação relevante, mas não obrigatória, visto que, quando o relator inicia a construção dos documentos de sessão, não sabe ainda em qual sessão estará o processo. 
 
 A vinculação à sessão de julgamento ocorre quando o assessor de plenário inclui o processo em uma pauta de julgamento. Caso o processo vá a julgamento e seja adiado, por exemplo, o sistema desvincula o documento da sessão para que seja vinculado posteriormente na nova pauta. 
@@ -71,6 +75,10 @@ Para a construção do acórdão vinculado ao voto do relator após julgado o pr
 
 Ajustes na vinculação de documentos à sessão podem ser feitos pela tarefa [Selecionar documentos para acórdão](/sessaljulg/selecionar_documentos).
 
+{{% notice note %}}
+Caso seja utilizada a tarefa [Selecionar documentos para acórdão](/sessaljulg/selecionar_documentos) para marcação de votos a serem utilizados na construção do acórdão, o usuário deve ter o cuidado de selecionar um documento de voto em mais de uma aba da tarefa. Caso selecione, por exemplo, na aba **Voto relator** e na aba **Voto vencedor** o mesmo documento e o julgamento do processo tiver registrado um vencedor diferente do relator, o sistema permitirá, em tarefas de alteração do voto, que o usuário grave conteúdos por cima do mesmo documento pensando que está editando um documento novo. Conforme explicado na seção que detalha, sua utilização deve ser sempre muito criteriosa porque pode causar diversas situações de inconsistência.
+{{% /notice %}}
+
 ### Voto do vogal
 Informações relevantes - tipo de voto, órgão julgador, órgão julgador acompanhado e sessão 
 
@@ -92,6 +100,10 @@ Para a construção do acórdão vinculado ao voto do vogal após julgado o proc
 
 Ajustes na vinculação de documentos à sessão podem ser feitos pela tarefa [Selecionar documentos para acórdão](/sessaljulg/selecionar_documentos).
 
+{{% notice note %}}
+Caso seja utilizada a tarefa [Selecionar documentos para acórdão](/sessaljulg/selecionar_documentos) para marcação de votos a serem utilizados na construção do acórdão, o usuário deve ter o cuidado de selecionar um documento de voto em mais de uma aba da tarefa. Caso selecione, por exemplo, na aba **Voto relator** e na aba **Voto vencedor** o mesmo documento e o julgamento do processo tiver registrado um vencedor diferente do relator, o sistema permitirá, em tarefas de alteração do voto, que o usuário grave conteúdos por cima do mesmo documento pensando que está editando um documento novo. Conforme explicado na seção que detalha, sua utilização deve ser sempre muito criteriosa porque pode causar diversas situações de inconsistência.
+{{% /notice %}}
+
 ### Certidão de julgamento
 Informações relevantes - sessão 
 
@@ -102,7 +114,7 @@ Pode-se construir documento de certidão de julgamento pelos autos digitais. Nes
 ### Acórdão
 Informações relevantes - órgão julgador e sessão 
 
-O acórdão precisa sempre estar vinculado ao órgão julgador, que deve ser sempre o órgão julgador redator para o acórdão. Algumas vezes são criados vários documentos de acórdão para uma mesma sessão, mas o usuário às vezes não consegue apagá-los já que o sistema tem impedimentos para apagar documentos de sessão, ao contrário dos documentos processuais usuais. Dessa forma, é importante que os acórdãos que não são relevantes e não serão assinados sejam desvinculados da sessão. A vinculação a órgão julgador também é relevante para que o sistema não apresente inconsistências em algumas telas que trabalham, em seu processamento, com essa informação. Sendo assim, caso o acórdão não vá ser utilizado e esteja sem órgão julgador vinculado, o sistema apresenta erros do tipo **Há elementos de julgamento não vinculados a órgão julgador e a tela não poderá ser carregada.** Caso isso aconteça, vincule o acórdão a um órgão julgador qualquer, não relevante para o julgamento, e o sistema não apresentará inconsistências relacionadas a isso. Esse erro também é apresentando caso existe algum documento de voto, de ementa ou de relatório não vinculados a órgão julgador. Conforme explicado mais acima, esses documentos de sessão devem sempre estar associados a um órgão julgador.
+O acórdão precisa sempre estar vinculado ao órgão julgador, que deve ser sempre o órgão julgador redator para o acórdão. Algumas vezes são criados vários documentos de acórdão para uma mesma sessão, mas o usuário às vezes não consegue apagá-los já que o sistema tem impedimentos para apagar documentos de sessão, ao contrário dos documentos processuais usuais. Dessa forma, é importante que os acórdãos que não são relevantes e não serão assinados sejam desvinculados da sessão. A vinculação a órgão julgador também é relevante para que o sistema não apresente inconsistências em algumas telas que trabalham, em seu processamento, com essa informação. Sendo assim, caso o acórdão não vá ser utilizado e esteja sem órgão julgador vinculado, o sistema apresenta erros do tipo **Há elementos de julgamento não vinculados a órgão julgador e a tela não poderá ser carregada.** Caso isso aconteça, vincule o acórdão a um órgão julgador qualquer, não relevante para o julgamento, e o sistema não apresentará inconsistências relacionadas a isso. Esse erro também é apresentando caso existe algum documento de voto, de  ou de relatório não vinculados a órgão julgador. Conforme explicado mais acima, esses documentos de sessão devem sempre estar associados a um órgão julgador.
 
 {{% notice note %}}
 Ajustes na vinculação de documentos à sessão e ao órgão julgador podem ser feitos pela tarefa [Selecionar documentos para acórdão](/sessaljulg/selecionar_documentos).
