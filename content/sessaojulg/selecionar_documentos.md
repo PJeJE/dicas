@@ -25,9 +25,14 @@ Os votos não vinculados a documentos não são exibidos.
 
 Essas informações encontram-se em abas separadas, assim o usuário pode selecionar quais desses documentos serão o relatório, a ementa, o voto do relator, o voto do vencedor e os votos de vogais do acórdão a ser montado, bem como para qual pauta será produzido o acórdão.
 
-As abas **Ementa, Relatório, Voto Relator, Voto Vencedor** e **Acórdão** permitem a seleção de apenas uma opção de documento, mas a seleção não é obrigatória. Isso porque um processo julgador só pode conter um desses documentos. A aba de votos vogais permite a seleção de mais de um documento
+As abas **Ementa, Relatório, Voto Relator, Voto Vencedor** e **Acórdão** permitem a seleção de apenas uma opção de documento, mas a seleção não é obrigatória. Isso porque um processo julgador só pode conter um desses documentos. A aba de votos vogais permite a seleção de mais de um documento.
 
 Se não houver seleção para uma determinada aba, ao enviar o processo para elaboração do acórdão, a aba correspondente não terá documento previamente construído. Essa seleção refletirá na elaboração do acórdão desde que, após selecionadas todas as opções conjuntamente, o usuário utilize o botão **Salvar seleção.**. Um alerta avisará quais abas não tiveram documentos selecionados. É só um alerta. Ao serem carregadas abas com documentos em branco na tarefa de elaboração do acórdão, o usuário pode construir um documento novo, de acordo com as permissões já existentes na elaboração de acórdão para seu perfil. 
+
+{{% caution note %}}
+As abas de votos sempre exibem todos os documentos de voto vinculados ao processo. É MUITO IMPORTANTE QUE O DOCUMENTO SEJA SELECIONADO APENAS EM UMA ABA. A seleção do mesmo documento em abas diferentes causam a edição equivocada de documentos, fazendo com que conteúdos sejam perdidos. Deve-se ter muito cuidado nessa seleção.
+{{% /caution %}}
+
 
 A aba que exibe as pautas contém as seguintes informações:
 
