@@ -61,5 +61,3 @@ Regras importantes:
 
 + O usuário que peticiona não escolhe o nível de segredo do processo, isso é configurado pelo administrador do sistema, no tópico [Como atribuir níveis de sigilo aos processos]({{< relref "atribuir_nivel" >}}). 
 
-
-{{% children  %}}
