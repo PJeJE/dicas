@@ -57,6 +57,16 @@ Para isso, o magistrado deverá entrar no processo, nos **Autos digitais – Seg
 Regras importantes:
 + A atribuição de visualizador é apenas por processo e a indicação uma por vez;
 + É possível atribuir a visualização a mais de uma pessoa;
+  
+## Como não expor nomes de parte em processos sigilosos
+
+Para que o nome da parte de processos sigilosos não seja exposto em movimentos que utilizam esse complemento, há uma configuração que deve ser feita.
+
+Como administrador, pesquise pela opção **Tipo de complemento (Configurações –  Tabelas Judiciais – Movimentações –  Complementos – Tipos).** A tela de configuração dos tipos de complementos será exibida, pesquise, no campo Nome, por nome_da_parte. 
+
+Clique no ícone de edição (lápis) e verifique como está o campo Expressão de busca.
+
+O valor correto é #{processoParteUtils.obterPartesProcesso(tramitacaoProcessualService.recuperaProcesso())}.
 + Para retirar a visualização, basta clicar na lixeira.
 
 + O usuário que peticiona não escolhe o nível de segredo do processo, isso é configurado pelo administrador do sistema, no tópico [Como atribuir níveis de sigilo aos processos]({{< relref "atribuir_nivel" >}}). 
