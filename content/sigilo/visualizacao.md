@@ -68,5 +68,5 @@ Clique no ícone de edição (lápis) e verifique como está o campo Expressão 
 O valor correto é #{processoParteUtils.obterPartesProcesso(tramitacaoProcessualService.recuperaProcesso())}.
 + Para retirar a visualização, basta clicar na lixeira.
 
-+ O usuário que peticiona não escolhe o nível de segredo do processo, isso é configurado pelo administrador do sistema, no tópico [Como atribuir níveis de sigilo aos processos]({{< relref "atribuir_nivel" >}}). 
++ O usuário que peticiona não escolhe o nível de segredo do processo, isso é configurado pelo administrador do sistema, no tópico [Como atribuir níveis de sigilo aos processos]({{< relref "niveis" >}}). 
 
