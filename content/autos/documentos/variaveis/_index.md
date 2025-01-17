@@ -8,6 +8,10 @@ weight: 6
 É importante ressaltar que, ao utilizar variáveis, se for utilizada a opção de copiar e colar a variável desta atual seção do Dicas ou até mesmo de um outro modelo de documento, ao colar a mesma variável em um novo modelo, via de regra, são inseridos indevidamente caracteres especiais relevantes para formatação em páginas web ou editores html. Esses caracteres prejudicam a interpretação da variável, causando erros no carregamento do documento que utiliza o modelo. Recomendamos que para utilizar o copiar e colar, que se copie a variável em um bloco de notas e depois se copie desse bloco de notas a referida variável e cole-a em seu modelo.
 {{% /notice %}}
 
+{{% notice note %}} 
+Ao utilizar variáveis, quando copiar o conteúdo expressão, seja do próprio Dicas ou de algum outro modelo de documento, cole primeiro no Bloco de Notas, copie outra vez (do bloco de notas) e, só então, cole no novo modelo de documento.
+A opção de copiar e colar de forma direta (sem passar pelo Bloco de Notas) insere, de forma indevida, caracteres especiais presentes nas web ou editores html. Eles prejudicam a interpretação da variável e podem causar erro no carregamento do documento{{% /notice %}}
+
 {{<table "variaveismodelo">}}
 
 | **Descrição** | **Variável** | **Outras informações** |
