@@ -4,7 +4,6 @@ date: 2025-01-17T15:09:02-03:00
 weight: 6
 ---
 
-
 O site do CNJ hospeda uma plataforma completa sobre o Domicílio Judicial Eletrônico, na qual podem ser consultados o serviço, os normativos, os manuais e, inclusive, há portal próprio para capacitação sobre o tema: https://www.cnj.jus.br/tecnologia-da-informacao-e-comunicacao/justica-4-0/domicilio-judicial-eletronico/
 
 ## Sobre a contagem de prazos
