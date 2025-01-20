@@ -71,7 +71,11 @@ I – o tribunal, o sistema de processo eletrônico, o órgão julgador e o núm
 
 Por fim, o próprio CNJ ainda salienta no FAQ:
 
-"Informações para tribunais Quais tribunais devem enviar comunicações processuais pelo Domicílio? Nos termos da Resolução 455/2022, é obrigatória a utilização do Domicílio Judicial Eletrônico por todos os tribunais para a comunicação processual entre os órgãos do Poder Judiciário e os destinatários que sejam ou não partes na relação processual.
+"Informações para tribunais:
+
+ Quais tribunais devem enviar comunicações processuais pelo Domicílio? 
+ 
+ Nos termos da Resolução 455/2022, é obrigatória a utilização do Domicílio Judicial Eletrônico por todos os tribunais para a comunicação processual entre os órgãos do Poder Judiciário e os destinatários que sejam ou não partes na relação processual.
 Vale lembrar que o tribunal é responsável por enviar a comunicação processual e todos os documentos relacionados a ela (ofícios, citações e intimações). Da mesma forma, cabe ao órgão definir a data final para o destinatário tomar ciência da comunicação, bem como para registrar essa ciência."
 
 

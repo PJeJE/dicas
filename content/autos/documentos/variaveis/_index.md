@@ -5,7 +5,7 @@ weight: 6
 ---
 
 {{% notice note %}} 
-Ao utilizar variáveis, quando copiar o conteúdo expressão, seja do próprio Dicas ou de algum outro modelo de documento, cole primeiro no Bloco de Notas, copie outra vez (do bloco de notas) e, só então, cole no novo modelo de documento. A opção de copiar e colar de forma direta (sem passar pelo Bloco de Notas) insere, de forma indevida, caracteres especiais presentes na formatação das páginas WEB e/ou editores HTML. Eles prejudicam a interpretação da variável e podem causar erro no carregamento do documento{{% /notice %}}
+Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio Dicas ou de algum outro modelo de documento -, cole primeiro no Bloco de Notas. Copie outra vez (do Bloco de Notas) e, só então, cole no novo modelo de documento. A opção de copiar e colar de forma direta (sem passar pelo Bloco de Notas) insere, de forma indevida, caracteres especiais presentes na formatação das páginas WEB e/ou editores HTML. Eles prejudicam a interpretação da variável e podem causar erro no carregamento do documento.{{% /notice %}}
 
 {{<table "variaveismodelo">}}
 
