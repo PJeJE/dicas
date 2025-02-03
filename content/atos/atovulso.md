@@ -12,5 +12,5 @@ Para esse fim, a partir da tarefa **Verificar pendências**, o servidor deve enc
 
 
 {{% notice note %}}
-Por meio do juntar documentos dos autos, não é permitido incluir documentos cujos identificadores estejam configurados nos seguintes parâmetros: **idTipoProcessoDocumentoDecisao**, **idTipoProcessoDocumentoDespacho**, **idTipoProcessoDocumentoSentenca**, **idTipoProcessoDocumentoVoto**, **idTipoProcessoDocumentoEmenta**, **idTipoProcessoDocumentoRelatorio** e **idTipoProcessoDocumentoAcordao**. 
+Por meio do juntar documentos dos autos, não é permitido incluir documentos dos tipos cujos identificadores estejam configurados nos seguintes parâmetros: **idTipoProcessoDocumentoDecisao**, **idTipoProcessoDocumentoDespacho**, **idTipoProcessoDocumentoSentenca**, **idTipoProcessoDocumentoVoto**, **idTipoProcessoDocumentoEmenta**, **idTipoProcessoDocumentoRelatorio** e **idTipoProcessoDocumentoAcordao**. 
 {{% /notice %}}
