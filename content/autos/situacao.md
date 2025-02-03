@@ -21,7 +21,7 @@ Sem a situação processual a realização de algumas consultas, mesmo que por m
 Quando um processo é arquivado, a situação em andamento também é finalizada.
 {{% /notice %}}
 
-Abaixo estão listadas as situações processuais definidas até o momento. Cada situação é identificada por um código e pode ser acessada por meio do link correspondente.
+Abaixo estão listadas as situações processuais definidas até o momento para o TSE e para os TREs. Cada situação é identificada por um código e pode ser acessada por meio do link correspondente.
 
 | Código | Descrição |
 | --- | --- |
@@ -36,9 +36,10 @@ Abaixo estão listadas as situações processuais definidas até o momento. Cada
 | [jus:acordao](#jusacordao) | Situação de processos com julgamento finalizado. |
 | [jus:acordaofinalizado](#jusacordaofinalizado) | Situação de processos com acórdão assinado e finalizado. |
 | [jus:corregedoria](#juscorregedoria) | Situação de processos administrativos de corregedoria (DP, RSE, CO). |
+| [jus:prazovista](#jusprazovista) | Situação de processos com prorrogação de prazo para retorno dos autos após pedido de vista |
 
 {{% notice warning %}}
-As situações foram documentadas com base no fluxo do TSE, sendo aplicadas, no que cabe, para os Regionais e Zonas.
+As situações acima foram documentadas com base no fluxo do TSE, sendo aplicadas, no que cabe, para as instâncias de segunda grau dos Regionais.
 {{% /notice %}}
 
 ## Cenários
@@ -107,3 +108,10 @@ A situação **jus:andamento** é finalizada quando as situações **jus:arquiva
 
 1. Quando um processo entra na tarefa **Verificar dados - Processo Corregedoria**. 
 
+### jus:prazovista
+
+1. Quando um processo sai de uma das tarefas **Pedido de providência - vistor**, **Revisar pedido de providência - vistor** ou **Assinar pedido de providência - vistor** por meio de assinatura do ato judicial.
+
+{{% notice note %}}
+A situação **jus:prazovista** nunca se encerra.
+{{% /notice %}}
