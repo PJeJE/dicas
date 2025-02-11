@@ -16,7 +16,27 @@ A certidão deve ser emitida para expedientes enviados via **Sistema**, **Correi
 
 Para expedientes sigilosos, a emissão da certidão será como um documento sigiloso. Da mesma forma, o sistema se comportará se o processo relacionado ao expediente tiver partes sigilosas.
 
-A certidão emitida utilizará o modelo configurado de acordo com as necessidades do usuário administrador. 
+## Modelo utilizado para emissão da certidão de ciência
+
+A certidão emitida utilizará o modelo configurado de acordo com as necessidades do usuário administrador. Para facilitar a utilização inicial da funcionalidade, foi inserido um modelo previamente configurada que emitirá uma certidão com o conteúdo similar ao descrito abaixo:
+
+TRIBUNAL SUPERIOR ELEITORAL
+SECRETARIA JUDICIÁRIA 
+
+LISTA TRÍPLICE (11545) - 9999999-99.9999.9.99.9999 - JOAO PESSOA - PARAIBA
+RELATOR(A): MINISTRO(A) ANA ANA
+ADVOGADO(A) INDICADO(A): FATIMA FATIMA, MARIA MARIA, JOSE JOSE
+INTERESSADO: TRIBUNAL REGIONAL ELEITORAL DA PARAIBA
+ 
+CIÊNCIA DA INTIMAÇÃO
+
+Essa certidão registra que foi dada ciência no expediente do tipo Notificação expedido via Pessoalmente na data 05/02/2025 18:28:13 a(o) TRIBUNAL REGIONAL ELEITORAL DA PARAIBA. A ciência foi registrada pelo sistema em 05/02/2025 18:29:00.
+
+Brasília, 5 de fevereiro de 2025.
+
+## Variáveis do modelo de certidão de ciência
+
+O modelo de documento para a certidão de ciência pode ser alterado conforme necessidades do tribunal utilizando variáveis diversas disponíveis no PJe. 
 
 Algumas variáveis foram utilizadas na inclusão do modelo padrão a ser utilizado na funcionalidade quando ela foi disponibilizada na produção:
 
@@ -26,12 +46,14 @@ Algumas variáveis foram utilizadas na inclusão do modelo padrão a ser utiliza
   Exibe o meio de expedição. Exemplo: Correios, Mural, Expedição eletrônica
 + #{dateUtil.dateToString(processoParteExpedienteHome.instance.processoExpediente.dtCriacao, 'dd/MM/yyyy HH:mm:ss')}
   Exibe a data de expedição da intimação no formato **dd/MM/yyyy HH:mm:ss**
++ #{processoParteExpedienteHome.instance.nomePessoaParte}
+  Exibe o nome do intimado  
 + #{processoParteExpedienteHome.instance.cienciaSistema != null and processoParteExpedienteHome.instance.cienciaSistema ? 'pelo sistema' : ''} #{processoParteExpedienteHome.instance.cienciaSistema != null && processoParteExpedienteHome.instance.cienciaSistema ? '' : 'por'} #{processoParteExpedienteHome.instance.cienciaSistema != null && processoParteExpedienteHome.instance.cienciaSistema ? '' : processoParteExpedienteHome.instance.nomePessoaCiencia}
   Exibe quem foi o responsável pela ciência. Caso a ciência tenha sido registrada pelo sistema, será exibido **pelo sistema**.
 + #{dateUtil.dateToString(processoParteExpedienteHome.instance.dtCienciaParte, 'dd/MM/yyyy HH:mm:ss')}
   Exibe a data da ciência no formato **dd/MM/yyyy HH:mm:ss**
   
-As variáveis utilizadas no modelo de documento que iniciam com o termo processoParteExpedienteHome, se utilizadas em outros contextos que não o da emissão da certidão da atual pendência, podem não ter o funcionamento correto, já que dependem que um expediente específico esteja carregado no contexto do PJe no momento do uso.
+As variáveis utilizadas no modelo de documento que iniciam com o termo processoParteExpedienteHome, se utilizadas em outros contextos que não o da emissão da certidão da atual pendência, em geral, não terão o funcionamento correto, já que dependem que um expediente específico esteja carregado no contexto do PJe no momento do uso.
 
 ## Orientações de configuração para o usuário administrador
 
