@@ -44,10 +44,10 @@ O modelo de documento para a certidão de ciência pode ser alterado conforme ne
 
 Algumas variáveis foram utilizadas na inclusão do modelo padrão a ser utilizado na funcionalidade quando ela foi disponibilizada na produção:
 
-+ #{processoParteExpedienteHome.instance.processoExpediente.tipoProcessoDocumento}
-++ Exibe o tipo de expediente. Exemplo: Intimação, Edital, Citação
-+ #{processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente == 'E' ? 'Expedição eletrônica' : processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente.label}
-++ Exibe o meio de expedição. Exemplo: Correios, Mural, Expedição eletrônica
+- #{processoParteExpedienteHome.instance.processoExpediente.tipoProcessoDocumento}
+ - Exibe o tipo de expediente. Exemplo: Intimação, Edital, Citação
+- #{processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente == 'E' ? 'Expedição eletrônica' : processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente.label}
+ - Exibe o meio de expedição. Exemplo: Correios, Mural, Expedição eletrônica
 + #{dateUtil.dateToString(processoParteExpedienteHome.instance.processoExpediente.dtCriacao, 'dd/MM/yyyy HH:mm:ss')}
 ++ Exibe a data de expedição da intimação no formato **dd/MM/yyyy HH:mm:ss**
 + #{processoParteExpedienteHome.instance.nomePessoaParte}
