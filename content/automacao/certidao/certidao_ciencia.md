@@ -18,7 +18,7 @@ Para expedientes sigilosos, a emissão da certidão será como um documento sigi
 
 ## Modelo utilizado para emissão da certidão de ciência
 
-A certidão emitida utilizará o modelo configurado de acordo com as necessidades do usuário administrador. Para facilitar a utilização inicial da funcionalidade, foi inserido um modelo previamente configurada que emitirá uma certidão com o conteúdo similar ao descrito abaixo:
+A certidão emitida utilizará o modelo configurado de acordo com as necessidades do usuário administrador. Para facilitar a utilização inicial da funcionalidade, foi inserido um modelo previamente configurado que emitirá uma certidão com o conteúdo similar ao descrito abaixo:
 
 TRIBUNAL SUPERIOR ELEITORAL
 SECRETARIA JUDICIÁRIA 
@@ -33,6 +33,10 @@ CIÊNCIA DA INTIMAÇÃO
 Essa certidão registra que foi dada ciência no expediente do tipo Notificação expedido via Pessoalmente na data 05/02/2025 18:28:13 a(o) TRIBUNAL REGIONAL ELEITORAL DA PARAIBA. A ciência foi registrada pelo sistema em 05/02/2025 18:29:00.
 
 Brasília, 5 de fevereiro de 2025.
+
+{{% notice note %}}
+Os regionais forem configurado inicialmente para não gerarem a certidão para que o uso inicial seja controlado pelo próprio TRE. (parâmetro **pje:certidao:geraCertidaoCiencia** com o valor **N**)
+{{% /notice %}}
 
 ## Variáveis do modelo de certidão de ciência
 
