@@ -45,17 +45,17 @@ O modelo de documento para a certidão de ciência pode ser alterado conforme ne
 Algumas variáveis foram utilizadas na inclusão do modelo padrão a ser utilizado na funcionalidade quando ela foi disponibilizada na produção:
 
 + #{processoParteExpedienteHome.instance.processoExpediente.tipoProcessoDocumento}
-  ++ Exibe o tipo de expediente. Exemplo: Intimação, Edital, Citação
+++ Exibe o tipo de expediente. Exemplo: Intimação, Edital, Citação
 + #{processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente == 'E' ? 'Expedição eletrônica' : processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente.label}
-  ++ Exibe o meio de expedição. Exemplo: Correios, Mural, Expedição eletrônica
+++ Exibe o meio de expedição. Exemplo: Correios, Mural, Expedição eletrônica
 + #{dateUtil.dateToString(processoParteExpedienteHome.instance.processoExpediente.dtCriacao, 'dd/MM/yyyy HH:mm:ss')}
-  ++ Exibe a data de expedição da intimação no formato **dd/MM/yyyy HH:mm:ss**
+++ Exibe a data de expedição da intimação no formato **dd/MM/yyyy HH:mm:ss**
 + #{processoParteExpedienteHome.instance.nomePessoaParte}
-  ++ Exibe o nome do intimado  
+++ Exibe o nome do intimado  
 + #{processoParteExpedienteHome.instance.cienciaSistema != null and processoParteExpedienteHome.instance.cienciaSistema ? 'pelo sistema' : ''} #{processoParteExpedienteHome.instance.cienciaSistema != null && processoParteExpedienteHome.instance.cienciaSistema ? '' : 'por'} #{processoParteExpedienteHome.instance.cienciaSistema != null && processoParteExpedienteHome.instance.cienciaSistema ? '' : processoParteExpedienteHome.instance.nomePessoaCiencia}
-  ++ Exibe quem foi o responsável pela ciência. Caso a ciência tenha sido registrada pelo sistema, será exibido **pelo sistema**.
+++ Exibe quem foi o responsável pela ciência. Caso a ciência tenha sido registrada pelo sistema, será exibido **pelo sistema**.
 + #{dateUtil.dateToString(processoParteExpedienteHome.instance.dtCienciaParte, 'dd/MM/yyyy HH:mm:ss')}
-  ++ Exibe a data da ciência no formato **dd/MM/yyyy HH:mm:ss**
+++ Exibe a data da ciência no formato **dd/MM/yyyy HH:mm:ss**
   
 As variáveis utilizadas no modelo de documento que iniciam com o termo processoParteExpedienteHome, se utilizadas em outros contextos que não o da emissão da certidão da atual pendência, em geral, não terão o funcionamento correto, já que dependem que um expediente específico esteja carregado no contexto do PJe no momento do uso.
 
