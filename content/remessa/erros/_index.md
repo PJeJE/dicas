@@ -32,6 +32,10 @@ Com base nos requisitos acima, será possível definir em que instância (se na 
 
 Se não há documentos produzidos na instância de origem, não adianta tentar atuar no destino. Por outro lado, uma vez que os documentos produzidos na origem tenham chegado (casos de retorno para a instância), não há que se falar em nova tentativa de remessa.
 
+{{% notice note %}}
+Nas situações em que a tarefa de remessa finaliza sem que o servidor consiga visualizar qual erro ocorreu, pode-se tentar usar a transição **Verifica erro de remessa**, quando disponível. Por vezes, o sistema grava o erro e recupera para exibição ao servidor na tarefa resultante dessa transição. Caso tenha havido problemas na conclusão da remessa e, por meio do uso dessa tarefa, não seja exibido o erro ou o erro não der um caminho para que o servidor consiga corrigir o problema, deve-se abrir chamado relatando o problema.
+{{% /notice %}}
+
 Vários erros estão devidamente tratados pelo sistema e retornam uma mensagem clara para o usuário, o que permite a correção pelo próprio servidor ou pelo administrador local, sem a necessidade de abertura de chamado no TSE. Na tabela abaixo, apresentamos como ajustar localmente os principais erros de remessa:
 
 | **Descrição**                                                                                                                                             |                                                                                         **Correção**                                                                                        |
