@@ -16,3 +16,6 @@ Essa variável vai recuperar o nome do juiz, na seguinte ordem de prioridades:
 3ª prioridade: juiz que é titular (mesmo não recebendo distribuição); e 
 
 4ª prioridade: qualquer magistrado lotado na localização.
+
+
+**OBSERVAÇÃO:** as prioridades são sequências, se for identificado um juiz que atenda a primeira prioridade, as demais serão descartadas. E assim sucessivamente.
