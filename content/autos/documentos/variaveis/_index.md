@@ -82,7 +82,7 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 | Tipo Nome Réu Processo | #{processoTrfHome.instance.tipoNomeReuProcesso} |  |
 | UF Órgão Julgador | #{processoTrfHome.instance.orgaoJulgador.localizacao.endereco.cep.municipio.estado.codEstado} |  |
 | Usuário Logado | #{usuarioLogado.nome} |  |
-| Magistrado responsável pelo órgão julgador (primeiro grau) | #{orgaoJulgadorManager.recuperaResponsavel(processoTrfHome.orgaoJulgador, null)} | [Detalhamento]({{< relref "responsavelorgao" >}}) |
+| Magistrado/juiz responsável pelo órgão julgador (primeiro grau) | #{orgaoJulgadorManager.recuperaResponsavel(processoTrfHome.orgaoJulgador, null)} | [Detalhamento]({{< relref "responsavelorgao" >}}) |
 | Solicitante | #{habilitacaoAutosManager.getSolicitanteUltimaHabilitacao(processoTrfHome.instance)} | Disponível somente para a [funcionalidade de certidão automática de habilitação nos autos]({{< relref "automacao/certidao/habilitacao_autos" >}}). |
 | Partes | #{habilitacaoAutosManager.getPartesUltimaHabilitacao(processoTrfHome.instance)} | Disponível somente para a [funcionalidade de certidão automática de habilitação nos autos]({{< relref "automacao/certidao/habilitacao_autos" >}}). |
 | Inclusão do(a) advogado(a) | #{habilitacaoAutosManager.getUltimaInclusao(processoTrfHome.instance)} | Disponível somente para a [funcionalidade de certidão automática de habilitação nos autos]({{< relref "automacao/certidao/habilitacao_autos" >}}). |
