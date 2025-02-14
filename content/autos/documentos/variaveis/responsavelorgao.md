@@ -17,4 +17,4 @@ Essa variável vai recuperar o nome do juiz, na seguinte ordem de prioridades:
 
 4ª prioridade: qualquer magistrado lotado na localização.
 
-**OBSERVAÇÃO:** as prioridades são sequências, se for identificado um juiz que atenda a primeira prioridade, as demais serão descartadas. E assim sucessivamente.
+**OBSERVAÇÃO:** as prioridades são sequenciais, se for identificado um juiz ou uma juíza que atenda a primeira prioridade, as demais serão descartadas. E assim sucessivamente.
