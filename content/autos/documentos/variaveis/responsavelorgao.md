@@ -10,6 +10,9 @@ Utilização: `#{orgaoJulgadorManager.recuperaResponsavel(processoTrfHome.orgaoJ
 Essa variável vai recuperar o nome do juiz, na seguinte ordem de prioridades:
 
 1ª prioridade: juiz que esteja marcado como recebe distribuição e que seja titular;
+
 2ª prioridade: juiz que recebe distribuição (mesmo não sendo titular);
+
 3ª prioridade: juiz que é titular (mesmo não recebendo distribuição); e 
+
 4ª prioridade: qualquer magistrado lotado na localização.
