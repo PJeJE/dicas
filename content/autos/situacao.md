@@ -37,6 +37,7 @@ Abaixo estão listadas as situações processuais definidas até o momento para 
 | [jus:acordaofinalizado](#jusacordaofinalizado) | Situação de processos com acórdão assinado e finalizado. |
 | [jus:corregedoria](#juscorregedoria) | Situação de processos administrativos de corregedoria (DP, RSE, CO). |
 | [jus:prazovista](#jusprazovista) | Situação de processos com prorrogação de prazo para retorno dos autos após pedido de vista |
+| [jus:transitojulgado](#justransitojulgado) | Situação de processos Processos que tiveram o registro de trânsito em julgador realizado |
 
 {{% notice warning %}}
 As situações acima foram documentadas com base no fluxo do TSE, sendo aplicadas, no que cabe, para as instâncias de segunda grau dos Regionais.
@@ -115,3 +116,7 @@ A situação **jus:andamento** é finalizada quando as situações **jus:arquiva
 {{% notice note %}}
 A situação **jus:prazovista** nunca se encerra.
 {{% /notice %}}
+
+### jus:transitojulgado
+
+1. Quando um processo sai da tarefa **Elaborar certidão de trânsito em julgado** por meio de assinatura da certidão. 
