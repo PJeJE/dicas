@@ -35,7 +35,11 @@ Essa certidão registra que foi dada ciência no expediente do tipo Notificaçã
 Brasília, 5 de fevereiro de 2025.
 
 {{% notice note %}}
-Os regionais forem configurado inicialmente para não gerarem a certidão para que o uso inicial seja controlado pelo próprio TRE. (parâmetro **pje:certidao:geraCertidaoCiencia** com o valor **N**)
+Os regionais foram configurados inicialmente para não gerarem a certidão para que o uso inicial seja controlado pelo próprio TRE. (parâmetro **pje:certidao:geraCertidaoCiencia** inicialmente configurado com o valor **N**)
+{{% /notice %}}
+
+{{% notice note %}}
+As informações a seguir são importantes para que o regional tenha acesso ao modelo de documento configurado inicialmente, caso queira consultá-lo/modificá-lo: o modelo de documento criado tem o nome **Modelo de certidão automática de ciência** e foi vinculado ao tipo de modelo de documento de nome **Certidões**, ao tipo de documento de código **534** e vinculado à localização de identificador **1**. 
 {{% /notice %}}
 
 ## Variáveis do modelo de certidão de ciência
