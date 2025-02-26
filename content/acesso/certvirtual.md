@@ -4,7 +4,6 @@ date: 2022-11-21T15:22:36-03:00
 weight: 5
 ---
 
-
 {{% notice warning %}}
 A descontinuidade do uso do PJeOffice da Justiça Eleitoral (a partir de 2025) foi aprovada pela Presidência do Tribunal Superior Eleitoral (TSE), tendo em vista que o Conselho Nacional de Justiça (CNJ) oferece uma solução similar, o aplicativo mobile Token PJe, que desempenha a mesma função: permitir o acesso ao sistema sem a necessidade de certificado digital e possibilitar a assinatura de documentos utilizando o certificado institucional do TSE. 
 {{% /notice %}}
