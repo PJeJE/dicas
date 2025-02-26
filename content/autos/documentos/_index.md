@@ -43,7 +43,7 @@ A lista é exibida respeitando algumas restrições:
 - Caso a data de juntada exista e existam assinadores para o documento, ele será exibido, exceto de acordo com as seguintes situações:
   - se o documento é sigiloso ou o documento principal a ele vinculado é sigiloso
    - o usuário deve estar cadastrado como visualizador do documento ou deve estar vinculado à procuradoria cadastrada como visualizadora ou
-   - se o usuário estiver vinculado ao papel visualizasigiloso ou manipulasigiloso, deve estar vinculado ao órgão julgador ou órgão julgador colegiado do processo, conforme for a vinculação do usuário atual a uma localização ou
+   - se o usuário estiver vinculado ao papel pje:visualizaSigiloso ou pje:manipulaSigiloso, deve estar vinculado ao órgão julgador ou órgão julgador colegiado do processo, conforme for a vinculação do usuário atual a uma localização ou
    - se o usuário de inclusão for o usuário atual ou
    - se o usuário de inclusão for um assistente de advogado e a localização do assistente for a localização atual ou
    - se o usuário de inclusão for um assistente de procuradoria e a localização do assistente for a localização atual ou 
