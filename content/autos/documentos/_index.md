@@ -17,11 +17,15 @@ Id na origem - Identificado do documento na origem, caso tenha sido incluído na
 Número - Número do documento, que vem a ser um identificador negocial do documento (detalhes a respeito desse campo: autos/documentos/identificadores/)
 Origem - exibe qual o grau de jurisdição onde foi criado o documento
 Juntado em - exibe a data de juntada do documento
-Juntado por - exibe o usuário que assinou o documento. '} }</value>
-			<value>processoDocumento: {valueType:identificarSigilo, properties: {escape:true, header: 'Documento'}}</value>
-			<value>tipoProcessoDocumento: {valueType:identificarSigilo, properties: {header: 'Tipo'}}</value>
-			<value>processoDocumentoBin: {valueType: processoDocumentoBin, properties: {order: extensao, header: 'Anexos', styleClassForm: 'alinhamentoBotoesDocumento'}}</value>
-			<value>motivoExclusao: {valueType: processoDocumentoRecibo, properties: {header: 'Certidão', columnRendered: #{processoTrfHome.exibirColunaCertidao()}}}</value>
+Juntado por - exibe o usuário responsável pela juntada do documento. Via de regra, é quem o assinou. 
+Documento - exibe a descrição atribuída ao documento
+Tipo - exibe o tipo de documento vinculado
+Anexos - a coluna agrega informações por meio de ícones que são exibidos conforme a situação do documento e as permissões do usuário
+- Ícone de folha - o usuário pode clicar e será exibido o conteúdo do documento
+- Ícone de cadeado fechado - indica que o documento foi assinado. O usuário pode clicar e verificar os dados da assinatura
+- Ícone de cadeado aberto - indica que o documento não foi assinado. O usuário pode clicar e assinar o documento
+- Ícone de ciência - indica que o documento não poderá ser visualizado pelo usuário atual, a menos que ele registre ciência. O usuário pode clicar e registrar ciência.
+Certidão -  columnRendered: #{processoTrfHome.exibirColunaCertidao()}
 
 A lista é exibida respeitando algumas restrições:
 - Os documentos vinculados a expedientes construídos a partir de documentos existentes não serão exibidos, visto que são apenas cópias de documentos já produzidos
