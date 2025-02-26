@@ -48,7 +48,7 @@ A lista é exibida respeitando algumas restrições:
    - se o usuário de inclusão for um assistente de advogado e a localização do assistente for a localização atual ou
    - se o usuário de inclusão for um assistente de procuradoria e a localização do assistente for a localização atual ou 
 
-Os documentos são exibidos na ordem descrecente da data de juntada do documento principal. Além disso, como ordenação secundária, também é observada a ordem decrescente dos identificadores dos documentos. Ou seja, caso não existe data de juntada, essa ordenação será a principal. Como terceira regra para ordenação, é observado o campo numeroOrdem do documento. Esse campo fica disponível para o usuário editar na inclusão de anexos, quando é importante que os anexos vinculados a um documento principal sejam lidos seguindo uma sequência determinada.
+Os documentos são exibidos na ordem descrecente da data de juntada do documento principal. Além disso, como ordenação secundária, também é observada a ordem decrescente dos identificadores dos documentos. Ou seja, caso não exista data de juntada, essa ordenação será a principal. Como terceira regra para ordenação, é observado o campo numeroOrdem do documento. Esse campo fica disponível para o usuário editar na inclusão de anexos, quando é importante que os anexos vinculados a um documento principal sejam lidos seguindo uma sequência determinada.
 
 
 {{% notice note %}}
