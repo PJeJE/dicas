@@ -50,7 +50,10 @@ A lista é exibida respeitando algumas restrições:
 
 Os documentos são exibidos na ordem descrecente da data de juntada do documento principal. Além disso, como ordenação secundária, também é observada a ordem decrescente dos identificadores dos documentos. Ou seja, caso não existe data de juntada, essa ordenação será a principal. Como terceira regra para ordenação, é observado o campo numeroOrdem do documento. Esse campo fica disponível para o usuário editar na inclusão de anexos, quando é importante que os anexos vinculados a um documento principal sejam lidos seguindo uma sequência determinada.
 
+
+{{% notice note %}}
 As regras da aba **Documentos** não são as mesma regras da linha do tempo dos autos digitais.
+{{% /notice %}}
 
 A seguir, algumas informações relacionadas a documentos do processo.
 
