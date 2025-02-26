@@ -11,13 +11,13 @@ chapter = true
 
 A aba **Documentos** exibe uma lista contendo todos os documentos vinculados ao processo. A lista é exibida de forma paginada, onde cada página apresenta 16 documentos. Os campos exibidos são os seguintes:
 
-- realizarDownload: {valueType: realizarDownload, headerType: checkSelecionarDocumentos, properties: {columnRendered: #{processoTrfHome.exibeColunaDeDownloadDeDocumentos()}}}</value>
-			<value>idProcessoDocumento: {valueType: idProcessoDocumento, properties: {header: 'Id'}}</value>
-			<value>idInstanciaOrigem: {properties: {header: 'Id na origem'}}</value>
-			<value>numeroDocumento: {properties: {header: 'Número'}}</value>
-			<value>instancia: {valueType: instancia, properties: {header: 'Origem'}}</value>
-			<value>dataJuntada: { valueType: dataJuntada, properties : {header: 'Juntado em'} }</value>
-			<value>usuarioInclusao: { valueType: usuarioInclusao, properties : {header: 'Juntado por'} }</value>
+<!-- realizarDownload: {valueType: realizarDownload, headerType: checkSelecionarDocumentos, properties: {columnRendered: #{processoTrfHome.exibeColunaDeDownloadDeDocumentos()}}}</value>-->
+Id - Identificador do documento (detalhes a respeito desse campo: autos/documentos/identificadores/)
+Id na origem - Identificado do documento na origem, caso tenha sido incluído na instância atual via remessa
+Número - Número do documento, que vem a ser um identificador negocial do documento (detalhes a respeito desse campo: autos/documentos/identificadores/)
+Origem - exibe qual o grau de jurisdição onde foi criado o documento
+Juntado em - exibe a data de juntada do documento
+Juntado por - exibe o usuário que assinou o documento. '} }</value>
 			<value>processoDocumento: {valueType:identificarSigilo, properties: {escape:true, header: 'Documento'}}</value>
 			<value>tipoProcessoDocumento: {valueType:identificarSigilo, properties: {header: 'Tipo'}}</value>
 			<value>processoDocumentoBin: {valueType: processoDocumentoBin, properties: {order: extensao, header: 'Anexos', styleClassForm: 'alinhamentoBotoesDocumento'}}</value>
