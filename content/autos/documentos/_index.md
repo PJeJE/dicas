@@ -12,25 +12,25 @@ chapter = true
 A aba **Documentos** dos autos digitais exibe uma lista contendo todos os documentos vinculados ao processo. A lista é exibida de forma paginada, onde cada página apresenta 16 documentos. Os campos exibidos são os seguintes:
 
 <!-- realizarDownload: {valueType: realizarDownload, headerType: checkSelecionarDocumentos, properties: {columnRendered: #{processoTrfHome.exibeColunaDeDownloadDeDocumentos()}}}</value>-->
-Id - Identificador do documento [detalhes a respeito desse campo:](/autos/documentos/identificadores).
-Id na origem - Identificado do documento na origem, caso tenha sido incluído na instância atual via remessa
-Número - Número do documento, que vem a ser um identificador negocial do documento [detalhes a respeito desse campo:](/autos/documentos/identificadores).
-Origem - exibe qual o grau de jurisdição onde foi criado o documento
-Juntado em - exibe a data de juntada do documento
-Juntado por - exibe o usuário responsável pela juntada do documento. Via de regra, é quem o assinou. 
-Documento - exibe a descrição atribuída ao documento
-Tipo - exibe o tipo de documento vinculado
-Anexos - a coluna agrega informações por meio de ícones que são exibidos conforme a situação do documento e as permissões do usuário
-- Ícone de folha - o usuário pode clicar e será exibido o conteúdo do documento
-- Ícone de edição - o usuário pode clicar e editar o documento
-- Ícone de cadeado fechado - indica que o documento foi assinado. O usuário pode clicar e verificar os dados da assinatura
-- Ícone de cadeado aberto - indica que o documento não foi assinado. O usuário pode clicar e assinar o documento
-- Ícone de exclusão/inativação - o usuário pode clicar e excluir (documento não juntado) ou inativar (documento juntado)
-- Ícone de histórico de desentranhamento - caso o documento tenha sido inativado e ativado novamente, exibe o histórico
-- Ícone de reativação - caso o documento tenha sido inativado, permite a reativação
-- Ícone de pendente de ciência - indica que o documento não poderá ser visualizado pelo usuário atual, já que está pendente de ciência.
-- Ícone de exibição de lembretes vinculados ao documento
-- Ícone de cadastramento de lembretes vinculados ao documento (disponível para usuário interno e para documentos juntados que não tenham lembrete registrado ainda)
+- Id - Identificador do documento [detalhes a respeito desse campo:](/autos/documentos/identificadores).
+- Id na origem - Identificado do documento na origem, caso tenha sido incluído na instância atual via remessa
+- Número - Número do documento, que vem a ser um identificador negocial do documento [detalhes a respeito desse campo:](/autos/documentos/identificadores).
+- Origem - exibe qual o grau de jurisdição onde foi criado o documento
+- Juntado em - exibe a data de juntada do documento
+- Juntado por - exibe o usuário responsável pela juntada do documento. Via de regra, é quem o assinou. 
+- Documento - exibe a descrição atribuída ao documento
+- Tipo - exibe o tipo de documento vinculado
+- Anexos - a coluna agrega informações por meio de ícones que são exibidos conforme a situação do documento e as permissões do usuário
+  - Ícone de folha - o usuário pode clicar e será exibido o conteúdo do documento
+  - Ícone de edição - o usuário pode clicar e editar o documento
+  - Ícone de cadeado fechado - indica que o documento foi assinado. O usuário pode clicar e verificar os dados da assinatura
+  - Ícone de cadeado aberto - indica que o documento não foi assinado. O usuário pode clicar e assinar o documento
+  - Ícone de exclusão/inativação - o usuário pode clicar e excluir (documento não juntado) ou inativar (documento juntado)
+  - Ícone de histórico de desentranhamento - caso o documento tenha sido inativado e ativado novamente, exibe o histórico
+  - Ícone de reativação - caso o documento tenha sido inativado, permite a reativação
+  - Ícone de pendente de ciência - indica que o documento não poderá ser visualizado pelo usuário atual, já que está pendente de ciência.
+  - Ícone de exibição de lembretes vinculados ao documento
+  - Ícone de cadastramento de lembretes vinculados ao documento (disponível para usuário interno e para documentos juntados que não tenham lembrete registrado ainda)
 <!-- Certidão -  columnRendered: #{processoTrfHome.exibirColunaCertidao()}-->
 
 A lista é exibida respeitando algumas restrições:
