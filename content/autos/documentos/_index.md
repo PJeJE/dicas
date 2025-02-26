@@ -22,9 +22,13 @@ Documento - exibe a descrição atribuída ao documento
 Tipo - exibe o tipo de documento vinculado
 Anexos - a coluna agrega informações por meio de ícones que são exibidos conforme a situação do documento e as permissões do usuário
 - Ícone de folha - o usuário pode clicar e será exibido o conteúdo do documento
+- Ícone de edição - o usuário pode clicar e editar o documento
 - Ícone de cadeado fechado - indica que o documento foi assinado. O usuário pode clicar e verificar os dados da assinatura
 - Ícone de cadeado aberto - indica que o documento não foi assinado. O usuário pode clicar e assinar o documento
-- Ícone de ciência - indica que o documento não poderá ser visualizado pelo usuário atual, a menos que ele registre ciência. O usuário pode clicar e registrar ciência.
+- Ícone de exclusão/inativação - o usuário pode clicar e excluir (documento não juntado) ou inativar (documento juntado)
+- Ícone de histórico de desentranhamento - caso o documento tenha sido inativado e ativado novamente, exibe o histórico
+- Ícone de reativação - caso o documento tenha sido inativado, permite a reativação
+- Ícone de pendente de ciência - indica que o documento não poderá ser visualizado pelo usuário atual, já que está pendente de ciência.
 Certidão -  columnRendered: #{processoTrfHome.exibirColunaCertidao()}
 
 A lista é exibida respeitando algumas restrições:
