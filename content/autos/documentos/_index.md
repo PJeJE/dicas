@@ -12,9 +12,9 @@ chapter = true
 A aba **Documentos** dos autos digitais exibe uma lista contendo todos os documentos vinculados ao processo. A lista é exibida de forma paginada, onde cada página apresenta 16 documentos. Os campos exibidos são os seguintes:
 
 <!-- realizarDownload: {valueType: realizarDownload, headerType: checkSelecionarDocumentos, properties: {columnRendered: #{processoTrfHome.exibeColunaDeDownloadDeDocumentos()}}}</value>-->
-- Id - Identificador do documento [detalhes a respeito desse campo:](/autos/documentos/identificadores).
+- Id - Identificador do documento [Verifique detalhes a respeito desse campo](/autos/documentos/identificadores).
 - Id na origem - Identificado do documento na origem, caso tenha sido incluído na instância atual via remessa
-- Número - Número do documento, que vem a ser um identificador negocial do documento [detalhes a respeito desse campo:](/autos/documentos/identificadores).
+- Número - Número do documento, que vem a ser um identificador negocial do documento [Verifique detalhes a respeito desse campo](/autos/documentos/identificadores).
 - Origem - exibe qual o grau de jurisdição onde foi criado o documento
 - Juntado em - exibe a data de juntada do documento
 - Juntado por - exibe o usuário responsável pela juntada do documento. Via de regra, é quem o assinou. 
