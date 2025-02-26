@@ -34,6 +34,6 @@ O botão **Minutar e movimentar processos** é o padrão da funcionalidade de mi
 Concluída a assinatura, os processos voltam para a tarefa **Verificar pendências.**
 
 {{% notice warning %}}
-O sistema não limita o lançamento de certidões e movimentos de trânsito em julgado, o servidor poderá utilizar a tarefa quantas vezes quiser. Caso necessite, para remover o registro feito anteriormente, deve inativar a certidão. A inativação da certidão fará com que o movimento vinculado também seja inativado.
+O sistema não limita o lançamento de certidões e movimentos de trânsito em julgado, o servidor poderá utilizar a tarefa quantas vezes quiser, e a utilização independe da situação do processo ou de qualquer movimento que tenha sido lançado anteriormente. Caso necessite, para remover o registro feito anteriormente, deve inativar a certidão. A inativação da certidão fará com que o movimento vinculado também seja inativado.
 {{% /notice %}}
 
