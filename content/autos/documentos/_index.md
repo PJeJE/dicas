@@ -31,7 +31,7 @@ Anexos - a coluna agrega informações por meio de ícones que são exibidos con
 - Ícone de pendente de ciência - indica que o documento não poderá ser visualizado pelo usuário atual, já que está pendente de ciência.
 - Ícone de exibição de lembretes vinculados ao documento
 - Ícone de cadastramento de lembretes vinculados ao documento (disponível para usuário interno e para documentos juntados que não tenham lembrete registrado ainda)
-Certidão -  columnRendered: #{processoTrfHome.exibirColunaCertidao()}
+<!-- Certidão -  columnRendered: #{processoTrfHome.exibirColunaCertidao()}-->
 
 A lista é exibida respeitando algumas restrições:
 - Os documentos vinculados a expedientes construídos a partir de documentos existentes não serão exibidos, visto que são apenas cópias de documentos já produzidos
