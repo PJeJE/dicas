@@ -9,7 +9,7 @@ chapter = true
 
 # Documentos Processuais
 
-A aba **Documentos** exibe uma lista contendo todos os documentos vinculados ao processo. A lista é exibida de forma paginada, onde cada página apresenta 16 documentos. Os campos exibidos são os seguintes:
+A aba **Documentos** dos autos digitais exibe uma lista contendo todos os documentos vinculados ao processo. A lista é exibida de forma paginada, onde cada página apresenta 16 documentos. Os campos exibidos são os seguintes:
 
 <!-- realizarDownload: {valueType: realizarDownload, headerType: checkSelecionarDocumentos, properties: {columnRendered: #{processoTrfHome.exibeColunaDeDownloadDeDocumentos()}}}</value>-->
 Id - Identificador do documento [detalhes a respeito desse campo:](/autos/documentos/identificadores).
