@@ -5,7 +5,9 @@ weight: 4
 ---
 O registro do trânsito em julgado pode ser realizado de forma individual ou em lote. 
 
-Para realizar a atividade de forma isolada, a partir da tarefa **Verificar pendências,** utilize a opção encaminhar para, e remeta o processo para a tarefa **Registrar trânsito em julgado.**
+Para realizar a atividade de forma isolada, a partir da tarefa **Verificar pendências,** utilize a opção encaminhar para, e remeta o processo para a tarefa **Registrar trânsito em julgado.** 
+
+{{% notice warning %}} O sistema não limita o lançamento de certidões e movimentos de trânsito em julgado, o servidor poderá utilizar a tarefa quantas vezes quiser, e a utilização independe da situação do processo ou de qualquer movimento que tenha sido lançado anteriormente. Caso necessite, para remover o registro feito anteriormente, deve inativar a certidão. A inativação da certidão fará com que o movimento vinculado também seja inativado. {{% /notice %}}
 
 Para registrar o trânsito de vários processos ao mesmo tempo,  a partir da tarefa **Verificar pendências,** selecione os processo que deseja movimentar e utilize a opção **movimentar em lote,** movimentando-os para a tarefa **Registrar trânsito em julgado.**
 
@@ -32,8 +34,4 @@ O botão **Minutar e movimentar processos** é o padrão da funcionalidade de mi
 {{% /notice %}}
 
 Concluída a assinatura, os processos voltam para a tarefa **Verificar pendências.**
-
-{{% notice warning %}}
-O sistema não limita o lançamento de certidões e movimentos de trânsito em julgado, o servidor poderá utilizar a tarefa quantas vezes quiser, e a utilização independe da situação do processo ou de qualquer movimento que tenha sido lançado anteriormente. Caso necessite, para remover o registro feito anteriormente, deve inativar a certidão. A inativação da certidão fará com que o movimento vinculado também seja inativado.
-{{% /notice %}}
 
