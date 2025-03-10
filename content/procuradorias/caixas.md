@@ -20,7 +20,7 @@ Em versões anteriores à 2.1.2.6.17, quando o processo é remetido para outra z
 
 Sobre a criação de caixas:
 + Não há restrições para os nomes das caixas;
-+ Não há existe restrição de quantidade de caixas possíveis;
++ Não existe restrição de quantidade de caixas possíveis;
 + É possível definir quem tem acesso (visibilidade) a cada caixa;
 + Não é possível criar uma caixa dentro de outra caixa (subcaixas).
 
