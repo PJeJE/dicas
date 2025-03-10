@@ -6,7 +6,7 @@ weight: 7
 
 Filtros de caixa são critérios que permitem que os processos sejam automaticamente distribuídos para determinada caixa.
 
-As configurações de pessoas (Pessoas Associadas) permitem associar procuradores ou assistentes que que podem acessar a caixa.
+As configurações de pessoas (Pessoas Associadas) permitem associar procuradores ou assistentes que podem acessar a caixa.
 
 As caixas para o Ministério Público, no ambiente do primeiro grau da Justiça Eleitoral, foram, inicialmente, organizadas em Zonas Eleitorais, que por sua vez são vinculadas à Jurisdição do processo.
 
