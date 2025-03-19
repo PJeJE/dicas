@@ -11,10 +11,14 @@ weight: 6
 É possível que o sistema junte automaticamente uma certidão de ciência dos expedientes que torne públicos, entre outras informações, a data e hora de ciência nas intimações feitas, garantindo a transparência dos atos processuais e permitindo a análise da tempestividade com base em fatos disponíveis a todos que atuem ou venham a atuar no feito.
 
 {{% notice note %}}
-A certidão deve ser emitida para expedientes enviados via **Sistema**, **Correios**, **Mural**, **Diário**, **Pessoalmente**, **Telefone** e **Central de Mandados**. Todas as ciências serão objeto de emissão de certidão, inclusive as geradas pelo processamento automático do sistema que ocorre durante a madrugada. Não haverá certidão para expedientes com tipo de prazo **Sem prazo** nem para expedientes **Data Certa**. Ao ser gerada a certidão, o sistema vincula o documento ao movimento "Juntada de certidão" (código 581)
+A certidão deve ser emitida para expedientes enviados para meios conforme parâmetro **pje:certidao:ciencia:meios**. Esse parâmetro virá configurado previamente com o valor **E**, que remete ao meio **Sistema**. Caso seja necessário, o usuário administrador pode configurar e emissão de certidão para outros meios, acrescentando a letra referente ao meio no parâmetro, separado por vírgula. Os meios possíveis são: E(**Sistema**), P(**Diário Eletrônico**),  C(**Correios**), M(**Central de Mandados**), T(**Telefone**), S(**Pessoalmente**), A(**Sessão**), R(**Mural**), G(**Correios**). 
 {{% /notice %}}
 
-Para expedientes sigilosos, a emissão da certidão será como um documento sigiloso. Da mesma forma, o sistema se comportará se o processo relacionado ao expediente tiver partes sigilosas.
+{{% notice note %}}
+Não haverá certidão para expedientes cujos tipos de prazo tenham sido configurados no parâmetro "pje:certidao:ciencia:excecao:tiposPrazo" e a configuração deve ser realizada com letras separadas por vírgula, letras essas que remetem aos seguintes tipos de prazo:  A("anos"), M("meses"), D("dias"), H("horas"), N("minutos"), C("data certa"), S("sem prazo"). Esse parâmetro virá configurado inicialmente com o valor **S, C**, ouseja, expedientes com tipo de prazo **Sem prazo** e**Data Certa** não terão certidão gerada. 
+{{% /notice %}}
+
+Para expedientes sigilosos, a emissão da certidão será como um documento sigiloso. Da mesma forma, o sistema se comportará se o expediente for enviado para uma parte sigilosa.
 
 ## Modelo utilizado para emissão da certidão de ciência
 
@@ -35,7 +39,7 @@ Essa certidão registra que foi dada ciência no expediente do tipo Notificaçã
 Brasília, 5 de fevereiro de 2025.
 
 {{% notice note %}}
-Os regionais foram configurados inicialmente para não gerarem a certidão para que o uso inicial seja controlado pelo próprio TRE. (parâmetro **pje:certidao:geraCertidaoCiencia** inicialmente configurado com o valor **N**)
+Os regionais foram configurados inicialmente para não gerarem a certidão para que o uso inicial seja controlado pelo próprio TRE/TSE. (parâmetro **pje:certidao:geraCertidaoCiencia** inicialmente configurado com o valor **N**)
 {{% /notice %}}
 
 {{% notice note %}}
@@ -61,7 +65,7 @@ Algumas variáveis foram utilizadas na inclusão do modelo padrão a ser utiliza
 - **#{dateUtil.dateToString(processoParteExpedienteHome.instance.dtCienciaParte, 'dd/MM/yyyy HH:mm:ss')}**
   - Exibe a data da ciência no formato **dd/MM/yyyy HH:mm:ss**
   
-As variáveis utilizadas no modelo de documento que iniciam com o termo processoParteExpedienteHome, se utilizadas em outros contextos que não o da emissão da certidão da atual pendência, em geral, não terão o funcionamento correto, já que dependem que um expediente específico esteja carregado no contexto do PJe no momento do uso.
+As variáveis utilizadas no modelo de documento que iniciam com o termo processoParteExpedienteHome, se utilizadas em outros contextos que não o da emissão da certidão da atual pendência, vão apresentar erros. Sendo assim, o modelo não deve ser utilizado na construção de documentos pelo usuário. 
 
 ## Orientações de configuração para o usuário administrador
 
