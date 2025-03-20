@@ -14,6 +14,6 @@ No PJe, o algoritmo de distribuição é responsável por definir a forma como o
 
 Mais explicações sobre esse procedimento e seus conceitos podem ser encontradas na apresentação abaixo, assim como no link https://www.pje.jus.br/wiki/index.php/Distribui%C3%A7%C3%A3o
 
-+ [Configuração do Token PJe](/docs/Apresentação_da_Distribuição___Encontro_Nacional_PJE.pdf)
++ [Apresentação sobre distribuição](/docs/Apresentação_da_Distribuição___Encontro_Nacional_PJE.pdf)
 
 {{% children  %}}
