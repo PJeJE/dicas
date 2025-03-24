@@ -43,7 +43,8 @@ Abaixo estão listadas as situações processuais definidas até o momento para 
 | [jus:acordaofinalizado](#jusacordaofinalizado) | Situação de processos com acórdão assinado e finalizado. |
 | [jus:corregedoria](#juscorregedoria) | Situação de processos administrativos de corregedoria (DP, RSE, CO). |
 | [jus:prazovista](#jusprazovista) | Situação de processos com prorrogação de prazo para retorno dos autos após pedido de vista |
-| [jus:transitojulgado](#justransitojulgado) | Situação de processos Processos que tiveram o registro de trânsito em julgador realizado |
+| [jus:transitojulgado](#justransitojulgado) | Situação de processos que tiveram o registro de trânsito em julgador realizado |
+| [jus:julgado](#jusjulgado) | Situação de processos que tiveram algum movimento da árvore de julgamento (193) lançado naquela instância |
 
 {{% notice warning %}}
 As situações acima foram documentadas com base no fluxo do TSE, sendo aplicadas, no que cabe, para as instâncias de segunda grau dos Regionais.
@@ -126,3 +127,7 @@ A situação **jus:prazovista** nunca se encerra.
 ### jus:transitojulgado
 
 1. Quando um processo sai da tarefa **Elaborar certidão de trânsito em julgado** por meio de assinatura da certidão. 
+
+### jus:julgado
+
+1. Quando um processo sai de uma das seguintes tarefas **Lançar movimentos de Julgamento Colegiado**, **Lançar movimentos de julgamento colegiado**, **Lançar movimento** ou  **Lançar movimento - Corregedoria** após ser lançado um movimento da árvore de julgamento (código 193). A situação é finalizada por meio do acionamento da transição **Retira jus:julgado errado**. Essa transição aparece nas tarefas de análise () e só aparecerá caso o processo tenha a situação jus:julgado e não tenha movimento ativo da árvore de julgamento lançado após a data de autuação. 
