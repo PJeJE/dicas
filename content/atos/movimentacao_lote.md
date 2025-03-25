@@ -11,13 +11,13 @@ Na sequência os vídeos demonstram o passo-a-passo para a excecução da tarefa
 
 {{% tab name="ZONA" %}}
 
-{{< video src="/videos/lanca-lote1.mp4">}}
+
 
 {{% /tab %}}
 
 {{% tab name="TRE/TSE" %}}
 
-{{< video src="/videos/lanca-lote2.mp4">}}
+
   
 {{% /tab %}}
 
@@ -26,5 +26,6 @@ Na sequência os vídeos demonstram o passo-a-passo para a excecução da tarefa
 
 
 
+{{< video src="/videos/lanca-lote1.mp4">}}
 
-
+{{< video src="/videos/lanca-lote2.mp4">}}
