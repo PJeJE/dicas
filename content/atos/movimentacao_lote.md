@@ -5,7 +5,7 @@ weight: 5
 ---
 Existe a possibilidade de lançar a movimentação em lote.
 
-Na sequência os vídeos demonstram o passo-a-passo para a excecução da tarefa nos diferentes ambientes. 
+Na sequência, os vídeos demonstram o passo-a-passo para a excecução da tarefa nos diferentes ambientes. 
 
 
 
