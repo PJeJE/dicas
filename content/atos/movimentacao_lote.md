@@ -7,6 +7,7 @@ Existe a possibilidade de lançar a movimentação em lote, que está configurad
 
 Na sequência os vídeos demonstram o passo-a-passo para a excecução da tarefa nos ambientes. 
 
+
 {{< video src="/videos/lanca-lote1.mp4">}}
 
 {{< video src="/videos/lanca-lote2.mp4">}}
