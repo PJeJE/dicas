@@ -11,13 +11,13 @@ Na sequência os vídeos demonstram o passo-a-passo para a excecução da tarefa
 
 {{% tab name="ZONA" %}}
 
-
+texto zonas
 
 {{% /tab %}}
 
 {{% tab name="TRE/TSE" %}}
 
-
+texto TREs 
   
 {{% /tab %}}
 
