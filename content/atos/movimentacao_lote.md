@@ -12,6 +12,7 @@ Na sequência os vídeos demonstram o passo-a-passo para a excecução da tarefa
 {{% tab name="ZONA" %}}
 
 {{< video src="/videos/lanca-lote1.mp4">}}
+
 {{% /tab %}}
 
 {{% tab name="TRE/TSE" %}}
