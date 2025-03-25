@@ -7,7 +7,22 @@ Existe a possibilidade de lançar a movimentação em lote.
 
 Na sequência os vídeos demonstram o passo-a-passo para a excecução da tarefa nos diferentes ambientes. 
 
+{{< tabs groupId="ambientes" >}}
+
+{{% tab name="ZONA" %}}
 
 {{< video src="/videos/lanca-lote1.mp4">}}
 
+{{% tab name="TRE/TSE" %}}
+
 {{< video src="/videos/lanca-lote2.mp4">}}
+  
+{{% /tab %}}
+
+{{< /tabs >}}
+
+
+
+
+
+
