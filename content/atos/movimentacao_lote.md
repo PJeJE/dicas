@@ -11,6 +11,8 @@ Na sequência os vídeos demonstram o passo-a-passo para a excecução da tarefa
 
 {{< video src="/videos/lanca-lote1.mp4">}}
 
+
+
 {{< video src="/videos/lanca-lote2.mp4">}}
 
 
