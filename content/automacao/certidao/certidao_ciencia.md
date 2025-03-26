@@ -6,7 +6,7 @@ menuTitle: "Certidão de ciência"
 weight: 6
 ---
 
-(disponível a partir da versão 2.1.8.1.58)
+(disponível a partir da versão 2.1.8.1.59)
 
 É possível que o sistema junte automaticamente uma certidão de ciência dos expedientes que torne públicos, entre outras informações, a data e hora de ciência nas intimações feitas, garantindo a transparência dos atos processuais e permitindo a análise da tempestividade com base em fatos disponíveis a todos que atuem ou venham a atuar no feito.
 
@@ -43,7 +43,7 @@ Os regionais foram configurados inicialmente para não gerarem a certidão para 
 {{% /notice %}}
 
 {{% notice note %}}
-As informações a seguir são importantes para que o regional tenha acesso ao modelo de documento configurado inicialmente, caso queira consultá-lo/modificá-lo: o modelo de documento criado tem o nome **Modelo de certidão automática de ciência** e foi vinculado ao tipo de modelo de documento de nome **Certidões**, ao tipo de documento de código **534** e vinculado à localização de identificador **1**. 
+As informações a seguir são importantes para que o regional tenha acesso ao modelo de documento configurado inicialmente, caso queira consultá-lo/modificá-lo: o modelo de documento criado tem o nome **Modelo de certidão automática de ciência** e foi vinculado ao tipo de modelo de documento de nome **Certidões**, ao tipo de documento de código **534** e vinculado à localização de identificador **1** - localização raiz do tribunal (Tribunal Superior Eleitoral ou Tribunal Regional Eleitoral ou Tribunal). Caso haja necessidade que usuários vinculados a outras localizações alterem o modelo, a vinculação à localização deve ser alterada por um usuário que esteja vinculado à localização.
 {{% /notice %}}
 
 ## Variáveis do modelo de certidão de ciência
