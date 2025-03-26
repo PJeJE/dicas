@@ -15,7 +15,7 @@ A certidão deve ser emitida para expedientes enviados para meios conforme parâ
 {{% /notice %}}
 
 {{% notice note %}}
-Não haverá certidão para expedientes cujos tipos de prazo tenham sido configurados no parâmetro "pje:certidao:ciencia:excecao:tiposPrazo" e a configuração deve ser realizada com letras separadas por vírgula, letras essas que remetem aos seguintes tipos de prazo:  A("anos"), M("meses"), D("dias"), H("horas"), N("minutos"), C("data certa"), S("sem prazo"). Esse parâmetro virá configurado inicialmente com o valor **S, C**, ouseja, expedientes com tipo de prazo **Sem prazo** e **Data Certa** não terão certidão gerada. 
+Não haverá certidão para expedientes cujos tipos de prazo tenham sido configurados no parâmetro "pje:certidao:ciencia:excecao:tiposPrazo" e a configuração deve ser realizada com letras separadas por vírgula, letras essas que remetem aos seguintes tipos de prazo:  A("anos"), M("meses"), D("dias"), H("horas"), N("minutos"), C("data certa"), S("sem prazo"). Esse parâmetro virá configurado inicialmente com o valor **S, C**, ou seja, expedientes com tipo de prazo **Sem prazo** e **Data Certa** não terão certidão gerada. 
 {{% /notice %}}
 
 Para expedientes sigilosos, a emissão da certidão será como um documento sigiloso. Da mesma forma, o sistema se comportará se o expediente for enviado para uma parte sigilosa.
