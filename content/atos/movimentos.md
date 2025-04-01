@@ -9,7 +9,7 @@ As movimentações processuais, ao lado dos assuntos e das classes, são, hoje, 
 
 Instruções relevantes sobre movimentações processuais podem ser encontradas no [link](https://docs.pje.jus.br/manuais-de-uso/Manual%20de%20referencia%20PJe%201.0#movimenta%C3%A7%C3%B5es)
 
-Inclusão de movimentos na justiça eleitoral
+## Inclusão de movimentos na justiça eleitoral
 
 No PJe da Justiça Eleitoral, as movimentações são incluídas nos processos por diversos meios. 
 
@@ -26,3 +26,4 @@ Há também casos onde as integrações são responsáveis pelo lançamento de m
 
 Temos na Justiça Eleitoral uma outra possibilidade de lançamento de movimentos que é pela funcionalidade **Ajustar movimentação**, cujas instruções de utilização podem ser encontradas [aqui](/docs/manual_ajustar_movimentacao.pdf).
 
+## Configuração de movimentos, aplicabilidade e complementos
