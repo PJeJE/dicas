@@ -27,3 +27,17 @@ Há também casos onde as integrações são responsáveis pelo lançamento de m
 Temos na Justiça Eleitoral uma outra possibilidade de lançamento de movimentos que é pela funcionalidade **Ajustar movimentação**, cujas instruções de utilização podem ser encontradas [aqui](/docs/manual_ajustar_movimentacao.pdf).
 
 ## Configuração de movimentos, aplicabilidade e complementos
+
+A configuração de movimentos é um ponto extremamente relevante para o correto funcionamento do PJe. O conjunto de movimentos habilitados na Justiça Eleitoral são periodicamente revistos por um grupo de discussão que envolve o TSE e representantes dos regionais. 
+
+No link a seguir há instruções relevantes sobre as configurações de movimentações processuais (https://docs.pje.jus.br/manuais-de-uso/Manual%20de%20referencia%20PJe%201.0#movimenta%C3%A7%C3%B5es)
+
+Gostaríamos e ressaltar alguns pontos importantes a respeito da configuração de complementos.
+
+Na configuração da aplicabilidade do movimento, são configuradas as possibilidades de inserção de complementos dos movimentos. Isso significa que, ainda que o usuário tenha selecionado algum complemento de movimento, se a aplicabilidade não tiver corretamente configurada para conter o complemento, ele não será exibido na descrição do movimento lançado. Da mesma forma, caso seja inserido um complemento na configuração da aplicabilidade e o complemento não seja informado pelo usuário ou pela própria aplicação, o movimento é lançado sem o complemento e exibindo um texto sem sentido para o usuário. Por exemplo, se for configurado o complemento **tipo_da_decisao_anterio** no movimento de código SGT 945 e o usuário não tiver como informar esse complemento, o sistema lançará o movimento da seguinte forma:
+
+Revogada decisão anterior #{tipo_da_decisao_anterior} datada de 12/05/2024
+
+Para que o usuário consiga visualizar o complemento para selecionar, a aba complemento do referido movimento deve ser preenchida com o complemento respectivo. 
+
+Ainda sobre complementos, especialmente sobre complementos do tipo **dinâmico** (que remetem ao tipo **identificador** do SGT), a configuração via de regra dependerá de um desenvolvedor com acesso ao código do PJe para identificar qual expressão recuperará o dado dinâmico que o movimento precisará. Tomando como exemplo o mesmo movimento de código SGT 945 citado no parágrafo acima, o complemento **tipo_da_decisao_anterio** precisa ser apresentado ao usuário final contendo uma lista de atos para que o usuário selecione qual tipo de decisão será revogada. O usuário administrador não tem como saber qual expressão é capaz de recuperar esses valores dentro do PJe. Após retorno do desenvolvedor com a respectiva expressão, aí sim o usuário administrador, de posse da expressão, pode fazer a efetiva configuração na campo adequado na configuração de complemento. Para esse complemento específico, recomendamos a expressão **#{tipoProcessoDocumentoManager.getTipoDocumentoAtoMagistradoList()}**, que recupera os tipos de documentos que são assinados por magistrados no PJe.
