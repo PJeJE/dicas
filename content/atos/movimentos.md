@@ -30,7 +30,7 @@ Temos na Justiça Eleitoral uma outra possibilidade de lançamento de movimentos
 
 A configuração de movimentos é um ponto extremamente relevante para o correto funcionamento do PJe. O conjunto de movimentos habilitados na Justiça Eleitoral são periodicamente revistos por um grupo de discussão que envolve o TSE e representantes dos regionais. 
 
-No link a seguir há instruções relevantes sobre as configurações de movimentações processuais (https://docs.pje.jus.br/manuais-de-uso/Manual%20de%20referencia%20PJe%201.0#movimenta%C3%A7%C3%B5es)
+Há instruções relevantes sobre as configurações de movimentações processuais no [link](https://docs.pje.jus.br/manuais-de-uso/Manual%20de%20referencia%20PJe%201.0#movimenta%C3%A7%C3%B5es)
 
 Gostaríamos e ressaltar alguns pontos importantes a respeito da configuração de complementos.
 
