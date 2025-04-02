@@ -30,10 +30,10 @@ Ao abrir o link para cadastramento de senha, deve aparecer uma tela como a da im
 
 Quando o usuário solicita a nova senha mais de uma vez, se o e-mail demora muito para chegar, ou se o usuário ultrapassa o limite de validade do link, a tela apresentada será diferente:
 
-![senha 2](/imagens/senha_2.jpg)
+![senha 3](/imagens/senha_3.jpg)
 
 Isso acontece porque os links enviados por e-mail tem um prazo de validade, eles precisam ser utilizados antes da expiração. Além disso, sempre que um novo link é gerado (seja por solicitação do usuário ou por um administrador do sistema), o antigo perde a validade. Caso o usuário já tenha feito uma nova solicitação de recuperação de senha e utilize um link enviado anteriormente, haverá erro.
 
 Para resolver o problema, todos os e-mails com links para geração de senha devem ser apagados antes de fazer nova tentativa. Ao efetivar o cadastro da nova senha, o sistema apresenta a seguinte tela:
 
-![senha 3](/imagens/senha_3.jpg)
+![senha 2](/imagens/senha_2.jpg)
