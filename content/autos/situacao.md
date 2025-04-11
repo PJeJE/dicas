@@ -21,7 +21,7 @@ Sem a situação processual a realização de algumas consultas, mesmo que por m
 Quando um processo é arquivado, a situação em andamento também é finalizada.
 {{% /notice %}}
 
-As **Situações do processo** podem ser visualizados por meio de um ícone de relógio localizado no canto superior direito dos autos do processo para quem tem os papeis **pje:papel:visualizaSituacoesAtuais**, que permite visualizar as situações atuais do processo, e **pje:papel:visualizaSituacoes**, que permite visualizar as atuais e as já finalizadas. 
+As **Situações do processo** podem ser visualizadas por meio de um ícone de relógio localizado no canto superior direito dos autos do processo para quem tem os papeis **pje:papel:visualizaSituacoesAtuais**, que permite visualizar as situações atuais do processo, e **pje:papel:visualizaSituacoes**, que permite visualizar as atuais e as já finalizadas. 
 
 {{% notice info %}}
 As situações processuais são registradas por capa, ou seja, o processo principal pode estar **Em andamento**, e o recurso, quando houver, pode estar **Arquivado**.
