@@ -47,7 +47,7 @@ Abaixo estão listadas as situações processuais definidas até o momento para 
 | [jus:julgado](#jusjulgado) | Situação de processos que tiveram algum movimento da árvore de julgamento (193) lançado naquela instância |
 
 {{% notice warning %}}
-As situações acima foram documentadas com base no fluxo do TSE, sendo aplicadas, no que cabe, para as instâncias de segunda grau dos Regionais.
+As situações acima foram documentadas com base no fluxo do TSE, sendo aplicadas, no que cabe, para as instâncias de segundo grau dos Regionais.
 {{% /notice %}}
 
 ## Cenários
