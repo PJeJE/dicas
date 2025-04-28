@@ -7,7 +7,7 @@ menuTitle: "Petição avulsa"
 
 O fluxo de petição avulsa dispara quando configurado no **Tipo de Documento**, campo **Fluxo Associado**, conforme imagem:
 
-IMG_FLUXO_PETICAO_AVULSA
+![Fluxo de petição avulsa](/imagens/fluxo_peticao_avulsa.jpg)
 
 {{< tabs groupId="pet_avulsa" >}}
 
