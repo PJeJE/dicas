@@ -11,3 +11,9 @@ Na retificação da autuação, a alteração da classe se dará após o acionam
 {{% notice info %}}
 Para que o usuário possa retificar autuação por meio dos autos digitais, ele deverá ser detentor do seguinte recurso: **/pages/Processo/RetificacaoAutuacao/updateRetificacaoAutuacao.seam**. Além disso, não poderá ser usuário externo (advogado, assistente, jusPostulandi, perito, procurador, assistente de procurador) e deverá ser do mesmo juízo do processo. Para ser do mesmo juízo do processo, ou o servidor é vinculado ao órgão julgador do processo ou exclusivamente vinculado ao órgão julgador colegiado do processo. Por exclusivamente vinculado, entenda-se que o servidor não será considerado do mesmo juízo se estiver vinculado ao mesmo colegiado do processo e a um órgão julgador distinto do órgão do processo.
 {{% /notice %}}
+
+{{% notice info %}}
+O servidor poderá também retificar autuação por meio de tarefas específicas do fluxo processual desenhadas com a opção de abertura da opção de retificação.
+{{% /notice %}}
+
+A retificação da autuação não altera o peso processual nem o órgão julgador do processo. Para que isso ocorra, o servidor deve utilizar a opção de redistribuição. 
