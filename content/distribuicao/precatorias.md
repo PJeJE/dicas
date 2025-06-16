@@ -13,5 +13,5 @@ a) quando a remessa é para outra zona do mesmo Estado, a numeração permanece 
 b) quando a remessa é para zona de outro Estado o número do processo é alterado (art. 5º da Resolução CNJ n.º 65/2008), mas as partes permanecem as mesmas, ou seja, não atualiza para o Ministério Público do Estado deprecado. Sendo necessário que o Cartório Eleitoral deprecado atualize os dados do processo, de forma a inserir o Ministério Público deprecado na autuação.
 
 {{% notice note %}}
-Ainda a autuação diretamente na zona eleitoral deprecada seja possível, ele não é recomendado pois contraria o determinado no PROVIMENTO CGE nº 2/2025.
+Ainda a autuação diretamente na zona eleitoral deprecada seja possível, ele não é recomendado pois contraria o determinado no [PROVIMENTO CGE nº 2/2025](/docs/SEI_3254005_Provimento_CGE_2.pdf).
 {{% /notice %}}
