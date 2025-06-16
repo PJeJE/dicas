@@ -5,6 +5,7 @@ menuTitle: "PCE & SINAPES"
 weight: 6
 ---
 
+
 **AUTOMAÇÃO DE ETIQUETAS**
 
 A automação de etiquetas PCE, acionada pela transição **Remeter para automação de etiquetas PCE**, instrui o sistema PJe a verificar a presença de documentos específicos das prestações de contas eleitorais (procuração, mídia, extrato parcial, demonstrativos parciais e finais). Com base nessa verificação e na configuração do fluxo, os processos são etiquetados conforme as regras negociais para indicar omissão, apresentação parcial ou completa, ou documentos faltantes. As etiquetas otimizam a organização do trabalho, servindo como triagem inicial que, por meio de filtros, permite distinguir processos que demandam regularização daqueles aptos para as análises subsequentes.
