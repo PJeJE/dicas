@@ -6,7 +6,7 @@ weight: 3
 ---
 
 
-Em conjunto com o TRE-SP, foram desenvolvidos ajustes no fluxo do PJe de primeiro grau para, de acordo com a tramitação e com a presença ou ausência de alguns documentos no processo, permitir que o sistema vincule etiquetas automaticamente de forma a sinalizar ao servidor a situação de processos RCAND e PCE quanto à necessidade documentos obrigatórios para o prosseguimento da tramitação do processo.
+Em conjunto com o TRE-SP, foram desenvolvidos ajustes no fluxo do PJe de primeiro grau para, de acordo com a tramitação e com a presença ou ausência de alguns documentos no processo, permitir que o sistema vincule etiquetas automaticamente de forma a sinalizar ao servidor a situação de processos RCAND e PCE quanto à necessidade de documentos obrigatórios para o prosseguimento da tramitação do processo.
 
 **Protocolo para compartilhamento da ferramenta**
 
@@ -39,7 +39,7 @@ Etiquetas abaixo serão apresentadas na falta dos documentos respectivos
 + PJE_IA_PENDENTE – Procuração -  Procuração 
 
 
-Caso nenhum dos documentos acima estiver ausente, será vinculadas as seguintes etiquetas:
+Caso nenhum dos documentos acima estiver ausente, serão vinculadas as seguintes etiquetas:
 
 + PJE_IA_DOCUMENTAÇÃO_COMPLETA 
 + PJE_IA_REVISAR_AUTUAÇÃO
