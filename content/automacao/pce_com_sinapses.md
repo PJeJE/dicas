@@ -24,7 +24,7 @@ IV - Após o processamento da análise dos pareceres, uma minuta aderente ao res
 
 V - Concluindo, o processo é automaticamente redirecionado à etapa de revisão da minuta, na tarefa intitulada **Revisar ato**. Nesta, o magistrado disporá da prerrogativa de chancelar a minuta revisada pela equipe serventuária ou, alternativamente, de requerer seu cancelamento, retificação ou o regresso à transição de automação. Caso a análise documental pela Sinapses revele divergência entre os pareceres Técnico e Ministerial, o sistema manterá o processo na tarefa de análise em que se encontrava, além de inserir a etiqueta de DIVERGÊNCIA, para que se proceda a uma análise e elaboração de minuta individualizada.
 
-Tal abordagem registra a movimentação do processo diretamente no histórico de movimentações e no log do PJe e a consulta ao teor dos documentos ocorre no próprio sistema PJe. Como a solução é inerente à aplicação, dispensa-se o uso de repositórios documentais externos.
+Tal abordagem registra a movimentação do processo diretamente no histórico de movimentações e no log do PJe. A consulta ao teor dos documentos ocorre no próprio sistema PJe e como a solução é inerente à aplicação, dispensa-se o uso de repositórios documentais externos.
 
 Para conferir o inteiro teor das **regras negociais** das automações da PCE [Clique aqui](/docs/Guia_das_Automacoes_da_PCE_com_uso_da_SINAPSES.pdf). 
 
