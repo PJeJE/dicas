@@ -13,7 +13,7 @@ Para que o usuário possa retificar autuação por meio dos autos digitais, ele 
 {{% /notice %}}
 
 {{% notice info %}}
-O servidor poderá também retificar autuação por meio de tarefas específicas do fluxo processual desenhadas com a opção de abertura da opção de retificação.
+O servidor poderá também retificar autuação por meio de tarefas específicas do fluxo processual desenhadas com a opção de abertura da funcionalidade de retificação.
 {{% /notice %}}
 
 A retificação da autuação não altera o peso processual nem o órgão julgador do processo. Para que isso ocorra, o servidor deve utilizar a opção de redistribuição. 
