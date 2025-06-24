@@ -60,7 +60,7 @@ Ações em lote - opções disponíveis que afetam uma lista de processos seleci
 + Registrar julgamento (só apresentada com sessão aberta)
 + Registrar pedido de vista (só apresentada com sessão aberta)
 
-O sistema apresenta também a lista de processos da sessão. A lista separa em um agrupador inicialmente fechado (sem exibição do conteúdo) os processos já proclamados, ou seja, onde já houve atuação do Assessor de plenário para resultado seu resultado de julgamento. Caso o usuário queira visualizar os detalhes desses processos deve clicar no ícone correspondente para abertura do agrupador. 
+O sistema apresenta também a lista de processos da sessão. A lista separa em um agrupador inicialmente fechado (sem exibição do conteúdo) os processos já proclamados, ou seja, onde já houve atuação do Assessor de plenário para registro do resultado de julgamento. Caso o usuário queira visualizar os detalhes desses processos deve clicar no ícone correspondente para abertura do agrupador. 
 
 Em seguida, são apresentados os processos que ainda não foram proclamados. 
 
