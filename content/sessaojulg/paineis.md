@@ -95,7 +95,7 @@ Os pontos do sistema onde poderão ser visualizados são:
 + Painel do membro da OAB na sessão; 
 + Painel do membro do ministério público na sessão; 
 + Púlpito de sustentação oral;
-+ Internet - opção Pautas de julgamento (http://www.tse.jus.br/servicosjudiciais/sessoes-de-julgamento/pautas-de-julgamento/pje); 
++ Internet - opção [Pautas de julgamento](https://www.tse.jus.br/servicos-judiciais/sessoes-de-julgamento/pautas-de-julgamento/pje); 
 + Tarefas de vogais. 
 
 Depois que inicia a sessão, quando o Assessor de plenário colocar o processo em julgamento, vai aparecer na Internet, sem necessidade de usuário e senha, o tipo de voto (concedo, nego, etc.) mas não aparece o documento do voto. Na Internet, sem login e senha, só aparece o documento de voto depois de assinado. 
