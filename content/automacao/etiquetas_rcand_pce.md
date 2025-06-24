@@ -19,7 +19,7 @@ Contato: Assessoria do PJe - aspje@tse.jus.br
 
 **Instruções sobre funcionamento**
 
-Na liberação da funcionalidade de automação de etiquetas, foram divulgadas algumas instruções sobre o funcionamento que replicamos abaixo.
+Na liberação da funcionalidade de automação de etiquetas, foram divulgadas algumas instruções sobre o funcionamento que replicamos abaixo. Alternativamente, clique aqui para saber mais sobre as regras gerais das etiquetas da PCE e suas automações.
 
 Nos ambientes do primeiro grau, ao ser utilizada as transições **Remeter para automação de etiquetas PCE** (processos da classe PCE) ou **Remeter para automação de etiquetas RCand** (processos da classe RCAND), o sistema vinculará, de forma automática, algumas etiquetas para sinalizar presença ou falta de alguns documentos. As transições estão disponíveis a partir das tarefas de análise, conforme classe processual. Sempre que acionadas, o sistema apagará as etiquetas com o prefixo PJE_IA e aplicará novas etiquetas de acordo com a ausência ou presença dos documentos. 
 
