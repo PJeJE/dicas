@@ -65,7 +65,9 @@ Algumas variáveis foram utilizadas na inclusão do modelo padrão a ser utiliza
 - **#{dateUtil.dateToString(processoParteExpedienteHome.instance.dtCienciaParte, 'dd/MM/yyyy HH:mm:ss')}**
   - Exibe a data da ciência no formato **dd/MM/yyyy HH:mm:ss**
   
-As variáveis utilizadas no modelo de documento que iniciam com o termo processoParteExpedienteHome, se utilizadas em outros contextos que não o da emissão da certidão da atual pendência, vão apresentar erros. Sendo assim, o modelo não deve ser utilizado na construção de documentos pelo usuário. 
+{{% notice note %}}
+As variáveis utilizadas no modelo de documento que contém o termo processoParteExpedienteHome, se utilizadas em outros contextos que não o da emissão da certidão da atual pendência, **VÂO APRESENTAR ERROS**. Isso ocorre, por exemplo, na juntada de documento pelos autos digitais. Se o modelo configurado for selecionado na juntada de certidão pelos autos, o sistema apresentará erro de interpretação. Sendo assim, o modelo **NUNCA** deve ser utilizado na construção de documentos pelo usuário. 
+{{% /notice %}}
 
 ## Orientações de configuração para o usuário administrador
 
