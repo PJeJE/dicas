@@ -28,6 +28,11 @@ A certidão emitida utilizará o modelo configurado de acordo com as necessidade
 O modelo da certidão de ciência configurado inicialmente não deve ser utilizado na emissão de documentos fora do contexto da emissão automática da certidão.
 {{% /notice %}}
 
+
+{{% notice note %}}
+Para instalações de primeiro grau da Justiça Eleitoral, como determinadas configurações estão disponíveis apenas para administradores, não é recomendado criar novos modelos ou alterar o nome do modelo previamente configurado. Caso seja necessário, alterações de modelo devem ser realizadas no modelo *Modelo de certidão automática de ciência*, facilitando, assim, o suporte requerido nas configurações por parte da Assessoria do PJe.
+{{% /notice %}}
+
 O modelo configurado inicialmente emitirá uma certidão com o conteúdo similar ao descrito abaixo:
 
 TRIBUNAL SUPERIOR ELEITORAL
