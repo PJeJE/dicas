@@ -5,11 +5,6 @@ menuTitle: "Certidão do DJe"
 weight: 5
 ---
 
-{{% notice warning %}}
-Esta funcionalidade está em fase final de homologação. Portanto, **ainda não disponível nos ambientes de produção**.
-{{% /notice %}}
-
-
 É possível juntar automaticamente, após a disponibilização de expediente no DJe, uma certidão com os dados da disponibilização, por meio da configuração dos seguintes parâmetros:
 
 - **Parâmetro `idModeloCertidaoDisponibilizacao`**:
