@@ -30,9 +30,6 @@ No modelo de documento podem ser utilizadas as seguintes variáveis para recuper
 
 {{</table>}}
 
-A seguir, um exemplo de modelo de certidão que utiliza as variáveis anteriormente descritas:
-{{< video src="/videos/exemplo_modelo_certidao_mural.mp4">}}
-
 {{% notice note %}}
 Cada Regional é responsável por criar o próprio modelo de acordo com suas necessidades. Após a criação, o ID do modelo
 deve ser configurado no parâmetro `idModeloCertidaoDisponibilizacao`.
