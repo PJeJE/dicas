@@ -58,7 +58,7 @@ As informações a seguir são importantes para que o regional tenha acesso ao m
 {{% /notice %}}
 
 {{% notice note %}}
-As variáveis que iniciam com o termo processoJudicialAction não conseguem ser traduzidas pelo processamento automática que registra ciência em processos. Dessa forma, ela não deve ser utilizada no modelo automático de certidão de ciência. Em lugar da variável **#{processoJudicialAction.recuperarParteFormatada(true, true, ‘A’, ‘P’, ‘T’)}**, o usuário deve utilizar **#{processoJudicialManager.recuperarParteFormatada(processoTrfHome.instance, false,true,false,‘A’,‘P’,‘T’)}** . 
+As variáveis que iniciam com o termo processoJudicialAction não conseguem ser traduzidas pelo processamento automático que registra ciência em processos executado na madrugada. Dessa forma, ela não deve ser utilizada no modelo automático de certidão de ciência. Em lugar da variável **#{processoJudicialAction.recuperarParteFormatada(true, true, ‘A’, ‘P’, ‘T’)}**, o usuário deve utilizar **#{processoJudicialManager.recuperarParteFormatada(processoTrfHome.instance, false,true,false,‘A’,‘P’,‘T’)}** . 
 {{% /notice %}}
 
 
