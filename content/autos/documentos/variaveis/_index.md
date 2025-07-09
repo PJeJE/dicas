@@ -96,6 +96,12 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 | Id do documento | #{certidaoDisponibilizacaoDJEService.getIdAto()} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
 | URL para o documento | #{certidaoDisponibilizacaoDJEService.getUrlVisualizarDocumento()} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
 | Data da publicação | #{certidaoDisponibilizacaoDJEService.getDataDisponibilizacao()} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
+| Classe do processo | #{certidaoDisponibilizacaoDJEService.processo.classeJudicial} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
+| Número do processo | #{certidaoDisponibilizacaoDJEService.processo.numeroProcesso} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
+| Município | #{certidaoDisponibilizacaoDJEService.processo.complementoJE.municipioEleicao.municipio} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
+| Estado | #{certidaoDisponibilizacaoDJEService.processo.complementoJE.estadoEleicao.estado} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
+| Assuntos do processo | #{certidaoDisponibilizacaoDJEService.processo.assuntoTrfListStr} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
+| Relator do processo | #{certidaoDisponibilizacaoDJEService.processo.pessoaRelator != null ? certidaoDisponibilizacaoDJEService.processo.pessoaRelator.pessoa.nome : ''} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
 
 {{</table>}}
 
