@@ -68,18 +68,18 @@ O modelo de documento para a certidão de ciência pode ser alterado conforme ne
 
 Algumas variáveis foram utilizadas na inclusão do modelo padrão a ser utilizado na funcionalidade quando ela foi disponibilizada na produção:
 
-- **#{processoParteExpedienteHome.instance.processoExpediente.tipoProcessoDocumento}**
-  - Exibe o tipo de expediente. Exemplo: Intimação, Edital, Citação
-- **#{processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente == 'E' ? 'Expedição eletrônica' : processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente.label}**
-  - Exibe o meio de expedição. Exemplo: Correios, Mural, Expedição eletrônica
-- **#{dateUtil.dateToString(processoParteExpedienteHome.instance.processoExpediente.dtCriacao, 'dd/MM/yyyy HH:mm:ss')}**
-  - Exibe a data de expedição da intimação no formato **dd/MM/yyyy HH:mm:ss**
-- **#{processoParteExpedienteHome.instance.nomePessoaParte}**
-  - Exibe o nome do intimado
-- **#{processoParteExpedienteHome.instance.cienciaSistema != null and processoParteExpedienteHome.instance.cienciaSistema ? 'pelo sistema' : ''} #{processoParteExpedienteHome.instance.cienciaSistema != null && processoParteExpedienteHome.instance.cienciaSistema ? '' : 'por'} #{processoParteExpedienteHome.instance.cienciaSistema != null && processoParteExpedienteHome.instance.cienciaSistema ? '' : processoParteExpedienteHome.instance.nomePessoaCiencia}**
-  - Exibe quem foi o responsável pela ciência. Caso a ciência tenha sido registrada pelo sistema, será exibido **pelo sistema**
-- **#{dateUtil.dateToString(processoParteExpedienteHome.instance.dtCienciaParte, 'dd/MM/yyyy HH:mm:ss')}**
-  - Exibe a data da ciência no formato **dd/MM/yyyy HH:mm:ss**
+{{<table "variaveismodelo">}}
+
+| **Descrição** | **Variável** |
+|---|---|
+| Tipo de expediente (Exemplo: Intimação, Edital, Citação) | #{processoParteExpedienteHome.instance.processoExpediente.tipoProcessoDocumento} |
+| Meio de expedição (Exemplo: Correios, Mural, Expedição eletrônica) | #{processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente == 'E' ? 'Expedição eletrônica' : processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente.label} |
+| Data de expedição da intimação no formato dd/MM/yyyy HH:mm:ss | #{dateUtil.dateToString(processoParteExpedienteHome.instance.processoExpediente.dtCriacao, 'dd/MM/yyyy HH:mm:ss')} |
+| Nome do intimado | #{processoParteExpedienteHome.instance.nomePessoaParte} |
+| Responsável pela ciência (sistema ou pessoa) | #{processoParteExpedienteHome.instance.cienciaSistema != null and processoParteExpedienteHome.instance.cienciaSistema ? 'pelo sistema' : ''} #{processoParteExpedienteHome.instance.cienciaSistema != null && processoParteExpedienteHome.instance.cienciaSistema ? '' : 'por'} #{processoParteExpedienteHome.instance.cienciaSistema != null && processoParteExpedienteHome.instance.cienciaSistema ? '' : processoParteExpedienteHome.instance.nomePessoaCiencia} |
+| Data da ciência no formato dd/MM/yyyy HH:mm:ss | #{dateUtil.dateToString(processoParteExpedienteHome.instance.dtCienciaParte, 'dd/MM/yyyy HH:mm:ss')} |
+
+{{</table>}}
   
 {{% notice note %}}
 As variáveis utilizadas no modelo de documento que contêm o termo processoParteExpedienteHome, se utilizadas em outros contextos que não o da emissão da certidão da atual pendência, **APRESENTARÃO ERROS**. Isso ocorre, por exemplo, na juntada de documento pelos autos digitais. Se o modelo configurado for selecionado na juntada de certidão pelos autos, o sistema apresentará erro de interpretação. Sendo assim, o modelo **NUNCA** deve ser utilizado na construção de documentos pelo usuário. 
