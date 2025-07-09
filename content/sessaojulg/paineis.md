@@ -133,7 +133,7 @@ Se o magistrado tiver liberado seu documento para visualização por meio da op�
 
 ## Orientação passada para o TSE quando foram disponilizados os painéis:
 
-De ordem da assessora-chefe da Assessoria do PJe, informamos que a versão disponibilizada hoje no TSE, 18 de maio de 2020, contempla um painel aos advogados e ao ministério público para acompanhamento das sessões virtuais e por videoconferência. Para as sessões iniciadas, virtuais ou não, o painel da OAB e do MP exibe documentos de relatório, voto e ementa produzidos pelos gabinetes, desde que liberados para visualização.
+De ordem da assessora-chefe da Assessoria do PJe, informamos que a versão disponibilizada hoje no TSE, 18 de maio de 2020, contempla um painel aos advogados e ao ministério público para acompanhamento das sessões virtuais e por videoconferência. Para as sessões iniciadas, virtuais ou não, os painéis aos quais o advogado ou MP têm acesso exibem documentos de relatório, voto e ementa produzidos pelos gabinetes, desde que liberados para visualização.
 
 Conforme já ocorria antes dessa melhoria, a liberação de visualização dos documentos é realizada pelo gabinete, a partir das opções já existentes “Liberar relatório”, “Liberar ementa” e Liberar voto”, disponíveis nas tarefas de conferência dos documentos.
 
@@ -141,7 +141,7 @@ A liberação é por documento, ou seja, o gabinete pode escolher liberar apenas
 
 ## Orientação passada para os TREs quando foram disponilizados os painéis:
 
-A versão 2.0.0.0.49.3 do PJe nos regionais e no TSE traz uma melhoria solicitada pela OAB e pelo ministério público para que advogados e MP possam enxergar os documentos de voto, relatório e ementa, desde que liberados pelo gabinete, a partir das opções já existentes “Liberar relatório”, “Liberar ementa” e Liberar voto”, disponíveis nas tarefas de “Aguarda sessão de julgamento” inclusive para julgamento virtual. 
+A versão 2.0.0.0.49.3 do PJe nos regionais e no TSE traz uma melhoria solicitada pela  e pelo ministério público para que advogados e MP possam enxergar os documentos de voto, relatório e ementa, desde que liberados pelo gabinete, a partir das opções já existentes “Liberar relatório”, “Liberar ementa” e Liberar voto”, disponíveis nas tarefas de “Aguarda sessão de julgamento” inclusive para julgamento virtual. 
 
 Caso liberados os documentos, os processos que estejam em sessão aberta terão a opção do placar, que exibe os votos dos magistrados. As permissões para esse painel podem ser encontradas no menu Configuração - Controle de acesso - Funcionalidades, pesquisando pelo identificador pages/Painel/ProcuradorMP/sessaoAbertaProcuradorMP.seam.
 
