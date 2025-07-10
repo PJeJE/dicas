@@ -108,6 +108,8 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 | Nome do intimado | #{processoParteExpedienteHome.instance.nomePessoaParte} | Disponível somente para a [funcionalidade de certidão automática de ciência]({{< relref "automacao/certidao/certidao_ciencia" >}}). |
 | Responsável pela ciência (sistema ou pessoa) | #{processoParteExpedienteHome.instance.cienciaSistema != null and processoParteExpedienteHome.instance.cienciaSistema ? 'pelo sistema' : ''} #{processoParteExpedienteHome.instance.cienciaSistema != null && processoParteExpedienteHome.instance.cienciaSistema ? '' : 'por'} #{processoParteExpedienteHome.instance.cienciaSistema != null && processoParteExpedienteHome.instance.cienciaSistema ? '' : processoParteExpedienteHome.instance.nomePessoaCiencia} | Disponível somente para a [funcionalidade de certidão automática de ciência]({{< relref "automacao/certidao/certidao_ciencia" >}}). |
 | Data da ciência no formato dd/MM/yyyy HH:mm:ss | #{dateUtil.dateToString(processoParteExpedienteHome.instance.dtCienciaParte, 'dd/MM/yyyy HH:mm:ss')} | Disponível somente para a [funcionalidade de certidão automática de ciência]({{< relref "automacao/certidao/certidao_ciencia" >}}). |
+| Tabela hash de documentos com ID | #{processoTrfHome.tabelaHashDocumentosComId} |  |
+| Tabela hash de documentos | #{processoTrfHome.tabelaHashDocumentos} |  |
 
 {{</table>}}
 
