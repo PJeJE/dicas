@@ -43,8 +43,8 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 | Endereço Advogado Polo Passivo | #{processoTrfHome.advogadoEnderecoPoloPassivoStr} |  |
 | Endereço da Sala de Audiência | #{processoTrfHome.enderecoSalaAudiencia} |  |
 | Endereço Órgão Julgador | #{processoTrfHome.instance.orgaoJulgador.localizacao.endereco.enderecoCompleto} |  |
-| Endereço s Polo Ativo | #{processoTrfHome.processoEnderecoPoloAtivoStr} |  |
-| Endereço s Polo Passivo | #{processoTrfHome.processoEnderecoPoloPassivoStr} |  |
+| Endereços Polo Ativo | #{processoTrfHome.processoEnderecoPoloAtivoStr} |  |
+| Endereços Polo Passivo | #{processoTrfHome.processoEnderecoPoloPassivoStr} |  |
 | Escreve título Juiz ou Juíza de acordo com a informação sexo do cadastro do magistrado relator | #{processoTrfHome.getRelator(processoTrfHome.instance) != null and processoTrfHome.getRelator(processoTrfHome.instance).sexo == 'F'? 'Juíza': 'Juiz'} |  |
 | Escreve título Procurador ou Procuradora de acordo com a informação sexo do cadastro do procurador na sessão | #{sessaoHome.instance.getPessoaProcurador() != null and sessaoHome.instance.getPessoaProcurador().sexo == 'F'? 'Procurador': 'Procuradora'} |  |
 | Estado da autuação do Processo | #{processoTrfHome.instance.complementoJE.estadoEleicao.estado} |  |
