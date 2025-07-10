@@ -1,4 +1,3 @@
-
 ---
 title: "Certidão de ciência"
 date: 2025-02-07T16:27:02-03:00
@@ -8,33 +7,31 @@ weight: 6
 
 (disponível a partir da versão 2.1.8.1.59)
 
-É possível que o sistema junte automaticamente uma certidão de ciência dos expedientes que torne públicos, entre outras informações, a data e hora de ciência nas intimações feitas, garantindo a transparência dos atos processuais e permitindo a análise da tempestividade com base em fatos disponíveis a todos que atuem ou venham a atuar no feito.
+O sistema pode juntar automaticamente uma certidão de ciência dos expedientes que torna públicas informações como data e hora de ciência das intimações realizadas. Isso garante a transparência dos atos processuais e permite a análise da tempestividade com base em fatos disponíveis a todos que atuem no processo.
 
-{{% notice note %}}
-A certidão deve ser emitida para expedientes enviados para meios conforme parâmetro **pje:certidao:ciencia:meios**. Esse parâmetro virá configurado previamente com o valor **E**, que remete ao meio **Sistema**. Caso seja necessário, o usuário administrador pode configurar e emissão de certidão para outros meios, acrescentando a letra referente ao meio no parâmetro, separado por vírgula. Os meios possíveis são: E(**Sistema**), P(**Diário Eletrônico**),  C(**Correios**), M(**Central de Mandados**), T(**Telefone**), S(**Pessoalmente**), A(**Sessão**), R(**Mural**), G(**Correios**). 
+{{% notice info %}}
+**Importante:** A certidão é gerada automaticamente apenas para **meios de expedição** configurados no parâmetro `pje:certidao:ciencia:meios` (padrão: `E` - Sistema) e **expedientes que NÃO tenham** tipos de prazo configurados no parâmetro `pje:certidao:ciencia:excecao:tiposPrazo` (padrão: `S,C` - Sem prazo e Data Certa). Veja todos os valores possíveis na seção [Configuração de parâmetros](#configuração-de-parâmetros).
 {{% /notice %}}
 
 {{% notice note %}}
-Não haverá certidão para expedientes cujos tipos de prazo tenham sido configurados no parâmetro “pje:certidao:ciencia:excecao:tiposPrazo”, o qual virá configurado inicialmente com o valor **S**, **C**, ou seja, expedientes com tipo de prazo **Sem prazo** e **Data Certa** não terão certidão gerada. Isso porque a configuração desse tipo de parâmetro deve ser realizada com letras separadas por vírgula, letras essas que remetem aos seguintes tipos de prazo: A(“anos”), M(“meses”), D(“dias”), H(“horas”), N(“minutos”), C(“data certa”), S(“sem prazo”). 
+**Sigilo:** Para expedientes sigilosos ou enviados para partes sigilosas, a certidão será automaticamente marcada como sigilosa.
 {{% /notice %}}
-
-Para expedientes sigilosos, a emissão da certidão será como um documento sigiloso. Da mesma forma, o sistema se comportará se o expediente for enviado para uma parte sigilosa.
 
 ## Modelo utilizado para emissão da certidão de ciência
 
-A certidão emitida utilizará o modelo configurado de acordo com as necessidades do usuário administrador. Para facilitar a utilização inicial da funcionalidade, foi inserido um modelo previamente configurado.
+A certidão utiliza um modelo de documento configurado conforme as necessidades do tribunal. Para facilitar o uso inicial, o sistema já possui um modelo pré-configurado.
 
-{{% notice note %}}
-O modelo da certidão de ciência configurado inicialmente não deve ser utilizado na emissão de documentos fora do contexto da emissão automática da certidão.
+{{% notice warning %}}
+O modelo pré-configurado é exclusivo para uso automático da certidão de ciência e não deve ser selecionado manualmente em editores de texto.
 {{% /notice %}}
 
+Para tribunais de primeiro grau, recomenda-se não criar novos modelos nem alterar o nome do modelo pré-configurado. Alterações devem ser feitas diretamente no modelo existente "Modelo de certidão automática de ciência" para facilitar o suporte da Assessoria do PJe.
 
-{{% notice note %}}
-Para instalações de primeiro grau da Justiça Eleitoral, como determinadas configurações estão disponíveis apenas para administradores, não é recomendado criar novos modelos ou alterar o nome do modelo previamente configurado. Caso seja necessário, alterações de modelo devem ser realizadas no modelo *Modelo de certidão automática de ciência*, facilitando, assim, o suporte requerido nas configurações por parte da Assessoria do PJe.
-{{% /notice %}}
+### Exemplo de certidão gerada
 
-O modelo configurado inicialmente emitirá uma certidão com o conteúdo similar ao descrito abaixo:
+O modelo pré-configurado gera uma certidão com conteúdo similar ao exemplo abaixo:
 
+```
 TRIBUNAL SUPERIOR ELEITORAL
 SECRETARIA JUDICIÁRIA 
 
@@ -45,48 +42,95 @@ INTERESSADO: TRIBUNAL REGIONAL ELEITORAL DA PARAIBA
  
 CIÊNCIA DA INTIMAÇÃO
 
-Essa certidão registra que foi dada ciência no expediente do tipo Notificação expedido via Pessoalmente na data 05/02/2025 18:28:13 a(o) TRIBUNAL REGIONAL ELEITORAL DA PARAIBA. A ciência foi registrada pelo sistema em 05/02/2025 18:29:00.
+Esta certidão registra que foi dada ciência no expediente do tipo Notificação 
+expedido via Pessoalmente na data 05/02/2025 18:28:13 ao TRIBUNAL REGIONAL 
+ELEITORAL DA PARAÍBA. A ciência foi registrada pelo sistema em 05/02/2025 18:29:00.
 
 Brasília, 5 de fevereiro de 2025.
+```
 
-{{% notice note %}}
-Os regionais foram configurados inicialmente para não gerarem a certidão para que o uso inicial seja controlado pelo próprio TRE/TSE. (parâmetro **pje:certidao:geraCertidaoCiencia** inicialmente configurado com o valor **N**)
+### Configuração inicial
+
+Por padrão, os tribunais regionais foram configurados com o parâmetro `pje:certidao:geraCertidaoCiencia` definido como `N` para que o uso inicial seja controlado pelo próprio TRE/TSE.
+
+### Informações técnicas do modelo
+
+O modelo pré-configurado possui as seguintes características:
+- **Nome**: "Modelo de certidão automática de ciência"
+- **Tipo**: Certidões (código 534)
+- **Localização**: Raiz do tribunal (ID 1)
+
+Para usuários de outras localizações modificarem o modelo, a vinculação deve ser alterada por um usuário da localização correspondente.
+
+{{% notice warning %}}
+Tenha cuidado ao alterar o modelo, pois a geração é automática e erros de tradução de variáveis não poderão ser verificados antes da juntada da certidão ao processo.
 {{% /notice %}}
 
-{{% notice note %}}
-As informações a seguir são importantes para que o regional tenha acesso ao modelo de documento configurado inicialmente, caso queira consultá-lo/modificá-lo: o modelo de documento criado tem o nome **Modelo de certidão automática de ciência** e foi vinculado ao tipo de modelo de documento de nome **Certidões**, ao tipo de documento de código **534** e vinculado à localização de identificador **1** - localização raiz do tribunal (Tribunal Superior Eleitoral ou Tribunal Regional Eleitoral ou Tribunal). Caso haja necessidade que usuários vinculados a outras localizações alterem o modelo, a vinculação à localização deve ser alterada por um usuário que esteja vinculado à localização. **É importante ter cuidado na alteração para que não sejam utilizadas variáveis que não possam ser traduzidas no ato da emissão, já que ela ocorrerá de forma automática e o usuário não poderá verificar erros de tradução antes da efetiva juntada da certidão**.
-{{% /notice %}}
+### Restrições importantes para variáveis
 
-{{% notice note %}}
-As variáveis que iniciam com o termo processoJudicialAction não conseguem ser traduzidas pelo processamento automático que registra ciência em processos executado na madrugada. Dessa forma, ela não deve ser utilizada no modelo automático de certidão de ciência. Em lugar da variável **#{processoJudicialAction.recuperarParteFormatada(true, true, ‘A’, ‘P’, ‘T’)}**, o usuário deve utilizar **#{processoJudicialManager.recuperarParteFormatada(processoTrfHome.instance, false,true,false,‘A’,‘P’,‘T’)}** . 
-{{% /notice %}}
+Variáveis que iniciam com `processoJudicialAction` não funcionam no processamento automático de ciência (executado durante a madrugada). 
+
+Use esta variável **correta**:
+```
+#{processoJudicialManager.recuperarParteFormatada(processoTrfHome.instance, false,true,false,'A','P','T')}
+```
+
+Em vez desta **incorreta**:
+```
+#{processoJudicialAction.recuperarParteFormatada(true, true, 'A', 'P', 'T')}
+```
 
 
 ## Variáveis do modelo de certidão de ciência
 
-O modelo de documento para a certidão de ciência pode ser alterado conforme necessidades do tribunal utilizando variáveis diversas disponíveis no PJe. 
+No modelo de documento podem ser utilizadas as seguintes variáveis para recuperação de informações:
 
-Algumas variáveis foram utilizadas na inclusão do modelo padrão a ser utilizado na funcionalidade quando ela foi disponibilizada na produção:
+{{<table "variaveismodelo">}}
 
-- **#{processoParteExpedienteHome.instance.processoExpediente.tipoProcessoDocumento}**
-  - Exibe o tipo de expediente. Exemplo: Intimação, Edital, Citação
-- **#{processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente == 'E' ? 'Expedição eletrônica' : processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente.label}**
-  - Exibe o meio de expedição. Exemplo: Correios, Mural, Expedição eletrônica
-- **#{dateUtil.dateToString(processoParteExpedienteHome.instance.processoExpediente.dtCriacao, 'dd/MM/yyyy HH:mm:ss')}**
-  - Exibe a data de expedição da intimação no formato **dd/MM/yyyy HH:mm:ss**
-- **#{processoParteExpedienteHome.instance.nomePessoaParte}**
-  - Exibe o nome do intimado
-- **#{processoParteExpedienteHome.instance.cienciaSistema != null and processoParteExpedienteHome.instance.cienciaSistema ? 'pelo sistema' : ''} #{processoParteExpedienteHome.instance.cienciaSistema != null && processoParteExpedienteHome.instance.cienciaSistema ? '' : 'por'} #{processoParteExpedienteHome.instance.cienciaSistema != null && processoParteExpedienteHome.instance.cienciaSistema ? '' : processoParteExpedienteHome.instance.nomePessoaCiencia}**
-  - Exibe quem foi o responsável pela ciência. Caso a ciência tenha sido registrada pelo sistema, será exibido **pelo sistema**
-- **#{dateUtil.dateToString(processoParteExpedienteHome.instance.dtCienciaParte, 'dd/MM/yyyy HH:mm:ss')}**
-  - Exibe a data da ciência no formato **dd/MM/yyyy HH:mm:ss**
+| **Descrição** | **Variável** |
+|---|---|
+| Data da ciência no formato dd/MM/yyyy HH:mm:ss | #{dateUtil.dateToString(processoParteExpedienteHome.instance.dtCienciaParte, 'dd/MM/yyyy HH:mm:ss')} |
+| Data de expedição da intimação no formato dd/MM/yyyy HH:mm:ss | #{dateUtil.dateToString(processoParteExpedienteHome.instance.processoExpediente.dtCriacao, 'dd/MM/yyyy HH:mm:ss')} |
+| Meio de expedição (Exemplo: Correios, Mural, Expedição eletrônica) | #{processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente == 'E' ? 'Expedição eletrônica' : processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente.label} |
+| Nome do intimado | #{processoParteExpedienteHome.instance.nomePessoaParte} |
+| Responsável pela ciência (sistema ou pessoa) | #{processoParteExpedienteHome.instance.cienciaSistema != null and processoParteExpedienteHome.instance.cienciaSistema ? 'pelo sistema' : ''} #{processoParteExpedienteHome.instance.cienciaSistema != null && processoParteExpedienteHome.instance.cienciaSistema ? '' : 'por'} #{processoParteExpedienteHome.instance.cienciaSistema != null && processoParteExpedienteHome.instance.cienciaSistema ? '' : processoParteExpedienteHome.instance.nomePessoaCiencia} |
+| Tipo de expediente (Exemplo: Intimação, Edital, Citação) | #{processoParteExpedienteHome.instance.processoExpediente.tipoProcessoDocumento} |
+
+{{</table>}}
   
-{{% notice note %}}
-As variáveis utilizadas no modelo de documento que contêm o termo processoParteExpedienteHome, se utilizadas em outros contextos que não o da emissão da certidão da atual pendência, **APRESENTARÃO ERROS**. Isso ocorre, por exemplo, na juntada de documento pelos autos digitais. Se o modelo configurado for selecionado na juntada de certidão pelos autos, o sistema apresentará erro de interpretação. Sendo assim, o modelo **NUNCA** deve ser utilizado na construção de documentos pelo usuário. 
+{{% notice warning %}}
+As variáveis com `processoParteExpedienteHome` são exclusivas para a certidão automática de ciência. O modelo não deve ser usado manualmente para outros documentos.
 {{% /notice %}}
 
-## Orientações de configuração para o usuário administrador
+## Configuração de parâmetros
 
-A emissão da certidão está condicionada à configuração do parãmetro "pje:certidao:geraCertidaoCiencia" com o valor "S". Além disso, deve estar corretamente configurado o identificador do modelo a ser utilizado na emissão por meio do registro de seu identificador no parâmetro "idModeloCertidaoCiencia". Caso o identificador não corresponda a um modelo ativo no PJe, o sistema notificará o erro na emissão por meio do fluxo cujo código esteja registrado no parâmetro "pje:fluxo:erro:certidaoCiencia" e isso só ocorrerá se o código corresponder a um fluxo válido. O nome do documento gerado pode seguir um padrão de acordo com configurações. Caso as configurações não sejam realizadas, o nome adotado será o nome do tipo de documento. Caso o parâmetro "nomeDocumentoCertidaoCiencia" tenha sido configurado e tenha alguma valor que não vazio, o sistema utilizará esse nome para atribuir ao nome do documento. Caso esse parâmetro seja corretamento configurado, o usuário administrador pode também optar por adicionar ao nome do documento o nome da parte intimada a cuja ciência está vinculada a certidão por meio da marcação "S" do parâmetro "pje:certidao:ciencia:concatenaParte".
- 
+Configure os seguintes parâmetros para habilitar e personalizar a certidão de ciência:
 
+- **Parâmetro `pje:certidao:geraCertidaoCiencia`**:
+  - O valor desse parâmetro deve ser `S` para habilitar a utilização da funcionalidade e `N` para desabilitá-la.
+
+- **Parâmetro `pje:certidao:ciencia:meios`**:
+  - O valor desse parâmetro define os meios de expedição para os quais a certidão será emitida. Configurado inicialmente com o valor `E` (Sistema). Os meios possíveis são: `E` (Sistema), `P` (Diário Eletrônico), `C` (Correios), `M` (Central de Mandados), `T` (Telefone), `S` (Pessoalmente), `A` (Sessão), `R` (Mural), `G` (Correios). Para múltiplos valores, separe por vírgula.
+
+- **Parâmetro `pje:certidao:ciencia:excecao:tiposPrazo`**:
+  - O valor desse parâmetro define os tipos de prazo para os quais NÃO será gerada certidão. Configurado inicialmente com `S`, `C` (Sem prazo e Data Certa). Os tipos possíveis são: `A` (anos), `M` (meses), `D` (dias), `H` (horas), `N` (minutos), `C` (data certa), `S` (sem prazo). Para múltiplos valores, separe por vírgula.
+
+- **Parâmetro `idModeloCertidaoCiencia`**:
+  - O valor desse parâmetro corresponde ao ID do modelo de documento que será utilizado para a certidão com as informações alteradas pelo usuário no momento da solicitação.
+
+- **Parâmetro `pje:fluxo:erro:certidaoCiencia`**:
+  - O valor desse parâmetro corresponde ao código do fluxo para notificação de erros na emissão da certidão.
+
+- **Parâmetro `nomeDocumentoCertidaoCiencia`**:
+  - O valor desse parâmetro define o nome padrão do documento da certidão. Se não configurado, será usado o nome do tipo de documento.
+
+- **Parâmetro `pje:certidao:ciencia:concatenaParte`**:
+  - O valor desse parâmetro deve ser `S` para adicionar o nome da parte intimada ao nome do documento da certidão.
+
+{{% notice warning %}}
+O ID do modelo de documento informado no parâmetro `idModeloCertidaoCiencia` deve fazer referência a um modelo de documento válido e ativo. Caso contrário, a certidão automática não será juntada ao processo.
+{{% /notice %}}
+
+{{% notice note %}}
+Para a correta utilização da funcionalidade, todos os parâmetros devem estar **ativos** e devidamente configurados.
+{{% /notice %}}
