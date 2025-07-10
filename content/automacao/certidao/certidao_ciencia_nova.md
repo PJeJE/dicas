@@ -10,7 +10,7 @@ weight: 6
 O sistema pode juntar automaticamente uma certidão de ciência dos expedientes que torna públicas informações como data e hora de ciência das intimações realizadas. Isso garante a transparência dos atos processuais e permite a análise da tempestividade com base em fatos disponíveis a todos que atuem no processo.
 
 {{% notice info %}}
-**Importante:** A certidão é gerada automaticamente apenas para **meios de expedição** configurados no parâmetro `pje:certidao:ciencia:meios` (padrão: `E` - Sistema) e **expedientes que NÃO tenham** tipos de prazo configurados no parâmetro `pje:certidao:ciencia:excecao:tiposPrazo` (padrão: `S,C` - Sem prazo e Data Certa).
+**Importante:** A certidão é gerada automaticamente apenas para **meios de expedição** configurados no parâmetro `pje:certidao:ciencia:meios` (padrão: `E` - Sistema) e **expedientes que NÃO tenham** tipos de prazo configurados no parâmetro `pje:certidao:ciencia:excecao:tiposPrazo` (padrão: `S,C` - Sem prazo e Data Certa). Veja todos os valores possíveis na seção [Configuração de parâmetros](#configuração-de-parâmetros).
 {{% /notice %}}
 
 {{% notice note %}}
@@ -110,10 +110,10 @@ Configure os seguintes parâmetros para habilitar e personalizar a certidão de 
   - O valor desse parâmetro deve ser `S` para habilitar a utilização da funcionalidade e `N` para desabilitá-la.
 
 - **Parâmetro `pje:certidao:ciencia:meios`**:
-  - O valor desse parâmetro define os meios de expedição para os quais a certidão será emitida. Configurado inicialmente com o valor `E` (Sistema). Os meios possíveis são: `E` (Sistema), `P` (Diário Eletrônico), `C` (Correios), `M` (Central de Mandados), `T` (Telefone), `S` (Pessoalmente), `A` (Sessão), `R` (Mural), `G` (Correios).
+  - O valor desse parâmetro define os meios de expedição para os quais a certidão será emitida. Configurado inicialmente com o valor `E` (Sistema). Os meios possíveis são: `E` (Sistema), `P` (Diário Eletrônico), `C` (Correios), `M` (Central de Mandados), `T` (Telefone), `S` (Pessoalmente), `A` (Sessão), `R` (Mural), `G` (Correios). Para múltiplos valores, separe por vírgula.
 
 - **Parâmetro `pje:certidao:ciencia:excecao:tiposPrazo`**:
-  - O valor desse parâmetro define os tipos de prazo para os quais NÃO será gerada certidão. Configurado inicialmente com `S`, `C` (Sem prazo e Data Certa). Os tipos possíveis são: `A` (anos), `M` (meses), `D` (dias), `H` (horas), `N` (minutos), `C` (data certa), `S` (sem prazo).
+  - O valor desse parâmetro define os tipos de prazo para os quais NÃO será gerada certidão. Configurado inicialmente com `S`, `C` (Sem prazo e Data Certa). Os tipos possíveis são: `A` (anos), `M` (meses), `D` (dias), `H` (horas), `N` (minutos), `C` (data certa), `S` (sem prazo). Para múltiplos valores, separe por vírgula.
 
 - **Parâmetro `idModeloCertidaoCiencia`**:
   - O valor desse parâmetro corresponde ao ID do modelo de documento que será utilizado para a certidão com as informações alteradas pelo usuário no momento da solicitação.
