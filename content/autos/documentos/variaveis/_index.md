@@ -11,6 +11,7 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 
 | **Descrição** | **Variável** | **Outras informações** |
 |---|---|:---:|
+| Assuntos do processo | #{certidaoDisponibilizacaoDJEService.processo.assuntoTrfListStr} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
 | Assuntos do Processo | #{processoTrfHome.instance.assuntoTrfListStr} |  |
 | Cabeçalho do processo com cadeia recursal em siglas | #{processoTrfHome.instance} |  |
 | Cabeçalho do processo com cadeia recursal em siglas dentro da sessão | #{sessaoProcessoDocumentoHome.sessaoPautaProcessoTrf.processoTrf} |  |
@@ -18,15 +19,20 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 | Cabeçalho do processo com cadeia recursal por extenso, exceto classe do principal dentro da sessão | #{sessaoProcessoDocumentoHome.sessaoPautaProcessoTrf.processoTrf.extensoClasse != null ? <br>sessaoProcessoDocumentoHome.sessaoPautaProcessoTrf.processoTrf.extensoClasse : sessaoProcessoDocumentoHome.sessaoPautaProcessoTrf.processoTrf.classeJudicial} |  |
 | Cargo do órgão julgador do processo | #{processoTrfHome.instance.orgaoJulgadorCargo} |  |
 | Cidade Órgão Julgador Processo | #{processoTrfHome.instance.orgaoJulgador.localizacao.endereco.cep.municipio} |  |
+| Classe do processo | #{certidaoDisponibilizacaoDJEService.processo.classeJudicial} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
 | Classe do Processo | #{processoTrfHome.instance.classeJudicial} |  |
 | Classe do processo para uso em modelos de oficial de justiça | #{processoExpedienteCentralMandadoHome.instance.processoExpediente.processoTrf.classeJudicial} |  |
 | Competência da Distribuição |  #{processoTrfHome.instance.getCompetencia().competencia} |  |
+| Data atual Formatada | #{dataAtual} |  |
 | Data Atual | #{currentDate} |  |
 | Data Atual Abreviada | #{dataAtualAbreviada} |  |
 | Data Atual Extenso | #{dataAtual} |  |
-| Data atual Formatada | #{dataAtual} |  |
 | Data da Audiência | #{processoTrfHome.dataAudiencia} |  |
+| Data da ciência no formato dd/MM/yyyy HH:mm:ss | #{dateUtil.dateToString(processoParteExpedienteHome.instance.dtCienciaParte, 'dd/MM/yyyy HH:mm:ss')} | Disponível somente para a [funcionalidade de certidão automática de ciência]({{< relref "automacao/certidao/certidao_ciencia" >}}). |
 | Data da Distribuição | #{processoTrfHome.dataDistribuicao} |  |
+| Data da publicação | #{certidaoPublicacaoMuralService.getDataPublicacao()} | Disponível somente para a [funcionalidade de certidão automática de publicação no Mural]({{< relref "automacao/certidao/certidao_mural" >}}). |
+| Data da publicação | #{certidaoDisponibilizacaoDJEService.getDataDisponibilizacao()} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
+| Data de expedição da intimação no formato dd/MM/yyyy HH:mm:ss | #{dateUtil.dateToString(processoParteExpedienteHome.instance.processoExpediente.dtCriacao, 'dd/MM/yyyy HH:mm:ss')} | Disponível somente para a [funcionalidade de certidão automática de ciência]({{< relref "automacao/certidao/certidao_ciencia" >}}). |
 | Data e Hora Atual | #{currentDatetime} |  |
 | Data Semana Hoje Extenso | #{dataAtualExtenso} |  |
 | Endereço Advogado Polo Ativo | #{processoTrfHome.advogadoEnderecoPoloAtivoStr} |  |
@@ -37,36 +43,47 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 | Endereço s Polo Passivo | #{processoTrfHome.processoEnderecoPoloPassivoStr} |  |
 | Escreve título Juiz ou Juíza de acordo com a informação sexo do cadastro do magistrado relator | #{processoTrfHome.getRelator(processoTrfHome.instance) != null and processoTrfHome.getRelator(processoTrfHome.instance).sexo == 'F'? 'Juíza': 'Juiz'} |  |
 | Escreve título Procurador ou Procuradora de acordo com a informação sexo do cadastro do procurador na sessão | #{sessaoHome.instance.getPessoaProcurador() != null and sessaoHome.instance.getPessoaProcurador().sexo == 'F'? 'Procurador': 'Procuradora'} |  |
-| Para pessoas cadastradas com a marcação do sexo como **Feminino**, escreve título Servidora para papéis que tenham em seu texto o nome "Servidor". Para pessoas com o cadastro do sexo como **Masculino** ou que não tenha o texto "Servidor" no nome do papel, escreve o nome original do papel | #{authenticator.getPessoaLogada().sexo == 'F' and usuarioLogadoLocalizacaoAtual.papel.toString().contains('Servidor') ? 'Servidora' :usuarioLogadoLocalizacaoAtual.papel} |  |
+| Estado | #{certidaoDisponibilizacaoDJEService.processo.complementoJE.estadoEleicao.estado} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
 | Estado da autuação do Processo | #{processoTrfHome.instance.complementoJE.estadoEleicao.estado} |  |
+| Exclusão do(a) advogado(a) | #{habilitacaoAutosManager.getUltimaSubstituicao(processoTrfHome.instance)} | Disponível somente para a [funcionalidade de certidão automática de habilitação nos autos]({{< relref "automacao/certidao/habilitacao_autos" >}}). |
 | Hora Atual | #{currentTime} |  |
+| Id do documento | #{certidaoPublicacaoMuralService.getIdAto()} | Disponível somente para a [funcionalidade de certidão automática de publicação no Mural]({{< relref "automacao/certidao/certidao_mural" >}}). |
+| Id do documento | #{certidaoDisponibilizacaoDJEService.getIdAto()} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
+| Inclusão do(a) advogado(a) | #{habilitacaoAutosManager.getUltimaInclusao(processoTrfHome.instance)} | Disponível somente para a [funcionalidade de certidão automática de habilitação nos autos]({{< relref "automacao/certidao/habilitacao_autos" >}}). |
 | Juiz Órgão Julgador - retorna o nome do último usuário da localização do processo que tenha o papel magistrado (se houver mais de um magistrado no OJ, vai mostrar o último, não necessariamente o atual, não necessariamente o relator do processo | #{processoTrfHome.instance.nomeJuizOrgaoJulgador} |  |
 | Lista Nome Autor | #{processoTrfHome.nomeCpfAutorList} |  |
 | Lista Tipo Nome Advogado Autor | #{processoTrfHome.instance.tipoNomeAdvogadoAutorList} |  |
 | Lista Tipo Nome Advogado Réu | #{processoTrfHome.instance.tipoNomeAdvogadoReuList} |  |
 | Login Usuário Logado | #{usuarioLogado.login} |  |
+| Magistrado/juiz responsável pelo órgão julgador (primeiro grau) | #{orgaoJulgadorManager.recuperaResponsavel(processoTrfHome.orgaoJulgador, null)} | [Detalhamento]({{< relref "responsavelorgao" >}}) |
+| Meio de expedição (Exemplo: Correios, Mural, Expedição eletrônica) | #{processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente == 'E' ? 'Expedição eletrônica' : processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente.label} | Disponível somente para a [funcionalidade de certidão automática de ciência]({{< relref "automacao/certidao/certidao_ciencia" >}}). |
+| Município | #{certidaoDisponibilizacaoDJEService.processo.complementoJE.municipioEleicao.municipio} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
 | Município da autuação do Processo | #{processoTrfHome.instance.complementoJE.municipioEleicao.municipio} |  |
 | Nome Autor Ativo Processo | #{processoTrfHome.instance.nomeAutorAtivoProcesso} |  |
 | Nome Autor Processo | #{processoTrfHome.instance.tipoNomeAutorProcesso} |  |
+| Nome do intimado | #{processoParteExpedienteHome.instance.nomePessoaParte} | Disponível somente para a [funcionalidade de certidão automática de ciência]({{< relref "automacao/certidao/certidao_ciencia" >}}). |
 | Nome do Usuário Logado | #{usuarioLogado.nome} |  |
 | Nome Outros Interessados | #{processoParteHome.processoParteTerceiroSemVinculacaoList} |  |
 | Nome Réu Processo | #{processoTrfHome.instance.nomeReuProcesso} |  |
+| Número do processo | #{certidaoDisponibilizacaoDJEService.processo.numeroProcesso} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
 | Número do Processo | #{processoTrfHome.instance.numeroProcesso} |  |
 | Número do processo para uso em modelos de oficial de justiça | #{processoExpedienteCentralMandadoHome.instance.processoExpediente.processoTrf.processo.numeroProcesso} |  |
 | Número do processo referência (o número do drap estará nessa variável) | #{processoTrfHome.instance.processoReferencia} |  |
 | Objeto do processo | #{processoTrfHome.instance.objeto} |  |
 | Órgão Julgador Processo | #{processoTrfHome.instance.orgaoJulgador} |  |
 | Papel usuário logado | #{usuarioLogadoLocalizacaoAtual.papel} |  |
+| Para pessoas cadastradas com a marcação do sexo como **Feminino**, escreve título Servidora para papéis que tenham em seu texto o nome "Servidor". Para pessoas com o cadastro do sexo como **Masculino** ou que não tenha o texto "Servidor" no nome do papel, escreve o nome original do papel | #{authenticator.getPessoaLogada().sexo == 'F' and usuarioLogadoLocalizacaoAtual.papel.toString().contains('Servidor') ? 'Servidora' :usuarioLogadoLocalizacaoAtual.papel} |  |
+| Parte - Uma das partes do polo ativo com cpf (Se usar 0 retorna a primeira parte do polo ativo) | #{processoTrfHome.instance.getProcessoPartePoloAtivoSemAdvogadoList().get(0)} |  Se for utilizado o número 1 e não existir a segunda parte no polo ativo, o sistema dá erro de tradução  |
+| Parte - Uma das partes do polo ativo sem cpf (Se usar 0 retorna a primeira parte do polo ativo) | #{processoTrfHome.instance.getProcessoPartePoloAtivoSemAdvogadoList().get(0).getTipoParte()} - #{processoTrfHome.instance.getProcessoPartePoloAtivoSemAdvogadoList().get(0).getPessoa()} | Se for utilizado o número 1 e não existir a segunda parte no polo ativo, o sistema dá erro de tradução |
+| Parte - Uma das partes do polo passivo com cpf (Se usar 0 retorna a primeira parte do polo passivo) | #{processoTrfHome.instance.getProcessoPartePoloPassivoSemAdvogadoList().get(0)} | Se for utilizado o número 1 e não existir a segunda parte no polo passivo, o sistema dá erro de tradução |
+| Parte - Uma das partes do polo passivo sem cpf (Se usar 0 retorna a primeira parte do polo passivo) | #{processoTrfHome.instance.getProcessoPartePoloPassivoSemAdvogadoList().get(0).getTipoParte()} - #{processoTrfHome.instance.getProcessoPartePoloAtivoSemAdvogadoList().get(0).getPessoa()} | Se for utilizado o número 1 e não existir a segunda parte no polo passivo, o sistema dá erro de tradução |
+| Partes | #{habilitacaoAutosManager.getPartesUltimaHabilitacao(processoTrfHome.instance)} | Disponível somente para a [funcionalidade de certidão automática de habilitação nos autos]({{< relref "automacao/certidao/habilitacao_autos" >}}). |
 | Partes dentro da certidão de julgamento | #{processoJudicialManager.recuperarParteFormatada(sessaoProcessoDocumentoHome.sessaoPautaProcessoTrf.processoTrf, false,true,false,'A','P','T')} |  |
 | Partes do processo para uso em modelos de oficial de justiça | #{processoJudicialManager.recuperarParteFormatada(processoExpedienteCentralMandadoHome<br>.instance.processoExpediente.processoTrf, false,true,false,'A','P','T')} |  |
 | Partes formatadas | #{processoJudicialAction.recuperarParteFormatada(true, true, 'A', 'P', 'T')} | [Detalhamento]({{< relref "recuperarparteformatada" >}}) |
 | Partes formatadas para certidão de ciência | #{processoJudicialManager.recuperarParteFormatada(processoTrfHome.instance, false,true,false,'A','P','T')} |  |
 | Partes polo ativo | #{processoTrfHome.processoPartePoloAtivoSemAdvogadoStr} |  |
 | Partes polo passivo | #{processoTrfHome.processoPartePoloPassivoSemAdvogadoStr} |  |
-| Parte - Uma das partes do polo ativo com cpf (Se usar 0 retorna a primeira parte do polo ativo) | #{processoTrfHome.instance.getProcessoPartePoloAtivoSemAdvogadoList().get(0)} |  Se for utilizado o número 1 e não existir a segunda parte no polo ativo, o sistema dá erro de tradução  |
-| Parte - Uma das partes do polo passivo com cpf (Se usar 0 retorna a primeira parte do polo passivo) | #{processoTrfHome.instance.getProcessoPartePoloPassivoSemAdvogadoList().get(0)} | Se for utilizado o número 1 e não existir a segunda parte no polo passivo, o sistema dá erro de tradução |
-| Parte - Uma das partes do polo ativo sem cpf (Se usar 0 retorna a primeira parte do polo ativo) | #{processoTrfHome.instance.getProcessoPartePoloAtivoSemAdvogadoList().get(0).getTipoParte()} - #{processoTrfHome.instance.getProcessoPartePoloAtivoSemAdvogadoList().get(0).getPessoa()} | Se for utilizado o número 1 e não existir a segunda parte no polo ativo, o sistema dá erro de tradução |
-| Parte - Uma das partes do polo passivo sem cpf (Se usar 0 retorna a primeira parte do polo passivo) | #{processoTrfHome.instance.getProcessoPartePoloPassivoSemAdvogadoList().get(0).getTipoParte()} - #{processoTrfHome.instance.getProcessoPartePoloAtivoSemAdvogadoList().get(0).getPessoa()} | Se for utilizado o número 1 e não existir a segunda parte no polo passivo, o sistema dá erro de tradução |
 | Período (sessões contínuas) ou data (sessão presencial) da sessão - para uso no documento de intimação de Pauta | #{periodoSessao} |  |
 | Presidente da sessão | #{sessaoComposicaoOrdemManager.obterPresidenteSessao(sessaoPautaProcessoTrfManager<br>.getSessaoPautaProcessoTrfJulgado(tramitacaoProcessualService.recuperaProcesso()).sessao, true)} |  |
 | Processos associados | #{processoTrfHome.instance.getProcessoTrfConexaoListStr()} |  |
@@ -76,40 +93,22 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 | Recupera conteúdo do documento relatório à última sessão onde o processo foi "Julgado" e a sessão teve movimento registrado ou o processo teve o julgamento individual finalizado | #{sessaoProcessoDocumentoManager.getRelatorio(null)} |  |
 | Recupera conteúdo do documento voto vinculado à última sessão onde o processo foi "Julgado" e a sessão teve movimento registrado ou o processo teve o julgamento individual finalizado. O sistema procura o voto do vencedor. Caso não encontre, procura o voto do relator | #{sessaoProcessoDocumentoManager.getVoto(null)} |  |
 | Recupera data da última sessão de julgamento onde o processo foi "Julgado" | #{sessaoProcessoDocumentoManager.getDataUltimaSessaoJulgamento(null)} |  |
+| Relator do processo | #{certidaoDisponibilizacaoDJEService.processo.pessoaRelator != null ? certidaoDisponibilizacaoDJEService.processo.pessoaRelator.pessoa.nome : ''} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
 | Relator (processos de sgundo grau/TSE) | #{processoTrfHome.nomeRelator} |  |
+| Responsável pela ciência (sistema ou pessoa) | #{processoParteExpedienteHome.instance.cienciaSistema != null and processoParteExpedienteHome.instance.cienciaSistema ? 'pelo sistema' : ''} #{processoParteExpedienteHome.instance.cienciaSistema != null && processoParteExpedienteHome.instance.cienciaSistema ? '' : 'por'} #{processoParteExpedienteHome.instance.cienciaSistema != null && processoParteExpedienteHome.instance.cienciaSistema ? '' : processoParteExpedienteHome.instance.nomePessoaCiencia} | Disponível somente para a [funcionalidade de certidão automática de ciência]({{< relref "automacao/certidao/certidao_ciencia" >}}). |
 | Revisor | #{pessoaMagistradoManager.getMagistradoTitular(orgaoJulgadorColegiadoOrgaoJulgadorManager<br>.recuperarOrgaoJulgadorRevisorPadrao(tramitacaoProcessualService.recuperaProcesso()).orgaoJulgadorRevisor.orgaoJulgador).getNome().toUpperCase()} |  |
 | Sala de Audiência | #{processoTrfHome.salaAudiencia} |  |
+| Solicitante | #{habilitacaoAutosManager.getSolicitanteUltimaHabilitacao(processoTrfHome.instance)} | Disponível somente para a [funcionalidade de certidão automática de habilitação nos autos]({{< relref "automacao/certidao/habilitacao_autos" >}}). |
+| Tabela hash de documentos | #{processoTrfHome.tabelaHashDocumentos} |  |
+| Tabela hash de documentos com ID | #{processoTrfHome.tabelaHashDocumentosComId} |  |
 | Tipo de Audiência | #{processoTrfHome.tipoAudiencia} |  |
+| Tipo de expediente (Exemplo: Intimação, Edital, Citação) | #{processoParteExpedienteHome.instance.processoExpediente.tipoProcessoDocumento} | Disponível somente para a [funcionalidade de certidão automática de ciência]({{< relref "automacao/certidao/certidao_ciencia" >}}). |
+| Tipo do documento | #{certidaoPublicacaoMuralService.getTipoAto()} | Disponível somente para a [funcionalidade de certidão automática de publicação no Mural]({{< relref "automacao/certidao/certidao_mural" >}}). |
+| Tipo do documento | #{certidaoDisponibilizacaoDJEService.getTipoAto()} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
 | Tipo Nome Réu Processo | #{processoTrfHome.instance.tipoNomeReuProcesso} |  |
 | UF Órgão Julgador | #{processoTrfHome.instance.orgaoJulgador.localizacao.endereco.cep.municipio.estado.codEstado} |  |
-| Usuário Logado | #{usuarioLogado.nome} |  |
-| Magistrado/juiz responsável pelo órgão julgador (primeiro grau) | #{orgaoJulgadorManager.recuperaResponsavel(processoTrfHome.orgaoJulgador, null)} | [Detalhamento]({{< relref "responsavelorgao" >}}) |
-| Solicitante | #{habilitacaoAutosManager.getSolicitanteUltimaHabilitacao(processoTrfHome.instance)} | Disponível somente para a [funcionalidade de certidão automática de habilitação nos autos]({{< relref "automacao/certidao/habilitacao_autos" >}}). |
-| Partes | #{habilitacaoAutosManager.getPartesUltimaHabilitacao(processoTrfHome.instance)} | Disponível somente para a [funcionalidade de certidão automática de habilitação nos autos]({{< relref "automacao/certidao/habilitacao_autos" >}}). |
-| Inclusão do(a) advogado(a) | #{habilitacaoAutosManager.getUltimaInclusao(processoTrfHome.instance)} | Disponível somente para a [funcionalidade de certidão automática de habilitação nos autos]({{< relref "automacao/certidao/habilitacao_autos" >}}). |
-| Exclusão do(a) advogado(a) | #{habilitacaoAutosManager.getUltimaSubstituicao(processoTrfHome.instance)} | Disponível somente para a [funcionalidade de certidão automática de habilitação nos autos]({{< relref "automacao/certidao/habilitacao_autos" >}}). |
-| Tipo do documento | #{certidaoPublicacaoMuralService.getTipoAto()} | Disponível somente para a [funcionalidade de certidão automática de publicação no Mural]({{< relref "automacao/certidao/certidao_mural" >}}). |
-| Id do documento | #{certidaoPublicacaoMuralService.getIdAto()} | Disponível somente para a [funcionalidade de certidão automática de publicação no Mural]({{< relref "automacao/certidao/certidao_mural" >}}). |
 | URL para o documento | #{certidaoPublicacaoMuralService.getUrlVisualizarDocumento()} | Disponível somente para a [funcionalidade de certidão automática de publicação no Mural]({{< relref "automacao/certidao/certidao_mural" >}}). |
-| Data da publicação | #{certidaoPublicacaoMuralService.getDataPublicacao()} | Disponível somente para a [funcionalidade de certidão automática de publicação no Mural]({{< relref "automacao/certidao/certidao_mural" >}}). |
-| Tipo do documento | #{certidaoDisponibilizacaoDJEService.getTipoAto()} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
-| Id do documento | #{certidaoDisponibilizacaoDJEService.getIdAto()} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
 | URL para o documento | #{certidaoDisponibilizacaoDJEService.getUrlVisualizarDocumento()} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
-| Data da publicação | #{certidaoDisponibilizacaoDJEService.getDataDisponibilizacao()} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
-| Classe do processo | #{certidaoDisponibilizacaoDJEService.processo.classeJudicial} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
-| Número do processo | #{certidaoDisponibilizacaoDJEService.processo.numeroProcesso} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
-| Município | #{certidaoDisponibilizacaoDJEService.processo.complementoJE.municipioEleicao.municipio} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
-| Estado | #{certidaoDisponibilizacaoDJEService.processo.complementoJE.estadoEleicao.estado} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
-| Assuntos do processo | #{certidaoDisponibilizacaoDJEService.processo.assuntoTrfListStr} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
-| Relator do processo | #{certidaoDisponibilizacaoDJEService.processo.pessoaRelator != null ? certidaoDisponibilizacaoDJEService.processo.pessoaRelator.pessoa.nome : ''} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
-| Tipo de expediente (Exemplo: Intimação, Edital, Citação) | #{processoParteExpedienteHome.instance.processoExpediente.tipoProcessoDocumento} | Disponível somente para a [funcionalidade de certidão automática de ciência]({{< relref "automacao/certidao/certidao_ciencia" >}}). |
-| Meio de expedição (Exemplo: Correios, Mural, Expedição eletrônica) | #{processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente == 'E' ? 'Expedição eletrônica' : processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente.label} | Disponível somente para a [funcionalidade de certidão automática de ciência]({{< relref "automacao/certidao/certidao_ciencia" >}}). |
-| Data de expedição da intimação no formato dd/MM/yyyy HH:mm:ss | #{dateUtil.dateToString(processoParteExpedienteHome.instance.processoExpediente.dtCriacao, 'dd/MM/yyyy HH:mm:ss')} | Disponível somente para a [funcionalidade de certidão automática de ciência]({{< relref "automacao/certidao/certidao_ciencia" >}}). |
-| Nome do intimado | #{processoParteExpedienteHome.instance.nomePessoaParte} | Disponível somente para a [funcionalidade de certidão automática de ciência]({{< relref "automacao/certidao/certidao_ciencia" >}}). |
-| Responsável pela ciência (sistema ou pessoa) | #{processoParteExpedienteHome.instance.cienciaSistema != null and processoParteExpedienteHome.instance.cienciaSistema ? 'pelo sistema' : ''} #{processoParteExpedienteHome.instance.cienciaSistema != null && processoParteExpedienteHome.instance.cienciaSistema ? '' : 'por'} #{processoParteExpedienteHome.instance.cienciaSistema != null && processoParteExpedienteHome.instance.cienciaSistema ? '' : processoParteExpedienteHome.instance.nomePessoaCiencia} | Disponível somente para a [funcionalidade de certidão automática de ciência]({{< relref "automacao/certidao/certidao_ciencia" >}}). |
-| Data da ciência no formato dd/MM/yyyy HH:mm:ss | #{dateUtil.dateToString(processoParteExpedienteHome.instance.dtCienciaParte, 'dd/MM/yyyy HH:mm:ss')} | Disponível somente para a [funcionalidade de certidão automática de ciência]({{< relref "automacao/certidao/certidao_ciencia" >}}). |
-| Tabela hash de documentos com ID | #{processoTrfHome.tabelaHashDocumentosComId} |  |
-| Tabela hash de documentos | #{processoTrfHome.tabelaHashDocumentos} |  |
+| Usuário Logado | #{usuarioLogado.nome} |  |
 
 {{</table>}}
-
