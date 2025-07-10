@@ -122,7 +122,7 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 |---|---|:---:|
 | Assuntos do processo | #{certidaoDisponibilizacaoDJEService.processo.assuntoTrfListStr} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
 | Classe do processo | #{certidaoDisponibilizacaoDJEService.processo.classeJudicial} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
-| Data da publicação | #{certidaoDisponibilizacaoDJEService.getDataDisponibilizacao()} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
+| Data da disponibilização | #{certidaoDisponibilizacaoDJEService.getDataDisponibilizacao()} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
 | Estado | #{certidaoDisponibilizacaoDJEService.processo.complementoJE.estadoEleicao.estado} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
 | Id do documento | #{certidaoDisponibilizacaoDJEService.getIdAto()} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
 | Município | #{certidaoDisponibilizacaoDJEService.processo.complementoJE.municipioEleicao.municipio} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
@@ -139,8 +139,14 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 
 | **Descrição** | **Variável** | **Outras informações** |
 |---|---|:---:|
+| Assuntos do processo | #{certidaoPublicacaoMuralService.processo.assuntoTrfListStr} | Disponível somente para a [funcionalidade de certidão automática de publicação no Mural]({{< relref "automacao/certidao/certidao_mural" >}}). |
+| Classe do processo | #{certidaoPublicacaoMuralService.processo.classeJudicial} | Disponível somente para a [funcionalidade de certidão automática de publicação no Mural]({{< relref "automacao/certidao/certidao_mural" >}}). |
 | Data da publicação | #{certidaoPublicacaoMuralService.getDataPublicacao()} | Disponível somente para a [funcionalidade de certidão automática de publicação no Mural]({{< relref "automacao/certidao/certidao_mural" >}}). |
+| Estado | #{certidaoPublicacaoMuralService.processo.complementoJE.estadoEleicao.estado} | Disponível somente para a [funcionalidade de certidão automática de publicação no Mural]({{< relref "automacao/certidao/certidao_mural" >}}). |
 | Id do documento | #{certidaoPublicacaoMuralService.getIdAto()} | Disponível somente para a [funcionalidade de certidão automática de publicação no Mural]({{< relref "automacao/certidao/certidao_mural" >}}). |
+| Município | #{certidaoPublicacaoMuralService.processo.complementoJE.municipioEleicao.municipio} | Disponível somente para a [funcionalidade de certidão automática de publicação no Mural]({{< relref "automacao/certidao/certidao_mural" >}}). |
+| Número do processo | #{certidaoPublicacaoMuralService.processo.numeroProcesso} | Disponível somente para a [funcionalidade de certidão automática de publicação no Mural]({{< relref "automacao/certidao/certidao_mural" >}}). |
+| Relator do processo | #{certidaoPublicacaoMuralService.processo.pessoaRelator != null ? certidaoPublicacaoMuralService.processo.pessoaRelator.pessoa.nome : ''} | Disponível somente para a [funcionalidade de certidão automática de publicação no Mural]({{< relref "automacao/certidao/certidao_mural" >}}). |
 | Tipo do documento | #{certidaoPublicacaoMuralService.getTipoAto()} | Disponível somente para a [funcionalidade de certidão automática de publicação no Mural]({{< relref "automacao/certidao/certidao_mural" >}}). |
 | URL para o documento | #{certidaoPublicacaoMuralService.getUrlVisualizarDocumento()} | Disponível somente para a [funcionalidade de certidão automática de publicação no Mural]({{< relref "automacao/certidao/certidao_mural" >}}). |
 

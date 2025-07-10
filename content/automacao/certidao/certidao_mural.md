@@ -24,10 +24,16 @@ No modelo de documento podem ser utilizadas as seguintes variáveis para recuper
 
 | **Descrição** | **Variável** |
 |---|---|
-| Tipo do documento | #{certidaoPublicacaoMuralService.getTipoAto()}  |
-| Id do documento | #{certidaoPublicacaoMuralService.getIdAto()} |
-| URL para o documento | #{certidaoPublicacaoMuralService.getUrlVisualizarDocumento()} |
+| Assuntos do processo | #{certidaoPublicacaoMuralService.processo.assuntoTrfListStr} |
+| Classe do processo | #{certidaoPublicacaoMuralService.processo.classeJudicial} |
 | Data da publicação | #{certidaoPublicacaoMuralService.getDataPublicacao()} |
+| Estado | #{certidaoPublicacaoMuralService.processo.complementoJE.estadoEleicao.estado} |
+| Id do documento | #{certidaoPublicacaoMuralService.getIdAto()} |
+| Município | #{certidaoPublicacaoMuralService.processo.complementoJE.municipioEleicao.municipio} |
+| Número do processo | #{certidaoPublicacaoMuralService.processo.numeroProcesso} |
+| Relator do processo | #{certidaoPublicacaoMuralService.processo.pessoaRelator != null ? certidaoPublicacaoMuralService.processo.pessoaRelator.pessoa.nome : ''} |
+| Tipo do documento | #{certidaoPublicacaoMuralService.getTipoAto()}  |
+| URL para o documento | #{certidaoPublicacaoMuralService.getUrlVisualizarDocumento()} |
 
 {{</table>}}
 

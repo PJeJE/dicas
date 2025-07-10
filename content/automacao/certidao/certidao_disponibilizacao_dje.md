@@ -23,16 +23,16 @@ No modelo de documento podem ser utilizadas as seguintes variáveis para recuper
 
 | **Descrição** | **Variável** |
 |---|---|
-| Tipo do documento | #{certidaoDisponibilizacaoDJEService.getTipoAto()}  |
-| Id do documento | #{certidaoDisponibilizacaoDJEService.getIdAto()} |
-| URL para o documento | #{certidaoDisponibilizacaoDJEService.getUrlVisualizarDocumento()} |
-| Data da disponibilização | #{certidaoDisponibilizacaoDJEService.getDataDisponibilizacao()} |
-| Classe do processo | #{certidaoDisponibilizacaoDJEService.processo.classeJudicial} |
-| Número do processo | #{certidaoDisponibilizacaoDJEService.processo.numeroProcesso} |
-| Município | #{certidaoDisponibilizacaoDJEService.processo.complementoJE.municipioEleicao.municipio} |
-| Estado | #{certidaoDisponibilizacaoDJEService.processo.complementoJE.estadoEleicao.estado} |
 | Assuntos do processo | #{certidaoDisponibilizacaoDJEService.processo.assuntoTrfListStr} |
+| Classe do processo | #{certidaoDisponibilizacaoDJEService.processo.classeJudicial} |
+| Data da disponibilização | #{certidaoDisponibilizacaoDJEService.getDataDisponibilizacao()} |
+| Estado | #{certidaoDisponibilizacaoDJEService.processo.complementoJE.estadoEleicao.estado} |
+| Id do documento | #{certidaoDisponibilizacaoDJEService.getIdAto()} |
+| Município | #{certidaoDisponibilizacaoDJEService.processo.complementoJE.municipioEleicao.municipio} |
+| Número do processo | #{certidaoDisponibilizacaoDJEService.processo.numeroProcesso} |
 | Relator do processo | #{certidaoDisponibilizacaoDJEService.processo.pessoaRelator != null ? certidaoDisponibilizacaoDJEService.processo.pessoaRelator.pessoa.nome : ''} |
+| Tipo do documento | #{certidaoDisponibilizacaoDJEService.getTipoAto()}  |
+| URL para o documento | #{certidaoDisponibilizacaoDJEService.getUrlVisualizarDocumento()} |
 
 {{</table>}}
 
