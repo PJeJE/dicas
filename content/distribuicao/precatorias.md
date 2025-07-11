@@ -5,6 +5,7 @@ weight: 4
 ---
 
 Em atenção ao Provimento CGE n° 2/2025, as Cartas Precatórias devem ser autuadas e distribuídas na zona deprecante, sendo posteriormente remetidas à zona deprecada.
+Após cumpridas, elas devem ser devolvidas à origem. Note que, se a orgiem for uma zona do mesmo estado, a tarefa a ser utilizada é a **remessa entre jurisdições.**
 
 Há dois cenários: 
 
