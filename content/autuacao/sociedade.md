@@ -24,7 +24,9 @@ Da mesma forma, não será possível cadastrar sociedade que não tenha associad
 
 O cadastro da sociedade recupera também os sócios. Ao cadastrar uma sociedade, o sistema cadastra automaticamente os sócios como advogados vinculados, fazendo com que esses advogados tenham acesso ao acervo e às intimações vinculadas à sociedade. 
 
-Ao inativar um advogado, ele não estará automaticamente desvinculado da sociedade. O que ocorre é que, e isso é uma regra já existente no PJe, a inativação o impedirá de fazer login e, consequentemente, de atuar conforme sua vinculação.
+Só serão recuperados sócios na OAB que estiverem com situação regular. Na recuperação do cadastro da sociedade na OAB, ela precisará de pelo menos um sócio com situação regular. Se a sociedade for individual e o único sócio não estiver regular, a sociedade não será recuperada. 
+
+Ao inativar um advogado no PJe, ele não estará automaticamente desvinculado da sociedade. O que ocorre é que, e isso é uma regra já existente no PJe, a inativação o impedirá de fazer login e, consequentemente, de atuar conforme sua vinculação.
 
 {{% notice info %}}
 Usuários com permissões específicas podem administrar a sociedade, vinculando e desvinculando sócios.
