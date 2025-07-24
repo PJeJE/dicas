@@ -6,7 +6,7 @@ weight: 6
 
 Conforme previsto no § 1º do art. 272 do CPC/2015, "Os advogados poderão requerer que, na intimação a eles dirigida, figure apenas o nome da sociedade a que pertençam, desde que devidamente registrada na Ordem dos Advogados do Brasil".
 
-Dessa forma, o PJe da Justiça Eleitoral foi alterado para atender à previsão legal, assim como fornecer algumas facilidades para o usuário na utilização das Sociedade de advogados na autuação de processos.
+Dessa forma, o PJe da Justiça Eleitoral foi alterado para atender à previsão legal, assim como fornecer algumas facilidades para o usuário quando usadas Sociedade de advogados na autuação de processos.
 
 ## Cadastro de sociedades em processos
 
