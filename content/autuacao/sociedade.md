@@ -14,11 +14,11 @@ De forma similar ao que ocorre com o cadastro de advogados, o cadastro de uma so
 
 O tipo de parte será apresentado ao usuário caso esteja devidamente configurado na classe processual. Instruções sobre essa configuração estão na documentação do PJe nacional:
 
-(Configuração de tipo de parte vinculado à classe judicial)[https://docs.pje.jus.br/manuais-de-uso/Manual%20de%20referencia%20PJe%201.0#tipo-da-parte]
+[Configuração de tipo de parte vinculado à classe judicial](https://docs.pje.jus.br/manuais-de-uso/Manual%20de%20referencia%20PJe%201.0#tipo-da-parte)
 
 == Restrições 
 
-Só serão cadastradas sociedades com CNPJ. Se a OAB da sociedade não estiver associada a um CNPJ no (Cadastro Nacional de Sociedade de Advogados)[https://cnsa.oab.org.br/], o cadastro não será efetuado.
+Só serão cadastradas sociedades com CNPJ. Se a OAB da sociedade não estiver associada a um CNPJ no [Cadastro Nacional de Sociedade de Advogados](https://cnsa.oab.org.br/), o cadastro não será efetuado.
 
 Da mesma forma, não será possível cadastrar sociedade que não tenha associado ao seu CNPJ um CPF do responsável.
 
