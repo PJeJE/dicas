@@ -60,8 +60,6 @@ O modelo pré-configurado possui as seguintes características:
 - **Tipo**: Certidões (código 534)
 - **Localização**: Raiz do tribunal (ID 1)
 
-Para usuários de outras localizações modificarem o modelo, a vinculação deve ser alterada por um usuário da localização correspondente.
-
 {{% notice warning %}}
 Tenha cuidado ao alterar o modelo, pois a geração é automática e erros de tradução de variáveis não poderão ser verificados antes da juntada da certidão ao processo.
 {{% /notice %}}
