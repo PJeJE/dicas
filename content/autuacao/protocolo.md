@@ -17,3 +17,5 @@ No caso de **Procuradores**, a localização do usuário identificado é a **Pro
 {{% notice info %}}
 Se o processo não protocolado for marcado como **Segredo de justiça**, o processo só aparecerá para o usuário que o cadastrou.
 {{% /notice %}}
+
+Caso o processo tenha como parte no polo ativo uma sociedade de advogados à qual o advogado identificado está vinculado, o advogado terá acesso a esse processo, salvo se estiver marcado como segredo de justiça e tiver sido cadastrado por outro usuário que não ele próprio.
