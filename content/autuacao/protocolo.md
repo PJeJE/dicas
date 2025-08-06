@@ -1,5 +1,5 @@
 ---
-title: "Regra para protocolo"
+title: "Regras para protocolo"
 date: 2025-08-06T16:32:23-03:00
 weight: 7
 ---
