@@ -7,7 +7,7 @@ weight: 6
 
 As movimentações processuais, ao lado dos assuntos e das classes, são, hoje, a única linguagem realmente unificada no Poder Judiciário Brasileiro. Embora o sistema faça referência a esses movimentos como “eventos”, designação historicamente utilizada pela Justiça Federal, o uso das movimentações nacionais deve ser feito intensamente no sistema para assegurar a coleta de informações estatísticas relevantes. 
 
-Instruções relevantes sobre movimentações processuais podem ser encontradas no [link](https://docs.pje.jus.br/manuais-de-uso/Manual%20de%20referencia%20PJe%201.0#movimenta%C3%A7%C3%B5es)
+Instruções relevantes sobre movimentações processuais podem ser encontradas na [documentação do PJe nacional](https://docs.pje.jus.br/manuais-de-uso/Manual%20de%20referencia%20PJe%201.0#movimenta%C3%A7%C3%B5es)
 
 ## Inclusão de movimentos na justiça eleitoral
 
