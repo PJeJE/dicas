@@ -91,6 +91,9 @@ A situação **jus:andamento** é finalizada quando as situações **jus:suspens
 2. Quando um processo entra nas tarefas **Aguardando apreciação de outra instância - Corregedoria** e **Aguardando apreciação de outra instância - Processo Corregedoria**. A situação é finalizada quando o processo entra nas tarefas **Recebimento de outra instância - Corregedoria** e **Recebimento de outra instância - Processo Corregedoria**, quando também é acrescentada a situação jus:andamento.
 3. Quando um processo entra na tarefa **Manter Processos Devolvidos a Origem**. A situação é finalizada quando o processo sair da tarefa por meio das transições **Prosseguir** e **Desarquivar processo**. 
 4. Quando um processo entra em uma das seguintes tarefas do segundo grau: **Aguardando apreciação de outra instância**, **Processos remetidos ao TSE** e **Processos remetidos à zona**. A situação é finalizada quando o processo sair da tarefa por meio da transição **Reativar com registro de movimento**.
+5. Quando um processo entra na tarefa **Aguardando Apreciação do TRE**. A situação é finalizada quando o processo entrar na tarefa **Recebimento do TRE** ou ao sair da tarefa **Aguardando apreciação do TRE** (o **a** de **apreciação** minúsculo).
+6. Quando um processo entra na tarefa **Manter Processos Devolvidos**. A situação é finalizada quando o processo entrar na tarefa **Recebimento de Processos**.
+
 
 ### jus:remetidostf
 
