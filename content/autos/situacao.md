@@ -65,11 +65,11 @@ As situações acima foram documentadas com base no fluxo do TSE, sendo aplicada
 3. Quando um processo é reativado após arquivamento.
 
 {{% notice note %}}
-Sempre que essa situação for registrada, as situações **jus:suspenso**, **jus:arquivado**, **jus:remetido**, **jus:remetidostf** e **jus:arquivoprov** são encerradas. 
+No TSE e nos TREs, sempre que essa situação for registrada, as situações **jus:suspenso**, **jus:arquivado**, **jus:remetido**, **jus:remetidostf** e **jus:arquivoprov** são encerradas. 
 {{% /notice %}}
 
 {{% notice note %}}
-A situação **jus:andamento** é finalizada quando as situações **jus:suspenso**, **jus:arquivado**, **jus:remetido**, **jus:remetidostf** e **jus:arquivoprov** são registradas.
+No TSE e nos TREs, a situação **jus:andamento** é finalizada quando as situações **jus:suspenso**, **jus:arquivado**, **jus:remetido**, **jus:remetidostf** e **jus:arquivoprov** são registradas.
 {{% /notice %}}
 
 
