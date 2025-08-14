@@ -66,13 +66,15 @@ Se o processo estiver desbloqueado, basta utilizar a tarefa **Bloquear processo 
 
 ## Remessa concluída, mas o processo não teve os movimentos de baixa
 
-Algumas vezes pode ocorrer de o processo ser remetido à outra instância, mas os movimentos de baixa não serem lançados na origem. Nesse caso, o servidor pode fazer o lançamento dos movimentos.
+Algumas vezes pode ocorrer de o processo ser remetido à outra instância, mas os movimentos de baixa não serem lançados na origem. Nesse caso, o servidor pode fazer o lançamento dos movimentospor meio da funcionalidade **Ajustar movimentação**.
+
+<!--No segundo grau e no TSE, além da opção de uso da funcionalidade acima, pode-se utilizar o próprio fluxo. 
 
 Para que os movimentos sejam lançados corretamente, na tarefa de envio, devem ser selecionados o motivo da remessa e a instância de destino. Se não selecionar o motivo da remessa, a transição apresentará erro e não será concluída. Se não selecionar a instância de destino, o sistema poderá atribuir um valor errado ao movimento e este não poderá ser posteriormente ajustado.
 
 Estando o processo na tarefa de remessa, deve-se selecionar a transição **Registrar movimento baixa (selecione instância e motivo).** O processo será tramitado para uma tarefa intermediária denominada **Conferir processo remetido.** Essa tarefa é importante para identificarmos os casos em que se tenha tramitado manualmente o processo sem que ele tenha chegado ao destino, facilitando o trabalho da investigação de problemas.
 
-A partir desta tarefa, deve-se selecionar **Aguardando apreciação do TRE** ou a tarefa estacionária equivalente no segundo grau para que o processo fique na tarefa de finalização do envio.
+A partir desta tarefa, deve-se selecionar **Aguardando apreciação do TRE** ou a tarefa estacionária equivalente no segundo grau para que o processo fique na tarefa de finalização do envio.-->
 
 ## Remessa concluída sem bloqueio do processo
 
