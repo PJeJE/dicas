@@ -83,7 +83,8 @@ No TSE e nos TREs, a situação **jus:andamento** é finalizada quando as situa�
 
 ### jus:arquivoprov
 
-1. Quando um processo entra na tarefa  **Manter processos arquivados provisoriamente** ou na tarefa **Manter Processo Arquivamento Provisório**. Ao sair da tarefa por meio da transição **Desarquivar Processo**, a situação é finalizada e é acrescentada a situação **jus:andamento**. 
+1. Quando um processo entra na tarefa  **Manter processos arquivados provisoriamente** ou na tarefa **Manter Processo Arquivamento Provisório**. Ao sair da tarefa por meio da transição **Desarquivar Processo**, a situação é finalizada e é acrescentada a situação **jus:andamento**.
+2. Quando um processo sair da tarefa  **Registrar arquivamento provisório** por meio da transição **Arquivar Provisoriamente**. Ao sair da tarefa **Manter processo arquivamento provisório** por meio da transição **Desarquivar Processo**, a situação é finalizada. 
 
 ### jus:remetido
 
