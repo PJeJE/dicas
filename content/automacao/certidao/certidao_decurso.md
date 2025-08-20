@@ -38,9 +38,7 @@ INTERESSADO: TRIBUNAL REGIONAL ELEITORAL DA PARAIBA
  
 DECURSO DA INTIMAÇÃO
 
-Esta certidão registra que foi dada ciência no expediente do tipo Notificação 
-expedido via Pessoalmente na data 05/02/2025 18:28:13 ao TRIBUNAL REGIONAL 
-ELEITORAL DA PARAÍBA. A ciência foi registrada pelo sistema em 05/02/2025 18:29:00.
+Essa certidão registra o decurso de prazo para o expediente do tipo Notificação expedido via Pessoalmente na data 05/02/2025 para TRIBUNAL REGIONAL ELEITORAL DA PARAÍBA.
 
 Brasília, 5 de fevereiro de 2025.
 ```
@@ -83,22 +81,19 @@ No modelo de documento podem ser utilizadas as seguintes variáveis para recuper
 
 | **Descrição** | **Variável** |
 |---|---|
-| Data da ciência no formato dd/MM/yyyy HH:mm:ss | #{dateUtil.dateToString(processoParteExpedienteHome.instance.dtCienciaParte, 'dd/MM/yyyy HH:mm:ss')} |
-| Data de expedição da intimação no formato dd/MM/yyyy HH:mm:ss | #{dateUtil.dateToString(processoParteExpedienteHome.instance.processoExpediente.dtCriacao, 'dd/MM/yyyy HH:mm:ss')} |
-| Meio de expedição (Exemplo: Correios, Mural, Expedição eletrônica) | #{processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente == 'E' ? 'Expedição eletrônica' : processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente.label} |
-| Nome do intimado | #{processoParteExpedienteHome.instance.nomePessoaParte} |
-| Responsável pela ciência (sistema ou pessoa) | #{processoParteExpedienteHome.instance.cienciaSistema != null and processoParteExpedienteHome.instance.cienciaSistema ? 'pelo sistema' : ''} #{processoParteExpedienteHome.instance.cienciaSistema != null && processoParteExpedienteHome.instance.cienciaSistema ? '' : 'por'} #{processoParteExpedienteHome.instance.cienciaSistema != null && processoParteExpedienteHome.instance.cienciaSistema ? '' : processoParteExpedienteHome.instance.nomePessoaCiencia} |
 | Tipo de expediente (Exemplo: Intimação, Edital, Citação) | #{processoParteExpedienteHome.instance.processoExpediente.tipoProcessoDocumento} |
+| Nome do intimado | #{processoParteExpedienteHome.instance.nomePessoaParte} |
+| Meio de expedição (Exemplo: Correios, Mural, Expedição eletrônica) | #{processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente == 'E' ? 'Expedição eletrônica' : processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente.label}
 
 {{</table>}}
   
 {{% notice warning %}}
-As variáveis com `processoParteExpedienteHome` são exclusivas para a certidão automática de ciência. O modelo não deve ser usado manualmente para outros documentos.
+As variáveis com `processoParteExpedienteHome` são exclusivas para a certidão automática de decurso. O modelo não deve ser usado manualmente para outros documentos.
 {{% /notice %}}
 
 ## Configuração de parâmetros
 
-Configure os seguintes parâmetros para habilitar e personalizar a certidão de ciência:
+Configure os seguintes parâmetros para habilitar e personalizar a certidão de decurso:
 
 - **Parâmetro `pje:certidao:geraCertidaoDecurso`**:
   - O valor desse parâmetro deve ser `S` para habilitar a utilização da funcionalidade e `N` para desabilitá-la.
