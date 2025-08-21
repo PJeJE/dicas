@@ -37,9 +37,7 @@ Após incluído em uma pauta, mesmo que a pauta onde ele tenha sido incluído n�
 
 A publicação de pauta (última aba na Relação de julgamento) no diário, utiliza a pessoa Destinatário para ciência pública. A intimação não é gerada para pessoas individuais, já que aquele é um aviso geral da sessão que acontecerá. Há intimações individuais que são geradas no fechamento da pauta (primeira aba da Relação de julgamento), que dispara intimações para todas as partes do processo que possam receber intimações via sistema. Para inibir essas intimações, deve-se usar a configuração do Órgão julgador colegiado, onde há um campo indicando a intimação automática da pauta. As intimações de pauta são sempre **Sem prazo** e não haverá decurso registrado.
 
-{{% notice warning %}}
-Só serão intimadas as partes quando a inclusão em pauta se der pela aba Aptos para inclusão em Pauta ou Adiados. Inclusões em Mesa ou Pedido de Vista não geram intimações individuais. 
-{{% /notice %}}
+666666666666666
 
 Pode-ser também realizar intimação de pauta via fluxo, por meio da tarefa **Preparar ato de comunicação**, caso o tipo da intimação esteja apropriadamente configurado no fluxo.
 
