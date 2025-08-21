@@ -1,4 +1,3 @@
-<img width="1676" height="727" alt="image" src="https://github.com/user-attachments/assets/60767dc4-6603-4788-899f-04b1de3e3f5a" />---
 title: "Pauta de Julgamentos"
 date: 2022-11-29T16:30:31-03:00
 weight: 3
