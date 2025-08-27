@@ -4,7 +4,9 @@ date: 2023-08-28T22:20:20-03:00
 weight: 2
 ---
 
-A opção de contagem de prazo em horas tem problemas e necessita ajustes. Enquanto a correção não for feita, a recomendação é que se converta o prazo em dias.
+Existe uma restrição no sistema para fins de cumprimento do Art. 212 do Código do Processo Civil que cita o início do horário válido para realização de atos processuais como 6 (seis) da manhã. Essa restrição influencia diretamente a contagem em horas, já que após ciência, o sistema iniciará a contagem do prazo a partir do dia seguinte às seis da manhã. 
+
+Não obstante, a opção de contagem de prazo em horas tem problemas e necessita ajustes. Enquanto a correção não for feita, a recomendação é que se converta o prazo em dias.
 
 Não obstante à necessidade de correção no sistema, a jurisprudência do TSE é farta no que se refere à conversão de prazos em horas para prazos em dias:
 
