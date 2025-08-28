@@ -28,11 +28,9 @@ Para tribunais de primeiro grau, recomenda-se não criar novos modelos nem alter
 O modelo pré-configurado gera uma certidão com conteúdo similar ao exemplo abaixo:
 
 ```
-TRIBUNAL SUPERIOR ELEITORAL
-SECRETARIA JUDICIÁRIA 
+JUSTIÇA ELEITORAL
 
 LISTA TRÍPLICE (11545) - 9999999-99.9999.9.99.9999 - JOAO PESSOA - PARAIBA
-RELATOR(A): MINISTRO(A) ANA ANA
 ADVOGADO(A) INDICADO(A): FATIMA FATIMA, MARIA MARIA, JOSE JOSE
 INTERESSADO: TRIBUNAL REGIONAL ELEITORAL DA PARAIBA
  
@@ -40,7 +38,7 @@ DECURSO DA INTIMAÇÃO
 
 Essa certidão registra o decurso de prazo para o expediente do tipo Notificação expedido via Pessoalmente na data 05/02/2025 para TRIBUNAL REGIONAL ELEITORAL DA PARAÍBA.
 
-Brasília, 5 de fevereiro de 2025.
+5 de fevereiro de 2025
 ```
 
 ### Configuração inicial
