@@ -23,6 +23,10 @@ O modelo pré-configurado é exclusivo para uso automático da certidão de decu
 
 Para tribunais de primeiro grau, recomenda-se não criar novos modelos nem alterar o nome do modelo pré-configurado. Alterações devem ser feitas diretamente no modelo existente "Modelo de certidão automática de decurso" para facilitar o suporte da Assessoria do PJe.
 
+{{% notice warning %}}
+A alteração do modelo, caso seja necessária, precisará de auxílio da Assessoria do PJe, mas a recomendação é que o modelo seja utilizado do jeito que foi configurado inicialmente, evitando erros na sua apresentação e na tradução de variáveis.
+{{% /notice %}}
+
 ### Exemplo de certidão gerada
 
 O modelo pré-configurado gera uma certidão com conteúdo similar ao exemplo abaixo:
