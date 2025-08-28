@@ -88,7 +88,8 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 | Recupera conteúdo do documento voto vinculado à última sessão onde o processo foi "Julgado" e a sessão teve movimento registrado ou o processo teve o julgamento individual finalizado. O sistema procura o voto do vencedor. Caso não encontre, procura o voto do relator | #{sessaoProcessoDocumentoManager.getVoto(null)} |  |
 | Recupera data da última sessão de julgamento onde o processo foi "Julgado" | #{sessaoProcessoDocumentoManager.getDataUltimaSessaoJulgamento(null)} |  |
 | Relator (processos de segundo grau/TSE) | #{processoTrfHome.nomeRelator} |  |
-| Revisor | #{pessoaMagistradoManager.getMagistradoTitular(orgaoJulgadorColegiadoOrgaoJulgadorManager<br>.recuperarOrgaoJulgadorRevisorPadrao(tramitacaoProcessualService.recuperaProcesso()).orgaoJulgadorRevisor.orgaoJulgador).getNome().toUpperCase()} |  |
+| Revisor | #{pessoaMagistradoManager.getMagistradoTitular(orgaoJulgadorColegiadoOrgaoJulgadorManager<br>.recuperarOrgaoJulgadorRevisorPadrao(tramitacaoProcessualService.recuperaProcesso()).orgaoJulgadorRevisor.orgaoJulgador).getNome().toUpperCase()} |  | Nome da seção judiciária do sistema | #{subNomeSistema} | Exibe o conteúdo do parâmetro nomeSecaoJudiciaria que, via de regra, contém o nome do tribunal |
+| Sala de Audiência | #{processoTrfHome.salaAudiencia} |  |
 | Sala de Audiência | #{processoTrfHome.salaAudiencia} |  |
 | Tabela hash de documentos | #{processoTrfHome.tabelaHashDocumentos} |  |
 | Tabela hash de documentos com ID | #{processoTrfHome.tabelaHashDocumentosComId} |  |
