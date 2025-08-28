@@ -71,7 +71,8 @@ Essas configurações de movimento dizem respeito ao registro final no processo 
 + horaSessao;
 + tipoSessao;
 + Estado; 
-+ Municipio. 
++ Municipio; e
++ Observação (sessaoHome.instance.observacao), que recupera o texto digitado no campo observação, da sessão de julgamento. 
 
 
 ## Adiados e pautas anteriores
