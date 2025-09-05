@@ -39,6 +39,7 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 | Data da Distribuição | #{processoTrfHome.dataDistribuicao} |  |
 | Data e Hora Atual | #{currentDatetime} |  |
 | Data Semana Hoje Extenso | #{dataAtualExtenso} |  |
+| Dados específicos da classe | {processoTrfHome.instance.getComplementoClasseProcessoTrfList()} | Quando presentes, são exibidos [os dados específicos da classe](https://docs.pje.jus.br/manuais-de-uso/Manual%20do%20advogado#dados-espec%C3%ADficos-da-classe) vinculados ao processo |
 | Endereço Advogado Polo Ativo | #{processoTrfHome.advogadoEnderecoPoloAtivoStr} |  |
 | Endereço Advogado Polo Passivo | #{processoTrfHome.advogadoEnderecoPoloPassivoStr} |  |
 | Endereço da Sala de Audiência | #{processoTrfHome.enderecoSalaAudiencia} |  |
