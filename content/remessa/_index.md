@@ -10,4 +10,16 @@ pre = "<b>16. </b>"
 
 # Remessa
 
+A atual seção tem o objetivo de oferecer orientações gerais a respeito de remessas e devoluções para outra instância. São remessas ditas externas, ou seja, o envio dos autos para outro Tribunal Eleitoral ou outra Zona Eleitoral.
+
+É importantes ressaltar que as operações de remessa e devolução sempre vêm acompanhadas do respectivo bloqueio do processo para inclusão de novos movimentos e documentos na instância de origem. 
+
+Para evitar prejuízos após o bloqueio do processo, o sistema restringe a remessa e a devolução nas seguintes situações:
+
+- Processo é um recurso interno
+- Processo tem mais de uma tarefa aberta
+
+A devolução também é impedida caso o processo seja originário da instância atual do processo.
+
 {{% children  %}}
+
