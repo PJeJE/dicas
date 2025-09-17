@@ -66,7 +66,7 @@ Se o processo estiver desbloqueado, basta utilizar a tarefa **Bloquear processo 
 
 ## Remessa concluída, mas o processo não teve os movimentos de baixa
 
-Algumas vezes pode ocorrer de o processo ser remetido à outra instância, mas os movimentos de baixa não serem lançados na origem. Nesse caso, o servidor pode fazer o lançamento dos movimentospor meio da funcionalidade **Ajustar movimentação**.
+Algumas vezes pode ocorrer de o processo ser remetido à outra instância, mas os movimentos de baixa não serem lançados na origem. Nesse caso, o servidor pode fazer o lançamento dos movimentos por meio da funcionalidade **Ajustar movimentação**.
 
 <!--No segundo grau e no TSE, além da opção de uso da funcionalidade acima, pode-se utilizar o próprio fluxo. 
 
