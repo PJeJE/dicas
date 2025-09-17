@@ -15,7 +15,7 @@ A atual seção tem o objetivo de oferecer orientações gerais a respeito de re
 É importante ressaltar que as operações de remessa e devolução sempre vêm acompanhadas do respectivo bloqueio do processo para inclusão de novos movimentos e documentos na instância de origem. 
 
 {{% notice info %}}
-A remessa entre jurisdições não faz o bloqueio do processo originário para inclusão de novos movimentos e documentos.
+A remessa entre jurisdições atualmente é utilizada para redistribuições entre órgãos jurisdicionais pertecentes ao mesmo tribunal e não faz o bloqueio do processo para inclusão de novos movimentos e documentos.
 {{% /notice %}}
 
 Para evitar prejuízos após o bloqueio do processo, o sistema restringe a remessa e a devolução nas seguintes situações:
