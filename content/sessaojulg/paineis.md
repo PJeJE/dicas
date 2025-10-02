@@ -53,7 +53,7 @@ Ações em lote - opções disponíveis que afetam uma lista de processos seleci
 + Marcar preferência
 + Retirar preferência
 + Tornar pendente de julgamento
-+ Redistrar votação em lote
++ Registrar votação em lote
 + Adiar para próxima sessão
 + Colocar em julgamento (só apresentada com sessão aberta)
 + Retirar de julgamento (só apresentada com sessão aberta)
