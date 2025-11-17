@@ -22,3 +22,13 @@ Em geral, o deslocamento do processo entre tarefas decorre de ação do usuário
 O diagrama abaixo ajuda a compreender como se dá a interação entre fluxo e tarefa:
 
 ![Fluxo e tarefa](/imagens/fluxotarefa.jpg)
+
+## Configuração de fluxo
+
+As configurações necessárias para definir o caminho pelo qual o processo pode passar são realizadas por administradores do sistema. 
+
+Para realizar essas configurações, é essencial que o administrador tenha conhecimentos dos conceitos apresentandos na configuração nacional do PJe sobre definição de fluxos - [acesse aqui](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Configura%C3%A7%C3%B5es%20iniciais/#defini%C3%A7%C3%A3o-de-fluxos).
+
+Os fluxos na Justiça Eleitoral são mantidos de forma centralizada pelo TSE. A Assessoria do PJe, via de regra, é a responsável por essas definições e alterações, mas a SESIP (área da STI - Secretaria de Tecnologia da Informação - que mantém o PJE) também realiza alterações conforme definições da Assessoria. 
+
+As definições são mantidas de forma a que todos os estados compartilhem os mesmos fluxos. Essa uniformidade é o que permite que a Assessoria faça a manutenção de todos os regionais. 
