@@ -11,8 +11,8 @@ Quando falamos em tramitação de um processo eletrônico dentro do Sistema PJe,
 Para que o PJe possa funcionar corretamente, mister se faz a construção prévia de uma estrada sobre a qual os processos necessariamente terão que transitar. O ponto de partida desta estrada equivale ao protocolo da nova
 ação feita pelo advogado e o ponto de chegada corresponde ao julgamento definitivo da causa. Tecnicamente, esta estrada é chamada de fluxo e tem as seguintes características:
 
-• Ser uma estrada de mão dupla, ou seja, o processo tanto pode ir para frente nesse trajeto quanto pode voltar em seu caminho; e
-• Ser um trajeto fixo, cujo caminho pelo qual o processo transitará foi previamente desenhado. A implementação de qualquer mudança nesse trajeto demandará do administrador do Sistema a reforma ou construção de uma nova estrada.
++ Ser uma estrada de mão dupla, ou seja, o processo tanto pode ir para frente nesse trajeto quanto pode voltar em seu caminho; e
++ Ser um trajeto fixo, cujo caminho pelo qual o processo transitará foi previamente desenhado. A implementação de qualquer mudança nesse trajeto demandará do administrador do Sistema a reforma ou construção de uma nova estrada.
 
 Se fluxo corresponde à estrada pela qual o processo necessariamente terá que transitar, o que vem a ser tarefa? Tarefa pode ser compreendida como os postos de gasolina ao longo da estrada que abastecem o processo com
 combustível necessário para que ele vá para frente ou para trás nesse trajeto. Tecnicamente, tarefa corresponde a uma atividade feita no processo que faz com que os autos sejam impulsionados em direção à próxima tarefa do fluxo ou em direção à tarefa anterior do fluxo.
