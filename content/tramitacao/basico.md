@@ -19,3 +19,5 @@ combustível necessário para que ele vá para frente ou para trás nesse trajet
 Em geral, o deslocamento do processo entre tarefas decorre de ação do usuário, mas em alguns casos é possível que a movimentação do processo entre tarefas seja feita de forma automática pelo Sistema, sem intervenção humana.
 
 O diagrama abaixo ajuda a compreender como se dá a interação entre fluxo e tarefa:
+
+![Fluxo e tarefa](/imagens/fluxotarefa.jpg)
