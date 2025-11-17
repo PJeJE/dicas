@@ -15,3 +15,7 @@ ação feita pelo advogado e o ponto de chegada corresponde ao julgamento defini
 
 Se fluxo corresponde à estrada pela qual o processo necessariamente terá que transitar, o que vem a ser tarefa? Tarefa pode ser compreendida como os postos de gasolina ao longo da estrada que abastecem o processo com
 combustível necessário para que ele vá para frente ou para trás nesse trajeto. Tecnicamente, tarefa corresponde a uma atividade feita no processo que faz com que os autos sejam impulsionados em direção à próxima tarefa do fluxo ou em direção à tarefa anterior do fluxo.
+
+Em geral, o deslocamento do processo entre tarefas decorre de ação do usuário, mas em alguns casos é possível que a movimentação do processo entre tarefas seja feita de forma automática pelo Sistema, sem intervenção humana.
+
+O diagrama abaixo ajuda a compreender como se dá a interação entre fluxo e tarefa:
