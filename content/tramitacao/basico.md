@@ -46,8 +46,16 @@ Siga o passo a passo abaixo para ingressar na tarefa de um processo específico.
 
 Quando o usuário escolhe um processo para trabalhar, a tarefa é mostrada em toda esta região da tela, conforme abaixo. Em geral, é nessa área que o usuário atua.
 
+![Área de execução](/imagens/areaexecucao2.jpg)
+
 Existem determinadas tarefas em que o usuário somente precisa executar alguma ação nesta minúscula área da tela (para fazer o processo transitar da tarefa atual para tarefa subsequente). O botão abrigado naquela pequena região da tela
 chama-se botão de transições.
+
+![Botão de transições](/imagens/botaotransicao.jpg)
+
+Já em outros tipos de tarefa, o usuário precisará executar primeiramente alguma ação nesta região maior da tela, seguida de uma segunda ação no botão de transições (para fazer o processo transitar da tarefa atual para a tarefa subsequente).
+
+![Execução de tarefa e transição](/imagens/tarefatransicao.jpg)
 
 ## Configuração de fluxo
 
