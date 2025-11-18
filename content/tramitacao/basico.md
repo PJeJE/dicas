@@ -44,7 +44,7 @@ Siga o passo a passo abaixo para ingressar na tarefa de um processo específico.
 
 ## Tramitando processos
 
-Quando o usuário escolhe um processo para trabalhar, a tarefa é mostrada em toda esta região da tela.
+Quando o usuário escolhe um processo para trabalhar, a tarefa é mostrada em toda esta região da tela, conforme abaixo. Em geral, é nessa área que o usuário atua.
 
 Existem determinadas tarefas em que o usuário somente precisa executar alguma ação nesta minúscula área da tela (para fazer o processo transitar da tarefa atual para tarefa subsequente). O botão abrigado naquela pequena região da tela
 chama-se botão de transições.
