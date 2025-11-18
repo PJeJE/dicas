@@ -42,6 +42,10 @@ Siga o passo a passo abaixo para ingressar na tarefa de um processo específico.
 
 ![Execução da tarefa](/imagens/areaexecucao.jpg)
 
+## Tramitando processos
+
+Existem determinadas tarefas em que o usuário somente precisa executar alguma ação nesta minúscula área da tela (para fazer o processo transitar da tarefa atual para tarefa subsequente). O botão abrigado naquela pequena região da tela
+chama-se botão de transições.
 
 ## Configuração de fluxo
 
