@@ -57,6 +57,16 @@ Já em outros tipos de tarefa, o usuário precisará executar primeiramente algu
 
 ![Execução de tarefa e transição](/imagens/tarefatransicao.jpg)
 
+Por outro lado, há tarefas em que o usuário somente precisa se preocupar em executar algo nesta região maior da tela. Concluída as ações na região maior da tela, o PJe se encarrega de transitar automaticamente o processo para a tarefa
+subsequente, dispensando assim o uso do botão de transições. Esses tipos de tarefa são mais raros.
+
+![Tarefa que será executada e tramitada automaticamente](/imagens/tarefaassinatura.jpg)
+
+Por fim, existem outras tarefas raras em que o usuário fica dispensado de executar alguma ação tanto na região maior quanto na região menor da tela. Nesses tipos de tarefa, quando uma determinada condição é implementada (chamamos
+de gatilho a implementação dessa condição), o PJe se encarrega de transitar automaticamente o processo para a tarefa subsequente, sem intervenção humana.
+
+![Tarefa que será executada por gatilho](/imagens/tarefagatilho.jpg)
+
 ## Configuração de fluxo
 
 As configurações necessárias para definir o caminho pelo qual o processo pode passar são realizadas por administradores do sistema. 
