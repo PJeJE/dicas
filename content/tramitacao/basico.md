@@ -23,6 +23,17 @@ O diagrama abaixo ajuda a compreender como se dá a interação entre fluxo e ta
 
 ![Fluxo e tarefa](/imagens/fluxotarefa.jpg)
 
+## Painel do usuário
+
+A tela geral do PJe (chamada de “Painel do usuário”) permite a execução das mais variadas tarefas de fluxo.
+
+![Painel do usuário](/imagens/painelusuario.jpg)
+
+Quando um processo chega em determinada tarefa, o nome da tarefa torna-se visível no “Painel do usuário”, seguido de um número que corresponde à quantidade de processos estacionados naquela tarefa. No exemplo abaixo, temos 7 (sete) processos
+estacionados na tarefa “Processo incluído em pauta”. Caso todos os 7 processos da tarefa “Processo incluído em pauta” sejam transitados para outra tarefa, a linha “Processo incluído em pauta” desaparecerá do “Painel do usuário”. Portanto, se o nome da tarefa X não aparece no Painel do usuário, isto quer dizer que, naquele momento, aquele perfil não tem nenhum processo na tarefa X.
+
+![Processos por tarefa](/imagens/processoportarefa.jpg)
+
 ## Configuração de fluxo
 
 As configurações necessárias para definir o caminho pelo qual o processo pode passar são realizadas por administradores do sistema. 
