@@ -53,6 +53,8 @@ chama-se botão de transições.
 
 ![Botão de transições](/imagens/botaotransicao.jpg)
 
+Exemplo de tarefas assim são as tarefas de notificação, que precisam apenas avisar ao usuário que algo aconteceu, seja um erro ou a finalização de um processamento. Algumas tarefas existentes no PJe da Justiça Eleitoral: **Aviso publicação mural**, **Aviso publicação**, **Aviso de expedientes abertos**, **Impedimento de remessa**, **Impedimento de devolução**, entre outras.
+
 Já em outros tipos de tarefa, o usuário precisará executar primeiramente alguma ação nesta região maior da tela, seguida de uma segunda ação no botão de transições (para fazer o processo transitar da tarefa atual para a tarefa subsequente).
 
 ![Execução de tarefa e transição](/imagens/tarefatransicao.jpg)
@@ -66,6 +68,8 @@ Por fim, existem outras tarefas raras em que o usuário fica dispensado de execu
 de gatilho a implementação dessa condição), o PJe se encarrega de transitar automaticamente o processo para a tarefa subsequente, sem intervenção humana.
 
 ![Tarefa que será executada por gatilho](/imagens/tarefagatilho.jpg)
+
+**Processo com prazo em curso** é um exemplo clássico de tarefa que é tramitada por gatilho. O gatilho, no caso, é a expiração do prazo ou a resposta dos expedientes. Mais detalhes sobre esse funcionamento estão na seção prazos/tarefas/
 
 ## Configuração de fluxo
 
