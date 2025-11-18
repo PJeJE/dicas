@@ -69,7 +69,7 @@ de gatilho a implementação dessa condição), o PJe se encarrega de transitar 
 
 ![Tarefa que será executada por gatilho](/imagens/tarefagatilho.jpg)
 
-**Processo com prazo em curso** é um exemplo clássico de tarefa que é tramitada por gatilho. O gatilho, no caso, é a expiração do prazo ou a resposta dos expedientes. Mais detalhes sobre esse funcionamento estão na seção prazos/tarefas/
+**Processo com prazo em curso** é um exemplo clássico de tarefa que é tramitada por gatilho. O gatilho, no caso, é a expiração do prazo ou a resposta dos expedientes. Mais detalhes sobre esse funcionamento estão na seção [Controle de prazos](/prazos/tarefas).
 
 ## Configuração de fluxo
 
