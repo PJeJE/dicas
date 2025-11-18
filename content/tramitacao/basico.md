@@ -34,6 +34,15 @@ estacionados na tarefa “Processo incluído em pauta”. Caso todos os 7 proces
 
 ![Processos por tarefa](/imagens/processoportarefa.jpg)
 
+Siga o passo a passo abaixo para ingressar na tarefa de um processo específico.
+
+![Seleção da tarefa](/imagens/selecaotarefa.jpg)
+
+![Seleção do processo](/imagens/selecaoprocesso.jpg)
+
+![Execução da tarefa](/imagens/areaexecucao.jpg)
+
+
 ## Configuração de fluxo
 
 As configurações necessárias para definir o caminho pelo qual o processo pode passar são realizadas por administradores do sistema. 
