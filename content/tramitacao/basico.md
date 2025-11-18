@@ -59,10 +59,14 @@ Já em outros tipos de tarefa, o usuário precisará executar primeiramente algu
 
 ![Execução de tarefa e transição](/imagens/tarefatransicao.jpg)
 
+A maior parte das tarefas do PJe são assim. 
+
 Por outro lado, há tarefas em que o usuário somente precisa se preocupar em executar algo nesta região maior da tela. Concluída as ações na região maior da tela, o PJe se encarrega de transitar automaticamente o processo para a tarefa
 subsequente, dispensando assim o uso do botão de transições. Esses tipos de tarefa são mais raros.
 
 ![Tarefa que será executada e tramitada automaticamente](/imagens/tarefaassinatura.jpg)
+
+Quando se remete ou redistribui um processo, a própria finalização da redistribuição ou da remessa dentro da área de trabalho da tarefa faz com que ela seja tramitada. De forma similar, nas tarefas de assinatura de documentos, a assinatura bem sucedida faz com que o processo seja tramitado. 
 
 Por fim, existem outras tarefas raras em que o usuário fica dispensado de executar alguma ação tanto na região maior quanto na região menor da tela. Nesses tipos de tarefa, quando uma determinada condição é implementada (chamamos
 de gatilho a implementação dessa condição), o PJe se encarrega de transitar automaticamente o processo para a tarefa subsequente, sem intervenção humana.
