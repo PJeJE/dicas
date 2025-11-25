@@ -1,11 +1,21 @@
 ---
-title: "Alterar data da sessão"
+title: "Alterações da sessão"
 date: 2023-05-08T20:00:45-03:00
 weight: 6
-menuTitle: "Alterar data"
+menuTitle: "Alterações da sessão"
 ---
 
-## Introdução
+## Inativar sessão
+
+Por meio do menu **Audiências e sessões - Cadastro de sessão de julgamento**, o usuário com permissão tem acesso ao cadastro de sessões de julgamento. As sessões são listadas com a opção de detalhá-las pelo ícone de lápis e de inativá-las pelo ícone da lixeira. 
+
+A opção de inativação só será exibida se a sessão não tiver tido pauta fechada nem tiver sido iniciada. 
+
+Caso esteja disponível o ícone de lixeira e o usuário selecionar a opção em sessões com processos pautados, o sistema exibirá a seguinte mensagem **A sessão só pode ser removida se não houver processos pautados.**
+
+Caso precise prosseguir com a inativação, o usuário precisará remover todos os processos da pauta e, só após remover todos, acionar o ícone da lixeira novamente.
+
+## Alterar data da sessão
 A data da sessão pode ser alterada antes da realização, de acordo com as seguintes regras:
 
 + A alteração da data da sessão ou data inicial da sessão, para o caso de sessões contínuas, só pode ocorrer antes da sessão ter sido iniciada;
