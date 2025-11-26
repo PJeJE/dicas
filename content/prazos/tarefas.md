@@ -38,7 +38,7 @@ O prazo aberto ocorre após o registro da ciência do expediente e antes do decu
 
 Por meio da interface visual do PJe o usuário tem algumas opções para sinalizar qual o expediente está sendo respondido. Caso use a opção de **Juntar documentos** pela tela dos autos digitais, se houver expedientes com prazo aberto cujo destinatário seja aquele usuário ou alguém que ele represente, o sistema apresenta a lista de expedientes abertos para que seja marcado para qual está sendo feita a resposta. Caso esteja no painel do usuário externo, o agrupamento de expedientes apresenta um ícone de resposta no expediente aberto em questão para que o usuário inclua sua resposta vinculada a ele. 
 
---No caso de integrações, ou seja, quando um sistema externo acesso o PJe via MNI, o desenvolvedor responsável pela construção da integração deve conhecer com detalhes o protocolo MNI. Dessa forma, ele conseguirá sinalizar, caso esteja construindo uma integração para resposta de expedientes, qual expediente específico será objeto da resposta. É importante ressaltar que as orientações para integrações são um conjunto complexo de regras que deve ser conhecida pela área de TI. 
+<!--	No caso de integrações, ou seja, quando um sistema externo acesso o PJe via MNI, o desenvolvedor responsável pela construção da integração deve conhecer com detalhes o protocolo MNI. Dessa forma, ele conseguirá sinalizar, caso esteja construindo uma integração para resposta de expedientes, qual expediente específico será objeto da resposta. É importante ressaltar que as orientações para integrações são um conjunto complexo de regras que deve ser conhecida pela área de TI. -->
 
 
 ## Verificador periódico
