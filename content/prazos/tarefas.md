@@ -30,6 +30,17 @@ Sempre que o processo estiver em um das tarefas de controle de prazos, caso o in
 O sistema verifica o decurso de prazo sem resposta por meio de um procedimento automático executado todas as madrugadas denominado **Verificador periódico**. Caso haja o decurso, o sistema lança, no processo correspondente para a pessoa correspondente, o movimento **Decorrido prazo de XXX**, onde XXX é o nome da pessoa intimada. Expedientes sem prazo não provocam o decurso de prazo nem são controlados por meio de tarefas, ou seja, o sistema não encaminha o processo para tarefas de controle de prazos. 
 {{% /notice %}}
 
+## Resposta de expedientes
+
+Para que o sistema entenda que alguma expediente aberto teve sua resposta incluída, o expediente deve estar com prazo aberto e deve ser sinalizado para o sistema qual expediente está sendo respondido. Os procedimentos automáticos descritos acima quando há resposta de expediente só ocorrerão se essas condições forem atendidas.
+
+O prazo aberto ocorre após o registro da ciência do expediente e antes do decurso de prazo. Para expedientes do tipo **data certa**, não há registro de ciência, ou seja, a resposta pode ser incluída após realizada a intimação.
+
+Por meio da interface visual do PJe o usuário tem algumas opções para sinalizar qual o expediente está sendo respondido. Caso use a opção de **Juntar documentos** pela tela dos autos digitais, se houver expedientes com prazo aberto cujo destinatário seja aquele usuário ou alguém que ele represente, o sistema apresenta a lista de expedientes abertos para que seja marcado para qual está sendo feita a resposta. Caso esteja no painel do usuário externo, o agrupamento de expedientes apresenta um ícone de resposta no expediente aberto em questão para que o usuário inclua sua resposta vinculada a ele. 
+
+--No caso de integrações, ou seja, quando um sistema externo acesso o PJe via MNI, o desenvolvedor responsável pela construção da integração deve conhecer com detalhes o protocolo MNI. Dessa forma, ele conseguirá sinalizar, caso esteja construindo uma integração para resposta de expedientes, qual expediente específico será objeto da resposta. É importante ressaltar que as orientações para integrações são um conjunto complexo de regras que deve ser conhecida pela área de TI. 
+
+
 ## Verificador periódico
 
 O Verificador Periódico é uma rotina da aplicação PJe que é executada automaticamente com periodicidade diária em hora previamente programada (na Justiça Eleitoral, em geral o procedimento é executado às 2 da madrugada). Essa rotina é responsável pela realização de diversas tarefas executadas na seguinte ordem:
