@@ -25,8 +25,11 @@ A maior parte das configurações de fluxo ficam em um xml vinculado a cada flux
 
 O histórico dos fluxos pode ser recuperada por ferramenta de controle de configuração mantida na TI. Mesmo a recuperação de xmls antigos por meio dessa ferramenta pode ocasionar perda de processos, já que novas versões do fluxo podem ter criado tarefas, tarefas essas que podem já ter processos vinculados. Caso seja publicada uma versão do fluxo sem essas tarefas novas, os processos serão perdidos.
 
+### Marcação de escrita das variáveis
 
-![Fluxo e tarefa](/imagens/fluxotarefa.jpg)
+Há uma seção na configuração de fluxo onde pode-se configurar **Variáveis**. Essas variáveis são utilizadas pelo sistema para construir a interface de usuário de modo a permitir que ele execute a atividade de interesse negocial. A definição dessas variáveis é feita diretamente na interface de definição de processo, com a indicação do tipo de variável, seu nome, um descritor e características internas. Segue abaixo um exemplo de tarefa com uma lista de variáveis:
+
+![Variáveis de tarefa](/imagens/variaveltarefa.jpg)
 
 
 **Processo com prazo em curso** é um exemplo clássico de tarefa que é tramitada por gatilho. O gatilho, no caso, é a expiração do prazo ou a resposta dos expedientes. Mais detalhes sobre esse funcionamento estão na seção [Controle de prazos](/prazos/tarefas).
