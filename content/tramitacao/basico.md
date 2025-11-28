@@ -83,4 +83,4 @@ Para realizar essas configurações, é essencial que o administrador tenha conh
 
 Os fluxos na Justiça Eleitoral são mantidos de forma centralizada pelo TSE. A Assessoria do PJe, via de regra, é a responsável por essas definições e alterações, mas a SESIP (área da STI - Secretaria de Tecnologia da Informação - que mantém o PJE) também realiza alterações conforme definições da Assessoria. 
 
-As definições são mantidas de forma a que todos os estados compartilhem os mesmos fluxos. Essa uniformidade é o que permite que a Assessoria faça a manutenção de todos os regionais. 
+As definições são mantidas de forma que todos os estados compartilhem os mesmos fluxos. Essa uniformidade é o que permite que a Assessoria faça a manutenção de todos os regionais. 
