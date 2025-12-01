@@ -55,7 +55,7 @@ Para a execução de tarefas específicas em lote, o PJe tem algumas possibilida
 
 Abaixo segue a lista de possibilidades de lote disponíveis para a Justiça Eleitoral:
 
-+ Lote - Habilitar Movimentação
++ Lote - Habilitar Movimentação (opção descrita acima)
 + Lote - Habilitar Minutar
 + Lote - Habilitar Assinatura
 + Lote - Habilitar Intimação
