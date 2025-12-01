@@ -31,7 +31,6 @@ Para a configuração de tarefas onde o usuário precisará executar primeiramen
 
 ![Variáveis de tarefa](/imagens/variaveltarefa.jpg)
 
-
 ### Marcação de escrita das variáveis de tarefa
 
 Para que as tarefas que contém variáveis sejam corretamente exibidas no PJe, as variáveis devem estar sempre com a marcação de **Escrita**, conforme lista de variáveis de exemplo acima.
@@ -42,6 +41,34 @@ Um dos tipos de variável de tarefa corriqueiramente utilizados é o **Aviso**. 
 
 Ao se configurar textos que serão exibidos para o usuário, o administrador utilizar o campo **Label** da variável **Aviso**. Via de regra, ao alterar esse campo **Label** e salvar o fluxo, o sistema exibe uma mensagem **Não houve alteração de fluxo**. Se tentar publicar o fluxo, o sistema exibe a mesma mensagem. Nesse caso, faça uma pequena alteração (adicione/remova uma letra ou um ponto) no campo **Descrição** da aba **Propriedades** e acione o **Salvar** novamente para que a publicação seja realizada com sucesso. 
 
+### Movimentar em lote
+
+A variável de tarefa do tipo **Lote - Habilitar Movimentação** permite ao usuário que executa a tarefa selecione uma lista de processos na mesma tarefa e os tramite para a próxima tarefa todos de uma só vez. É bem útil quando se deseja tramitar vários processos para a mesmo destino. 
+
+É importante ressaltar que o sistema realizará apenas a tramitação. Se houver alguma ação a ser feita na área de execução da tarefa, nada será feito. 
+
+Por exemplo, vamos analisar a tarefa **Verificar e Certificar dados do processo**, que contém, entre outras entradas de dados, um campo para o usuário informaar a **Causa de pedir**. Caso seja configurada a movimentação em lote e o usuário selecionar um lote de 5 processos para tramitar para a próxima tarefa selecionando a transição **Prosseguir sem certidão**, a informação da **Causa de pedir** não será informada para os processos. Ainda que o usuário a informe para o primeiro processo da lista, os outros processos que não têm essa informação continuarão sem ela.
+
+Da mesma forma, caso o movimentar em lote seja configurado em uma tarefa que contém editor de texto, o texto não será incluído na tramitação. 
+
+Para a execução de tarefas específicas em lote, o PJe tem algumas possibilidades. Mas nem todas as tarefas podem ser executadas em lote. O que pode ocorrer sempre é apenas a sua tramitação, ou seja, a mudança do processo de uma tarefa para outra. 
+
+Abaixo segue a lista de possibilidades de lote disponíveis para a Justiça Eleitoral:
+
++ Lote - Habilitar Movimentação
++ Lote - Habilitar Minutar
++ Lote - Habilitar Assinatura
++ Lote - Habilitar Intimação
++ Lote - Habilitar Redistribuição
++ Lote - Habilitar Lançar Movimentações
++ Lote - Habilitar Lançar Data de Trânsito
+
+<--
+comunicarAtoLote=Lote - Habilitar Comunicação
+designarAudienciaLote=Lote - Habilitar Designar Audiência
+designarPericiaLote=Lote - Habilitar Designar Perícia
+assinarInteiroTeorLote=Lote - Habilitar Assinatura Inteiro Teor
+-->
 
 <!--
 
