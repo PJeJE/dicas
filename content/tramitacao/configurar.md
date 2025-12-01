@@ -25,14 +25,26 @@ A maior parte das configurações de fluxo ficam em um xml vinculado a cada flux
 
 O histórico dos fluxos pode ser recuperada por ferramenta de controle de configuração mantida na TI. Mesmo a recuperação de xmls antigos por meio dessa ferramenta pode ocasionar perda de processos, já que novas versões do fluxo podem ter criado tarefas, tarefas essas que podem já ter processos vinculados. Caso seja publicada uma versão do fluxo sem essas tarefas novas, os processos serão perdidos.
 
-## Marcação de escrita das variáveis
+## Configuração de variáveis de tarefa
 
-Há uma seção na configuração de fluxo onde pode-se configurar **Variáveis**. Essas variáveis são utilizadas pelo sistema para construir a interface de usuário de modo a permitir que ele execute a atividade de interesse negocial. A definição dessas variáveis é feita diretamente na interface de definição de processo, com a indicação do tipo de variável, seu nome, um descritor e características internas. Segue abaixo um exemplo de tarefa com uma lista de variáveis:
+Para a configuração de tarefas onde o usuário precisará executar primeiramente alguma ação na área de execução da tarefas antes de tramitar, o sistema disponibiliza variáveis de tarefa. Essas variáveis são utilizadas pelo sistema para construir a interface de usuário de modo a permitir que ele execute a atividade de interesse negocial. A definição dessas variáveis é feita diretamente na interface de definição de processo, com a indicação do tipo de variável, seu nome, um descritor e características internas. Segue abaixo um exemplo de tarefa com uma lista de variáveis:
 
 ![Variáveis de tarefa](/imagens/variaveltarefa.jpg)
 
+
+### Marcação de escrita das variáveis de tarefa
+
 Para que as tarefas que contém variáveis sejam corretamente exibidas no PJe, as variáveis devem estar sempre com a marcação de **Escrita**, conforme lista de variáveis de exemplo acima.
 
+### Variáveis do tipo **Aviso**
+
+Um dos tipos de variável de tarefa corriqueiramente utilizados é o **Aviso**. Essa variável é utilizada quando se precisa expor um texto na área de execução de tarefas. O aviso pode ser um texto simples e fixo, quando se pretende sinalizar algo para o usuário. Por exemplo, a tarefa **Aviso de expedientes abertos** exibe o texto **Há expedientes abertos no processo. Feche todos os expedientes antes de solicitar arquivamento.**. É uma tarefa que surge quando o usuário tenta arquivar um processo a partir do **Verificar Pendências** e o sistema detecta expedientes abertos. É uma maneira que o administrador tem de sinalizar alguma coisa para o usuário por meio de uma mensagem. 
+
+Ao se configurar textos que serão exibidos para o usuário, o administrador utilizar o campo **Label** da variável **Aviso**. Via de regra, ao alterar esse campo **Label** e salvar o fluxo, o sistema exibe uma mensagem **Não houve alteração de fluxo**. Se tentar publicar o fluxo, o sistema exibe a mesma mensagem. Nesse caso, faça uma pequena alteração (adicione/remova uma letra ou um ponto) no campo **Descrição** da aba **Propriedades** e acione o **Salvar** novamente para que a publicação seja realizada com sucesso. 
+
+
+<!--
 
 **Processo com prazo em curso** é um exemplo clássico de tarefa que é tramitada por gatilho. O gatilho, no caso, é a expiração do prazo ou a resposta dos expedientes. Mais detalhes sobre esse funcionamento estão na seção [Controle de prazos](/prazos/tarefas).
 
+-->
