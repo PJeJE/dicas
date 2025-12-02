@@ -63,7 +63,7 @@ Abaixo segue a lista de possibilidades de lote disponíveis para a Justiça Elei
 + Lote - Habilitar Lançar Movimentações
 + Lote - Habilitar Lançar Data de Trânsito
 
-<--
+<!--
 comunicarAtoLote=Lote - Habilitar Comunicação
 designarAudienciaLote=Lote - Habilitar Designar Audiência
 designarPericiaLote=Lote - Habilitar Designar Perícia
