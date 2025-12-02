@@ -74,13 +74,69 @@ assinarInteiroTeorLote=Lote - Habilitar Assinatura Inteiro Teor
 
 É importante, da definição de fluxo, que o usuário administrador possa sinalizar diferentes comportamentos de acordo as necessidades de cada setor. Por exemplo, uma tarefa que contém editor de texto, ao ser exibida para um servidor da Secretaria Judiciária, deve exibir como tipos de documentos possíveis para utilização apenas documentos construídos e assinados no escopo da secretaria. Esse mesmo tipo de tarefa é utilizada no escopo do órgão julgador específico para construção de decisões terminativas, o que exige disponibilização de outro tipo de documento. O mecanismo utilizada para essa variação na configuração são as variáveis de fluxo. Esse tipo de variável permite que o usuário administrador sinalize informações para o PJe ou para o próprio fluxo. No exemplo citado, ou seja, em tarefas que contém editores de texto, algumas variáveis de fluxo são utilizadas para definir que tipos de documentos aparecem para seleção no editor e que modelos de documento estão disponíveis. Já outras variáveis podem ser utilizadas para sinalizar alguma ação futura, como quando a **Secretaria Judiciária** envia o processo para execução de um gabinete diverso do relator do processo. Nesse caso, a configuração do fluxo deve sinalizar para tarefas futuras que o processo deverá estar em um outro órgão julgador. 
 
+As variáveis de fluxo são configuradas por meio de **Eventos**. Dessa forma, a sinalização que ocorre por causa dessas variáveis tem um momento correto para ocorrer de acordo com o evento selecionado. 
+
+### Definições sobre eventos
+
+Os tipos de eventos são executados a partir das seguintes situações:
+Situação I: Quando um processo tramita e chega pela primeira vez em um nó de tarefa, são executadas as ações dos seguintes eventos de fluxo:
+1. Entrar no nó
+2. Criar tarefa
+3. Atribuir tarefa (a tarefa é criada e se atribui à tarefa o usuário NULL)
+
+Situação II: Quando o frame da tarefa é aberto pela primeira vez:
+1. Iniciar tarefa
+2. Atribuir tarefa (a tarefa é atribuída ao usuário logado) - este evento é reexecutado toda vez que o frame for aberto
+
+Situação III: O usuário que possui permissão na tarefa, reabre a tarefa ou outra pessoa abre a tarefa:
+1. Atribuir tarefa
+
+Situação IV: O usuário encaminha o processo para a próxima tarefa, saindo da atual:
+> Para a tarefa atual:
+1. Finalizar Tarefa
+2. Atribuir tarefa
+3. Antes de sinalizar
+4. Sair do nó
+5. Depois de sinalizar
+
+> Para a próxima tarefa: (repetem-se os passos a partir da Situação I)
+1. Entrar no nó
+2. Criar tarefa
+3. Atribuir tarefa (a tarefa é criada e se atribui à tarefa o usuário NULL)
+
+    Tipo de evento "Atribuir tarefa" é um tipo de evento que é sempre reexecutado quando o usuário abre o frame da tarefa, desta forma, deve-se tomar cuidado com esse tipo de evento e evitar indicar ações que não deveriam ser executadas múltiplas vezes para um mesmo processo. Não utilize esse evento para lançar movimentos por exemplo.
+
+    Marcação "Reexecutar após republicar fluxo": utilizável apenas em nós de tarefa e aplicável para os tipos de evento "Entrar no nó", "Criar tarefa" e "Iniciar tarefa". Essa marcação fará com que após uma publicação de fluxo, na próxima vez que um usuário abrir o frame de tarefa as ações reexecutáveis desses eventos sejam novamente executadas para o processo específico. Isso permite que novas ações ou alterações em ações pré-existentes naquela tarefa sejam novamente executadas na abertura da tarefa, o que não aconteceria no ciclo de vida normal da tarefa no sistema. Evite indicar ações que não deveriam ser executadas múltiplas vezes para um mesmo processo com essa marcação, não utilize essa marcação para lançar movimentos por exemplo.
+
+Para outros tipos de nó diferentes de nó de tarefa: (Nó inicial, nó de sistema, nó de decisão, nó final, nó de separação, nó de junção, nó de sub-processo), o sistema só executa dois tipos de eventos (não há possibilidade de se marcar ações desses nós como "reexecutáveis", visto que nenhum processo permanece durante a alteração do fluxo em um nó que não seja nó de tarefa):
+1. Entrar no nó
+2. Sair do nó
+
+Por fim, segue a ordem geral de execução dos eventos de tarefa:
+1. Entrar no nó
+2. Criar tarefa
+3. Atribuir tarefa (a tarefa é criada e se atribui à tarefa o usuário NULL)
+4. Iniciar tarefa
+5. Atribuir tarefa (a tarefa é atribuída ao usuário logado)
+**Se o fluxo for republicado e houver ações marcadas como reexecutáveis, os eventos: Entrar no nó, Criar tarefa e Iniciar tarefa serão novamente executados.
+6. Atribuir tarefa - este evento é reexecutado toda vez que o frame da tarefa for aberto
+7. Finalizar Tarefa
+8. Atribuir tarefa
+9. Antes de sinalizar
+10. Sair do nó
+11. Depois de sinalizar
+
+
+
 ### Configuração de lançamento de movimentos
 
 O registro de movimentações manual no PJe pode ocorrer através do uso do lançador de movimentações em tarefas, configurado através do fluxo. 
 
 Na Justiça Eleitoral, essa configuração está presente na primeiro grau, nos TREs e no TSE. Os movimentos lançados em tarefas como essas são movimentos de **Magistrado** conforme definição do [Sistema de Gestão de Tabelas Processuais Unificadas](https://www.cnj.jus.br/sgt/consulta_publica_movimentos.php).
 
-Para que as tarefas que permitem a seleção manual do movimento funcionem corretamente, é preciso uma configuração especial. 
+Para que as tarefas que permitem a seleção manual do movimento funcionem corretamente, é preciso uma configuração especial. A expressão **#{lancadorMovimentosService.setCondicaoLancamentoMovimentosTemporarioNoFluxo('#{false}')}** deve ser configurada em uma ação no evento **Iniciar tarefa**.
+
+Além disso, há uma seção especial na configuração do fluxo que atualmente é utilizada apenas para a configuração de tarefas de lançamento manual de movimentos, que são os **Eventos de Tarefa**.
 
 Ao utilizar o lançador de movimentos disponível na tarefa, o sistema tem algumas outras restrições conforme regras na documentação nacional: [RN138](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn138) [RN345](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn342) 
 
