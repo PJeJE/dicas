@@ -142,6 +142,14 @@ Para que as tarefas que permitem a seleção manual do movimento funcionem corre
 
 Além disso, há uma seção especial na configuração do fluxo que atualmente é utilizada apenas para a configuração de tarefas de lançamento manual de movimentos, que são os **Eventos de Tarefa**.
 
+![Eventos de tarefa](/imagens/eventostarefa.jpg)
+
+Deve-se selecionar o **Tipo do Evento** **Sair Tarefa** e selecionar a opção **INCLUIR**. Após incluído o evento, deve aparecer a aba **AGRUPAMENTO EVENTOS**. Caso não aparecã, na lista de eventos cadastrados disponíveis na aba **PESQUISA**, o usuário deve selecionar o ícone do lápis. 
+
+![Agrupamento Eventos](/imagens/agrupamentoeventos.jpg)
+
+Nas opções disponíveis, o usuário deve selecionar **Magistrado**. No campo **Condição para lançamento temporário*** deve estar preenchida a expressão **#{false}**. O usuário deve selecionar a opção **SALVAR**.
+
 Ao utilizar o lançador de movimentos disponível na tarefa, o sistema tem algumas outras restrições conforme regras na documentação nacional: [RN138](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn138) [RN345](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn342) 
 
 
