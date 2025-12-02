@@ -9,7 +9,7 @@ As orientações a seguir são para administradores de sistema, especialmente aq
 
 ## Definição do fluxo e suas configurações
 
-Antes de qualquer iniciativa de alteração/criação de fluxos no PJe, é primordial que as instruções sobre o assunto presentes na documentaçao nacional do PJe sejam lidas com bastante atenção. A seção é a [Definiçao de fluxos](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Configura%C3%A7%C3%B5es%20iniciais/#defini%C3%A7%C3%A3o-de-fluxos).
+Antes de qualquer iniciativa de alteração/criação de fluxos no PJe, é primordial que as instruções sobre o assunto presentes na documentaçao nacional do PJe sejam lidas com bastante atenção. A seção é a [Definiçao de fluxos](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Configura%C3%A7%C3%B5es%20iniciais/#defini%C3%A7%C3%A3o-de-fluxos). Na documentação nacional também estão presentes instruções sobre o uso da interface de configuração de fluxo no PJe. A seção é está presente no [Manual de Referêcnia](https://docs.pje.jus.br/manuais-de-uso/Manual%20de%20referencia%20PJe%201.0/#fluxo). Ambas as seções precisam ser lidas completamente pelo usuário administrador de fluxos.
 
 É importante ressaltar que os fluxos fazem uso da camada de serviços do PJe que só o desenvolvedor tem acesso por meio do código fonte. Isso significa que a alteração/criação de fluxos é uma atividade que exige especialização específica. A pessoa que mantém fluxos no PJe precisa ter conhecimento de TI, assim como conhecimento detalhado sobre o código-fonte do PJe.
 
@@ -69,6 +69,21 @@ designarAudienciaLote=Lote - Habilitar Designar Audiência
 designarPericiaLote=Lote - Habilitar Designar Perícia
 assinarInteiroTeorLote=Lote - Habilitar Assinatura Inteiro Teor
 -->
+
+## Variáveis de fluxo
+
+É importante, da definição de fluxo, que o usuário administrador possa sinalizar diferentes comportamentos de acordo as necessidades de cada setor. Por exemplo, uma tarefa que contém editor de texto, ao ser exibida para um servidor da Secretaria Judiciária, deve exibir como tipos de documentos possíveis para utilização apenas documentos construídos e assinados no escopo da secretaria. Esse mesmo tipo de tarefa é utilizada no escopo do órgão julgador específico para construção de decisões terminativas, o que exige disponibilização de outro tipo de documento. O mecanismo utilizada para essa variação na configuração são as variáveis de fluxo. Esse tipo de variável permite que o usuário administrador sinalize informações para o PJe ou para o próprio fluxo. No exemplo citado, ou seja, em tarefas que contém editores de texto, algumas variáveis de fluxo são utilizadas para definir que tipos de documentos aparecem para seleção no editor e que modelos de documento estão disponíveis. Já outras variáveis podem ser utilizadas para sinalizar alguma ação futura, como quando a **Secretaria Judiciária** envia o processo para execução de um gabinete diverso do relator do processo. Nesse caso, a configuração do fluxo deve sinalizar para tarefas futuras que o processo deverá estar em um outro órgão julgador. 
+
+### Configuração de lançamento de movimentos
+
+O registro de movimentações manual no PJe pode ocorrer através do uso do lançador de movimentações em tarefas, configurado através do fluxo. 
+
+Na Justiça Eleitoral, essa configuração está presente na primeiro grau, nos TREs e no TSE. Os movimentos lançados em tarefas como essas são movimentos de **Magistrado** conforme definição do [Sistema de Gestão de Tabelas Processuais Unificadas](https://www.cnj.jus.br/sgt/consulta_publica_movimentos.php).
+
+Para que as tarefas que permitem a seleção manual do movimento funcionem corretamente, é preciso uma configuração especial. 
+
+Ao utilizar o lançador de movimentos disponível na tarefa, o sistema tem algumas outras restrições conforme regras na documentação nacional: [RN138](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn138) [RN345](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn342) 
+
 
 <!--
 
