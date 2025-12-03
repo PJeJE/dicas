@@ -18,6 +18,8 @@ A atual seção tem o objetivo de oferecer orientações gerais a respeito de re
 A remessa entre jurisdições atualmente é utilizada para redistribuições entre órgãos jurisdicionais pertecentes ao mesmo tribunal e não faz o bloqueio do processo para inclusão de novos movimentos e documentos.
 {{% /notice %}}
 
+## Impedimentos de remessa e devolução
+
 Para evitar prejuízos após o bloqueio do processo, o sistema restringe a remessa e a devolução entre instâncias nas seguintes situações:
 
 - Processo é um recurso interno
