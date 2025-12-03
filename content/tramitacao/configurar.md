@@ -74,6 +74,55 @@ designarPericiaLote=Lote - Habilitar Designar Perícia
 assinarInteiroTeorLote=Lote - Habilitar Assinatura Inteiro Teor
 -->
 
+<!--
+
+# Componentes primários
+default=Padrão
+number=Numérico
+text=Texto
+sim_nao=Checkbox
+date=Data
+form=Formulário
+page=Página
+frame=Frame
+datePast=Data Passada
+popup=Popup
+textAlert=Aviso
+textMessage=Aviso Customizado
+radio_sim_nao=Radio Sim/Não
+combo_sim_nao=Combo Sim/Não
+combo_objetos=Combo de objetos
+comboGenericaTextual=Combo Genérica Textual
+comboGenericaTextual=Combo GenÃ©rica Textual
+ngModule=Especificar componente angular
+# Atividades secretaria/cartÃ³rio
+redistribuicaoDeProcessos=Redistribuição de processos
+designarPericia=Designar perícia
+evolucaoClasse=Evolução de classe
+designarAudiencia=Designar audiência
+associarProcessos=Associar processos
+# Comunicacao
+miniPAC=PAC - miniPAC
+pac=PAC - Preparar ato de comunicação
+# Editores
+textEditCombo=Editor - sem assinatura
+textEditSignature=Editor - com assinatura (sem anexos)
+textEditAndAttachmentSignature=Editor - com assinatura (com anexos)
+editorCkeditor=Editor - CKeditor (com anexos + assinatura)
+# Visualizacao de documentos - somente leitura
+visualizarUltimoAto=Visualizar último ato proferido
+# Atividades colegiado: voto / voto vogal / acÃ³rdÃ£o
+votacaoColegiadoCkEditor=Sessão - Ckeditor - Votação colegiado (relator)
+elaborarAcordaoCkEditor=Sessão - Ckeditor - Elaborar acórdão
+votacaoVogalCkEditor=Sessão - Ckeditor - Votação colegiado (vogal)
+votacaoColegiado=Sessão - Votação colegiado (relator)
+elaborarAcordao=Sessão - Elaborar acórdão
+votacaoVogal=Sessão - Votação colegiado (vogal)
+painelLiberacaoVoto=Painel Liberação Voto
+
+
+-->
+
 ## Variáveis de fluxo
 
 É importante, na definição de fluxo, que o usuário administrador possa sinalizar diferentes comportamentos de acordo as necessidades de cada setor. Por exemplo, uma tarefa que contém editor de texto, ao ser exibida para um servidor da **Secretaria Judiciária**, deve exibir como tipos de documentos possíveis para utilização apenas documentos construídos e assinados no escopo da secretaria. Esse mesmo tipo de tarefa é utilizada no escopo do órgão julgador específico para construção de decisões terminativas, o que exige disponibilização de outro tipo de documento. O mecanismo utilizada para essa variação na configuração são as variáveis de fluxo. Esse tipo de variável permite que o usuário administrador sinalize informações para o PJe ou para o próprio fluxo. No exemplo citado, ou seja, em tarefas que contém editores de texto, algumas variáveis de fluxo são utilizadas para definir que tipos de documentos aparecem para seleção no editor e que modelos de documento estão disponíveis. Já outras variáveis podem ser utilizadas para sinalizar alguma ação futura, como quando a **Secretaria Judiciária** envia o processo para execução de um gabinete diverso do relator do processo. Nesse caso, a configuração do fluxo deve sinalizar para tarefas futuras que o processo deverá estar em um outro órgão julgador. 
