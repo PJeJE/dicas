@@ -25,5 +25,7 @@ Para evitar prejuízos após o bloqueio do processo, o sistema restringe a remes
 
 A devolução também é impedida caso o processo seja originário da instância atual do processo.
 
+Caso ocorram situações de impedimento, ao tentar remeter ou devolver um processo, o sistema encaminhará o usuário para uma tarefa denominada **Impedimento de remessa** ou **Impedimento de devolução**. A tarefa exibirá os detalhes do processo para que o usuário verifique em qual caso de impedimento ele se enquadra. 
+
 {{% children  %}}
 
