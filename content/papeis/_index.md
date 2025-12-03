@@ -192,7 +192,8 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
 - **pje:papel:controleVisibilidadeMovimentoProcesso**
   - Papel que exibe a aba Movimentações nos autos do processo - depende de outras retrições
   
-
+- **pje:sessao:permiteVisualizarVotos**
+  - Papel que libera a visualização de votos por meio da aba **Recursos e Sessões** dos autos digitais 
    
 <!--	
 	/pages/Processo/RetificacaoAutuacao/updateRetificacaoAutuacao.seam
@@ -207,15 +208,15 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
 	ServNucl
 	procuradorMP
 	procChefeMP
-    pje:peso:permiteAlterarPeso
-	pje:peso:permiteConsultarPeso
+    pje:peso:permiteAlterarPeso - permite consultar pesos
+	pje:peso:permiteConsultarPeso - permite alterar pesos
     pje:relacaoJulgamento:permiteOrdenarPautaSessao
 	pje:processo:expedientes:permiteFechar
 	pje:papel:exigeRecaptcha
 	pje:papel:cadastraParteSemDocumento
 	pje:websocket:placarSessaoJulgamento
 	pje:papel:aproveitarAdvogados
-	pje:papel:administrarAutuacao
+	pje:papel:administrarAutuacao - permite visualizar impedimentos
 	pdpj:marketplace:visualizar
 	pje:calendario:abrangencia:nacional
 	pje:calendario:abrangencia:estadual
@@ -223,12 +224,12 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
 	pje:calendario:abrangencia:orgaoJulgador
     pje:criminal:manipulaInformacaoCriminal
 	pje:criminal:visualizaInformacaoCriminal
-	pje:papel:pesquisaRecursoInterno
-	pje:papel:removeRecursoInterno
-	pje:papel:retornaRecursoInterno
-	pje:sessao:permiteAlterarData
-	pje:sessao:permiteAlterarVotos
-	pje:sessao:permiteVisualizarVotos
+	pje:papel:pesquisaRecursoInterno - permite que o usuário pesquise selecionando se quer ou não que a consulta processual retorne capas recursais
+	pje:papel:removeRecursoInterno - permite remover recurso
+	pje:papel:retornaRecursoInterno - faz com que a consulta processual retorne capas recursais
+	pje:sessao:permiteAlterarData - permite alterar data da sessão
+	pje:sessao:permiteAlterarVotos - Permite alterar votos pela recursos e sessões
+	
 	pje:sessao:permiteAlterarComposicao
 	pje:sessao:permiteDesvincularVoto
 	pje:papel:procuradorJE
