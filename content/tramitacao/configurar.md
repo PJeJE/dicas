@@ -23,7 +23,11 @@ A manutenção dos fluxos na Justiça Eleitoral é realizada de forma centraliza
 
 A maior parte das configurações de fluxo ficam em um xml vinculado a cada fluxo. Muitas vezes, ao tentar fazer uma alteração de fluxo sem sucesso, o administrador pode querer recuperar o fluxo anterior para colocar de volta. **NUNCA** deve-se copiar o xml de um outro regional para esse fim. Algumas tarefas, dependendo do regional, têm pequenas diferenças nos nomes (Uma tarefa tem uma palavra que começa com letra maiúscula em um regional e com letra minúscula em outro regional, por exemplo). Se a cópia for realizada em fluxos diferentes, os processos que estavam em tarefas cujos nomes estavam diferentes serão perdidos e não aparecerão mais no painel de tarefas, salvo intervenção complexa no banco de dados.
 
-O histórico dos fluxos pode ser recuperada por ferramenta de controle de configuração mantida na TI. Mesmo a recuperação de xmls antigos por meio dessa ferramenta pode ocasionar perda de processos, já que novas versões do fluxo podem ter criado tarefas, tarefas essas que podem já ter processos vinculados. Caso seja publicada uma versão do fluxo sem essas tarefas novas, os processos serão perdidos.
+O histórico de alteração dos fluxos pode ser recuperado por ferramenta de controle de configuração mantida na TI. Mesmo a recuperação de xmls antigos por meio dessa ferramenta pode ocasionar perda de processos, já que novas versões do fluxo podem ter criado tarefas, tarefas essas que podem já ter processos vinculados. Caso seja publicada uma versão do fluxo sem essas tarefas novas, os processos serão perdidos.
+
+## Não remova tarefas do fluxo
+
+Se não há mais necessidade de uma tarefa, o ideal é remover as transições que levam à tarefa. Assim, nenhum processo entrará na tarefa a partir daquele momento. Mas remover a tarefa é sempre perigoso, já que podem existir processos vinculados à ela. Se for o caso, os processos ficarão sem fluxo. Para o caso de tarefas que estejam ocasionando algum problema e o usuário administrador deseja que novos processos não entrem na tarefa, deve remover as transições de entrada da tarefa.
 
 ## Configuração de variáveis de tarefa
 
