@@ -29,7 +29,9 @@ Caso ocorram situações de impedimento, ao tentar remeter ou devolver um proces
 
 ![Impedimento de devolução](/imagens/impedimentodevolucao.jpg)
 
-Na imagem acima, o impedimento está relacionado à devolução, já que o nome da tarefa é **Impedimento de devolução** e o texto inicial relata **O processo não pode ser devolvido**. Caso o impedimento fosse de remessa, o nome da tarefa seria **Impedimento de remessa** e o texto inicial seria **O processo não pode ser remetido**. O motivo do impedimento na imagem acima é que o processo é originário da instância atual, conforme está descrito em uma das características do processo listada em **Dados sobre o processo atual** - **Processo originário dessa instância**. Observe que o sistema também exibe a informação **Há 1 tarefa(s) aberta(s) para esse processo.** Caso fosse exibida essa mesma informação com o número de tarefas maior que 1, também seria impedimento, tanto para remessa quando para devolução. Observe também que a informação **Não é um recurso interno** é exibida. Caso fosse exibido **É um recurso interno**, também seria um impedimento para remessa e devolução. 
+Na imagem acima, o impedimento está relacionado à devolução, já que o nome da tarefa é **Impedimento de devolução** e o texto inicial relata **O processo não pode ser devolvido**. Caso o impedimento fosse de remessa, o nome da tarefa seria **Impedimento de remessa** e o texto inicial seria **O processo não pode ser remetido**. 
+
+O motivo do impedimento na imagem acima é que o processo é originário da instância atual, conforme está descrito em uma das características do processo listada em **Dados sobre o processo atual** - **Processo originário dessa instância**. Observe que o sistema também exibe a informação **Há 1 tarefa(s) aberta(s) para esse processo.** Caso fosse exibida essa mesma informação com o número de tarefas maior que 1, também seria impedimento, tanto para remessa quando para devolução. Observe também que a informação **Não é um recurso interno** é exibida. Caso fosse exibido **É um recurso interno**, também seria um impedimento para remessa e devolução. 
 
 {{% children  %}}
 
