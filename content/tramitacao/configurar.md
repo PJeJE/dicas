@@ -152,6 +152,14 @@ Nas opções disponíveis, o usuário deve selecionar **Magistrado**. No campo *
 
 Ao utilizar o lançador de movimentos disponível na tarefa, o sistema tem algumas outras restrições conforme regras na documentação nacional: [RN138](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn138) [RN345](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn342) 
 
+{{% notice note %}}
+As tarefas de lançamento de movimentos na Justiça Eleitoral geralmente são configuradas com a **Variável de Tarefa** de nome **Processo_Fluxo_visualizarDecisao** do tipo **Frame**. Essa variável faz com que o sistema exiba o último ato proferido de forma que o usuário administrador saiba que o movimento selecionado ficará vinculado ao documento exibido.
+{{% /notice %}}
+
+
+{{% notice note %}}
+As tarefas de lançamento de movimentos na Justiça Eleitoral também são geralmente configuradas com a **Variável de Tarefa** do tipo **Lote - Habilitar Lançar Movimentações**. Essa variável faz com que a tarefa possa ser executada em lote. Instruções sobre o funcionamento do lançamento de movimentos em lote estão na seção [Lançar movimentação em lote](/atos/movimentacao_lote/).
+{{% /notice %}}
 
 <!--
 
