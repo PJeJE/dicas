@@ -211,6 +211,11 @@ Além dessa necessidade negocial, também é preciso vincular o movimento ao doc
 Além disso, deve-se acrescentar uma ação no evento **Sair do nó** que contenha a seguinte expressão: **#{processoEventoManager.flush()}**.
 
 {{% notice note %}}
+Os ambientes do primeiro grau quando eram unificados (especialmente nas eleições de 2020) apresentaram alguns erros que não ocorriam nos ambientes dos TREs e do TSE. Um desses erros era não validar a obrigatoriedade do lançamento do movimento, deixando o usuário tramitar o processo da tarefa de lançar movimento sem efetivamente registrá-lo. Para contornar essa inconsistência, foram criados controles a mais para garantir que o usuário pudesse retornar ao lançar movimento caso o processo saísse de tarefa sem o devido lançamento. Os controles envolvem as variáveis de fluxo **variavelErroMovimentos** e **dataLancamentoMovimento**. Na tarefa de lançar movimento, é sempre registrada a data em que o o usuário inicia a execução da tarefa. O PJe verifica, a partir da data registrada, se houve lançamento de movimento. Caso não tenha sido registrado movimento, o sistema sinaliza essa inconsistência por meio da variável **variavelErroMovimentos**. Ao sair da tarefa de lançamento de movimento, um nó de sistema verifica se a variável de erro está preenchida. Caso não esteja, segue o fluxo normalmente. Caso tenha conteúdo, o fluxo encaminha o usuário para uma tarefa de aviso de erro no lançamento, e o usuário poderá, a partir dessa tarefa, retornar para a tarefa de lançamento de movimentos, corrigindo a inconsistência.
+{{% /notice %}}
+
+
+{{% notice note %}}
 As tarefas de lançamento de movimentos na Justiça Eleitoral geralmente são configuradas com a **Variável de Tarefa** de nome **Processo_Fluxo_visualizarDecisao** do tipo **Frame**. Essa variável faz com que o sistema exiba o último ato proferido de forma que o usuário administrador saiba que o movimento selecionado ficará vinculado ao documento exibido.
 {{% /notice %}}
 
