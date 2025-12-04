@@ -205,7 +205,7 @@ Nas opções disponíveis, o usuário deve selecionar **Magistrado**, utilizando
 
 Ao utilizar o lançador de movimentos disponível na tarefa, o sistema tem algumas outras restrições conforme regras na documentação nacional: [RN138](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn138) [RN345](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn342) 
 
-Além das restrições, é esperado que o usuário não consiga sair da tarefa sem selecionar algum movimento. O lançamento de movimento é obrigatório. Algumas vezes, quando se
+As tarefas de lançar movimento manualmente, ou seja, que permitem a seleção do movimento por parte do usuário, só aparecem no sistema após assinatura de decisões terminativas. Dessa forma, existe sempre uma necessidade negocial associada que é a de não permitir que o usuário saia da tarefa sem o lançamento do movimento. Para isso, deve-se criar uma ação em um evento do tipo **Criar tarefa** que contenha a seguinte expressão: **#{tramitacaoProcessualService.gravaVariavelTarefa('pje:fluxo:transicao:lancamentoMovimentoObrigatorio', 'true')}**.
 
 {{% notice note %}}
 As tarefas de lançamento de movimentos na Justiça Eleitoral geralmente são configuradas com a **Variável de Tarefa** de nome **Processo_Fluxo_visualizarDecisao** do tipo **Frame**. Essa variável faz com que o sistema exiba o último ato proferido de forma que o usuário administrador saiba que o movimento selecionado ficará vinculado ao documento exibido.
