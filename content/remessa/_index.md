@@ -27,7 +27,13 @@ Para evitar prejuízos após o bloqueio do processo, o sistema restringe a remes
 
 A devolução também é impedida caso o processo seja originário da instância atual do processo.
 
-Caso ocorram situações de impedimento, ao tentar remeter ou devolver um processo, o sistema encaminhará o usuário para uma tarefa de aviso denominada **Impedimento de remessa** ou **Impedimento de devolução**. A tarefa exibirá os detalhes do processo para que o usuário verifique em qual caso de impedimento ele se enquadra. Abaixo um exemplo de aviso:
+Caso ocorram situações de impedimento, ao tentar remeter ou devolver um processo, o sistema encaminhará o usuário para uma tarefa de aviso denominada **Impedimento de remessa** ou **Impedimento de devolução**. 
+
+{{% notice info %}}
+Nos casos de impedimento de remessa ou devolução, a tarefa de remessa/devolução não ficará disponível para o usuário. O aviso de impedimento será exibido no lugar da tarefa de remessa/devolução após o usuário selecionar a transição para tarefas de remessa/devolução disponível a partir das tarefas de cumprimento.
+{{% /notice %}}
+
+A tarefa exibirá os detalhes do processo para que o usuário verifique em qual caso de impedimento ele se enquadra. Abaixo um exemplo de aviso:
 
 ![Impedimento de devolução](/imagens/impedimentodevolucao.jpg)
 
