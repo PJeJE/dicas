@@ -136,34 +136,39 @@ Os eventos são utilizados para se agregar ações vinculadas a nós/tarefas esp
 Cada tipo de evento disponível para configuração tem um significado em termos de momento de execução. Abaixo seguem definições sobre os tipos de eventos e seus momentos de execução:
 
 Os tipos de eventos são executados a partir das seguintes situações:
-Situação I: Quando um processo tramita e chega pela primeira vez em um nó de tarefa, são executadas as ações dos seguintes eventos de fluxo:
+
++ Situação I: Quando um processo tramita e chega pela primeira vez em um nó de tarefa, são executadas as ações dos seguintes eventos de fluxo:
 1. Entrar no nó
 2. Criar tarefa
 3. Atribuir tarefa (a tarefa é criada e se atribui à tarefa o usuário NULL)
 
-Situação II: Quando o frame da tarefa é aberto pela primeira vez:
++ Situação II: Quando o frame da tarefa é aberto pela primeira vez:
 1. Iniciar tarefa
 2. Atribuir tarefa (a tarefa é atribuída ao usuário logado) - este evento é reexecutado toda vez que o frame for aberto
 
-Situação III: O usuário que possui permissão na tarefa, reabre a tarefa ou outra pessoa abre a tarefa:
++ Situação III: O usuário que possui permissão na tarefa, reabre a tarefa ou outra pessoa abre a tarefa:
 1. Atribuir tarefa
 
-Situação IV: O usuário encaminha o processo para a próxima tarefa, saindo da atual:
-> Para a tarefa atual:
++ Situação IV: O usuário encaminha o processo para a próxima tarefa, saindo da atual:
+++ Para a tarefa atual:
 1. Finalizar Tarefa
 2. Atribuir tarefa
 3. Antes de sinalizar
 4. Sair do nó
 5. Depois de sinalizar
 
-> Para a próxima tarefa: (repetem-se os passos a partir da Situação I)
+++ Para a próxima tarefa: (repetem-se os passos a partir da Situação I)
 1. Entrar no nó
 2. Criar tarefa
 3. Atribuir tarefa (a tarefa é criada e se atribui à tarefa o usuário NULL)
 
-    Tipo de evento "Atribuir tarefa" é um tipo de evento que é sempre reexecutado quando o usuário abre o frame da tarefa, desta forma, deve-se tomar cuidado com esse tipo de evento e evitar indicar ações que não deveriam ser executadas múltiplas vezes para um mesmo processo. Não utilize esse evento para lançar movimentos por exemplo.
+{{% notice note %}}
+O tipo de evento **Atribuir tarefa** é um tipo de evento que é sempre reexecutado quando o usuário abre a tarefa. Dessa forma, deve-se tomar cuidado com esse tipo de evento e evitar indicar ações que não deveriam ser executadas múltiplas vezes para um mesmo processo. Não utilize esse evento para lançar movimentos, por exemplo.
+{{% /notice %}}
 
-    Marcação "Reexecutar após republicar fluxo": utilizável apenas em nós de tarefa e aplicável para os tipos de evento "Entrar no nó", "Criar tarefa" e "Iniciar tarefa". Essa marcação fará com que após uma publicação de fluxo, na próxima vez que um usuário abrir o frame de tarefa as ações reexecutáveis desses eventos sejam novamente executadas para o processo específico. Isso permite que novas ações ou alterações em ações pré-existentes naquela tarefa sejam novamente executadas na abertura da tarefa, o que não aconteceria no ciclo de vida normal da tarefa no sistema. Evite indicar ações que não deveriam ser executadas múltiplas vezes para um mesmo processo com essa marcação, não utilize essa marcação para lançar movimentos por exemplo.
+{{% notice note %}}
+A marcação **Reexecutar após republicar fluxo** é utilizável apenas em **nós de tarefa** e aplicável para os tipos de evento **Entrar no nó**, **Criar tarefa** e **Iniciar tarefa**. Essa marcação fará com que, após uma publicação de fluxo, na próxima vez que um usuário abrir a tarefa, as ações reexecutáveis desses eventos sejam novamente executadas para o processo específico. Isso permite que novas ações ou alterações em ações pré-existentes naquela tarefa sejam novamente executadas na abertura da tarefa, o que não aconteceria no ciclo de vida normal da tarefa no sistema. Evite indicar ações que não deveriam ser executadas múltiplas vezes para um mesmo processo com essa marcação. Não utilize essa marcação para lançar movimentos por exemplo.
+{{% /notice %}}
 
 Para outros tipos de nó diferentes de nó de tarefa: (Nó inicial, nó de sistema, nó de decisão, nó final, nó de separação, nó de junção, nó de sub-processo), o sistema só executa dois tipos de eventos (não há possibilidade de se marcar ações desses nós como "reexecutáveis", visto que nenhum processo permanece durante a alteração do fluxo em um nó que não seja nó de tarefa):
 1. Entrar no nó
@@ -182,8 +187,6 @@ Por fim, segue a ordem geral de execução dos eventos de tarefa:
 9. Antes de sinalizar
 10. Sair do nó
 11. Depois de sinalizar
-
-
 
 ### Configuração de lançamento de movimentos
 
@@ -214,7 +217,6 @@ Além disso, deve-se acrescentar uma ação no evento **Sair do nó** que conten
 Os ambientes do primeiro grau quando eram unificados (especialmente nas eleições de 2020) apresentaram alguns erros que não ocorriam nos ambientes dos TREs e do TSE. Um desses erros era não validar a obrigatoriedade do lançamento do movimento, deixando o usuário tramitar o processo da tarefa de lançar movimento sem efetivamente registrá-lo. Para contornar essa inconsistência, foram criados controles a mais para garantir que o usuário pudesse retornar ao lançar movimento caso o processo saísse de tarefa sem o devido lançamento. Os controles envolvem as variáveis de fluxo **variavelErroMovimentos** e **dataLancamentoMovimento**. Na tarefa de lançar movimento, é sempre registrada a data em que o o usuário inicia a execução da tarefa. O PJe verifica, a partir da data registrada, se houve lançamento de movimento. Caso não tenha sido registrado movimento, o sistema sinaliza essa inconsistência por meio da variável **variavelErroMovimentos**. Ao sair da tarefa de lançamento de movimento, um nó de sistema verifica se a variável de erro está preenchida. Caso não esteja, segue o fluxo normalmente. Caso tenha conteúdo, o fluxo encaminha o usuário para uma tarefa de aviso de erro no lançamento, e o usuário poderá, a partir dessa tarefa, retornar para a tarefa de lançamento de movimentos, corrigindo a inconsistência.
 {{% /notice %}}
 
-
 {{% notice note %}}
 As tarefas de lançamento de movimentos na Justiça Eleitoral geralmente são configuradas com a **Variável de Tarefa** de nome **Processo_Fluxo_visualizarDecisao** do tipo **Frame**. Essa variável faz com que o sistema exiba o último ato proferido de forma que o usuário administrador saiba que o movimento selecionado ficará vinculado ao documento exibido.
 {{% /notice %}}
@@ -223,8 +225,3 @@ As tarefas de lançamento de movimentos na Justiça Eleitoral geralmente são co
 As tarefas de lançamento de movimentos na Justiça Eleitoral também são geralmente configuradas com a **Variável de Tarefa** do tipo **Lote - Habilitar Lançar Movimentações**. Essa variável faz com que a tarefa possa ser executada em lote. Instruções sobre o funcionamento do lançamento de movimentos em lote estão na seção [Lançar movimentação em lote](/atos/movimentacao_lote/).
 {{% /notice %}}
 
-<!--
-
-**Processo com prazo em curso** é um exemplo clássico de tarefa que é tramitada por gatilho. O gatilho, no caso, é a expiração do prazo ou a resposta dos expedientes. Mais detalhes sobre esse funcionamento estão na seção [Controle de prazos](/prazos/tarefas).
-
--->
