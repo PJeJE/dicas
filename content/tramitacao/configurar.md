@@ -207,6 +207,9 @@ Ao utilizar o lançador de movimentos disponível na tarefa, o sistema tem algum
 
 As tarefas de lançar movimento manualmente, ou seja, que permitem a seleção do movimento por parte do usuário, só aparecem no sistema após assinatura de decisões terminativas. Dessa forma, existe sempre uma necessidade negocial associada que é a de não permitir que o usuário saia da tarefa sem o lançamento do movimento. Para isso, deve-se criar uma ação em um evento do tipo **Criar tarefa** que contenha a seguinte expressão: **#{tramitacaoProcessualService.gravaVariavelTarefa('pje:fluxo:transicao:lancamentoMovimentoObrigatorio', 'true')}**.
 
+Além dessa necessidade negocial, também é preciso vincular o movimento ao documento de decisão terminativa. Isso facilita a identificação da decisão nos autos digitais, além de garantir o envio do movimento nas remessas. Para essa necessidade, deve-ser criar um **Nó de sistema** para a transição de saída da tarefa que lança o movimento para associar o último movimento lançado ao último documento de decisão terminativa assinado. O nó de sistema deve conter uma ação no evento **Entrar no nó** que contenha a seguinte expressão:  **#{processoEventoManager.recuperaUltimaMovimentacao(tramitacaoProcessualService.recuperaProcesso()).setProcessoDocumento(processoDocumentoManager.getUltimoAtoProferido(tramitacaoProcessualService.recuperaProcesso().processo.idProcesso))}**. 
+Além disso, deve-se acrescentar uma ação no evento **Sair do nó** que contenha a seguinte expressão: **#{processoEventoManager.flush()}**.
+
 {{% notice note %}}
 As tarefas de lançamento de movimentos na Justiça Eleitoral geralmente são configuradas com a **Variável de Tarefa** de nome **Processo_Fluxo_visualizarDecisao** do tipo **Frame**. Essa variável faz com que o sistema exiba o último ato proferido de forma que o usuário administrador saiba que o movimento selecionado ficará vinculado ao documento exibido.
 {{% /notice %}}
