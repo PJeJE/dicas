@@ -201,14 +201,15 @@ Deve-se selecionar o **Tipo do Evento** **Sair Tarefa** e selecionar a opção *
 
 ![Agrupamento Eventos](/imagens/agrupamentoeventos.jpg)
 
-Nas opções disponíveis, o usuário deve selecionar **Magistrado**, utilizando a setinha entre os quadros para colocar o agrupamento no quadro da direita. No campo **Condição para lançamento temporário*** deve estar preenchida a expressão **#{false}**. O usuário deve selecionar a opção **SALVAR**.
+Nas opções disponíveis, o usuário deve selecionar **Magistrado**, utilizando a setinha entre os quadros para colocar o referido agrupamento no quadro da direita. No campo **Condição para lançamento temporário*** deve estar preenchida a expressão **#{false}**. O usuário deve selecionar a opção **SALVAR**.
 
 Ao utilizar o lançador de movimentos disponível na tarefa, o sistema tem algumas outras restrições conforme regras na documentação nacional: [RN138](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn138) [RN345](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn342) 
+
+Além das restrições, é esperado que o usuário não consiga sair da tarefa sem selecionar algum movimento. O lançamento de movimento é obrigatório. Algumas vezes, quando se
 
 {{% notice note %}}
 As tarefas de lançamento de movimentos na Justiça Eleitoral geralmente são configuradas com a **Variável de Tarefa** de nome **Processo_Fluxo_visualizarDecisao** do tipo **Frame**. Essa variável faz com que o sistema exiba o último ato proferido de forma que o usuário administrador saiba que o movimento selecionado ficará vinculado ao documento exibido.
 {{% /notice %}}
-
 
 {{% notice note %}}
 As tarefas de lançamento de movimentos na Justiça Eleitoral também são geralmente configuradas com a **Variável de Tarefa** do tipo **Lote - Habilitar Lançar Movimentações**. Essa variável faz com que a tarefa possa ser executada em lote. Instruções sobre o funcionamento do lançamento de movimentos em lote estão na seção [Lançar movimentação em lote](/atos/movimentacao_lote/).
