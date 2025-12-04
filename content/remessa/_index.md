@@ -33,7 +33,7 @@ Caso ocorram situações de impedimento, ao tentar remeter ou devolver um proces
 Nos casos de impedimento de remessa ou devolução, a tarefa de remessa/devolução não ficará disponível para o usuário. O aviso de impedimento será exibido no lugar da tarefa de remessa/devolução após o usuário selecionar a transição para tarefas de remessa/devolução disponível a partir das tarefas de cumprimento.
 {{% /notice %}}
 
-A tarefa exibirá os detalhes do processo para que o usuário verifique em qual caso de impedimento ele se enquadra. Abaixo um exemplo de aviso:
+A tarefa de impedimento exibirá os detalhes do processo para que o usuário verifique em qual caso de impedimento ele se enquadra. Abaixo um exemplo de aviso:
 
 ![Impedimento de devolução](/imagens/impedimentodevolucao.jpg)
 
