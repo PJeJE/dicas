@@ -269,4 +269,112 @@ tb_jbpm_variavel_label - guarda os labels
 tb_processo_tarefa_evento guarda os eventos de tarefa configurados no lançador de movimentos
 
 
+
+--REABRIR O NÓ DESEJADO
+--SELECT DA TAREFA QUE SE QUER REABRIR
+select task.id_, create_,
+        start_, end_,
+        isopen_, issignalling_
+From jbpm_taskinstance task
+inner join jbpm_variableinstance var
+                on task.procinst_ = var.processinstance_
+                and var.class_  = 'L'
+                and var.name_ = 'processo'
+                and var.longvalue_ = (select id_processo from core.tb_processo where nr_processo like '%0600122-62%')
+and task.name_ ilike 'Aguarda Sessão de Julgamento'
+order by task.id_ desc limit 1;
+
+-- ABRIR TAREFA
+UPDATE jbpm_taskinstance 
+SET end_ = null, 
+    isopen_ = true, 
+    issignalling_ = true 
+WHERE id_ = 1440381;
+
+
+--DAR NOVO SELECT NA TASKINSTANCE QUE SE QUER ABRIR E ANOTAR OS SEGUINTES DADOS:
+--SELECT DA TAREFA QUE SE QUER REABRIR PARA DADOS
+select task_, task.token_, procinst_, longvalue_
+from jbpm_taskinstance task
+inner join jbpm_variableinstance var
+                on task.procinst_ = var.processinstance_
+                and var.class_  = 'L'
+                and var.name_ = 'processo'
+                and var.longvalue_ = (select id_processo from core.tb_processo where nr_processo like '%0600122-62%') -- PROCESSO
+and task.name_ ilike 'Aguarda Sessão de Julgamento' -- TAREFA QUE SE QUER ABRIR
+--order by task.id_ desc limit 1;
+
+--TASK = 10865926 
+--TOKEN = 11315180
+--PROCESSINSTANCE = 11315179 
+--ID PROCESSO = 80265 
+
+1399092;1383243;1383242;7630
+1439701;1383243;1383242;7630
+
+
+
+-- VERIFICAR SE O TOKEN DA TAREFA QUE SE QUER ABRIR
+-- É IGUAL AO REGISTRO TASKNODE_ DA TABELA JBPM_TASK
+select node_ from jbpm_token where id_ = 1383243
+-- node_ = 1443017
+
+SELECT tasknode_ FROM jbpm_task where id_ = 1439701
+-- tasknode_ = 1439684
+
+-- PEGAR O NODE_ E VERIFICAR COM TASKNODE_ NA JBPM_TASK
+select ((select node_ from jbpm_token where id_ = 1383243) = (SELECT tasknode_ FROM jbpm_task where id_ = 1439701)) as iguais
+
+-- SE NÃO FOREM IGUAIS, PEGAR O JBPM_TASK.TASKNODE_ E COLOCAR NO JBPM_TOKEN.NODE_
+UPDATE jbpm_token 
+SET end_ = null, 
+    isabletoreactivateparent_ = true, 
+    node_ = 1439684, -- TASKNODE_
+    processinstance_ = 1383242 
+WHERE id_ = 1383243;
+
+-- VERIFICAR NA TB_PROCESSO_INSTANCE SE OS ÓRGÃOS JULGADORES ESTÃO DEFINIDOS
+-- E SE O CAMPO IN_ATIVO ESTÁ TRUE
+select * from core.tb_processo_instance 
+where id_processo = 7630
+  AND id_proc_inst = 1383242
+
+
+  
+8;13;2
+
+-- SE NÃO ESTIVER TRUE, ATUALIZAR PARA TRUE
+UPDATE core.tb_processo_instance 
+SET id_orgao_julgador = 8, id_orgao_julgador_cargo = 13, id_orgao_julgador_colegiado = 2
+WHERE id_processo = 7630 
+  AND id_proc_inst = 1383242;
+
+-- PERMISSÕES PARA QUEM PODE VISUALIZAR A TAREFA
+select * from core.tb_proc_localizacao_ibpm 
+where id_processo = 7630 
+and id_task_jbpm = 1439701 
+  and id_processinstance_jbpm = 1383242;
+
+-- SE NÃO TIVER REGISTRO NA TABELA, INSERIR OS PAPEIS PARA VISUALIZAÇÃO
+INSERT INTO core.tb_proc_localizacao_ibpm 
+VALUES ((select nextval('core.sq_tb_proc_localizacao_ibpm')), ID_DA_TASK, ID_DA_PROCESSINSTANCE, ID_PROCESSO, ID_LOCALIZACAO, ID_PAPEL);
+
+select * from tb_localizacao where ds_localizacao ilike '%assessoria%'
+-- ID_LOCALIZACAO = 41
+
+select * from tb_papel where ds_nome ilike '%assessor%chefe%'
+-- ID_PAPEL = 5879
+
+-- INSERIR
+INSERT INTO core.tb_proc_localizacao_ibpm 
+VALUES ((select nextval('core.sq_tb_proc_localizacao_ibpm')), 1439701, 1383242, 7630, 4, 5849);
+
+
+
+-- VERIFICAR
+select * from core.tb_proc_localizacao_ibpm 
+where id_processo = 7630 
+  and id_task_jbpm = 1441977
+  and id_processinstance_jbpm = 1383242;
+
 -->
