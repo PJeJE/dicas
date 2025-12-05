@@ -261,4 +261,12 @@ jbpm_token
 jbpm_variableinstance
 
 
+tb_processo_instance - resumo da instância de processo no fluxo - um pra um com jbpm_processoinstance com restrições
+tb_processo tarefa - resumo das informações da tarefa em que o processo está - um pra um com jbpm_taskintance quando tarefa aberta
+tb_cabeçalho processo - resumo das informações do processo - um pra um com tb_processo_Trf
+tb_proc_localizacao_ibpm  - guarda as localizações do processo com base nas raias e na tarefa que o processo está
+tb_jbpm_variavel_label - guarda os labels
+tb_processo_tarefa_evento guarda os eventos de tarefa configurados no lançador de movimentos
+
+
 -->
