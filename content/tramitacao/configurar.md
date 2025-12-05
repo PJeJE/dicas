@@ -243,4 +243,22 @@ Como sabemos, os fluxos estão em constante atualização, e temos, na Justiça 
 O mecanismo que faz o fluxo funcionar é parte dos bibliotecas nativas que compõem o servidor de aplicações onde é executado o PJe. Esse mecanismo envolve códigos java, com serviços e entidades de negócio, assim como tabelas de banco de dados. Além desse motor de funcionamento, o PJe tem outros códigos criados, com suas entidades de negócio e tabelas, para aprimorar o funcionamento do fluxo e ajustá-lo às necessidades do PJe. 
 
 Descreveremos nessa seção as entidades de negócio e as principais classes onde pesquisar sobre o funcionamento desse mecanismo.
+
+## Tabelas nativas
+
+Escolhemos descrever algumas tabelas mais utilizadas nos atendimentos relacionados a fluxo. Todas as tabelas ficam no esquema public. 
+
+
+jbpm_taskinstance
+jbpm_processdefinition
+jbpm_processinstance
+jbpm_swimlane
+jbpm_swimlaneinstance
+jbpm_task
+jbpm_taskinstance
+jbpm_node
+jbpm_token
+jbpm_variableinstance
+
+
 -->
