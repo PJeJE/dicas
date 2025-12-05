@@ -237,5 +237,10 @@ Conforme descrito acima, alterações de fluxo só passam a valer para processos
 
 Como sabemos, os fluxos estão em constante atualização, e temos, na Justiça Eleitoral, casos de tarefas que não são mais utilizadas, mas que ainda estão vinculadas a processos mais antigos. Os scripts de situações processuais foram construídos para contemplar também essas tarefas, mas alguma pode ter ficado de fora. Sempre que isso ocorrer, deve-se observar o nome da tarefa (respeitando-se maiúsculas e minúsculas) e repassar essa ocorrência para a Assessoria, de forma que possa ser feito o ajuste para aquela tarefa em todos os ambientes.
 
+<!--
+## Definições técnicas
 
+O mecanismo que faz o fluxo funcionar é parte dos bibliotecas nativas que compõem o servidor de aplicações onde é executado o PJe. Esse mecanismo envolve códigos java, com serviços e entidades de negócio, assim como tabelas de banco de dados. Além desse motor de funcionamento, o PJe tem outros códigos criados, com suas entidades de negócio e tabelas, para aprimorar o funcionamento do fluxo e ajustá-lo às necessidades do PJe. 
 
+Descreveremos nessa seção as entidades de negócio e as principais classes onde pesquisar sobre o funcionamento desse mecanismo.
+-->
