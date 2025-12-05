@@ -225,3 +225,14 @@ As tarefas de lançamento de movimentos na Justiça Eleitoral geralmente são co
 As tarefas de lançamento de movimentos na Justiça Eleitoral também são geralmente configuradas com a **Variável de Tarefa** do tipo **Lote - Habilitar Lançar Movimentações**. Essa variável faz com que a tarefa possa ser executada em lote. Instruções sobre o funcionamento do lançamento de movimentos em lote estão na seção [Lançar movimentação em lote](/atos/movimentacao_lote/).
 {{% /notice %}}
 
+## Alterações de fluxo
+
+Os fluxos são uma ferramenta extremamente útil para realizar customizações no sistema sem a necessidade de uma nova versão do PJe. É um componente inerentemente vivo, ou seja, está sempre em atualização. As alterações em fluxos são muito frequentes e necessárias para atendimento das necessidades negociais dos tribunais. 
+
+É importante ressaltar que uma alteração em uma tarefa, por exemplo, só terá efeito quando um novo processo passar por aquela tarefa. Tomemos como exemplo o fluxo de arquivamento provisório. no arquivamento provisório, o servidor encaminha o processo para o arquivamento, o fluxo lança o movimento de arquivamento e o processo se mantém na tarefa estacionária de arquivamento até que o servidor a retire manualmente. A partir de desembro de 2025, foi realizada uma alteração de fluxo para que o servidor possa atribuir aos processos que entram nas tarefas de arquivamento provisório um tempo para que permaneçam na tarefa estacionária, de forma que ao atingir o tempo estabelecido, o fluxo tramite automaticamente o processo para retirada da tarefa estacionária. Essa alterações é válida apenas para novos processos. Sendo assim, processos que já estavam na tarefa estacionária antes de dezembro de 2025 não terão como sair automaticamente da tarefa. 
+
+### Situações processuais
+
+### Situações processuais não condizem com tarefas do fluxo
+
+
