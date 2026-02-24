@@ -1,7 +1,7 @@
 ---
 title: "Dados do processo referência"
 date: 2022-11-23T18:34:02-03:00
-weight: 2
+weight: 3
 ---
 
 Quando um processo é remetido de uma instância para outra, chegam no destino os documentos que foram produzidos na origem e os movimentos vinculados a esses documentos.
