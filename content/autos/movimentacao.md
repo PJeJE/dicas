@@ -1,7 +1,7 @@
 ---
 title: "Movimentações"
 date: 2024-10-22T15:09:02-03:00
-weight: 5
+weight: 6
 ---
 
 A aba **Movimentações** dos autos digitais é uma ferramenta a mais para gestão por parte do servidor. Ela exibe os movimentos do processo e permite ao usuário alterar a visibilidade dos movimentos e complementos, de forma a restringir quais são visíveis na consulta pública ou não.
