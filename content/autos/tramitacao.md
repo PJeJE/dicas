@@ -1,7 +1,7 @@
 ---
 title: "Tramitação Processual"
 date: 2022-11-23T18:33:52-03:00
-weight: 3
+weight: 4
 ---
 
 O processo se inicia no PJe da Justiça Eleitoral quando um usuário externo, que pode ser advogado, Ministério Público, Autoridade Policial ou qualquer jurisdicionado, cadastra o processo incluindo os dados e a petição inicial.
