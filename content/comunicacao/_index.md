@@ -50,3 +50,8 @@ Se o parâmetro Ativar Funcionalidade Diário Eleitoral for false e houver marca
 Estando ativos os dois parâmetros, se o usuário marcar no PJe a opção período especial, vai separar em diários diferentes e, se não marcar, vai ficar tudo junto, mas sempre em dias corridos.
 {{% /notice %}}
 
+## 3. Utilização da Central de Mandados
+
+A utilização da central de mandados para fazer comunicação só será possível se o usuário selecionar, ao criar uma comunicação, o meio "Central de Mandados". Caso seja selecionado, o servidor terá que complementar as informações sobre a central de mandados em tarefa posterior que será apresentada ao finalizar a construção do documento a ser utilizado na comunicação. 
+
+Da mesma forma, a tarefa para complementação das informações sobre a central de mandados só será apresentada se o usuário tiver selecionado o meio pertinente. Caso a tarefa seja apresentada e o usuário tenha selecionado o meio erroneamente, recomenda-se seguir o fluxo de complementação das informações da central e, só ao finalizar os procedimentos, fechar o expediente, certificando que a comunicação não precisa ser cumprida, conforme termos comuns da prática cartorária do regional.
