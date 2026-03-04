@@ -67,7 +67,7 @@ Os filtros configurados serão aplicados automaticamente no protocolo de process
 {{% /notice %}}
 
 {{% notice note %}}
-Os filtros configurados não serão aplicados para processos que estiverem em tarefas cujos nomes contenham o termo **arquiv**. 
+Os filtros configurados não serão aplicados para processos que estiverem em tarefas cujos nomes contenham o termo **arquiv**. Também serão ignorados processos bloqueados por estarem em outra instância. Ao tramitar o processo novamente, retirando-o da situação de arquivamento/remessa, o sistema fará a automação, vinculando etiquetas que eventualmente tenham filtros pertinentes ao processo.
 {{% /notice %}}
 
 ## Vincular etiqueta manualmente
