@@ -55,7 +55,12 @@ A partir de então, todos os processos que atenderem a essa regra serão automat
 
 A vinculação da regra pode ser excluída a qualquer tempo.
 
-Caso o servidor crie um filtro e queira aplicá-lo a processos que já estejam na sua unidade, poderá utilizar o ícone da varinha de condão **Realizar mágica**, e o sistema verificará todos os processos da unidade para identificar quais se encaixam no filtro e vincular, conforme o caso. ESSE É UM PROCEDIMENTO DEMORADO, já que envolve verificar todos os processos da unidade de uma só vez.
+Caso o servidor crie um filtro e queira aplicá-lo a processos que já estejam na sua unidade, poderá utilizar o ícone da varinha de condão **Realizar mágica**, e o sistema verificará todos os processos da unidade para identificar quais se encaixam no filtro e vincular, conforme o caso. **ESSE É UM PROCEDIMENTO DEMORADO**, já que envolve verificar todos os processos da unidade de uma só vez. 
+
+{{% notice note %}}
+A vinculação de etiquetas a processos realizada pela opção **Realizar mágica** só levará em consideração os processos inicialmente pesquisados ao acionar a opção. A pesquisa de processos, conforme já relatado, é extremamente demorada. Caso o usuário clice na confirmação da aplicação antes que o sistema termine a consulta, o sistema só aplicará aos processos já pesquisados. Está em andamento uma melhoria para que a ação só seja permitida após a finalização da consulta.
+{{% /notice %}}
+
 
 {{% notice note %}}
 Os filtros configurados serão aplicados automaticamente no protocolo de processos e quando o processo transitar para uma nova tarefa. O sistema verifica se o processo atende a um dos filtros e vincula ou desvincula etiquetas, conforme a regra definida. 
