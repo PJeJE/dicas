@@ -61,6 +61,10 @@ Caso o servidor crie um filtro e queira aplicá-lo a processos que já estejam n
 Os filtros configurados serão aplicados automaticamente no protocolo de processos e quando o processo transitar para uma nova tarefa. O sistema verifica se o processo atende a um dos filtros e vincula ou desvincula etiquetas, conforme a regra definida. 
 {{% /notice %}}
 
+{{% notice note %}}
+Os filtros configurados não serão aplicados para processos que estiverem em tarefas cujos nomes contenham o termo **arquiv**. 
+{{% /notice %}}
+
 ## Vincular etiqueta manualmente
 
 O usuário pode também vincular processos a etiquetas manualmente, ou seja, selecionando o processo no painel de tarefas e vinculando-o à etiqueta que desejar. Neste caso, as etiquetas disponíveis serão exibidas e o usuário poderá vincular a uma ou mais etiquetas a lista de processos selecionados. As etiquetas vinculadas manualmente sempre serão novamente vinculadas no retorno do processo à unidade. 
