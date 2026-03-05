@@ -217,6 +217,7 @@ Existem determinados cenários com documentos de sessão ou com resultados de ju
 + ementa sem vinculação ao orgão julgador
 + voto sem vinculação a tipo de voto
 + voto sem vinculação a órgão julgador
++ voto sem vinculação à capa processual
 + acórdão sem vinculação a órgão julgador
 + voto relator acompanhando órgão julgador distinto dele mesmo
 + voto **Acompanho o relator** acompanhando órgão julgador distinto do relator
