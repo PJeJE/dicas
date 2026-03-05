@@ -221,7 +221,8 @@ Existem determinados cenários com documentos de sessão ou com resultados de ju
 + voto relator acompanhando órgão julgador distinto dele mesmo
 + voto **Acompanho o relator** acompanhando órgão julgador distinto do relator
 + pauta com registro de processo julgado sem órgão julgador vencedor
-+ dois ou mais documentos de voto, ementa ou relatório associados a um mesmo órgão julgador e a uma sessão
++ mesmo documento vinculado a msi de um registro de documento de sessão. O documento do tipo Voto Relator de id 123 só pode estar associado a um órgão julgador e sessão. Esse mesmo documento não deve estar em outro registro de sessão com órgão julgador
++ dois ou mais votos/documentos de voto, ementa ou relatório associados a um mesmo órgão julgador e a uma sessão
 Em cada sessão de julgamento, para aquele processo, o órgão julgador só pode emitir um voto. Se houver mais de um voto/documento de voto associados ao mesmo órgão julgador e à mesma sessão, as telas de sessão e editores de documentos de sessão não funcionarão corretamente. Da mesma forma, só pode existir uma ementa e um relatório para uma sessão, e só podem estar vinculados ao órgão relator do processo.
 
 
