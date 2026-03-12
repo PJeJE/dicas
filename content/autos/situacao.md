@@ -52,6 +52,8 @@ As situações acima foram documentadas com base no fluxo do TSE, sendo aplicada
 
 ## Cenários
 
+Abaixo descreveremos como uma situação processual é registrada em cada capa processual e como é finalizada. As descrições estão agrupadas por situação.
+
 ### jus:suspenso
 
 1. Quando o processo entra na tarefa **Manter Processos Suspensos ou Sobrestados**. Ao sair da tarefa por meio da transição **Reativar processo suspenso ou sobrestado**, a situação é finalizada e é acrescentada a situação **jus:andamento**.
@@ -79,7 +81,11 @@ No TSE e nos TREs, a situação **jus:andamento** é finalizada quando as situa�
 2. Quando um processo sai do **Verificar Pendências** por meio da transição **Realiza Baixa para arquivamento**. Ao sair da tarefa **Manter recurso arquivado** ou **Manter processo arquivado** por meio da transição **Reativa recurso** ou **Reativa Processo**, a situação é finalizada e é acrescentada a situação **jus:andamento**.
 3. Quando um processo sai do **Manter Processos Expedidos** por meio da transição **Enviar para arquivo**. Ao sair da tarefa **Manter recurso arquivado** ou **Manter processo arquivado** por meio da transição **Reativa recurso** ou **Reativa Processo**, a situação é finalizada e é acrescentada a situação **jus:andamento**.
 4. Quando um processo sai das tarefas **Verficar Pendências - Processo Corregedoria**, **Analisar Determinações - Corregedoria** ou **Analisar Processo - Corregedoria** por meio da transição **Remeter para arquivamento**. Ao sair da tarefa **Manter recurso arquivado** ou **Manter processo arquivado** por meio da transição **Reativa recurso** ou **Reativa Processo**, a situação é finalizada e é acrescentada a situação **jus:andamento**.
-5. Quando um processo sai da tarefa **Devolver Processo Corregedoria a origem** após devolução (por meio da transição oculta **Prosseguir**). Ao sair da tarefa **Manter recurso arquivado** ou **Manter processo arquivado** por meio da transição **Reativa recurso** ou **Reativa Processo**, a situação é finalizada e é acrescentada a situação **jus:andamento**. 
+5. Quando um processo sai da tarefa **Devolver Processo Corregedoria a origem** após devolução (por meio da transição oculta **Prosseguir**). Ao sair da tarefa **Manter recurso arquivado** ou **Manter processo arquivado** por meio da transição **Reativa recurso** ou **Reativa Processo**, a situação é finalizada e é acrescentada a situação **jus:andamento**.
+
+{{% notice note %}}
+Conforme descrito na seção de [Recursos Internos](/recursos/regras_negocio), o acionamento da opção de remover recurso já registrado (ícone lixeira) faz com que a situação processual de **Arquivado** (jus:arquivado) seja adicionada à capa processual.
+{{% /notice %}}
 
 ### jus:arquivoprov
 
