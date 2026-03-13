@@ -193,7 +193,11 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
   - Papel que exibe a aba Movimentações nos autos do processo - depende de outras retrições
   
 - **pje:sessao:permiteVisualizarVotos**
-  - Papel que libera a visualização de votos por meio da aba **Recursos e Sessões** dos autos digitais 
+  - Papel que libera a visualização de votos por meio da aba **Recursos e Sessões** dos autos digitais
+
+ - **pje:papel:permissaoModeloTodosLocais**
+  - Papel que libera a visualização de todos os modelos de documento, independente da localização do modelo
+  
    
 <!--	
 	/pages/Processo/RetificacaoAutuacao/updateRetificacaoAutuacao.seam
