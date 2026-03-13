@@ -198,7 +198,9 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
  - **pje:papel:permissaoModeloTodosLocais**
   - Papel que libera a visualização de todos os modelos de documento, independente da localização do modelo
   
-   
+ - **pje:papel:permissaoAlteracaoModelo**
+  - Papel que permite a edição de modelos de documento que estejam marcados como de **Edição Restrita**
+  
 <!--	
 	/pages/Processo/RetificacaoAutuacao/updateRetificacaoAutuacao.seam
 	pje:papel:visualizaSituacoesAtuais
