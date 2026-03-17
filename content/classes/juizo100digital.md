@@ -3,9 +3,9 @@ title: "Juízo 100% digital"
 date: 2026-03-17T15:19:03-03:00
 ---
 
-A configuração de competência é uma atividade permitida a perfis vinculados a administração do sistema. Ela fica disponível por meio do menu **Configuração - Competência - Competência**. Dentre as abas disponíveis na configuração de competência está a **CLASSES X JUÍZO 100% DIGITAL**. 
+A configuração de competência é uma atividade permitida a perfis vinculados a administração do sistema. Ela fica disponível por meio do menu **Configuração - Competência - Competência**. Dentre as abas disponíveis na configuração de competência está a **CLASSES X JUÍZO 100% DIGITAL**. Por meio da configuração de classes nesta aba, o usuário administrador permitirá ao usuário protocolador a solicitação do **Juízo 100% Digital** em seus processos.
 
-Para que o usuário protocolador possa solicitar o Juízo 100% Digital, por meio do protocolo de novos processos, a classe e os assuntos do processo devem ter sido informados. Caso o usuário possa selecionar também a competência do processo, ela também precisará ter sido selecionado. Só aí, na aba **PROTOCOLAR INICIAL** disponível no protocolo de novos processos, o sistema disponíbilizará a pergunta **Deseja solicitar juízo 100% digital?**, onde o usuário terá a oportunidade de marcar **Sim** caso deseje solicitar. 
+Para que o usuário protocolador possa solicitar o Juízo 100% Digital, por meio do protocolo de novos processos, a classe e os assuntos do processo devem ter sido informados. Caso o usuário possa selecionar também a competência do processo, ela também precisará ter sido selecionado. Só aí, na aba **PROTOCOLAR INICIAL** disponível no protocolo de novos processos, o sistema disponíbilizará a pergunta **Deseja solicitar juízo 100% digital?**, onde o usuário terá a oportunidade de marcar **Sim** caso deseje solicitar. Essa opção estará disponível caso a configuração da competência tenha sido devidamente realizada.
 
 Ao protocolar, o processo tramitará dessa forma dentro do PJe. 
 
