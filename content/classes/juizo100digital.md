@@ -10,10 +10,10 @@ Para que o usuário protocolador possa solicitar o Juízo 100% Digital, por meio
 Ao protocolar, o processo tramitará dessa forma dentro do PJe. 
 
 {{% notice note %}}
-Para processos já protocolados, o sistema permitirá alteração da marcação pela retificação da autuação se o conjunto competência+classe do processo permitir a marcação de Juízo 100% Digital.
+Para processos já protocolados, o sistema permitirá alteração da marcação pela retificação da autuação se o conjunto **competência+classe** do processo permitir a marcação de **Juízo 100% Digital**.
 {{% /notice %}}
 
 
 {{% notice note %}}
-Para remessas de processos marcados com **Juízo 100% Digital** entre instâncias da Justiça Eleitoral, caso seja o protocolo inicial do processo na instância de destino e o conjunto competência+classe do destino não permita essa marcação, o processo será protocolado com a referida seleção desmarcada..
+Para remessas de processos marcados com **Juízo 100% Digital** entre instâncias da Justiça Eleitoral, caso seja o protocolo inicial do processo na instância de destino e o conjunto **competência+classe** do destino não permita essa marcação, o processo será protocolado com a referida seleção desmarcada..
 {{% /notice %}}
