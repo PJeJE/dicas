@@ -57,7 +57,11 @@ Ao vincular um novo papel a um papel já existente, a alteração só terá efei
 {{% /notice %}}
 
 {{% notice note %}}
-As consultas do PJe que dependem de localizações às quais o usuário têm acesso são muito onerosas, assim como as consultas de papeis aos quais um usuário tem acesso. Dessa forma, a lista de localizações às quais o usuário tem acesso após se identificar ficam guardadas na memória do seu login. Ao alterar algum cadastro relacionado a localizações, se o PJe estiver validando autorização para determinadas funções, será necessário também o usuário acionar o botão **Sair** do PJe para que consiga fazer sua identificação (login) novamente e, aí sim, verificar os efeitos da alteração nas localizações. Verifique o exemplo a seguir: o usuário inativa uma localização física à qual um órgão julgador está vinculado. O órgão julgador ainda estará ativo, mas o usuário não consegue visualizá-lo na lista de órgãos disponíveis para configuração porque o sistema busca todos os órgãos julgadores filhos das localizações do usuário que estão ativas. O usuário, então, ativa a localização novamente e retorna à consulta de órgãos julgadores. Ainda assim, para visualizar, ele terá que se identificar novamente.  
+As consultas do PJe que dependem das localizações e dos perfis de acesso do usuário são computacionalmente mais complexas. Por isso, após o login, o sistema armazena em memória a lista de localizações às quais o usuário tem acesso.
+
+Assim, quando há alguma alteração cadastral relacionada a essas localizações, o PJe pode não refletir imediatamente essa mudança durante a sessão ativa. Nesses casos, é necessário que o usuário saia do sistema e realize novo login para que as permissões sejam atualizadas e os efeitos da alteração passem a ser considerados.
+
+Exemplo: ao inativar uma localização física vinculada a um órgão julgador, esse órgão deixa de aparecer nas opções disponíveis, pois o sistema considera apenas as localizações ativas do usuário. Mesmo que a localização seja reativada em seguida, o órgão julgador continuará indisponível até que o usuário realize novo login no sistema.
 {{% /notice %}}
 
 **Instruções para cadastro de papéis e suas vinculações:**
