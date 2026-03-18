@@ -58,9 +58,7 @@ Ao vincular um novo papel a um papel já existente, a alteração só terá efei
 
 {{% notice note %}}
 As consultas do PJe que dependem das localizações e dos perfis de acesso do usuário são computacionalmente mais complexas. Por isso, após o login, o sistema armazena em memória a lista de localizações às quais o usuário tem acesso.
-
 Assim, quando há alguma alteração cadastral relacionada a essas localizações, o PJe pode não refletir imediatamente essa mudança durante a sessão ativa. Nesses casos, é necessário que o usuário saia do sistema e realize novo login para que as permissões sejam atualizadas e os efeitos da alteração passem a ser considerados.
-
 Exemplo: ao inativar uma localização física vinculada a um órgão julgador, esse órgão deixa de aparecer nas opções disponíveis, pois o sistema considera apenas as localizações ativas do usuário. Mesmo que a localização seja reativada em seguida, o órgão julgador continuará indisponível até que o usuário realize novo login no sistema.
 {{% /notice %}}
 
