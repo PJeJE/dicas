@@ -13,9 +13,11 @@ Também é possível acessar a consulta pelo ícone da **lupa** disponível no *
 
 ![Tela de consulta interna](/imagens/consulta_2.jpg)
 
-A tela da consulta exibe uma variedade de campos de pesquisa, livres e tabelados, que podem ser utilizados de maneira isolada ou em conjunto, para filtrar o processo ou grupo de processos de acordo com os critérios desejados:
+A tela da consulta exibe uma variedade de campos de pesquisa, livres e tabelados, que podem ser utilizados de maneira isolada ou em conjunto, para filtrar o processo ou grupo de processos de acordo com os critérios desejados.
 
-![Tela de consulta interna](/imagens/consulta_3.jpg)
+{{% notice warning %}}
+Os resultados da consulta são apresentados ordenados por data de autuação, sendo que dia, hora, minutos e segundos são considerados para a esta ordenação.
+{{% /notice %}}
 
 ## Consulta de processos para servidor de outra instância:
 
