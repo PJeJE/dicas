@@ -202,7 +202,7 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
   - Papel que libera a visualização de votos por meio da aba **Recursos e Sessões** dos autos digitais
 
 - **pje:papel:permissaoModeloTodosLocais**
-  - Papel que libera a visualização de todos os modelos de documento, independente da localização do modelo
+  - Papel que libera a visualização de todos os modelos de documento, independente da localização do modelo. Para quem detém esse papel, a opção **Copiar Modelo** fica indisponível.
   
 - **pje:papel:permissaoAlteracaoModelo**
   - Papel que permite a edição de modelos de documento que estejam marcados como de **Edição Restrita**
