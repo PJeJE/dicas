@@ -55,7 +55,7 @@ Ao clicar em Continuar, o sistema abrirá o painel da sessão de julgamento para
 
 O Assessor de Plenário inicia a sessão
 
-Cada um dos gabinetes que compõem a sessão podem votar (em  geral, eles utilizam o Painel do magistrado na sessão).
+Cada um dos gabinetes que compõem a sessão podem votar (em  geral, eles utilizam o [Painel do magistrado na sessão](/sessaojulg/painel_magistrado), mas o próprio Assessor de plenário pode realizar as marcações de voto de cada vogal).
 
 Pelo caminho padrão, após inseridos os votos, o Assessor de plenário seleciona as deliberações de cada processo (julgado, adiado, pedido de vista, retirado de julgamento) e insere as proclamações de julgamento dos processos daquela sessão de acordo com o que foi decidido pelo colegiado e, em seguida, encerra a sessão. Após encerrada, o Assessor de plenário **Registra movimentação**, que é o momento onde o sistema gera todos os movimentos de deliberação, de acordo com a marcação de cada processo. Depois desse passo, ele gera as certidões de julgamento do processo e, se for a prática daquele tribunal, gera a ata da sessão de julgamento. Os processos seguirão nos gabinetes e na secretaria judiciária para as tarefas pertinentes de acordo com as marcações de cada processo.
 
