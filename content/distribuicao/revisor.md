@@ -18,7 +18,7 @@ Tal tarefa está disponível a partir da tarefa **Analisar determinação/Analis
 
 O nome do revisor pode ser verificado no autos digitais, na opção exibir mais detalhes do cabeçalho.
 
-Quando um processo está no fluxo de elaboração de decisão colegiada, na tarefa **Conferir relatório, voto e ementa,** o sistema verifica se o processo exige revisor, (verifica se exige ou se tem?) e isso foi selecionado no protocolo, ou se é de uma classe cuja a revisão está marcada como facultativa.
+Quando um processo está no fluxo de elaboração de decisão colegiada, na tarefa **Conferir relatório, voto e ementa,** o sistema verifica se o processo exige revisor (quando o processo é protocolado ou sua classe alterada, o sistema marca que o processo exige caso a classe esteja marcada como uma classe que exige revisão) ou se é de uma classe cuja revisão está marcada como facultativa.
 Satisfeita uma das duas condições acima, aparece uma transição para que o usuário envie o processo para o revisor. Quem receberá o processo será o revisor que aparece nos autos do processo.
 
 Quando a classe exige revisão, o processo só poderá ser pautado se o revisor tiver incluído o voto.
@@ -35,7 +35,7 @@ Esse procedimento de retirar da tarefa e colocar novamente é necessário porque
 
 Após finalizado o procedimento, conforme o caso, alterar novamente a configuração do colegiado ou da classe, para que novos processos protocolados não sejam afetados pela alteração.
 
-Nos casos em que o processo tem uma classe que exige revisão, mas o julgamento será do recurso o procedimento correto é marcar facultativo para exige revisão na classe antes de pautar o processo. Assim, quem envia o processo para a pauta é o relator, não o revisor. Depois, basta desfazer essa alteração na configuração da classe.
+Nos casos em que o processo tem uma classe que exige revisão, mas o julgamento será do recurso, o procedimento correto é marcar facultativo para exige revisão na classe antes de pautar o processo. Assim, quem envia o processo para a pauta é o relator, não o revisor. Depois, basta desfazer essa alteração na configuração da classe.
 
 Se o processo já tiver sido pautado, pode-se fazer o seguinte: 
 + Tirar da sessão (para processo com pauta fechada, o sistema gerará a certidão de cancelamento de pauta);
