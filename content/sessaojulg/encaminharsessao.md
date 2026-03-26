@@ -5,7 +5,7 @@ weight: 9
 menuTitle: "Procedimento para julgar processo em sessão"
 ---
 
-## Introdução
+## Procedimento padrão
 
 Um processo, ao ser protocolado no PJe por um usuário qualquer (pode ser procurador, advogado ou servidor), ele inicia sua vida na tarefa **Verificar e Certificar Dados do Processo**
 
@@ -72,3 +72,8 @@ Caso o gabinete encerre o fluxo de vista por engano, um novo fluxo de vista pode
 **Aguarda Julgamento - incluído em pauta**. Isso fará com que o sistema recupere a última sessão onde o processo não foi julgado e verifique se nessa sessão houve pedido de vista. Caso tenha ocorrido, o sistema encaminhará o fluxo de vista para o vistor. Caso contrário, abrirá o fluxo no gabinete do relator. Se for necessário, o gabinete pode utilizar a opção de **Escolher órgão julgador** para encaminhar para o real vistor.
 
 
+## Processo com revisor
+
+Com processos de classe que exigem revisão, o relator precisará enviar o processo para revisão após contruir seus documentos de sessão. A partir do **Conferir Relatório, Voto e Ementa**, o servidor poderá encaminhar o processo para o revisor por meio da transição **Remeter ao Membro Revisor**, que só aparece para processos que exijam revisão ou cuja classe judicial tenha a marcação de exigência do revisor como facultativa. O processo é então encaminhado para a tarefa **Analisar processo a ser julgado - Revisor**, disponível no gabinete do revisor. 
+
+A partir dessa tarefa, o servidor terá as seguintes opções de transições: **Liberar para julgamento - pauta presencial** e **Liberar para julgamento - pauta virtual**. Essas opções só estarão disponíveis para instalações onde a configuração do **Órgão Julgador Colegiado** do processo tiver a marcação **Quem pede pauta nos processos que possuem revisão?** como **Revisor**. As transições citadas farão com que o revisor libere o processo para a pauta escolhida (virtual ou presencial). O sistema iniciará o fluxo de acórdão e deixará o processo na tarefa **Aguarda Sessão de Julgamento** do relator. O revisor terá também a opção de transição **Liberar revisão (relator pedirá pauta)**, que envia o processo de volta ao gabinete do relator na tarefa **Processo liberado pelo revisor**. Nessa situação, o processo não estará liberado para pauta e o relator precisará realizar a ação de liberação. O relator terá disponíveis as transições **Processo liberado para julgamento sessão presencial** e **Processo liberado para julgamento sessão virtual**, que deixam o processo liberado para pauta na tarefa **Aguarda Sessão de Julgamento**. A transição **Devolver ao Conferir Relatório, Voto e Ementa** também está presente, que deixa o processo na tarefa **Conferir Relatório, Voto e Ementa**. Também está presente a transição **Devolver ao Membro Revisor**, que retorna o processo para **Analisar processo a ser julgador - Revisor**.
