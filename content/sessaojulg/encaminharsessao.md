@@ -60,7 +60,7 @@ Cada um dos gabinetes que compõem a sessão podem votar (em  geral, eles utiliz
 Pelo caminho padrão, após inseridos os votos, o Assessor de plenário seleciona as deliberações de cada processo (julgado, adiado, pedido de vista, retirado de julgamento) e insere as proclamações de julgamento dos processos daquela sessão de acordo com o que foi decidido pelo colegiado e, em seguida, encerra a sessão. Após encerrada, o Assessor de plenário **Registra movimentação**, que é o momento onde o sistema gera todos os movimentos de deliberação, de acordo com a marcação de cada processo. Depois desse passo, ele gera as certidões de julgamento do processo e, se for a prática daquele tribunal, gera a ata da sessão de julgamento. Os processos seguirão nos gabinetes e na secretaria judiciária para as tarefas pertinentes de acordo com as marcações de cada processo.
 
 
-== Registro de pedido de vista
+## Registro de pedido de vista
 
 Para registrar um pedido de vista, vc deverá colocar o processo em julgamento e registrar um pedido de vista em nome de um gabinete vogal qualquer e encerrar a sessão
 
