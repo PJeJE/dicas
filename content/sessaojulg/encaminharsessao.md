@@ -21,7 +21,7 @@ O relator do processo faz o seu voto, acompanhado dos outros documentos.
 
 Após finalizado, dele encaminha o processo para **Conferir Relatório Voto e Ementa** e depois para **Processo liberado para julgamento sessão presencial** (poderia ser virtual também), liberado o processo para ser pautado.
 
-Os documentos construídos podem ser liberados para visualização de outros gabinetes ou não, dependendo da vontade dele, por meio das marcações pertinentes em cada aba para cada documento (Relatório, Ementa e Voto).
+Os documentos construídos podem ser liberados para visualização de outros gabinetes ou não, dependendo da vontade dele, por meio das marcações pertinentes em cada aba para cada documento (**Relatório**, **Voto Relator** e **Ementa**).
 
 A partir desse momento, quem monta a sessão de julgamento incluindo esse processo é o **Assessor de Plenário**
 
