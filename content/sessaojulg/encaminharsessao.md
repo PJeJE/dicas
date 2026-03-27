@@ -27,17 +27,19 @@ A partir desse momento, quem monta a sessão de julgamento incluindo esse proces
 
 Esse perfil não tem órgão julgador vinculado, ele fica vinculado ao **Colegiado + Secretaria Judiciária**.
 
-O Assessor de plenário precisa criar a sessão de julgamento, que será do tipo Contínua ou não, dependendo da seleção feita por meio do passo **Processo liberado para julgamento sessão presencial** ou **Processo liberado para julgamento sessão virtual**
-
 Ele deverá acessar, pelo menu **Audiências e Sessões - Cadastro de sessão de julgamento**, a tela para criar sessão de julgamento
 
-Deve criar a sessão de julgamento com a marcação de Contínua ou não de acordo com o selecionado aqui, ou seja, contínua para virtual, não contínua para presencial, e preencher os demais campos obrigatórios.
+O Assessor de plenário precisa criar a sessão de julgamento, que será do tipo **Contínua** ou não (contínua para virtual, não contínua para presencial) e preencher os demais campos obrigatórios. Os processos que poderão ser incluídos na sessão do tipo **Contínua** foram liberados no gabinete do relator por meio da transição **Processo liberado para julgamento sessão virtual** e os processos que poderão ser incluídos na sessão com a marcação de **Contínua** como **Não** foram liberados por meio da transição  **Processo liberado para julgamento sessão presencial**.
 
-Depois de criada a sessão, ele deve ir ao menu **Audiências e Sessões - Relação de julgamento**. Será apresentada uma tela com um calendário. Ele deve selecionar o dia utilizado para a sessão que ele criou
+Se pretende utilizar blocos de julgamento (alguns regionais chamam essa opção de listas), de fazer a seleção adequada. 
+
+Depois de criada a sessão, ele deve ir ao menu **Audiências e Sessões - Relação de julgamento**. Será apresentada uma tela com um calendário. Ele deve selecionar o dia utilizado para a sessão que ele criou.
 
 A tela da relação de julgamento será apresentada ao usuário.
 
 Ele deve ir na aba **Aptos para inclusão em pauta** e selecionar o processo cujo relator fez o voto, relatório e ementa pela tarefa respectiva pela qual já passamos. Ele deve selecionar tantos processos quantos forem os desejados para serem incluídos naquela sessão. 
+
+Outros processos que já passaram por outras sessõoes podem estar disponíveis nas outras abas dessa tela. 
 
 Após selecionar os processos para incluir em pauta, ele deve selecionar o botão **Fechar pauta** na aba **Relação de julgamento**
 
