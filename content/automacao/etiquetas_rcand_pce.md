@@ -5,23 +5,109 @@ menuTitle: "Automação de etiquetas RCAND e PCE"
 weight: 3
 ---
 
+**Automação de Etiquetas: Registro de Candidatura (RCAND)**
 
-Em conjunto com o TRE-SP, foram desenvolvidos ajustes no fluxo do PJe de primeiro grau para, de acordo com a tramitação e com a presença ou ausência de alguns documentos no processo, permitir que o sistema vincule etiquetas automaticamente de forma a sinalizar ao servidor a situação de processos RCAND e PCE quanto à necessidade de documentos obrigatórios para o prosseguimento da tramitação do processo.
+**1. Objetivo**
 
-**Protocolo para compartilhamento da ferramenta**
+A funcionalidade de automação de etiquetas foi desenvolvida para otimizar a análise de processos de Registro de Candidatura (RCAND). Ao ser acionada, ela verifica automaticamente a presença ou ausência de documentos obrigatórios, aplicando etiquetas que sinalizam o status de cada processo.
+Isso permite que o servidor identifique rapidamente as pendências documentais, garantindo maior agilidade na tramitação.
 
-A solução está em todos os ambientes de produção do PJe da Justiça Eleitoral de primeiro grau. Outras iniciativas para automatizar a vinculação de etiquetas podem ser desenvolvidas. Para solicitação de novas iniciativas, deve-se detalhar os requisitos e enviar a solicitação via oficio à presidência do TSE aos cuidados da Assessoria do PJe
+**2. Como Funciona**
+
+A automação é iniciada pela transição *"Remeter para automação de etiquetas RCand"*. Ao ser acionada, o sistema executa duas ações principais:
+	Limpeza: Remove todas as etiquetas anteriores que começam com o prefixo PJE_IA_. Isso garante que a análise seja sempre baseada no estado atual do processo.
+	Aplicação: Realiza uma nova varredura dos documentos e aplica as etiquetas atualizadas (PJE_IA_OK para documentos presentes e PJE_IA_Pendente para ausentes).
+
+**3. Regras de Disponibilidade**
+
+A transição para automação de etiquetas está disponível conforme as seguintes condições:
+  •	Classe Processual: Exclusivamente para a classe Registro de Candidatura (RCAND).
+  •	Fluxo: Disponível em todas as instâncias (1º, 2º e 3º Graus).
+  •	Tarefas:
+      o	1º Grau: Disponível a partir das tarefas de análise do processo.
+      o	2º e 3º Graus: Unidade de Autuação: Disponível na tarefa "Verificar e Certificar Dados". A automação deve ser executada através do menu esquerdo, na funcionalidade "Movimentar em Lote". Unidade de Processamento:    Disponível a partir das tarefas de análise do processo.
+
+**4. Documentos Verificados**
+
+O sistema busca pelos seguintes tipos de documentos no processo:
+
+•	Declaração de bens
+
+•	Certidão Criminal da Justiça Estadual de 1º grau
+
+•	Certidão Criminal da Justiça Estadual de 2º grau
+
+•	Certidão Criminal da Justiça Federal de 1º grau
+
+•	Certidão Criminal da Justiça Federal de 2º grau
+
+•	Comprovante de escolaridade
+
+•	Documento de identificação (Identidade)
+
+•	Proposta de governo
+
+Observação: A validação da Proposta de Governo é realizada em todos os cargos, exceto: Vereador, Senador e Deputado Federal/Estadual/Distrital.
+
+**5. Etiquetas Geradas**
+As etiquetas indicam o status de cada documento verificado.
+
+**Etiquetas de Conformidade (Documento Encontrado)**
+
+•	PJE_IA_OK - Declaração de bens
+
+•	PJE_IA_OK - Certidão Criminal da Justiça Estadual de 1º grau
+
+•	PJE_IA_OK - Certidão Criminal da Justiça Estadual de 2º grau
+
+•	PJE_IA_OK - Certidão Criminal da Justiça Federal 1º de grau
+
+•	PJE_IA_OK - Certidão Criminal da Justiça Federal de 2º grau
+
+•	PJE_IA_OK - Comprovante de escolaridade
+
+•	PJE_IA_OK - Documento de identificação
+
+•	PJE_IA_OK - Proposta de governo
+
+**Etiquetas de Pendência (Documento Ausente)**
+
+•	PJE_IA_Pendente - Declaração de bens
+
+•	PJE_IA_Pendente - Certidão Criminal da Justiça Estadual de 1º grau
+
+•	PJE_IA_Pendente - Certidão Criminal da Justiça Estadual de 2º grau
+
+•	PJE_IA_Pendente - Certidão Criminal da Justiça Federal 1º de grau
+
+•	PJE_IA_Pendente - Certidão Criminal da Justiça Federal de 2º grau
+
+•	PJE_IA_Pendente - Comprovante de escolaridade
+
+•	PJE_IA_Pendente - Documento de identificação
+
+•	PJE_IA_Pendente - Proposta de governo
+
+**Etiqueta de Status Geral**
+
+•	PJE_IA_Sem Documentação: Esta etiqueta é aplicada como um alerta geral sempre que pelo menos um dos documentos obrigatórios da lista estiver ausente no processo.
 
 
-**Unidade(s) responsável(eis) para esclarecimentos técnicos e negociais**
 
-Contato: Assessoria do PJe - aspje@tse.jus.br
+
+
+
+
+
+
+**Automação de Etiquetas: Prestações de contas**
+
 
 **Instruções sobre funcionamento**
 
 Na liberação da funcionalidade de automação de etiquetas, foram divulgadas algumas instruções sobre o funcionamento que replicamos abaixo. Alternativamente, [clique aqui](https://pjeje.github.io/dicas/automacao/pce_com_sinapses/) para saber mais sobre as regras gerais das etiquetas da PCE e suas automações.
 
-Nos ambientes do primeiro grau, ao ser utilizada as transições **Remeter para automação de etiquetas PCE** (processos da classe PCE) ou **Remeter para automação de etiquetas RCand** (processos da classe RCAND), o sistema vinculará, de forma automática, algumas etiquetas para sinalizar presença ou falta de alguns documentos. As transições estão disponíveis a partir das tarefas de análise, conforme classe processual. Sempre que acionadas, o sistema apagará as etiquetas com o prefixo PJE_IA e aplicará novas etiquetas de acordo com a ausência ou presença dos documentos. 
+Nos ambientes do primeiro grau, ao ser utilizada a transição **Remeter para automação de etiquetas PCE** (processos da classe PCE) o sistema vinculará, de forma automática, algumas etiquetas para sinalizar presença ou falta de alguns documentos. A transição está disponível a partir das tarefas de análise. Sempre que acionadas, o sistema apagará as etiquetas com o prefixo PJE_IA e aplicará novas etiquetas de acordo com a ausência ou presença dos documentos. 
 
 Tipos de Documentos relativos à Prestação de Contas Eleitorais
 
@@ -45,36 +131,10 @@ Caso nenhum dos documentos acima estiver ausente, serão vinculadas as seguintes
 + PJE_IA_REVISAR_AUTUAÇÃO
 
 
-Tipos de Documentos relativos à Registro de Candidatura 
 
-+ Declaração de bens 
-+ Certidão Criminal da Justiça Estadual de 1º grau 
-+ Certidão Criminal da Justiça Estadual de 2º grau 
-+ Certidão Criminal da Justiça Federal de 1º grau 
-+ Certidão Criminal da Justiça Federal de 2º grau 
-+ Comprovante de escolaridade 
-+ Documento de identificação ou Identifidade
-+ Proposta de governo (validação apenas para processos que não sejam relacionados ao cargo Vereador
 
-Etiquetas abaixo serão apresentadas na falta ou ausência dos documentos respectivos
 
-+ PJE_IA_Sem Documentação – Qualquer documento da lista abaixo que não esteja presente, a etiqueta também será apresentada
-+ PJE_IA_OK - Declaração de bens
-+ PJE_IA_OK - Certidão Criminal da Justiça Estadual de 1º grau 
-+ PJE_IA_OK - Certidão Criminal da Justiça Estadual de 2º grau
-+ PJE_IA_OK - Certidão Criminal da Justiça Federal 1º de grau 
-+ PJE_IA_OK - Certidão Criminal da Justiça Federal de 2º grau
-+ PJE_IA_OK - Comprovante de escolaridade 
-+ PJE_IA_OK - Documento de identificação 
-+ PJE_IA_OK - Proposta de governo 
-+ PJE_IA_Pendente - Declaração de bens 
-+ PJE_IA_Pendente - Certidão Criminal da Justiça Estadual de 1º grau 
-+ PJE_IA_Pendente - Certidão Criminal da Justiça Estadual de 2º grau 
-+ PJE_IA_Pendente - Certidão Criminal da Justiça Federal 1º de grau 
-+ PJE_IA_Pendente - Certidão Criminal da Justiça Federal de 2º grau 
-+ PJE_IA_Pendente - Comprovante de escolaridade 
-+ PJE_IA_Pendente - Documento de identificação 
-+ PJE_IA_Pendente - Proposta de governo
+
 
 **Automação de etiquetas (PC-PP)**
 
