@@ -26,13 +26,10 @@ A transição para automação de etiquetas está disponível conforme as seguin
   
   •	Fluxo: Disponível em todas as instâncias (1º, 2º e 3º Graus).
   
-  •	Tarefas:
+  •	Tarefas: **1º Grau**: Disponível a partir das tarefas de análise do processo. **2º e 3º Graus**: Unidade de Autuação (Disponível na tarefa "Verificar e Certificar Dados". A automação deve ser executada através do menu esquerdo, na funcionalidade "Movimentar em Lote") -  Unidade de Processamento: (Disponível a partir das tarefas de análise do processo).
   
-      o	1º Grau: Disponível a partir das tarefas de análise do processo.
+    
 	  
-      o	2º e 3º Graus: Unidade de Autuação: Disponível na tarefa "Verificar e Certificar Dados". A automação deve ser executada através do menu esquerdo, na funcionalidade "Movimentar em Lote". Unidade de Processamento:  
-	  Disponível a partir das tarefas de análise do processo.
-
 **4. Documentos Verificados**
 
 O sistema busca pelos seguintes tipos de documentos no processo:
