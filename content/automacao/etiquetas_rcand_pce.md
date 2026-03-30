@@ -21,11 +21,17 @@ A automação é iniciada pela transição *"Remeter para automação de etiquet
 **3. Regras de Disponibilidade**
 
 A transição para automação de etiquetas está disponível conforme as seguintes condições:
+
   •	Classe Processual: Exclusivamente para a classe Registro de Candidatura (RCAND).
+  
   •	Fluxo: Disponível em todas as instâncias (1º, 2º e 3º Graus).
+  
   •	Tarefas:
+  
       o	1º Grau: Disponível a partir das tarefas de análise do processo.
-      o	2º e 3º Graus: Unidade de Autuação: Disponível na tarefa "Verificar e Certificar Dados". A automação deve ser executada através do menu esquerdo, na funcionalidade "Movimentar em Lote". Unidade de Processamento:    Disponível a partir das tarefas de análise do processo.
+	  
+      o	2º e 3º Graus: Unidade de Autuação: Disponível na tarefa "Verificar e Certificar Dados". A automação deve ser executada através do menu esquerdo, na funcionalidade "Movimentar em Lote". Unidade de Processamento:  
+	  Disponível a partir das tarefas de análise do processo.
 
 **4. Documentos Verificados**
 
