@@ -103,6 +103,23 @@ Existem também documentos que, se forem inseridos diretamente no processo judic
  
 O PJe também atualiza no CAND a informação do(a) relator(a) do processo caso seja alterada no PJe.
 
+## Movimentos/Informações CAND para PJe
+
+Alguns procedimentos no CAND resultam em atualizações no PJe. Essas atualizações são realizadas por meio do registro de movimentos processuais. Os movimentos lançados no PJe em decorrência de alterações no CAND são os seguintes:
+• Identificada possível dissidência partidária (Código: 12655)
+• Partido movimentado (Código: 12657)
+• Determinada a movimentação de partido/federação (Código: 12664)
+• Reaberto o sistema de candidaturas ** (Código: 14212)
+• Fechado o sistema de candidaturas ** (Código: 12658)
+• Alteração de candidato(a)** (alteração de dados do(a) candidato(a): nome para urna (Código: 15097)**, foto (Código: 15098), número (Código: 15099), data de nascimento (Código: 15100)
+• Registrado o falecimento no sistema de registro de candidaturas** (Código: 15157)
+• Registrada a renúncia no sistema de registro de candidaturas** (Código: 15158) 
+
+Nas operações marcadas com *, o movimento é lançado independentemente da instância do processo.
+
+Além do movimento, há também a atualização da prioridade eleito(a)/não eleito(a), que afeta a tramitação processual do processo no PJe
+
+
 ## Detalhamento gráfico das integrações
 ![Integração CAND PJE](/imagens/integracaocandpje.jpg)
 
