@@ -26,11 +26,11 @@ Dentro do PJe, são protocolados os processos judiciais por meio de uma fila de 
 
 Ao peticionar, são juntados os documentos iniciais e são realizadas as associações entre processos existentes. As associações de processos seguem as regras a seguir:
 
-▪ Prevenção entre DRAPs (mesmo CNPJ do partido e da federação independente do cargo – majoritário e proporcional)
-▪ Prevenção entre RRC e RRCI aos DRAPs (RRCI vai pelo CNPJ do partido/da coligação/federação)
-▪ Prevenção de RRC de vaga remanescente vai para o DRAP prevento (O CAND repassa, via integração, o número do processo do DRAP prevento)
-▪ Associar RRCs de cargos majoritários da mesma chapa (mesmo CNPJ do partido/da coligação/federação da mesma abrangência)
-▪ Associar processos de substituto e substituído (O CAND informa, via integração, o número do processo do substituído)
+- Prevenção entre DRAPs (mesmo CNPJ do partido e da federação independente do cargo – majoritário e proporcional)
+- Prevenção entre RRC e RRCI aos DRAPs (RRCI vai pelo CNPJ do partido/da coligação/federação)
+- Prevenção de RRC de vaga remanescente vai para o DRAP prevento (O CAND repassa, via integração, o número do processo do DRAP prevento)
+- Associar RRCs de cargos majoritários da mesma chapa (mesmo CNPJ do partido/da coligação/federação da mesma abrangência)
+- Associar processos de substituto e substituído (O CAND informa, via integração, o número do processo do substituído)
 
 {{% notice note %}}
 Partidos e federações sem CNPJ serão inseridos como Ente e Autoridade no PJe associados a uma pessoa jurídica com o CNPJ Nacional
@@ -64,29 +64,29 @@ Ao finalizar o peticionamento no PJe, as informações de número do processo e 
 
 Após o peticionamento do processo no PJe, podem ocorrer atualizações de documentos no CAND que devem ser refletidas no PJe. Os documentos que são juntados no PJe ao serem atualizados no CAND são os seguintes:
 
-• Edital de pedido de registro (Código: 569)
-• Edital de pedido de registro individual (Código: 569)
-• Edital de vaga remanescente (Código: 569)
-• Edital de intimação de contrarrazões de recurso (Código: 569)
-• Edital de intimação de despacho (Código: 569)
-• Edital de substituição (Código: 569)
-• Informação de candidato(a) (Código: 587)
-• Informação de coligação (Código: 588)
-• Informação de partido (Código: 589)
-• Informação de federação (Código: C6000101)
-• Mapa de documentação de federação (Código: C6000099)
-• Mapa documentação de coligação (Código: 648)
-• Mapa documentação de partido (Código: 649)
-• Nome Social (Código: 669)
-• Renúncia de candidatura (Código: C6000100)
-• Declaração de Bens (Código: 14649)
-• Atas de convenção (Código: 14643)
-• Requerimento para o registro analítico (Código: 670)
-• Requisitos para o registro – Dados do Cadastro Eleitoral e FILIA (Código: 670)
-• Intimação de diligência do(a) candidato(a) (Intimação de diligência) (Código: 805)
-• Intimação de diligência do partido (Intimação de diligência) (Código: 805)
-• Intimação de diligência da coligação (Intimação de diligência) (Código: 805)
-• Intimação de diligência da federação (Intimação de diligência) (Código: 805)
+- Edital de pedido de registro (Código: 569)
+- Edital de pedido de registro individual (Código: 569)
+- Edital de vaga remanescente (Código: 569)
+- Edital de intimação de contrarrazões de recurso (Código: 569)
+- Edital de intimação de despacho (Código: 569)
+- Edital de substituição (Código: 569)
+- Informação de candidato(a) (Código: 587)
+- Informação de coligação (Código: 588)
+- Informação de partido (Código: 589)
+- Informação de federação (Código: C6000101)
+- Mapa de documentação de federação (Código: C6000099)
+- Mapa documentação de coligação (Código: 648)
+- Mapa documentação de partido (Código: 649)
+- Nome Social (Código: 669)
+- Renúncia de candidatura (Código: C6000100)
+- Declaração de Bens (Código: 14649)
+- Atas de convenção (Código: 14643)
+- Requerimento para o registro analítico (Código: 670)
+- Requisitos para o registro – Dados do Cadastro Eleitoral e FILIA (Código: 670)
+- Intimação de diligência do(a) candidato(a) (Intimação de diligência) (Código: 805)
+- Intimação de diligência do partido (Intimação de diligência) (Código: 805)
+- Intimação de diligência da coligação (Intimação de diligência) (Código: 805)
+- Intimação de diligência da federação (Intimação de diligência) (Código: 805)
 
 
 ## Enviar documentos/informações para o CAND
@@ -106,14 +106,14 @@ O PJe também atualiza no CAND a informação do(a) relator(a) do processo caso 
 ## Movimentos/Informações CAND para PJe
 
 Alguns procedimentos no CAND resultam em atualizações no PJe. Essas atualizações são realizadas por meio do registro de movimentos processuais. Os movimentos lançados no PJe em decorrência de alterações no CAND são os seguintes:
-• Identificada possível dissidência partidária (Código: 12655)
-• Partido movimentado (Código: 12657)
-• Determinada a movimentação de partido/federação (Código: 12664)
-• Reaberto o sistema de candidaturas ** (Código: 14212)
-• Fechado o sistema de candidaturas ** (Código: 12658)
-• Alteração de candidato(a)** (alteração de dados do(a) candidato(a): nome para urna (Código: 15097)**, foto (Código: 15098), número (Código: 15099), data de nascimento (Código: 15100)
-• Registrado o falecimento no sistema de registro de candidaturas** (Código: 15157)
-• Registrada a renúncia no sistema de registro de candidaturas** (Código: 15158) 
+- Identificada possível dissidência partidária (Código: 12655)
+- Partido movimentado (Código: 12657)
+- Determinada a movimentação de partido/federação (Código: 12664)
+- Reaberto o sistema de candidaturas ** (Código: 14212)
+- Fechado o sistema de candidaturas ** (Código: 12658)
+- Alteração de candidato(a)** (alteração de dados do(a) candidato(a): nome para urna (Código: 15097)**, foto (Código: 15098), número (Código: 15099), data de nascimento (Código: 15100)
+- Registrado o falecimento no sistema de registro de candidaturas** (Código: 15157)
+- Registrada a renúncia no sistema de registro de candidaturas** (Código: 15158) 
 
 Nas operações marcadas com *, o movimento é lançado independentemente da instância do processo.
 
@@ -126,20 +126,20 @@ O programa de Identificação Civil Nacional [ICN](https://www.justicaeleitoral.
 
 ## Envio de Documentos para o PJe (Classe RCAND)
 
-• Outros documentos (Código: 106)
-• Notícia de inelegibilidade (Código: 33)
-• Foto (Código: 92)
-• Comprovante de escolaridade (Código: 286)
-• Comprovante de desincompatibilização (Código: 285)
-• Declaração de bens (Código: 14649)
-• Proposta de governo (Código: 41)
-• Identidade (Código: 65)
-• Certidão criminal da Justiça Federal de 1º grau (Código: 14646)
-• Certidão criminal da Justiça Federal de 2º grau (Código: 14645)
-• Certidão criminal da Justiça Estadual de 1º grau (Código: 14644)
-• Certidão criminal da Justiça Estadual de 2º grau (Código: 14647)
-• Certidão criminal de foro por prerrogativa de função (Código: 14648)
-• Renúncia de candidatura (Código: C6000100)
+- Outros documentos (Código: 106)
+- Notícia de inelegibilidade (Código: 33)
+- Foto (Código: 92)
+- Comprovante de escolaridade (Código: 286)
+- Comprovante de desincompatibilização (Código: 285)
+- Declaração de bens (Código: 14649)
+- Proposta de governo (Código: 41)
+- Identidade (Código: 65)
+- Certidão criminal da Justiça Federal de 1º grau (Código: 14646)
+- Certidão criminal da Justiça Federal de 2º grau (Código: 14645)
+- Certidão criminal da Justiça Estadual de 1º grau (Código: 14644)
+- Certidão criminal da Justiça Estadual de 2º grau (Código: 14647)
+- Certidão criminal de foro por prerrogativa de função (Código: 14648)
+- Renúncia de candidatura (Código: C6000100)
 
 ## Detalhamento gráfico das integrações
 ![Integração CAND PJE](/imagens/integracaocandpje.jpg)
