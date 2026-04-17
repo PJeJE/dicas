@@ -24,7 +24,7 @@ Após as ações pertinentes no CAND, o servidor aciona o PJe por meio de opçã
 
 Dentro do PJe, são protocolados os processos judiciais por meio de uma fila de integrações. 
 
-Após o peticionamento, são juntados os documentos iniciais e são realizadas as associações entre processos existentes. As associações de processos seguem as regras a seguir:
+Ao peticionar, são juntados os documentos iniciais e são realizadas as associações entre processos existentes. As associações de processos seguem as regras a seguir:
 
 ▪ Prevenção entre DRAPs (mesmo CNPJ do partido e da federação independente do cargo – majoritário e proporcional)
 ▪ Prevenção entre RRC e RRCI aos DRAPs (RRCI vai pelo CNPJ do partido/da coligação/federação)
@@ -32,36 +32,76 @@ Após o peticionamento, são juntados os documentos iniciais e são realizadas a
 ▪ Associar RRCs de cargos majoritários da mesma chapa (mesmo CNPJ do partido/da coligação/federação da mesma abrangência)
 ▪ Associar processos de substituto e substituído (O CAND informa, via integração, o número do processo do substituído)
 
-Documentos que são utilizados nesse peticionamento inicial:
-
-• Petição (DRAP, RRC e RRCI com dados anonimizados)
-– Original, substituto e remanescente
-• Anexos:
-RRC/RRCI sigiloso com dados anonimizados
-Comprovantes:
-- Desincompatibilização (anonimizado) (Código: 285)
-- Dissidência (Código: 21)
-- Identificação (RG ou CNH) (Código: 65) (sigiloso)
-- Escolaridade (anonimizado) (Código: 286)
-- Proposta de governo (Código: 41)
-- Certidões (Código: 6000014)
-- Declaração de bens (Código: 14649)
-- Atas de convenção (Código: 14643)
-- Certidões criminais (anonimizado)
-- Certidão criminal da Justiça Federal de 1º grau
-(Código: 14646)
-- Certidão criminal da Justiça Federal de 2º grau
-(Código: 14645)
-- Certidão criminal da Justiça Estadual de 1º grau
-(Código: 14644)
-- Certidão criminal da Justiça Estadual de 2º grau
-(Código: 14647)
-- Certidão criminal de foro por prerrogativa de função
-(Código: 14648)
-
 {{% notice note %}}
 Partidos e federações sem CNPJ serão inseridos como Ente e Autoridade no PJe associados a uma pessoa jurídica com o CNPJ Nacional
 {{% /notice %}}
+
+Documentos que são utilizados nesse peticionamento inicial:
+
+- Petição (DRAP, RRC e RRCI com dados anonimizados)
+  - Original, substituto e remanescente
+- Anexos:
+  - RRC/RRCI sigiloso com dados anonimizados
+  - Comprovantes:
+    - Desincompatibilização (anonimizado) (Código: 285)
+    - Dissidência (Código: 21)
+    - Identificação (RG ou CNH) (Código: 65) (sigiloso)
+    - Escolaridade (anonimizado) (Código: 286)
+    - Proposta de governo (Código: 41)
+    - Certidões (Código: 6000014)
+    - Declaração de bens (Código: 14649)
+    - Atas de convenção (Código: 14643)
+    - Certidões criminais (anonimizado)
+    - Certidão criminal da Justiça Federal de 1º grau (Código: 14646)
+    - Certidão criminal da Justiça Federal de 2º grau (Código: 14645)
+    - Certidão criminal da Justiça Estadual de 1º grau (Código: 14644)
+    - Certidão criminal da Justiça Estadual de 2º grau (Código: 14647)
+    - Certidão criminal de foro por prerrogativa de função (Código: 14648)
+
+Ao finalizar o peticionamento no PJe, as informações de número do processo e de nome do relator são retornadas ao CAND.
+
+## Enviar documentos (pós-peticionamento)
+
+Após o peticionamento do processo no PJe, podem ocorrer atualizações de documentos no CAND que devem ser refletidas no PJe. Os documentos que são juntados no PJe ao serem atualizados no CAND são os seguintes:
+
+• Edital de pedido de registro (Código: 569)
+• Edital de pedido de registro individual (Código: 569)
+• Edital de vaga remanescente (Código: 569)
+• Edital de intimação de contrarrazões de recurso (Código: 569)
+• Edital de intimação de despacho (Código: 569)
+• Edital de substituição (Código: 569)
+• Informação de candidato(a) (Código: 587)
+• Informação de coligação (Código: 588)
+• Informação de partido (Código: 589)
+• Informação de federação (Código: C6000101)
+• Mapa de documentação de federação (Código: C6000099)
+• Mapa documentação de coligação (Código: 648)
+• Mapa documentação de partido (Código: 649)
+• Nome Social (Código: 669)
+• Renúncia de candidatura (Código: C6000100)
+• Declaração de Bens (Código: 14649)
+• Atas de convenção (Código: 14643)
+• Requerimento para o registro analítico (Código: 670)
+• Requisitos para o registro – Dados do Cadastro Eleitoral e FILIA (Código: 670)
+• Intimação de diligência do(a) candidato(a) (Intimação de diligência) (Código: 805)
+• Intimação de diligência do partido (Intimação de diligência) (Código: 805)
+• Intimação de diligência da coligação (Intimação de diligência) (Código: 805)
+• Intimação de diligência da federação (Intimação de diligência) (Código: 805)
+
+
+## Enviar documentos/informações para o CAND
+
+Existem também documentos que, se forem inseridos diretamente no processo judicial no PJe, devem ser refletidos no CAND. Os documentos que são atualizados no CAND ao serem juntados no PJe são os seguintes:
+
+- Proposta de governo (Código: 41)
+- Certidões criminais:
+  - Certidão criminal da Justiça Federal de 1º grau (Código: 14646)
+  - Certidão criminal da Justiça Federal de 2º grau (Código: 14645)
+  - Certidão criminal da Justiça Estadual de 1º grau (Código: 14644)
+  - Certidão criminal da Justiça Estadual de 2º grau (Código: 14647)
+  - Certidão criminal de foro por prerrogativa de função (Código: 14648)
+ 
+O PJe também atualiza no CAND a informação do(a) relator(a) do processo caso seja alterada no PJe.
 
 ## Detalhamento gráfico das integrações
 ![Integração CAND PJE](/imagens/integracaocandpje.jpg)
