@@ -20,4 +20,16 @@ Para redistribuições, existe a posssibilidade do servidor selecionar, como mot
 Informação apenas para administradores: A conexão registrada, para o caso de tarefas de fluxo configuradas com a variável do tipo **frame** de nome **Processo_Fluxo_prevencao_analiseProcessosPreventos**, será exibida na referida tarefa do processo. Caso a conexão seja confirmada ou negada (na coluna **Prevento** da tarefa, selecionar **Prevento** ou **Não prevento** e depois selecionar **Continuar**), a conexão deixará de ser exibida na tarefa. A opção **Continuar** só estará disponível se a variável de fluxo **pje:fluxo:confirmaPrevencao** estiver configurada nas ações de eventos do fluxo. O usuário administrador pode também remover a variável **Processo_Fluxo_prevencao_analiseProcessosPreventos** da configuração da tarefa no fluxo e a pendência de confirmação deixará de ser exibida(botão de lixeira na lista **Variável** da tarefa no fluxo). Essa exibição não afeta em nada a tramitação do processo. 
 {{% /notice %}}
 
+## Redistribuição em lote
+
+A redistribuição em lote é uma opção disponível por meio do painel de tarefas mediante configuração de fluxo. 
+
+Quando disponível, ela só será possível para o motivo **Determinação Judicial**. Os tipos de distribuição vinculados a esse motivo serão **Sorteio** e, caso a instalação do PJe esteja com o parâmetro **listaAgrupamentosPrevencao260JE** ativo e alimentado com os valores pertinentes.
+
+{{% notice %}}
+Detalhamentos sobre o funcionamento do parâmetro **listaAgrupamentosPrevencao260JE** podem ser encontrados na seção na seção do [Artigo 260 do código eleitoral](distribuicao/260). 
+{{% /notice %}}
+
+Temos também a opção de redistribuição em lote por meio de uma funcionalidade disponível diretamente no menu do sistema para papel específico. Detalhamentos sobre o funcionamento dessa funcionalidade podem ser encontrados no [manual](docs/manual_redis_sucessao_em_lote.pdf)
+
 
