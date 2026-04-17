@@ -5,7 +5,7 @@ weight = 23
 chapter = true
 pre = "<b>22. </b>"
 +++
-{{% children  %}}
+
 ### Seção 22
 
 # Peticionamento avulso
@@ -18,4 +18,4 @@ Informações sobre o **Peticionamento avulso** e o acesso à ferramenta estão 
 O usuário e a senha que devem ser utilizados no acesso são os mesmos cadastrados no aplicativo e-Título, sendo a instalação do aplicativo obrigatória no celular do usuário que acessará o **Peticionamento avulso**, conforme detalhamento no sítio da ferramenta. 
 {{% /notice %}}
 
-
+{{% children  %}}
