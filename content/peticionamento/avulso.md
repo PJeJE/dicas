@@ -1,6 +1,9 @@
-
-
-# Peticionamento avulso
+---
+title: "Peticionamento avulso"
+date: 2026-04-17T15:00:45-03:00
+weight: 1
+menuTitle: "Peticionamento avulso"
+---
 
 O **Peticionamento avulso** é uma ferramenta que permite a partidos políticos, candidatos e cidadãos apresentarem petições e documentos nos processos de **Registro de Candidaturas** já autuados no PJe sem a necessidade de utilização de certificado digital (token).
 
