@@ -4,8 +4,6 @@ date: 2026-04-17T15:00:45-03:00
 weight: 1
 menuTitle: "Registro de candidaturas"
 ---
-# Registro de candidaturas
-
 O processo de negócio do **Registro de candidaturas** envolve diversos passos e sistemas da Justiça Eleitoral. 
 
 Uma característica inerente a essa questão é que pedidos de **Registro de candidaturas** e pedidos de **Demonstrativo de regularidade de atos partidários** serão sempre representados no PJe por processos judiciais. 
