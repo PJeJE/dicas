@@ -37,7 +37,8 @@ Após o peticionamento, são juntados os documentos iniciais e são realizadas a
 Partidos e federações sem CNPJ serão inseridos como Ente e Autoridade no PJe associados a uma pessoa jurídica com o CNPJ Nacional
 {{% /notice %}}
 
-
 ## Detalhamento gráfico das integrações
+
+integracaocandpje.jpg
 
 
