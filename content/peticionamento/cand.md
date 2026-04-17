@@ -119,6 +119,27 @@ Nas operações marcadas com *, o movimento é lançado independentemente da ins
 
 Além do movimento, há também a atualização da prioridade eleito(a)/não eleito(a), que afeta a tramitação processual do processo no PJe
 
+## Recebimento de informação de ICN
+
+O programa de Identificação Civil Nacional [ICN](https://www.justicaeleitoral.jus.br/identificacao-civil-nacional/) criou a a Base de Dados da Identificação Civil Nacional. A informação de óbito de candidato, caso ocorra, é attualizada no PJe.  
+
+
+## Envio de Documentos para o PJe (Classe RCAND)
+
+• Outros documentos (Código: 106)
+• Notícia de inelegibilidade (Código: 33)
+• Foto (Código: 92)
+• Comprovante de escolaridade (Código: 286)
+• Comprovante de desincompatibilização (Código: 285)
+• Declaração de bens (Código: 14649)
+• Proposta de governo (Código: 41)
+• Identidade (Código: 65)
+• Certidão criminal da Justiça Federal de 1º grau (Código: 14646)
+• Certidão criminal da Justiça Federal de 2º grau (Código: 14645)
+• Certidão criminal da Justiça Estadual de 1º grau (Código: 14644)
+• Certidão criminal da Justiça Estadual de 2º grau (Código: 14647)
+• Certidão criminal de foro por prerrogativa de função (Código: 14648)
+• Renúncia de candidatura (Código: C6000100)
 
 ## Detalhamento gráfico das integrações
 ![Integração CAND PJE](/imagens/integracaocandpje.jpg)
