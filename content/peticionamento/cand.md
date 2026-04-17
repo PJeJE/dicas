@@ -33,7 +33,11 @@ Após o peticionamento, são juntados os documentos iniciais e são realizadas a
 ▪ Associar RRCs de cargos majoritários da mesma chapa (mesmo CNPJ do partido/da coligação/federação da mesma abrangência)
 ▪ Associar processos de substituto e substituído (O CAND informa, via integração, o número do processo do substituído)
 
-
 {{% notice note %}}
 Partidos e federações sem CNPJ serão inseridos como Ente e Autoridade no PJe associados a uma pessoa jurídica com o CNPJ Nacional
 {{% /notice %}}
+
+
+## Detalhamento gráfico das integrações
+
+
