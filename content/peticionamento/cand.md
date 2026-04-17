@@ -38,7 +38,7 @@ Partidos e federações sem CNPJ serão inseridos como Ente e Autoridade no PJe 
 {{% /notice %}}
 
 ## Detalhamento gráfico das integrações
+![Integração CAND PJE](/imagens/integracaocandpje.jpg)
 
-integracaocandpje.jpg
 
 
