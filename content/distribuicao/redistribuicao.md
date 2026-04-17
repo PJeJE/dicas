@@ -26,7 +26,7 @@ A redistribuição em lote é uma opção disponível por meio do painel de tare
 
 Quando disponível, ela só será possível para o motivo **Determinação Judicial**. Os tipos de distribuição vinculados a esse motivo serão **Sorteio** e, caso a instalação do PJe esteja com o parâmetro **listaAgrupamentosPrevencao260JE** ativo e alimentado com os valores pertinentes.
 
-{{% notice %}}
+{{% notice note %}}
 Detalhamentos sobre o funcionamento do parâmetro **listaAgrupamentosPrevencao260JE** podem ser encontrados na seção na seção do [Artigo 260 do código eleitoral](distribuicao/260). 
 {{% /notice %}}
 
