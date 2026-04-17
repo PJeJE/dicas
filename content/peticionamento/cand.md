@@ -32,6 +32,33 @@ Após o peticionamento, são juntados os documentos iniciais e são realizadas a
 ▪ Associar RRCs de cargos majoritários da mesma chapa (mesmo CNPJ do partido/da coligação/federação da mesma abrangência)
 ▪ Associar processos de substituto e substituído (O CAND informa, via integração, o número do processo do substituído)
 
+Documentos que são utilizados nesse peticionamento inicial:
+
+• Petição (DRAP, RRC e RRCI com dados anonimizados)
+– Original, substituto e remanescente
+• Anexos:
+RRC/RRCI sigiloso com dados anonimizados
+Comprovantes:
+- Desincompatibilização (anonimizado) (Código: 285)
+- Dissidência (Código: 21)
+- Identificação (RG ou CNH) (Código: 65) (sigiloso)
+- Escolaridade (anonimizado) (Código: 286)
+- Proposta de governo (Código: 41)
+- Certidões (Código: 6000014)
+- Declaração de bens (Código: 14649)
+- Atas de convenção (Código: 14643)
+- Certidões criminais (anonimizado)
+- Certidão criminal da Justiça Federal de 1º grau
+(Código: 14646)
+- Certidão criminal da Justiça Federal de 2º grau
+(Código: 14645)
+- Certidão criminal da Justiça Estadual de 1º grau
+(Código: 14644)
+- Certidão criminal da Justiça Estadual de 2º grau
+(Código: 14647)
+- Certidão criminal de foro por prerrogativa de função
+(Código: 14648)
+
 {{% notice note %}}
 Partidos e federações sem CNPJ serão inseridos como Ente e Autoridade no PJe associados a uma pessoa jurídica com o CNPJ Nacional
 {{% /notice %}}
