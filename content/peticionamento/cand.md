@@ -4,6 +4,7 @@ date: 2026-04-17T15:00:45-03:00
 weight: 1
 menuTitle: "Registro de candidaturas"
 ---
+# Registro de candidaturas
 
 O processo de negócio do **Registro de candidaturas** envolve diversos passos e sistemas da Justiça Eleitoral. 
 
