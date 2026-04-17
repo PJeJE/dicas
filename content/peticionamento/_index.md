@@ -8,5 +8,6 @@ pre = "<b>22. </b>"
 
 ### Seção 22
 
+Comportamentos relacionados ao Processo Judicial Eletrônico e os registros de candidaturas/prestações de contas.
 
 {{% children  %}}
