@@ -14,7 +14,7 @@ O registro de candidaturas tem regras próprias de funcionamento que são eventu
 
 A partir do(s) sistema(s) pertinentes disponibilizados no sítio acima, são iniciados os procedimentos relacionados ao registro. 
 
-Atualmente, o CAND é o sistema responsável pelo início das ações que envolvem o PJE.
+Atualmente, o CAND é o sistema responsável pelo início das ações que envolvem o PJe.
 
 Descreveremos nesta seção as principais regras relacionadas a essas integrações.
 
