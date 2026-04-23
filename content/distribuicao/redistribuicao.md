@@ -33,3 +33,6 @@ Detalhamentos sobre o funcionamento do parâmetro **listaAgrupamentosPrevencao26
 Temos também a opção de redistribuição em lote por meio de uma funcionalidade disponível diretamente no menu do sistema para papel específico. Detalhamentos sobre o funcionamento dessa funcionalidade podem ser encontrados no [manual](docs/manual_redis_sucessao_em_lote.pdf)
 
 
+## Remessa entre jusridições
+
+A remessa entre jurisdições, por ocorrer sempre em uma mesma instância, utiliza movimentos relacionados à atividade de redistribuição. Os comportamentos relacionados a esse tipo de remessa/redistribuição estão documentados na seção [Remessa para outra jurisdição](remessa/outra_jurisdicao). 
