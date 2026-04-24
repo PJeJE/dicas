@@ -10,9 +10,6 @@ menuTitle: "Lista de Funcionalidades"
 
 ---
 
-# Funcionalidades do PJe
-
-
 Descreveremos as funcionalidades do PJe a partir da estrutura de menus existente, que consiste nos seguintes: **Home**, **Painel**, **Processo**, **Atividades**, **Audiências e sessões** e **Configuração**
 
 
