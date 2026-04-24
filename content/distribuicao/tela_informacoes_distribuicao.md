@@ -4,8 +4,6 @@ date: 2026-04-24T13:04:05-03:00
 weight: 7
 ---
 
-# Informações da Distribuição
-
 A funcionalidade **Informações da Distribuição** permite consultar, para qualquer processo já distribuído, o passo a passo completo do algoritmo de distribuição — quais órgãos foram avaliados, quais filtros foram aplicados, qual cargo foi sorteado e como o acumulador foi atualizado. É a principal ferramenta para entender por que um processo foi para um determinado órgão julgador.
 
 ## Como acessar

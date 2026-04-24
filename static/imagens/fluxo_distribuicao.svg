@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 1110" width="100%" style="font-family: 'Segoe UI', Arial, sans-serif;">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#555"/>
+    </marker>
+    <style><![CDATA[
+      .title      { font-size: 22px; font-weight: 700; fill: #1F3864; }
+      .subtitle   { font-size: 13px; fill: #555; }
+      .phase      { font-size: 14px; font-weight: 700; fill: #FFFFFF; letter-spacing: 0.4px; }
+      .step-num   { font-size: 18px; font-weight: 700; fill: #FFFFFF; }
+      .step-hdr   { font-size: 14px; font-weight: 700; fill: #111; }
+      .step-txt   { font-size: 12px; fill: #333; }
+      .callout    { font-size: 12px; font-weight: 700; fill: #B33A00; }
+      .callout-sm { font-size: 11px; fill: #B33A00; font-style: italic; }
+      .arrow      { stroke: #555; stroke-width: 2; fill: none; }
+    ]]></style>
+  </defs>
+
+  <!-- Title -->
+  <text x="390" y="34" text-anchor="middle" class="title">Algoritmo simplificado da distribuição</text>
+  <text x="390" y="54" text-anchor="middle" class="subtitle">As etapas 1 e 2 operam sobre órgãos; da etapa 3 em diante, o algoritmo trabalha no nível do cargo</text>
+
+  <!-- ================= FASE 1 — ÓRGÃO ================= -->
+  <rect x="60" y="82" width="660" height="30" rx="4" fill="#2F5496"/>
+  <text x="390" y="102" text-anchor="middle" class="phase">ETAPAS SOBRE ÓRGÃOS</text>
+
+  <!-- Step 1 -->
+  <rect x="60" y="125" width="660" height="72" rx="8" fill="#E8F0F9" stroke="#2F5496" stroke-width="1.5"/>
+  <circle cx="100" cy="161" r="24" fill="#2F5496"/>
+  <text x="100" y="168" text-anchor="middle" class="step-num">1</text>
+  <text x="140" y="150" class="step-hdr">Recuperar órgãos da jurisdição</text>
+  <text x="140" y="172" class="step-txt">Lista todos os órgãos julgadores cadastrados na jurisdição do processo.</text>
+  <text x="140" y="188" class="step-txt">Em 2º grau/TSE, também recupera os órgãos colegiados.</text>
+
+  <line x1="390" y1="197" x2="390" y2="225" class="arrow" marker-end="url(#arrow)"/>
+
+  <!-- Step 2 -->
+  <rect x="60" y="225" width="660" height="72" rx="8" fill="#E8F0F9" stroke="#2F5496" stroke-width="1.5"/>
+  <circle cx="100" cy="261" r="24" fill="#2F5496"/>
+  <text x="100" y="268" text-anchor="middle" class="step-num">2</text>
+  <text x="140" y="250" class="step-hdr">Filtrar órgãos competentes</text>
+  <text x="140" y="272" class="step-txt">Mantém apenas os órgãos com competência para a classe judicial e os</text>
+  <text x="140" y="288" class="step-txt">assuntos do processo.</text>
+
+  <!-- Transition arrow -->
+  <line x1="390" y1="297" x2="390" y2="330" class="arrow" marker-end="url(#arrow)"/>
+  <text x="405" y="317" class="callout-sm">passa a operar em cargos</text>
+
+  <!-- ================= FASE 2 — CARGO ================= -->
+  <rect x="60" y="330" width="660" height="30" rx="4" fill="#2E7D32"/>
+  <text x="390" y="350" text-anchor="middle" class="phase">ETAPAS SOBRE CARGOS</text>
+
+  <!-- Step 3 -->
+  <rect x="60" y="373" width="660" height="58" rx="8" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/>
+  <circle cx="100" cy="402" r="24" fill="#2E7D32"/>
+  <text x="100" y="409" text-anchor="middle" class="step-num">3</text>
+  <text x="140" y="394" class="step-hdr">Filtrar cargos ativos e recebendo distribuição</text>
+  <text x="140" y="416" class="step-txt">A flag "ativo" e a flag "recebe distribuição" ficam no cargo, não no órgão.</text>
+
+  <line x1="390" y1="431" x2="390" y2="457" class="arrow" marker-end="url(#arrow)"/>
+
+  <!-- Step 4 -->
+  <rect x="60" y="457" width="660" height="58" rx="8" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/>
+  <circle cx="100" cy="486" r="24" fill="#2E7D32"/>
+  <text x="100" y="493" text-anchor="middle" class="step-num">4</text>
+  <text x="140" y="478" class="step-hdr">Recuperar acumuladores (dos cargos)</text>
+  <text x="140" y="500" class="step-txt">Cada cargo tem seu próprio acumulador, que representa a carga de trabalho.</text>
+
+  <line x1="390" y1="515" x2="390" y2="541" class="arrow" marker-end="url(#arrow)"/>
+
+  <!-- Step 5 -->
+  <rect x="60" y="541" width="660" height="58" rx="8" fill="#E8F5E9" stroke="#2E7D32" stroke-width="1.5"/>
+  <circle cx="100" cy="570" r="24" fill="#2E7D32"/>
+  <text x="100" y="577" text-anchor="middle" class="step-num">5</text>
+  <text x="140" y="562" class="step-hdr">Filtrar cargos dentro do limite da distância máxima</text>
+  <text x="140" y="584" class="step-txt">Cargos cujo acumulador está muito acima dos demais ficam, a princípio, fora.</text>
+
+  <line x1="390" y1="599" x2="390" y2="625" class="arrow" marker-end="url(#arrow)"/>
+
+  <!-- Step 6 with 25% callout -->
+  <rect x="60" y="625" width="660" height="72" rx="8" fill="#FFF4E5" stroke="#E67E22" stroke-width="1.8"/>
+  <circle cx="100" cy="661" r="24" fill="#E67E22"/>
+  <text x="100" y="668" text-anchor="middle" class="step-num">6</text>
+  <text x="140" y="649" class="step-hdr">Selecionar cargos elegíveis para o sorteio</text>
+  <text x="140" y="670" class="step-txt">Monta a lista final a partir do passo 5 e, para cada cargo que ficou de fora,</text>
+  <text x="140" y="686" class="step-txt">sorteia <tspan class="callout">25% de chance</tspan> de ele ser repescado para o sorteio.</text>
+
+  <line x1="390" y1="697" x2="390" y2="730" class="arrow" marker-end="url(#arrow)"/>
+
+  <!-- Phase label: sorteio / atualização -->
+  <rect x="60" y="730" width="660" height="30" rx="4" fill="#6A1B9A"/>
+  <text x="390" y="750" text-anchor="middle" class="phase">SORTEIO E ATUALIZAÇÃO</text>
+
+  <!-- Step 7 -->
+  <rect x="60" y="773" width="660" height="72" rx="8" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/>
+  <circle cx="100" cy="809" r="24" fill="#6A1B9A"/>
+  <text x="100" y="816" text-anchor="middle" class="step-num">7</text>
+  <text x="140" y="798" class="step-hdr">Sortear um cargo entre os elegíveis</text>
+  <text x="140" y="820" class="step-txt">Um cargo é escolhido aleatoriamente na lista produzida no passo 6.</text>
+  <text x="140" y="836" class="step-txt">Em prevenção do Art. 260, o sorteio é substituído pela herança do paradigma.</text>
+
+  <line x1="390" y1="845" x2="390" y2="873" class="arrow" marker-end="url(#arrow)"/>
+
+  <!-- Step 8 -->
+  <rect x="60" y="873" width="660" height="72" rx="8" fill="#F3E5F5" stroke="#6A1B9A" stroke-width="1.5"/>
+  <circle cx="100" cy="909" r="24" fill="#6A1B9A"/>
+  <text x="100" y="916" text-anchor="middle" class="step-num">8</text>
+  <text x="140" y="898" class="step-hdr">Atualizar acumulador do cargo sorteado</text>
+  <text x="140" y="920" class="step-txt">Soma o peso da distribuição (P_dist) ao acumulador do cargo que recebeu</text>
+  <text x="140" y="936" class="step-txt">o processo. Recursos internos não atualizam acumulador.</text>
+
+  <!-- Legend on bottom -->
+  <rect x="60" y="975" width="660" height="110" rx="6" fill="#F7F7F7" stroke="#CCC" stroke-width="1"/>
+  <text x="75" y="995" class="step-hdr">Legenda</text>
+  <rect x="75" y="1005" width="14" height="14" rx="2" fill="#2F5496"/>
+  <text x="95" y="1017" class="step-txt">Trabalha no nível do <tspan font-weight="bold">órgão julgador</tspan></text>
+  <rect x="410" y="1005" width="14" height="14" rx="2" fill="#2E7D32"/>
+  <text x="430" y="1017" class="step-txt">Trabalha no nível do <tspan font-weight="bold">cargo</tspan></text>
+  <rect x="75" y="1028" width="14" height="14" rx="2" fill="#E67E22"/>
+  <text x="95" y="1040" class="step-txt">Etapa com fator de <tspan font-weight="bold">imprevisibilidade</tspan> (25%)</text>
+  <rect x="410" y="1028" width="14" height="14" rx="2" fill="#6A1B9A"/>
+  <text x="430" y="1040" class="step-txt">Sorteio e atualização do acumulador</text>
+  <text x="75" y="1070" class="step-txt">Um mesmo órgão pode ter mais de um cargo; o acumulador, a flag "ativo" e a flag "recebe distribuição" ficam no cargo.</text>
+</svg>
