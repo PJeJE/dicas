@@ -6,9 +6,7 @@ menuTitle: "Lista de Funcionalidades"
 ---
 
 
-# Funcionalidades - PJe
-
-> ⚠️ **Atenção!** Este site esteve disponível até 19/12/2024 por meio da Wiki do PJe. O conteúdo foi migrado para o sítio atual integralmente.
+> ⚠️ **Atenção!** Este site esteve disponível até 19/12/2024 por meio da Wiki do PJe. O conteúdo está sendo migrado para o sítio atual integralmente - EM MANUTENÇÂO.
 
 ---
 
