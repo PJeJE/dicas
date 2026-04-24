@@ -67,7 +67,7 @@ Ao clicar no ícone **Selecionar** em uma linha, a aba **Itens do Log** é exibi
 
 O PJe executa a distribuição em oito etapas. As duas primeiras trabalham sobre o **órgão julgador**; da terceira em diante, o algoritmo passa a operar no nível do **cargo** (um mesmo órgão pode ter mais de um cargo configurado para receber distribuição, como Juiz Titular e Juiz Auxiliar — e o acumulador, a flag *ativo* e a flag *recebe distribuição* ficam no cargo).
 
-![Fluxo simplificado da distribuição no PJe](fluxo_distribuicao.svg)
+![Fluxo simplificado da distribuição no PJe](/imagens/fluxo_distribuicao.svg)
 
 {{% notice tip %}}
 **Fator de 25%** — No passo 6, cada cargo que **não passou** no filtro da distância máxima (passo 5) ainda tem **25% de chance** de ser repescado e participar do sorteio. Esse mecanismo aumenta a imprevisibilidade da distribuição. A lista de *Cargos elegíveis* que aparece no log **já contempla** os cargos repescados — se aparecer um cargo com acumulador bem acima dos demais, foi esse fator que o trouxe.
