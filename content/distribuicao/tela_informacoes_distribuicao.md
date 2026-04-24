@@ -124,6 +124,3 @@ Verifique as linhas *Dimensão …* no log: algum filtro pode tê-lo removido (a
 *Sorteado* é o caso padrão (passou pelo sorteio). *Originário* aparece em processos incidentais — o órgão é herdado do processo principal, sem sorteio. *Prevento* aparece em prevenção do Art. 260 do Código Eleitoral — o órgão é herdado do processo paradigma.
 {{% /expand %}}
 
-{{% expand "Posso alterar o peso do cargo para mudar a distribuição?" %}}
-Tecnicamente sim. Na Justiça Eleitoral, a diretriz é que todos os cargos tenham o **mesmo peso** — e é essa uniformidade que neutraliza o efeito do *P*_cargo na fórmula de *P*_dist. Se algum cargo for configurado com peso diferente, a distribuição passa a ser afetada: cargos com peso maior recebem *P*_dist menor e tendem a ser sorteados mais vezes até equilibrar o acumulador. Alterações devem seguir as diretrizes do órgão.
-{{% /expand %}}
