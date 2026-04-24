@@ -1,3 +1,11 @@
+---
+title: "Lista de funcionalidades"
+date: 2026-04-24T15:00:45-03:00
+weight: 1
+menuTitle: "Lista de Funcionalidades"
+---
+
+
 # Funcionalidades - PJe
 
 > ⚠️ **Atenção!** Este site esteve disponível até 19/12/2024 por meio da Wiki do PJe. O conteúdo foi migrado para o sítio atual integralmente.
