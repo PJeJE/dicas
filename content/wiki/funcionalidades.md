@@ -32,10 +32,10 @@ As funcionalidades vinculadas a nós de tarefas de fluxos são disponibilizadas 
 
 A tela principal do PJe oferece quatro possibilidades:
 
-1.  [Identificação](/wiki/funcionalidades#Login "Funcionalidades")
+1.  [Identificação](/wiki/funcionalidades.md#Login "Funcionalidades")
     (login)
-2.  [Consultas ao andamento processual](/wiki/funcionalidades#Consulta_p.C3.BAblica "Funcionalidades")
-3.  [Verificação de ambiente](/wiki/funcionalidades#Verifica.C3.A7.C3.A3o_de_ambiente "Funcionalidades")
+2.  [Consultas ao andamento processual](/wiki/funcionalidades.md#Consulta_p.C3.BAblica "Funcionalidades")
+3.  [Verificação de ambiente](/wiki/funcionalidades.md#Verifica.C3.A7.C3.A3o_de_ambiente "Funcionalidades")
 4.  Pré-requisitos para utilização
 5.  Fale conosco
 
@@ -139,7 +139,7 @@ de smartcard na estação do usuário. Caso seja um token, o usuário deverá
 utilizar uma porta USB de sua estação. Para se identificar, com o PJe
 disponível, o usuário insere o token na porta USB ou o smartcard na
 leitora e pede para se autenticar. O
-[sistema](/wiki/funcionalidades#Assinatura_digital "Funcionalidades")
+[sistema](/wiki/funcionalidades.md#Assinatura_digital "Funcionalidades")
 lê o conteúdo da token/smartcard e pede que seja fornecida a senha para
 acesso ao certificado. Ao digitar a senha, o sistema recupera os dados
 da pessoa através do certificado e os
@@ -163,7 +163,7 @@ Ao realizar login, a o sistema verificará a [regra de proximidade de
 expiração do certificado
 digital](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn563 "Regras de negócio")
 e exibirá o aviso [\"Certificado próximo de
-expirar\"](/wiki/funcionalidades#Certificado_pr.C3.B3ximo_de_expirar "Funcionalidades")
+expirar\"](/wiki/funcionalidades.md#Certificado_pr.C3.B3ximo_de_expirar "Funcionalidades")
 conforme regra
 [RN564](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn564 "Regras de negócio").
 
@@ -205,7 +205,7 @@ usuários que têm acesso à página em questão.
 ### [ Mensagens ]{#Mensagens .mw-headline}
 
 Esse agrupador aparece quando há
-[avisos](/wiki/funcionalidades#Avisos "Funcionalidades")
+[avisos](/wiki/funcionalidades.md#Avisos "Funcionalidades")
 cadastrados para o usuário. Ele exibirá as respectivas mensagens.
 
 [ Painel ]{#Painel .mw-headline}
@@ -238,17 +238,17 @@ As raias (swimlanes) agrupam papéis que podem executar as tarefas.
 Os paineis têm um padrão de apresentação que contém agrupadores
 pré-definidos de acordo com o papel do usuário, sendo exibida sempre a
 possibilidade de pesquisa do objeto apresentado. Uma das opções são as
-[caixas](/wiki/funcionalidades#Caixas "Funcionalidades"),
+[caixas](/wiki/funcionalidades.md#Caixas "Funcionalidades"),
 que são uma forma de o usuário organizar os processos. As caixas estão
 vinculadas aos processos através das
-[tarefas](/wiki/funcionalidades#Tarefas "Funcionalidades")
+[tarefas](/wiki/funcionalidades.md#Tarefas "Funcionalidades")
 nas quais se encontram. Pode-se, então, visualizar os processos por
 tarefas vinculadas a eles e ainda por caixas em que estão localizados.
 Na pesquisa das caixas, pode-se consultar o processo para verificar qual
 tarefa está pendente para ele e também em qual caixa ele está, no caso
 de o usuário ter definido caixas para a tarefa. Além disso, outra opção
 disponível são os
-[expedientes](/wiki/funcionalidades#Expedientes "Funcionalidades"),
+[expedientes](/wiki/funcionalidades.md#Expedientes "Funcionalidades"),
 que são atos relativos ao andamento do processo. Pode-se, então,
 realizar pesquisa de processos por expedientes vinculados a ele, ou
 seja, pelos atos processuais que já foram realizados no processo. A
@@ -349,7 +349,7 @@ Presente só nas instalações do segundo grau
 ### [ Painel do magistrado ]{#Painel_do_magistrado .mw-headline}
 
 O painel do magistrado é similar ao [painel do
-usuário](/wiki/funcionalidades#Painel_do_usu.C3.A1rio "Funcionalidades"),
+usuário](/wiki/funcionalidades.md#Painel_do_usu.C3.A1rio "Funcionalidades"),
 diferenciado pelas [permissões vinculadas às
 tarefas](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn511 "Regras de negócio").
 
@@ -373,7 +373,7 @@ na árvore de tarefas, ajudando em seu trabalho diário. O usuário pode
 manualmente vincular processos às suas caixas ou pode criar regras de
 filtragem que permitam que os processos sejam automaticamente
 encaminhados para a caixa correta. As caixas são criadas dentro das
-[tarefas](/wiki/funcionalidades#Tarefas "Funcionalidades"),
+[tarefas](/wiki/funcionalidades.md#Tarefas "Funcionalidades"),
 ou seja, o processo está primeiramente vinculado à tarefa e
 posteriormente à caixa, não perdendo sua vinculação original, sendo isso
 demonstrado visualmente através da hierarquia de tarefas e caixas. As
@@ -425,7 +425,7 @@ Regras relacionadas:
 É exibida a [árvore de
 tarefas](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#.C3.81rvore_de_tarefas "Manual de referência").
 Apresentamos a descrição de algumas tarefas mais adiante.
-([Tarefas](/wiki/funcionalidades#Tarefas "Funcionalidades"))
+([Tarefas](/wiki/funcionalidades.md#Tarefas "Funcionalidades"))
 
 ##### [ Mover para caixa ]{#Mover_para_caixa .mw-headline}
 
@@ -810,7 +810,7 @@ Painel exibido para [usuários
 internos](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn394 "Regras de negócio")
 que tenham sido cadastrados como \"servidor\" e tenham sido associados a
 um órgão julgador. O painel é similar ao [painel do
-magistrado](/wiki/funcionalidades#Painel_do_magistrado "Funcionalidades"),
+magistrado](/wiki/funcionalidades.md#Painel_do_magistrado "Funcionalidades"),
 sendo diferenciado pelas permissões relacionadas às tarefas.
 
 \
@@ -905,7 +905,7 @@ são retornadas as seguintes informações:
     [![Lapis.jpg](Funcionalidades%20-%20PJe_arquivos/Lapis.jpg){width="16"
     height="20"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Lapis.jpg){.image}
     para exibição da tela de [cumprimento da
-    diligência](/wiki/funcionalidades#Controle_de_visita "Funcionalidades")
+    diligência](/wiki/funcionalidades.md#Controle_de_visita "Funcionalidades")
 -   Ícone
     [![Oculos.jpg](Funcionalidades%20-%20PJe_arquivos/Oculos.jpg){width="16"
     height="21"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Oculos.jpg){.image}
@@ -917,7 +917,7 @@ são retornadas as seguintes informações:
         [![Indice.png](Funcionalidades%20-%20PJe_arquivos/Indice.png){width="20"
         height="20"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Indice.png){.image}
         caso tenha sido solicitada urgência na [confecção do
-        expediente](/wiki/funcionalidades#Preparar_comunica.C3.A7.C3.A3o "Funcionalidades")
+        expediente](/wiki/funcionalidades.md#Preparar_comunica.C3.A7.C3.A3o "Funcionalidades")
     -   Sigla da classe judicial ao lado do número do processo ao qual
         está vinculado o expediente - tipo do documento
     -   Destinatários
@@ -976,13 +976,13 @@ são retornadas as seguintes informações:
     para exibição dos documentos do processo
 -   Processo: número do processo ao qual o mandado está vinculado
 -   Expediente: tipo de comunicação utilizada na [confecção do
-    mandado](/wiki/funcionalidades#Preparar_comunica.C3.A7.C3.A3o "Funcionalidades")
+    mandado](/wiki/funcionalidades.md#Preparar_comunica.C3.A7.C3.A3o "Funcionalidades")
     (o mesmo que tipo de documento)
 -   Urgência: exibe o ícone
     [![Indice.png](Funcionalidades%20-%20PJe_arquivos/Indice.png){width="20"
     height="20"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Indice.png){.image}
     caso tenha sido solicitada urgência na [confecção do
-    mandado](/wiki/funcionalidades#Preparar_comunica.C3.A7.C3.A3o "Funcionalidades")
+    mandado](/wiki/funcionalidades.md#Preparar_comunica.C3.A7.C3.A3o "Funcionalidades")
 -   Distribuído em: data em que o mandado foi distribuído originalmente
 -   Destinatário
 -   Endereço(s)
@@ -999,7 +999,7 @@ Ao selecionar algum mandado através do [campo de
 seleção](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Campos_de_sele.C3.A7.C3.A3o "Manual de referência")
 disponibilizado, o
 [botão](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Bot.C3.B5es "Manual de referência")
-[\"Redistribuir\"](/wiki/funcionalidades#Redistribuir "Funcionalidades")
+[\"Redistribuir\"](/wiki/funcionalidades.md#Redistribuir "Funcionalidades")
 é habilitado.
 
 ##### [ Redistribuir ]{#Redistribuir .mw-headline}
@@ -1033,15 +1033,15 @@ são retornadas as seguintes informações:
     para exibição dos documentos do processo
 -   Processo: número do processo ao qual o mandado está vinculado
 -   Expediente: tipo de comunicação utilizada na [confecção do
-    mandado](/wiki/funcionalidades#Preparar_comunica.C3.A7.C3.A3o "Funcionalidades")
+    mandado](/wiki/funcionalidades.md#Preparar_comunica.C3.A7.C3.A3o "Funcionalidades")
     (o mesmo que tipo de documento)
 -   Urgência: exibe o ícone
     [![Indice.png](Funcionalidades%20-%20PJe_arquivos/Indice.png){width="20"
     height="20"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Indice.png){.image}
     caso tenha sido solicitada urgência na [confecção do
-    mandado](/wiki/funcionalidades#Preparar_comunica.C3.A7.C3.A3o "Funcionalidades")
+    mandado](/wiki/funcionalidades.md#Preparar_comunica.C3.A7.C3.A3o "Funcionalidades")
 -   Cadastrado em: data em que o mandado foi
-    [construído](/wiki/funcionalidades#Preparar_comunica.C3.A7.C3.A3o "Funcionalidades")
+    [construído](/wiki/funcionalidades.md#Preparar_comunica.C3.A7.C3.A3o "Funcionalidades")
 -   Destinatário
 -   Endereço(s)
 -   [Campo de
@@ -1058,7 +1058,7 @@ Ao selecionar algum mandado através do [campo de
 seleção](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Campos_de_sele.C3.A7.C3.A3o "Manual de referência")
 disponibilizado, o
 [botão](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Bot.C3.B5es "Manual de referência")
-[\"Distribuir\"](/wiki/funcionalidades#Distribuir "Funcionalidades")
+[\"Distribuir\"](/wiki/funcionalidades.md#Distribuir "Funcionalidades")
 é habilitado.
 
 ##### [ Distribuir ]{#Distribuir .mw-headline}
@@ -1161,11 +1161,11 @@ Em construção
 
 Aqui agruparemos as informações das tarefas de fluxo relacionadas a
 audiências. As tarefas relacionadas são de
-[designação](/wiki/funcionalidades#Designar_audi.C3.AAncia "Funcionalidades")
+[designação](/wiki/funcionalidades.md#Designar_audi.C3.AAncia "Funcionalidades")
 e de
-[operações](/wiki/funcionalidades#Opera.C3.A7.C3.B5es_da_audi.C3.AAncia "Funcionalidades").
+[operações](/wiki/funcionalidades.md#Opera.C3.A7.C3.B5es_da_audi.C3.AAncia "Funcionalidades").
 As duas tarefas têm em comum o controle de realização das audiências por
-[etapas](/wiki/funcionalidades#Etapas "Funcionalidades").
+[etapas](/wiki/funcionalidades.md#Etapas "Funcionalidades").
 Durante a execução da tarefa, as audiências passam de uma
 \"[etapa](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD113 "Regras de domínio")\"
 para outra, conforme opções disponíveis na tela. A tela é redesenhada de
@@ -1344,7 +1344,7 @@ que estejam vinculados à localização do usuário.
 
 O comportamento dessa tarefa é similar ao comportamento da
 funcionalidade de [Retificar
-autuação](/wiki/funcionalidades#Retificar_autua.C3.A7.C3.A3o_2 "Funcionalidades").
+autuação](/wiki/funcionalidades.md#Retificar_autua.C3.A7.C3.A3o_2 "Funcionalidades").
 
 Recomenda-se utilizar a opção de configuração da atividade em tarefa em
 detrimento da utilização do item de menu.
@@ -1480,7 +1480,7 @@ agrupador de pesquisa de processos.
 Ao selecionar o botão da tarefa em lote, o usuário terá a tela do
 minutar exibida contendo os processos selecionados para execução de
 tarefas em lote, permitindo que se visualize os
-[detalhes](/wiki/funcionalidades#Ver_detalhes "Funcionalidades")
+[detalhes](/wiki/funcionalidades.md#Ver_detalhes "Funcionalidades")
 do processo ao clicar no número do processo, conforme [comportamento
 padrão](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI193 "Regras de interface")
 na árvore de tarefas. Cada processo terá também as transições de saída
@@ -2043,7 +2043,7 @@ Podem ser adicionados documentos de acordo com a seguinte sistemática:
 
 O usuário tem a opção de remover um arquivo anteriormente adicionado até
 o momento do
-[protocolo](/wiki/funcionalidades#Protocolar "Funcionalidades").
+[protocolo](/wiki/funcionalidades.md#Protocolar "Funcionalidades").
 
 Regras associadas:
 
@@ -2467,7 +2467,7 @@ desde que demonstrado interesse, conforme regra
 [RN452](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn452 "Regras de negócio").
 
 Esse acesso está depreciado, devendo ser utilizada a [pesquisa de
-processos](/wiki/funcionalidades#Processo_3 "Funcionalidades")
+processos](/wiki/funcionalidades.md#Processo_3 "Funcionalidades")
 para a consulta.
 
 #### [ Consulta de processos de outras seções ]{#Consulta_de_processos_de_outras_se.C3.A7.C3.B5es .mw-headline}
@@ -2621,7 +2621,7 @@ TAG: certidão, certidão negativa
 ### [ Cadastro - Habilitação nos autos ]{#Cadastro_-_Habilita.C3.A7.C3.A3o_nos_autos .mw-headline}
 
 Mesmo comportamento do [Solicitar
-habilitação](/wiki/funcionalidades#Solicitar_habilita.C3.A7.C3.A3o "Funcionalidades").
+habilitação](/wiki/funcionalidades.md#Solicitar_habilita.C3.A7.C3.A3o "Funcionalidades").
 
 ### [ Outras ações ]{#Outras_a.C3.A7.C3.B5es .mw-headline}
 
@@ -2724,7 +2724,7 @@ Judicial](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#C
 
 Observação Recomenda-se utilizar a opção de configuração da atividade
 [em
-tarefa](/wiki/funcionalidades#Retificar_autua.C3.A7.C3.A3o "Funcionalidades")
+tarefa](/wiki/funcionalidades.md#Retificar_autua.C3.A7.C3.A3o "Funcionalidades")
 em detrimento da utilização do item de menu.
 
 #### [ Solicitar habilitação ]{#Solicitar_habilita.C3.A7.C3.A3o .mw-headline}
@@ -2806,9 +2806,9 @@ Avisos personalizados podem ser lançados funcionando como lembrete para
 cada perfil de usuário que acesse o sistema. Essa funcionalidade permite
 a inclusão dos avisos, que serão visualizados pelo usuário através do
 agrupador de
-[mensagens](/wiki/funcionalidades#Mensagens "Funcionalidades")
+[mensagens](/wiki/funcionalidades.md#Mensagens "Funcionalidades")
 disponibilizado na [página
-principal](/wiki/funcionalidades#P.C3.A1gina_principal "Funcionalidades").
+principal](/wiki/funcionalidades.md#P.C3.A1gina_principal "Funcionalidades").
 
 ### [ Consulta pessoa ]{#Consulta_pessoa .mw-headline}
 
@@ -2941,7 +2941,7 @@ Perfil: administrador
 
 Essa opção permite a impressão da RPV ou do precatório emitido na opção
 [Elaborar RPV ou
-precatório](/wiki/funcionalidades#Elaborar_RPV_ou_precat.C3.B3rio "Funcionalidades")
+precatório](/wiki/funcionalidades.md#Elaborar_RPV_ou_precat.C3.B3rio "Funcionalidades")
 
 ### [ Simular valor a compensar ]{#Simular_valor_a_compensar .mw-headline}
 
@@ -2972,7 +2972,7 @@ Perfil: advogado/procurador
 
 As marcações de audiências acontecem através de tarefas dentro do fluxo
 do processo (verifique descrição das tarefas referentes a
-[audiências](/wiki/funcionalidades#Tarefas_de_audi.C3.AAncias "Funcionalidades")).
+[audiências](/wiki/funcionalidades.md#Tarefas_de_audi.C3.AAncias "Funcionalidades")).
 Através dessa funcionalidade, tem-se acesso a uma consolidação das
 marcações denominada Pauta de audiências, contendo os processos, datas e
 outros detalhes das audiências marcadas.
@@ -3169,7 +3169,7 @@ Sendo assim, sempre que necessária assinatura de documentos inseridos no
 processo, o PJe se [utilizará de assinatura
 digital](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn283 "Regras de negócio"),
 similarmente à opção de
-[login](/wiki/funcionalidades#Login "Funcionalidades").
+[login](/wiki/funcionalidades.md#Login "Funcionalidades").
 O usuário, de posse de seu certificado, o utiliza para atestar que o
 documento produzido foi assinado por ele.
 
@@ -3214,7 +3214,7 @@ Disponível em
 ::: {#p-namespaces .vectorTabs}
 ##### Espaços nominais
 
--   [[Página](/wiki/funcionalidades "Ver a página de conteúdo [alt-shift-c]")]{#ca-nstab-main}
+-   [[Página](/wiki/funcionalidades.md "Ver a página de conteúdo [alt-shift-c]")]{#ca-nstab-main}
 -   [[Discussão](http://titanio09.cnj.jus.br/wiki/index.php?title=Discuss%C3%A3o:Funcionalidades&action=edit&redlink=1 "Discussão sobre o conteúdo da página [alt-shift-t]")]{#ca-talk}
 :::
 
@@ -3232,7 +3232,7 @@ Disponível em
 ::: {#p-views .vectorTabs}
 ##### Visualizações
 
--   [[Ler](/wiki/funcionalidades)]{#ca-view}
+-   [[Ler](/wiki/funcionalidades.md)]{#ca-view}
 -   [[Ver
     código-fonte](http://titanio09.cnj.jus.br/wiki/index.php?title=Funcionalidades&action=edit "Esta página está protegida.
     Você pode, no entanto, visualiar seu código-fonte. [alt-shift-e]")]{#ca-viewsource}
