@@ -22,7 +22,7 @@ No menu **Audiências e sessões**, as atividades mais comuns relativas a esses 
 No menu **Configuração**, as funcionalidades de configuração do sistema, reunindo o que existia antes em **Cadastros Auxiliares** e **Cadastros Básicos**.
 
 As permissões para acesso às funcionalidades são determinadas pela restrição
-[RN527](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN527 "Regras de negócio").
+[RN527](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN527 "Regras de negócio").
 
 As funcionalidades vinculadas a nós de tarefas de fluxos são disponibilizadas através dos painéis do usuário.
 
@@ -41,7 +41,7 @@ A tela principal do PJe oferece quatro possibilidades:
 
 A identificação, caso o usuário já não esteja cadastrado, direcionará o
 usuário à confirmação de seu cadastro conforme regra
-[RN412](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN412 "Regras de negócio").
+[RN412](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN412 "Regras de negócio").
 
 As consultas ao andamento processual são consultas disponíveis sem a
 necessidade de identificação.
@@ -64,10 +64,10 @@ processos judiciais será disponibilizada na rede mundial de computadores
 (internet), assegurado o direito de acesso a informações processuais a
 toda e qualquer pessoa, independentemente de prévio cadastramento ou de
 demonstração de interesse, conforme regra
-[RN381](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN381 "Regras de negócio").
+[RN381](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN381 "Regras de negócio").
 A referida regra abrange outras restrições para a consulta. Os critérios
 de consulta seguem a regra
-[RN401](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN401 "Regras de negócio").
+[RN401](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN401 "Regras de negócio").
 
 [ Verificação de ambiente ]{#Verifica.C3.A7.C3.A3o_de_ambiente .mw-headline}
 ----------------------------------------------------------------------------
@@ -131,7 +131,7 @@ seguras.
 Sendo assim, o usuário deve estar previamente cadastrado (caso não
 esteja, o sistema direcionará o usuário para a tela de cadastro,
 conforme descrito na regra
-[RN412](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN412 "Regras de negócio"))
+[RN412](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN412 "Regras de negócio"))
 e ter o certificado digital disponível através de um dispositivo. O
 dispositivo pode ser um cartão, chamado de smartcard, ou um pen drive,
 denonimado token. Caso seja um smartcard, deve ser instalada a leitora
@@ -143,7 +143,7 @@ leitora e pede para se autenticar. O
 lê o conteúdo da token/smartcard e pede que seja fornecida a senha para
 acesso ao certificado. Ao digitar a senha, o sistema recupera os dados
 da pessoa através do certificado e os
-[valida](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN282 "Regras de negócio")
+[valida](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN282 "Regras de negócio")
 de acordo com os usuários cadastrados, utilizando essa identificação
 para que o usuário prossiga com a operação do sistema. Esse procedimento
 está de acordo com a lei
@@ -161,17 +161,17 @@ advogado](http://titanio09.cnj.jus.br/wiki/index.php/Manual_do_advogado_e_procur
 
 Ao realizar login, a o sistema verificará a [regra de proximidade de
 expiração do certificado
-digital](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN563 "Regras de negócio")
+digital](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN563 "Regras de negócio")
 e exibirá o aviso [\"Certificado próximo de
 expirar\"](http://titanio09.cnj.jus.br/wiki/index.php/Funcionalidades#Certificado_pr.C3.B3ximo_de_expirar "Funcionalidades")
 conforme regra
-[RN564](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN564 "Regras de negócio").
+[RN564](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN564 "Regras de negócio").
 
 ### [ Certificado próximo de expirar ]{#Certificado_pr.C3.B3ximo_de_expirar .mw-headline}
 
 Quando o certificado digital do usuário identificado estiver perto de
 expirar, conforme regra
-[RN563](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN563 "Regras de negócio"),
+[RN563](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN563 "Regras de negócio"),
 será exibida, em uma nova janela, a mensagem informando o usuário da
 proximidade da data de expiração, conforme exemplo a seguir:
 
@@ -180,7 +180,7 @@ proximidade da data de expiração, conforme exemplo a seguir:
     Data de expiração: 15/02/2014
 
 A janela aparecerá de acordo com a regra
-[RN564](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN564 "Regras de negócio").
+[RN564](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN564 "Regras de negócio").
 
 [ Ajuda de contexto ]{#Ajuda_de_contexto .mw-headline}
 ------------------------------------------------------
@@ -351,7 +351,7 @@ Presente só nas instalações do segundo grau
 O painel do magistrado é similar ao [painel do
 usuário](http://titanio09.cnj.jus.br/wiki/index.php/Funcionalidades#Painel_do_usu.C3.A1rio "Funcionalidades"),
 diferenciado pelas [permissões vinculadas às
-tarefas](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN511 "Regras de negócio").
+tarefas](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN511 "Regras de negócio").
 
 \
 
@@ -388,7 +388,7 @@ assim, todos que estiverem na raia vinculada àquela tarefa terão acesso
 Por vezes, o usuário precisa visualizar as demais tarefas dos servidores
 da unidade judiciária. Essa configuração é possível para determinados
 papeis, conforme
-[RN572](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN572 "Regras de negócio").
+[RN572](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN572 "Regras de negócio").
 A opção é disponibilizada da seguinte forma:
 
 Perfil de visualização:
@@ -416,7 +416,7 @@ pesquisa que retornará em qual(is) tarefa(s) o processo está.
 
 Regras relacionadas:
 
--   [RN503](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN503 "Regras de negócio")
+-   [RN503](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN503 "Regras de negócio")
 
 \
 
@@ -449,7 +449,7 @@ Documentação da aba Expediente em MANUTENÇÃO!**
 
 São atos de comunicação relativos ao andamento do processo judicial.
 Esta aba, disponível para servidores ([**usuários
-internos**](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN394 "Regras de negócio")),
+internos**](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN394 "Regras de negócio")),
 permite a pesquisa de expedientes do processo através de seus
 agrupamentos descritos a seguir.
 
@@ -478,7 +478,7 @@ entrada e saída de expedientes neste agrupador são detalhadas a seguir.
     envio deve ter sido \"Correios\".
 
 Referência: Regra
-[RN386](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN386 "Regras de negócio")
+[RN386](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN386 "Regras de negócio")
 
 \
 
@@ -499,7 +499,7 @@ expedientes neste agrupador são detalhadas a seguir.
 -   Quando o servidor do tribunal registrar ciência.
 
 Referência: Regra
-[RN386](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN386 "Regras de negócio")
+[RN386](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN386 "Regras de negócio")
 
 \
 
@@ -520,7 +520,7 @@ saída de expedientes neste agrupador são detalhadas a seguir.
 -   Quando o oficial de justiça registrar data de diligência cumprida.
 
 Referência: Regra
-[RN386](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN386 "Regras de negócio")
+[RN386](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN386 "Regras de negócio")
 
 \
 
@@ -541,16 +541,16 @@ expedientes neste agrupador são detalhadas a seguir.
     OU
 -   Quando o servidor do tribunal registrar o fechamento do expediente
     (para os expedientes com prazo), conforme regra
-    [RN510](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN510 "Regras de negócio")
+    [RN510](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN510 "Regras de negócio")
     .\
     OU
 -   Quando decorrer o período de espera máxima (para os expedientes sem
     prazo), conforme explicado na regra
-    [RN347](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN347 "Regras de negócio").
+    [RN347](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN347 "Regras de negócio").
 
 Como referência, o registro de ciência de intimação de forma geral é
 determinado pela regra
-[RN386](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN386 "Regras de negócio").
+[RN386](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN386 "Regras de negócio").
 
 ###### [ Registrar intimação/citação ]{#Registrar_intima.C3.A7.C3.A3o.2Fcita.C3.A7.C3.A3o .mw-headline}
 
@@ -558,21 +558,21 @@ Por meio dessa tarefa (ícone
 [![Lapis.jpg](Funcionalidades%20-%20PJe_arquivos/Lapis.jpg){width="16"
 height="20"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Lapis.jpg){.image}
 da grid \"Meus Expedientes\"), o usuário pode registrar a
-[intimação](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN353 "Regras de negócio")
+[intimação](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN353 "Regras de negócio")
 feita pelo meio de envio \"**Correios**\".
 
 No campo \"Resultado\", os valores possíveis são os disponíveis na regra
 [RD102](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD102 "Regras de domínio").
 
 O registro da ciência para expedientes físicos, conforme regra
-[RN510](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN510 "Regras de negócio"),
+[RN510](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN510 "Regras de negócio"),
 só será realizado se a intimação for efetivamente recebida, ou seja,
 \"Recebido\" de acordo com as opções da regra
 [RD102](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD102 "Regras de domínio").
 Esse registro será realizado utilizando como data da ciência o campo
 data de recebimento, que deve ser de preenchimento obrigatório apenas
 para o resultado \"Recebido\", conforme a mesma regra
-[RN510](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN510 "Regras de negócio").
+[RN510](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN510 "Regras de negócio").
 
 \
 
@@ -605,7 +605,7 @@ detalhadas a seguir.
 
 -   Quando o expediente possui data de ciência registrada pelo sistema
     PJe (ou seja, o sistema deu [ciência
-    automática](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN384 "Regras de negócio"))
+    automática](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN384 "Regras de negócio"))
     e ainda está com prazo (isto é, a quantidade de dias para o prazo
     processual legal da parte é maior que zero), porém somente quando o
     prazo está em curso.
@@ -649,7 +649,7 @@ detalhadas a seguir.
 
 -   Quando decorrer o período de espera máxima conforme explicado na
     regra
-    [RN347](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN347 "Regras de negócio").
+    [RN347](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN347 "Regras de negócio").
 
 \
 
@@ -663,7 +663,7 @@ implantado os fluxos processuais da matéria Criminal.
 O painel vem com os seguintes agrupadores:
 
 Os agrupadores são exibidos de acordo com a regra
-[RN341](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN341 "Regras de negócio").
+[RN341](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN341 "Regras de negócio").
 
 ##### [ Processos com pedido de segredo de justiça não apreciado ]{#Processos_com_pedido_de_segredo_de_justi.C3.A7a_n.C3.A3o_apreciado .mw-headline}
 
@@ -690,7 +690,7 @@ assistência judiciária gratuita e que ainda não foram apreciados.
 Regras relacionadas:
 
 -   [Regra de visualização do
-    agrupador](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN502 "Regras de negócio")
+    agrupador](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN502 "Regras de negócio")
 
 ##### [ Processos com habilitação nos autos não lidas ]{#Processos_com_habilita.C3.A7.C3.A3o_nos_autos_n.C3.A3o_lidas .mw-headline}
 
@@ -718,7 +718,7 @@ seguintes informações:
     [![Lapis.jpg](Funcionalidades%20-%20PJe_arquivos/Lapis.jpg){width="16"
     height="20"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Lapis.jpg){.image}
     permitindo a retificação do processo (ver regra
-    [RN573](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN573 "Regras de negócio"))
+    [RN573](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN573 "Regras de negócio"))
 -   Prioridade processual
 
 ##### [ Processos em análise de prevenção ]{#Processos_em_an.C3.A1lise_de_preven.C3.A7.C3.A3o .mw-headline}
@@ -726,23 +726,23 @@ seguintes informações:
 Todos os processos que tenham processos filhos associados cujo [tipo de
 associação](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD99 "Regras de domínio")
 seja uma prevenção apontada anteriormente e ainda [não
-validada](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN304 "Regras de negócio").
+validada](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN304 "Regras de negócio").
 Os processos previamente avaliados pelo assessor que tiverem minuta de
 documento vinculada à avaliação aparecerá com esse indicativo, de forma
 a facilitar a atuação do magistrado. A assinatura do magistrado na
 minuta confeccionada pelo assessor também pode ocorrer através de outra
 opção do sistema onde o documento seja exibido. Para que o processo seja
 considerado válido, a regra
-[RN364](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN364 "Regras de negócio")
+[RN364](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN364 "Regras de negócio")
 deve ser observada. Para realizar a configuração de acesso ao agrupador,
 verificar a regra
-[RN539](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN539 "Regras de negócio").
+[RN539](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN539 "Regras de negócio").
 
 Para o caso do servidor, todos os processos que tenham processos filhos
 associados cujo [tipo de
 associação](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD99 "Regras de domínio")
 seja uma prevenção apontada anteriormente e ainda [não
-validadas](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN304 "Regras de negócio").
+validadas](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN304 "Regras de negócio").
 O assessor consegue confirmar ou declinar provisoriamente a situação de
 prevenção, minutando o ato do magistrado, que o confirmará
 posteriormente. O processo sairá do agrupador quando validado pelo
@@ -752,9 +752,9 @@ magistrado.
 
 Esse agrupador exibe, para cada documento incluído, processos que tenham
 [documentos não
-lidos](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN569 "Regras de negócio")
+lidos](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN569 "Regras de negócio")
 incluídos de acordo com a regra
-[RN574](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN574 "Regras de negócio").
+[RN574](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN574 "Regras de negócio").
 Estão incluídas as petições avulsas e os pedidos de habilitação.
 
 O agrupador de pesquisa permite a filtragem dos documentos de acordo com
@@ -778,7 +778,7 @@ as seguintes informações:
     height="20"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Lapis.jpg){.image}
     permitindo a realização da tarefa da qual o processo está pendente,
     respeitando as regras de
-    [permissão](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN511 "Regras de negócio")
+    [permissão](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN511 "Regras de negócio")
     para execução da tarefa
 -   ícone
     [![Oculos.jpg](Funcionalidades%20-%20PJe_arquivos/Oculos.jpg){width="16"
@@ -807,7 +807,7 @@ as seguintes informações:
 ### [ Painel do usuário ]{#Painel_do_usu.C3.A1rio .mw-headline}
 
 Painel exibido para [usuários
-internos](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN394 "Regras de negócio")
+internos](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN394 "Regras de negócio")
 que tenham sido cadastrados como \"servidor\" e tenham sido associados a
 um órgão julgador. O painel é similar ao [painel do
 magistrado](http://titanio09.cnj.jus.br/wiki/index.php/Funcionalidades#Painel_do_magistrado "Funcionalidades"),
@@ -894,7 +894,7 @@ O usuário pode filtrar os expedientes através dos seguintes filtros:
     corresponde ao tipo de documento do expediente
 
 Para cada mandado pendente segundo a regra
-[RN555](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN555 "Regras de negócio"),
+[RN555](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN555 "Regras de negócio"),
 são retornadas as seguintes informações:
 
 -   Ícone
@@ -942,10 +942,10 @@ Através dessa aba, o usuário seleciona através da [caixa de
 combinação](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Caixas_de_combina.C3.A7.C3.A3o "Manual de referência")
 de tipo de resultado da diligência o tipo correspondente. Os tipos são
 exibidos conforme regra
-[RN556](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN556 "Regras de negócio").
+[RN556](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN556 "Regras de negócio").
 
 Após o registro, a geração da movimentação fica condicionada à regra
-[RN557](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN556 "Regras de negócio").
+[RN557](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN556 "Regras de negócio").
 
 ### [ Painel do oficial de justiça ]{#Painel_do_oficial_de_justi.C3.A7a_2 .mw-headline}
 
@@ -963,7 +963,7 @@ pendentes de redistribuição. O agrupador contém ao lado de sua descrição
 a quantidade de expedientes pendentes.
 
 Para cada mandado pendente segundo a regra
-[RN554](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN554 "Regras de negócio"),
+[RN554](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN554 "Regras de negócio"),
 são retornadas as seguintes informações:
 
 -   Ícone
@@ -993,7 +993,7 @@ são retornadas as seguintes informações:
 
 O usuário pode ordenar os mandados de forma a facilitar a organização de
 sua distribuição. A ordenação é determinada pela regra
-[RN560](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN560 "Regras de negócio").
+[RN560](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN560 "Regras de negócio").
 
 Ao selecionar algum mandado através do [campo de
 seleção](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Campos_de_sele.C3.A7.C3.A3o "Manual de referência")
@@ -1009,9 +1009,9 @@ grupo de oficiais de justiça para o qual o mandado será enviado e,
 opcionalmente, o oficial de justiça a que ele será atribuído.
 
 Na redistribuição, a regra
-[RN552](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN552 "Regras de negócio")
+[RN552](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN552 "Regras de negócio")
 é obedecida, ficando a geração de movimentação condicionada à regra
-[RN551](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN551 "Regras de negócio").
+[RN551](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN551 "Regras de negócio").
 
 #### [ Expedientes para distribuição ]{#Expedientes_para_distribui.C3.A7.C3.A3o .mw-headline}
 
@@ -1020,7 +1020,7 @@ pendentes de distribuição. O agrupador contém ao lado de sua descrição a
 quantidade de expedientes pendentes.
 
 Para cada mandado pendente segundo a regra
-[RN553](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN553 "Regras de negócio"),
+[RN553](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN553 "Regras de negócio"),
 são retornadas as seguintes informações:
 
 -   Ícone
@@ -1052,7 +1052,7 @@ são retornadas as seguintes informações:
 \
 O usuário pode ordenar os mandados de forma a facilitar a organização de
 sua redistribuição. A ordenação é determinada pela regra
-[RN560](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN560 "Regras de negócio").
+[RN560](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN560 "Regras de negócio").
 
 Ao selecionar algum mandado através do [campo de
 seleção](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Campos_de_sele.C3.A7.C3.A3o "Manual de referência")
@@ -1068,9 +1068,9 @@ grupo de oficiais de justiça para o qual o mandado será enviado e,
 opcionalmente, o oficial de justiça a que ele será atribuído.
 
 Na distribuição, a regra
-[RN552](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN552 "Regras de negócio")
+[RN552](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN552 "Regras de negócio")
 é obedecida, ficando a geração de movimentação condicionada à regra
-[RN551](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN551 "Regras de negócio").
+[RN551](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN551 "Regras de negócio").
 
 ### [ Painel do perito ]{#Painel_do_perito .mw-headline}
 
@@ -1134,16 +1134,16 @@ de tarefas, conforme regra
 O usuário [executa a
 tarefa](http://titanio09.cnj.jus.br/wiki/index.php/Abrir_tarefa "Abrir tarefa")
 naquele processo interagindo com os ícones, observada as regra de
-[bloqueio](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN500 "Regras de negócio")
+[bloqueio](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN500 "Regras de negócio")
 e
-[desbloqueio](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN505 "Regras de negócio")
+[desbloqueio](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN505 "Regras de negócio")
 de processo.
 
 O usuário, dentro da área de processos, poderá utilizar a filtrar ainda
 mais os processos exibidos através do [agrupador de
 pesquisa](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Agrupadores_de_pesquisa "Manual de referência")
 disponibilizado. Conforme regra
-[RN506](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN506 "Regras de negócio"),
+[RN506](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN506 "Regras de negócio"),
 o resultado da pesquisa no agrupador abrange apenas os processos
 listados naquele agrupamento, ou seja, se processos estão em caixas e a
 consulta está sendo realizado no agrupamento de processos da tarefa (não
@@ -1362,21 +1362,21 @@ documentos](http://titanio09.cnj.jus.br/wiki/index.php?title=Digitalizar_documen
 
 O usuário poderá vincular documentos digitalizados a um dos documentos
 principais do processo, conforme regra
-[RN396](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN396 "Regras de negócio").
+[RN396](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN396 "Regras de negócio").
 
 As restrições para inserção são:
 
 -   [quantidade de
-    arquivos](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN284 "Regras de negócio")
+    arquivos](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN284 "Regras de negócio")
 -   [tamanhos e
-    tipos](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN285 "Regras de negócio")
+    tipos](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN285 "Regras de negócio")
 -   [informações sobre os
-    arquivos](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN286 "Regras de negócio")
--   [ordenação](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN287 "Regras de negócio")
+    arquivos](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN286 "Regras de negócio")
+-   [ordenação](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN287 "Regras de negócio")
 
 Na exclusão, que é possível para documentos não assinados, aplica-se a
 regra
-[pertinente](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN504 "Regras de negócio").
+[pertinente](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN504 "Regras de negócio").
 
 ### [ Avaliar juntada ]{#Avaliar_juntada .mw-headline}
 
@@ -1392,7 +1392,7 @@ documentos](http://titanio09.cnj.jus.br/wiki/index.php?title=Digitalizar_documen
 
 Na exclusão de documentos digitalizados, que é possível para documentos
 não assinados, aplica-se a regra
-[pertinente](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN504 "Regras de negócio").
+[pertinente](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN504 "Regras de negócio").
 
 ### [ Preparar comunicação ]{#Preparar_comunica.C3.A7.C3.A3o .mw-headline}
 
@@ -1410,16 +1410,16 @@ de comunicação, [tipos de
 prazo](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD96 "Regras de domínio"),
 endereços e a vinculação do expediente em si, com possibilidade de
 [vinculação de documentos do
-processo](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN382 "Regras de negócio")
+processo](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN382 "Regras de negócio")
 e posterior assinatura. A tarefa será exibida para papéis e localizações
 que tenham sido configurados.
 
 **Regras de negócio relacionadas:**
 
 -   [RN501 - Expediente por meio
-    eletrônico](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN501 "Regras de negócio")
+    eletrônico](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN501 "Regras de negócio")
 -   [RN541 - Expediente por meio
-    telefônico](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN541 "Regras de negócio")
+    telefônico](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN541 "Regras de negócio")
 
 ### [ Imprimir correspondência ]{#Imprimir_correspond.C3.AAncia .mw-headline}
 
@@ -1427,11 +1427,11 @@ que tenham sido configurados.
 
 Regras relacionadas:
 
--   [RN370](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN370 "Regras de negócio") -
+-   [RN370](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN370 "Regras de negócio") -
     Redistribuição pontual
--   [RN479](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN479 "Regras de negócio") -
+-   [RN479](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN479 "Regras de negócio") -
     Redistribuição por prevenção
--   [RN605](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN605 "Regras de negócio") -
+-   [RN605](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN605 "Regras de negócio") -
     Regra para audiências marcadas no órgão julgador de origem
 
 ### [ Minutar ato ]{#Minutar_ato .mw-headline}
@@ -1441,14 +1441,14 @@ estejam vinculados à localização do usuário. A confecção da minuta se dá
 através de editor de textos do PJe. O usuário pode utilizar tipos de
 documentos e modelos de documentos diversos para a minuta, de acordo com
 a
-[configuração](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN348 "Regras de negócio")
+[configuração](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN348 "Regras de negócio")
 relacionada a esses tipos e modelos e também pela configuração dos
 modelos no próprio fluxo. A confecção da minuta deve gerar uma
 movimentação processual. Essa movimentação é selecionada através do
 [lançador de
 movimentos](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI20 "Regras de interface"),
 configurado no evento de tarefa devido. O lançador permite a
-[pesquisa](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN342 "Regras de negócio")
+[pesquisa](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN342 "Regras de negócio")
 e seleção de movimentos associados à tarefa sendo executada. A pesquisa
 permite que se consulte movimentos [por código ou por
 descrição](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI206 "Regras de interface").
@@ -1470,7 +1470,7 @@ seleção](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#
 ao lado de cada processo de modo a permitir que o usuário possa
 selecionar quais processos serão utilizados. É permitida também a
 [seleção
-agrupada](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN270 "Regras de negócio")
+agrupada](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN270 "Regras de negócio")
 de processos através de opções fornecidas no cabeçalho da coluna
 referente às caixas de seleção. Além disso, o
 [botão](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Bot.C3.B5es "Manual de referência")
@@ -1488,23 +1488,23 @@ na forma de uma [caixa de
 combinação](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Caixas_de_combina.C3.A7.C3.A3o "Manual de referência")
 posicionada à direita do descritivo de cada processo com [transições de
 saída previamente
-selecionadas](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN272 "Regras de negócio"),
+selecionadas](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN272 "Regras de negócio"),
 permitindo ao usuário a [troca de
-transições](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN273 "Regras de negócio")
+transições](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN273 "Regras de negócio")
 para cada processo ou a seleção de uma [mesma
-transição](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN274 "Regras de negócio")
+transição](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN274 "Regras de negócio")
 para todos os processos.
 
 Ao confirmar a execução da tarefa, o sistema
-[executará](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN267 "Regras de negócio")
+[executará](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN267 "Regras de negócio")
 o que for definido na tela para [todos os processos
-selecionados](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN269 "Regras de negócio"),
+selecionados](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN269 "Regras de negócio"),
 assim como os procedimentos [configurados na
-tarefa](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN268 "Regras de negócio").
+tarefa](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN268 "Regras de negócio").
 
 **Regras de Negócio relacionadas**:\
 [RN537 (Minutar em
-lote)](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN537 "Regras de negócio")
+lote)](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN537 "Regras de negócio")
 
 ### [ Confirmar ato ]{#Confirmar_ato .mw-headline}
 
@@ -1537,7 +1537,7 @@ ter sido anexado em um processo judicial e, além disso, prosseguir com o
 processo judicial para a próxima tarefa do fluxo, de acordo com a
 [configuração](http://titanio09.cnj.jus.br/wiki/index.php/Reclassificar_tipo_de_documento "Reclassificar tipo de documento").
 Um papel específico foi definido para usar essa tarefa conforme regra
-[RN326](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN326 "Regras de negócio").
+[RN326](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN326 "Regras de negócio").
 
 A regra
 [RI194](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI194 "Regras de interface")
@@ -1555,9 +1555,9 @@ Esta funcionalidade possui casos de teste elaborados na ferramenta
 
 Outras regras relacionadas:
 
-[RN602](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN602 "Regras de negócio")
+[RN602](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN602 "Regras de negócio")
 - Regra de tipos de documentos disponíveis para reclassificação
-[RN603](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN603 "Regras de negócio")
+[RN603](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN603 "Regras de negócio")
 - Regra de documentos disponíveis para reclassificação
 
 ### [ Preparar remessa para o 2º grau ]{#Preparar_remessa_para_o_2.C2.BA_grau .mw-headline}
@@ -1617,7 +1617,7 @@ destinado a permitir o preparo de remessa denominado [Preparar remessa
 de manifestação processual para envio à instância
 superior](http://titanio09.cnj.jus.br/wiki/index.php/Preparar_remessa_de_manifesta%C3%A7%C3%A3o_processual_para_envio_%C3%A0_inst%C3%A2ncia_superior "Preparar remessa de manifestação processual para envio à instância superior").
 Um papel específico foi definido para usar essa tarefa conforme regra
-[RN343](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN343 "Regras de negócio").
+[RN343](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN343 "Regras de negócio").
 
 A regra
 [RI195](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI195 "Regras de interface")
@@ -1682,7 +1682,7 @@ configurar essa tarefa consulte em: [nó de tarefa \"Informação
 processual complementar do tipo
 prisão\"](http://titanio09.cnj.jus.br/wiki/index.php/Informa%C3%A7%C3%A3o_processual_complementar_do_tipo_pris%C3%A3o "Informação processual complementar do tipo prisão").
 A regra de negócio
-[RN45](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN45 "Regras de negócio")
+[RN45](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN45 "Regras de negócio")
 apresenta a especificação completa de IPC do tipo prisão.
 
 #### [ Informação processual complementar do tipo fuga ]{#Informa.C3.A7.C3.A3o_processual_complementar_do_tipo_fuga .mw-headline}
@@ -1702,7 +1702,7 @@ documentos vinculados ao processo. Para configurar essa tarefa consulte
 em: [nó de tarefa \"Informação processual complementar do tipo
 fuga\"](http://titanio09.cnj.jus.br/wiki/index.php/Informa%C3%A7%C3%A3o_processual_complementar_do_tipo_fuga "Informação processual complementar do tipo fuga").
 A regra de negócio
-[RN425](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN425 "Regras de negócio")
+[RN425](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN425 "Regras de negócio")
 apresenta a especificação completa de IPC do tipo fuga.
 
 #### [ Informação processual complementar do tipo soltura ]{#Informa.C3.A7.C3.A3o_processual_complementar_do_tipo_soltura .mw-headline}
@@ -1716,7 +1716,7 @@ usuário registrar a soltura do réu. Para configurar essa tarefa consulte
 em: [nó de tarefa \"Informação processual complementar do tipo
 soltura\"](http://titanio09.cnj.jus.br/wiki/index.php/Informa%C3%A7%C3%A3o_processual_complementar_do_tipo_soltura "Informação processual complementar do tipo soltura").
 A regra de negócio
-[RN46](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN46 "Regras de negócio")
+[RN46](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN46 "Regras de negócio")
 apresenta a especificação completa de IPC do tipo soltura.
 
 #### [ Informação processual complementar de alguns tipos da área criminal ]{#Informa.C3.A7.C3.A3o_processual_complementar_de_alguns_tipos_da_.C3.A1rea_criminal .mw-headline}
@@ -1761,7 +1761,7 @@ Para configurar essa tarefa consulte em: [nó de tarefa \"Informação
 processual complementar do tipo transferência do
 réu\".](http://titanio09.cnj.jus.br/wiki/index.php/Informa%C3%A7%C3%A3o_processual_complementar_do_tipo_transfer%C3%AAncia_do_r%C3%A9u "Informação processual complementar do tipo transferência do réu")
 A regra de negócio
-[RN34](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN34 "Regras de negócio")
+[RN34](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN34 "Regras de negócio")
 apresenta a especificação completa de IPC do tipo transferência do réu.
 
 #### [ Informação processual complementar do tipo obrigações a pagar ]{#Informa.C3.A7.C3.A3o_processual_complementar_do_tipo_obriga.C3.A7.C3.B5es_a_pagar .mw-headline}
@@ -1779,7 +1779,7 @@ consulte em: [nó de tarefa \"Informação processual complementar do tipo
 obrigações a
 pagar\"](http://titanio09.cnj.jus.br/wiki/index.php/Informa%C3%A7%C3%A3o_processual_complementar_do_tipo_obriga%C3%A7%C3%B5es_a_pagar "Informação processual complementar do tipo obrigações a pagar").
 A regra de negócio
-[RN436](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN436 "Regras de negócio")
+[RN436](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN436 "Regras de negócio")
 apresenta a especificação completa de IPC do tipo obrigações a pagar.
 
 #### [ Informação processual complementar do tipo tipificação do delito ]{#Informa.C3.A7.C3.A3o_processual_complementar_do_tipo_tipifica.C3.A7.C3.A3o_do_delito .mw-headline}
@@ -1802,7 +1802,7 @@ aditamento da denúncia. Para configurar essa tarefa consulte em: [nó de
 tarefa \"Informação processual complementar do tipo aditamento da
 denúncia\".](http://titanio09.cnj.jus.br/wiki/index.php/Informa%C3%A7%C3%A3o_processual_complementar_do_tipo_aditamento_da_den%C3%BAncia "Informação processual complementar do tipo aditamento da denúncia")
 A regra de negócio
-[RN448](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN448 "Regras de negócio")
+[RN448](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN448 "Regras de negócio")
 apresenta a especificação completa de IPC do tipo aditamento da
 denúncia.
 
@@ -1821,7 +1821,7 @@ Para configurar essa tarefa consulte em: [nó de tarefa \"Informação
 processual complementar do tipo
 queixa\".](http://titanio09.cnj.jus.br/wiki/index.php/Informa%C3%A7%C3%A3o_processual_complementar_do_tipo_aditamento_da_queixa "Informação processual complementar do tipo aditamento da queixa")
 A regra de negócio
-[RN453](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN453 "Regras de negócio")
+[RN453](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN453 "Regras de negócio")
 apresenta a especificação completa de IPC do tipo queixa.
 
 \
@@ -1842,7 +1842,7 @@ Para configurar essa tarefa consulte em: [nó de tarefa \"Informação
 processual complementar do tipo aditamento da
 queixa\".](http://titanio09.cnj.jus.br/wiki/index.php/Informa%C3%A7%C3%A3o_processual_complementar_do_tipo_aditamento_da_queixa "Informação processual complementar do tipo aditamento da queixa")
 A regra de negócio
-[RN453](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN453 "Regras de negócio")
+[RN453](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN453 "Regras de negócio")
 apresenta a especificação completa de IPC do tipo aditamento da queixa.
 
 #### [ Informação processual complementar do tipo atribuição de autoria dos fatos ]{#Informa.C3.A7.C3.A3o_processual_complementar_do_tipo_atribui.C3.A7.C3.A3o_de_autoria_dos_fatos .mw-headline}
@@ -1861,7 +1861,7 @@ Para configurar essa tarefa consulte em: [nó de tarefa \"Informação
 processual complementar do tipo atribuição de autoria dos
 fatos\".](http://titanio09.cnj.jus.br/wiki/index.php/Informa%C3%A7%C3%A3o_processual_complementar_do_tipo_atribui%C3%A7%C3%A3o_de_autoria_dos_fatos "Informação processual complementar do tipo atribuição de autoria dos fatos")
 A regra de negócio
-[RN456](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN456 "Regras de negócio")
+[RN456](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN456 "Regras de negócio")
 apresenta a especificação completa de IPC do tipo atribuição de autoria
 dos fatos.
 
@@ -1881,7 +1881,7 @@ Para configurar essa tarefa consulte em: [nó de tarefa \"Informação
 processual complementar do tipo
 desclassificação\".](http://titanio09.cnj.jus.br/wiki/index.php/Informa%C3%A7%C3%A3o_processual_complementar_do_tipo_desclassifica%C3%A7%C3%A3o "Informação processual complementar do tipo desclassificação")
 A regra de negócio
-[RN456](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN456 "Regras de negócio")
+[RN456](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN456 "Regras de negócio")
 apresenta a especificação completa de IPC do tipo desclassificação.
 
 #### [ Informação processual complementar do tipo oferecimento da denúncia ]{#Informa.C3.A7.C3.A3o_processual_complementar_do_tipo_oferecimento_da_den.C3.BAncia .mw-headline}
@@ -1901,7 +1901,7 @@ Para configurar essa tarefa consulte em: [nó de tarefa \"Informação
 processual complementar do tipo oferecimento da
 denúncia\".](http://titanio09.cnj.jus.br/wiki/index.php/Informa%C3%A7%C3%A3o_processual_complementar_do_tipo_oferecimento_da_den%C3%BAncia "Informação processual complementar do tipo oferecimento da denúncia")
 A regra de negócio
-[RN462](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN462 "Regras de negócio")
+[RN462](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN462 "Regras de negócio")
 apresenta a especificação completa de IPC do tipo oferecimento da
 denúncia.
 
@@ -1927,10 +1927,10 @@ explicada a seguir e um detalhamento de como cadastrar um novo processo
 
 As jurisdições são aquelas cadastradas através do cadastro de
 jurisdições e devem ser listadas conforme regra
-[RN409](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN409 "Regras de negócio").
+[RN409](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN409 "Regras de negócio").
 
 Após a seleção da jurisdição, as classes devem aparecer conforme regra
-[RN402](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN402 "Regras de negócio").
+[RN402](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN402 "Regras de negócio").
 
 #### [ Assuntos ]{#Assuntos .mw-headline}
 
@@ -1940,30 +1940,30 @@ competência da classe respectiva serão disponibilizados para seleção.
 #### [ Partes ]{#Partes .mw-headline}
 
 Nesta aba, é permitido o [cadastro das partes do
-processo](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN348 "Regras de negócio").
+processo](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN348 "Regras de negócio").
 
 As partes podem estar no [polo ativo,
-passivo](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN355 "Regras de negócio")
+passivo](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN355 "Regras de negócio")
 ou podem ser [outros
-participantes](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN356 "Regras de negócio")
+participantes](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN356 "Regras de negócio")
 do processo. Para todas as partes, pode-se [cadastrar
 procurador(es)/terceiro(s)
-vinculado(s)](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN313 "Regras de negócio")
+vinculado(s)](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN313 "Regras de negócio")
 à parte de acordo com as [respectivas
-validações](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN265 "Regras de negócio").
+validações](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN265 "Regras de negócio").
 
 Ao adicionar uma parte no polo ativo ou passivo, pode-se selecionar se é
 [uma pessoa física, jurídica ou uma
-autoridade](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN357 "Regras de negócio").
+autoridade](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN357 "Regras de negócio").
 
 Regras relacionadas:
 
 -   Cadastro de autoridades:
     [RI246](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI246 "Regras de interface")
 -   Vinculação de representantes a processos:
-    [RN444](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN444 "Regras de negócio")
+    [RN444](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN444 "Regras de negócio")
 -   Fornecimento de CPF/CNPJ:
-    [RN497](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN497 "Regras de negócio")
+    [RN497](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN497 "Regras de negócio")
 
 ##### [ Informações pessoais ]{#Informa.C3.A7.C3.B5es_pessoais .mw-headline}
 
@@ -1974,21 +1974,21 @@ Regras relacionadas:
 Aqui são cadastrados os endereços da parte.
 
 Deve-se incluir os
-[endereços](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN354 "Regras de negócio")
+[endereços](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN354 "Regras de negócio")
 através do
-[CEP](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN327 "Regras de negócio").
+[CEP](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN327 "Regras de negócio").
 Sem o CEP previamente cadastrado no PJe, não será possível incluir o
 endereço. Pode-se também utilizar a opção de endereço desconhecido,
 respeitada a [restrição para
-advogados](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN354 "Regras de negócio").
+advogados](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN354 "Regras de negócio").
 
 A partir da identificação da parte (CPF ou CNPJ), pode-se ter acesso a
 endereços previamente vinculados àquela parte em outro processo, de
 acordo com a regra
-[RN393](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN393 "Regras de negócio").
+[RN393](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN393 "Regras de negócio").
 
 Regra relacionada: [exclusão de
-endereço](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN359 "Regras de negócio")
+endereço](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN359 "Regras de negócio")
 
 ##### [ Meios de contato ]{#Meios_de_contato .mw-headline}
 
@@ -1999,7 +1999,7 @@ O cadastro de meios de contato é exibido de acordo com a regra
 
 O cadastro de característica pessoais estará disponível desde que a
 regra
-[RN508](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN508 "Regras de negócio")
+[RN508](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN508 "Regras de negócio")
 tenha sido satisfeita.
 
 O cadastro é exibido de acordo com a regra
@@ -2009,11 +2009,11 @@ O cadastro é exibido de acordo com a regra
 
 Nessa opção, pode-se registrar pedido de segredo de justiça para o
 processo
-([RN443](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN443 "Regras de negócio")),
+([RN443](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN443 "Regras de negócio")),
 pedido de justiça gratuita, pedido de liminar ou de antecipação de
 tutela, o valor da causa e acrescentar as prioridades processuais,
 conforme regra
-[RN28](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN28 "Regras de negócio").
+[RN28](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN28 "Regras de negócio").
 
 #### [ Incluir petições e documentos ]{#Incluir_peti.C3.A7.C3.B5es_e_documentos .mw-headline}
 
@@ -2047,12 +2047,12 @@ o momento do
 
 Regras associadas:
 
--   [RN284](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN284 "Regras de negócio")
--   [RN285](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN285 "Regras de negócio")
--   [RN286](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN286 "Regras de negócio")
--   [RN287](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN287 "Regras de negócio")
--   [RN565](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN565 "Regras de negócio")
--   [RN566](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN566 "Regras de negócio")
+-   [RN284](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN284 "Regras de negócio")
+-   [RN285](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN285 "Regras de negócio")
+-   [RN286](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN286 "Regras de negócio")
+-   [RN287](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN287 "Regras de negócio")
+-   [RN565](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN565 "Regras de negócio")
+-   [RN566](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN566 "Regras de negócio")
 
 #### [ Dados específicos da classe ]{#Dados_espec.C3.ADficos_da_classe .mw-headline}
 
@@ -2063,20 +2063,20 @@ estes campos complementares. Os campos complementares deverão atender à
 configuração especificada em [configuração de campos
 complementares](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Aplica.C3.A7.C3.A3o "Manual de referência"),
 relacionada à
-[RN535](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN535 "Regras de negócio").
+[RN535](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN535 "Regras de negócio").
 
 #### [ Processo ]{#Processo_2 .mw-headline}
 
 ##### [ Protocolar ]{#Protocolar .mw-headline}
 
 Ao
-[protocolar](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN392 "Regras de negócio"),
+[protocolar](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN392 "Regras de negócio"),
 o processo será
 [distribuído](http://titanio09.cnj.jus.br/wiki/index.php/Distribui%C3%A7%C3%A3o "Distribuição").
 A verificação de prevenção se dá nesse momento, conforme regras
-[RN303](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN303 "Regras de negócio")
+[RN303](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN303 "Regras de negócio")
 e
-[RN364](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN364 "Regras de negócio").
+[RN364](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN364 "Regras de negócio").
 
 \
 
@@ -2093,29 +2093,29 @@ Regras relacionadas:
 
 Processo incidente
 
--   [RN360](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN360 "Regras de negócio")
--   [RN374](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN374 "Regras de negócio")
--   [RN403](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN403 "Regras de negócio")
--   [RN464](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN464 "Regras de negócio")
--   [RN465](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN465 "Regras de negócio")
--   [RN466](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN466 "Regras de negócio")
+-   [RN360](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN360 "Regras de negócio")
+-   [RN374](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN374 "Regras de negócio")
+-   [RN403](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN403 "Regras de negócio")
+-   [RN464](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN464 "Regras de negócio")
+-   [RN465](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN465 "Regras de negócio")
+-   [RN466](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN466 "Regras de negócio")
 -   [RI25](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI25 "Regras de interface")
 -   [RI66](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI66 "Regras de interface")
 -   [RI72](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI72 "Regras de interface")
 
 Gerais
 
--   [RN277](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN277 "Regras de negócio")
--   [RN278](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN278 "Regras de negócio")
--   [RN279](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN279 "Regras de negócio")
--   [RN280](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN280 "Regras de negócio")
--   [RN281](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN281 "Regras de negócio")
--   [RN299](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN299 "Regras de negócio")
--   [RN303](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN303 "Regras de negócio")
--   [RN308](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN308 "Regras de negócio")
--   [RN313](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN313 "Regras de negócio")
--   [RN314](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN314 "Regras de negócio")
--   [RN333](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN333 "Regras de negócio")
+-   [RN277](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN277 "Regras de negócio")
+-   [RN278](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN278 "Regras de negócio")
+-   [RN279](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN279 "Regras de negócio")
+-   [RN280](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN280 "Regras de negócio")
+-   [RN281](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN281 "Regras de negócio")
+-   [RN299](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN299 "Regras de negócio")
+-   [RN303](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN303 "Regras de negócio")
+-   [RN308](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN308 "Regras de negócio")
+-   [RN313](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN313 "Regras de negócio")
+-   [RN314](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN314 "Regras de negócio")
+-   [RN333](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN333 "Regras de negócio")
 -   [RI75](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI75 "Regras de interface")
 -   [RI150](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI75 "Regras de interface")
 
@@ -2131,7 +2131,7 @@ Justiça, sem a necessidade de ser acompanhada por advogado. O cadastro
 de processo desta funcionalidade é adequado às características de
 peticionamento próprias, onde os dados a serem fornecidos são distintos.
 A restrição
-[RN493](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN493 "Regras de negócio")
+[RN493](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN493 "Regras de negócio")
 determina o comportamento do cadastro de partes no polo ativo.
 
 \
@@ -2146,7 +2146,7 @@ digitados. Poderão ser visualizados todos os processos não protocolados
 ([em
 elaboração](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD104 "Regras de domínio"))
 de acordo com a [permissão do
-usuário](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN483 "Regras de negócio").
+usuário](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN483 "Regras de negócio").
 
 A barra de paginação
 [![Paginacao.png](Funcionalidades%20-%20PJe_arquivos/Paginacao.png){width="172"
@@ -2213,9 +2213,9 @@ quantidade limite para exibição por página.
 
 As seguintes regras devem ser observadas:
 
--   [RN469](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN469 "Regras de negócio")
--   [RN470](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN470 "Regras de negócio")
--   [RN511](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN511 "Regras de negócio") -
+-   [RN469](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN469 "Regras de negócio")
+-   [RN470](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN470 "Regras de negócio")
+-   [RN511](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN511 "Regras de negócio") -
     regra para visualização da tarefa da qual o processo está pendente
     de execução
 
@@ -2254,11 +2254,11 @@ Opção acionada através do ícone
 height="32"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Sigilo.png){.image}.
 
 -   Iniciar atividade de digitalização: Regra
-    [RN519](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN519 "Regras de negócio")
+    [RN519](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN519 "Regras de negócio")
     contém restrições para que opção esteja disponível
 -   Exibir situações atuais do processo / Ocultar situações atuais do
     processo (Regra
-    [RN581](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN581 "Regras de negócio"))
+    [RN581](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN581 "Regras de negócio"))
     (papel pje:papel:visualizaSituacoes)
 
 Ao acionar essa opção, são exibidas, em uma lista no topo da tela de
@@ -2267,7 +2267,7 @@ processo com a data e a hora de seu início. A opção ficará, então,
 disponível, como \"Ocultar situações atuais do processo\".
 
 -   Exibir situações do processo / Ocultar situações do processo (Regra
-    [RN581](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN581 "Regras de negócio"))
+    [RN581](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN581 "Regras de negócio"))
     (papel pje:papel:visualizaSituacoes)
 
 Ao acionar essa opção, são exibidas, em uma lista no topo da tela de
@@ -2290,10 +2290,10 @@ situações do processo\".
 Para instalações de segundo grau, é exibido o [campo de
 seleção](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Campos_de_sele.C3.A7.C3.A3o "Manual de referência")
 para [selecionar para
-pauta](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN387 "Regras de negócio"),
+pauta](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN387 "Regras de negócio"),
 que permite que o processo seja selecionado através dessa tela,
 alternativamente à seleção através da opção pelo
-[fluxo](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN526 "Regras de negócio").
+[fluxo](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN526 "Regras de negócio").
 
 -   Documentos
 
@@ -2305,9 +2305,9 @@ Para maiores detalhes, ver regra
 
 Tabela que retorna todos os movimentos registrados, respeitando as
 regras
-[RN567](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN567 "Regras de negócio")
+[RN567](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN567 "Regras de negócio")
 e
-[RN559](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN559 "Regras de negócio").
+[RN559](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN559 "Regras de negócio").
 A exibição dos movimentos é determinada pela regra
 [RI246](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI246 "Regras de interface").
 
@@ -2337,10 +2337,10 @@ o momento da assinatura.
 
 Regras associadas:
 
--   [RN284](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN284 "Regras de negócio")
--   [RN285](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN285 "Regras de negócio")
--   [RN286](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN286 "Regras de negócio")
--   [RN287](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN287 "Regras de negócio")
+-   [RN284](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN284 "Regras de negócio")
+-   [RN285](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN285 "Regras de negócio")
+-   [RN286](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN286 "Regras de negócio")
+-   [RN287](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN287 "Regras de negócio")
 
 ###### [ Aba Expedientes ]{#Aba_Expedientes .mw-headline}
 
@@ -2361,7 +2361,7 @@ PJe](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD99 "Reg
 ou seja, dependência, desmembramento, prevenção ou vinculação indireta.
 Os processos físicos ou que não estão na instalação do PJe não são
 listados nessa opção em decorrência da regra
-[RN474](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN474 "Regras de negócio").
+[RN474](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN474 "Regras de negócio").
 
 Para cada processo encontrado, são exibidas as seguintes informações:
 
@@ -2381,9 +2381,9 @@ Para cada processo encontrado, são exibidas as seguintes informações:
 ###### [ Petições avulsas ]{#Peti.C3.A7.C3.B5es_avulsas .mw-headline}
 
 Nessa aba são exibidas as [petições avulsas não
-apreciadas](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN571 "Regras de negócio")
+apreciadas](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN571 "Regras de negócio")
 de acordo com as permissões descritas na
-[RN570](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN570 "Regras de negócio").
+[RN570](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN570 "Regras de negócio").
 
 \
 Para cada petição não apreciada, são exibidas as seguintes informações:
@@ -2406,7 +2406,7 @@ por advogado ou procurador.
 
 São listados os acessos registrados de terceiros interessados no
 processo conforme regra
-[RN452](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN452 "Regras de negócio").
+[RN452](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN452 "Regras de negócio").
 
 #### [ Localizações ]{#Localiza.C3.A7.C3.B5es .mw-headline}
 
@@ -2423,7 +2423,7 @@ secretaria ou direção do cartório, e pelos setores de conhecimento,
 expedição de atos de comunicação, execução etc. A [localização limita o
 conjunto de processos visualizáveis pelos usuários]{.ul} do sistema.
 Através dessa funcionalidade, o [usuário
-interno](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN394 "Regras de negócio")
+interno](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN394 "Regras de negócio")
 (diretor de secretaria, magistrado, assessor\...) pode pesquisar onde se
 encontram os processos que ele tem permissão de visualizar. Ele
 visualiza a localização do processo, assim como as tarefas pelas quais o
@@ -2436,7 +2436,7 @@ Perfil: servidor
 
 Essa funcionalidade visa dar mais transparência ao processo de
 distribuição uma vez que permite que o [usuário
-interno](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN394 "Regras de negócio")
+interno](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN394 "Regras de negócio")
 pesquise e visualize o passo a passo do procedimento automático de
 distribuição por processo efetivamente distribuído, contemplando todos
 os valores levados em consideração para cálculo do peso e finalização do
@@ -2464,7 +2464,7 @@ Perfil: advogado/procurador/servidor
 Permite a consulta de processos aos quais não esteja vinculado a
 advogados, procuradores e membros do Ministério Público cadastrados,
 desde que demonstrado interesse, conforme regra
-[RN452](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN452 "Regras de negócio").
+[RN452](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN452 "Regras de negócio").
 
 Esse acesso está depreciado, devendo ser utilizada a [pesquisa de
 processos](http://titanio09.cnj.jus.br/wiki/index.php/Funcionalidades#Processo_3 "Funcionalidades")
@@ -2477,7 +2477,7 @@ Perfil: servidor
 Permite a consulta de processos de outras seções, já que a consulta
 padrão leva em consideração a localização do usuário para delimitar a
 consulta. Essa funcionalidade obedece à regra
-[RN312](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN312 "Regras de negócio").
+[RN312](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN312 "Regras de negócio").
 
 #### [ Consulta de prazos ]{#Consulta_de_prazos .mw-headline}
 
@@ -2632,14 +2632,14 @@ Perfil: magistrado
 Por padrão, não há ajuste em movimentação. É permitido excluir apenas as
 que estão configuradas expressamente com essa característica através da
 [configuração da
-movimentação](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN375 "Regras de negócio").
+movimentação](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN375 "Regras de negócio").
 
 #### [ Associar processos ]{#Associar_processos .mw-headline}
 
 Perfil: diretor de secretaria/magistrado
 
 Regra relacionada:
-[RN464](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN464 "Regras de negócio")
+[RN464](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN464 "Regras de negócio")
 
 A associação de processos ocorre quando se deseja que processos sejam
 vinculados. A vinculação não faz com que os processos tramitem em
@@ -2649,12 +2649,12 @@ conjunto. A associação pode ocorrer por três motivos:
     norma legal, a um principal, como os embargos à execução quanto à
     execução ou a impugnação ao valor da causa quanto ao principal (deve
     ser observada a regra
-    [RN373](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN373 "Regras de negócio"));
+    [RN373](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN373 "Regras de negócio"));
 -   prevenção - ocorre quando um processo é vinculado, por decisão
     judicial, a outro processo, nos casos em que se reconhece uma
     circunstância legal que determina a tramitação em um mesmo juízo
     (deve ser observada a regra
-    [RN373](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN373 "Regras de negócio"));
+    [RN373](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN373 "Regras de negócio"));
 -   desmembramento - ocorre quanto aos processos derivados de um
     processo originário, após a determinação do desmembramento.
 
@@ -2705,7 +2705,7 @@ Perfil: servidor retificador
 
 É permitida a retificação dos autos do processo para usuários
 servidores, ressalvada a regra
-[RN307](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN307 "Regras de negócio").
+[RN307](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN307 "Regras de negócio").
 A retificação de autuação pode ser demandada por diversos motivos. Uma
 das partes pode solicitar a retificação da autuação via petição anexada
 ao processo. Por exemplo, para incluir um novo advogado como
@@ -2734,7 +2734,7 @@ Perfil: advogado
 \
 Essa funcionalidade permite que um advogado se [habilite em um processo
 (regra
-RN376)](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN376 "Regras de negócio")
+RN376)](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN376 "Regras de negócio")
 em andamento. Por exemplo, uma parte x (polo ativo) entra com uma ação,
 representada por seu advogado, contra uma outra parte y (polo passivo).
 O advogado que desejar se habilitar, de posse do nº do processo e da
@@ -2743,7 +2743,7 @@ representar o seu cliente. O advogado solicita habilitação e o
 magistrado examina a petição e documentos anexados na solicitação de
 habilitação, mas a habilitação é realizada automaticamente. Deve ser
 observada ainda, a regra
-[RN300](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN300 "Regras de negócio")
+[RN300](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN300 "Regras de negócio")
 quando se tratar de processo em segredo de justiça. Para perfis que não
 devem ter acesso à funcionalidade, o sistema não deve disponibilizar o
 menu ou deve impedir a utilização, utilizando como referência a mensagem
@@ -2752,7 +2752,7 @@ A possibilidade de habilitação e substituição prevê a notificação do
 substituído do fato. O advogado pode também realizar a habilitação por
 substabelecimento, que também prevê a notificação do substabelecente do
 fato. As notificações seguem a regra
-[RN620](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN620 "Regras de negócio")
+[RN620](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN620 "Regras de negócio")
 
 #### [ Peticionamento avulso ]{#Peticionamento_avulso .mw-headline}
 
@@ -2778,10 +2778,10 @@ A funcionalidade permite que:
 Regras relacionadas:
 
 -   [Regra de vinculação do advogado ao
-    processo](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN413 "Regras de negócio")
+    processo](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN413 "Regras de negócio")
 -   [Regra de permissão para utilização da funcionalidade e assinatura
     as
-    petições](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN414 "Regras de negócio")
+    petições](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN414 "Regras de negócio")
 
 [ Atividades ]{#Atividades .mw-headline}
 ----------------------------------------
@@ -2793,9 +2793,9 @@ Perfil: advogado/procurador/servidor
 Permite que se
 [assine](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI244 "Regras de interface")
 os documentos principais que estão [pendentes de
-assinatura](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN378 "Regras de negócio"),
+assinatura](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN378 "Regras de negócio"),
 respeitando as regras de
-[visibilidade](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN379 "Regras de negócio")
+[visibilidade](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN379 "Regras de negócio")
 do usuário logado.
 
 ### [ Avisos ]{#Avisos .mw-headline}
@@ -2878,7 +2878,7 @@ dispositivo da sentença, bem como de inventário e partilha resultante do
 desquite.
 
 Veja
-[aqui](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN352 "Regras de negócio")
+[aqui](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN352 "Regras de negócio")
 como configurar.
 
 ### [ Pauta de perícia ]{#Pauta_de_per.C3.ADcia .mw-headline}
@@ -2978,7 +2978,7 @@ marcações denominada Pauta de audiências, contendo os processos, datas e
 outros detalhes das audiências marcadas.
 
 Ver
-[RN587](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN587 "Regras de negócio")
+[RN587](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN587 "Regras de negócio")
 
 ### [ Integração com AUD ]{#Integra.C3.A7.C3.A3o_com_AUD .mw-headline}
 
@@ -3040,7 +3040,7 @@ Perfil: assessor/secretário da sessão
 
 Regras relacionadas:
 
-[RN291](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN291 "Regras de negócio")
+[RN291](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN291 "Regras de negócio")
 
 Essa funcionalidade exibe a relação de sessões de julgamento cadastradas
 através de um calendário onde pode-se selecionar uma sessão para
@@ -3051,12 +3051,12 @@ assim como exibirá as seguinte abas:
 #### [ Aptos para inclusão em pauta ]{#Aptos_para_inclus.C3.A3o_em_pauta .mw-headline}
 
 Restrição para exibição de processos:
-[RN525](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN525 "Regras de negócio")
+[RN525](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN525 "Regras de negócio")
 
 #### [ Aptos para inclusão em mesa ]{#Aptos_para_inclus.C3.A3o_em_mesa .mw-headline}
 
 Restrição para exibição de processos:
-[RN615](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN615 "Regras de negócio")
+[RN615](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN615 "Regras de negócio")
 
 #### [ Adiados e pautas anteriores ]{#Adiados_e_pautas_anteriores .mw-headline}
 
@@ -3078,11 +3078,11 @@ por meio do fluxo, ele aparecerá em aptos para inclusão em pauta.
 #### [ Aptos para publicação ]{#Aptos_para_publica.C3.A7.C3.A3o .mw-headline}
 
 A exibição dessa aba se dará conforme regra
-[RN616](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN616 "Regras de negócio").
+[RN616](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN616 "Regras de negócio").
 
 Caso o conector com o Diário de Justiça esteja disponível, a lista com
 os processos aptos para publicação (regra
-[RN617](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN617 "Regras de negócio"))
+[RN617](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN617 "Regras de negócio"))
 será exibida para que o usuário selecione quais processos irão compor a
 publicação, junto com um formulário de pesquisa para auxiliar na
 verificação da lista.
@@ -3093,7 +3093,7 @@ papel idSecretarioSessao.
 
 Ao clicar em publicar lista, o sistema fará a publicação da pauta de
 acordo com a regra
-[RN618](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN618 "Regras de negócio").
+[RN618](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN618 "Regras de negócio").
 
 #### [ Certidão de publicação ]{#Certid.C3.A3o_de_publica.C3.A7.C3.A3o .mw-headline}
 
@@ -3167,7 +3167,7 @@ autoria do documento, conforme determina a lei
 envio de petições, de recursos e à prática de atos processuais em geral.
 Sendo assim, sempre que necessária assinatura de documentos inseridos no
 processo, o PJe se [utilizará de assinatura
-digital](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN283 "Regras de negócio"),
+digital](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#RN283 "Regras de negócio"),
 similarmente à opção de
 [login](http://titanio09.cnj.jus.br/wiki/index.php/Funcionalidades#Login "Funcionalidades").
 O usuário, de posse de seu certificado, o utiliza para atestar que o
