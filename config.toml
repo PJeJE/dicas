@@ -21,11 +21,11 @@ disableLandingPageButton = true
 disableMermaid = false
 ordersectionsby = "weight"
 customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
+titleSeparator = "::"
+custom_css = ["css/dicas.css"]
 
 [markup.goldmark.renderer]
 unsafe = true
-titleSeparator = "::"
-custom_css = ["css/dicas.css"]
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]

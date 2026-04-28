@@ -32,15 +32,18 @@ body #chapter h1 {
   }
 }
 
-#body-inner p {
+#body-inner p,
+#chapter #body-inner p {
   text-align: justify;
 }
 
-#body-inner > ul > li {
+#body-inner > ul > li,
+#chapter #body-inner > ul > li {
   text-align: justify;
 }
 
-#body-inner > ol > li {
+#body-inner > ol > li,
+#chapter #body-inner > ol > li {
   text-align: justify;
 }
 

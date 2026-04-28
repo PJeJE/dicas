@@ -78,14 +78,8 @@ funcionamento do PJe. As verificações consistem em:
 
 -   Navegador de Internet - Verificação se o navegador é o requerido
 
-```{=html}
-<!-- -->
-```
 -   Java e plugins - Verificação de presença do Java e de seus plugins
 
-```{=html}
-<!-- -->
-```
 -   Pop-ups habilitadas - Verificação se as janelas pop-ups estão
     habilitadas para o site
 
@@ -2588,9 +2582,6 @@ detalhamento do expediente conforme especificado abaixo:
         registro
     -   Tipo do prazo
 
-```{=html}
-<!-- -->
-```
 -   Data limite prevista para ciência ou manifestação
 -   Documentos
 -   Fechado
@@ -3345,9 +3336,6 @@ Disponível em
     fevereiro de 2021.]{#footer-info-lastmod}
 -   [Esta página foi acessada 1 898 503 vezes.]{#footer-info-viewcount}
 
-```{=html}
-<!-- -->
-```
 -   [[Política de
     privacidade](http://titanio09.cnj.jus.br/wiki/index.php/PJe:Pol%C3%ADtica_de_privacidade "PJe:Política de privacidade")]{#footer-places-privacy}
 -   [[Sobre
@@ -3355,9 +3343,6 @@ Disponível em
 -   [[Exoneração de
     responsabilidade](http://titanio09.cnj.jus.br/wiki/index.php/PJe:Aviso_geral "PJe:Aviso geral")]{#footer-places-disclaimer}
 
-```{=html}
-<!-- -->
-```
 -   [[![Powered by
     MediaWiki](Funcionalidades%20-%20PJe_arquivos/poweredby_mediawiki_88x31.png){width="88"
     height="31"}](http://www.mediawiki.org/)]{#footer-poweredbyico}
