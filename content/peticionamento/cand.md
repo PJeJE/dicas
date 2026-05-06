@@ -128,6 +128,12 @@ Além do movimento, há também a atualização da prioridade eleito(a)/não ele
 
 O programa de Identificação Civil Nacional [ICN](https://www.justicaeleitoral.jus.br/identificacao-civil-nacional/) criou a **Base de Dados da Identificação Civil Nacional**. A informação de óbito de candidato, caso ocorra, é atualizada no sistema de candidaturas que repassa a informação ao PJe. Na ocorrência, o PJe recebe uma certidão (tipo de documento de código 534) com as informações relacionadas (utiliza o modelo de documento cujo identificador tenha sido informado no parâmetro **idModeloCertidaoObito**) . O movimento de código 15157 (Registrado o falecimento no sistema de registro de candidaturas) é lançado vinculado à certidão.
 
+O lançamento deve ocorrer em processos das classes cujos códigos estiverem configurados no parâmetro **pje:classes:certidao:obito**. Exemplo de configuração do parâmetro: **11532,12193** (códigos das classes **RCAND** e **PCE**)
+
+A certidão e o movimento não são lançados para processos arquivados (processos com situações processuais ativas de acordo com o parâmetro **pje:obitos:movimento:situacoesBloqueio**. Exemplo de configuração: **jus:arquivo, jus:remetido**)
+
+Caso o parâmetro **nomeDocumentoCertidaoObito** tenha sido configurado e tenha alguma valor que não vazio, o sistema utilizará esse nome para atribuir ao nome do documento. Caso esse parâmetro seja corretamento configurado, o usuário administrador pode também optar por adicionar ao nome do documento o nome da parte cujo óbito foi registrado por meio da marcação **S** do parâmetro **pje:certidao:obito:concatenaParte**. Exemplo de uso: parâmetro **nomeDocumentoCertidaoObito** configurado com o valor **informação de óbito ICN** e parâmetro **pje:certidao:obito:concatenaParte** configurado com o valor **S** - certidão gerada com o nome **informação de óbito ICN Jose da Silva** para óbito de Jose da Silva.
+
 
 ## Envio de Documentos para o PJe (Classe RCAND)
 
