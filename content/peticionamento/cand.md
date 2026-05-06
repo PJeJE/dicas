@@ -126,7 +126,7 @@ Além do movimento, há também a atualização da prioridade eleito(a)/não ele
 
 ## Recebimento de informação de ICN
 
-O programa de Identificação Civil Nacional [ICN](https://www.justicaeleitoral.jus.br/identificacao-civil-nacional/) criou a a Base de Dados da Identificação Civil Nacional. A informação de óbito de candidato, caso ocorra, é atualizada no sistema de candidaturas que repassa a informação ao PJe. Na ocorrência, o PJe recebe uma certidão com as informações (utiliza o modelo de documento de id 5522)  e o movimento de código 15157 (Registrado o falecimento no sistema de registro de candidaturas) é lançado vinculado à certidão.
+O programa de Identificação Civil Nacional [ICN](https://www.justicaeleitoral.jus.br/identificacao-civil-nacional/) criou a a Base de Dados da Identificação Civil Nacional. A informação de óbito de candidato, caso ocorra, é atualizada no sistema de candidaturas que repassa a informação ao PJe. Na ocorrência, o PJe recebe uma certidão com as informações (utiliza o modelo de documento **CAND Certidão processual óbito candidato ICN**)  e o movimento de código 15157 (Registrado o falecimento no sistema de registro de candidaturas) é lançado vinculado à certidão.
 
 
 ## Envio de Documentos para o PJe (Classe RCAND)
