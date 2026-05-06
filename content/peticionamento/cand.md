@@ -57,11 +57,7 @@ Documentos que são utilizados nesse peticionamento inicial:
     - Certidão criminal da Justiça Estadual de 1º grau (Código: 14644)
     - Certidão criminal da Justiça Estadual de 2º grau (Código: 14647)
     - Certidão criminal de foro por prerrogativa de função (Código: 14648)
-   
-    <!-- 15705 -	 Ata da Executiva
-15706 -	 Ata Retificadora Executiva
-15707 -	 Ata Retificadora da Convenção
--->
+     
 
 Ao finalizar o peticionamento no PJe, as informações de número do processo e de nome do relator são retornadas ao CAND.
 
@@ -155,3 +151,11 @@ O programa de Identificação Civil Nacional [ICN](https://www.justicaeleitoral.
 
 
 
+
+
+
+
+<!-- 15705 -	 Ata da Executiva
+15706 -	 Ata Retificadora Executiva
+15707 -	 Ata Retificadora da Convenção
+-->
