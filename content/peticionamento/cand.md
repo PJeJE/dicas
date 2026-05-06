@@ -60,7 +60,8 @@ Documentos que são utilizados nesse peticionamento inicial:
    
     <!-- 15705 -	 Ata da Executiva
 15706 -	 Ata Retificadora Executiva
-15707 -	 Ata Retificadora da Convenção-->
+15707 -	 Ata Retificadora da Convenção
+-->
 
 Ao finalizar o peticionamento no PJe, as informações de número do processo e de nome do relator são retornadas ao CAND.
 
