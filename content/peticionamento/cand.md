@@ -156,7 +156,7 @@ Caso o parâmetro **nomeDocumentoCertidaoObito** tenha sido configurado e tenha 
 - Renúncia de candidatura (Código: C6000100)
 
 ## Detalhamento gráfico das integrações
-![Integração CAND PJE](/imagens/integracaocandpje.jpg)
+![Integração CAND PJE](/imagens/integracaocandpje.png)
 
 ## Peticionamento avulso
 
