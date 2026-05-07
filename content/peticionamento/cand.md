@@ -88,6 +88,10 @@ Após o peticionamento do processo no PJe, podem ocorrer atualizações de docum
 - Intimação de diligência do partido (Intimação de diligência) (Código: 805)
 - Intimação de diligência da coligação (Intimação de diligência) (Código: 805)
 - Intimação de diligência da federação (Intimação de diligência) (Código: 805)
+- Certidão de julgamento (Código: 770)
+- Ata da executiva (Código: 15705)
+- Ata retificadora executiva (Código: 15706)
+- Ata retificadora da convenção (Código: 15707)
 
 
 ## Enviar documentos/informações para o CAND
@@ -138,7 +142,7 @@ O tipo do documento da certidão é o de código **534**. O modelo de documento 
 Caso o parâmetro **nomeDocumentoCertidaoObito** tenha sido configurado e tenha alguma valor que não vazio, o sistema utilizará esse nome para atribuir ao nome do documento. Caso esse parâmetro seja corretamento configurado, o usuário administrador pode também optar por adicionar ao nome do documento o nome da parte cujo óbito foi registrado por meio da marcação **S** do parâmetro **pje:certidao:obito:concatenaParte**. Exemplo de uso: parâmetro **nomeDocumentoCertidaoObito** configurado com o valor **informação de óbito ICN** e parâmetro **pje:certidao:obito:concatenaParte** configurado com o valor **S** - certidão gerada com o nome **informação de óbito ICN Jose da Silva** para óbito de Jose da Silva.
 
 
-## Envio de Documentos para o PJe (Classe RCAND)
+## Envio de Documentos para o PJe pelo peticionamento avulso (Classe RCAND)
 
 - Outros documentos (Código: 106)
 - Notícia de inelegibilidade (Código: 33)
