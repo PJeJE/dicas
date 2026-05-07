@@ -54,22 +54,18 @@ Estando ativos os dois parâmetros, se o usuário marcar no PJe a opção perío
 
 ### Calendário do PJe e reflexo no DJE
 
-No PJe, os feriados/indisponibilidades que afetam os prazos processuais são cadastrados em ferramenta própria. O DJE aproveita o calendário do PJe. Dessa forma, ocorre uma replicação dos feriados novos cadastros de 30 em 30 minutos. 
+No PJe, os feriados/indisponibilidades que afetam os prazos processuais são cadastrados em ferramenta própria. O DJE aproveita o calendário do PJe. Dessa forma, ocorre uma replicação dos feriados novos cadastros de 30 em 30 minutos. Cada UF tem o DJE próprio, assim como o TSE. 
 
 Os feriados replicados a cada sincronização são os feriados cujas datas sejam posteriores ao momento da replicação e os feriados recorrentes, ou seja, feriados que se repetem anualmente. 
 
-Um feriado será cadastrado no DJE como nacional, ou seja, afetará todos o envio de matérias no Brasil, caso seja cadastrado no PJe como feriado de abrangência nacional e se tiver sido cadastrado no PJe do TSE. 
+Um feriado será cadastrado no DJE como nacional, ou seja, afetará todo o envio de matérias daquela instância, caso seja cadastrado no PJe como feriado de abrangência nacional. 
 
-Já um feriado será estadual só será replicado se a abrangência do feriado for estadual e a UF vinculada ao feriado for a mesma do PJe. Dessa forma, o estado de São Paulo não conseguirá cadastrar feriados distritais para o DF. 
+Já um feriado estadual só será replicado se a abrangência do feriado for estadual e a UF vinculada ao feriado for a mesma do PJe. O feriado afetará todos os processos vinculados a jurisdições daquele estado. No caso do PJe do TSE, o DF é considerado o "estado" da instalação. Dessa forma, se for realizado um cadastrono PJe do TSE de feriado de abrangência estadual e a UF selecionada for o DF, o feriado será replicado no Diário do TSE. 
 
+Já feriados com abrangência de órgão julgador, ou seja, que só afetam aquele órgão julgador, serão replicados para os órgãos julgadores daquele estado.
 
- 
-
-    
-            No caso do ambiente 3G (TSE), considerar o estado como Distrito Federal (DF);
-        Feriados Órgão julgador (O): somente quando o in_abrangencia = O e o id_estado seja nulll (default); e
-        Feriados Municipais (C): somente quando o in_abrangencia = C e o id_estado seja igual ao estado do ambiente PJe.
-
+Os feriados de abrangência municipal só serão replicados quando o UF do feriado for a mesma do PJe responsável pelo cadastro.
+        
 ## Utilização da Central de Mandados
 
 A utilização da central de mandados para fazer comunicação só será possível se o usuário selecionar, ao criar uma comunicação, o meio "Central de Mandados". Caso seja selecionado, o servidor terá que complementar as informações sobre a central de mandados em tarefa posterior que será apresentada ao finalizar a construção do documento a ser utilizado na comunicação. 
