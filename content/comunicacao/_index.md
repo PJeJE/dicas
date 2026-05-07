@@ -54,7 +54,7 @@ Estando ativos os dois parâmetros, se o usuário marcar no PJe a opção perío
 
 ### Calendário do PJe e reflexo no DJE
 
-No PJe, os feriados/indisponibilidades que afetam os prazos processuais são cadastrados em ferramenta própria disponível pelo menu [**Configuração - Sistema - Tabelas Básicas - Calendário**](/prazos/configuracao_calendario). O DJE aproveita o calendário do PJe. Dessa forma, ocorre uma replicação dos feriados novos cadastros de 30 em 30 minutos. Cada UF tem o DJE próprio, assim como o TSE. 
+No PJe, os feriados/indisponibilidades que afetam os prazos processuais são cadastrados em ferramenta própria disponível pelo menu [**Configuração - Sistema - Tabelas Básicas - Calendário**](/prazos/configuracao_calendario). O DJE aproveita o calendário do PJe. Dessa forma, ocorre uma replicação dos feriados novos cadastros de 30 em 30 minutos. Cada UF tem o DJE próprio, assim como o TSE. A replicação do calendário ocorre do TSE para o DJE do TSE e das UFs para o DJE da respectiva UF. Um cadastro realizado no calendário do PJe de primeiro grau afetará a UF relacionada àquele PJe, ou seja, se um feriado for cadastrado como estadual do PJe do primeiro grau da Bahia, as publicações do PJe do segundo grau também serão afetadas.  
 
 Os feriados replicados a cada sincronização são os feriados cujas datas sejam posteriores ao momento da replicação e os feriados recorrentes, ou seja, feriados que se repetem anualmente. 
 
