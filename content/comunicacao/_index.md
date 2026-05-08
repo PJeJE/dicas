@@ -64,7 +64,7 @@ Já um feriado estadual só será replicado se a abrangência do feriado for est
 
 Já feriados com abrangência de órgão julgador, ou seja, que só afetam aquele órgão julgador, serão replicados para os órgãos julgadores daquele estado.
 
-Os feriados de abrangência municipal só serão replicados quando o UF do feriado for a mesma do PJe responsável pelo cadastro.
+Os feriados de abrangência municipal só serão replicados quando a UF do feriado for a mesma do PJe responsável pelo cadastro.
         
 ## Utilização da Central de Mandados
 
