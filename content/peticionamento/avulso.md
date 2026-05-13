@@ -37,7 +37,7 @@ O PJe envia de volta o número do processo protocolado que é atualizado no SPCE
 
 ## Enviar documentos (pós-peticionamento) - Final
 
-Após o peticionamento do processo no PJe, há atualizações no processo que podem vir do SPCE. Os documentos que são refletidos no PJe são:
+Após o peticionamento do processo no PJe, há atualizações no processo que vêm do SPCE. Os documentos que são refletidos no PJe são:
 
 - Certidão de Juntada de Apresentação das Contas Finais
 - Extrato da PC Final
