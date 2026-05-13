@@ -38,4 +38,6 @@ Caso você troque ou perca seu celular vinculado ao aplicativo autenticador, a r
 
 
 A plataforma de autenticação dos sistemas da PDPJ fica centralizada no CNJ. Se houver alguma problema na recuperação de acesso, conforme passos acima, a Central de Atendimento aos Usuários do CNJ deve ser acionada. A cental está disponível pelo link https://suporteti.cnj.jus.br .
-configurarmfa.png
+
+![Configurar MFA](/imagens/configurarmfa.png)
+
