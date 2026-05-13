@@ -24,7 +24,8 @@ Sob uma perspectiva operacional, o fluxo de autenticação com certificado digit
 
 Essa medida reduz significativamente o risco de acessos indevidos. Com isso, reforça-se a confiabilidade dos sistemas utilizados no dia a dia. Além disso, eliminamos os recorrentes problemas que temos na Justiça Eleitoral de envio do código temporário para emails aos quais o usuário não tem mais acesso.
 
-Confira como configurar o aplicativo autenticador: https://acrobat.adobe.com/id/urn:aaid:sc:EU:061c2aa7-9038-4976-904b-d02ce7bbcf7f
+Confira como configurar o aplicativo autenticador: 
+https://acrobat.adobe.com/id/urn:aaid:sc:EU:061c2aa7-9038-4976-904b-d02ce7bbcf7f
 
 Atenção:
 
