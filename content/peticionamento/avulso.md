@@ -29,11 +29,31 @@ Dentro do PJe, são protocolados os processos judiciais por meio de uma fila de 
 
 Ao peticionar, são juntados os documentos iniciais:
 
--  Petição Inicial
--  Certidão de Pendência na Autuação
--  Extrato da PC Final Oficial
+- Petição Inicial
+- Certidão de Pendência na Autuação
+- Extrato da PC Final Oficial
 
 O PJe envia de volta o número do processo protocolado que é atualizado no SPCE. 
+
+## Enviar documentos (pós-peticionamento) - Final
+
+Após o peticionamento do processo no PJe, há atualizações no processo que podem vir do SPCE. Os documentos que são refletidos no PJe são:
+
+- Certidão de Juntada de Apresentação das Contas Finais
+- Extrato da PC Final
+
+## Enviar Mídia 
+
+EDI envia mídia
+SITDOC Leitura da Mídia e Envio de arquivos para o PJe e Juntada de Mídia
+Juntar documentos ao processo
+
+- Certidão de Juntada de Mídia
+- Documentos de comprovação PC Final Intempestiva
+
+
+ Movimentos SPCE para PJe - Juntada de Mídia
+
   
 ## Óbito - Recebimento de informação de ICN
 
