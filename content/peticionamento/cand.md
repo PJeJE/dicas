@@ -12,7 +12,7 @@ Para a existência desses processos judiciais, uma série de integrações se to
 
 O registro de candidaturas tem regras próprias de funcionamento que são eventualmente atualizadas com normativos próprios. As regulamentações atualizadas podem ser encontradas no sítio https://www.tse.jus.br/eleicoes/
 
-A partir do(s) sistema(s) pertinentes disponibilizados no sítio acima, são iniciados os procedimentos relacionados ao registro. 
+A partir do(s) sistema(s) pertinentes disponibilizado(s) no sítio acima, são iniciados os procedimentos relacionados ao registro. 
 
 Atualmente, o CAND é o sistema responsável pelo início das ações que envolvem o PJe.
 
