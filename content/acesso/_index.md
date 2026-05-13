@@ -31,14 +31,12 @@ Atenção:
 
 Caso você troque ou perca seu celular vinculado ao aplicativo autenticador, a recuperação de acesso poderá ser realizada de forma simples:
 
-    Acesse normalmente o Portal Jus.br ou o sistema integrado; 
-
-    Na etapa de validação do código temporário, selecione a opção de recuperação de dispositivo. Um link de validação da solicitação será enviado para o e-mail [corporativo cadastrado](https://corporativo.cnj.jus.br/)  ; 
-
-    Confirme a solicitação e vincule um novo dispositivo autenticador por meio da leitura do QR Code. O celular anteriormente cadastrado será desvinculado automaticamente.
+1. Acesse normalmente o Portal Jus.br ou o sistema integrado; 
+2. Na etapa de validação do código temporário, selecione a opção de recuperação de dispositivo. Um link de validação da solicitação será enviado para o e-mail [corporativo cadastrado](https://corporativo.cnj.jus.br/)  ; 
+3. Confirme a solicitação e vincule um novo dispositivo autenticador por meio da leitura do QR Code. O celular anteriormente cadastrado será desvinculado automaticamente.
 
 
-A plataforma de autenticação dos sistemas da PDPJ fica centralizada no CNJ. Se houver alguma problema na recuperação de acesso, conforme passos acima, a Central de Atendimento aos Usuários do CNJ deve ser acionada. A cental está disponível pelo link https://suporteti.cnj.jus.br .
+A plataforma de autenticação dos sistemas da PDPJ fica centralizada no CNJ. Se houver alguma problema na recuperação de acesso conforme os três passos acima, a Central de Atendimento aos Usuários do CNJ deve ser acionada. A cental está disponível pelo link https://suporteti.cnj.jus.br .
 
 ![Configurar MFA](/imagens/configurarmfa.png)
 
