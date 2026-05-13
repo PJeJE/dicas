@@ -44,21 +44,12 @@ Após o peticionamento do processo no PJe, há atualizações no processo que po
 
 ## Enviar Mídia 
 
-SITDOC - Sistema de Inteiro Teor de Documentos - Responsável pela gerenciamento de acervo digitalizado e mídias - controla o acesso ao acervo e faz integraçao com outros sistemas
+As prestações de contas envolvem volumes de dados muito grandes, principalmente porque são diversos comprovantes digitalizados. Em complemento às informações enviadas ao SPCE, o envio de mídias é feito por email e recepcionado pelo EDI - software de controle de transferências de arquivos utilizados pelo TSE.
 
-software de controle de transferências de arquivos utilizados pelo TSE, com vigência até 24/11/2020.
-
-Em outubro de 2019, visando a manutenção dos serviços mencionados acima, foi iniciado o procedimento de nova contratação (SEI 2019.00.000011595-8).
-
-EDI - software de controle de transferências de arquivos utilizados pelo TSE - envia mídia
-SITDOC - Sistema de Inteiro Teor de Documentos-  Leitura da Mídia e Envio de arquivos para o PJe e Juntada de Mídia
-Juntar documentos ao processo
+O EDI encaminha as mídias para o SITDOC - Sistema de Inteiro Teor de Documentos, que é responsável pelo gerenciamento de acervo digitalizado e mídias e controla o acesso ao acervo, além de fazer integração com outros sistemas. O SITDOC, por sua vez, envia ao PJe a informação das mídias adicionadas e juntar documentos ao processo no PJe:
 
 - Certidão de Juntada de Mídia
 - Documentos de comprovação PC Final Intempestiva
-
-
- Movimentos SPCE para PJe - Juntada de Mídia
 
   
 ## Óbito - Recebimento de informação de ICN
