@@ -44,6 +44,10 @@ Após o peticionamento do processo no PJe, há atualizações no processo que po
 
 ## Enviar Mídia 
 
+SITDOC - Sistema de Inteiro Teor de Documentos - Responsável pela gerenciamento de acervo digitalizado e mídias - controla o acesso ao acervo e faz integraçao com outros sistemas
+
+
+
 EDI envia mídia
 SITDOC - Sistema de Inteiro Teor de Documentos-  Leitura da Mídia e Envio de arquivos para o PJe e Juntada de Mídia
 Juntar documentos ao processo
