@@ -45,7 +45,7 @@ Após o peticionamento do processo no PJe, há atualizações no processo que po
 ## Enviar Mídia 
 
 EDI envia mídia
-SITDOC Leitura da Mídia e Envio de arquivos para o PJe e Juntada de Mídia
+SITDOC - Sistema de Inteiro Teor de Documentos-  Leitura da Mídia e Envio de arquivos para o PJe e Juntada de Mídia
 Juntar documentos ao processo
 
 - Certidão de Juntada de Mídia
