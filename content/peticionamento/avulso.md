@@ -7,13 +7,13 @@ menuTitle: "PCE"
 
 As prestações de contas eleitorais fazem parte de um processo de negócio que envolve diversos passos e sistemas da Justiça Eleitoral.
 
-Uma característica inerente a essa questão é que as prestações serão sempre representados no PJe por processos judiciais.
+Uma característica inerente a essa questão é que as prestações serão sempre representadas no PJe por processos judiciais.
 
-Para a existência desses processos judiciais, uma série de integrações se tornam necessárias entre os sistemas envolvidos com o as Prestações de contas e o PJe.
+Para a existência desses processos judiciais, uma série de integrações se tornam necessárias entre os sistemas envolvidos com as Prestações de contas e o PJe.
 
 As prestações de contas eleitorais têm regras próprias de funcionamento que são eventualmente atualizadas com normativos próprios. As regulamentações atualizadas podem ser encontradas no sítio https://www.tse.jus.br/eleicoes/
 
-A partir do(s) sistema(s) pertinentes disponibilizados no sítio acima, são iniciados os procedimentos relacionados às prestações.
+A partir do(s) sistema(s) pertinentes disponibilizado(s) no sítio acima, são iniciados os procedimentos relacionados às prestações.
 
 Atualmente, o SPCE é o sistema responsável pelo início das ações que envolvem o PJe.
 
