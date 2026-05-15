@@ -204,6 +204,11 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
   
 - **pje:papel:permissaoAlteracaoModelo**
   - Papel que permite a edição de modelos de documento que estejam marcados como de **Edição Restrita**
+
+- **pje:desentranhaDoc**
+  - Papel que permite a inativação (desentranhamento) de documentos juntados. A permissão está condicionada ao usuário ser do mesmo órgão julgador do processo ou, caso o usuário não seja vinculado a órgão julgador, que seja do mesmo órgão julgador colegiado do processo. Caso não seja vinculado a nenhum órgão, não poderá excluir. 
+
+ 
   
 <!--	
 	/pages/Processo/RetificacaoAutuacao/updateRetificacaoAutuacao.seam
@@ -318,7 +323,7 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
 	
 	public static final String PODE_INICIAR_FLUXO_COMUNICACAO_ENTRE_INSTANCIAS = "pje:podeSolicitarComunicacaoEntreOrgaosJulgadores";
 
-	public static final String DESENTRANHA_DOCUMENTO = "pje:desentranhaDoc";
+	
 	
 	public static final String CONSULTA_MNI = "pje:consulta:mni";	
 
