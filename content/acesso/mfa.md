@@ -6,7 +6,7 @@ weight: 3
 
 Os sistemas da PDPJ - Plataforma Digital do Poder Judiciário (o que inclui o PJe) utilizam MFA (Autenticação Multifator) para autenticar seus usuários. Trata-se de um método de segurança que exige duas ou mais formas de verificação de identidade: além do usuário e senha ou do certificado digital, o sistema valida uma informação adicional para confirmar quem está acessando.
 
-Desde 18 de maio de 2026, essa verificação adicional nos sistemas integrados à PDPJ (inclusive o PJe) e nos demais serviços disponíveis no portal Jus.br é feita por meio de aplicativo autenticador instalado no celular, como Google Authenticator, Microsoft Authenticator ou FreeOTP. Anteriormente o código de verificação era enviado por e-mail; agora ele é gerado pelo próprio aplicativo.
+Desde 18 de maio de 2026, essa verificação adicional nos sistemas integrados à PDPJ (inclusive o PJe) e nos demais serviços disponíveis no portal Jus.br é feita por meio de aplicativo autenticador instalado no celular, como Google Authenticator, Microsoft Authenticator ou FreeOTP. Anteriormente o código de verificação era enviado por e-mail; agora ele é gerado pelo próprio aplicativo. Essa medida reduz significativamente o risco de acessos indevidos. Com isso, reforça-se a confiabilidade dos sistemas utilizados no dia a dia. Além disso, eliminamos os recorrentes problemas que temos na Justiça Eleitoral de envio do código temporário para emails aos quais o usuário não tem mais acesso.
 
 ## Primeiro acesso
 
