@@ -32,3 +32,4 @@ Além das opções de voto, também estão disponíveis **Enviar para pauta pres
 Para poder utilizar o Painel do Magistrado na Sessão antes de iniciar a sessão de julgamento, o valor do parâmetro **pje:sessao:habilitarAcoesEmVotacaoAntecipada** precisa ser true.
 {{% /notice %}}
 
+O magistrado relator tem a opção de **Retirar para reexame**. Nesse caso, quando o assessor de plenário encerrar a sessão, o processo ficará registrado como adiado e, internamente, o órgão julgador de retirada de julgamento será o órgão julgador relator do processo. 
