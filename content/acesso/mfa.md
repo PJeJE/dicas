@@ -34,7 +34,7 @@ Nos próximos acessos ao PJe ou à PDPJ, o procedimento é simplificado:
 
 A imagem a seguir resume o passo a passo de configuração e uso do aplicativo autenticador:
 
-![Passo a passo para configurar o aplicativo autenticador](/imagens/configurarmfa.png)
+![Passo a passo para configurar o aplicativo autenticador](/imagens/configurarmfa.png?width=600)
 
 ## Troca ou perda do celular
 
