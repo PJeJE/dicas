@@ -1,7 +1,7 @@
 ---
 title: "Certificado Virtual (Arquivo P12)"
 date: 2022-11-21T15:22:36-03:00
-weight: 5
+weight: 6
 ---
 
 Esta era uma solução disponível para os usuários internos (servidores e magistrados) e consistia na utilização de um certificado virtual fornecido pelo TSE.
