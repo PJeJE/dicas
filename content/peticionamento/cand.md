@@ -31,7 +31,7 @@ Ao peticionar, são juntados os documentos iniciais e são realizadas as associa
 - Prevenção de RRC de vaga remanescente vai para o DRAP prevento (O CAND repassa, via integração, o número do processo do DRAP prevento)
 - Associar RRCs de cargos majoritários da mesma chapa (mesmo CNPJ do partido/da coligação/federação da mesma abrangência)
 - Associar processos de substituto e substituído (O CAND informa, via integração, o número do processo do substituído)
-- Associar processos de substituto e substituído (Ao peticionar o processo RCAND com assunto RRC ou RRCI, o mesmo deve ser associado ao processo da classe RDE que tenha o mesmo Candidato (mesmo CPF) com o mesmo ano da Eleição. Associação deve ser do tipo "Vinculação Indireta". O dado do CPF deve ser recuperado do documento do tipo CPF vinculado à parte dos respectivos processos de RCAND e RDE.)
+- Associar processos RDE e CAND (Ao peticionar o processo RCAND com assunto RRC ou RRCI, o mesmo deve ser associado ao processo da classe RDE que tenha o mesmo Candidato (mesmo CPF) com o mesmo ano da Eleição. Associação deve ser do tipo "Vinculação Indireta". O dado do CPF deve ser recuperado do documento do tipo CPF vinculado à parte dos respectivos processos de RCAND e RDE.)
 
 {{% notice note %}}
 Partidos e federações sem CNPJ serão inseridos como Ente e Autoridade no PJe associados a uma pessoa jurídica com o CNPJ Nacional
