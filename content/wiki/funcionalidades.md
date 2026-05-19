@@ -27,176 +27,82 @@ As permissões para acesso às funcionalidades são determinadas pela restriçã
 As funcionalidades vinculadas a nós de tarefas de fluxos são disponibilizadas através dos painéis do usuário.
 
 
-[ Tela principal ]{#Tela_principal .mw-headline}
-------------------------------------------------
+## Tela principal
+
 
 A tela principal do PJe oferece quatro possibilidades:
 
-1.  [Identificação](/wiki/funcionalidades.md#Login "Funcionalidades")
-    (login)
-2.  [Consultas ao andamento processual](/wiki/funcionalidades.md#Consulta_p.C3.BAblica "Funcionalidades")
-3.  [Verificação de ambiente](/wiki/funcionalidades.md#Verifica.C3.A7.C3.A3o_de_ambiente "Funcionalidades")
+1.  Identificação (login)
+2.  Consulta pública
+3.  Verificação de ambiente
 4.  Pré-requisitos para utilização
 5.  Fale conosco
 
-A identificação, caso o usuário já não esteja cadastrado, direcionará o
-usuário à confirmação de seu cadastro conforme regra
+A identificação, caso o usuário já não esteja cadastrado, direcionará o usuário à confirmação de seu cadastro conforme regra
 [RN412](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn412 "Regras de negócio").
 
-As consultas ao andamento processual são consultas disponíveis sem a
-necessidade de identificação.
+A consulta pública é uma consulta disponibilizada para verificação de informações processuais básicas sem a necessidade de identificação.
 
-Os pré-requisitos para utilização explicitam as condições para que o PJe funcione corretamente. Informações similares estão disponível no [Manual do
-advogado](http://titanio09.cnj.jus.br/wiki/index.php/Manual_do_advogado_e_procurador#Informa.C3.A7.C3.B5es_iniciais "Manual do advogado e procurador").
+Os pré-requisitos para utilização explicitam as condições para que o PJe funcione corretamente. 
 
 A opção do **Fale conosco** exibe o conteúdo inserido no modelo de documento da instalação referenciado pelo identificador cadastrado no
-[parâmetro](http://titanio09.cnj.jus.br/wiki/index.php/Par%C3%A2metros#Modelo_de_documento "Parâmetros") idModeloDocumentoFaleConosco.
+[parâmetro](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Configurando%20par%C3%A2metros#modelo-de-documento) idModeloDocumentoFaleConosco.
 
-[ Consulta pública ]{#Consulta_p.C3.BAblica .mw-headline}
----------------------------------------------------------
+## Consulta pública 
 
-Através dessa consulta, usuários não cadastrados têm acesso à consulta
-de processos que apresentam documentos de acordo com o disposto na
-[Resolução Nº
-121/2010](http://www.cnj.jus.br/atos-normativos?documento=92){.external
-.text} do CNJ, que preconiza que a consulta aos dados básicos dos
-processos judiciais será disponibilizada na rede mundial de computadores
-(internet), assegurado o direito de acesso a informações processuais a
-toda e qualquer pessoa, independentemente de prévio cadastramento ou de
-demonstração de interesse, conforme regra
+
+Por meio dessa consulta, usuários não cadastrados têm acesso à consulta de processos que apresentam documentos de acordo com o disposto na [Resolução Nº 121/2010](http://www.cnj.jus.br/atos-normativos?documento=92) do CNJ, que preconiza que a consulta aos dados básicos dos processos judiciais será disponibilizada na rede mundial de computadores (internet), assegurado o direito de acesso a informações processuais a toda e qualquer pessoa, independentemente de prévio cadastramento ou de demonstração de interesse, conforme regra
 [RN381](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn381 "Regras de negócio").
-A referida regra abrange outras restrições para a consulta. Os critérios
-de consulta seguem a regra
+A referida regra abrange outras restrições para a consulta. Os critérios de consulta seguem a regra
 [RN401](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn401 "Regras de negócio").
 
-[ Verificação de ambiente ]{#Verifica.C3.A7.C3.A3o_de_ambiente .mw-headline}
-----------------------------------------------------------------------------
+## Verificação de ambiente
 
-Essa opção faz uma verificação do navegador utilizado a fim de
-certificar que ele esteja configurado conforme o necessário para o
-funcionamento do PJe. As verificações consistem em:
+Essa opção faz uma verificação do navegador utilizado a fim de certificar que ele esteja configurado conforme o necessário para o funcionamento do PJe. As verificações consistem em:
 
 -   Navegador de Internet - Verificação se o navegador é o requerido
 
 -   Java e plugins - Verificação de presença do Java e de seus plugins
 
--   Pop-ups habilitadas - Verificação se as janelas pop-ups estão
-    habilitadas para o site
+-   Pop-ups habilitadas - Verificação se as janelas pop-ups estão habilitadas para o site
 
-Para verificações bem sucedidas, o ícone
-[![True.png](Funcionalidades%20-%20PJe_arquivos/True.png){width="14"
-height="15"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:True.png){.image}
-será exibido do lado esquerdo da opção verificada. Para verificações que
-detectem que a configuração não foi feita conforme o necessário, o ícone
-[![False.png](Funcionalidades%20-%20PJe_arquivos/False.png){width="12"
-height="14"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:False.png){.image}
-será exibido do lado esquerdo da opção verificada.
+Para verificações bem sucedidas, um ícone verde será exibido do lado esquerdo da opção verificada. Para verificações que detectem que a configuração não foi feita conforme o necessário, um ícone
+vermelho será exibido do lado esquerdo da opção verificada.
 
-São exibidos também os
-[botões](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Bot.C3.B5es "Manual de referência"):
+São exibidos também os botões:
 
--   Teste - testa se a leitura do certificado digital (disponível
-    através de um dispositivo denonimado token, lido pela leitora do
-    dispositivo na estação do usuário, denominada leitora de smart card)
-    está ocorrendo sem problemas
+-   Teste - testa se a leitura do certificado digital (disponível através de um dispositivo denonimado token, lido pela leitora do dispositivo na estação do usuário, denominada leitora de smart card) está ocorrendo sem problemas
 -   Fechar - fecha a janela de verificação de ambiente
 
-[ Login ]{#Login .mw-headline}
-------------------------------
+## Login 
 
-O login no PJe (ato de se identificar em um sistema para prosseguir com
-sua operação) utiliza o certificado digital do usuário que está se
-identificando para validá-la junto ao seu cadastro.
+O login no PJe (ato de se identificar em um sistema para prosseguir com sua operação) utiliza o certificado digital do usuário que está se identificando para validá-la junto ao seu cadastro.
 
-O certificado digital é uma identidade virtual que permite a
-identificação segura e inequívoca do autor de uma mensagem ou transação
-feita em meios eletrônicos, como a internet. Esse documento eletrônico é
-gerado e assinado por uma terceira parte confiável, uma autoridade
-certificadora que, seguindo regras da ICP-Brasil (Infraestrutura de
-Chaves Públicas), associa uma pessoa a um par de chaves criptográficas.
+O certificado digital é uma identidade virtual que permite a identificação segura e inequívoca do autor de uma mensagem ou transação feita em meios eletrônicos, como a internet. Esse documento eletrônico é
+gerado e assinado por uma terceira parte confiável, uma autoridade certificadora que, seguindo regras da ICP-Brasil (Infraestrutura de Chaves Públicas), associa uma pessoa a um par de chaves criptográficas.
 
-A ICP-Brasil, por sua vez, é mantida pelo Instituto Nacional de
-Tecnologia da Informação (ITI), autarquia federal vinculada à Casa Civil
-da Presidência da república. O ITI é responsável por garantir a
-autenticidade, a integridade e a validade jurídica de documentos em
-forma eletrônica, bem como a realização de transações eletrônicas
-seguras.
+A ICP-Brasil, por sua vez, é mantida pelo Instituto Nacional de Tecnologia da Informação (ITI), autarquia federal vinculada à Casa Civil da Presidência da república. O ITI é responsável por garantir a
+autenticidade, a integridade e a validade jurídica de documentos em forma eletrônica, bem como a realização de transações eletrônicas seguras.
 
-Sendo assim, o usuário deve estar previamente cadastrado (caso não
-esteja, o sistema direcionará o usuário para a tela de cadastro,
-conforme descrito na regra
-[RN412](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn412 "Regras de negócio"))
-e ter o certificado digital disponível através de um dispositivo. O
-dispositivo pode ser um cartão, chamado de smartcard, ou um pen drive,
-denonimado token. Caso seja um smartcard, deve ser instalada a leitora
-de smartcard na estação do usuário. Caso seja um token, o usuário deverá
-utilizar uma porta USB de sua estação. Para se identificar, com o PJe
-disponível, o usuário insere o token na porta USB ou o smartcard na
-leitora e pede para se autenticar. O
-[sistema](/wiki/funcionalidades.md#Assinatura_digital "Funcionalidades")
-lê o conteúdo da token/smartcard e pede que seja fornecida a senha para
-acesso ao certificado. Ao digitar a senha, o sistema recupera os dados
-da pessoa através do certificado e os
-[valida](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn282 "Regras de negócio")
-de acordo com os usuários cadastrados, utilizando essa identificação
-para que o usuário prossiga com a operação do sistema. Esse procedimento
-está de acordo com a lei
-[11.419/06](http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11419.htm){.external
-.text}, que, em seu art. 1º, reconhece duas espécies de assinatura
-eletrônica, entre elas a utilizada pelo PJe (assinatura digital baseada
-em certificado digital, conforme normas da ICPBrasil - estrutura de
-chaves públicas brasileira). A identificação presencial não é
-necessária, vez que essa já é realizada pelo agente de registro no
-processo de certificação.
+Sendo assim, o usuário deve estar previamente cadastrado (caso não esteja, o sistema direcionará o usuário para a tela de cadastro, conforme descrito na regra
+[RN412](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn412 "Regras de negócio")) e ter o certificado digital disponível através de um dispositivo. O
+dispositivo pode ser um cartão, chamado de smartcard, ou um pen drive, denonimado token. Caso seja um smartcard, deve ser instalada a leitora de smartcard na estação do usuário. Caso seja um token, o usuário deverá utilizar uma porta USB de sua estação. Para se identificar, com o PJe disponível, o usuário insere o token na porta USB ou o smartcard na leitora e pede para se autenticar. O sistema lê o conteúdo da token/smartcard e pede que seja fornecida a senha para acesso ao certificado. Ao digitar a senha, o sistema recupera os dados da pessoa através do certificado e os [valida](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn282 "Regras de negócio") de acordo com os usuários cadastrados, utilizando essa identificação para que o usuário prossiga com a operação do sistema. Esse procedimento está de acordo com a lei [11.419/06](http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11419.htm) que, em seu art. 1º, reconhece duas espécies de assinatura eletrônica, entre elas a utilizada pelo PJe (assinatura digital baseada em certificado digital, conforme normas da ICPBrasil - estrutura de chaves públicas brasileira). A identificação presencial não é necessária, vez que essa já é realizada pelo agente de registro no processo de certificação.
 
-Algumas informações sobre a utilização de certificação digital estão
-disponíveis no [manual do
-advogado](http://titanio09.cnj.jus.br/wiki/index.php/Manual_do_advogado_e_procurador#Certifica.C3.A7.C3.A3o_digital "Manual do advogado e procurador").
+Ao realizar login, a o sistema verificará a [regra de proximidade de expiração do certificado digital](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn563 "Regras de negócio")
+e exibirá o aviso **Certificado próximo de expirar** conforme regra [RN564](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn564 "Regras de negócio").
 
-Ao realizar login, a o sistema verificará a [regra de proximidade de
-expiração do certificado
-digital](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn563 "Regras de negócio")
-e exibirá o aviso [\"Certificado próximo de
-expirar\"](/wiki/funcionalidades.md#Certificado_pr.C3.B3ximo_de_expirar "Funcionalidades")
-conforme regra
-[RN564](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn564 "Regras de negócio").
+A janela aparecerá de acordo com a regra [RN564](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn564 "Regras de negócio").
 
-### [ Certificado próximo de expirar ]{#Certificado_pr.C3.B3ximo_de_expirar .mw-headline}
+## Ajuda de contexto
 
-Quando o certificado digital do usuário identificado estiver perto de
-expirar, conforme regra
-[RN563](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn563 "Regras de negócio"),
-será exibida, em uma nova janela, a mensagem informando o usuário da
-proximidade da data de expiração, conforme exemplo a seguir:
+A ajuda no PJE é chamada de ajuda de contexto, o que significa que cada página do PJe tem associado seu texto de ajuda. Ela está disponível em todas as páginas. Os textos, inicialmente, estão vazios, e devem ser
+alimentados na própria instalação. As informações podem ser inseridas por usuários autorizados. O usuário autorizado deve estar vinculado ao papel de identificador **redator**, que, se não tiver sido criado, deve
+ser adicionado à lista de papéis da instalação. Ao final dessa configuração, ao se logar no sistema como usuário com permissão de redator, a página aparecerá com a opção de edição (ícone de lápis). Ao
+clicar, o usuário insere informações que estarão vinculadas à página que está sendo acessada, ficando disponível para visualização de todos os usuários que têm acesso à página em questão.
 
-    Atenção! 
-    O seu certificado está próximo de expirar.
-    Data de expiração: 15/02/2014
+## Página principal 
 
-A janela aparecerá de acordo com a regra
-[RN564](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn564 "Regras de negócio").
-
-[ Ajuda de contexto ]{#Ajuda_de_contexto .mw-headline}
-------------------------------------------------------
-
-A ajuda no PJE é chamada de ajuda de contexto, o que significa que cada
-página do PJe tem associado seu texto de ajuda. Ela está
-[disponível](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Vis.C3.A3o_Geral "Manual de referência")
-em todas as páginas. Os textos, inicialmente, estão vazios, e devem ser
-alimentados na própria instalação. As informações podem ser inseridas
-por usuários autorizados. O usuário autorizado deve estar vinculado ao
-papel de identificador \"redator\", que, se não tiver sido criado, deve
-ser adicionado à lista de papéis da instalação. Ao final dessa
-configuração, ao se logar no sistema como usuário com permissão de
-redator, a página aparecerá com a opção de edição (ícone de lápis). Ao
-clicar, o usuário insere informações que estarão vinculadas à página que
-está sendo acessada, ficando disponível para visualização de todos os
-usuários que têm acesso à página em questão.
-
-[ Página principal ]{#P.C3.A1gina_principal .mw-headline}
----------------------------------------------------------
-
-### [ Mensagens ]{#Mensagens .mw-headline}
+### Mensagens
 
 Esse agrupador aparece quando há
 [avisos](/wiki/funcionalidades.md#Avisos "Funcionalidades")
