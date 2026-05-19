@@ -91,8 +91,6 @@ dispositivo pode ser um cartão, chamado de smartcard, ou um pen drive, denonima
 Ao realizar login, a o sistema verificará a [regra de proximidade de expiração do certificado digital](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn563 "Regras de negócio")
 e exibirá o aviso **Certificado próximo de expirar** conforme regra [RN564](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn564 "Regras de negócio").
 
-A janela aparecerá de acordo com a regra [RN564](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn564 "Regras de negócio").
-
 ## Ajuda de contexto
 
 A ajuda no PJE é chamada de ajuda de contexto, o que significa que cada página do PJe tem associado seu texto de ajuda. Ela está disponível em todas as páginas. Os textos, inicialmente, estão vazios, e devem ser
@@ -102,72 +100,27 @@ clicar, o usuário insere informações que estarão vinculadas à página que e
 
 ## Página principal 
 
-### Mensagens
+### Quadro de mensagens de aviso
 
-Esse agrupador aparece quando há
-[avisos](/wiki/funcionalidades.md#Avisos "Funcionalidades")
-cadastrados para o usuário. Ele exibirá as respectivas mensagens.
+Esse agrupador aparece quando há avisos cadastrados para o usuário. Ele exibirá as respectivas mensagens.
 
-[ Painel ]{#Painel .mw-headline}
---------------------------------
+### Painel 
 
-O PJe tem alguns paineis definidos para papéis principais no seu
-funcionamento padrão. Dentro do painel de cada papel, existem os
-agrupadores, que agregam processos na mesma situação de forma a
-facilitar a solução de pendências. O painel para seu papel aparece
-quando o usuário se identifica no sistema ou através da seleção no menu
-\"Painel\". Sendo assim, o sistema tem agrupamentos vários na forma
-desses paineis, determinados pelos papéis. Os agrupadores aparecem na
-medida em que o usuário tem a ele vinculados processos com as
-características do agrupador.
+O PJe exibe a área de trabalho do usuário de acordo com seu perfil e localização. A exibição da área de trabalho é feita por meio de paineis definidos para papéis principais no seu funcionamento padrão. Dentro do painel de cada papel, podem existir agrupadores, que agregam processos na mesma situação de forma a facilitar a solução de pendências. O painel para seu papel aparece quando o usuário se identifica no sistema ou através da seleção no menu **Painel do usuário**. 
 
-Os processos judiciais tramitam seguindo um fluxo definido para cada
-classe processual, percorrendo as tarefas e passos previamente
-determinados pela área judiciária do tribunal, sem prejuízo de se
-contemplar a possibilidade de o processo escapar do funcionamento normal
-do fluxo em situações excepcionais. A definição de tarefas e a
-associação da responsabilidade pela execução das tarefas a perfis
-resultam na definição da [árvore de
-tarefas](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#.C3.81rvore_de_tarefas "Manual de referência"),
-onde são agrupadas as informações de forma a facilitar a execução de
-tarefas pendentes para o usuário vinculado ao papel específico. Na
-configuração de tarefas do fluxo, os nomes das tarefas pendentes
-vinculadas às raias são utilizados para exibição na árvore de tarefas.
-As raias (swimlanes) agrupam papéis que podem executar as tarefas.
+Os processos judiciais tramitam seguindo um fluxo definido para cada classe processual, percorrendo as tarefas e passos previamente determinados pela área judiciária do tribunal, sem prejuízo de se
+contemplar a possibilidade de o processo escapar do funcionamento normal do fluxo em situações excepcionais. A definição de tarefas e a associação da responsabilidade pela execução das tarefas a perfis
+resultam na definição da [árvore de tarefas](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#.C3.81rvore_de_tarefas "Manual de referência"), onde são agrupadas as informações de forma a facilitar a execução de tarefas pendentes para o usuário vinculado ao papel específico. Na configuração de tarefas do fluxo, os nomes das tarefas pendentes vinculadas às raias são utilizados para exibição na árvore de tarefas. As raias (swimlanes) agrupam papéis que podem executar as tarefas.
 
-Os paineis têm um padrão de apresentação que contém agrupadores
-pré-definidos de acordo com o papel do usuário, sendo exibida sempre a
-possibilidade de pesquisa do objeto apresentado. Uma das opções são as
-[caixas](/wiki/funcionalidades.md#Caixas "Funcionalidades"),
-que são uma forma de o usuário organizar os processos. As caixas estão
-vinculadas aos processos através das
-[tarefas](/wiki/funcionalidades.md#Tarefas "Funcionalidades")
-nas quais se encontram. Pode-se, então, visualizar os processos por
-tarefas vinculadas a eles e ainda por caixas em que estão localizados.
-Na pesquisa das caixas, pode-se consultar o processo para verificar qual
-tarefa está pendente para ele e também em qual caixa ele está, no caso
-de o usuário ter definido caixas para a tarefa. Além disso, outra opção
-disponível são os
-[expedientes](/wiki/funcionalidades.md#Expedientes "Funcionalidades"),
-que são atos relativos ao andamento do processo. Pode-se, então,
-realizar pesquisa de processos por expedientes vinculados a ele, ou
-seja, pelos atos processuais que já foram realizados no processo. A
-visualização de expedientes dispõe os expedientes também como
-agrupamentos pré-definidos.
+As tarefas que um servidor ou magistrado podem executar são configuráveis através da definição do fluxo, mas vamos descrever aqui as tarefas usuais dos painéis que estão definidos no PJe.
 
-As tarefas que um papel pode executar são configuráveis através da
-definição do fluxo, mas vamos descrever aqui as tarefas usuais dos
-painéis que estão definidos no PJe.
+### Painel do advogado, procurador ou defensor 
 
-### [ Painel do advogado, procurador ou defensor ]{#Painel_do_advogado.2C_procurador_ou_defensor .mw-headline}
-
-Dicas úteis: [roteiro de configuração de
-procuradorias](http://titanio09.cnj.jus.br/wiki/index.php/Roteiro_de_configura%C3%A7%C3%A3o_de_procuradorias "Roteiro de configuração de procuradorias")
+Dicas úteis: [roteiro de configuração de procuradorias](http://titanio09.cnj.jus.br/wiki/index.php/Roteiro_de_configura%C3%A7%C3%A3o_de_procuradorias "Roteiro de configuração de procuradorias")
 
 Perfil: Advogado/Procurador/Defensor
 
-O \"Painel do usuário\" jus postulandi é similar ao painel do advogado,
-procurador ou defensor.
+O **Painel do usuário** jus postulandi é similar ao painel do advogado, procurador ou defensor.
 
 #### [ Acervo ]{#Acervo .mw-headline}
 
@@ -2695,17 +2648,11 @@ respeitando as regras de
 [visibilidade](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn379 "Regras de negócio")
 do usuário logado.
 
-### [ Avisos ]{#Avisos .mw-headline}
+### Avisos
 
 Perfil: administrador
 
-Avisos personalizados podem ser lançados funcionando como lembrete para
-cada perfil de usuário que acesse o sistema. Essa funcionalidade permite
-a inclusão dos avisos, que serão visualizados pelo usuário através do
-agrupador de
-[mensagens](/wiki/funcionalidades.md#Mensagens "Funcionalidades")
-disponibilizado na [página
-principal](/wiki/funcionalidades.md#P.C3.A1gina_principal "Funcionalidades").
+Avisos personalizados podem ser lançados funcionando como lembrete para cada perfil de usuário que acesse o sistema. Essa funcionalidade permite a inclusão dos avisos, que serão visualizados pelo usuário através do agrupador de mensagens disponibilizado na página principal.
 
 ### [ Consulta pessoa ]{#Consulta_pessoa .mw-headline}
 
