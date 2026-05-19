@@ -22,7 +22,6 @@ Ao submeter solicitação de habilitação nos autos que remove advogados da aut
 
 ## Endereço das partes
 
-Para cadastrar um endereço vinculado a uma parte, o PJe sempre exige o fornecimento do CEP. Com o número do CEP, o PJe pesquisa em seus registros internos o endereço vinculado e preenche automaticamente os campos associados, deixando-os livres para edição, com exceção 
+Para cadastrar um endereço vinculado a uma parte, o PJe sempre exige o fornecimento do CEP. Com o número do CEP, o PJe pesquisa em seus registros internos o endereço vinculado e preenche automaticamente os campos associados, deixando-os livres para edição, com exceção dos campos **Estado** e **Cidade**.
 
-
-**Configuração - Tabelas Básicas - CEP**
+O cadastro de CEPs de onde o PJe recupera o endereço está disponível por meio do menu **Configuração - Tabelas Básicas - CEP**. O cadastro já existente foi alimentado inicialmente de uma base dos correios, mas o usuário com permissão pode cadastrar novos CEPs por meio da tela citada.
