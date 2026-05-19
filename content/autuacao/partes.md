@@ -19,3 +19,10 @@ A diferença entre elas é que as partes baixadas ainda podem ser utilizadas com
 {{% notice info %}}
 Ao submeter solicitação de habilitação nos autos que remove advogados da autuação, ou seja, quando há substituição de advogados, o sistema altera a situação do advogado substituído no processo para **BAIXADO**.
 {{% /notice %}}
+
+## Endereço das partes
+
+Para cadastrar um endereço vinculado a uma parte, o PJe sempre exige o fornecimento do CEP. Com o número do CEP, o PJe pesquisa em seus registros internos o endereço vinculado e preenche automaticamente os campos associados, deixando-os livres para edição, com exceção 
+
+
+**Configuração - Tabelas Básicas - CEP**
