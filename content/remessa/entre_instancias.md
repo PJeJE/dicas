@@ -30,4 +30,6 @@ A remessa entre instâncias é uma integração que ocorre dentro da própria ju
 
 As possibilidades de envio de um processo via remessa aparecem por meio de uma caixa de opções nas tarefas de remessa. Ao selecionar o destino (campo **Instância**, conforme imagem abaixo), o usuário deve utilizar o botão **Verificar acesso** para testar antes mesmo de fornecer os dados da remessa se a conexão com o destino está ok. Se o sistema retornar a mensagem **Conexão com o endpoint OK**, o usuário pode prosseguir com o preenchimento dos dados da remessa e finalizar o procedimento. Caso o sistema apresente a mensagem ****
 
-remessadestino.png
+
+![Destino](/imagens/remessadestino.png)
+
