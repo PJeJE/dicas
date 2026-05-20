@@ -208,8 +208,10 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
 - **pje:desentranhaDoc**
   - Papel que permite a inativação (desentranhamento) de documentos juntados. A permissão está condicionada ao usuário ser do mesmo órgão julgador do processo ou, caso o usuário não seja vinculado a órgão julgador, que seja do mesmo órgão julgador colegiado do processo. Caso não seja vinculado a nenhum órgão, não poderá excluir. 
 
+- **pje:cadastro:etnia**
+  - Papel que permite a criação/alteração no cadastro de etnias
+
  
-  
 <!--	
 	/pages/Processo/RetificacaoAutuacao/updateRetificacaoAutuacao.seam
 	pje:papel:visualizaSituacoesAtuais
