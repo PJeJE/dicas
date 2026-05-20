@@ -130,7 +130,7 @@ Alguns procedimentos no CAND resultam em atualizações no PJe. Essas atualizaç
 - Registrado o falecimento no sistema de registro de candidaturas** (Código: 15157)
 - Registrada a renúncia no sistema de registro de candidaturas** (Código: 15158) 
 
-Nas operações marcadas com *, o movimento é lançado independentemente da instância do processo.
+Nas operações marcadas com **, o movimento é lançado independentemente da instância do processo.
 
 Além do movimento, há também a atualização da prioridade eleito(a)/não eleito(a), que afeta a tramitação processual do processo no PJe
 
