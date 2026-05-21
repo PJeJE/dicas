@@ -1,3 +1,44 @@
+/* (h1 do tema na home e em chapters é suprimido via override de partial
+   em layouts/partials/heading.html) */
+
+/* Breadcrumb na topbar: estilo similar ao antigo */
+.topbar-breadcrumbs {
+  font-size: 0.95rem;
+}
+
+/* Chapters: centraliza "Seção N" (h3 imediatamente seguido pelo h1 do título do chapter) */
+main#R-body-inner article > h3:has(+ h1) {
+  text-align: center;
+}
+
+/* Logo PJe — força fill branco (SVG nasce preto) e limita altura */
+#logo svg,
+#logo #grav-logo {
+  max-height: 110px;
+  width: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#logo svg g,
+#logo svg path,
+#grav-logo g,
+#grav-logo path {
+  fill: #ffffff !important;
+}
+
+/* Garante que o search fique dentro da área do logo (e não vaze sobre o menu) */
+#R-header-wrapper {
+  flex-shrink: 0;
+}
+
+#R-header-wrapper search,
+#R-header-wrapper form {
+  display: block;
+  width: 100%;
+}
+
 h1 {
   font-size: 2.75rem;
 }
@@ -32,18 +73,22 @@ body #chapter h1 {
   }
 }
 
+/* Compatibilidade Relearn: IDs do conteúdo mudaram de #body-inner para #R-body-inner */
 #body-inner p,
-#chapter #body-inner p {
+#chapter #body-inner p,
+#R-body-inner p {
   text-align: justify;
 }
 
 #body-inner > ul > li,
-#chapter #body-inner > ul > li {
+#chapter #body-inner > ul > li,
+#R-body-inner > ul > li {
   text-align: justify;
 }
 
 #body-inner > ol > li,
-#chapter #body-inner > ol > li {
+#chapter #body-inner > ol > li,
+#R-body-inner > ol > li {
   text-align: justify;
 }
 

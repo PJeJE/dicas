@@ -16,11 +16,15 @@ themeVariant = "blue"
 editURL = "https://github.com/PJeJE/dicas/edit/master/content/"
 showVisitedLinks = true
 disableBreadcrumb = false
+disableRootBreadcrumb = false
 disableNextPrev = false
 disableLandingPageButton = true
 ordersectionsby = "weight"
 titleSeparator = "::"
 custom_css = ["css/dicas.css"]
+hideAuthorName = true
+hideAuthorEmail = true
+hideAuthorDate = true
 
 [params.author]
 name = "ASPJE"
@@ -30,6 +34,10 @@ force = true
 
 [markup.goldmark.renderer]
 unsafe = true
+
+[markup.goldmark.parser.attribute]
+block = true
+title = true
 
 [outputs]
 home = ["HTML", "RSS"]
