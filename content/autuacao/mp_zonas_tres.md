@@ -14,16 +14,16 @@ Do mesmo modo, nos processos protocolados pelo público externo, adote o hábito
 
 Quando identificar a duplicidade de partes, se tiver certeza de que são a mesma pessoa, utilize a ferramenta de unificação de partes. Quando não for possível a unificação, ao menos inative a parte incorreta, para evitar novas autuações erradas.
 
-{{< tabs groupId="partes" >}}
+{{< tabs groupid="partes" >}}
 
-{{% tab name="MINISTÉRIO PÚBLICO" %}}
+{{% tab title="MINISTÉRIO PÚBLICO" %}}
 
 Pode ser cadastrado como **Pessoa jurídica** ou como **Ente ou Autoridade.**
 
 Os Ministérios Públicos de todos os Estados já estão cadastrados no sistema. No Distrito Federal, o Ministério Público está cadastrado como Ministério Público do DF e Territórios.
 {{% /tab %}}
 
-{{% tab name="ZONAS ELEITORAIS" %}}
+{{% tab title="ZONAS ELEITORAIS" %}}
 
 As zonas devem ser cadastradas como **Entre ou Autoridade.** Todas as Zonas do país já estão cadastradas no sistema, no formato JUÍZO DA <NÚMERO DA ZONA>ª ZONA ELEITORAL DE <MUNICÍPIO SEDE> <SIGLA DO ESTADO>.
   
@@ -33,7 +33,7 @@ PJe 1G, todas as Zonas eleitorais já estão devidamente cadastradas no sistema,
   
 {{% /tab %}}
 
-{{% tab name="TRIBUNAIS REGIONAIS" %}}
+{{% tab title="TRIBUNAIS REGIONAIS" %}}
 
 Os TREs devem ser cadastrados como pessoas jurídicas.
   

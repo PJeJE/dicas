@@ -30,7 +30,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.92.2
+      HUGO_VERSION: 0.151.0
       DART_SASS_VERSION: 1.79.4
     steps:
       - name: Install Hugo CLI

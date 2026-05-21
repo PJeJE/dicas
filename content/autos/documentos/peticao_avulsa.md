@@ -9,9 +9,9 @@ O fluxo de petição avulsa dispara quando configurado no **Tipo de Documento**,
 
 ![Fluxo de petição avulsa](/imagens/fluxo_peticao_avulsa.jpg)
 
-{{< tabs groupId="pet_avulsa" >}}
+{{< tabs groupid="pet_avulsa" >}}
 
-{{% tab name="ZONAS" %}}
+{{% tab title="ZONAS" %}}
 
 No PJe 1G essa configuração é feita pela ASPJe e hoje (consulta efetuada em novembro de 2022) está da seguinte maneira:
 
@@ -70,7 +70,7 @@ No PJe 1G essa configuração é feita pela ASPJe e hoje (consulta efetuada em n
 
 {{% /tab %}}
 
-{{% tab name="TREs" %}}
+{{% tab title="TREs" %}}
 
 No PJe 2G os administradores locais de cada TRE são responsáveis por essa configuração.
 
@@ -78,7 +78,7 @@ Lembrando que, ao associar o **Fluxo - Análise de petições avulsas** a tarefa
 
 {{% /tab %}}
 
-{{% tab name="TSE" %}}
+{{% tab title="TSE" %}}
 
 No PJe do TSE essa configuração é feita pela ASPJe e hoje (consulta efetuada em novembro de 2022) está da seguinte maneira:
 

@@ -1,5 +1,6 @@
 ---
 title: "PJe Dicas"
+description: "PJe Dicas v2.0"
 ---
 
 # Dicas PJe - Justiça Eleitoral
