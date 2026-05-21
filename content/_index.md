@@ -1,11 +1,11 @@
 ---
 title: "PJe Dicas"
-description: "PJe Dicas v2.0"
+description: "PJe Dicas v3"
 ---
 
 # Dicas PJe - Justiça Eleitoral
 
-Bem-vindo e bem-vinda ao Dicas PJe 2.0.
+Bem-vindo e bem-vinda ao Dicas PJe 3.0.
 
 Esta é a versão revisada e atualizada do Dicas PJe, iniciativa da Assessoria do Processo Judicial Eletrônico (ASPJe/TSE). Aqui você encontra dicas de uso e configuração do sistema.
 
