@@ -30,7 +30,7 @@ Quando disponível, ela só será possível para o motivo **Determinação Judic
 Detalhamentos sobre o funcionamento do parâmetro **listaAgrupamentosPrevencao260JE** podem ser encontrados na seção na seção do [Artigo 260 do código eleitoral](distribuicao/260). 
 {{% /notice %}}
 
-Temos também a opção de redistribuição em lote por meio de uma funcionalidade disponível diretamente no menu do sistema para papel específico. Detalhamentos sobre o funcionamento dessa funcionalidade podem ser encontrados no [manual](docs/manual_redis_sucessao_em_lote.pdf)
+Temos também a opção de redistribuição por sucessão em lote por meio de uma funcionalidade disponível diretamente no menu do sistema para papel específico. Detalhamentos sobre o funcionamento dessa funcionalidade podem ser encontrados no [manual](docs/manual_redis_sucessao_em_lote.pdf)
 
 
 ## Remessa entre jusridições
