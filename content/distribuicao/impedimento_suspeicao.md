@@ -46,9 +46,9 @@ Importante ressaltar que os impedimentos/suspeições identificados a partir das
 
 A remoção do impedimento registrado é feito na mesma aba.
 
-{{< tabs groupId="impedimento_suspeicao" >}}
+{{< tabs groupid="impedimento_suspeicao" >}}
 
-{{% tab name="ZONAS" %}}
+{{% tab title="ZONAS" %}}
 
 No PJe 1G, quando um juiz eleitoral se declara suspeito ou impedido e novo juiz é designado para o processo, além do registro de impedimento, há outras atividades que precisam ser realizadas.
 
@@ -60,7 +60,7 @@ Note que, caso a visibilidade do juiz titular do órgão julgador permaneça com
 
 {{% /tab %}}
 
-{{% tab name="TREs/TSE" %}}
+{{% tab title="TREs/TSE" %}}
 
 No PJe 2G e 3G o voto de impedimento proferido também atualiza a lista de magistrados impedidos, sendo todos exibidos nos autos do processo.
 

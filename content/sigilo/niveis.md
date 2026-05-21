@@ -6,8 +6,8 @@ weight: 2
 
 ## Níveis e papeis
 
-{{< tabs groupId="niveis_sigilo" >}}
-{{% tab name="ZONAS" %}}
+{{< tabs groupid="niveis_sigilo" >}}
+{{% tab title="ZONAS" %}}
 Para as Zonas Eleitorais, em razão do menor número de papeis disponíveis para os usuários, foram fixados três níveis de acesso com os respectivos visualizadores.
 
 NÍVEL DE ACESSO UM:
@@ -26,10 +26,10 @@ NÍVEL DE ACESSO CINCO:
 + polo ativo e seus representantes.
 
 {{% /tab %}}
-{{% tab name="TREs" %}}
+{{% tab title="TREs" %}}
 Aguardar regulamentação.
 {{% /tab %}}
-{{% tab name="TSE" %}}
+{{% tab title="TSE" %}}
 Aguardar regulamentação.
 {{% /tab %}}
 {{< /tabs >}}

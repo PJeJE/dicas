@@ -1,0 +1,10 @@
+{{- /*
+    Override do heading.html do tema:
+    - Não renderiza o h1 do tema na home (`#index.md` já tem seu próprio "# Dicas PJe - Justiça Eleitoral")
+    - Não renderiza o h1 do tema em chapters (chapter pages têm "### Seção N" + "# Title" no markdown)
+    - Renderiza normalmente nas páginas internas comuns
+*/ -}}
+{{- $title := partial "title.gotmpl" (dict "page" .) -}}
+{{- if and (not .IsHome) (not .Params.chapter) -}}
+<h1 id="{{ $title | plainify | anchorize }}">{{ $title }}</h1>
+{{- end -}}

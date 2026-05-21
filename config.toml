@@ -1,34 +1,46 @@
 baseURL = 'https://pjeje.github.io/dicas/'
 languageCode = 'pt-br'
 title = 'PJe Dicas'
-theme = "hugo-theme-learn"
+theme = "hugo-theme-relearn"
 defaultContentLanguage = "pt"
 defaultContentLanguageInSubdir = false
 metaDataFormat = "yaml"
 canonifyURLs = true
-googleAnalytics = "G-FF8QSSKC39"
+
+[services.googleAnalytics]
+ID = "G-FF8QSSKC39"
 
 
 [params]
 themeVariant = "blue"
 editURL = "https://github.com/PJeJE/dicas/edit/master/content/"
-description = "PJe Dicas v2.0"
-author = "ASPJE"
 showVisitedLinks = true
 disableBreadcrumb = false
+disableRootBreadcrumb = false
 disableNextPrev = false
 disableLandingPageButton = true
-disableMermaid = false
 ordersectionsby = "weight"
-customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
 titleSeparator = "::"
 custom_css = ["css/dicas.css"]
+hideAuthorName = true
+hideAuthorEmail = true
+hideAuthorDate = true
+
+[params.author]
+name = "ASPJE"
+
+[params.mermaid]
+force = true
 
 [markup.goldmark.renderer]
 unsafe = true
 
+[markup.goldmark.parser.attribute]
+block = true
+title = true
+
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS"]
 
 [[menu.shortcuts]]
 name = '<i class="fas fa-tag"></i> Formulário SGT'
