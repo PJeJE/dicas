@@ -60,6 +60,7 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 | Município da autuação do Processo | #{processoTrfHome.instance.complementoJE.municipioEleicao.municipio} |  |
 | Nome Autor Ativo Processo | #{processoTrfHome.instance.nomeAutorAtivoProcesso} |  |
 | Nome Autor Processo | #{processoTrfHome.instance.tipoNomeAutorProcesso} |  |
+| Nome da seção judiciária do sistema | #{subNomeSistema} | Exibe o conteúdo do parâmetro nomeSecaoJudiciaria que, via de regra, contém o nome do tribunal |
 | Nome do Usuário Logado | #{usuarioLogado.nome} |  |
 | Nome Outros Interessados | #{processoParteHome.processoParteTerceiroSemVinculacaoList} |  |
 | Nome Réu Processo | #{processoTrfHome.instance.nomeReuProcesso} |  |
@@ -91,14 +92,14 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 | Recupera conteúdo do documento voto vinculado à última sessão onde o processo foi "Julgado" e a sessão teve movimento registrado ou o processo teve o julgamento individual finalizado. O sistema procura o voto do vencedor. Caso não encontre, procura o voto do relator | #{sessaoProcessoDocumentoManager.getVoto(null)} |  |
 | Recupera data da última sessão de julgamento onde o processo foi "Julgado" | #{sessaoProcessoDocumentoManager.getDataUltimaSessaoJulgamento(null)} |  |
 | Relator (processos de segundo grau/TSE) | #{processoTrfHome.nomeRelator} |  |
-| Revisor | #{pessoaMagistradoManager.getMagistradoTitular(orgaoJulgadorColegiadoOrgaoJulgadorManager<br>.recuperarOrgaoJulgadorRevisorPadrao(tramitacaoProcessualService.recuperaProcesso()).orgaoJulgadorRevisor.orgaoJulgador).getNome().toUpperCase()} |  | Nome da seção judiciária do sistema | #{subNomeSistema} | Exibe o conteúdo do parâmetro nomeSecaoJudiciaria que, via de regra, contém o nome do tribunal |
-| Sala de Audiência | #{processoTrfHome.salaAudiencia} |  |
+| Revisor | #{pessoaMagistradoManager.getMagistradoTitular(orgaoJulgadorColegiadoOrgaoJulgadorManager<br>.recuperarOrgaoJulgadorRevisorPadrao(tramitacaoProcessualService.recuperaProcesso()).orgaoJulgadorRevisor.orgaoJulgador).getNome().toUpperCase()} |  |
 | Sala de Audiência | #{processoTrfHome.salaAudiencia} |  |
 | Tabela hash de documentos | #{processoTrfHome.tabelaHashDocumentos} |  |
 | Tabela hash de documentos com ID | #{processoTrfHome.tabelaHashDocumentosComId} |  |
 | Tipo de Audiência | #{processoTrfHome.tipoAudiencia} |  |
 | Tipo Nome Réu Processo | #{processoTrfHome.instance.tipoNomeReuProcesso} |  |
 | UF Órgão Julgador | #{processoTrfHome.instance.orgaoJulgador.localizacao.endereco.cep.municipio.estado.codEstado} |  |
+| Último dia do período da sessão contínua/virtual. Retorna a data final do período de votação (ex.: sessão de 11 a 15/05 → retorna 15/05) | #{sessaoPautaProcessoTrfManager.getSessaoPautaProcessoTrfJulgado(processoTrfHome.instance) != null and sessaoPautaProcessoTrfManager.getSessaoPautaProcessoTrfJulgado(processoTrfHome.instance).sessao.dataFimSessao != null ? dateUtil.dateToString(sessaoPautaProcessoTrfManager.getSessaoPautaProcessoTrfJulgado(processoTrfHome.instance).sessao.dataFimSessao) : ''} | Se a sessão não for contínua/virtual, a EL retorna string vazia |
 | Usuário Logado | #{usuarioLogado.nome} |  |
 
 {{</table>}}
