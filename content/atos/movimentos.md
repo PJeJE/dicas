@@ -28,7 +28,7 @@ Temos na Justiça Eleitoral uma outra possibilidade de lançamento de movimentos
 
 ## Configuração de movimentos, aplicabilidade e complementos
 
-A configuração de movimentos é um ponto extremamente relevante para o correto funcionamento do PJe. O conjunto de movimentos habilitados na Justiça Eleitoral são periodicamente revistos por um grupo de discussão que envolve o TSE e representantes dos regionais. 
+A configuração de movimentos é um ponto extremamente sensível para o correto funcionamento do PJe. O conjunto de movimentos habilitados na Justiça Eleitoral são periodicamente revistos por um grupo de discussão que envolve o TSE e representantes dos regionais. 
 
 Há instruções relevantes sobre as configurações de movimentações processuais no [link](https://docs.pje.jus.br/manuais-de-uso/Manual%20de%20referencia%20PJe%201.0#movimenta%C3%A7%C3%B5es)
 
@@ -40,4 +40,12 @@ Revogada decisão anterior #{tipo_da_decisao_anterior} datada de 12/05/2024
 
 Para que o usuário consiga visualizar o complemento para selecionar, a aba complemento do referido movimento deve ser preenchida com o complemento respectivo. 
 
-Ainda sobre complementos, especialmente sobre complementos do tipo **dinâmico** (que remetem ao tipo **identificador** do SGT), a configuração, via de regra, dependerá de um desenvolvedor com acesso ao código do PJe para identificar qual expressão recuperará o dado dinâmico que o movimento precisará. Tomando como exemplo o mesmo movimento de código SGT 945 citado no parágrafo acima, o complemento **tipo_da_decisao_anterior** precisa ser apresentado para ser selecionado ao usuário que lança o movimento contendo uma lista de atos para que o usuário selecione qual tipo de decisão será revogada. Quem faz a configuração da expressão que recupera os tipos de decisão é o usuário administrador, mas ele não tem como saber qual expressão é capaz de recuperar esses valores dentro do PJe. Após retorno do desenvolvedor com a respectiva expressão, aí sim, o usuário administrador, de posse da expressão, pode fazer a efetiva configuração na campo adequado na configuração de complemento. Para esse complemento específico, recomendamos a expressão **#{tipoProcessoDocumentoManager.getTipoDocumentoAtoMagistradoList()}**, que recupera os tipos de documentos que são assinados por magistrados no PJe.
+
+### Complementos dinâmicos/domínio/livre
+
+O cadastro de complementos de movimento é realizado por meio do menu **Configuração - Tabelas Judiciais - Movimentações - Complemento - Tipo**
+
+Os complementos de movimentação podem ser dos tipos dinâmico, domínio ou livre. Para complementos dinâmicos, o sistema oferecerá ao servidor opções de acordo com o processo que será lançado o movimento. Já para o tipo domínio, seram oferecidas opções disponíveis em uma tabela previamente configurada por meio do menu **Configuração - Tabelas Judiciais - Movimentações - Complemento - Elementos de domínio**. Para o tipo livre, o servidor digitará o complemento. O sistema permite a configuração de máscaras para essa digitação. Por exemplo, se o complemento for uma data, o configurador poderá marcar a máscara de data para que o servidor que lança o movimento já digite a data no formato esperado. 
+
+
+Especialmente sobre complementos do tipo **dinâmico** (que remetem ao tipo **identificador** do SGT), a configuração, via de regra, dependerá de um desenvolvedor com acesso ao código do PJe para identificar qual expressão recuperará o dado dinâmico que o movimento precisará. Tomando como exemplo o mesmo movimento de código SGT 945 citado no parágrafo acima, o complemento **tipo_da_decisao_anterior** precisa ser apresentado para ser selecionado ao usuário que lança o movimento contendo uma lista de atos para que o usuário selecione qual tipo de decisão será revogada. Quem faz a configuração da expressão que recupera os tipos de decisão é o usuário administrador, mas ele não tem como saber qual expressão é capaz de recuperar esses valores dentro do PJe. Após retorno do desenvolvedor com a respectiva expressão, aí sim, o usuário administrador, de posse da expressão, pode fazer a efetiva configuração na campo adequado na configuração de complemento. Para esse complemento específico, recomendamos a expressão **#{tipoProcessoDocumentoManager.getTipoDocumentoAtoMagistradoList()}**, que recupera os tipos de documentos que são assinados por magistrados no PJe.
