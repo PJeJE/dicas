@@ -211,6 +211,10 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
 - **pje:cadastro:etnia**
   - Papel que permite a criação/alteração no cadastro de etnias
 
+- **pje:processo:visualizaCompetencia**
+  - Papel que permite visualizar campo competência do processo nos autos digitais
+
+
  
 <!--	
 	/pages/Processo/RetificacaoAutuacao/updateRetificacaoAutuacao.seam
