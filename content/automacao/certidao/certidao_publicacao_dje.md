@@ -5,10 +5,6 @@ menuTitle: "Certidão de publicação do DJe"
 weight: 5
 ---
 
-{{% notice warning %}}
-Esta funcionalidade está em fase final de homologação. Portanto, **ainda não disponível nos ambientes de produção**.
-{{% /notice %}}
-
 É possível juntar automaticamente, após a publicação de expediente no DJe, uma certidão com os dados da publicação, por meio da configuração dos seguintes parâmetros:
 
 - **Parâmetro `idModeloCertidaoPublicacaoDJE`**:
