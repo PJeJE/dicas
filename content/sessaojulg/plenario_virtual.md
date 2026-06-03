@@ -38,57 +38,53 @@ c. A sessão é virtual e a data de consulta é posterior a data e horário fim 
 13. O órgão julgado vencedor é mostrado apenas quando o processo está Julgado (JG)
 
 14. O motivo de retirada de pauta é mostrado apenas quando o processo não foi retirado de julgamento;
-15. 
-21. A ementa (id_tipo = 77) e o relatório (id_tipo = 73) só são mostrados quando:
+
+15. A ementa (id_tipo = 77) e o relatório (id_tipo = 73) só são mostrados quando:
 a. Estão ativos;
 b. Não são sigilosos;
-c. Estão assinados (possui data de juntada); (Regra retirada em 17/02/2025)
-d. O julgamento está finalizado ou possui uma data de realização da sessão;
-e. A situação do julgamento do processo é JG (Julgado);
-f. Estão liberados;
-g. Possui uma data de abertura da sessão;
-h. Não estão em segredos de justiça.
-22. É considerado sempre a última ementa e o último relatório;
-23. Mostra quem está impedido ou omisso:
+b. O julgamento está finalizado ou possui uma data de realização da sessão;
+c. A situação do julgamento do processo é JG (Julgado);
+d. Estão liberados;
+e. Possui uma data de abertura da sessão;
+f. Não estão em segredos de justiça.
+
+16. É considerado sempre a última ementa e o último relatório;
+
+17. Mostra quem está impedido ou omisso:
 a. O impedido é apenas uma marcação in_impedimento_suspeicao true ou false
-b. O omisso é quem faz parte da composição da sessão, não está impedido e não
-possui voto OU é o relator, possui voto que não esteja liberado e não esteja
-impedido
-24. Só são mostrados os votos:
+b. O omisso é quem faz parte da composição da sessão, não está impedido e não possui voto OU é o relator, possui voto que não esteja liberado e não esteja impedido
+
+18. Só são mostrados os votos:
 a. De quem está presente ou é o relator
-b. Onde a situação de julgamento é AJ (Aguardando Julgamento) (17/02/2025) ou EJ
-(Em Julgamento) ou JG (Julgado)
-ou tem um pedido de vista e a situação é NJ (Não julgado)
+b. Onde a situação de julgamento é AJ (Aguardando Julgamento) (17/02/2025) ou EJ (Em Julgamento) ou JG (Julgado) ou tem um pedido de vista e a situação é NJ (Não julgado)
 c. Onde o julgamento está finalizado ou tenha uma data de realização da sessão
 d. Onde tem uma data de abertura da sessão
 e. Quando o processo não estiver em segredo de justiça
 f. Que estão liberados, exceto se o voto for do relator.
-25. O documento do voto é mostrado apenas quando:
+
+19. O documento do voto é mostrado apenas quando:
 a. Estiver ativo
 b. Não for sigiloso
-c. Possuir assinatura (data de juntada). Caso o parâmetro
-“pje:sessao:plenarioVirtual:documentoAssinado” do PJe estiver como false, não é
-necessário o documento possuir assinatura. Se estiver como true ou vazio, precisa
-estar assinado para mostrar (17/02/2025)
-26. Será mostrado sempre o último voto do votante
-27. A relatoria será do primeiro julgamento do processo, não do julgamento atual (novo relator)
-28. 22. Documentos que serão mostrados a depender de quem for o vencedor, relator ou vogal:
+c. Possuir assinatura (data de juntada). Caso o parâmetro “pje:sessao:plenarioVirtual:documentoAssinado” do PJe estiver como false, não é necessário o documento possuir assinatura. Se estiver como true ou vazio, precisa estar assinado para mostrar (17/02/2025)
+
+20. Será mostrado sempre o último voto do votante
+
+21. A relatoria será do primeiro julgamento do processo, não do julgamento atual (novo relator)
+
+22. Documentos que serão mostrados a depender de quem for o vencedor, relator ou vogal:
 a. Relator vencedor:
 i. Ementa do relator – Sim
 ii. Relatório do relator – Sim
 iii. Voto do relator – Sim
+
 b. Vogal vencedor:
-i. Ementa do relator - Não, pois ela é descartada quando tem a ementa do
-vogal vencedor. Para assinar o acórdão, tem que excluir a ementa
-(rascunho) do relator
+i. Ementa do relator - Não, pois ela é descartada quando tem a ementa do vogal vencedor. Para assinar o acórdão, tem que excluir a ementa (rascunho) do relator
 ii. Relatório do relator – Sim
 iii. Voto do relator – Sim
 iv. Ementa do vogal – Sim
 v. Relatório do vogal - Não existe, o vogal só cria o voto e a ementa dele
 vi. Voto do vogal – Sim
-29. Caso o parâmetro “pje:sessao:plenarioVirtual:documentoAssinado” do PJe esteja como
-false, não é necessário o documento de relatório, ementa ou voto possuir assinatura para
-ser visualizado, bastando estar como liberados no PJe. Se o parâmetro estiver como true ou
-vazio, o documento precisa estar assinado para ser visualizado. Ementa e Relatório são
-mostrados independente da situação do processo. (17/02/2025)
-30. Podem ser mostradas mais de uma sessão presencial no mesmo dia (11/06/2025)
+
+23. Caso o parâmetro “pje:sessao:plenarioVirtual:documentoAssinado” do PJe esteja como false, não é necessário o documento de relatório, ementa ou voto possuir assinatura para ser visualizado, bastando estar como liberados no PJe. Se o parâmetro estiver como true ou vazio, o documento precisa estar assinado para ser visualizado. Ementa e Relatório são mostrados independente da situação do processo.
+
+24. Podem ser mostradas mais de uma sessão presencial no mesmo dia.
