@@ -5,7 +5,7 @@ weight: 5
 menuTitle: "IDs"
 ---
 
-A Justiça Eleitoral implantou o PJe da seguinte forma: no primeiro grau (PJE Zona) há uma instância para todas as UFs; no segundo grau (TREs) há uma instância para cada Tribunal Regional Eleitoral; e, no terceiro grau (TSE) há uma instância própria.
+A Justiça Eleitoral implantou o PJe da seguinte forma: no primeiro grau (PJE Zona) há uma instância para cada UF; assim como no segundo grau (TREs), onde há uma instância para cada Tribunal Regional Eleitoral; e, no terceiro grau (TSE) há uma instância própria.
 
 Cada instalação (instância) tem suas próprias configurações e banco de dados. Os identificadores de todos os registros do banco de dados são denominados comumente pela equipe de TI como IDs. 
 
