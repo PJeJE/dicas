@@ -41,6 +41,10 @@ Cada Regional é responsável por criar o próprio modelo de acordo com suas nec
 deve ser configurado no parâmetro `idModeloCertidaoDisponibilizacao`.
 {{% /notice %}}
 
+{{% notice note %}}
+Para utilizar a variável de URL (`#{certidaoDisponibilizacaoDJEService.getUrlVisualizarDocumento()}`), que permite acessar o documento diretamente por meio de um clique, consulte o vídeo explicativo disponível na documentação da [funcionalidade de certidão de publicação no Mural]({{< ref "certidao_mural.md" >}}#video-certidao-mural).
+{{% /notice %}}
+
 {{% notice warning %}}
 Esse modelo é de uso exclusivo da funcionalidade de certidão automática de disponibilização no DJe e **NÃO** deve ser selecionado *manualmente* em nenhum editor de texto.
 {{% /notice %}}
