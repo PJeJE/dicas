@@ -37,6 +37,7 @@ No modelo de documento podem ser utilizadas as seguintes variáveis para recuper
 
 {{</table>}}
 
+<div id="video-certidao-mural"></div>
 A seguir, um exemplo de modelo de certidão que utiliza as variáveis anteriormente descritas:
 {{< video src="/videos/exemplo_modelo_certidao_mural.mp4">}}
 
