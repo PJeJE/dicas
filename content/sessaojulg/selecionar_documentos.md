@@ -63,7 +63,7 @@ As abas de documentos são bem parecidas e apresentam as seguintes informações
   
 7.  Um ícone para permitir ajustar órgão julgador do documento (lápis);
   
-8.  Um ícone para permitir desvincular órgão e sessão do documento (lixeira).
+8.  Um ícone para permitir desvincular sessão do documento (lixeira).
  
 9.  Nas abas de voto é exibida indicação do voto. Por exemplo, "Nego provimento".
     
