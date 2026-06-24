@@ -71,7 +71,7 @@ As abas de documentos são bem parecidas e apresentam as seguintes informações
 
 
 {{% notice note %}} 
-Ao utilizar o ícone da lixeira, os documentos são desvinculados do órgão julgador e da sessão. É útil quando se deseja desvincular um documento de uma sessão, mas não esqueça de vincular sempre a um órgão julgador. 
+Ao utilizar o ícone da lixeira, os documentos são desvinculados da sessão. É útil quando se deseja desvincular um documento de uma sessão. 
 {{% /notice %}}
 
 Caso não seja selecionado um acórdão na aba correspondente, o sistema criará um documento de acórdão em branco e o utilizará na tarefa seguinte. Ao selecionar documentos em outros abas, selecionar um acórdão na aba de sessão e selecionar **Salvar seleção**, o sistema vincula os documentos das outras abas ao acórdão selecionado.
