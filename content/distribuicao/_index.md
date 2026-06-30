@@ -1,12 +1,12 @@
 +++
 title = "Distribuição"
 date = 2022-11-21T14:59:15-03:00
-weight = 10
+weight = 11
 chapter = true
-pre = "<b>10. </b>"
+pre = "<b>11. </b>"
 +++
 
-### Seção 10
+### Seção 11
 
 # Distribuição
 

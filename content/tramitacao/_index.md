@@ -1,12 +1,12 @@
 +++
 title = "Tarefas e fluxos"
 date = 2025-11-17T15:38:00-00:00
-weight = 22
+weight = 23
 chapter = true
-pre = "<b>22. </b>"
+pre = "<b>23. </b>"
 +++
 
-### Seção 21
+### Seção 23
 
 # Tarefas e fluxos
 

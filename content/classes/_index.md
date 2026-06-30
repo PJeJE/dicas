@@ -1,12 +1,12 @@
 +++
 title = "Competências"
 date = 2022-11-21T14:58:44-03:00
-weight = 6
+weight = 7
 chapter = true
-pre = "<b>6. </b>"
+pre = "<b>7. </b>"
 +++
 
-### Seção 6
+### Seção 7
 
 # Competências
 

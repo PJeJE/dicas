@@ -1,12 +1,12 @@
 +++
 title = "Papéis e recursos"
 date = 2024-09-03T14:07:27-03:00
-weight = 14
+weight = 15
 chapter = true
-pre = "<b>14. </b>"
+pre = "<b>15. </b>"
 +++
 
-### Seção 12
+### Seção 15
 
 # Papéis e recursos
 

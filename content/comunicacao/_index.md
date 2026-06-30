@@ -1,12 +1,12 @@
 +++
 title = "Comunicação de Atos Processuais"
 date = 2022-11-21T14:58:50-03:00
-weight = 7
+weight = 8
 chapter = true
-pre = "<b>7. </b>"
+pre = "<b>8. </b>"
 +++
 
-### Seção 7
+### Seção 8
 
 # Comunicação de Atos Processuais
 

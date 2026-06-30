@@ -1,12 +1,12 @@
 +++
 title = "Recursos Internos"
 date = 2022-11-21T15:00:12-03:00
-weight = 18
+weight = 19
 chapter = true
-pre = "<b>18. </b>"
+pre = "<b>19. </b>"
 +++
 
-### Seção 15
+### Seção 19
 
 # Recursos Internos
 

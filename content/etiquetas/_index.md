@@ -1,12 +1,12 @@
 +++
 title = "Etiquetas"
 date = 2022-11-21T14:59:27-03:00
-weight = 11
+weight = 12
 chapter = true
-pre = "<b>11. </b>"
+pre = "<b>12. </b>"
 +++
 
-### Seção 11
+### Seção 12
 
 # Etiquetas
 

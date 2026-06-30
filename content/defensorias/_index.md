@@ -1,12 +1,12 @@
 +++
 title = "Defensorias"
 date = 2022-11-21T14:59:08-03:00
-weight = 9
+weight = 10
 chapter = true
-pre = "<b>9. </b>"
+pre = "<b>10. </b>"
 +++
 
-### Seção 9
+### Seção 10
 
 # Defensorias
 

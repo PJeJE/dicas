@@ -1,12 +1,12 @@
 +++
 title = "Iniciativas de Automação"
 date = 2024-07-02T15:00:35-03:00
-weight = 12
+weight = 13
 chapter = true
-pre = "<b>12. </b>"
+pre = "<b>13. </b>"
 +++
 
-### Seção 20
+### Seção 13
 
 # Iniciativas de Automação
 

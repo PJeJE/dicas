@@ -1,12 +1,12 @@
 +++
 title = "Atos Processuais"
 date = 2022-11-21T14:57:12-03:00
-weight = 3
+weight = 4
 chapter = true
-pre = "<b>3. </b>"
+pre = "<b>4. </b>"
 +++
 
-### Seção 3
+### Seção 4
 
 # Atos Processuais
 
