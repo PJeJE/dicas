@@ -1,9 +1,9 @@
 +++
 title = "RCAND E PCE"
 date = 2026-04-17T09:07:27-03:00
-weight = 23
+weight = 17
 chapter = true
-pre = "<b>22. </b>"
+pre = "<b>17. </b>"
 +++
 
 ### Seção 22

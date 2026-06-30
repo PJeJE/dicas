@@ -1,9 +1,9 @@
 +++
 title = "Prazos Processuais"
 date = 2022-11-21T14:59:59-03:00
-weight = 14
+weight = 15
 chapter = true
-pre = "<b>13. </b>"
+pre = "<b>15. </b>"
 +++
 
 ### Seção 13

@@ -1,7 +1,7 @@
 +++
 title = "Wiki do PJe"
 date = 2026-04-24T15:07:27-03:00
-weight = 24
+weight = 23
 chapter = true
 pre = "<b>23. </b>"
 +++
