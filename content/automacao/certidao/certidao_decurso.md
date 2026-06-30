@@ -92,7 +92,7 @@ No modelo de documento podem ser utilizadas as seguintes variáveis para recuper
 | Tipo de expediente (Exemplo: Intimação, Edital, Citação) | #{processoParteExpedienteHome.instance.processoExpediente.tipoProcessoDocumento} |
 | Nome do intimado | #{processoParteExpedienteHome.instance.nomePessoaParte} |
 | Meio de expedição (Exemplo: Correios, Mural, Expedição eletrônica) | #{processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente == 'E' ? 'Expedição eletrônica' : processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente.label} |
-| Data do decurso | #{dateUtil.dateToString(processoParteExpedienteHome.instance.dtPrazoLegal, 'dd/MM/yyyy HH:mm:ss')}
+| Data contida no movimento de decurso | #{dateUtil.dateToString(processoParteExpedienteHome.instance.dtPrazoLegal, 'dd/MM/yyyy HH:mm:ss')}
 
 {{</table>}}
   
