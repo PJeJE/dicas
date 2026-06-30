@@ -1,7 +1,7 @@
 ---
 title: "Situação da Inscrição na OAB"
 date: 2022-11-23T17:26:41-03:00
-menuTitle: "Situação OAB"
+linkTitle: "Situação OAB"
 ---
 
 Como qualquer perfil no PJe, para que o advogado atue, o seu cadastro precisa estar ativado. Para cada pessoa, existe o cadastro geral do usuário e existe o cadastro dele em seu perfil de atuação. Em primeiro lugar, seu cadastro geral tem que estar **ativo** para que ele atue no PJe. Além disso, o cadastro dele no perfil também precisa estar **ativo**. De forma mais básica, a atuação do advogado no PJe deve depender de como ele é visto pela OAB, já que é a entidade de representação e regulamentação da advocacia. Dessa forma, os servidores atuam no PJe tendo como norte a situação do advogado perante sua entidade de representação.

@@ -2,7 +2,7 @@
 ---
 title: "Certidão genérica"
 date: 2024-08-27T16:33:02-03:00
-menuTitle: "Certidão genérica"
+linkTitle: "Certidão genérica"
 weight: 3
 ---
 

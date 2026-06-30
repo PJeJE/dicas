@@ -1,7 +1,7 @@
 ---
 title: "Certidão de ciência"
 date: 2025-02-07T16:27:02-03:00
-menuTitle: "Certidão de ciência"
+linkTitle: "Certidão de ciência"
 weight: 6
 draft: true
 ---

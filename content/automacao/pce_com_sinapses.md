@@ -1,7 +1,7 @@
 ---
 title: "Automações da PCE com o uso da SINAPSES"
 date: 2024-07-18T16:34:02-03:00
-menuTitle: "PCE & SINAPES"
+linkTitle: "PCE & SINAPES"
 weight: 6
 ---
 

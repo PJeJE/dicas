@@ -3,7 +3,7 @@
 title: "Atuação de magistrados em caso de impedimento/suspeição"
 date: 2023-01-20T16:20:20-03:00
 weight: 5
-menuTitle: "Impedimentos e suspeições"
+linkTitle: "Impedimentos e suspeições"
 ---
 ## Impedimento e suspeição por município, estado, nome de parte ou nome de advogado
 

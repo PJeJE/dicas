@@ -2,7 +2,7 @@
 title: "PCE"
 date: 2026-04-17T15:00:45-03:00
 weight: 2
-menuTitle: "PCE"
+linkTitle: "PCE"
 ---
 
 As prestações de contas eleitorais fazem parte de um processo de negócio que envolve diversos passos e sistemas da Justiça Eleitoral.

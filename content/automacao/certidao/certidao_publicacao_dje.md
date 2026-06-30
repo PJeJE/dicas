@@ -1,7 +1,7 @@
 ---
 title: "Certidão de publicação no DJe"
 date: 2024-11-07
-menuTitle: "Certidão de publicação do DJe"
+linkTitle: "Certidão de publicação do DJe"
 weight: 5
 ---
 

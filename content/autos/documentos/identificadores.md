@@ -2,7 +2,7 @@
 title: "Identificadores de Documentos (IDs)"
 date: 2022-11-23T17:56:56-03:00
 weight: 5
-menuTitle: "IDs"
+linkTitle: "IDs"
 ---
 
 A Justiça Eleitoral implantou o PJe da seguinte forma: no primeiro grau (PJE Zona) há uma instância para cada UF; assim como no segundo grau (TREs), onde há uma instância para cada Tribunal Regional Eleitoral; e, no terceiro grau (TSE) há uma instância própria.

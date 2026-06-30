@@ -2,7 +2,7 @@
 title: "Fluxo de petição avulsa"
 date: 2022-11-23T17:56:19-03:00
 weight: 2
-menuTitle: "Petição avulsa"
+linkTitle: "Petição avulsa"
 ---
 
 O fluxo de petição avulsa dispara quando configurado no **Tipo de Documento**, campo **Fluxo Associado**, conforme imagem:

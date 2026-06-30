@@ -2,7 +2,7 @@
 title: "Lista de funcionalidades"
 date: 2026-04-24T15:00:45-03:00
 weight: 1
-menuTitle: "Lista de Funcionalidades"
+linkTitle: "Lista de Funcionalidades"
 ---
 
 

@@ -3,7 +3,7 @@ title: "Correção de erros de remessa"
 date: 2023-01-20T10:29:52-03:00
 weight: 1
 hidden: false
-menuTitle: "Correções conhecidas"
+linkTitle: "Correções conhecidas"
 ---
 
 ## CEP

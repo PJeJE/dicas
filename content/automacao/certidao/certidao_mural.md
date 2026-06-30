@@ -1,7 +1,7 @@
 ---
 title: "Certidão de publicação no Mural"
 date: 2024-07-18T16:34:02-03:00
-menuTitle: "Certidão do mural"
+linkTitle: "Certidão do mural"
 weight: 4
 ---
 

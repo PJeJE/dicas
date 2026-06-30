@@ -1,7 +1,7 @@
 ---
 title: "Janus - Automação Processual e Inteligência Artificial"
 date: 2024-07-18T16:34:02-03:00
-menuTitle: "Janus"
+linkTitle: "Janus"
 weight: 4
 ---
 

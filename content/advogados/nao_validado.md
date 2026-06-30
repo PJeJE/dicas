@@ -1,7 +1,7 @@
 ---
 title: "Advogado não validado"
 date: 2022-11-23T17:26:29-03:00
-menuTitle: "Não validado"
+linkTitle: "Não validado"
 ---
 
 No momento em que o advogado é inserido no PJe, seja pelos usuários internos, na autuação ou retificação da autuação, ou pelo próprio advogado, ao entrar a primeira vez no sistema, as bases de dados da Receita Federal do Brasil e da Ordem dos Advogados do Brasil são acessadas, para permitir a validação dos dados desse advogado.

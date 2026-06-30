@@ -3,7 +3,7 @@ title = "Consulta pública"
 date = 2023-01-20T10:29:52-03:00
 weight = 6
 chapter = true
-menuTitle = "Pública"
+linkTitle = "Pública"
 +++
 
 A **Consulta Pública** é uma forma de usuários não logados no sistema terem acesso aos documentos públicos do processo. Ela pode ser acessada pela página inicial do PJe de qualquer uma das instâncias da Justiça Eleitoral (Zonas, TREs e TSE):

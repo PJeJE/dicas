@@ -1,7 +1,6 @@
 ---
 title: "Certidão de disponibilização no DJe"
 date: 2024-11-07
-menuTitle: "Certidão do DJe"
 weight: 5
 ---
 

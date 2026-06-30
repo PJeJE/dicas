@@ -2,7 +2,7 @@
 title: "Redistribuições"
 date: 2024-12-04T12:09:20-03:00
 weight: 6
-menuTitle: "Redistribuições"
+linkTitle: "Redistribuições"
 ---
 As redistribuições no PJe, em muitos casos, seguem as mesmas regras da distribuição inicial realizada no protocolo do processo. 
 

@@ -2,7 +2,7 @@
 title: "Configurações de fluxo"
 date: 2025-11-28T15:42:00-00:00
 weight: 2
-menuTitle: "Configurações de fluxo"
+linkTitle: "Configurações de fluxo"
 ---
 
 As orientações a seguir são para administradores de sistema, especialmente aqueles que estão lotados na Assessoria do PJe e na SESIP, unidades do TSE.

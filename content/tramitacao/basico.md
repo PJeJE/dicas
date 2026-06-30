@@ -2,7 +2,7 @@
 title: "Conceitos iniciais"
 date: 2025-11-17T15:42:00-00:00
 weight: 1
-menuTitle: "Conceitos iniciais"
+linkTitle: "Conceitos iniciais"
 ---
 
 ## Conceito de fluxo e de tarefa

@@ -2,7 +2,7 @@
 title: "Erros de acesso"
 date: 2023-07-16T12:21:54-03:00
 weight: 8
-menuTitle: "Erros de acesso"
+linkTitle: "Erros de acesso"
 ---
 ## 1. Ao logar com token físico (certificado digital) o PJe apenas "pisca" e volta para a tela inicial
 

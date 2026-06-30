@@ -1,7 +1,7 @@
 ---
 title: "Automação de etiquetas para PC-PP"
 date: 2025-08-05T14:16:02-03:00
-menuTitle: "Automação de etiquetas PC-PP"
+linkTitle: "Automação de etiquetas PC-PP"
 weight: 3
 ---
 

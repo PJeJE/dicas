@@ -1,7 +1,7 @@
 ---
 title: "Certidão de decurso"
 date: 2025-08-20T14:12:02-03:00
-menuTitle: "Certidão de decurso"
+linkTitle: "Certidão de decurso"
 weight: 7
 ---
 
