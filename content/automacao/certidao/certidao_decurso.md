@@ -45,6 +45,12 @@ Essa certidão registra o decurso de prazo para o expediente do tipo Notificaç�
 5 de fevereiro de 2025
 ```
 
+Abaixo outro exemplo de conteúdo e seu respectivo modelo de referência:
+
+**Conteúdo:** O sistema Processo Judicial Eletrônico (PJe) do TRE-AC registra que, em #{dateUtil.dateToString(processoParteExpedienteHome.instance.dtPrazoLegal, 'dd/MM/yyyy HH:mm:ss')}, decorreu o prazo para #{processoParteExpedienteHome.instance.nomePessoaParte} responder ao expediente de identificador #{processoParteExpedienteHome.instance.idProcessoParteExpediente} cuja ciência ocorreu em #{dateUtil.dateToString(processoParteExpedienteHome.instance.dtCienciaParte, 'dd/MM/yyyy HH:mm:ss')}.
+
+**Modelo de referência:** O sistema Processo Judicial Eletrônico (PJe) do TRE-AC registra que, em 11/12/2024 23:59:59 decorreu o prazo para Doradus Doradus responder ao expediente de identificador 3352 cuja ciência ocorreu em 01/12/2024 14:50:43.
+
 ### Configuração inicial
 
 Por padrão, os tribunais regionais foram configurados com o parâmetro `pje:certidao:geraCertidaoDecurso` definido como `N` para que o uso inicial seja controlado pelo próprio TRE/TSE.
@@ -85,7 +91,8 @@ No modelo de documento podem ser utilizadas as seguintes variáveis para recuper
 |---|---|
 | Tipo de expediente (Exemplo: Intimação, Edital, Citação) | #{processoParteExpedienteHome.instance.processoExpediente.tipoProcessoDocumento} |
 | Nome do intimado | #{processoParteExpedienteHome.instance.nomePessoaParte} |
-| Meio de expedição (Exemplo: Correios, Mural, Expedição eletrônica) | #{processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente == 'E' ? 'Expedição eletrônica' : processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente.label}
+| Meio de expedição (Exemplo: Correios, Mural, Expedição eletrônica) | #{processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente == 'E' ? 'Expedição eletrônica' : processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente.label} |
+| Data do decurso | #{dateUtil.dateToString(processoParteExpedienteHome.instance.dtPrazoLegal, 'dd/MM/yyyy HH:mm:ss')}
 
 {{</table>}}
   
