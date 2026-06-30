@@ -47,9 +47,9 @@ Essa certidão registra o decurso de prazo para o expediente do tipo Notificaç�
 
 Abaixo outro exemplo de conteúdo e seu respectivo modelo de referência:
 
-**Conteúdo:** O sistema Processo Judicial Eletrônico (PJe) do TRE-AC registra que, em #{dateUtil.dateToString(processoParteExpedienteHome.instance.dtPrazoLegal, 'dd/MM/yyyy HH:mm:ss')}, decorreu o prazo para #{processoParteExpedienteHome.instance.nomePessoaParte} responder ao expediente de identificador #{processoParteExpedienteHome.instance.idProcessoParteExpediente} cuja ciência ocorreu em #{dateUtil.dateToString(processoParteExpedienteHome.instance.dtCienciaParte, 'dd/MM/yyyy HH:mm:ss')}.
+**Conteúdo:** O sistema Processo Judicial Eletrônico (PJe) do TRE-AC registra que, em 11/12/2024 23:59:59 decorreu o prazo para Doradus Doradus responder ao expediente de identificador 3352 cuja ciência ocorreu em 01/12/2024 14:50:43.
 
-**Modelo de referência:** O sistema Processo Judicial Eletrônico (PJe) do TRE-AC registra que, em 11/12/2024 23:59:59 decorreu o prazo para Doradus Doradus responder ao expediente de identificador 3352 cuja ciência ocorreu em 01/12/2024 14:50:43.
+**Modelo de referência:** O sistema Processo Judicial Eletrônico (PJe) do TRE-AC registra que, em #{dateUtil.dateToString(processoParteExpedienteHome.instance.dtPrazoLegal, 'dd/MM/yyyy HH:mm:ss')}, decorreu o prazo para #{processoParteExpedienteHome.instance.nomePessoaParte} responder ao expediente de identificador #{processoParteExpedienteHome.instance.idProcessoParteExpediente} cuja ciência ocorreu em #{dateUtil.dateToString(processoParteExpedienteHome.instance.dtCienciaParte, 'dd/MM/yyyy HH:mm:ss')}.
 
 ### Configuração inicial
 
