@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Distribuição PJe — Apresentação</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+  html, body { margin:0; padding:0; background:#f4f6fa; }
+  #fallback { display:none; color:#071C56; font-family:system-ui,sans-serif; padding:40px; max-width:640px; margin:0 auto; line-height:1.5; }
+</style>
+<script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+<!-- Babel FIXO na major 7: o preset-react do Babel 8 usa runtime automático
+     por padrão, que injeta `import "react/jsx-runtime"` e quebra o <script>
+     clássico ("Cannot use import statement outside a module"). O 7 usa o
+     runtime clássico (React.createElement), sem imports. -->
+<script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<div id="fallback">
+  <h2>Não foi possível carregar as bibliotecas.</h2>
+  <p>Esta tela precisa de internet <b>na primeira vez</b> que é aberta, para baixar o React. Conecte-se uma vez e recarregue a página.</p>
+</div>
+<script>
+  setTimeout(function(){ if(!window.React){document.getElementById('fallback').style.display='block';} },4000);
+</script>
+<script type="text/babel" data-presets="react">
+const { useState, useMemo, useEffect } = React;
+
+// ============================================================
+//  DISTRIBUIÇÃO PJe — Tela de apoio à apresentação (ao vivo)
+//  Tema CLARO e didático. Avanço passo a passo no clique.
+// ============================================================
+
+const PROCESSO = {
+  numero: "0600456-78.2026.6.26.0001",
+  classe: "Ação de Investigação Judicial Eleitoral (AIJE)",
+  pClasse: 3,
+  assuntos: ["Abuso de poder econômico", "Abuso de poder político"],
+  pAssunto: 2,
+  poloAtivo: 2,
+  poloPassivo: 5,
+  pParte: 3,
+  pPrev: 1,
+  pCargo: 1,
+};
+
+const PPROC = PROCESSO.pParte * PROCESSO.pClasse * PROCESSO.pAssunto; // 18
+const PDIST = Math.round((PPROC * PROCESSO.pPrev * 100) / PROCESSO.pCargo); // 1800
+
+const DISTANCIA_MAXIMA = 4000;
+
+const CARGOS_BASE = [
+  { id: 3, orgao: "1ª Zona Eleitoral", cargo: "Juiz Eleitoral", acumulador: 6100, ativo: true, recebe: true },
+  { id: 5, orgao: "2ª Zona Eleitoral", cargo: "Juiz Eleitoral", acumulador: 12400, ativo: true, recebe: true },
+  { id: 4, orgao: "3ª Zona Eleitoral", cargo: "Juiz Eleitoral", acumulador: 7300, ativo: true, recebe: true },
+  { id: 7, orgao: "4ª Zona Eleitoral", cargo: "Juiz Eleitoral", acumulador: 11800, ativo: true, recebe: true },
+  { id: 6, orgao: "5ª Zona Eleitoral", cargo: "Juiz Eleitoral", acumulador: 6800, ativo: false, recebe: false },
+  { id: 8, orgao: "6ª Zona Eleitoral", cargo: "Juiz Eleitoral", acumulador: 9000, ativo: true, recebe: true, competente: false },
+];
+
+const MENOR_ACC = Math.min(...CARGOS_BASE.filter((c) => c.ativo && c.recebe && c.competente !== false).map((c) => c.acumulador));
+const LIMITE = MENOR_ACC + DISTANCIA_MAXIMA;
+
+const REPESCADO_ID = 5; // 2ª Zona
+const SORTEADO_ID = 3; // 1ª Zona
+
+const PASSOS = [
+  {
+    n: 0,
+    titulo: "Chegou um processo novo",
+    chamada: "Antes de começar",
+    explica:
+      "Um processo acabou de ser autuado e precisa cair em algum órgão julgador. Vamos acompanhar, passo a passo, como o PJe decide o destino dele — exatamente o que fica registrado na tela Informações da Distribuição.",
+    log: [],
+  },
+  {
+    n: 1,
+    titulo: "Recuperar os órgãos da jurisdição",
+    chamada: "Passo 1 de 8",
+    explica:
+      "O sistema começa olhando TODOS os órgãos julgadores que existem naquela jurisdição. Ainda não filtrou nada — é a foto completa de quem poderia, em tese, receber o processo.",
+    log: [{ tipo: "Dimensão espacial", linhas: ["Jurisdição: Comarca da Capital", "Órgãos judiciais selecionados: [1ª Zona Eleitoral] [2ª Zona Eleitoral] [3ª Zona Eleitoral] [4ª Zona Eleitoral] [5ª Zona Eleitoral] [6ª Zona Eleitoral]"] }],
+  },
+  {
+    n: 2,
+    titulo: "Filtrar os órgãos competentes",
+    chamada: "Passo 2 de 8",
+    explica:
+      "Agora ficam só os órgãos que têm competência para aquela classe e assunto. Quem não julga esse tipo de processo sai da lista aqui.",
+    log: [{ tipo: "Dimensão material e procedimental", linhas: ["Órgãos judiciais selecionados: [1ª Zona Eleitoral] [2ª Zona Eleitoral] [3ª Zona Eleitoral] [4ª Zona Eleitoral] [5ª Zona Eleitoral]"] }],
+  },
+  {
+    n: 3,
+    titulo: "Filtrar cargos ativos e que recebem distribuição",
+    chamada: "Passos 3 e 4 de 8",
+    explica:
+      "Dentro de cada órgão, o que conta é o CARGO. Cargo inativo ou que não está marcado para receber distribuição sai. Aqui a 5ª Zona sai porque o cargo dela não está recebendo distribuição. Estes dois passos não geram linha própria no log — os valores entram no passo seguinte.",
+    log: [{ tipo: "(sem linha própria)", txt: "Cargos ativos e recebendo distribuição: 4." }],
+  },
+  {
+    n: 4,
+    titulo: "Aplicar a distância máxima",
+    chamada: "Passos 5 e 6 de 8",
+    explica:
+      `A distância máxima é a diferença de carga permitida entre os cargos. Quem está muito acima do colega mais "leve" fica de fora — para não sobrecarregar ainda mais quem já tem muito serviço. Aqui o limite é ${LIMITE.toLocaleString("pt-BR")} (o menor acumulador, ${MENOR_ACC.toLocaleString("pt-BR")}, mais a distância máxima de ${DISTANCIA_MAXIMA.toLocaleString("pt-BR")}).`,
+    log: [{ tipo: "Distância máxima de distribuição", txt: `${DISTANCIA_MAXIMA.toLocaleString("pt-BR")}.` }],
+  },
+  {
+    n: 5,
+    titulo: "Selecionar cargos elegíveis (com o fator de 25%)",
+    chamada: "Passo 6 de 8",
+    explica:
+      "Aqui entra o detalhe que mais confunde: mesmo um cargo que ficou FORA da distância máxima ainda tem 25% de chance de ser \"repescado\" para o sorteio. Serve para a distribuição ser menos previsível. A 2ª Zona estava fora do limite, mas foi repescada — por isso ela aparece na lista de elegíveis com o acumulador bem acima dos demais.",
+    log: [{ tipo: "Cargos elegíveis (após aplicação da distância máxima)", txt: "[Juiz Eleitoral-1ª Zona Eleitoral][Juiz Eleitoral-2ª Zona Eleitoral][Juiz Eleitoral-3ª Zona Eleitoral]" }],
+  },
+  {
+    n: 6,
+    titulo: "Sortear um cargo entre os elegíveis",
+    chamada: "Passo 7 de 8",
+    explica:
+      "Entre os elegíveis, o sistema sorteia. Quem está com menos carga tem mais chance, mas o resultado não é garantido. Saiu a 1ª Zona Eleitoral.",
+    log: [
+      { tipo: "Órgão julgador sorteado", txt: "1ª Zona Eleitoral." },
+      { tipo: "Cargo sorteado", txt: "Juiz Eleitoral." },
+    ],
+  },
+  {
+    n: 7,
+    titulo: "Atualizar o acumulador do cargo sorteado",
+    chamada: "Passo 8 de 8",
+    explica:
+      `Por fim, o peso da distribuição é somado ao acumulador do cargo sorteado — é assim que o sistema "lembra" da carga de cada um para os próximos sorteios. O peso processual aqui é ${PPROC} e o peso de distribuição é ${PDIST.toLocaleString("pt-BR")}.`,
+    log: [
+      { tipo: "Peso processual", txt: `${PPROC}.` },
+      { tipo: "Peso de distribuição", txt: `${PDIST.toLocaleString("pt-BR")}.` },
+    ],
+  },
+  {
+    n: 8,
+    titulo: "Pronto — o processo tem destino",
+    chamada: "Resultado final",
+    explica:
+      "É exatamente isso que o servidor vê na tela Informações da Distribuição: uma linha com o tipo \"S\" (por sorteio), o órgão e o cargo de destino — e, ao abrir, todo esse passo a passo que acabamos de percorrer.",
+    log: [],
+  },
+];
+
+// ------------------------------------------------------------
+//  PALETA CLARA E DIDÁTICA
+// ------------------------------------------------------------
+
+// ------------------------------------------------------------
+//  PALETA CLARA E DIDÁTICA
+//  Cada estado de um cargo tem uma cor com significado próprio.
+// ------------------------------------------------------------
+const C = {
+  // ALINHADO ao Padrao.pptx do IV Encontro (navy + acentos)
+  // Cores saturadas para boa visibilidade em projeção (salão amplo)
+  bg: "#f4f6fa",        // cinza-azulado bem claro
+  bgGrad1: "#fbfcfe",
+  bgGrad2: "#e8edf6",
+  card: "#ffffff",
+  cardSoft: "#f5f7fb",
+  ink: "#071C56",       // azul-marinho oficial (títulos dos slides)
+  inkSoft: "#3a4866",
+  inkFaint: "#7a8aa3",
+  border: "#dde3ee",
+  borderStrong: "#c0c9da",
+  // cores de significado — mesma família do Padrao.pptx, com saturação
+  // suficiente para projeção
+  neutro: "#5C6B82",    // azul-aço (na disputa)
+  inativo: "#A8B0BF",   // cinza (não recebe distribuição)
+  vermelho: "#C0392B",  // vermelho do padrão (fora da distância máxima)
+  roxo: "#6F42C1",      // roxo do padrão (repescado 25%)
+  verde: "#1F7A3E",     // verde do padrão (elegível / atualização)
+  ouro: "#C89000",      // dourado do padrão (sorteio)
+  azul: "#2F7DE1",
+  azulEsc: "#071C56",   // navy oficial
+};
+
+// Mapa de estado -> cor + rótulo (usado nas barras E na legenda fixa)
+const ESTADOS = {
+  default:          { label: "Na disputa",                  cor: C.neutro,   bg: "#e7ebf2" },
+  inativo:          { label: "Não recebe distribuição",     cor: C.inativo,  bg: "#eef0f4" },
+  "sem-competencia":{ label: "Não tem competência",         cor: "#7E8AA0",  bg: "#e9ecf2" },
+  "fora-distancia": { label: "Fora da distância máxima",    cor: C.vermelho, bg: "#fbe5e2" },
+  repescado:        { label: "Repescado pelos 25%",         cor: C.roxo,     bg: "#ece4fa" },
+  elegivel:         { label: "Elegível para o sorteio",     cor: C.verde,    bg: "#dff0e6" },
+  sorteado:         { label: "Sorteado",                    cor: C.ouro,     bg: "#fbeec4" },
+};
+
+// Estilos da tabela "Informações da Distribuição" — reproduzem fielmente a
+// rich-table do PJe no TEMA MODERNO/PLANO (tema.min.css, que sobrescreve o
+// RichFaces clássico): cabeçalho sem fundo, texto cinza #666 (Open Sans) com
+// borda inferior 2px #ddd; células texto #454545 com bordas finas 1px #eee;
+// fundo branco, sem zebra. É a tela que o servidor vê hoje.
+const PJE_BORDA = "#eee";          // bordas finas das células
+const PJE_HEADER_BORDA = "#ddd";   // borda inferior do cabeçalho (2px)
+const PJE_HEADER_FG = "#666";      // texto do cabeçalho (cinza)
+const PJE_CELL_FG = "#454545";     // texto das células (cinza-escuro)
+const PJE_FONT = "'Open Sans', Arial, Verdana, sans-serif";
+const TH_LOG = {
+  textAlign: "left", padding: "8px 8px", fontSize: 13,
+  color: PJE_HEADER_FG, background: "transparent", fontFamily: PJE_FONT,
+  borderBottom: `2px solid ${PJE_HEADER_BORDA}`,
+};
+const TD_LOG = {
+  textAlign: "left", padding: "6px 8px", fontSize: 13, color: PJE_CELL_FG,
+  fontFamily: PJE_FONT, verticalAlign: "top", lineHeight: 1.45,
+  border: `1px solid ${PJE_BORDA}`,
+};
+
+function Tag({ children, cor, bg }) {
+  return (
+    <span className="sans" style={{
+      display: "inline-block", padding: "3px 11px", borderRadius: 999,
+      fontSize: 12, fontWeight: 700, letterSpacing: 0.2,
+      color: cor, background: bg, border: `1.5px solid ${cor}33`, whiteSpace: "nowrap",
+    }}>{children}</span>
+  );
+}
+
+// Permite abrir a tela já num passo específico via URL (?passo=N) — usado
+// pelo build_passos_pdf.py para capturar uma tela por passo. No uso ao vivo,
+// sem o parâmetro, começa em 0.
+function passoInicial() {
+  try {
+    const n = parseInt(new URLSearchParams(window.location.search).get("passo"), 10);
+    if (!Number.isNaN(n) && n >= 0 && n < PASSOS.length) return n;
+  } catch (e) {}
+  return 0;
+}
+
+// Modo de captura para o PDF (?pdf=1): faz o conteúdo fluir por inteiro —
+// rodapé deixa de ser fixo (sticky) e o fundo vira sólido — para que a
+// captura pegue a tela toda, sem cortar nada. Não afeta o uso ao vivo.
+function pdfMode() {
+  try {
+    return new URLSearchParams(window.location.search).get("pdf") === "1";
+  } catch (e) { return false; }
+}
+
+// Estado inicial da coluna de pesos: ?colapsar=1 abre já recolhida (usado no
+// PDF, do passo 1 em diante, para liberar espaço). Sem o parâmetro: aberta.
+function colapsarInicial() {
+  try {
+    return new URLSearchParams(window.location.search).get("colapsar") === "1";
+  } catch (e) { return false; }
+}
+
+function App() {
+  const [passo, setPasso] = useState(passoInicial);
+  const [pesosColapsado, setPesosColapsado] = useState(colapsarInicial);
+  const PDF = pdfMode();
+  const P = PASSOS[passo];
+
+  // A partir do passo 1 (2ª tela) a coluna de pesos já vem recolhida, liberando
+  // espaço para as barras e o log; no passo 0 fica aberta (mostra os pesos).
+  // Roda ao mudar de passo — o palestrante ainda pode reabrir/recolher à mão
+  // dentro de um mesmo passo pelo botão ◀/▸.
+  useEffect(() => { setPesosColapsado(passo >= 1); }, [passo]);
+
+  const cargos = useMemo(() => {
+    return CARGOS_BASE.map((c) => {
+      let status = "default";
+      let dim = false;
+      const competente = c.competente !== false;
+      const ativoRecebe = c.ativo && c.recebe;
+      const dentroDistancia = c.acumulador <= LIMITE;
+
+      if (passo >= 2 && !competente) { status = "sem-competencia"; dim = true; }
+      if (passo >= 3 && competente && !ativoRecebe) { status = "inativo"; dim = true; }
+      if (passo >= 4 && competente && ativoRecebe && !dentroDistancia) { status = "fora-distancia"; dim = true; }
+      if (passo >= 5 && competente && ativoRecebe) {
+        if (dentroDistancia) status = "elegivel";
+        else if (c.id === REPESCADO_ID) { status = "repescado"; dim = false; }
+        else { status = "fora-distancia"; dim = true; }
+      }
+      if (passo >= 6 && c.id === SORTEADO_ID) { status = "sorteado"; dim = false; }
+      if (passo >= 6 && status !== "sorteado" && (status === "elegivel" || status === "repescado")) dim = true;
+
+      const acc = passo >= 7 && c.id === SORTEADO_ID ? c.acumulador + PDIST : c.acumulador;
+      return { ...c, status, dim, accExibido: acc };
+    });
+  }, [passo]);
+
+  const maxAcc = Math.max(...CARGOS_BASE.map((c) => c.acumulador)) + PDIST;
+  const rotulos = ["Início", "1", "2", "3-4", "5-6", "6", "7", "8", "Fim"];
+
+  return (
+    <div className="sans" style={{
+      fontFamily: "'Spectral', Georgia, serif",
+      background: PDF ? C.bg : `radial-gradient(1100px 520px at 85% -8%, ${C.bgGrad1}, ${C.bg} 60%), linear-gradient(160deg, ${C.bgGrad1}, ${C.bgGrad2})`,
+      color: C.ink, minHeight: PDF ? "auto" : "100vh", margin: 0,
+    }}>
+      <style>{`
+        @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+        * { box-sizing: border-box; }
+        .sans { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; }
+        .serif { font-family: 'Spectral', Georgia, serif; }
+        .mono { font-family: 'IBM Plex Mono', monospace; }
+        .bar-fill { transition: width .6s cubic-bezier(.22,.61,.36,1), background .4s, box-shadow .4s; }
+        .card-anim { transition: opacity .45s, filter .45s; }
+        .fade-in { animation: fadeIn .5s ease both; }
+        @keyframes fadeIn { from { opacity:0; transform: translateY(6px);} to {opacity:1; transform:none;} }
+        .logrow { animation: slideIn .45s ease both; }
+        @keyframes slideIn { from {opacity:0; transform: translateX(-8px);} to {opacity:1; transform:none;} }
+        .sorteio-foco { animation: sorteioFoco 1.8s ease-in-out infinite; }
+        @keyframes sorteioFoco {
+          0%,100% { box-shadow: 0 0 0 2px ${C.ouro}, 0 6px 16px ${C.ouro}44; }
+          50%     { box-shadow: 0 0 0 3px ${C.ouro}, 0 10px 26px ${C.ouro}88; }
+        }
+        .btn { font-family:'Plus Jakarta Sans',sans-serif; cursor:pointer; border:none; border-radius:11px; font-weight:800; transition: filter .15s, transform .08s, box-shadow .15s; }
+        .btn:hover:not(:disabled){ filter:brightness(1.04); }
+        .btn:active:not(:disabled){ transform: translateY(1px); }
+        .btn:disabled { opacity:.4; cursor:not-allowed; }
+        .ruler { position:absolute; top:-6px; bottom:-6px; width:0; border-left:2.5px dashed ${C.vermelho}; z-index:4; }
+      `}</style>
+
+      {/* Cabeçalho */}
+      <header style={{
+        padding: "20px 30px 16px", borderBottom: `2px solid ${C.border}`,
+        display: "flex", alignItems: "center", justifyContent: "space-between",
+        background: "rgba(255,255,255,0.6)", backdropFilter: "blur(6px)",
+      }}>
+        <div>
+          <div style={{ fontSize: 11.5, letterSpacing: 2, color: C.azulEsc, fontWeight: 800 }}>
+            ASPJE / TSE · ENCONTRO NACIONAL PJe
+          </div>
+          <h1 className="serif" style={{ margin: "3px 0 0", fontSize: 27, fontWeight: 600, letterSpacing: -0.4, color: C.ink }}>
+            Como o PJe distribui um processo
+          </h1>
+        </div>
+        <div style={{ textAlign: "right" }}>
+          <div style={{ fontSize: 11.5, color: C.azulEsc, letterSpacing: 1, fontWeight: 700 }}>{P.chamada}</div>
+          <div style={{ fontSize: 13, color: C.inkSoft, maxWidth: 280, marginTop: 2 }}>{P.titulo}</div>
+        </div>
+      </header>
+
+      {/* Progresso */}
+      <div style={{ padding: "14px 30px 4px", display: "flex", gap: 6 }}>
+        {rotulos.map((rot, i) => (
+          <div key={i} onClick={() => setPasso(i)} style={{ flex: 1, cursor: "pointer", textAlign: "center" }}>
+            <div style={{ height: 7, borderRadius: 5, background: i <= passo ? C.azul : "#e2dccf", transition: "background .4s" }} />
+            <div style={{ fontSize: 10, marginTop: 5, color: i === passo ? C.azulEsc : C.inkFaint, fontWeight: i === passo ? 800 : 600 }}>{rot}</div>
+          </div>
+        ))}
+      </div>
+
+      {/* Legenda fixa de cores */}
+      <div style={{ padding: "6px 30px 0", display: "flex", flexWrap: "wrap", gap: 14, alignItems: "center" }}>
+        <span style={{ fontSize: 11, fontWeight: 800, color: C.inkFaint, letterSpacing: 1 }}>O QUE CADA COR SIGNIFICA:</span>
+        {Object.values(ESTADOS).map((e) => (
+          <span key={e.label} style={{ display: "inline-flex", alignItems: "center", gap: 6 }}>
+            <span style={{ width: 14, height: 14, borderRadius: 4, background: e.cor, display: "inline-block" }} />
+            <span style={{ fontSize: 11.5, color: C.inkSoft, fontWeight: 600 }}>{e.label}</span>
+          </span>
+        ))}
+      </div>
+
+      {/* Corpo: 3 colunas */}
+      <div style={{ display: "grid",
+                    gridTemplateColumns: pesosColapsado ? "1fr 580px" : "290px 1fr 360px",
+                    gap: 16,
+                    padding: pesosColapsado ? "14px 30px 20px 60px" : "14px 30px 20px",
+                    alignItems: "start",
+                    transition: "grid-template-columns .35s ease, padding .35s ease",
+                    position: "relative" }}>
+
+        {/* Botão discreto para expandir quando recolhido */}
+        {pesosColapsado && (
+          <button
+            onClick={() => setPesosColapsado(false)}
+            title="Mostrar processo e pesos"
+            className="btn"
+            style={{
+              position: "absolute", left: 6, top: 18, zIndex: 30,
+              padding: "12px 8px",
+              background: C.cardSoft, color: C.inkSoft,
+              border: `1px solid ${C.border}`, borderRadius: 8,
+              fontSize: 13, fontWeight: 700, letterSpacing: 0.8,
+              writingMode: "vertical-rl", transform: "rotate(180deg)",
+              cursor: "pointer", boxShadow: "none",
+              opacity: 0.9,
+            }}>
+            ▸  Peso da distribuição = {PDIST.toLocaleString("pt-BR")}
+          </button>
+        )}
+
+        {/* Coluna 1: processo + pesos (oculto quando recolhido) */}
+        {!pesosColapsado && (
+        <section style={{ position: "relative", background: C.card, border: `2px solid ${C.border}`, borderRadius: 18, padding: 18, boxShadow: "0 6px 20px rgba(60,45,20,0.05)" }}>
+          <button
+            onClick={() => setPesosColapsado(true)}
+            title="Recolher para liberar espaço"
+            className="btn"
+            style={{
+              position: "absolute", top: 8, right: 8, zIndex: 5,
+              width: 26, height: 26, padding: 0,
+              background: C.cardSoft, color: C.azulEsc,
+              border: `1.5px solid ${C.border}`, borderRadius: 6,
+              fontSize: 14, fontWeight: 800, lineHeight: 1,
+              cursor: "pointer",
+            }}>
+            ◀
+          </button>
+          <div style={{ fontSize: 11, letterSpacing: 1.5, color: C.inkFaint, fontWeight: 800 }}>O PROCESSO</div>
+          <div className="mono" style={{ fontSize: 13, color: C.azulEsc, marginTop: 4, marginBottom: 12, fontWeight: 600 }}>{PROCESSO.numero}</div>
+          <div className="serif" style={{ fontSize: 16, lineHeight: 1.3, marginBottom: 4, color: C.ink }}>{PROCESSO.classe}</div>
+          <div style={{ fontSize: 12, color: C.inkSoft, marginBottom: 16 }}>{PROCESSO.assuntos.join(" · ")}</div>
+
+          <div style={{ fontSize: 11, letterSpacing: 1.5, color: C.inkFaint, fontWeight: 800, marginBottom: 8 }}>OS PESOS DESTE PROCESSO</div>
+          {[
+            { k: "Classe judicial", v: PROCESSO.pClasse, hint: "definido no cadastro da classe" },
+            { k: "Assunto", v: PROCESSO.pAssunto, hint: "maior peso entre os assuntos" },
+            { k: "Partes", v: PROCESSO.pParte, hint: "5 no polo passivo → peso 3" },
+            { k: "Prevenção", v: PROCESSO.pPrev, hint: "vale 1 (não é incidental)" },
+            { k: "Cargo", v: PROCESSO.pCargo, hint: "igual p/ todos (diretriz JE)" },
+          ].map((row) => (
+            <div key={row.k} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "7px 0", borderBottom: `1px solid ${C.border}` }}>
+              <div>
+                <div style={{ fontSize: 13, fontWeight: 700 }}>{row.k}</div>
+                <div style={{ fontSize: 10.5, color: C.inkFaint }}>{row.hint}</div>
+              </div>
+              <div className="mono" style={{ fontSize: 18, fontWeight: 600, color: C.azul }}>{row.v}</div>
+            </div>
+          ))}
+
+          <div style={{ marginTop: 14, padding: 13, borderRadius: 13, background: passo >= 7 ? "#fff2d6" : C.cardSoft, border: `2px solid ${passo >= 7 ? C.ouro : C.border}`, transition: "all .4s" }}>
+            <div style={{ fontSize: 11, color: C.inkSoft, marginBottom: 6, fontWeight: 600 }}>Peso do processo</div>
+            <div className="mono" style={{ fontSize: 12.5, color: C.inkSoft, lineHeight: 1.6 }}>
+              {PROCESSO.pParte} × {PROCESSO.pClasse} × {PROCESSO.pAssunto} = <b style={{ color: C.ink, fontSize: 15 }}>{PPROC}</b>
+            </div>
+            <div style={{ fontSize: 11, color: C.inkSoft, margin: "8px 0 6px", fontWeight: 600 }}>Peso da distribuição</div>
+            <div className="mono" style={{ fontSize: 12.5, color: C.inkSoft, lineHeight: 1.6 }}>
+              ({PPROC} × {PROCESSO.pPrev}) × 100 ÷ {PROCESSO.pCargo} = <b style={{ color: passo >= 7 ? "#b9760a" : C.ink, fontSize: 16 }}>{PDIST.toLocaleString("pt-BR")}</b>
+            </div>
+            {passo >= 7 && <div className="fade-in" style={{ fontSize: 11, color: "#b9760a", marginTop: 8, fontWeight: 600 }}>↑ É este valor que entra no acumulador do cargo sorteado.</div>}
+          </div>
+        </section>
+        )}
+
+        {/* Coluna 2: cargos / acumuladores */}
+        <section style={{ background: C.card, border: `2px solid ${C.border}`, borderRadius: 18, padding: 18, position: "relative", boxShadow: "0 6px 20px rgba(60,45,20,0.05)" }}>
+          <div>
+            <div style={{ fontSize: 11, letterSpacing: 1.5, color: C.inkFaint, fontWeight: 800 }}>QUEM ESTÁ CONCORRENDO</div>
+            <div style={{ fontSize: 12, color: C.inkSoft, marginTop: 2 }}>Cada barra é a carga de trabalho (acumulador) de um cargo</div>
+          </div>
+
+          <div style={{ marginTop: 22, position: "relative", paddingTop: passo >= 4 ? 42 : 4 }}>
+            {passo >= 4 && (
+              <>
+                <div className="ruler fade-in" style={{ left: `${(LIMITE / maxAcc) * 100}%` }} title="Limite da distância máxima" />
+                <div className="fade-in" style={{ position: "absolute", top: 0, right: `${100 - (LIMITE / maxAcc) * 100}%`, paddingRight: 7, textAlign: "right", whiteSpace: "nowrap", zIndex: 5 }}>
+                  <div style={{ fontSize: 10.5, color: C.vermelho, fontWeight: 800 }}>LIMITE DA DISTÂNCIA MÁXIMA</div>
+                  <div className="mono" style={{ fontSize: 14, color: C.vermelho, fontWeight: 600 }}>{LIMITE.toLocaleString("pt-BR")}</div>
+                </div>
+              </>
+            )}
+            {passo >= 1 && cargos.map((c) => {
+              const e = ESTADOS[c.status];
+              const pct = (c.accExibido / maxAcc) * 100;
+              return (
+                <div key={c.id} className={"card-anim" + (passo >= 7 && c.status === "sorteado" ? " sorteio-foco" : "")} style={{ marginBottom: 16, opacity: c.dim ? 0.4 : 1, backfaceVisibility: "hidden", ...(passo >= 7 && c.status === "sorteado" ? { background: "#fff7e3", borderRadius: 12, padding: "10px 12px", margin: "-2px -4px 16px" } : {}) }}>
+                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 5 }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                      <span style={{ fontSize: 14.5, fontWeight: 800 }}>{c.orgao}</span>
+                      <span style={{ fontSize: 11.5, color: C.inkSoft }}>· {c.cargo}</span>
+                    </div>
+                    <Tag cor={e.cor} bg={e.bg}>{c.status === "sorteado" ? "★ " : ""}{e.label}</Tag>
+                  </div>
+                  <div style={{ position: "relative", height: 30, borderRadius: 9, background: "#eef1f6", overflow: "hidden", border: `1.5px solid ${C.border}` }}>
+                    <div className="bar-fill" style={{
+                      position: "absolute", left: 0, top: 0, bottom: 0, width: `${pct}%`,
+                      background: c.status === "sorteado" ? `linear-gradient(90deg, ${C.ouro}, #ffc94d)` : e.cor,
+                      borderRadius: 7, boxShadow: c.status === "sorteado" ? `0 0 16px ${C.ouro}99` : "none",
+                    }} />
+                    <div className="mono" style={{
+                      position: "absolute", right: 10, top: "50%", transform: "translateY(-50%)",
+                      fontSize: 12.5, fontWeight: 700, zIndex: 2,
+                      color: C.ink,
+                      textShadow: "0 0 3px rgba(255,255,255,0.9), 0 0 2px rgba(255,255,255,0.9)",
+                    }}>
+                      {c.accExibido.toLocaleString("pt-BR")}
+                      {passo >= 7 && c.status === "sorteado" && <span style={{ color: "#1d6b3f" }}> (+{PDIST.toLocaleString("pt-BR")})</span>}
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+            {passo < 1 && (
+              <div style={{ padding: "26px 8px", textAlign: "center", color: C.inkFaint, fontSize: 13, lineHeight: 1.5 }}>
+                As zonas eleitorais aparecem aqui quando os <b>órgãos da jurisdição</b> são listados — no passo 1.
+              </div>
+            )}
+          </div>
+
+          {passo === 5 && (
+            <div className="fade-in" style={{ marginTop: 4, padding: "11px 13px", borderRadius: 11, background: "#f1ebfe", border: `2px solid ${C.roxo}`, fontSize: 12.5, color: "#5b3fa3", lineHeight: 1.4 }}>
+              <b>Atenção:</b> a 2ª e a 4ª Zonas estavam as duas fora do limite vermelho. A 2ª foi sorteada para participar mesmo assim — foi o <b>fator de 25%</b>, que torna a distribuição menos previsível. A 4ª não teve a mesma sorte e continua fora.
+            </div>
+          )}
+        </section>
+
+        {/* Coluna 3: tela Informações da Distribuição (selo de ênfase por fora) */}
+        <div style={{ position: "relative" }}>
+          <div style={{ position: "absolute", top: -14, right: 16, zIndex: 20, background: C.azulEsc, color: "#fff", padding: "5px 13px", borderRadius: 999, fontSize: 11.5, fontWeight: 800, letterSpacing: 1, boxShadow: "0 5px 14px rgba(7,28,86,0.38)", display: "flex", alignItems: "center", gap: 6, whiteSpace: "nowrap" }}>
+            <span style={{ fontSize: 14 }}>👁</span> ACOMPANHE AQUI
+          </div>
+          <section style={{ background: C.card, border: `3px solid ${C.azulEsc}`, borderRadius: 18, overflow: "hidden", boxShadow: `0 0 0 4px rgba(7,28,86,0.10), 0 14px 34px rgba(7,28,86,0.28)` }}>
+            <div style={{ background: C.azulEsc, color: "#fff", padding: "12px 16px", display: "flex", alignItems: "center", gap: 8 }}>
+              <div style={{ display: "flex", gap: 5 }}>
+                {[C.vermelho, C.ouro, C.verde].map((cc) => <span key={cc} style={{ width: 9, height: 9, borderRadius: 99, background: cc, display: "inline-block" }} />)}
+              </div>
+              <div style={{ fontSize: 12.5, fontWeight: 800, color: "#fff" }}>PJe · Informações da Distribuição</div>
+            </div>
+
+          <div style={{ padding: 16 }}>
+            <div style={{ fontSize: 11, color: C.inkFaint, marginBottom: 10, lineHeight: 1.4 }}>É isto que o servidor vê no sistema. Cada passo do algoritmo grava uma linha aqui (a aba “Itens do Log”).</div>
+
+            {(() => {
+              const linhas = PASSOS.slice(1, passo + 1)
+                .flatMap((pp) => pp.log)
+                .filter((l) => l.tipo !== "(sem linha própria)");
+              if (linhas.length === 0) {
+                return (
+                  <div style={{ minHeight: 120, fontSize: 12.5, color: C.inkFaint, fontStyle: "italic" }}>
+                    {passo === 0 ? "Ainda não há registros — o processo acabou de chegar." : "Este passo não gera linha própria no log."}
+                  </div>
+                );
+              }
+              return (
+                <div style={{ minHeight: 120 }}>
+                  <table style={{ width: "100%", borderCollapse: "collapse", background: "#fff" }}>
+                    <thead>
+                      <tr>
+                        <th style={TH_LOG}>Item</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {linhas.map((l, i) => {
+                        // Itens "Dimensão …" vêm em várias linhas (cabeçalho +
+                        // sub-linhas), como na tela real; os demais ficam numa
+                        // única linha "rótulo: valor".
+                        const partes = l.linhas ? [l.tipo, ...l.linhas] : [`${l.tipo}: ${l.txt}`];
+                        return (
+                          <tr key={i} className="logrow" style={{ background: i % 2 === 0 ? "#f9f9f9" : "#fff" }}>
+                            <td style={TD_LOG}>
+                              {partes.map((p, j) => (
+                                <React.Fragment key={j}>{j > 0 && <br />}{p}</React.Fragment>
+                              ))}
+                            </td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                  <div style={{ textAlign: "right", color: "#777", fontSize: 12, marginTop: 6, paddingRight: 6, fontFamily: PJE_FONT }}>{linhas.length} resultado(s) encontrado(s)</div>
+                </div>
+              );
+            })()}
+          </div>
+          </section>
+        </div>
+      </div>
+
+      {/* Faixa explicativa + navegação */}
+      <div style={{ position: PDF ? "static" : "sticky", bottom: 0, background: `linear-gradient(180deg, rgba(251,247,239,0), ${C.bg} 35%)`, padding: "8px 30px 20px" }}>
+        <div style={{ background: C.card, border: `2px solid ${C.borderStrong}`, borderRadius: 18, padding: "16px 20px", display: "flex", alignItems: "center", gap: 18, boxShadow: "0 8px 24px rgba(60,45,20,0.10)" }}>
+          <div style={{ minWidth: 54, height: 54, borderRadius: 13, background: passo === 0 || passo === 8 ? C.verde : C.azul, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 22, fontWeight: 800, color: "#fff", fontFamily: "'IBM Plex Mono', monospace" }}>
+            {passo === 0 ? "▶" : passo === 8 ? "✓" : passo}
+          </div>
+          <div style={{ flex: 1 }}>
+            <div className="serif" style={{ fontSize: 18, fontWeight: 600, marginBottom: 3, color: C.ink }}>{P.titulo}</div>
+            <div style={{ fontSize: 13.5, color: C.inkSoft, lineHeight: 1.45, maxWidth: 940 }}>{P.explica}</div>
+          </div>
+          <div style={{ display: "flex", gap: 10 }}>
+            <button className="btn" onClick={() => setPasso((p) => Math.max(0, p - 1))} disabled={passo === 0} style={{ padding: "12px 18px", background: "#eef1f6", color: C.ink, fontSize: 14 }}>← Voltar</button>
+            <button className="btn" onClick={() => setPasso((p) => Math.min(PASSOS.length - 1, p + 1))} disabled={passo === PASSOS.length - 1} style={{ padding: "12px 22px", background: `linear-gradient(90deg, ${C.azul}, ${C.azulEsc})`, color: "#fff", fontSize: 14, boxShadow: `0 4px 12px ${C.azul}55` }}>
+              {passo === 0 ? "Começar →" : "Próximo passo →"}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+</script>
+</body>
+</html>

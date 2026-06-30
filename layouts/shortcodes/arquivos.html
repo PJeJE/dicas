@@ -1,0 +1,25 @@
+{{- /*
+  Lista automaticamente os arquivos de uma pasta dentro de /static.
+  Uso: {{< arquivos "docs/encontro-gestores-2026" >}}
+  Basta soltar novos arquivos na pasta indicada que eles aparecem na lista.
+*/ -}}
+{{- $dir := .Get 0 -}}
+{{- $path := printf "static/%s" $dir -}}
+<ul>
+{{- range sort (readDir $path) ".Name" -}}
+  {{- if not .IsDir -}}
+    {{- $name := .Name -}}
+    {{- $ext := lower (path.Ext $name) -}}
+    {{- $icon := "fa-file" -}}
+    {{- if eq $ext ".pdf" }}{{ $icon = "fa-file-pdf" }}
+    {{- else if or (eq $ext ".html") (eq $ext ".htm") }}{{ $icon = "fa-file-code" }}
+    {{- else if or (eq $ext ".doc") (eq $ext ".docx") }}{{ $icon = "fa-file-word" }}
+    {{- else if or (eq $ext ".xls") (eq $ext ".xlsx") }}{{ $icon = "fa-file-excel" }}
+    {{- else if or (eq $ext ".ppt") (eq $ext ".pptx") }}{{ $icon = "fa-file-powerpoint" }}
+    {{- else if or (eq $ext ".zip") (eq $ext ".rar") }}{{ $icon = "fa-file-archive" }}
+    {{- end -}}
+    {{- $href := printf "/%s/%s" $dir $name | relURL -}}
+    <li><i class="fas {{ $icon }}"></i> <a href="{{ $href }}" target="_blank" rel="noopener">{{ $name }}</a></li>
+  {{- end -}}
+{{- end -}}
+</ul>
