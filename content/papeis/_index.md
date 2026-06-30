@@ -214,6 +214,10 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
 - **pje:processo:visualizaCompetencia**
   - Papel que permite visualizar campo competência do processo nos autos digitais
 
+- **pje:papel:administrarAutuacao**
+  - Papel que permite cadastrar impedimentos para magistrado pela configuração do magistrado e pelos autos do processo
+
+
 
  
 <!--	
