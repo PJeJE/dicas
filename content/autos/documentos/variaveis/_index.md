@@ -11,6 +11,7 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 
 - [Variáveis de Uso Geral](#variáveis-de-uso-geral)
 - [Certidão de Ciência](#certidão-de-ciência)
+- [Certidão de Decurso](#certidão-de-decurso)
 - [Certidão de Disponibilização no DJe](#certidão-de-disponibilização-no-dje)
 - [Certidão de Publicação no DJe](#certidão-de-publicação-no-dje)
 - [Certidão de Publicação no Mural](#certidão-de-publicação-no-mural)
