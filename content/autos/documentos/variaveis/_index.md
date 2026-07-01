@@ -119,6 +119,19 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 
 {{</table>}}
 
+## Certidão de Decurso
+
+{{<table "variaveismodelo">}}
+
+| **Descrição** | **Variável** | **Outras informações** |
+|---|---|:---:|
+| Data contida no movimento de decurso no formato dd/MM/yyyy HH:mm:ss | #{dateUtil.dateToString(processoParteExpedienteHome.instance.dtPrazoLegal, 'dd/MM/yyyy HH:mm:ss')} | Disponível somente para a [funcionalidade de certidão automática de decurso]({{< relref "automacao/certidao/certidao_decurso" >}}). |
+| Meio de expedição (Exemplo: Correios, Mural, Expedição eletrônica) | #{processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente == 'E' ? 'Expedição eletrônica' : processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente.label} | Disponível somente para a [funcionalidade de certidão automática de decurso]({{< relref "automacao/certidao/certidao_decurso" >}}). |
+| Nome do intimado | #{processoParteExpedienteHome.instance.nomePessoaParte} | Disponível somente para a [funcionalidade de certidão automática de decurso]({{< relref "automacao/certidao/certidao_decurso" >}}). |
+| Tipo de expediente (Exemplo: Intimação, Edital, Citação) | #{processoParteExpedienteHome.instance.processoExpediente.tipoProcessoDocumento} | Disponível somente para a [funcionalidade de certidão automática de decurso]({{< relref "automacao/certidao/certidao_decurso" >}}). |
+
+{{</table>}}
+
 ## Certidão de Disponibilização no DJe
 
 {{<table "variaveismodelo">}}
