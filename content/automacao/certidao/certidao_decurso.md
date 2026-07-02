@@ -13,7 +13,7 @@ O sistema pode juntar automaticamente uma certidão de decurso de prazo dos expe
 **Sigilo:** Para expedientes sigilosos ou enviados para partes sigilosas, a certidão será automaticamente marcada como sigilosa.
 {{% /notice %}}
 
-## Modelo utilizado para emissão da certidão de decurso
+## Modelo para emissão da certidão de decurso
 
 A certidão utiliza um modelo de documento configurado conforme as necessidades do tribunal. Para facilitar o uso inicial, o sistema já possui um modelo pré-configurado.
 
