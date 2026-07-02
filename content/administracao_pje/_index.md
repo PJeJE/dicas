@@ -12,8 +12,6 @@ pre = "<b>2. </b>"
 
 # Suporte ao PJe
 
-## Visão geral
-
 O suporte ao PJe é organizado em níveis de atendimento, permitindo que as demandas sejam analisadas inicialmente pelas equipes locais e, quando necessário, encaminhadas às áreas especializadas do Tribunal Superior Eleitoral (TSE).
 
 Este documento apresenta a estrutura do suporte ao PJe, as responsabilidades dos diferentes níveis de atendimento, os principais canais de comunicação e as orientações para registro adequado de chamados.
@@ -37,11 +35,7 @@ O suporte inicial é realizado pelo administrador local, responsável pelo prime
 
 As demandas podem consistir em dúvidas, relatos de erro ou solicitações de melhoria.
 
-### Compreensão da demanda
-
 A primeira etapa consiste na compreensão completa da solicitação apresentada. Quando necessário, devem ser solicitadas informações adicionais ao usuário, de forma a esclarecer o contexto, o objetivo e as circunstâncias do problema relatado.
-
-### Verificação da demanda
 
 Após a compreensão da solicitação, deve-se verificar sua procedência:
 
@@ -51,14 +45,11 @@ Após a compreensão da solicitação, deve-se verificar sua procedência:
 
 Grande parte das demandas é resolvida nesta etapa inicial.
 
-### Encaminhamento
-
 Quando não for possível resolver a demanda localmente, recomenda-se consultar canais internos de apoio, como grupos de usuários ou base de conhecimento (Dicas), para verificar a existência de orientações prévias.
 
 Persistindo a necessidade de suporte, a demanda deve ser encaminhada ao suporte especializado, por meio dos canais formais disponíveis.
 
-
-## Papel do suporte inicial
+### Papel do suporte inicial
 
 O suporte inicial atua como ponto de triagem e qualificação da demanda, sendo responsável por transformar a linguagem do usuário final em informações técnicas claras e objetivas.
 
