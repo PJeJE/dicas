@@ -24,7 +24,7 @@ A adoção dessas diretrizes contribui para a padronização dos procedimentos, 
 
 O suporte ao PJe é organizado em níveis.
 
-O primeiro nível de atendimento é realizado pelo suporte local, que, em alguns tribunais, pode estar dividido em duas camadas internas. Quando há necessidade de apoio técnico ou negocial, a demanda é encaminhada ao suporte do TSE, dividido entre:
+O primeiro nível de atendimento é realizado pelo suporte local, que, em alguns tribunais, pode estar estruturado em níveis. Quando há necessidade de apoio técnico ou negocial, a demanda é encaminhada ao suporte do TSE, dividido entre:
 
 * suporte negocial, sob responsabilidade da ASPJe;
 * suporte técnico, sob responsabilidade da STI.
