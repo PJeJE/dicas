@@ -43,7 +43,9 @@ Após a compreensão da solicitação, deve-se verificar sua procedência:
 * Em relatos de erro, deve-se tentar reproduzir o comportamento informado.
 * Quando forem necessários testes adicionais ou ajustes de configuração, deve-se garantir que os procedimentos foram executados corretamente.
 
+{{% notice tip %}}
 Grande parte das demandas é resolvida nesta etapa inicial.
+{{% /notice %}}
 
 Quando não for possível resolver a demanda localmente, recomenda-se consultar canais internos de apoio, como grupos de usuários ou base de conhecimento (Dicas), para verificar a existência de orientações prévias.
 
