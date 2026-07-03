@@ -51,11 +51,11 @@ Quando não for possível resolver a demanda localmente, recomenda-se consultar 
 
 Persistindo a necessidade de suporte, a demanda deve ser encaminhada ao suporte especializado, por meio dos canais formais disponíveis.
 
-### Papel do suporte inicial
-
+{{% notice info %}}
 O suporte inicial atua como ponto de triagem e qualificação da demanda, sendo responsável por transformar a linguagem do usuário final em informações técnicas claras e objetivas.
-
 A ausência dessa etapa de análise inicial tende a gerar retrabalho, aumento do tempo de atendimento e dificuldade na atuação das equipes especializadas.
+{{% /notice %}}
+
 
 ## Suporte especializado (ASPJe e STI)
 
