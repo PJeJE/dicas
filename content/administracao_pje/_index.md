@@ -68,16 +68,17 @@ No GSTI, os chamados são direcionados conforme sua classificação para a ASPJe
 O atendimento realizado pelas equipes especializadas segue, em geral, o seguinte fluxo:
 
 **Compreensão da demanda**
-Verificação da procedência das informações
-Reprodução do cenário relatado
-Identificação da causa do problema
-Encaminhamento ou orientação da solução
+
+* Verificação da procedência das informações
+* Reprodução do cenário relatado
+* Identificação da causa do problema
+* Encaminhamento ou orientação da solução
 
 **Reprodução de cenários**
-Sempre que possível, a reprodução do cenário ocorre em ambiente de produção. Quando isso não é viável, são utilizadas bases de treinamento (EaD).
-A descrição detalhada do fluxo executado pelo usuário é essencial para permitir a reprodução do problema e sua correta análise.
 
-Em diversos casos, as equipes responsáveis pela correção não possuem familiaridade com a rotina funcional do sistema, o que reforça a necessidade de descrições detalhadas e precisas dos cenários relatados.
+* Sempre que possível, a reprodução do cenário ocorre em ambiente de produção. Quando isso não é viável, são utilizadas bases de treinamento (EaD).
+* A descrição detalhada do fluxo executado pelo usuário é essencial para permitir a reprodução do problema e sua correta análise.
+* Em diversos casos, as equipes responsáveis pela correção não possuem familiaridade com a rotina funcional do sistema, o que reforça a necessidade de descrições detalhadas e precisas dos cenários relatados.
 
 ## Ferramentas de suporte
 
@@ -102,15 +103,11 @@ Os grupos são utilizados para:
 
 **Boas práticas de utilização**
 
-Antes de encaminhar dúvidas, recomenda-se consultar o histórico de mensagens e utilizar a ferramenta de busca disponível no grupo.
-
-Em muitos casos, a demanda já foi tratada anteriormente, o que permite evitar duplicidade de questionamentos e contribui para a padronização das respostas.
+Antes de encaminhar dúvidas, recomenda-se consultar o histórico de mensagens e utilizar a ferramenta de busca disponível no grupo. Em muitos casos, a demanda já foi tratada anteriormente, o que permite evitar duplicidade de questionamentos e contribui para a padronização das respostas.
 
 Quando a informação encontrada estiver desatualizada ou incompleta, recomenda-se referenciar a discussão anterior ao realizar novo questionamento.
 
-Antes do reporte de incidentes, recomenda-se verificar se já existem comunicados recentes sobre o tema.
-
-O envio de mensagens repetitivas em casos de falhas generalizadas deve ser evitado, pois pode dificultar a visualização de informações relevantes.
+Antes do reporte de incidentes, recomenda-se verificar se já existem comunicados recentes sobre o tema. O envio de mensagens repetitivas em casos de falhas generalizadas deve ser evitado, pois pode dificultar a visualização de informações relevantes.
 
 Também deve ser evitado o repasse de mensagens sem prévia análise do conteúdo e do contexto da solicitação.
 
@@ -127,18 +124,13 @@ A ferramenta permite:
 
 Recomenda-se que a conta seja vinculada a um e-mail institucional da unidade responsável, garantindo visibilidade compartilhada dos chamados.
 
-**Cadastro e suporte**
-
 O cadastro pode ser realizado diretamente no sistema ou solicitado pelo e-mail 8800@tse.jus.br.
 
 Em caso de problemas de acesso ou necessidade de redefinição de senha, o suporte pode ser acionado pelo telefone (61) 3030-8800 ou pelo mesmo endereço de e-mail.
 
-
-**Abertura de chamados**
-
 A abertura de chamados relacionados ao PJe deve conter o máximo de informações possíveis, especialmente em casos de erro.
 
-Informações recomendadas:
+**Informações recomendadas:**
 
 * capturas de tela do erro;
 * vídeos demonstrando o passo a passo;
@@ -158,4 +150,6 @@ Antes da abertura de chamados, recomenda-se:
 * reunir evidências completas;
 * garantir que o cenário possa ser reproduzido.
 
-Chamados completos reduzem retrabalho, aceleram a análise e aumentam a eficiência na resolução das demandas.
+{{% notice note %}}
+Chamados bem instruídos, com dados completos e evidências, reduzem retrabalho, aceleram a análise e aumentam a eficiência na resolução das demandas.
+{{% /notice %}}
