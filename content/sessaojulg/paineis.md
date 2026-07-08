@@ -45,7 +45,8 @@ Ações na sessão - opções disponíveis que afetam a configuração da sessã
 + Incluir processos em mesa
 + Lista de presença na sessão
 + Iniciar (Pausar e Encerrar também são é apresentados quando a sessão está aberta)
-+ Visualizar ata de sessão de julgamento
++ Visualizar ata de sessão de julgamento  (modelo carregado - identificador no parâmetro idModeloDocumentoAtaJulgamento)
+		
 
 Ações em lote - opções disponíveis que afetam uma lista de processos selecionados
 
