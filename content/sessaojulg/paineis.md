@@ -41,7 +41,7 @@ O sistema apresenta informações básicas sobre a sessão no cabeçalho da tela
 Ações na sessão - opções disponíveis que afetam a configuração da sessão
 + Atualizar todos os processos
 + Atualizar resultado sessão
-+ Anotações da sessão
++ Anotações da sessão (modelo carregado - identificador no parâmetro pje:sessao:modeloDocumento:minutaPregao)
 + Incluir processos em mesa
 + Lista de presença na sessão
 + Iniciar (Pausar e Encerrar também são é apresentados quando a sessão está aberta)
