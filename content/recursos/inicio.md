@@ -14,7 +14,7 @@ Como o início dessa tarefa é resultado de uma configuração no tipo de docume
 Para configurar corretamente a tarefa a ser iniciada quando da juntada pelo usuário externo (advogado/procurador) de documento recursal, o tipo de documento deve ter como **Fluxo associado** o fluxo que contém a tarefa de registro de recurso. O sistema entende, desse forma, que ao ser inserido um documento desse tipo, será iniciada uma tarefa de registro de recurso.
 {{% /notice %}}
 
-Quando, ao analisar os autos do processo, o servidor percebe que o documento de petição inserido pelo advogado é um recurso que foi indevidamente classificado, basta que este inicie a tarefa de registro de recurso. Está possibilidade se dá a partir da tarefa **Analisar determinação:**
+Quando, ao analisar os autos do processo, o servidor percebe que o documento de petição inserido pelo advogado é um recurso que foi indevidamente classificado, basta que este inicie a tarefa de registro de recurso. Esta possibilidade se dá a partir da tarefa **Analisar determinação:**
 
 ![Informações do recurso](/imagens/recurso_2.jpg)
 
