@@ -21,7 +21,7 @@ A certidão, quando configurada, será emitida sempre que houver registro de ci�
 
 
 {{% notice warning %}}
-Caso o sistema não consiga emitir a certidão, será gerada uma tarefa denominada **Erro na emissão da certidão de ciẽncia** para que o servidor saiba que a certidão não foi gerada e o faça manualmente, se for o caso.
+Caso o sistema não consiga emitir a certidão, será gerada uma tarefa denominada **Erro na emissão da certidão de ciẽncia** para que o servidor saiba que a certidão não foi gerada e o faça manualmente, se for o caso. A tarefa é só um aviso e pode ser finalizada.
 {{% /notice %}}
 
 ## Modelo utilizado para emissão da certidão de ciência
