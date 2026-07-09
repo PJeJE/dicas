@@ -9,6 +9,8 @@ weight: 7
 
 O sistema pode juntar automaticamente uma certidão de decurso de prazo dos expedientes que torna públicas informações como data e hora do decurso das intimações realizadas, facilitando a identificação dessa situação. Isso garante a transparência dos atos processuais e permite a análise da tempestividade com base em fatos disponíveis a todos que atuem no processo.
 
+A certidão, quando configurada, será emitida sempre que houver registro de decurso de prazo. 
+
 {{% notice note %}}
 **Sigilo:** Para expedientes sigilosos ou enviados para partes sigilosas, a certidão será automaticamente marcada como sigilosa.
 {{% /notice %}}
