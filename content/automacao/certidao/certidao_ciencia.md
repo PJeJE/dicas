@@ -9,6 +9,8 @@ weight: 6
 
 O sistema pode juntar automaticamente uma certidão de ciência dos expedientes que torna públicas informações como data e hora de ciência das intimações realizadas. Isso garante a transparência dos atos processuais e permite a análise da tempestividade com base em fatos disponíveis a todos que atuem no processo.
 
+A certidão, quando configurada, será emitida sempre que houver registro de ciência nos expedientes, respeitando as restrições da configuração. 
+
 {{% notice info %}}
 **Importante:** A certidão é gerada automaticamente apenas para **meios de expedição** configurados no parâmetro `pje:certidao:ciencia:meios` (padrão: `E` - Sistema) e **expedientes que NÃO tenham** tipos de prazo configurados no parâmetro `pje:certidao:ciencia:excecao:tiposPrazo` (padrão: `S,C` - Sem prazo e Data Certa). Veja todos os valores possíveis na seção [Configuração de parâmetros](#configuração-de-parâmetros).
 {{% /notice %}}
