@@ -15,6 +15,11 @@ A certidão, quando configurada, será emitida sempre que houver registro de dec
 **Sigilo:** Para expedientes sigilosos ou enviados para partes sigilosas, a certidão será automaticamente marcada como sigilosa.
 {{% /notice %}}
 
+
+{{% notice warning %}}
+Caso o sistema não consiga emitir a certidão, será gerada uma tarefa denominada **Erro na emissão da certidão de decurso** para que o servidor saiba que a certidão não foi gerada e o faça manualmente, se for o caso.
+{{% /notice %}}
+
 ## Modelo para emissão da certidão de decurso
 
 A certidão utiliza um modelo de documento configurado conforme as necessidades do tribunal. Para facilitar o uso inicial, o sistema já possui um modelo pré-configurado.
