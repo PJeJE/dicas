@@ -200,11 +200,11 @@ Além disso, há uma seção especial na configuração do fluxo que atualmente 
 
 ![Eventos de tarefa](/imagens/eventostarefa.jpg)
 
-Deve-se selecionar o **Tipo do Evento** **Sair Tarefa** e selecionar a opção **INCLUIR**. Após incluído o evento, deve aparecer a aba **AGRUPAMENTO EVENTOS**. Caso não aparecã, na lista de eventos cadastrados disponíveis na aba **PESQUISA**, o usuário deve selecionar o ícone do lápis. 
+Deve-se selecionar o **Tipo do Evento** **Sair Tarefa** e selecionar a opção **INCLUIR**. Após incluído o evento, deve aparecer a aba **AGRUPAMENTO EVENTOS**. Caso não apareça, na lista de eventos cadastrados disponíveis na aba **PESQUISA** o usuário deve selecionar o ícone do lápis. 
 
 ![Agrupamento Eventos](/imagens/agrupamentoeventos.jpg)
 
-Nas opções disponíveis, o usuário deve selecionar **Magistrado**, utilizando a setinha entre os quadros para colocar o referido agrupamento no quadro da direita. No campo **Condição para lançamento temporário*** deve estar preenchida a expressão **#{false}**. O usuário deve selecionar a opção **SALVAR**.
+Nas opções disponíveis, o usuário deve selecionar **Magistrado**, utilizando a setinha entre os quadros para colocar o referido agrupamento no quadro da direita. No campo **Condição para lançamento temporário*** deve estar preenchida a expressão **#{false}**. O usuário deve selecionar a opção **SALVAR**. (os agrupamento disponíveis são os cadastrados pela opção **Configuração - Tabelas judiciais - Movimentações - Agrupamento de movimentações**.
 
 Ao utilizar o lançador de movimentos disponível na tarefa, o sistema tem algumas outras restrições conforme regras na documentação nacional: [RN138](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn138) [RN345](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn342) 
 
