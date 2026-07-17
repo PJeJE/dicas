@@ -27,3 +27,9 @@ Também está disponível pelo **Painel do secretário da sessão**.
 {{% notice note %}}
 O modelo de documento carregado no editor é o modelo cujo identificador está cadastrado no parâmetro **pje:sessao:modeloDocumento:minutaPregao**
 {{% /notice %}}
+
+
+Abaixo estão algumas variáveis que funcionam no escopo da sessão de julgamento e, consequentemente, podem ser utilizadas no modelo do editor **Anotações da sessão**:
+
+
+#{sessaoManager.recuperarProcessosPautadosPublicacao(null)}.
