@@ -35,8 +35,11 @@ Nome da sessão: #{sessaoHome.instance.apelido}
 Data da sessão: #{sessaoProcessoDocumentoHome.dataSessao}
 Processos pautados com objeto: #{sessaoManager.recuperarProcessosPautados(null)}. Exemplo de visualização:
 
+![Objeto](/imagens/variavelpautados.png)
 
 Processos pautados sem objeto mas com assunto e revisor #{sessaoManager.recuperarProcessosPautadosPublicacao(null)} Exemplo de visualização:
+
+![Revisor e assuntos](/imagens/variavelpublicacao.png)
 
 
 
