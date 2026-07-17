@@ -26,3 +26,4 @@ Também está disponível pelo **Painel do secretário da sessão**.
 
 {{% notice note %}}
 O modelo de documento carregado no editor é o modelo cujo identificador está cadastrado no parâmetro **pje:sessao:modeloDocumento:minutaPregao**
+{{% /notice %}}
