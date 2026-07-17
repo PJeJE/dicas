@@ -1,7 +1,7 @@
 ---
 title: "Tramitação automática em tarefas de sessão"
 date: 2024-09-27T15:58:31-03:00
-weight: 4
+weight: 3
 ---
 
 ## Tramitação automática após ações em telas do PJe
