@@ -8,5 +8,5 @@ Está disponível para o **Assessor de Plenário** um editor de textos de uso ge
 
 Usualmente, ao ser acionado, ele carrega um documento cujo modelo foi previamente configurado pelo usuário administrador. O modelo traz informações sobre todos os processos pautados naquela sessão. 
 
-Pode-se fazer uso de outras variáveis no modelo de documento, mas deve-se sempre lembrar que o escopo do editor é o da sessão de julgamento, ou seja, se uma variável recupera informações sobre um processo específico, ela não funcionará nesse editor já que vinculado à sessão podem existir mais de um processo. 
+Pode-se fazer uso de outras variáveis no modelo de documento, mas deve-se sempre lembrar que o escopo do editor é o da sessão de julgamento, ou seja, se uma variável recupera informações sobre um processo específico, ela não funcionará nesse editor já que o editor não sabe à qual processo se refere à variável. No escopo de uma sessão, muitos processos podem ser referenciados.
 
