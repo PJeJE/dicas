@@ -1,7 +1,7 @@
 ---
 title: "Condução da sessão"
 date: 2024-09-16T16:39:58-03:00
-weight: 4
+weight: 5
 ---
 
 Após montada a pauta de julgamento, o assessor de plenário precisará montar a composição da sessão de julgamento. Pelo **Painel do secretário da sessão**, ele selecionará a sessão por meio do dia respectivo exibido no calendário. A composição do julgamento inclui órgãos julgadores (gabinetes) e seus magistrados. Os votos são sempre vinculados a gabinetes, mas os magistrados são exibidos nos placares das sessões, dando maior visibilidade aos participantes do julgamento sobre quem é o responsável pelo voto.
