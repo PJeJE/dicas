@@ -46,18 +46,19 @@ As regras que determinam a exibição são as seguintes:
 17. É considerado sempre a última ementa e o último relatório;
 18. Mostra quem está impedido ou omisso:
   - O impedido é apenas uma marcação in_impedimento_suspeicao true ou false b. O omisso é quem faz parte da composição da sessão, não está impedido e não possui voto OU é o relator, possui voto que não esteja liberado e não esteja impedido
-19. Só são mostrados os votos:
+19. Só são mostrados os votos (Os órgão julgadores vogais são exibidos na ordem em que foram registrados seus votos):
   - De quem está presente ou é o relator
-  - Onde a situação de julgamento é AJ (Aguardando Julgamento) (17/02/2025) ou EJ (Em Julgamento) ou JG (Julgado) ou tem um pedido de vista e a        situação é NJ (Não julgado)
+  - Onde a situação de julgamento é AJ (Aguardando Julgamento) ou EJ (Em Julgamento) ou JG (Julgado) ou tem um pedido de vista e a        situação é NJ (Não julgado)
   - Onde o julgamento está finalizado ou tenha uma data de realização da sessão
   - Onde tem uma data de abertura da sessão
   - Quando o processo não estiver em segredo de justiça
   - Que estão liberados, exceto se o voto for do relator
+     
 20. O documento do voto é mostrado apenas quando:
   - Estiver ativo
   - Não for sigiloso
   - Possuir assinatura (data de juntada).
-    <!--Caso o parâmetro “pje:sessao:plenarioVirtual:documentoAssinado” do PJe estiver como false, não é necessário o documento possuir assinatura. Se estiver como true ou vazio, precisa estar assinado para mostrar (17/02/2025)-->
+    <!--Caso o parâmetro “pje:sessao:plenarioVirtual:documentoAssinado” do PJe estiver como false, não é necessário o documento possuir assinatura. Se estiver como true ou vazio, precisa estar assinado para mostrar -->
 21. Será mostrado sempre o último voto do votante
 22. A relatoria será de cada julgamento do processo. Se houve dois julgamentos e no primeiro o relator era um, mas no segundo, já era outro órgão, em cada julgamento será exibido o relator conforme informação respectiva.
 23. Documentos que serão mostrados a depender de quem for o vencedor, relator ou vogal:
