@@ -14,11 +14,17 @@ Pode-se fazer uso de outras variáveis no modelo de documento, mas deve-se sempr
 
 Alguns tribunais utilizam esse editor como uma alternativa para gerar um documento de pauta e até o utilizam para envio para publicação. 
 
+
+
 O editor está disponível por meio da **Relação de julgamento**.
+
 
 ![Editor na Relação de julgamento](/imagens/editorsessaopauta.png)
 
+
+
 Ele também está disponível pelo **Painel do secretário da sessão**.
+
 
 ![Editor no Painel do secretário](/imagens/editorsessaopainel.png)
 
