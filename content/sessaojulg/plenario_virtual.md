@@ -73,7 +73,7 @@ As regras que determinam a exibição são as seguintes:
     - Relatório do vogal vencedor - Não existe, o vogal só cria o voto e a ementa dele
     - Voto do vogal vencedor – Sim
 
-24. Podem ser mostradas mais de uma sessão presencial no mesmo dia (11/06/2025)
+24. Podem ser mostradas mais de uma sessão presencial no mesmo dia 
 
 <!--25. Caso o parâmetro “pje:sessao:plenarioVirtual:documentoAssinado” do PJe esteja como false, não é necessário o documento de relatório, ementa ou voto possuir assinatura para ser visualizado, bastando estar como liberados no PJe. Se o parâmetro estiver como true ou vazio, o documento precisa estar assinado para ser visualizado. Ementa e Relatório são mostrados independente da situação do processo. -->
     
