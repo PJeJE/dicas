@@ -10,24 +10,22 @@ Está disponível para o **Assessor de Plenário** um editor de textos de uso ge
 
 Usualmente, ao ser acionado, ele carrega um documento cujo modelo foi previamente configurado pelo usuário administrador. O modelo traz informações sobre todos os processos pautados naquela sessão. 
 
-Pode-se fazer uso de outras variáveis no modelo de documento, mas deve-se sempre lembrar que o escopo do editor é o da sessão de julgamento, ou seja, se uma variável recupera informações sobre um processo específico, ela não funcionará nesse editor já que o editor não sabe à qual processo se refere à variável. No escopo de uma sessão, muitos processos podem ser referenciados.
+Pode-se fazer uso de outras variáveis no modelo de documento, mas deve-se sempre lembrar que o escopo do editor é o da sessão de julgamento, ou seja, se uma variável recupera informações sobre um processo específico, ela não funcionará nesse editor já que o editor não sabe a qual processo se refere a variável. Lembre-se que, no escopo de uma sessão, muitos processos podem ser referenciados.
 
-Muito tribunais utilizam esse editor como uma alternativa para gerar um documento de pauta e até o utilizam para envio para publicação. 
+Alguns tribunais utilizam esse editor como uma alternativa para gerar um documento de pauta e até o utilizam para envio para publicação. 
 
 O editor está disponível por meio da **Relação de julgamento**.
 
 ![Editor na Relação de julgamento](/imagens/editorsessaopauta.png)
 
-Também está disponível pelo **Painel do secretário da sessão**.
+Ele também está disponível pelo **Painel do secretário da sessão**.
 
 ![Editor no Painel do secretário](/imagens/editorsessaopainel.png)
-
 
 
 {{% notice note %}}
 O modelo de documento carregado no editor é o modelo cujo identificador está cadastrado no parâmetro **pje:sessao:modeloDocumento:minutaPregao**
 {{% /notice %}}
-
 
 Abaixo estão algumas variáveis que funcionam no escopo da sessão de julgamento e, consequentemente, podem ser utilizadas no modelo do editor **Anotações da sessão**:
 
