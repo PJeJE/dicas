@@ -16,7 +16,9 @@ Muito tribunais utilizam esse editor como uma alternativa para gerar um document
 
 O editor está disponível por meio da **Relação de julgamento**.
 
+![Editor na Relação de julgamento](/imagens/editorsessaopauta.png)
 
 Também está disponível pelo **Painel do secretário da sessão**.
 
+![Editor no Painel do secretário](/imagens/editorsessaopainel.png)
 
