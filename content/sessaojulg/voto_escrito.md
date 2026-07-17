@@ -1,7 +1,7 @@
 ---
 title: "Voto escrito dos vogais em paralelo"
 date: 2024-04-24T14:00:45-03:00
-weight: 8
+weight: 10
 linkTitle: "Voto escrito dos vogais em paralelo"
 ---
 
