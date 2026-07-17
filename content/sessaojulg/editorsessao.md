@@ -41,7 +41,7 @@ Abaixo estão algumas variáveis que funcionam no escopo da sessão de julgament
 
 ![Objeto](/imagens/variavelpautados.png)
 
-- Processos pautados sem objeto mas com assunto e revisor #{sessaoManager.recuperarProcessosPautadosPublicacao(null)} Exemplo de visualização:
+- Processos pautados (sem objeto) com assunto e revisor #{sessaoManager.recuperarProcessosPautadosPublicacao(null)} Exemplo de visualização:
 
 ![Revisor e assuntos](/imagens/variavelpublicacao.png)
 
