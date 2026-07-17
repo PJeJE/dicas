@@ -57,25 +57,23 @@ As regras que determinam a exibição são as seguintes:
   - Possuir assinatura (data de juntada).
     <!--Caso o parâmetro “pje:sessao:plenarioVirtual:documentoAssinado” do PJe estiver como false, não é necessário o documento possuir assinatura. Se estiver como true ou vazio, precisa estar assinado para mostrar (17/02/2025)-->
 21. Será mostrado sempre o último voto do votante
-22. A relatoria será do primeiro julgamento do processo, não do julgamento atual (novo relator). Exemplo:
-    a. Processo: 0600087-58 (Relator Ramos Tavares)
-    b. 1º Julgamento – idsessao 1774
-    c. Vencedor = Relatora Carmen Lucia
-    d.
-
-    e. 2º Julgamento – idsessao 1773
-    f. Novo relator: Carmen Lucia
-    g. Vencedor = Carmen Lucia
-    h.
-
+22. A relatoria será de cada julgamento do processo. Se houve dois julgamentos e no primeiro o relator era um, mas no segundo, já era outro órgão, em cada julgamento será exibido o relator conforme informação respectiva.
 23. Documentos que serão mostrados a depender de quem for o vencedor, relator ou vogal:
   -  Relator vencedor:
-    -  Ementa do relator – Sim
-     ii. iii. Relatório do relator – Sim Voto do relator – Sim b. Vogal vencedor: i. Ementa do relator - Não, pois ela é descartada quando tem a ementa do vogal vencedor. Para assinar o acórdão, tem que excluir a ementa (rascunho) do relator ii. iii. Relatório do relator – Sim Voto do relator – Sim iv. Ementa do vogal – Sim v. Relatório do vogal - Não existe, o vogal só cria o voto e a ementa dele vi. Voto do vogal – Sim
+    - Ementa do relator – Sim
+    - Relatório do relator – Sim
+    - Voto do relator – Sim
+  - Vogal vencedor:
+    - Ementa do relator - Não, pois ela é descartada quando tem a ementa do vogal vencedor. Para assinar o acórdão, tem que excluir a ementa (rascunho) do relator
+    - Relatório do relator – Sim
+    - Voto do relator – Sim
+    - Ementa do vogal vencedor – Sim
+    - Relatório do vogal vencedor - Não existe, o vogal só cria o voto e a ementa dele
+    - Voto do vogal vencedor – Sim
 
-25. Podem ser mostradas mais de uma sessão presencial no mesmo dia (11/06/2025)
+24. Podem ser mostradas mais de uma sessão presencial no mesmo dia (11/06/2025)
 
-<!--24. Caso o parâmetro “pje:sessao:plenarioVirtual:documentoAssinado” do PJe esteja como false, não é necessário o documento de relatório, ementa ou voto possuir assinatura para ser visualizado, bastando estar como liberados no PJe. Se o parâmetro estiver como true ou vazio, o documento precisa estar assinado para ser visualizado. Ementa e Relatório são mostrados independente da situação do processo. -->
+<!--25. Caso o parâmetro “pje:sessao:plenarioVirtual:documentoAssinado” do PJe esteja como false, não é necessário o documento de relatório, ementa ou voto possuir assinatura para ser visualizado, bastando estar como liberados no PJe. Se o parâmetro estiver como true ou vazio, o documento precisa estar assinado para ser visualizado. Ementa e Relatório são mostrados independente da situação do processo. -->
     
 
     
