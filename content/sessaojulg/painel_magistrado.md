@@ -1,7 +1,7 @@
 ---
 title: "Painel do magistrado"
 date: 2022-11-29T16:30:45-03:00
-weight: 4
+weight: 6
 ---
 
 Após sessão iniciada, os magistrados podem acessar os dados da sessão e seus processos por meio do **Painel do magistrado na sessão**. 
