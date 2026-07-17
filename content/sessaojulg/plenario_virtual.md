@@ -6,6 +6,8 @@ weight: 11
 
 A denominação **Plenário Virtual** é a exibição dos conteúdos da sessão de julgamento em sítio da Justiça Eleitoral na Internet sem necessidade de autenticação. Dessa forma, as informações disponibilizadas estão acessíveis para o público em geral. 
 
+Algumas vezes, ouvimos o termo **Plenário Virtual** (ou PV) para fazer referência às sessões contínuas, ou seja, sessões não presenciais. Mesmo com essa mistura de termos, ressaltamos que as informações atuais dizem respeito à exibição das sessões na Internet, independente de serem sessões contínuas ou não. Para as sessões do TSE, essa funcionalidade fica disponível por meio de: https://www.tse.jus.br/servicos-judiciais/sessoes-de-julgamento/pautas-de-julgamento/pje
+
 As regras que determinam a exibição são as seguintes:
 
 
