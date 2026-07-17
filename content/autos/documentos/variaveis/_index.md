@@ -85,6 +85,14 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 | Período (sessões contínuas) ou data (sessão presencial) da sessão - para uso no documento de intimação de Pauta | #{periodoSessao} |  |
 | Período (sessões contínuas) ou data (sessão presencial) da sessão - para uso na certidão de julgamento | #{sessaoProcessoDocumentoHome.getPeriodoSessao()} |  |
 | Presidente da sessão | #{sessaoComposicaoOrdemManager.obterPresidenteSessao(sessaoPautaProcessoTrfManager<br>.getSessaoPautaProcessoTrfJulgado(tramitacaoProcessualService.recuperaProcesso()).sessao, true)} |  |
+
+
+| Processo pautados na sessão contendo revisor e assuntos | #{sessaoManager.recuperarProcessosPautadosPublicacao(null)} |  |
+
+
+
+
+
 | Processos associados | #{processoTrfHome.instance.getProcessoTrfConexaoListStr()} |  |
 | Procurador da sessão | #{pessoaProcuradorManager.getTituloProcurador(sessaoPautaProcessoTrfManager<br>.getSessaoPsautaProcessoTrfJulgado(tramitacaoProcessualService.recuperaProcesso()).sessao)} |  |
 | Recupera a última composição do processo na sessão. False = não traz o presidente. True = traz o presidente | #{sessaoComposicaoOrdemManager.obterComposicaoSessao(sessaoHome.instance, false)} |  |
