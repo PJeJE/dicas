@@ -1,9 +1,11 @@
 ---
 title: "Procedimento para julgar processo em sessão"
 date: 2024-04-24T14:00:45-03:00
-weight: 9
+weight: 12
 linkTitle: "Procedimento para julgar processo em sessão"
 ---
+
+Nesse item, descreveremos o passo a passo para um processo que chega ao PJe ser julgado em sessão de julgamento
 
 ## Procedimento padrão
 
