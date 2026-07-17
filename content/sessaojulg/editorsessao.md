@@ -31,13 +31,13 @@ O modelo de documento carregado no editor é o modelo cujo identificador está c
 
 Abaixo estão algumas variáveis que funcionam no escopo da sessão de julgamento e, consequentemente, podem ser utilizadas no modelo do editor **Anotações da sessão**:
 
-Nome da sessão: #{sessaoHome.instance.apelido}
-Data da sessão: #{sessaoProcessoDocumentoHome.dataSessao}
-Processos pautados com objeto: #{sessaoManager.recuperarProcessosPautados(null)}. Exemplo de visualização:
+- Nome da sessão: #{sessaoHome.instance.apelido}
+- Data da sessão: #{sessaoProcessoDocumentoHome.dataSessao}
+- Processos pautados com objeto: #{sessaoManager.recuperarProcessosPautados(null)}. Exemplo de visualização:
 
 ![Objeto](/imagens/variavelpautados.png)
 
-Processos pautados sem objeto mas com assunto e revisor #{sessaoManager.recuperarProcessosPautadosPublicacao(null)} Exemplo de visualização:
+- Processos pautados sem objeto mas com assunto e revisor #{sessaoManager.recuperarProcessosPautadosPublicacao(null)} Exemplo de visualização:
 
 ![Revisor e assuntos](/imagens/variavelpublicacao.png)
 
