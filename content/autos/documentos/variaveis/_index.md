@@ -13,6 +13,7 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 - [Certidão de Ciência](#certidão-de-ciência)
 - [Certidão de Decurso](#certidão-de-decurso)
 - [Certidão de Disponibilização no DJe](#certidão-de-disponibilização-no-dje)
+- [Certidão de Publicação do Acórdão em Sessão](#certidão-de-publicação-do-acórdão-em-sessão)
 - [Certidão de Publicação no DJe](#certidão-de-publicação-no-dje)
 - [Certidão de Publicação no Mural](#certidão-de-publicação-no-mural)
 - [Habilitação nos Autos](#habilitação-nos-autos)
@@ -151,6 +152,25 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 | Relator do processo | #{certidaoDisponibilizacaoDJEService.processo.pessoaRelator != null ? certidaoDisponibilizacaoDJEService.processo.pessoaRelator.pessoa.nome : ''} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
 | Tipo do documento | #{certidaoDisponibilizacaoDJEService.getTipoAto()} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
 | URL para o documento | #{certidaoDisponibilizacaoDJEService.getUrlVisualizarDocumento()} | Disponível somente para a [funcionalidade de certidão automática de disponibilização no DJe]({{< relref "automacao/certidao/certidao_disponibilizacao_dje" >}}). |
+
+{{</table>}}
+
+## Certidão de Publicação do Acórdão em Sessão
+
+{{<table "variaveismodelo">}}
+
+| **Descrição** | **Variável** | **Outras informações** |
+|---|---|:---:|
+| Assuntos do processo | #{certidaoPublicacaoAcordaoService.processo.assuntoTrfListStr} | Disponível somente para a [funcionalidade de certidão automática de publicação do acórdão em sessão]({{< relref "automacao/certidao/certidao_publicacao_acordao_sessao" >}}). |
+| Classe do processo | #{certidaoPublicacaoAcordaoService.processo.classeJudicial} | Disponível somente para a [funcionalidade de certidão automática de publicação do acórdão em sessão]({{< relref "automacao/certidao/certidao_publicacao_acordao_sessao" >}}). |
+| Data da publicação | #{certidaoPublicacaoAcordaoService.getData()} | Disponível somente para a [funcionalidade de certidão automática de publicação do acórdão em sessão]({{< relref "automacao/certidao/certidao_publicacao_acordao_sessao" >}}). |
+| Estado | #{certidaoPublicacaoAcordaoService.processo.complementoJE.estadoEleicao.estado} | Disponível somente para a [funcionalidade de certidão automática de publicação do acórdão em sessão]({{< relref "automacao/certidao/certidao_publicacao_acordao_sessao" >}}). |
+| Id do documento | #{certidaoPublicacaoAcordaoService.getIdAto()} | Disponível somente para a [funcionalidade de certidão automática de publicação do acórdão em sessão]({{< relref "automacao/certidao/certidao_publicacao_acordao_sessao" >}}). |
+| Município | #{certidaoPublicacaoAcordaoService.processo.complementoJE.municipioEleicao.municipio} | Disponível somente para a [funcionalidade de certidão automática de publicação do acórdão em sessão]({{< relref "automacao/certidao/certidao_publicacao_acordao_sessao" >}}). |
+| Número do processo | #{certidaoPublicacaoAcordaoService.processo.numeroProcesso} | Disponível somente para a [funcionalidade de certidão automática de publicação do acórdão em sessão]({{< relref "automacao/certidao/certidao_publicacao_acordao_sessao" >}}). |
+| Relator do processo | #{certidaoPublicacaoAcordaoService.processo.pessoaRelator != null ? certidaoPublicacaoAcordaoService.processo.pessoaRelator.pessoa.nome : ''} | Disponível somente para a [funcionalidade de certidão automática de publicação do acórdão em sessão]({{< relref "automacao/certidao/certidao_publicacao_acordao_sessao" >}}). |
+| Tipo do documento | #{certidaoPublicacaoAcordaoService.getTipoAto()} | Disponível somente para a [funcionalidade de certidão automática de publicação do acórdão em sessão]({{< relref "automacao/certidao/certidao_publicacao_acordao_sessao" >}}). |
+| URL para o documento | #{certidaoPublicacaoAcordaoService.getUrlVisualizarDocumento()} | Disponível somente para a [funcionalidade de certidão automática de publicação do acórdão em sessão]({{< relref "automacao/certidao/certidao_publicacao_acordao_sessao" >}}). |
 
 {{</table>}}
 
