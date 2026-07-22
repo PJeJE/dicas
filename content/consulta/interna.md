@@ -19,7 +19,7 @@ A tela da consulta exibe uma variedade de campos de pesquisa, livres e tabelados
 Os resultados da consulta são apresentados ordenados por data de autuação, sendo que dia, hora, minutos e segundos são considerados para a esta ordenação.
 {{% /notice %}}
 
-A consulta Processual do PJe Eleitoral é diferente da versão nacional do sistema (utilizado em outros tribunais), seu correto funcionamento exige que o SSO do CNJ esteja ativo e que os navegadores sejam configurados para permitir oo cookies de terceiros.
+A consulta Processual do PJe Eleitoral é diferente da versão nacional do sistema (utilizado em outros tribunais), seu correto funcionamento exige que o SSO do CNJ esteja ativo e que os navegadores sejam configurados para permitir cookies de terceiros.
 
 Se a tela for apresentada em branco, é provável que o navegador esteja bloqueando o uso de cookies de terceiros. Para corrigir o problema, será necessário fazer a configuração:
 
