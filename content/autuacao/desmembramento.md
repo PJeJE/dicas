@@ -30,7 +30,7 @@ O desmembramento permite criar um novo processo a partir de um existente, replic
 | **Seleção Parcial** | Permite (Transferência). Apenas o selecionado migra para o novo processo. |
 | **Ausência de Polo Ativo** | Bloqueado. Deve haver ao menos uma parte no polo ativo. |
 
-### Confirmação e Segurança
+## Confirmação e Segurança
 Na etapa final, o sistema exibe o detalhamento das partes separadas por polo e seus respectivos representantes, com paginação para facilitar a revisão e mensagens orientativas. 
 
 *   **Processos Sigilosos:** A configuração de visibilidade no novo processo deve ser ajustada manualmente após a conclusão do desmembramento.
@@ -40,7 +40,7 @@ Na etapa final, o sistema exibe o detalhamento das partes separadas por polo e s
 *   **Replicação, não exclusão:** Os documentos escolhidos são copiados para o novo processo e permanecem inalterados no original.
 *   **Integridade:** Cada documento mantém seu arquivo (binário), assinaturas e metadados. Alterações ou exclusões posteriores, seja na origem ou no destino, não afetam a outra parte.
 
-### Limites de Interface
+## Limites de Interface
 *   **Seleção até 20.000 documentos:** Comportamento padrão de movimentação entre listas.
 *   **Seleção acima de 20.000 documentos:** Por limitação de exibição, itens podem aparecer visualmente em ambos os lados, mas a seleção permanece íntegra.
 *   **Aba "Detalhe":** Caso exceda 20.000 itens, a lista pode estar oculta por padrão. Utilize o botão "Visualizar documentos" para carregar a relação.
