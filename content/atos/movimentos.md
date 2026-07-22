@@ -7,7 +7,7 @@ weight: 6
 
 As movimentações processuais, ao lado dos assuntos e das classes, são, hoje, a única linguagem realmente unificada no Poder Judiciário Brasileiro. Embora o sistema faça referência a esses movimentos como “eventos”, designação historicamente utilizada pela Justiça Federal, o uso das movimentações nacionais deve ser feito intensamente no sistema para assegurar a coleta de informações estatísticas relevantes. 
 
-> 💡 **Referência Técnica:** Para uniformização de procedimentos, acesse o [Guia de Sistematização de Movimentos do TRE/PI]([LINK_AQUI](https://www.tre-pi.jus.br/jurisprudencia/publicacoes-do-tre-pi/publicacoes?tab=ancora-3). 
+> 💡 **Referência Técnica:** Para uniformização de procedimentos, acesse o [Guia de Sistematização de Movimentos do TRE/PI](https://www.tre-pi.jus.br/jurisprudencia/publicacoes-do-tre-pi/publicacoes?tab=ancora-3). 
 
 Instruções relevantes sobre movimentações processuais podem ser encontradas na [documentação do PJe nacional](https://docs.pje.jus.br/manuais-de-uso/Manual%20de%20referencia%20PJe%201.0#movimenta%C3%A7%C3%B5es)
 
