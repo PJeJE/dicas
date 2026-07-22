@@ -71,3 +71,9 @@ Os feriados de abrangência municipal só serão replicados quando a UF do feria
 A utilização da central de mandados para fazer comunicação só será possível se o usuário selecionar, ao criar uma comunicação, o meio "Central de Mandados". Caso seja selecionado, o servidor terá que complementar as informações sobre a central de mandados em tarefa posterior que será apresentada ao finalizar a construção do documento a ser utilizado na comunicação. 
 
 Da mesma forma, a tarefa para complementação das informações sobre a central de mandados só será apresentada se o usuário tiver selecionado o meio pertinente. Caso a tarefa seja apresentada e o usuário tenha selecionado o meio erroneamente, recomenda-se seguir o fluxo de complementação das informações da central e, só ao finalizar os procedimentos, fechar o expediente, certificando que a comunicação não precisa ser cumprida, conforme termos comuns da prática cartorária do regional.
+
+{{% notice note %}}
+[Clicando aqui](xxx) você encontra um tutorial com o passo-a-passo para realizar a configuração da Central de Mandados (material cedido pelo TREMG). E, 
+[Neste link](xxx) você encontra um Manual para o uso do perfil de Oficial de Justiça.
+{{% /notice %}}
+
