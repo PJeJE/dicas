@@ -19,6 +19,15 @@ A tela da consulta exibe uma variedade de campos de pesquisa, livres e tabelados
 Os resultados da consulta são apresentados ordenados por data de autuação, sendo que dia, hora, minutos e segundos são considerados para a esta ordenação.
 {{% /notice %}}
 
+A consulta Processual do PJe Eleitoral é diferente da versão nacional do sistema (utilizado em outros tribunais), seu correto funcionamento exige que o SSO do CNJ esteja ativo e que os navegadores sejam configurados para permitir oo cookies de terceiros.
+
+Se a tela for apresentada em branco, é provável que o navegador esteja bloqueando o uso de cookies de terceiros. Para corrigir o problema, será necessário fazer a configuração:
+
+[Chrome:] (https://support.google.com/accounts/answer/61416?hl=pt-BR&co=GENIE.Platform%3DDesktop)
+
+[Firefox:] (https://support.mozilla.org/pt-BR/kb/desative-cookies-terceiros-impedir-rastreamento)
+
+
 ## Consulta de processos para servidor de outra instância:
 
 No PJe 1G há um perfil de servidor chamado **Consulta de processos para servidor,** exclusivamente para consulta, não sendo possível consultar processos sigilosos. 
