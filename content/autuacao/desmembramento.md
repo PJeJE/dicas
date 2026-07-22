@@ -1,4 +1,5 @@
 ---
+<div style="text-align: justify; line-height: 1.6;">
 title: "Desmembramento de Processos"
 date: 2026-07-22T16:31:43-03:00
 weight: 1
