@@ -115,7 +115,7 @@ Existem também documentos que, se forem inseridos diretamente no processo judic
 O PJe também atualiza no CAND a informação do(a) relator(a) do processo caso seja alterada no PJe.
 
 {{% notice note %}}
-A reclassificação de documentos (alteração de tipos de documentos em documentos já juntados) no PJe para tipos que devem ser refletidos no **CAND** deve ocorrer de forma que, caso seja documento ainda não pertencente ao registro respectivo no CAND, deve ser criado novo documento, caso já exista o documento mas seja de outro tipo, deve ser alterado no CAND para o novo tipo reclassificado no PJe.
+A reclassificação de documentos juntados no PJe, para os tipos acima, **refletirá, automaticamente, no CAND** (mas não ocorre de forma instantânea).
 {{% /notice %}}
 
 ## Movimentos/Informações CAND para PJe
