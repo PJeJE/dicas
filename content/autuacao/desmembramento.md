@@ -11,7 +11,7 @@ O desmembramento permite criar um novo processo a partir de um existente, replic
 2. **Validação:** Verificação das regras de negócio e integridade do processo.
 3. **Gravação:** Execução da transferência ou duplicação dos dados.
 
-> **Nota sobre o Fiscal da Lei:** 
+> ⚠️ **Nota sobre o Fiscal da Lei:**
 > Se a classe judicial exigir a presença de Fiscal da Lei, o sistema o 
 > vinculará automaticamente ao novo processo, dispensando qualquer 
 > necessidade de intervenção ou escolha manual pelo usuário.
