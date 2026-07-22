@@ -3,7 +3,7 @@ title: "Desmembramento de Processos"
 date: 2026-07-22T16:31:43-03:00
 weight: 1
 ---
-# Desmembramento de Processos
+
 
 O desmembramento permite criar um novo processo a partir de um existente, replicando partes, assuntos e documentos selecionados. O fluxo é estruturado em três etapas automáticas:
 
