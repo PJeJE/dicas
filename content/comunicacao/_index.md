@@ -74,6 +74,6 @@ Da mesma forma, a tarefa para complementação das informações sobre a central
 
 {{% notice note %}}
 [Clicando aqui](/docs/configuracao_da_central_de_mandados.pdf) você encontra um tutorial com o passo-a-passo para realizar a configuração da Central de Mandados (material cedido pelo TREMG). E, 
-[Neste link](/docs/perfil_oficial_de_justica.pdf) você encontra um Manual para o uso do perfil de Oficial de Justiça.
+[neste link](/docs/perfil_oficial_de_justica.pdf), você encontra um Manual para o uso do perfil de Oficial de Justiça.
 {{% /notice %}}
 
