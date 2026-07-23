@@ -19,3 +19,5 @@ pre = "<b>14. </b>"
 + [Ajuste de Movimentação](/docs/manual_ajustar_movimentacao.pdf)
 + [Redistribuição por Sucessão em Lote](/docs/manual_redis_sucessao_em_lote.pdf)
 + [Fluxo da ASPLEN](/docs/manual_fluxo_da_asplen.pdf)
++ [Configuração da Central de Mandados](/docs/configuracao_da_central_de_mandados.pdf)
++ [Perfis Oficial de Justiça Distribuidor X Oficial de Justiça](/docs/perfil_oficial_de_justica.pdf)

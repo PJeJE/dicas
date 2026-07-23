@@ -73,7 +73,7 @@ A utilização da central de mandados para fazer comunicação só será possív
 Da mesma forma, a tarefa para complementação das informações sobre a central de mandados só será apresentada se o usuário tiver selecionado o meio pertinente. Caso a tarefa seja apresentada e o usuário tenha selecionado o meio erroneamente, recomenda-se seguir o fluxo de complementação das informações da central e, só ao finalizar os procedimentos, fechar o expediente, certificando que a comunicação não precisa ser cumprida, conforme termos comuns da prática cartorária do regional.
 
 {{% notice note %}}
-[Clicando aqui](xxx) você encontra um tutorial com o passo-a-passo para realizar a configuração da Central de Mandados (material cedido pelo TREMG). E, 
-[Neste link](xxx) você encontra um Manual para o uso do perfil de Oficial de Justiça.
+[Clicando aqui](/docs/configuracao_da_central_de_mandados.pdf) você encontra um tutorial com o passo-a-passo para realizar a configuração da Central de Mandados (material cedido pelo TREMG). E, 
+[Neste link](/docs/perfil_oficial_de_justica.pdf) você encontra um Manual para o uso do perfil de Oficial de Justiça.
 {{% /notice %}}
 
