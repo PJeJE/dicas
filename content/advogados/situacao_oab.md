@@ -34,7 +34,7 @@ Caso o advogado possua mais de uma inscrição regular, a informação acima é 
 É Importante ressaltar que os dados apresentados tem apenas caráter informativo, mesmo que em situação irregular.
 {{% /notice %}}
 
-IMPORTANTE: Um advogado com a situação regular no momento do cadastro no PJe e que posteriormente teve sua inscrição cancelada e/ou tornada irregular, continua como regular no sistema até que um usuário interno do PJe, a partir da funcionalidade **Confirmar credenciamento,** utilize o botão **nova validação na OAB** para atualizar os dados do advogado. Há também a execução de procedimento automático durante a madrugada que atualiza a situação de inscrição de advogados cadastrados como validados. O processamento atualiza a situação da inscrição de acordo com a informação disponível no serviço correspondente da OAB, mas o fato da situação estar irregular não impede o advogado de atuar nos processos vinculados.
+IMPORTANTE: Um advogado com a situação regular no momento do cadastro no PJe e que posteriormente teve sua inscrição cancelada e/ou tornada irregular, continua como regular no sistema até que um usuário interno do PJe, a partir da funcionalidade **Confirmar credenciamento,** utilize o botão **nova validação na OAB** para atualizar os dados do advogado. Há também a execução de procedimento automático durante a madrugada que atualiza a situação de inscrição de advogados cadastrados como válidos. O processamento atualiza a situação da inscrição de acordo com a informação disponível no serviço correspondente da OAB, mas o fato da situação estar irregular não impede o advogado de atuar nos processos vinculados.
 
 Desse modo, a situação da inscrição da OAB do advogado causa impedimento apenas no momento do cadastro inicial do usuário. Uma vez cadastrado no sistema como advogado e independentemente da situação da inscrição em momento posterior, nenhum outro impedimento é feito.
 
@@ -43,6 +43,13 @@ Ou seja, é permitido ao advogado protocolizar novos processos, juntar documento
 {{% notice info %}}
 Já existem demandas (PJEVII-4416, PJEVII-3889, PJEVII-3173 e PJEVII-4536) em andamento no Conselho Nacional de Justiça (CNJ) que visam melhorias na funcionalidade e desenvolvimento de alertas para advogados penalizados.
 {{% /notice %}}
+
+## Cadastro validado (ou -não validado-)
+
+Como dito anteriormente, o usuário interno (ou administrador) pode cadastrar uma pessoa física como advogado (assim como ocorre com o perfil jus postulandi). Esse cadastro pode ser realizado mesmo que o serviço da receita e da OAB retornem alguma irregularidade no cadastro. O objetivo principal é não impedir o cadastramento desses perfis, especialmente se os serviços estiverem indisponíveis e dada a fé pública, que todo servidor tem. O sistema tem essa opção para que o cadastro não seja impedido como um todo.
+
+É importante ressaltar que, após realizar novas validações, o sistema não apaga a antiga. Pode ocorre de, na hora de exibir o advogado, o sistema pegue a primeira validação das que vierem. Se para a validação recuperada, o sistema exibir a que não estava válida, o sistema exibe o alerta **Não validado**. Se vc, como servidor, sabe que aquele advogado é válido, não há problema, isso é só um alerta. Esse alerta só aparece para servidores.
+
 
 ## Atualização do cadastro do advogado pelo servidor
 
