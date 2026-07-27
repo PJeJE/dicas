@@ -48,7 +48,7 @@ Já existem demandas (PJEVII-4416, PJEVII-3889, PJEVII-3173 e PJEVII-4536) em an
 
 Como dito anteriormente, o usuário interno (ou administrador) pode cadastrar uma pessoa física como advogado (assim como ocorre com o perfil jus postulandi). Esse cadastro pode ser realizado mesmo que o serviço da receita e da OAB retornem alguma irregularidade no cadastro. O objetivo principal é não impedir o cadastramento desses perfis, especialmente se os serviços estiverem indisponíveis e dada a fé pública, que todo servidor tem. O sistema tem essa opção para que o cadastro não seja impedido como um todo.
 
-É importante ressaltar que, após realizar novas validações, o sistema não apaga a antiga. Pode ocorre de, na hora de exibir o advogado, o sistema pegue a primeira validação das que vierem. Se para a validação recuperada, o sistema exibir a que não estava válida, o sistema exibe o alerta **Não validado**. Se vc, como servidor, sabe que aquele advogado é válido, não há problema, isso é só um alerta. Esse alerta só aparece para servidores.
+É importante ressaltar que, após realizar novas validações, o sistema não apaga a antiga. Em algumas telas do PJe, pode ocorrer de, na hora de exibir o advogado, o sistema pegar a primeira validação das que vierem. Se a validação recuperada foi justamente uma mal sucedida, o sistema exibe o alerta **Não validado**. Se vc, como servidor, sabe que aquele advogado é válido, não há problema, isso é só um alerta. Esse alerta só aparece para servidores. 
 
 
 ## Atualização do cadastro do advogado pelo servidor
