@@ -24,17 +24,17 @@ No cadastramento inicial, o PJe utiliza o número do CPF para consultar o Cadast
 
 Caso não exista inscrição ativa, o sistema exibirá uma mensagem informando que foram recuperadas informações no CNA, mas não há inscrição ativa, permitindo que o usuário prossiga o cadastro como Jus Postulandi.
 
-No entanto, não existe impedimento técnico no sistema para que um usuário interno do tribunal torne essa pessoa um advogado e confirme seu credenciamento, mesmo sem número de inscrição na OAB. Nesse caso, somente na retificação de autuação será mostrada a situação da inscrição do advogado, e apenas para usuários internos:
+No entanto, não existe impedimento técnico no sistema para que um usuário interno do tribunal torne essa pessoa um advogado e confirme seu credenciamento, mesmo sem número de inscrição na OAB. Nesse caso, na retificação de autuação e nos autos do processo será mostrada a situação da inscrição do advogado apenas para usuários internos:
 
 ![Situação OAB](/imagens/situacao_adv_tela_retificacao.png)
 
-Caso o advogado possua mais de uma inscrição regular, a informação acima é baseada apenas na primeira OAB encontrada no momento do cadastramento (em geral a OAB principal), ignorando-se as demais, o que pode não refletir a exata situação cadastral do advogado.
+Caso o advogado possua mais de uma inscrição regular, a informação acima é exibida a partir da primeira OAB encontrada no momento do cadastramento (em geral a OAB principal), ignorando-se as demais, o que pode não refletir a exata situação cadastral do advogado.
 
 {{% notice warning %}}
 É Importante ressaltar que os dados apresentados tem apenas caráter informativo, mesmo que em situação irregular.
 {{% /notice %}}
 
-IMPORTANTE: Um advogado com a situação regular no momento do cadastro no PJe e que posteriormente teve sua inscrição cancelada e/ou tornada irregular, continua como regular no sistema até que um usuário interno do PJe, a partir da funcionalidade **Confirmar credenciamento,** utilize o botão **nova validação na OAB** para atualizar os dados do advogado.
+IMPORTANTE: Um advogado com a situação regular no momento do cadastro no PJe e que posteriormente teve sua inscrição cancelada e/ou tornada irregular, continua como regular no sistema até que um usuário interno do PJe, a partir da funcionalidade **Confirmar credenciamento,** utilize o botão **nova validação na OAB** para atualizar os dados do advogado. Há também a execução de procedimento automático durante a madrugada que atualiza a situação de inscrição do advogado de acordo com a informação disponível no serviço correspondente da OAB. O fato da situação estar irregular não impede o advogado de atuar nos processos vinculados.
 
 Desse modo, a situação da inscrição da OAB do advogado causa impedimento apenas no momento do cadastro inicial do usuário. Uma vez cadastrado no sistema como advogado e independentemente da situação da inscrição em momento posterior, nenhum outro impedimento é feito.
 
@@ -48,6 +48,6 @@ Já existem demandas (PJEVII-4416, PJEVII-3889, PJEVII-3173 e PJEVII-4536) em an
 
 Conforme descrito mais acima, quando utilizado o cadastramento automático via recuperação de dados pelo serviço do CNA, o cadastro inicial do advogado é incluído no PJe como ativo apenas se sua situação no referido cadastro estiver como **REGULAR**.
 
-Em muitas situações o servidor precisa que o advogado deixa de atuar no PJe. Temos posse de membros juristas, temos listas enviadas pela OAB notificando de suspensão, falecimento, exclusão... Em qualquer dessas situações, o procedimento a ser realizado pelo servidor é a inativação do seu cadastro como advogado. Com a devida permissão, o servidor deve acessar a opção pelo menu **Configuração - Pessoa - Advogado - Confirmar credenciamento**. Ao pesquisar pelo advogado, deve-se entrar em seu cadastro e marcar a opção **Situação deste perfil** como **Inativo**. Na pesquisa, se utilizado o ícone de lixeira disponível na barra de ferramentas do resultado da pesquisa, o efeito é o mesmo. 
+Em muitas situações o servidor precisa que o advogado deixe de atuar no PJe. Temos posse de membros juristas, temos listas enviadas pela OAB notificando de suspensão, falecimento, exclusão e o próprio procedimento automática que executa na madrugada que recupera atualizações do cadastro na OAB. Em qualquer dessas situações, o procedimento a ser realizado pelo servidor é a inativação do seu cadastro como advogado. Com a devida permissão, o servidor deve acessar a opção pelo menu **Configuração - Pessoa - Advogado - Confirmar credenciamento**. Ao pesquisar pelo advogado, deve-se entrar em seu cadastro e marcar a opção **Situação deste perfil** como **Inativo**. Na pesquisa, se utilizado o ícone de lixeira disponível na barra de ferramentas do resultado da pesquisa, o efeito é o mesmo. 
 
 Está em curso o desenvolvimento de uma funcionalidade que apresentará ao servidor a possibilidade de ser inserida uma certidão automática de modelo configurável em todos os processos em que o advogado atue, de forma que possa ficar mais claro nos autos do processo o motivo pelo qual ocorreu a inativação. 
