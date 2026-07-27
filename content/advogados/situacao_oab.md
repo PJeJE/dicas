@@ -57,4 +57,8 @@ Conforme descrito mais acima, quando utilizado o cadastramento automático via r
 
 Em muitas situações o servidor precisa que o advogado deixe de atuar no PJe. Temos posse de membros juristas, temos listas enviadas pela OAB notificando de suspensão, falecimento, exclusão e o próprio procedimento automático que executa na madrugada que recupera atualizações do cadastro na OAB. Em qualquer dessas situações, o procedimento a ser realizado pelo servidor é a inativação do seu cadastro como advogado. Com a devida permissão, o servidor deve acessar a opção pelo menu **Configuração - Pessoa - Advogado - Confirmar credenciamento**. Ao pesquisar pelo advogado, deve-se entrar em seu cadastro e marcar a opção **Situação deste perfil** como **Inativo**. Na pesquisa, se utilizado o ícone de lixeira disponível na barra de ferramentas do resultado da pesquisa, o efeito é o mesmo. 
 
+{{% notice info %}}
+O procedimento automático que atualiza a situação da OAB dos advogados só faz atualização para cadastros que não tenham o registro da OAB recuperado ou cujo registro tenha sido recuperado a mais de quinze dias. Essa restrição existe para diminuir o ônus de processamento da execução do procedimento automático. 
+{{% /notice %}}
+
 Está em curso o desenvolvimento de uma funcionalidade que apresentará ao servidor a possibilidade de ser inserida uma certidão automática de modelo configurável em todos os processos em que o advogado atue, de forma que possa ficar mais claro nos autos do processo o motivo pelo qual ocorreu a inativação. 
