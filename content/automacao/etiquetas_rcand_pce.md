@@ -4,7 +4,7 @@ date: 2024-08-05T14:16:02-03:00
 linkTitle: "Automação de etiquetas RCAND e PCE"
 weight: 3
 ---
-# Automação de etiquetas para RCAND, PCE e PC-PP
+
 
 ## Automação de Etiquetas: Registro de Candidatura (RCAND)
 
@@ -82,7 +82,13 @@ As etiquetas indicam o status de cada documento verificado.
 
 Na liberação da funcionalidade de automação de etiquetas, foram divulgadas algumas instruções sobre o funcionamento que replicamos abaixo. Alternativamente, [clique aqui](https://pjeje.github.io/dicas/automacao/pce_com_sinapses/) para saber mais sobre as regras gerais das etiquetas da PCE e suas automações.
 
-Nos ambientes do primeiro grau, ao ser utilizada a transição **Remeter para automação de etiquetas PCE** (processos da classe PCE) o sistema vinculará, de forma automática, algumas etiquetas para sinalizar presença ou falta de alguns documentos. A transição está disponível a partir das tarefas de análise. Sempre que acionadas, o sistema apagará as etiquetas com o prefixo `PJE_IA` e aplicará novas etiquetas de acordo com a ausência ou presença dos documentos.
+Nos ambientes do primeiro grau, ao ser utilizada a transição Remeter para automação de etiquetas PCE (processos da classe PCE) o sistema vinculará, de forma automática, algumas etiquetas para sinalizar a presença ou falta de alguns documentos. A transição está disponível a partir das tarefas de análise. Sempre que acionado, o sistema apagará as etiquetas com o prefixo PJE_IA e aplicará novas etiquetas de acordo com a ausência ou presença de documentos.
+
+Nos ambientes do 2º e 3º graus, a mesma transição estará disponível nas seguintes tarefas:
+
+Verificar e certificar dados (Unidade de Autuação)
+Analisar processo/Analisar determinação (Unidade de Processamento)
+Analisar Processo – ASEPA (Unidade de Exame de Constas)
 
 ### Tipos de Documentos relativos à Prestação de Contas Eleitorais
 
