@@ -218,7 +218,8 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
   - Papel que permite cadastrar impedimentos para magistrado pela configuração do magistrado e pelos autos do processo
 
 
-
+- **pje:papel:podeInserirProcessoExistente**
+  - Papel que permite cadastrar processo de referência não existente na instalação do PJe ao protocolar processo incidental
  
 <!--	
 	/pages/Processo/RetificacaoAutuacao/updateRetificacaoAutuacao.seam
