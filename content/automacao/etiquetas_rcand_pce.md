@@ -52,25 +52,25 @@ As etiquetas indicam o status de cada documento verificado.
 
 #### Etiquetas de Conformidade (Documento Encontrado)
 
-- `PJE_IA_OK` - Declaração de bens
-- `PJE_IA_OK` - Certidão Criminal da Justiça Estadual de 1º grau
-- `PJE_IA_OK` - Certidão Criminal da Justiça Estadual de 2º grau
-- `PJE_IA_OK` - Certidão Criminal da Justiça Federal 1º de grau
-- `PJE_IA_OK` - Certidão Criminal da Justiça Federal de 2º grau
-- `PJE_IA_OK` - Comprovante de escolaridade
-- `PJE_IA_OK` - Documento de identificação
-- `PJE_IA_OK` - Proposta de governo
+- `PJE_IA_OK - Declaração de bens`
+- `PJE_IA_OK - Certidão Criminal da Justiça Estadual de 1º grau`
+- `PJE_IA_OK - Certidão Criminal da Justiça Estadual de 2º grau`
+- `PJE_IA_OK - Certidão Criminal da Justiça Federal 1º de grau`
+- `PJE_IA_OK - Certidão Criminal da Justiça Federal de 2º grau`
+- `PJE_IA_OK - Comprovante de escolaridade`
+- `PJE_IA_OK - Documento de identificação`
+- `PJE_IA_OK - Proposta de governo`
 
 #### Etiquetas de Pendência (Documento Ausente)
 
-- `PJE_IA_Pendente` - Declaração de bens
-- `PJE_IA_Pendente` - Certidão Criminal da Justiça Estadual de 1º grau
-- `PJE_IA_Pendente` - Certidão Criminal da Justiça Estadual de 2º grau
-- `PJE_IA_Pendente` - Certidão Criminal da Justiça Federal 1º de grau
-- `PJE_IA_Pendente` - Certidão Criminal da Justiça Federal de 2º grau
-- `PJE_IA_Pendente` - Comprovante de escolaridade
-- `PJE_IA_Pendente` - Documento de identificação
-- `PJE_IA_Pendente` - Proposta de governo
+- `PJE_IA_Pendente - Declaração de bens`
+- `PJE_IA_Pendente - Certidão Criminal da Justiça Estadual de 1º grau`
+- `PJE_IA_Pendente - Certidão Criminal da Justiça Estadual de 2º grau`
+- `PJE_IA_Pendente - Certidão Criminal da Justiça Federal 1º de grau`
+- `PJE_IA_Pendente - Certidão Criminal da Justiça Federal de 2º grau`
+- `PJE_IA_Pendente - Comprovante de escolaridade`
+- `PJE_IA_Pendente - Documento de identificação`
+- `PJE_IA_Pendente - Proposta de governo`
 
 #### Etiqueta de Status Geral
 
