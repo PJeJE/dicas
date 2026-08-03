@@ -38,8 +38,14 @@ Partidos e federações sem CNPJ serão inseridos como Ente e Autoridade no PJe 
 {{% /notice %}}
 
 {{% notice note %}}
-As prevenções entre RRCs/RRCIs ao DRAP fazem com que os RRCS/RRCIs vinculados ao mesmo DRAP sejam associados automaticamente entre si.
+As prevenções entre RRCs/RRCIs ao DRAP fazem com que os RRCs/RRCIs vinculados ao mesmo DRAP sejam associados automaticamente entre si.
 {{% /notice %}}
+
+{{% notice note %}}
+Apenas para os pedidos de partido/federação isolados é que os DRAPs são distribuídos por prevenção.
+{{% /notice %}}
+
+
 
 
 Documentos que são utilizados nesse peticionamento inicial:
