@@ -1,5 +1,5 @@
 ---
-title: "Automação de etiquetas para RCAND, PCE e PC-PP"
+title: "Automação de etiquetas RCAND, PCE e PC-PP"
 date: 2024-08-05T14:16:02-03:00
 linkTitle: "Automação de etiquetas RCAND e PCE"
 weight: 3
