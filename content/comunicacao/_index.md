@@ -24,9 +24,16 @@ Isso é feito com base no sigilo do processo: em sendo ele sigiloso, o DJe omiti
 Na tarefa **Preparar ato de comunicação,** no 2º passo, existe a opção **sigiloso** ao lado do nome da parte, mas ela não tem efeito na publicação do DJe. Ou seja, se o processo não for sigiloso, os dados da parte aparecerão mesmo que esta opção esteja selecionada. A finalidade da opção Sigiloso na tarefa Preparar ato de comunicação é fazer com que o documento que será criado/selecionado em Instrumento de comunicação (após clicar no lápis) seja sigiloso. No entanto, a recomendação é NÃO utilizar essa marcação. Ela não se comporta como o esperado e depende de correção.
 {{% /notice %}}
 
+
+## Intimação em lote
+
+A intimação em lote é a opção que o usuário tem, nas tarefas **Preparar comunicação**, de realizar a comunicação com vários processos de uma vez só.
+
 {{< video src="/videos/intimacao-em-lote.mp4">}}
 
-### Diário Eleitoral
+A intimação só é possível para tipos de documento configurados no parâmetro xxx. Por exemplo: caso o parâmetro esteja configurado com os tipos EDITAL, DESPACHO, DECISÃO e ACÓRDÃO e nem todos os processos selecionados no lote tiver algum documento de um desses tipos, o campo **Tipo de documento** não apresenta nenhuma opção.
+
+## Diário Eleitoral
 
 Existe uma diferença entre as configurações do DJE para publicações de matérias eleitorais e a marcação “período especial” no DJE (disponível quando o ato de comunicação é feito no meio DJE.
 
