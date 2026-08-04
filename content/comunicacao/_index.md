@@ -31,7 +31,7 @@ A intimação em lote é a opção que o usuário tem, nas tarefas **Preparar co
 
 {{< video src="/videos/intimacao-em-lote.mp4">}}
 
-A intimação só é possível para tipos de documento configurados no parâmetro xxx. Por exemplo: caso o parâmetro esteja configurado com os tipos EDITAL, DESPACHO, DECISÃO e ACÓRDÃO e nem todos os processos selecionados no lote tiver algum documento de um desses tipos, o campo **Tipo de documento** não apresenta nenhuma opção.
+A intimação só é possível para tipos de documento configurados no parâmetro **pje:tarefas:lote:tiposDocumentoProcessoPermitidos**. Por exemplo: caso o parâmetro esteja configurado com os tipos EDITAL, DESPACHO, DECISÃO e ACÓRDÃO e nem todos os processos selecionados no lote tiver algum documento de um desses tipos, o campo **Tipo de documento** não apresenta nenhuma opção.
 
 ## Diário Eleitoral
 
