@@ -29,9 +29,42 @@ Na tarefa **Preparar ato de comunicação,** no 2º passo, existe a opção **si
 
 A intimação em lote é a opção que o usuário tem, nas tarefas **Preparar comunicação**, de realizar a comunicação com vários processos de uma vez só.
 
+O usuário tem a possibilidade de indicar a criação de documento novo para ao menos um dos expedientes, situação em que ele seleciona o modelo a ser utilizado para criação.
+
+Após a finalização do preenchimento das informações, o sistema iniciará a construção dos expedientes, encaminhando os processos para uma tarefa de aguardo do processamento. Em caso de erro no processamento para criação de expedientes para um processo, ele é movimentado para uma tarefa de erro; em caso de sucesso na criação dos expedientes para o processo, ele é movimentado no caminho normal do fluxo para envio dos expedientes pelo meio escolhido.
+
+No caso de seleção de documento novo para criação do expediente, é feita validação de que o tipo de documento escolhido para a comunicação tem modelos disponíveis.
+
+No caso dos processos, é feita a verificação se existem partes no polo selecionado e, em caso de intimação por meio de sistema, se todas as partes do tipo de destinatário selecionado podem ser intimadas por esse meio.
+
+Em caso de qualquer erro de validação, a resposta é retornada para o usuário e nenhum processo do lote é enviado para construção da intimação.
+
+<!--
+Parâmetros utilizados pela funcionalidade:
+
+
+pje:tarefas:lote:tiposDocumentoProcessoPermitidos: Lista de códigos de tipo de documento separados por vírgula que indica quais tipos de documento existentes nos processos poderão ser utilizados na funcionalidade de ato de comunicação em lote. O padrão solicitado pela Assessoria foi o Edital - código 14404.
+
+Quando não existe ou está desativado, impede a utilização deste recurso na funcionalidade.
+
+Quando existe com valor inválido ou quando pelo menos um dos tipos listados não existe em todos os processos do lote, também impede a utilização deste recurso na funcionalidade.
+
+pje:tarefas:lote:permiteMultiplosExpedientesPorPolo: Parâmetro que indica se a funcionalidade permitirá a criação de mais de um expediente por polo. O padrão solicitado pela Assessoria é falso. Caso o parâmetro não exista ou tenha valor diferente de boolean, também é considerado falso.
+
+pje:tarefas:lote:qtdeMaximaProcessoAtoComunicacaoLote: Parâmetro que indica a quantidade máxima de processos que podem ser selecionados para o processamento em lote. O padrão é 50.
+
+pje:fluxo:lote:atoComunicacao:tarefaAguardar: Parâmetro que indica o nome da tarefa utilizada pela funcionalidade de ato de comunicação em lote para manter os processos que estão aguardando o processamento para criação de seus expedientes.
+
+pje:comunicacao:prazo:default: Parâmetro que indica o prazo numérico padrão a ser mostrado na funcionalidade. Segue a mesma regra e comportamento da funcionalidade individual.
+
+pje:fluxo:publicacao:idDestinacaoPessoaCienciaPublica: Parâmetro que indica o id da pessoa de ciência pública. Quando configurado e referenciando uma pessoa válida no sistema, habilita a opção Ciência Pública na lista de destinatários.
+
+pje:comunicacao:meios:impedemDocumentoProcesso: Parâmetro que lista meios que impedem a utilização de documentos existentes em processos sigilosos. Caso este parâmetro esteja configurado e o lote tenha ao menos um processo sigiloso, a funcionalidade impedirá a seleção de documento existente para todos os processos.
+-->
+
 {{< video src="/videos/intimacao-em-lote.mp4">}}
 
-A intimação só é possível para tipos de documento configurados no parâmetro **pje:tarefas:lote:tiposDocumentoProcessoPermitidos**. Por exemplo: caso o parâmetro esteja configurado com os tipos EDITAL, DESPACHO, DECISÃO e ACÓRDÃO e nem todos os processos selecionados no lote tiver algum documento de um desses tipos, o campo **Tipo de documento** não apresenta nenhuma opção.
+A intimação só é possível para tipos de documento configurados no parâmetro **pje:tarefas:lote:tiposDocumentoProcessoPermitidos**. Por exemplo: caso o parâmetro esteja configurado com o tipo **Edital** e nem todos os processos selecionados no lote tiver algum documento do tipo **Edital**, o campo **Tipo de documento** não apresenta nenhuma opção.
 
 ## Diário Eleitoral
 
