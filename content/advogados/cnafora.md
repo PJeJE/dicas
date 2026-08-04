@@ -2,6 +2,7 @@
 title: "Indisponibilidade na OAB"
 date: 2024-09-16T19:29:29-03:00
 linkTitle: "Indisponibilidade na OAB"
+weight: 2
 ---
 
 O cadastro de advogados no PJe ocorre quando o advogado é inserido na autuação de um processo ou pelo próprio login do advogado. Esse cadastro sempre utiliza o serviço do **Cadastro Nacional de Advogados** mantido pelo **Conselho Federal da OAB** - https://cna.oab.org.br.
