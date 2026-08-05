@@ -24,10 +24,10 @@ A ferramenta anonimiza os dados apenas na Consulta Pública do PJe, sem afetar a
 
 ### 1.1 Premissas
 
-- O documento deve ser sinalizado na árvore do processo como anonimizado automaticamente;
-- A ferramenta permite a retificação (inclusão ou remoção de anonimizações), sempre a partir do arquivo original, por segurança, não é possível recuperar informações anonimizadas a partir do arquivo já anonimizado;
+- O documento é sinalizado na árvore do processo como anonimizado automaticamente;
+- A ferramenta permite a retificação (inclusão ou remoção de anonimizações), sempre a partir do arquivo original — por segurança, não é possível recuperar informações anonimizadas a partir do arquivo já anonimizado;
 - As retificações realizadas refletem apenas na Consulta Pública Unificada do PJe.
-
+  
 ---
 
 ## 2. Anonimização Manual
@@ -35,13 +35,12 @@ A ferramenta anonimiza os dados apenas na Consulta Pública do PJe, sem afetar a
 A anonimização manual (**Anonimizador Manual**) é a funcionalidade do PJe que permite ocultar (tarjar) informações sensíveis em documentos já juntados aos autos, mediante decisão judicial. Ela complementa a anonimização automática: a partir da versão original do documento, é possível substituir uma anonimização automática já existente, ou anonimizar documentos que ainda não foram processados automaticamente.
 
 ### 2.1 Premissas
-
-- O tarjamento manual deve ter reflexos para usuários internos e externos e também na Consulta Pública Unificada do PJe;
-- O documento original não pode ser anonimizado. A secretaria, conforme decisão judicial, irá desentranhar o documento original ou torná-lo sigiloso;
-- O documento tarjado deve ser juntado no PJe com certidão. Para tanto, o sistema abre a tela de editor de textos para elaboração da certidão e assinatura;
-- Não é permitida a retificação da anonimização manual. Para ajustes, o usuário deve baixar o documento original e realizar nova juntada após o devido tratamento;
+- O tarjamento manual tem reflexos para usuários internos e externos e também na Consulta Pública Unificada do PJe;
+- O documento original não é anonimizado. A secretaria, conforme decisão judicial, desentranha o documento original ou o torna sigiloso;
+- O documento tarjado é juntado no PJe com certidão — para isso, o sistema abre a tela de editor de textos para elaboração da certidão e assinatura;
+- A anonimização manual não permite retificação. Para ajustes, o usuário baixa o documento original e realiza nova juntada após o devido tratamento;
 - Existe a possibilidade de anonimização manual com reflexos exclusivos na Consulta Pública Unificada;
-- O documento deve ser sinalizado na árvore do processo como anonimizado manualmente.
+- O documento é sinalizado na árvore do processo como anonimizado manualmente.
 
 ### 2.2 Acesso
 
@@ -51,7 +50,6 @@ A partir das tarefas de análise, o processo pode ser encaminhado para a tarefa 
 - Analisar Determinação — Urgentes;
 - Analisar Processo;
 - Analisar Processo — Urgentes.
-
 
 
 ### 2.3 Fluxo de Uso
