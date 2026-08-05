@@ -25,7 +25,7 @@ A ferramenta anonimiza os dados apenas na Consulta Pública do PJe, sem afetar a
 ### 1.1 Premissas
 
 - O documento é sinalizado na árvore do processo como anonimizado automaticamente;
-- A ferramenta permite a retificação (inclusão ou remoção de anonimizações), sempre a partir do arquivo original — por segurança, não é possível recuperar informações anonimizadas a partir do arquivo já anonimizado;
+- A ferramenta permite a retificação (inclusão ou remoção de anonimizações), sempre a partir do arquivo original. Por segurança, não é possível recuperar informações anonimizadas a partir do arquivo já anonimizado;
 - As retificações realizadas refletem apenas na Consulta Pública Unificada do PJe.
   
 ---
