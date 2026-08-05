@@ -84,11 +84,11 @@ Na liberação da funcionalidade de automação de etiquetas, foram divulgadas a
 
 Nos ambientes do 1º grau, ao ser utilizada a transição Remeter para automação de etiquetas PCE (processos da classe PCE) o sistema vinculará, de forma automática, algumas etiquetas para sinalizar a presença ou falta de alguns documentos. A transição está disponível a partir das tarefas de análise. Sempre que acionado, o sistema apagará as etiquetas com o prefixo PJE_IA e aplicará novas etiquetas de acordo com a ausência ou presença de documentos.
 
-Nos ambientes do 2º e 3º graus, a mesma transição estará disponível nas seguintes tarefas:
+Nos ambientes do **2º e 3º** graus, a mesma transição estará disponível nas seguintes tarefas:
 
-1- Verificar e certificar dados (Unidade de Autuação)
-2- Analisar processo/Analisar determinação (Unidade de Processamento)
-3- Analisar Processo – ASEPA (Unidade de Exame de Constas)
+-  Verificar e certificar dados (Unidade de Autuação)
+-  Analisar processo/Analisar determinação (Unidade de Processamento)
+-  Analisar Processo – ASEPA (Unidade de Exame de Constas)
 
 ### Tipos de Documentos relativos à Prestação de Contas Eleitorais
 
