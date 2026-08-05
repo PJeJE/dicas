@@ -5,9 +5,7 @@ linkTitle: "Certidão de publicação em Sessão"
 weight: 8
 ---
 
-{{% notice warning %}}
-Esta funcionalidade está em fase final de homologação. Portanto, **ainda não disponível nos ambientes de produção**.
-{{% /notice %}}
+
 
 É possível juntar automaticamente, após a publicação do acórdão em Sessão, uma certidão com os dados da publicação, por meio da configuração dos seguintes parâmetros:
 
