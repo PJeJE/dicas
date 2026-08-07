@@ -14,7 +14,6 @@ Ao solicitar a habilitação, o advogado:
 1 - Informa o tipo de solicitação, que poderá ser:
 * Habilitação Simples, feita em seu nome
 * Habilitação por substabelecimento, feita em nome de terceiros (permitida apenas quando o solicitante já estiver cadastrado como representante da parte, caso contrário, tal opção não é ativada.)
-
  
 2 - Seleciona a parte, a qual representará, fazendo, em seguida, a marcação quanto ao momento em que apresentará o instrumento de mandato.  
 
