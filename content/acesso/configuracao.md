@@ -23,7 +23,9 @@ Para corrigir a falha de acesso ao sistema, realize os procedimentos abaixo, con
 * Google Chrome
 
 Abra o navegador e digite na barra de endereços: chrome://flags/
+
 No campo de pesquisa localizado na parte superior da página, digite Network.
+
 Localize a opção Local Network Access Checks e altere a configuração para Disabled.
 
 Após realizar a modificação, reinicie o navegador e tente acessar novamente o sistema.
@@ -31,21 +33,31 @@ Após realizar a modificação, reinicie o navegador e tente acessar novamente o
 * Microsoft Edge
 
 Abra o Edge e digite na barra de endereços: edge://flags/
+
 No campo de pesquisa, digite Network.
+
 Localize a opção Block insecure private network requests e altere para Disabled.
+
 Reinicie o navegador e realize novo teste de acesso.
 
 * Mozilla Firefox
+
 Abra o Firefox e digite na barra de endereços: about:config
+
 Aceite os riscos para prosseguir.
+
 No campo de pesquisa, digite network.security.ports.bypass.
+
 Adicione a porta necessária ou desative a opção correspondente.
 
 Reinicie o navegador e teste novamente o acesso.
 
 *Opera
+
 Abra o navegador e digite na barra de endereços: opera://flags/
+
 No campo de pesquisa, digite Network.
+
 Localize a opção Local Network Access Checks e altere para Disabled.
 
 Reinicie o navegador e realize novo teste.
