@@ -52,7 +52,7 @@ Adicione a porta necessária ou desative a opção correspondente.
 
 Reinicie o navegador e teste novamente o acesso.
 
-*Opera
+* Opera
 
 Abra o navegador e digite na barra de endereços: opera://flags/
 
