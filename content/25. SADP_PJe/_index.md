@@ -9,7 +9,7 @@ pre = "<b>25. </b>"
 ### Seção 25
 
 
-## Guia prático para migração de processos físicos e híbridos para o PJe.
+# Guia prático para migração de processos físicos e híbridos para o PJe.
 
 
 
