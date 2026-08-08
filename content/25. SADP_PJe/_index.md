@@ -21,7 +21,7 @@ Este manual tem como objetivo orientar os servidores da Justiça Eleitoral no pr
 
 Para utilizar a ferramenta de migração, o usuário deve observar os seguintes critérios de acesso:
 
-### Processo > Outras Ações > Migrar processo do SADP.
+#### Processo > Outras Ações > Migrar processo do SADP.
 
 <img width="1037" height="452" alt="image" src="https://github.com/user-attachments/assets/701d4c1e-32fd-4dab-9ac0-9f7b5419d2c7" />
 
