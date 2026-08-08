@@ -88,5 +88,6 @@ Após validar todos os campos, clique em **"Confirmar Migração"**. O sistema p
 
 * **Integridade:** Caso perceba divergências graves nos dados após a migração, não realize atos processuais e reporte o erro imediatamente.
 * **Dúvidas:** Em caso de inconsistências técnicas ou erros de sistema durante o processo, abra um chamado enviando e-mail para `8800@tse.jus.br`.
+  
 
 <img width="1037" height="452" alt="image" src="https://github.com/user-attachments/assets/43c59268-d4bb-40de-993a-9c56a5d45460" />
