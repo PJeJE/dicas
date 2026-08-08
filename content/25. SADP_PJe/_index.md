@@ -30,10 +30,10 @@ Para utilizar a ferramenta de migração, o usuário deve observar os seguintes 
 
 Antes de iniciar a migração, verifique se o processo atende aos requisitos de situação e localidade, conforme o grau de jurisdição:
 
-### 3.1. Primeiro Grau (Zonas Eleitorais)
+#### 3.1. Primeiro Grau (Zonas Eleitorais)
 O usuário só poderá migrar processos que estejam **ARQUIVADOS LOCALMENTE** na Zona Eleitoral em que está logado no momento. Não é possível migrar processos de outras zonas ou que ainda estejam em tramitação ativa no SADP.
 
-### 3.2. Segundo e Terceiro Graus (Tribunais)
+#### 3.2. Segundo e Terceiro Graus (Tribunais)
 Nos Tribunais Regionais e no Tribunal Superior, a migração é permitida para processos que se encontram na fase **ARQUIVO CENTRAL** no sistema SADP.
 
 
