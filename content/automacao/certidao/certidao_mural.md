@@ -31,7 +31,7 @@ No modelo de documento podem ser utilizadas as seguintes variáveis para recuper
 | Id do documento | #{certidaoPublicacaoMuralService.getIdAto()} |
 | Município | #{certidaoPublicacaoMuralService.processo.complementoJE.municipioEleicao.municipio} |
 | Número do processo | #{certidaoPublicacaoMuralService.processo.numeroProcesso} |
-| Relator do processo | #{certidaoPublicacaoMuralService.processo.pessoaRelator != null ? certidaoPublicacaoMuralService.processo.pessoaRelator.pessoa.nome : ''} |
+| Relator do processo | #{certidaoPublicacaoMuralService.processo.pessoaRelator != null ? certidaoPublicacaoMuralService.processo.pessoaRelator.pessoa.nome : "} |
 | Tipo do documento | #{certidaoPublicacaoMuralService.getTipoAto()}  |
 | URL para o documento | #{certidaoPublicacaoMuralService.getUrlVisualizarDocumento()} |
 
