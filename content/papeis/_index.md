@@ -165,7 +165,10 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
 	
 - **pje:papel:podeReclassificarDocumento**:
   - Papel que permite visualizar a aba Expedientes dos autos digitais
-	
+ 
+- **pje:papel:administrarProcuradorias**:
+  - Papel utilizado para pessoas que podem administrar os recursos de procuradorias - para pessoas que detêm esse perfil algumas permissões relacionadas à atividade jurisdicional são retiradas
+	 	
 - **pje:visualizaAbaAssociados**
   - Papel que permite visualizar a aba Associados dos autos digitais
  
@@ -347,10 +350,6 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
 	public static final String ADMINISTRADOR_SOCIEDADE_ADVOGADO = "pje:papel:permissaoAdministrarSociedade";
 	
 	
-	 * Papel para Administrar os recursos de procuradorias:
-	 *  
-	 
-	public static final String PJE_ADMINISTRADOR_PROCURADORIA = "pje:papel:administrarProcuradorias";
 	
 	
 	 * Papel para Administrar os recursos de órgão julgador:
