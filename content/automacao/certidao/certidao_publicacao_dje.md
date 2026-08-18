@@ -30,7 +30,7 @@ No modelo de documento podem ser utilizadas as seguintes variáveis para recuper
 | Id do documento | #{certidaoPublicacaoDJEService.getIdAto()} |
 | Município | #{certidaoPublicacaoDJEService.processo.complementoJE.municipioEleicao.municipio} |
 | Número do processo | #{certidaoPublicacaoDJEService.processo.numeroProcesso} |
-| Relator do processo | #{certidaoPublicacaoDJEService.processo.pessoaRelator != null ? certidaoPublicacaoDJEService.processo.pessoaRelator.pessoa.nome : ''} |
+| Relator do processo | ```#{certidaoPublicacaoDJEService.processo.pessoaRelator != null ? certidaoPublicacaoDJEService.processo.pessoaRelator.pessoa.nome : ''} ```|
 | Tipo do documento | #{certidaoPublicacaoDJEService.getTipoAto()}  |
 | URL para o documento | #{certidaoPublicacaoDJEService.getUrlVisualizarDocumento()} |
 
