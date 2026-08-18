@@ -32,7 +32,7 @@ No modelo de documento podem ser utilizadas as seguintes variáveis para recuper
 | Id do documento | #{certidaoPublicacaoAcordaoService.getIdAto()} |
 | Município | #{certidaoPublicacaoAcordaoService.processo.complementoJE.municipioEleicao.municipio} |
 | Número do processo | #{certidaoPublicacaoAcordaoService.processo.numeroProcesso} |
-| Relator do processo | '''#{certidaoPublicacaoAcordaoService.processo.pessoaRelator != null ? certidaoPublicacaoAcordaoService.processo.pessoaRelator.pessoa.nome : ''} '''|
+| Relator do processo | #{certidaoPublicacaoAcordaoService.processo.pessoaRelator != null ? certidaoPublicacaoAcordaoService.processo.pessoaRelator.pessoa.nome : ''} |
 | Tipo do documento | #{certidaoPublicacaoAcordaoService.getTipoAto()}  |
 | URL para o documento | #{certidaoPublicacaoAcordaoService.getUrlVisualizarDocumento()} |
 
