@@ -4,9 +4,9 @@ date: 2022-11-29T16:31:12-03:00
 weight: 7
 ---
 
-Na Justiça eleitoral, ao ser proferida decisão em processo na sessão de julgamento, a intimação do acórdão pode ser feita na própria sessão de julgamento, passando a fluir prazo a partir dali.
+Na Justiça eleitoral, ao ser proferida decisão em processo na sessão de julgamento, a intimação do resultado da sessão pode ser feita na própria sessão de julgamento, passando a fluir prazo a partir dali.
 
-No PJe, essa opção pode ser realizada por meio da publicação do acórdão ou da certidão de julgamento em sessão.
+No PJe, essa opção pode ser realizada por meio da publicação do acórdão ou da certidão de julgamento em sessão, desde que esses documentos estejam assinados.
 
 A opção está disponível no papel de assessor de plenário, menu **Audiências e Sessões - Publicação de decisões em sessão.**
 
