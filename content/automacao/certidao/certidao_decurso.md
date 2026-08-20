@@ -88,7 +88,7 @@ Em vez desta **incorreta**:
 ```
 
 
-## Variáveis do modelo de certidão de decurso
+## Variáveis do modelo de certidão de decurso -  - ao copiar, as variáveis que contém aspas simples estão sendo levadas com caracter errado. Redigite as aspas nesses casos
 
 No modelo de documento podem ser utilizadas as seguintes variáveis para recuperação de informações:
 
@@ -98,8 +98,8 @@ No modelo de documento podem ser utilizadas as seguintes variáveis para recuper
 |---|---|
 | Tipo de expediente (Exemplo: Intimação, Edital, Citação) | #{processoParteExpedienteHome.instance.processoExpediente.tipoProcessoDocumento} |
 | Nome do intimado | #{processoParteExpedienteHome.instance.nomePessoaParte} |
-| Meio de expedição (Exemplo: Correios, Mural, Expedição eletrônica) | '''#{processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente == 'E' ? 'Expedição eletrônica' : processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente.label}''' |
-| Data contida no movimento de decurso | '''#{dateUtil.dateToString(processoParteExpedienteHome.instance.dtPrazoLegal, 'dd/MM/yyyy HH:mm:ss')}'''
+| Meio de expedição (Exemplo: Correios, Mural, Expedição eletrônica) | #{processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente == 'E' ? 'Expedição eletrônica' : processoParteExpedienteHome.instance.processoExpediente.meioExpedicaoExpediente.label} |
+| Data contida no movimento de decurso | #{dateUtil.dateToString(processoParteExpedienteHome.instance.dtPrazoLegal, 'dd/MM/yyyy HH:mm:ss')}
 
 {{</table>}}
   
