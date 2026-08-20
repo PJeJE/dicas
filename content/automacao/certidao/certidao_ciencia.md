@@ -86,7 +86,7 @@ Em vez desta **incorreta**:
 ```
 
 
-## Variáveis do modelo de certidão de ciência
+## Variáveis do modelo de certidão de ciência - ao copiar, as variáveis que contém aspas simples estão sendo levadas com caracter errado. Redigite as aspas nesses casos
 
 No modelo de documento podem ser utilizadas as seguintes variáveis para recuperação de informações:
 
