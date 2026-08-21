@@ -110,7 +110,7 @@ O PJe exibe a área de trabalho do usuário de acordo com seu perfil e localiza�
 
 Os processos judiciais tramitam seguindo um fluxo definido para cada classe processual, percorrendo as tarefas e passos previamente determinados pela área judiciária do tribunal, sem prejuízo de se
 contemplar a possibilidade de o processo escapar do funcionamento normal do fluxo em situações excepcionais. A definição de tarefas e a associação da responsabilidade pela execução das tarefas a perfis
-resultam na definição da [árvore de tarefas](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#.C3.81rvore_de_tarefas "Manual de referência"), onde são agrupadas as informações de forma a facilitar a execução de tarefas pendentes para o usuário vinculado ao papel específico. Na configuração de tarefas do fluxo, os nomes das tarefas pendentes vinculadas às raias são utilizados para exibição na árvore de tarefas. As raias (swimlanes) agrupam papéis que podem executar as tarefas.
+resultam na definição da [árvore de tarefas](https://docs.pje.jus.br/manuais-de-uso/Manual%20de%20referencia%20PJe%201.0#%C3%A1rvore-de-tarefas), onde são agrupadas as informações de forma a facilitar a execução de tarefas pendentes para o usuário vinculado ao papel específico. Na configuração de tarefas do fluxo, os nomes das tarefas pendentes vinculadas às raias são utilizados para exibição na árvore de tarefas. As raias (swimlanes) agrupam papéis que podem executar as tarefas.
 
 As tarefas que um servidor ou magistrado podem executar são configuráveis através da definição do fluxo, mas vamos descrever aqui as tarefas usuais dos painéis que estão definidos no PJe.
 
@@ -166,9 +166,9 @@ Presente só nas instalações do segundo grau
 O advogado/procurador tem acesso a todos os processos vinculados a ele.
 
 
+<!--
 
-
-### [ Painel do magistrado ]{#Painel_do_magistrado .mw-headline}
+### Painel do magistrado 
 
 O painel do magistrado é similar ao [painel do
 usuário](/wiki/funcionalidades.md#Painel_do_usu.C3.A1rio "Funcionalidades"),
@@ -240,15 +240,10 @@ Regras relacionadas:
 
 -   [RN503](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn503 "Regras de negócio")
 
-\
+\-->
 
-###### [ Tarefas de processos ]{#Tarefas_de_processos .mw-headline}
 
-É exibida a [árvore de
-tarefas](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#.C3.81rvore_de_tarefas "Manual de referência").
-Apresentamos a descrição de algumas tarefas mais adiante.
-([Tarefas](/wiki/funcionalidades.md#Tarefas "Funcionalidades"))
-
+<!--
 ##### [ Mover para caixa ]{#Mover_para_caixa .mw-headline}
 
 Opção acionada através do ícone
@@ -263,6 +258,10 @@ personalizada.
 ##### [ Editar caixa ]{#Editar_caixa .mw-headline}
 
 ##### [ Remover caixa ]{#Remover_caixa .mw-headline}
+
+-->
+
+<!--
 
 #### [ Expedientes ]{#Expedientes_2 .mw-headline}
 
@@ -624,43 +623,25 @@ as seguintes informações:
 
 ##### [ Processos aguardando encaminhamento do secretário de audiência(atas assinadas) ]{#Processos_aguardando_encaminhamento_do_secret.C3.A1rio_de_audi.C3.AAncia.28atas_assinadas.29 .mw-headline}
 
-#### [ Últimas tarefas realizadas ]{#.C3.9Altimas_tarefas_realizadas .mw-headline}
+-->
 
-### [ Painel do usuário ]{#Painel_do_usu.C3.A1rio .mw-headline}
+#### Últimas tarefas realizadas 
 
-Painel exibido para [usuários
-internos](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn394 "Regras de negócio")
-que tenham sido cadastrados como \"servidor\" e tenham sido associados a
-um órgão julgador. O painel é similar ao [painel do
-magistrado](/wiki/funcionalidades.md#Painel_do_magistrado "Funcionalidades"),
-sendo diferenciado pelas permissões relacionadas às tarefas.
+### Painel do usuário
 
-\
+É exibida a [árvore de tarefas](https://docs.pje.jus.br/manuais-de-uso/Manual%20de%20referencia%20PJe%201.0#%C3%A1rvore-de-tarefas). Apresentamos a descrição de algumas tarefas mais adiante.
 
-### [ Painel do magistrado na sessão ]{#Painel_do_magistrado_na_sess.C3.A3o .mw-headline}
+Esse painel é exibido para [usuários internos](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn394 "Regras de negócio") que tenham sido cadastrados como \"servidor\" e tenham sido associados a alguma localização configurada em fluxos no tribunal.
 
-A tela inicial exibirá um calendário com todas as sessões do órgão
-julgador colegiado do magistrado, agrupadas por dia.
 
-Os dias em que houver sessão (ões) já criadas estarão disponíveis para
-serem selecionados. Ao selecionar, a tela do painel do magistrado será
-apresentada. O PJe tem duas telas possíveis e a configuração de qual
-tela será exibida é feita por meio do parâmetro
-pje:painel:magistrado:sessao:novo. O valor do parâmetro poe ser \"t\" ou
-\"f\", o que indicará a abertura ou não da versão mais atual do painel.
-O painel exibe inicialmente os dados da sessão, se há ou não processos
-apregoados, se a sessão contínua ou não, um formulário de pesquisa de
-processos e os processos da sessão. Para cada processo, são apresentados
-os dados básicos, a possibilidade de abertura dos autos, que obedecerá
-as regras de processos com marcação de segredo de justiça, a ordem dele
-na pauta e, a partir da seleção do processo, são exibidos o placar e
-algumas acões dependentes da situação e do perfil e localização do
-usuário que está operando:
+### Painel do magistrado na sessão
 
-\- Menu \"Ações como vogais\" para o caso de magistrado não relator e
-(não sessão contínua or sessão iniciada) Registros disponíveis para
-órgãos julgadores cadastrados como participantes da sessão e processos
-em julgamento:
+A tela inicial exibirá um calendário com todas as sessões do órgão julgador colegiado do magistrado, agrupadas por dia.
+
+Os dias em que houver sessão (ões) já criadas estarão disponíveis para serem selecionados. Ao selecionar, a tela do painel do magistrado será apresentada. O PJe tem duas telas possíveis e a configuração de qual tela será exibida é feita por meio do parâmetro pje:painel:magistrado:sessao:novo. O valor do parâmetro poe ser \"t\" ou \"f\", o que indicará a abertura ou não da versão mais atual do painel. O painel exibe inicialmente os dados da sessão, se há ou não processos apregoados, se a sessão contínua ou não, um formulário de pesquisa de processos e os processos da sessão. Para cada processo, são apresentados os dados básicos, a possibilidade de abertura dos autos, que obedecerá as regras de processos com marcação de segredo de justiça, a ordem dele
+na pauta e, a partir da seleção do processo, são exibidos o placar e algumas acões dependentes da situação e do perfil e localização do usuário que está operando:
+
+- Menu **Ações como vogais** para o caso de magistrado não relator e (não sessão contínua or sessão iniciada) Registros disponíveis para órgãos julgadores cadastrados como participantes da sessão e processos em julgamento:
 
     Registrar pedido de vista
     Registrar/Retirar registro impedimento ou suspeição
@@ -668,43 +649,30 @@ em julgamento:
     Incluir anotações
     Para o caso de sessão contínua, exibir opção de "Enviar para pauta presencial"
 
-\
-- Menu \"Ações do relator\" para o caso de magistrado relator
+
+- Menu **Ações do relator** para o caso de magistrado relator
 
     Incluir anotações
     Editar voto
     Retirar para reexame, que
     Para o caso de sessão contínua, exibir opção de "Enviar para pauta presencial" 
 
-\
-O placar de julgamento deve exibir votos agrupados por órgão julgador,
-além de agrupar também os não proferidos e os impedidos/suspeitos
 
-Ao redigir voto, os documentos pertinentes ao órgão julgados será
-apresentados para edição. Para o usuário magistrado, será possível
-assinar os documentos. Conforme já ocorre na assinatura de documentos de
-sessão no painel do usuário, a assinatura não atribui data de juntada, o
-que só ocorrerá após assinatura do acórdão. Também conforme já ocorre
-nas tarefas do painel do usuário, não é permitido anexar documentos
-pela.
+O placar de julgamento deve exibir votos agrupados por órgão julgador, além de agrupar também os não proferidos e os impedidos/suspeitos
 
-As opções dos menus só devem estar disponíveis para sessões em
-andamento.
+Ao redigir voto, os documentos pertinentes ao órgão julgados será apresentados para edição. Para o usuário magistrado, será possível assinar os documentos. Conforme já ocorre na assinatura de documentos de sessão no painel do usuário, a assinatura não atribui data de juntada, o que só ocorrerá após assinatura do acórdão. Também conforme já ocorre nas tarefas do painel do usuário, não é permitido anexar documentos pela.
 
-Para o painel do magistrado novo, se o processo tiver vinculado a um
-bloco de julgamento, as ações possíveis serão referentes apenas ao bloco
-de julgamento e apenas para agrupamento por relator, já que o bloco que
-não foi agrupado por relator só permite julgamento unânime, ação essa
-marcada pelo secretário da sessão.
+As opções dos menus só devem estar disponíveis para sessões em andamento.
 
-A inclusão de anotações é possível mesmo que a sessão não esteja em
-andamento.
+Para o painel do magistrado novo, se o processo tiver vinculado a um bloco de julgamento, as ações possíveis serão referentes apenas ao bloco de julgamento e apenas para agrupamento por relator, já que o bloco que não foi agrupado por relator só permite julgamento unânime, ação essa marcada pelo secretário da sessão.
 
-### [ Painel do oficial de justiça ]{#Painel_do_oficial_de_justi.C3.A7a .mw-headline}
+A inclusão de anotações é possível mesmo que a sessão não esteja em andamento.
+
+### Painel do oficial de justiça
 
 Perfil: oficial de justiça
 
-\
+
 O usuário pode filtrar os expedientes através dos seguintes filtros:
 
 -   Nome do destinatário ([campo de texto
