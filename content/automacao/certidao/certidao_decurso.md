@@ -88,7 +88,11 @@ Em vez desta **incorreta**:
 ```
 
 
-## Variáveis do modelo de certidão de decurso -  - ao copiar, as variáveis que contém aspas simples estão sendo levadas com caracter errado. Redigite as aspas nesses casos
+## Variáveis do modelo de certidão de decurso 
+
+{{% notice caution %}}
+Ao copiar e colar variáveis que contém aspas simples, as aspas simples estão sendo levadas para o destino com caracter errado. Redigite as aspas nesses casos.
+{{% /notice%}}
 
 No modelo de documento podem ser utilizadas as seguintes variáveis para recuperação de informações:
 
