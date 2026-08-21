@@ -2868,7 +2868,7 @@ será exibida para que o usuário selecione quais processos irão compor a
 publicação, junto com um formulário de pesquisa para auxiliar na
 verificação da lista.
 
-\
+
 O botão \"Publicar lista\" será apresentado para usuários detentores do
 papel idSecretarioSessao.
 
@@ -2883,268 +2883,36 @@ de intimação de pauta desde que as respectivas intimações tenham sido
 publicadas no DJ com sucesso. (diário retornou a data de publicação para
 o PJe)
 
-#### [ Votação antecipada ]{#Vota.C3.A7.C3.A3o_antecipada .mw-headline}
 
-[ Configuração [(cadastros básicos)](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Cadastros_dispon.C3.ADveis "Manual de referência") ]{#Configura.C3.A7.C3.A3o_.28cadastros_b.C3.A1sicos.29 .mw-headline}
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Configuração
 
-Detalhes sobre as funcionalidades no menu \"Configurações\" estão
-disponíveis no [manual de
-referência](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Cadastros_dispon.C3.ADveis "Manual de referência").\
-Informações detalhadas sobre as dependências geradas pelas alterações no
-menu configurações podem ser encontradas nas [instruções de configuração
-inicial](http://titanio09.cnj.jus.br/wiki/index.php/Configura%C3%A7%C3%A3o_inicial#teste "Configuração inicial")
-do PJe.
+Os cadastros básicos do PJe são acessados por meio do menu **Configuração**. Detalhes sobre as funcionalidades no menu **Configuração** estão
+disponíveis no [manual de referência](https://docs.pje.jus.br/manuais-de-uso/Manual%20de%20referencia%20PJe%201.0/#cadastros-dispon%C3%ADveis). Informações detalhadas sobre as dependências geradas pelas alterações no menu configurações podem ser encontradas nas [instruções de configuração inicial](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Configura%C3%A7%C3%B5es%20iniciais/) do PJe.
 
-[ Gestão ]{#Gest.C3.A3o .mw-headline}
--------------------------------------
+### PJe PUSH 
 
-    Justiça aberta - Corregedoria
-     Estatísticas
-    Monitoramento PJe
+PJe Push é um tipo de tecnologia utilizada para distribuição de conteúdo informativo relativo às atualizações dos processos que estão transitando no PJe. Os informativos são enviados para o e-mail fornecido pelo usuário no cadastro. Pode utilizar-se desse serviço tanto advogados, procuradores, magistrados, servidores cadastrados no PJe, quanto qualquer cidadão comum que tenha interesse no acompanhamento de algum processo. Informações sobre como utilizar o PJe Push consulte [aqui](http://titanio09.cnj.jus.br/wiki/index.php/Configura%C3%A7%C3%A3o_inicial#PJe_PUSH "Configuração inicial")
 
-### [ Relatório de produtividade órgão julgador/magistrado ]{#Relat.C3.B3rio_de_produtividade_.C3.B3rg.C3.A3o_julgador.2Fmagistrado .mw-headline}
+### Minhas assinaturas 
 
-O relatório de produtividade deverá consultar o quantitativo de cada
-evento (movimento do processo), separados por juizados (órgão julgador)
-ou por magistrados.
+Essa opção permite ao usuário do PJe Push cadastrar os processos que deseja receber os informativos. É executado uma rotina diária, que envia um e-mail com o resumo das movimentações feitas nos processos que foram marcados para monitoramento pelo usuário.
 
-Pendência no Jira: <http://www.cnj.jus.br/jira/browse/PJEII-4672>
+#### Assinatura digital
 
-[ PJe PUSH ]{#PJe_PUSH .mw-headline}
-------------------------------------
+O conceito de autenticidade de um documento está vinculado à identidade de seu remetente. A certeza da autenticidade deve estar sempre vinculada a uma característica unívoca da pessoa que assina um documento. Ao longo da tramitação processual, é necessário que se tenha absoluta certeza de que o remetente indicado seja efetivamente o signatário daquele documento eletronicamente produzido ou transmitido. Essa garantia da autoria do documento, conforme determina a lei [11.419/06](http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11419.htm) pode ser obtida pelo uso de assinatura digital e é extensiva ao envio de petições, de recursos e à prática de atos processuais em geral. Sendo assim, sempre que necessária assinatura de documentos inseridos no processo, o PJe se [utilizará de assinatura digital](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn283 "Regras de negócio"), similarmente à opção de login.
+O usuário, de posse de seu certificado, o utiliza para atestar que o documento produzido foi assinado por ele.
 
-PJe Push é um tipo de tecnologia utilizada para distribuição de conteúdo
-informativo relativo às atualizações dos processos que estão transitando
-no PJe. Os informativos são enviados para o e-mail fornecido pelo
-usuário no cadastro. Pode utilizar-se desse serviço tanto advogados,
-procuradores, magistrados, servidores cadastrados no PJe, quanto
-qualquer cidadão comum que tenha interesse no acompanhamento de algum
-processo. Informações sobre como utilizar o PJe Push consulte
-[aqui](http://titanio09.cnj.jus.br/wiki/index.php/Configura%C3%A7%C3%A3o_inicial#PJe_PUSH "Configuração inicial")
-.
-
-\
-
-### [ Minhas assinaturas ]{#Minhas_assinaturas .mw-headline}
-
-Essa opção permite ao usuário do PJe Push cadastrar os processos que
-deseja receber os informativos. É executado uma rotina diária, que envia
-um e-mail com o resumo das movimentações feitas nos processos que foram
-marcados para monitoramento pelo usuário.
-
-[ Assinatura digital ]{#Assinatura_digital .mw-headline}
---------------------------------------------------------
-
-O conceito de autenticidade de um documento está vinculado à identidade
-de seu remetente. A certeza da autenticidade deve estar sempre vinculada
-a uma característica unívoca da pessoa que assina um documento. Ao longo
-da tramitação processual, é necessário que se tenha absoluta certeza de
-que o remetente indicado seja efetivamente o signatário daquele
-documento eletronicamente produzido ou transmitido. Essa garantia da
-autoria do documento, conforme determina a lei
-[11.419/06](http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11419.htm){.external
-.text}, pode ser obtida pelo uso de assinatura digital e é extensiva ao
-envio de petições, de recursos e à prática de atos processuais em geral.
-Sendo assim, sempre que necessária assinatura de documentos inseridos no
-processo, o PJe se [utilizará de assinatura
-digital](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn283 "Regras de negócio"),
-similarmente à opção de
-[login](/wiki/funcionalidades.md#Login "Funcionalidades").
-O usuário, de posse de seu certificado, o utiliza para atestar que o
-documento produzido foi assinado por ele.
-
-A assinatura digital no PJe é realizada através de uma applet,
-aplicativo que executa na estação do cliente, junto com o navegador. A
-seguir, os momentos do PJe onde o assinador é acionado:
+A assinatura digital no PJe é realizada através do PjeOffice, aplicativo que executa na estação de trabalho do usuário. A seguir, os momentos do PJe onde o PjeOffice é acionado:
 
 -   login com certificado
--   assinatura de documento individual em texto do editor do PJe nos
-    modos produção e teste
--   assinatura de documento individual acompanhado de anexos nos modos
-    produção e teste
--   assinatura de documentos no fluxo de preparar ato de comunicação nos
-    modos produção e teste
+-   assinatura de documento individual em texto do editor do PJe nos modos produção e teste
+-   assinatura de documento individual acompanhado de anexos nos modos produção e teste
+-   assinatura de documentos no fluxo de preparar ato de comunicação nos modos produção e teste
 
-Em qualquer dos casos, o assinador pode ser utilizado usando o protocolo
-https e http, assim como com a configuração de proxy fazendo o desvio de
-solicitações para o servidor Jboss.
-:::
 
-::: {.printfooter}
-Disponível em
-\"<http://titanio09.cnj.jus.br/wiki/index.php?title=Funcionalidades&oldid=25247>\"
-:::
+##### Aplicativos PJe
 
-::: {#catlinks .catlinks .catlinks-allhidden}
-:::
 
-::: {.visualClear}
-:::
-:::
-:::
-
-::: {#mw-head .noprint}
-::: {#p-personal}
-##### Ferramentas pessoais
-
--   [[Autenticar-se](http://titanio09.cnj.jus.br/wiki/index.php?title=Especial:Autenticar-se&returnto=Funcionalidades "Você é encorajado a autenticar-se, apesar disso não ser obrigatório. [alt-shift-o]")]{#pt-login}
-:::
-
-::: {#left-navigation}
-::: {#p-namespaces .vectorTabs}
-##### Espaços nominais
-
--   [[Página](/wiki/funcionalidades.md "Ver a página de conteúdo [alt-shift-c]")]{#ca-nstab-main}
--   [[Discussão](http://titanio09.cnj.jus.br/wiki/index.php?title=Discuss%C3%A3o:Funcionalidades&action=edit&redlink=1 "Discussão sobre o conteúdo da página [alt-shift-t]")]{#ca-talk}
-:::
-
-::: {#p-variants .vectorMenu .emptyPortlet}
-#### 
-
-##### Variantes[](#)
-
-::: {.menu}
-:::
-:::
-:::
-
-::: {#right-navigation}
-::: {#p-views .vectorTabs}
-##### Visualizações
-
--   [[Ler](/wiki/funcionalidades.md)]{#ca-view}
--   [[Ver
-    código-fonte](http://titanio09.cnj.jus.br/wiki/index.php?title=Funcionalidades&action=edit "Esta página está protegida.
-    Você pode, no entanto, visualiar seu código-fonte. [alt-shift-e]")]{#ca-viewsource}
--   [[Ver
-    histórico](http://titanio09.cnj.jus.br/wiki/index.php?title=Funcionalidades&action=history "Edições anteriores desta página. [alt-shift-h]")]{#ca-history}
--   [[Imprima como
-    PDF](http://titanio09.cnj.jus.br/wiki/index.php?title=Funcionalidades&action=pdfbook&format=single)]{#ca-pdfbook}
-:::
-
-::: {#p-cactions .vectorMenu .emptyPortlet}
-##### Ações[](#)
-
-::: {.menu}
-:::
-:::
-
-::: {#p-search}
-##### Pesquisar
-
-<div>
-
-</div>
-:::
-:::
-:::
-
-::: {#mw-panel .noprint .collapsible-nav}
-::: {#p-logo}
-[](http://titanio09.cnj.jus.br/wiki/index.php/P%C3%A1gina_principal "Acessar a página principal")
-:::
-
-::: {#p-navigation .portal .first .persistent}
-##### Navegação
-
-::: {.body}
--   [[Página
-    principal](http://titanio09.cnj.jus.br/wiki/index.php/P%C3%A1gina_principal "Acessar a página principal [alt-shift-z]")]{#n-mainpage-description}
-:::
-:::
-
-::: {#p-Informa.C3.A7.C3.B5es_Gerais .portal .expanded}
-##### [Informações Gerais](#) {#informações-gerais tabindex="2"}
-
-::: {.body style="display: block;"}
--   [[Configuração do
-    ambiente](http://titanio09.cnj.jus.br/wiki/index.php/Configura%C3%A7%C3%A3o_do_Ambiente)]{#n-Configura.C3.A7.C3.A3o-do-ambiente}
--   [[Acesso ao
-    PJe](http://titanio09.cnj.jus.br/wiki/index.php/Acesso_ao_PJe)]{#n-Acesso-ao-PJe}
-:::
-:::
-
-::: {#p-Aplicativos_PJe .portal .collapsed}
-##### [Aplicativos PJe](#) {#aplicativos-pje tabindex="3"}
-
-::: {.body}
 -   [[PJeOffice](http://titanio09.cnj.jus.br/wiki/index.php/PJeOffice)]{#n-PJeOffice}
--   [[Navegador
-    PJe](http://titanio09.cnj.jus.br/wiki/index.php/Navegador_PJe)]{#n-Navegador-PJe}
-:::
-:::
+-   [[Navegador PJe](http://titanio09.cnj.jus.br/wiki/index.php/Navegador_PJe)]{#n-Navegador-PJe}
 
-::: {#p-Manuais .portal .collapsed}
-##### [Manuais](#) {#manuais tabindex="4"}
-
-::: {.body}
--   [[Advogado](http://titanio09.cnj.jus.br/wiki/index.php/Manual_do_Advogado)]{#n-Advogado}
--   [[Usuário sem
-    representação](http://titanio09.cnj.jus.br/wiki/index.php/Manual_do_Usu%C3%A1rio_sem_representa%C3%A7%C3%A3o)]{#n-Usu.C3.A1rio-sem-representa.C3.A7.C3.A3o}
--   [[Representantes](http://titanio09.cnj.jus.br/wiki/index.php/Manual_dos_Representantes)]{#n-Representantes}
--   [[Usuário
-    interno](http://titanio09.cnj.jus.br/wiki/index.php/Manual_do_Usu%C3%A1rio_Interno)]{#n-Usu.C3.A1rio-interno}
--   [[PJe
-    1.0](http://titanio09.cnj.jus.br/wiki/index.php/PJe_1.0)]{#n-PJe-1.0}
-:::
-:::
-
-::: {#p-Suporte .portal .collapsed}
-##### [Suporte](#) {#suporte tabindex="5"}
-
-::: {.body}
--   [[Solução de
-    Problemas](http://titanio09.cnj.jus.br/wiki/index.php/Solu%C3%A7%C3%A3o_de_Problemas)]{#n-Solu.C3.A7.C3.A3o-de-Problemas}
--   [[Centrais de Atendimento do
-    PJe](http://titanio09.cnj.jus.br/wiki/index.php/Centrais_de_Atendimento_do_PJe)]{#n-Centrais-de-Atendimento-do-PJe}
-:::
-:::
-
-::: {#p-tb .portal .collapsed}
-##### [Ferramentas](#) {#ferramentas-1 tabindex="6"}
-
-::: {.body}
--   [[Páginas
-    afluentes](http://titanio09.cnj.jus.br/wiki/index.php/Especial:P%C3%A1ginas_afluentes/Funcionalidades "Lista de todas as páginas que possuem links para esta [alt-shift-j]")]{#t-whatlinkshere}
--   [[Alterações
-    relacionadas](http://titanio09.cnj.jus.br/wiki/index.php/Especial:Mudan%C3%A7as_relacionadas/Funcionalidades "Mudanças recentes nas páginas para as quais esta possui links [alt-shift-k]")]{#t-recentchangeslinked}
--   [[Páginas
-    especiais](http://titanio09.cnj.jus.br/wiki/index.php/Especial:P%C3%A1ginas_especiais "Lista de páginas especiais [alt-shift-q]")]{#t-specialpages}
--   [[Versão para
-    impressão](http://titanio09.cnj.jus.br/wiki/index.php?title=Funcionalidades&printable=yes "Versão para impressão desta página [alt-shift-p]")]{#t-print}
--   [[Link
-    permanente](http://titanio09.cnj.jus.br/wiki/index.php?title=Funcionalidades&oldid=25247 "Link permanente para esta versão desta página")]{#t-permalink}
--   [[Exportar para
-    pdf](http://titanio09.cnj.jus.br/wiki/index.php?title=Especial:PdfPrint&page=Funcionalidades)]{#t-pdf}
-:::
-:::
-:::
-
-::: {#footer}
--   [Esta página foi modificada pela última vez às 11h56min de 19 de
-    fevereiro de 2021.]{#footer-info-lastmod}
--   [Esta página foi acessada 1 898 503 vezes.]{#footer-info-viewcount}
-
--   [[Política de
-    privacidade](http://titanio09.cnj.jus.br/wiki/index.php/PJe:Pol%C3%ADtica_de_privacidade "PJe:Política de privacidade")]{#footer-places-privacy}
--   [[Sobre
-    PJe](http://titanio09.cnj.jus.br/wiki/index.php/PJe:Sobre "PJe:Sobre")]{#footer-places-about}
--   [[Exoneração de
-    responsabilidade](http://titanio09.cnj.jus.br/wiki/index.php/PJe:Aviso_geral "PJe:Aviso geral")]{#footer-places-disclaimer}
-
--   [[![Powered by
-    MediaWiki](Funcionalidades%20-%20PJe_arquivos/poweredby_mediawiki_88x31.png){width="88"
-    height="31"}](http://www.mediawiki.org/)]{#footer-poweredbyico}
-
-::: {style="clear:both"}
-:::
-:::
-
-::: {.suggestions style="display: none; font-size: 13.3333px;"}
-::: {.suggestions-results}
-:::
-
-::: {.suggestions-special}
-:::
-:::
