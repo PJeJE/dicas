@@ -122,82 +122,51 @@ Perfil: Advogado/Procurador/Defensor
 
 O **Painel do usuário** jus postulandi é similar ao painel do advogado, procurador ou defensor.
 
-#### [ Acervo ]{#Acervo .mw-headline}
 
-O advogado/procurador tem acesso a todos os processos vinculados a ele.
+#### Expedientes
 
-##### [ Pendentes de manifestação ]{#Pendentes_de_manifesta.C3.A7.C3.A3o .mw-headline}
+O advogado/procurador/defensor verifica as intimações onde ele consta como destinatário. Elas são agrupadas de acordo com os prazos e com suas condições de ciência e resposta.
 
-Nesse agrupador, estarão disponíveis expedientes que receberam ciência
-de seus destinatários, têm prazo de manifestação definido e que ainda
-não foi superado (não fechado) e aos quais ainda não foi dada resposta.
-Além disso, independe do tipo de prazo do expediente.
+##### Pendentes de ciência ou de resposta 
 
-##### [ Acervo geral ]{#Acervo_geral .mw-headline}
+Nesse agrupador, estarão disponíveis expedientes que não receberam ciência e os que receberam ciência de seus destinatários, têm prazo de manifestação definido e que ainda não foi superado (não fechado) e aos quais ainda não foi dada resposta. Além disso, independe do tipo de prazo do expediente.
 
-A aba
-[listará](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI245 "Regras de interface")
-todos os processos protocolados pelo advogado/ procurador/defensor.
+##### Apenas pendentes de ciência
 
-#### [ Expedientes ]{#Expedientes .mw-headline}
+Todos os atos de comunicação que não tenham tido ciência (ficta ou concreta) do destinatário, independentemente do tipo de prazo ou do meio de intimação aplicável a esse ato de comunicação. Em outras palavras, havendo ou não prazo definido, tendo ou não data certa, independentemente do meio de intimação, se não há ciência, aparece nessa lista.
 
-O advogado/procurador/defensor verifica as intimações onde ele consta
-como destinatário. Elas são agrupadas de acordo com os prazos e com suas
-condições de ciência e resposta.
+##### Ciência dada pelo destinatário direto ou indireto - pendente de resposta
 
-##### [ Pendentes de ciência ]{#Pendentes_de_ci.C3.AAncia .mw-headline}
+Todos os expedientes que têm prazo, seja ele em anos, meses, dias, horas, minutos ou data certa, cuja ciência foi feita pelo destinatário e cujo prazo ainda não expirou.
 
-Todos os atos de comunicação que não tenham tido ciência (ficta ou
-concreta) do destinatário, independentemente do tipo de prazo ou do meio
-de intimação aplicável a esse ato de comunicação. Em outras palavras,
-havendo ou não prazo definido, tendo ou não data certa,
-independentemente do meio de intimação, se não há ciência, aparece nessa
-lista.
+##### Ciência dada pelo Judiciário - pendente de resposta
 
-##### [ Ciência dada pelo destinatário e com prazo em curso ]{#Ci.C3.AAncia_dada_pelo_destinat.C3.A1rio_e_com_prazo_em_curso .mw-headline}
+Todos os expedientes que têm prazo, seja ele em anos, meses, dias, horas, minutos ou data certa, cuja ciência foi feita pelo sistema e cujo prazo ainda não expirou.
 
-Todos os expedientes que têm prazo, seja ele em anos, meses, dias,
-horas, minutos ou data certa, cuja ciência foi feita pelo destinatário e
-cujo prazo ainda não expirou.
+##### Cujo prazo findou nos últimos dez dias - sem resposta
 
-##### [ Ciência dada pelo sistema e com prazo em curso ]{#Ci.C3.AAncia_dada_pelo_sistema_e_com_prazo_em_curso .mw-headline}
+Todos os expedientes que têm prazo, seja ele em anos, meses, dias, horas, minutos ou data certa, cujo prazo expirou nos últimos 10 dias sem resposta do destinatário.
 
-Todos os expedientes que têm prazo, seja ele em anos, meses, dias,
-horas, minutos ou data certa, cuja ciência foi feita pelo sistema e cujo
-prazo ainda não expirou.
+Neste conjunto devem ser incluídos os expedientes com o status de fechados e os ainda não fechados pois, como normalmente as instalações estão configuradas para que o status dos expedientes sejam atualizados por um job executado na virada do dia, nos casos de prazos em horas e minutos pode ocorrer do prazo do expediente esgotar-se no decorrer do dia, mas o job não ter sido executado ainda.
 
-##### [ Cujo prazo findou nos últimos dez dias ]{#Cujo_prazo_findou_nos_.C3.BAltimos_dez_dias .mw-headline}
+##### Sem prazo
 
-Todos os expedientes que têm prazo, seja ele em anos, meses, dias,
-horas, minutos ou data certa, cujo prazo expirou nos últimos 10 dias sem
-resposta do destinatário.
+Todos os expedientes que não têm prazo cuja ciência aconteceu e que ainda não estão fechados (o fechamento acontece com a resposta do destinatário ou em 30 dias após a ciência, caso não tenha sido definido prazo diverso nas configurações da aplicação). O parâmetro responsável pela configuração do tempo máximo para os expedientes sem prazo ser considerado fechado é o **esperaMaximaSemPrazo**
 
-Neste conjunto devem ser incluídos os expedientes com o status de
-fechados e os ainda não fechados. Pois, como normalmente as instalações
-estão configuradas para que o status dos expedientes sejam atualizados
-por um job executado na virada do dia, nos casos de prazos em horas e
-minutos pode ocorrer do prazo do expediente esgotar-se no decorrer do
-dia, mas o job não ter sido executado ainda.
+##### Respondidos nos últimos 10 dias
 
-##### [ Sem prazo ]{#Sem_prazo .mw-headline}
+Todos os expedientes que foram respondidos nos últimos 10 dias independentemente de terem ou não prazo.
 
-Todos os expedientes que não têm prazo cuja ciência aconteceu e que
-ainda não estão fechados (o fechamento acontece com a resposta do
-destinatário ou em 30 dias após a ciência, caso não tenha sido definido
-prazo diverso nas configurações da aplicação). O parâmetro responsável
-pela configuração do tempo máximo para os expedientes sem prazo ser
-considerado fechado é o \"esperaMaximaSemPrazo\".
-
-##### [ Respondidos nos últimos 10 dias ]{#Respondidos_nos_.C3.BAltimos_10_dias .mw-headline}
-
-Todos os expedientes que foram respondidos nos últimos 10 dias
-independentemente de terem ou não prazo.
-
-#### [ Intimações de pauta ]{#Intima.C3.A7.C3.B5es_de_pauta .mw-headline}
+#### Intimações de pauta
 
 Presente só nas instalações do segundo grau
 
-#### [ Petições ]{#Peti.C3.A7.C3.B5es .mw-headline}
+#### Acervo
+
+O advogado/procurador tem acesso a todos os processos vinculados a ele.
+
+
+
 
 ### [ Painel do magistrado ]{#Painel_do_magistrado .mw-headline}
 
