@@ -105,6 +105,7 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 | UF Órgão Julgador | #{processoTrfHome.instance.orgaoJulgador.localizacao.endereco.cep.municipio.estado.codEstado} |  |
 | Último dia do período da sessão contínua/virtual. Retorna a data final do período de votação (ex.: sessão de 11 a 15/05 → retorna 15/05) |``` #{sessaoPautaProcessoTrfManager.getSessaoPautaProcessoTrfJulgado(processoTrfHome.instance) != null and sessaoPautaProcessoTrfManager.getSessaoPautaProcessoTrfJulgado(processoTrfHome.instance).sessao.dataFimSessao != null ? dateUtil.dateToString(sessaoPautaProcessoTrfManager.getSessaoPautaProcessoTrfJulgado(processoTrfHome.instance).sessao.dataFimSessao) : ''} ```| Se a sessão não for contínua/virtual, a EL retorna string vazia |
 | Usuário Logado | #{usuarioLogado.nome} |  |
+| Acórdão (Nome da Classe Judicial e Recurso por extenso) | #{processoTrfHome.instance.classeCadeiaRecursal} |  |
 
 {{</table>}}
 
