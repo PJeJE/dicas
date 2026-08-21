@@ -87,7 +87,7 @@ Em vez desta **incorreta**:
 
 
 ## Variáveis do modelo de certidão de ciência 
-{{% notice alert %}}
+{{% notice caution %}}
 Ao copiar, as variáveis que contém aspas simples estão sendo levadas com caracter errado. Redigite as aspas nesses casos.
 {{% /notice%}}
 
