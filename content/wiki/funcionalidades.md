@@ -2679,49 +2679,39 @@ AUD, que é o sistema de audiências da justiça do trabalho.
 [ Sessões ]{#Sess.C3.B5es .mw-headline}
 ---------------------------------------
 
-As funcionalidades referentes a audiências e sessões estão agrupadas no
-mesmo menu no PJe. O que acontece, na verdade, é que, via de regra, a
+As funcionalidades referentes a audiências e sessões estão agrupadas no mesmo menu no PJe. O que acontece, na verdade, é que, via de regra, a
 utilização de um grupo exclui a utilização do outro grupo, já que as
 sessões existem para decisões colegiadas (segunda instância) e as
 audiências para as decisões monocráticas (primeira instância).
 Descreveremos aqui essas funcionalidades agrupadas pelo respectivo
 assunto principal, ou seja, audiências ou sessões.
-
-### [ Acórdão ]{#Ac.C3.B3rd.C3.A3o .mw-headline}
+<!--
+### Acórdão 
 
 Perfil: assessor
 
-Através dessa funcionalidade, pode-se acessar as minutas dos acórdãos
-produzidos a partir de sessões de julgamento e assiná-los.
+Através dessa funcionalidade, pode-se acessar as minutas dos acórdãos produzidos a partir de sessões de julgamento e assiná-los.
+-->
 
-### [ Cadastro de sessão de julgamento ]{#Cadastro_de_sess.C3.A3o_de_julgamento .mw-headline}
-
-Perfil: secretário da sessão
-
-Através dessa opção, pode-se fazer o cadastramento de sessões de
-julgamento, agendando-a e vinculando-a a uma sala de audiência
-previamente cadastrada.
-
-#### [ Composição da sessão ]{#Composi.C3.A7.C3.A3o_da_sess.C3.A3o .mw-headline}
-
-### [ Pendências da sessão de julgamento ]{#Pend.C3.AAncias_da_sess.C3.A3o_de_julgamento .mw-headline}
+### Cadastro de sessão de julgamento
 
 Perfil: secretário da sessão
 
-Essa funcionalidade permite que se verifique as pendências da sessão de
-julgamento por processo. Por exemplo, um processo pode ter ficado sem
-voto na sessão. Dessa forma, a atividade de finalização da sessão pode
-ser facilitada.
+Através dessa opção, pode-se fazer o cadastramento de sessões de julgamento, agendando-a e vinculando-a a uma sala de audiência previamente cadastrada.
 
-### [ Processos pautados em sessão ]{#Processos_pautados_em_sess.C3.A3o .mw-headline}
+### Pendências da sessão de julgamento 
 
-Perfil: assistente de advogado/assistente de procuradoria/secretário da
-sessão/servidor da análise de gabinete/servidor de secretaria
+Perfil: secretário da sessão
 
-Essa funcionalidade permite a consulta dos processos que já estão com
-dia marcado para julgamento, ou seja, já estão vinculados a um sessão.
+Essa funcionalidade permite que se verifique as pendências da sessão de julgamento por processo. Por exemplo, um processo pode ter ficado sem voto na sessão. Dessa forma, a atividade de finalização da sessão pode ser facilitada.
 
-### [ Relação de julgamento ]{#Rela.C3.A7.C3.A3o_de_julgamento .mw-headline}
+### Processos pautados em sessão 
+
+Perfil: assistente de advogado/assistente de procuradoria/secretário da sessão/servidor da análise de gabinete/servidor de secretaria
+
+Essa funcionalidade permite a consulta dos processos que já estão com dia marcado para julgamento, ou seja, já estão vinculados a um sessão.
+
+### Relação de julgamento 
 
 Perfil: assessor/secretário da sessão
 
@@ -2729,65 +2719,39 @@ Regras relacionadas:
 
 [RN291](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn291 "Regras de negócio")
 
-Essa funcionalidade exibe a relação de sessões de julgamento cadastradas
-através de um calendário onde pode-se selecionar uma sessão para
-inclusão da pauta. Ao selecionar uma sessão, o sistema exibirá em uma
-aba a relação de julgamento contendo todos os processos já incluídos,
-assim como exibirá as seguinte abas:
+Essa funcionalidade exibe a relação de sessões de julgamento cadastradas através de um calendário onde pode-se selecionar uma sessão para inclusão da pauta. Ao selecionar uma sessão, o sistema exibirá em uma aba a relação de julgamento contendo todos os processos já incluídos, assim como exibirá as seguinte abas:
 
-#### [ Aptos para inclusão em pauta ]{#Aptos_para_inclus.C3.A3o_em_pauta .mw-headline}
+#### Aptos para inclusão em pauta
 
-Restrição para exibição de processos:
-[RN525](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn525 "Regras de negócio")
+Restrição para exibição de processos: [RN525](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn525 "Regras de negócio")
 
-#### [ Aptos para inclusão em mesa ]{#Aptos_para_inclus.C3.A3o_em_mesa .mw-headline}
+#### Aptos para inclusão em mesa
 
-Restrição para exibição de processos:
-[RN615](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn615 "Regras de negócio")
+Restrição para exibição de processos: [RN615](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn615 "Regras de negócio")
 
-#### [ Adiados e pautas anteriores ]{#Adiados_e_pautas_anteriores .mw-headline}
+#### Adiados e pautas anteriores 
 
-A aba "adiados e pautas anteriores" representa processos que já
-estiveram em outra sessão. O sistema sinaliza isso independente de o
-processo já ter sido arquivado. Só deixará de estar ali de for incluído
-em nova pauta de julgamento. Isso significa que se um processo tiver
-sido adiado ou retirado de pauta e o relator desistir de levar a
-plenário, o processo sempre aparecerá nessa aba.
+A aba **adiados e pautas anteriores**representa processos que já estiveram em outra sessão. O sistema sinaliza isso independente de o processo já ter sido arquivado. Só deixará de estar ali de for incluído em nova pauta de julgamento. Isso significa que se um processo tiver sido adiado ou retirado de pauta e o relator desistir de levar a plenário, o processo sempre aparecerá nessa aba.
 
-#### [ Pedido de vista ]{#Pedido_de_vista .mw-headline}
+#### Pedido de vista
 
-Nessa aba constarão processos que tiveram pedido de vista registrado em
-sessões anteriores. Existe uma marcação \"vista elaborada\" que sinaliza
-que o órgão julgador que pediu vista já construiu um documento de voto.
-Se o processo for de classe que exige pauta e for liberado para pauta
-por meio do fluxo, ele aparecerá em aptos para inclusão em pauta.
+Nessa aba constarão processos que tiveram pedido de vista registrado em sessões anteriores. Existe uma marcação **vista elaborada** que sinaliza que o órgão julgador que pediu vista já construiu um documento de voto. Se o processo for de classe que exige pauta e for liberado para pauta por meio do fluxo, ele aparecerá em aptos para inclusão em pauta.
 
-#### [ Aptos para publicação ]{#Aptos_para_publica.C3.A7.C3.A3o .mw-headline}
+#### Aptos para publicação 
 
-A exibição dessa aba se dará conforme regra
-[RN616](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn616 "Regras de negócio").
+A exibição dessa aba se dará conforme regra [RN616](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn616 "Regras de negócio").
 
-Caso o conector com o Diário de Justiça esteja disponível, a lista com
-os processos aptos para publicação (regra
-[RN617](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn617 "Regras de negócio"))
-será exibida para que o usuário selecione quais processos irão compor a
-publicação, junto com um formulário de pesquisa para auxiliar na
+Caso o conector com o Diário de Justiça esteja disponível, a lista com os processos aptos para publicação (regra [RN617](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn617 "Regras de negócio")) será exibida para que o usuário selecione quais processos irão compor a publicação, junto com um formulário de pesquisa para auxiliar na
 verificação da lista.
 
 
-O botão \"Publicar lista\" será apresentado para usuários detentores do
-papel idSecretarioSessao.
+O botão **Publicar lista** será apresentado para usuários detentores do papel idSecretarioSessao.
 
-Ao clicar em publicar lista, o sistema fará a publicação da pauta de
-acordo com a regra
-[RN618](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn618 "Regras de negócio").
+Ao clicar em publicar lista, o sistema fará a publicação da pauta de acordo com a regra [RN618](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn618 "Regras de negócio").
 
-#### [ Certidão de publicação ]{#Certid.C3.A3o_de_publica.C3.A7.C3.A3o .mw-headline}
+#### Certidão de publicação
 
-São exibidos processos para que sejam emitidas certidões de publicação
-de intimação de pauta desde que as respectivas intimações tenham sido
-publicadas no DJ com sucesso. (diário retornou a data de publicação para
-o PJe)
+São exibidos processos para que sejam emitidas certidões de publicação de intimação de pauta desde que as respectivas intimações tenham sido publicadas no DJ com sucesso. (diário retornou a data de publicação para o PJe)
 
 
 ### Configuração
