@@ -1634,8 +1634,7 @@ Perfil: advogado/procurador/servidor
 
 Essa funcionalidade existe para permitir que o cadastro do processo seja iniciado em um momento e terminado em outro, com a guarda dos dados já digitados. Poderão ser visualizados todos os processos não protocolados ([em elaboração](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD104 "Regras de domínio")) de acordo com a [permissão do usuário](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn483 "Regras de negócio").
 
-A barra de paginação [![Paginacao.png](Funcionalidades%20-%20PJe_arquivos/Paginacao.png){width="172" height="20"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Paginacao.png){.image}
-é exibida ao final da tabela em seu canto inferior esquerdo e o total de registros encontrados é exibido em seu canto inferior direito. Os botões da barra de paginação serão habilitados a partir de 12 processos, quantidade limite para exibição por página.
+A barra de paginação é exibida ao final da tabela em seu canto inferior esquerdo e o total de registros encontrados é exibido em seu canto inferior direito. Os botões da barra de paginação serão habilitados a partir de 12 processos, quantidade limite para exibição por página.
 
 ### Pesquisa 
 
