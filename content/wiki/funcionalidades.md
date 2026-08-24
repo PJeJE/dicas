@@ -2497,77 +2497,47 @@ Perfil: administrador
 
 Avisos personalizados podem ser lançados funcionando como lembrete para cada perfil de usuário que acesse o sistema. Essa funcionalidade permite a inclusão dos avisos, que serão visualizados pelo usuário através do agrupador de mensagens disponibilizado na página principal.
 
-### [ Consulta pessoa ]{#Consulta_pessoa .mw-headline}
+### Consulta pessoa
 
 Perfil: diretor de secretaria/oficial de justiça
 
-É a consulta de pessoas do PJe, contemplando todos os perfis
-cadastrados.
+É a consulta de pessoas do PJe, contemplando todos os perfis cadastrados.
 
-### [ Criar relação pessoal ]{#Criar_rela.C3.A7.C3.A3o_pessoal .mw-headline}
-
-Perfil: administrador
-
-O cadastro de relações pessoais é um cadastro liberado, ordinariamente,
-apenas para o administrador. Nele, são registradas relações puramente
-pessoais -- ou seja, aquelas relações entre duas pessoas que não estão
-vinculadas a um processo. São exemplos desse tipo de relação a curatela,
-a tutela e sucessões legalmente determinadas. Uma vez registradas tais
-relações, espera-se viabilizar um melhor controle das atividades das
-pessoas no sistema.
-
-### [ Unificar pessoas ]{#Unificar_pessoas .mw-headline}
+### Criar relação pessoal 
 
 Perfil: administrador
 
-A unificação está prevista no cadastro de pessoa física ou jurídica para
-permitir que uma mesma pessoa registrada com nomes diferentes seja
-referenciada pelo sistema como única. Neste caso, serão unificados os
-documentos de identificação, os nomes alternativos, os expedientes e as
-participações em processos.
+O cadastro de relações pessoais é um cadastro liberado, ordinariamente, apenas para o administrador. Nele, são registradas relações puramente pessoais -- ou seja, aquelas relações entre duas pessoas que não estão vinculadas a um processo. São exemplos desse tipo de relação a curatela, a tutela e sucessões legalmente determinadas. Uma vez registradas tais relações, espera-se viabilizar um melhor controle das atividades das pessoas no sistema.
 
-\
-
-### [ Desunificar pessoas ]{#Desunificar_pessoas .mw-headline}
+### Unificar pessoas
 
 Perfil: administrador
 
-A funcionalidade de desunificação se presta a permitir o desfazimento de
-uma prévia operação de unificação, inclusive com retorno dos processos
-judiciais eventualmente afetados pela unificação ao estado anterior.
+A unificação está prevista no cadastro de pessoa física ou jurídica para permitir que uma mesma pessoa registrada com nomes diferentes seja referenciada pelo sistema como única. Neste caso, serão unificados os documentos de identificação, os nomes alternativos, os expedientes e as participações em processos.
 
-### [ Distribuição de expediente ]{#Distribui.C3.A7.C3.A3o_de_expediente .mw-headline}
+### Desunificar pessoas 
+
+Perfil: administrador
+
+A funcionalidade de desunificação se presta a permitir o desfazimento de uma prévia operação de unificação, inclusive com retorno dos processos judiciais eventualmente afetados pela unificação ao estado anterior.
+
+### Distribuição de expediente 
 
 Perfil: oficial de justiça distribuidor
 
-A distribuição de expediente permite que o usuário possa realizar a
-distribuição de expedientes recebidos na central de mandados aos
-oficiais de justiça.
+A distribuição de expediente permite que o usuário possa realizar a distribuição de expedientes recebidos na central de mandados aos oficiais de justiça.
 
-Para distribuir um expediente, acesse o PJe com o usuário oficial de
-justiça distribuidor, pesquise pelo processo pela funcionalidade Menu
-Atividades \> \"Distribuição de expediente\" e pesquise pelo processo,
-na última coluna da tela de resultados da pesquisa, clique no check-box
-de marcar processo, feito isso, clique no botão \"Distribuir\",
-selecione o grupo de oficiais de justiça e selecione o oficial de
-justiça ao qual será distribuído, caso o oficial de justiça não seja
-selecionado o sistema selecionará um automaticamente.
+Para distribuir um expediente, acesse o PJe com o usuário oficial de justiça distribuidor, pesquise pelo processo pela funcionalidade **Atividades - Distribuição de expediente** e pesquise pelo processo. Na última coluna da tela de resultados da pesquisa, clique no check-box de marcar processo. Feito isso, clique no botão **Distribuir**, selecione o grupo de oficiais de justiça e selecione o oficial de justiça ao qual será distribuído. Caso o oficial de justiça não seja selecionado, o sistema selecionará um automaticamente.
 
-### [ Emitir certidão ]{#Emitir_certid.C3.A3o .mw-headline}
+### Emitir certidão
 
 Perfil: administrador/advogado/procurador/jus postulandi/magistrado
 
-O juízo deve dar, independentemente de despacho, certidão de qualquer
-ato ou termo do processo. O direito de pedir certidões dos atos
-processuais é restrito às partes e a seus procuradores. O terceiro, que
-demonstrar interesse jurídico, pode requerer ao juiz certidão do
-dispositivo da sentença, bem como de inventário e partilha resultante do
-desquite.
+O juízo deve dar, independentemente de despacho, certidão de qualquer ato ou termo do processo. O direito de pedir certidões dos atos processuais é restrito às partes e a seus procuradores. O terceiro, que demonstrar interesse jurídico, pode requerer ao juiz certidão do dispositivo da sentença, bem como de inventário e partilha resultante do desquite.
 
-Veja
-[aqui](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn352 "Regras de negócio")
-como configurar.
+Veja [aqui](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn352 "Regras de negócio") como configurar.
 
+<!--
 ### [ Pauta de perícia ]{#Pauta_de_per.C3.ADcia .mw-headline}
 
 Perfil: diretor de secretaria
@@ -2641,6 +2611,7 @@ Essa opção permite a simulação do valor a ser compensado.
 ### [ Solicitação de antecipação de pagamento de perícia ]{#Solicita.C3.A7.C3.A3o_de_antecipa.C3.A7.C3.A3o_de_pagamento_de_per.C3.ADcia .mw-headline}
 
 Perfil: perito
+-->
 
 [ Audiências ]{#Audi.C3.AAncias .mw-headline}
 ---------------------------------------------
@@ -2676,7 +2647,7 @@ AUD, que é o sistema de audiências da justiça do trabalho.
 
 #### [ Assinar atar de audiência ]{#Assinar_atar_de_audi.C3.AAncia .mw-headline}
 
-[ Sessões ]{#Sess.C3.B5es .mw-headline}
+ Sessões ]{#Sess.C3.B5es .mw-headline}
 ---------------------------------------
 
 As funcionalidades referentes a audiências e sessões estão agrupadas no mesmo menu no PJe. O que acontece, na verdade, é que, via de regra, a
