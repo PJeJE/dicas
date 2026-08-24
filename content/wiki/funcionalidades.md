@@ -1959,80 +1959,47 @@ padrão leva em consideração a localização do usuário para delimitar a
 consulta. Essa funcionalidade obedece à regra
 [RN312](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn312 "Regras de negócio").
 
-#### [ Consulta de prazos ]{#Consulta_de_prazos .mw-headline}
+-->
+#### Consulta de prazos 
 
 Perfil: servidor
 
-Essa funcionalidade disponibiliza uma consulta de expedientes de forma
-que se possa fechá-los em lote ou não.
+Essa funcionalidade disponibiliza uma consulta de expedientes de forma que se possa fechá-los em lote ou não.
 
-A tela se constitui de um formulário de filtros e uma tela de
-resultados, que exibirá os expedientes (equivalentes à entidade
-ProcessoParteExpediente) com uma barra de tarefas associada que
-permitirá ao usuário dar manutenção nos expedientes selecionados.
+A tela se constitui de um formulário de filtros e uma tela de resultados, que exibirá os expedientes (equivalentes à entidade ProcessoParteExpediente) com uma barra de tarefas associada que
+permitirá ao usuário dar manutenção nos expedientes selecionados. 
 
-No canto superior esquerdo do formulário de filtros, é apresentada a
-data de hoje. Os filtros disponíveis são os seguintes:
+No canto superior esquerdo do formulário de filtros, é apresentada a data de hoje. Os filtros disponíveis são os seguintes:
 
 -   Número do processo
--   Período do prazo final - o usuário pode fornecer data de início e
-    fim que será consulta conforme a seguinte regra
-    -   se data de início e fim foram fornecidas, serão retornados
-        expedientes cujo prazo legal (data limite para manifestação)
-        esteja entre as duas datas, incluindo as data informadas.
-    -   se data de início for fornecida, serão retornados expedientes
-        cujo prazo legal seja maior ou igual que a data informada
-    -   se data de fim for fornecida, serão retornados expedientes cujo
-        prazo legal seja menor ou igual que a data informada
+-   Período do prazo final - o usuário pode fornecer data de início e fim que será consulta conforme a seguinte regra
+    -   se data de início e fim foram fornecidas, serão retornados expedientes cujo prazo legal (data limite para manifestação) esteja entre as duas datas, incluindo as data informadas.
+    -   se data de início for fornecida, serão retornados expedientes cujo prazo legal seja maior ou igual que a data informada
+    -   se data de fim for fornecida, serão retornados expedientes cujo prazo legal seja menor ou igual que a data informada
 -   Prazo vencido? - o usuário pode pesquisar por
-    -   expedientes com prazo vencido - expedientes que tenham prazo
-        legal e cujo prazo seja menor que a data atual
-    -   expedientes com prazo não vencido - expedientes que não tenham
-        prazo legal ou tenham e o prazo seja maior ou igual que a data
-        atual
+    -   expedientes com prazo vencido - expedientes que tenham prazo legal e cujo prazo seja menor que a data atual
+    -   expedientes com prazo não vencido - expedientes que não tenham prazo legal ou tenham e o prazo seja maior ou igual que a data atual
     -   ou pode consultar sem levar em consideração o parâmetro
--   Expediente fechado? - o usuário pode pesquisar por expedientes
-    fechados, não fechados, ou pode consultar sem levar em consideração
-    o parâmetro
--   Ato - tipo de ato associado ao documento - serão retornados
-    expedientes que tenham a eles associados documentos do tipo
-    informado como parâmetro
--   Órgão julgador - para instalações de segundo grau, só serão
-    carregados os órgão julgadores vinculados ao órgão julgador
-    colegiado do usuário logado. Para usuários não vinculados a órgão
+-   Expediente fechado? - o usuário pode pesquisar por expedientes fechados, não fechados, ou pode consultar sem levar em consideração o parâmetro
+-   Ato - tipo de ato associado ao documento - serão retornados expedientes que tenham a eles associados documentos do tipo informado como parâmetro
+-   Órgão julgador - para instalações de segundo grau, só serão carregados os órgão julgadores vinculados ao órgão julgador colegiado do usuário logado. Para usuários não vinculados a órgão
     julgador colegiado, não serão carregados órgãos julgadores.
 -   Destinatário
 -   Classe judicial
 -   Assunto
 -   Prioridades
--   Tarefas - serão carregadas tarefas configuradas na instalação de
-    acordo com a view do banco de dados SituacaoProcesso. Para usuários
-    cuja visualização esteja marcada como restrita (opção padrão do
-    sistema), só serão retornadas tarefas vinculadas ao órgão julgador
-    do usuário logado. Para usuários que não estejam vinculados a órgão
-    julgador e cujo perfil de visualização seja restrito, a combo não
-    será exibida, já que não teria conteúdo.
+-   Tarefas - serão carregadas tarefas configuradas na instalação de acordo com a view do banco de dados SituacaoProcesso. Para usuários cuja visualização esteja marcada como restrita (opção padrão do sistema), só serão retornadas tarefas vinculadas ao órgão julgador do usuário logado. Para usuários que não estejam vinculados a órgão julgador e cujo perfil de visualização seja restrito, a combo não será exibida, já que não teria conteúdo.
 
-Inicialmente, a tela é carregada com todos os expedientes disponíveis na
-instalação do PJe, paginados em grupos de 15.
+Inicialmente, a tela é carregada com todos os expedientes disponíveis na instalação do PJe, paginados em grupos de 15.
 
-No cabeçalho da consulta, há o ícone de pdf que permite que seja gerado
-um relatório pdf a partir da consulta realizada. Também há o checkbox
-que permite ao usuário selecionar todos os expedientes retornados da
-consulta para posterior manutenção por meio de botão adequado descrito
-mais adiante. Além disso, são retornados os nomes dos campos referentes
-à cada coluna.
+No cabeçalho da consulta, há o ícone de pdf que permite que seja gerado um relatório pdf a partir da consulta realizada. Também há o checkbox que permite ao usuário selecionar todos os expedientes retornados da consulta para posterior manutenção por meio de botão adequado descrito mais adiante. Além disso, são retornados os nomes dos campos referentes à cada coluna.
 
-Para cada expediente encontrado, a tela apresenta as seguintes
-informações:
+Para cada expediente encontrado, a tela apresenta as seguintes informações:
 
 -   Barra de tarefas
     -   Ícone de detalhes do processo
     -   Ícone de manutenção do expediente em exibição
--   checkbox de seleção - permite que o usuário selecione o expediente
-    em exibição para posterior manutenção em lote por meio de botão
-    adequado descrito mais adiante - virá desabilitado para expedientes
-    fechados
+-   checkbox de seleção - permite que o usuário selecione o expediente em exibição para posterior manutenção em lote por meio de botão adequado descrito mais adiante - virá desabilitado para expedientes fechados
 -   Status
 -   Processo
 -   Expediente - Tipo do documento
@@ -2044,19 +2011,15 @@ informações:
 
 Os expedientes serão paginados em grupos de 15.
 
-Caso seja selecionado algum expediente para manutenção, será exibido o
-botão:
+Caso seja selecionado algum expediente para manutenção, será exibido o botão:
 
-\"Fechar expedientes em lote\".
+Fechar expedientes em lote
 
-Se o usuário selecionar o botão e houver algum expediente selecionado
-para fechamento cujo prazo não esteja vencido, o sistema solicitará
-confirmação do usuário quanto ao fechamento.
+Se o usuário selecionar o botão e houver algum expediente selecionado para fechamento cujo prazo não esteja vencido, o sistema solicitará confirmação do usuário quanto ao fechamento.
 
-##### [ Abrir expediente ]{#Abrir_expediente .mw-headline}
+##### Abrir expediente 
 
-Ao acionar a opção de abrir o expediente, o sistema exibirá o
-detalhamento do expediente conforme especificado abaixo:
+Ao acionar a opção de abrir o expediente, o sistema exibirá o detalhamento do expediente conforme especificado abaixo:
 
 -   Ato de comunicação
     -   Tipo de documento (número do documento)
@@ -2073,10 +2036,9 @@ detalhamento do expediente conforme especificado abaixo:
 -   Fechado
     -   SIM/NÃO
 
-Para expedientes abertos, desde que o usuário logado tenha o papel
-\"ServConhe\", será exibido o botão \"Fechar expediente\", que o usuário
-poderá acionar para fechar o expediente em tela.
+Para expedientes abertos, desde que o usuário logado tenha o papel **ServConhe**, será exibido o botão **Fechar expediente**, que o usuário poderá acionar para fechar o expediente em tela.
 
+<!--
 #### [ Certidão Interna ]{#Certid.C3.A3o_Interna .mw-headline}
 
 Perfil: administrador
@@ -2100,67 +2062,40 @@ TAG: certidão, certidão negativa
 Mesmo comportamento do [Solicitar
 habilitação](/wiki/funcionalidades.md#Solicitar_habilita.C3.A7.C3.A3o "Funcionalidades").
 
-### [ Outras ações ]{#Outras_a.C3.A7.C3.B5es .mw-headline}
+### Outras ações
 
-#### [ Ajustar movimentação ]{#Ajustar_movimenta.C3.A7.C3.A3o .mw-headline}
+#### Ajustar movimentação 
 
 Perfil: magistrado
 
-Por padrão, não há ajuste em movimentação. É permitido excluir apenas as
-que estão configuradas expressamente com essa característica através da
-[configuração da
-movimentação](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn375 "Regras de negócio").
+Por padrão, não há ajuste em movimentação. É permitido excluir apenas as que estão configuradas expressamente com essa característica através da [configuração da movimentação](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn375 "Regras de negócio").
 
-#### [ Associar processos ]{#Associar_processos .mw-headline}
+#### Associar processos 
 
 Perfil: diretor de secretaria/magistrado
 
-Regra relacionada:
-[RN464](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn464 "Regras de negócio")
+Regra relacionada: [RN464](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn464 "Regras de negócio")
 
-A associação de processos ocorre quando se deseja que processos sejam
-vinculados. A vinculação não faz com que os processos tramitem em
-conjunto. A associação pode ocorrer por três motivos:
+A associação de processos ocorre quando se deseja que processos sejam vinculados. A vinculação não faz com que os processos tramitem em conjunto. A associação pode ocorrer por três motivos:
 
--   dependência - ocorre quando um processo é diretamente vinculado, por
-    norma legal, a um principal, como os embargos à execução quanto à
-    execução ou a impugnação ao valor da causa quanto ao principal (deve
-    ser observada a regra
-    [RN373](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn373 "Regras de negócio"));
--   prevenção - ocorre quando um processo é vinculado, por decisão
-    judicial, a outro processo, nos casos em que se reconhece uma
-    circunstância legal que determina a tramitação em um mesmo juízo
-    (deve ser observada a regra
-    [RN373](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn373 "Regras de negócio"));
--   desmembramento - ocorre quanto aos processos derivados de um
-    processo originário, após a determinação do desmembramento.
+-   dependência - ocorre quando um processo é diretamente vinculado, por norma legal, a um principal, como os embargos à execução quanto à execução ou a impugnação ao valor da causa quanto ao principal (deve ser observada a regra [RN373](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn373 "Regras de negócio"));
+-   prevenção - ocorre quando um processo é vinculado, por decisão judicial, a outro processo, nos casos em que se reconhece uma circunstância legal que determina a tramitação em um mesmo juízo    (deve ser observada a regra [RN373](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn373 "Regras de negócio"));
+-   desmembramento - ocorre quanto aos processos derivados de um processo originário, após a determinação do desmembramento.
+-   vinculação indireta - qualquer outro motivo que não os listados acima.
 
-#### [ Chamar à ordem ]{#Chamar_.C3.A0_ordem .mw-headline}
+#### Chamar à ordem
 
 Perfil: administrador
 
-Deve-se chamar o feito à ordem quando verificada a existência de erro
-material e deste decorram atos que não poderiam ser determinados, em
-face da decisão prolatada. Através dessa opção, faz-se o chamamento,
-suspendendo o processo. Essa atividade será possível para processos de
-classes judiciais cujo fluxo configurado tenha um nó de desvio. Sendo
-assim, tarefas que possibilitem a chamada terão como um dos possíveis
-destinos o nó de desvio.
+Deve-se chamar o feito à ordem quando verificada a existência de erro material e deste decorram atos que não poderiam ser determinados, em face da decisão prolatada. Através dessa opção, faz-se o chamamento, suspendendo o processo. Essa atividade será possível para processos de classes judiciais cujo fluxo configurado tenha um nó de desvio. Sendo assim, tarefas que possibilitem a chamada terão como um dos possíveis destinos o nó de desvio.
 
-#### [ Enviar processo ]{#Enviar_processo .mw-headline}
-
-Funcionalidade utilizada quando se deseja remeter o processo à outra
-instância.
-
-#### [ Incluir alerta ]{#Incluir_alerta .mw-headline}
+#### Incluir alerta 
 
 Perfil: diretor de secretaria/magistrado/administrador
 
-Esta funcionalidade está disponível para usuários servidores. Permite
-incluir alertas associados a processos para que os usuários que os
-visualizem sejam notificados. Os alertas são exibidos ao serem
-visualizados os detalhes do processo.
+Esta funcionalidade está disponível para usuários servidores. Permite incluir alertas associados a processos para que os usuários que os visualizem sejam notificados. Os alertas são exibidos ao serem visualizados os detalhes do processo.
 
+<!--
 #### [ Incluir informação criminal relevante ]{#Incluir_informa.C3.A7.C3.A3o_criminal_relevante .mw-headline}
 
 Essa opção permite vincular ao processo informações que são relevantes
