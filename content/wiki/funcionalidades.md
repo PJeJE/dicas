@@ -621,16 +621,8 @@ as seguintes informações:
 
 ##### [ Processos aguardando encaminhamento do secretário de audiência(atas assinadas) ]{#Processos_aguardando_encaminhamento_do_secret.C3.A1rio_de_audi.C3.AAncia.28atas_assinadas.29 .mw-headline}
 
--->
-
 #### Últimas tarefas realizadas 
-
-### Painel do usuário
-
-É exibida a [árvore de tarefas](https://docs.pje.jus.br/manuais-de-uso/Manual%20de%20referencia%20PJe%201.0#%C3%A1rvore-de-tarefas). Apresentamos a descrição de algumas tarefas mais adiante.
-
-Esse painel é exibido para [usuários internos](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn394 "Regras de negócio") que tenham sido cadastrados como \"servidor\" e tenham sido associados a alguma localização configurada em fluxos no tribunal.
-
+-->
 
 ### Painel do magistrado na sessão
 
@@ -705,7 +697,7 @@ Através dessa aba, o usuário seleciona o tipo de resultado da diligência corr
 
 Após o registro, a geração da movimentação fica condicionada à regra [RN557](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn556 "Regras de negócio").
 
-### Painel do oficial de justiça
+### Painel do oficial de justiça (distribuidor)
 
 Perfil: oficial de justiça distribuidor
 
@@ -788,7 +780,14 @@ A tela inicial exibirá um calendário com todas as sessões do órgão julgador
 
 O quadro de avisos aparece quando há avisos cadastrados para aquele perfil. Ele disponibiliza um agrupador que permite a pesquisa de avisos por período de publicação.
 
-<!--
+
+### Painel do usuário
+
+É exibida a [árvore de tarefas](https://docs.pje.jus.br/manuais-de-uso/Manual%20de%20referencia%20PJe%201.0#%C3%A1rvore-de-tarefas). Apresentamos a descrição de algumas tarefas mais adiante.
+
+Esse painel é exibido para [usuários internos](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn394 "Regras de negócio") que tenham sido cadastrados como \"servidor\" e tenham sido associados a alguma localização configurada em fluxos no tribunal.
+
+
 ### Tarefas 
 ----------------------------------
 
@@ -988,7 +987,7 @@ Esse agrupador é exibido apenas quando a etapaAudiencia = \'R\'
 Fim do Em construção
 -->
 
-### Retificar autuação 
+#### Retificar autuação 
 
 São exibidos os processos pendentes da tarefa **Retificar autuação** e que estejam vinculados à localização do usuário.
 
@@ -1042,7 +1041,7 @@ Na exclusão de documentos digitalizados, que é possível para documentos
 não assinados, aplica-se a regra
 [pertinente](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn504 "Regras de negócio").
 -->
-### Preparar comunicação 
+#### Preparar comunicação 
 
 São exibidos os processos pendentes da tarefa **Preparar comunicação** e que estejam vinculados à localização do usuário. Ao acionar a intimação de uma parte através do fluxo principal, o processo será encaminhado para essa tarefa. A configuração da tarefa de preparo de expedientes deve ser realizada, em geral, no subfluxo destinado a permitir o preparo de atos de comunicação, denominado **Preparar ato de comunicação(PAC)**.
 
@@ -1055,7 +1054,7 @@ de comunicação, [tipos de prazo](http://titanio09.cnj.jus.br/wiki/index.php/Re
 -   [RN501 - Expediente por meio eletrônico](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn501 "Regras de negócio")
 -   [RN541 - Expediente por meio telefônico](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn541 "Regras de negócio")
 
-### Minutar ato
+#### Minutar ato
 
 São exibidos os processos pendentes da tarefa **Minutar ato** e que estejam vinculados à localização do usuário. A confecção da minuta se dá através de editor de textos do PJe. O usuário pode utilizar tipos de documentos e modelos de documentos diversos para a minuta, de acordo com a [configuração](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn348 "Regras de negócio") relacionada a esses tipos e modelos e também pela configuração dos modelos no próprio fluxo. A confecção da minuta deve gerar uma movimentação processual. Essa movimentação é selecionada através do lançador de movimentos, configurado no evento de tarefa devido. O lançador permite a [pesquisa](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn342 "Regras de negócio") e seleção de movimentos associados à tarefa sendo executada. A pesquisa permite que se consulte movimentos por código ou por descrição. Após selecionar o movimento no lançador de movimentos e gravar os dados, o sistema deve apresentar a próxima ação. A tarefa de minutar ato geralmente é configurada no subfluxo de **Preparar ato judicial(PAJ)**.
 
@@ -1109,11 +1108,11 @@ tarefa](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociai
 [RN537 (Minutar em
 lote)](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn537 "Regras de negócio")
 -->
-### Confirmar ato 
+#### Confirmar ato 
 
 Essa tarefa exibe os processos pendentes de confirmação, e que estejam vinculados à localização do usuário. O sistema recupera o texto inserido no momento da minuta (dentro do editor de textos), sendo que esse texto poderá ser alterado ou excluído. Assim como na tarefa **Minutar ato**, o usuário pode utilizar os tipos de documentos e modelos para a minuta.
 
-### Redistribuir processo 
+#### Redistribuir processo 
 
 São exibidos os processos pendentes da tarefa **Redistribuir processo** e que estejam vinculados à localização do usuário. Um magistrado que se considere impedido de julgar algum processo pode enviá-lo para redistribuição. A configuração da tarefa de redistribuição deve ser realizada no ponto do fluxo onde o magistrado toma a decisão de declarar o impedimento. Geralmente essa configuração se dá no subfluxo destinado a permitir o cumprimento de decisões de magistrados denominado **Cumprimento de decisão(CUMPRIDEC)**.
 
@@ -1125,7 +1124,7 @@ Regras relacionadas:
 
 
 
-### Reclassificar tipo de documento 
+#### Reclassificar tipo de documento 
 
 São exibidos os processos pendentes da tarefa **Reclassificar tipo de documento** e que estejam vinculados à localização do usuário.
 
@@ -1486,10 +1485,10 @@ apresenta a especificação completa de IPC do tipo oferecimento da
 denúncia.
 
 -->
-## Processo 
+### Processo 
 ------------------------------------
 
-### Novo processo
+#### Novo processo
 
 Perfil: advogado/procurador/servidor
 
@@ -1497,17 +1496,17 @@ Essa funcionalidade permite ao usuário autorizado realizar o cadastro de proces
 
 Uma breve apresentação das abas da tela **Cadastro de processo** é explicada a seguir e um detalhamento de como cadastrar um novo processo é explicado [aqui](http://titanio09.cnj.jus.br/wiki/index.php/Novo_processo "Novo processo").
 
-#### Dados iniciais
+##### Dados iniciais
 
 As jurisdições são aquelas cadastradas através do cadastro de jurisdições e devem ser listadas conforme regra [RN409](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn409 "Regras de negócio").
 
 Após a seleção da jurisdição, as classes devem aparecer conforme regra [RN402](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn402 "Regras de negócio").
 
-#### Assuntos 
+##### Assuntos 
 
 Os assuntos vinculados à classe selecionada conforme configuração de competência da classe respectiva serão disponibilizados para seleção.
 
-#### Partes
+##### Partes
 
 Nesta aba, é permitido o [cadastro das partes do processo](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn348 "Regras de negócio").
 
@@ -1522,7 +1521,7 @@ Regras relacionadas:
 -   Fornecimento de CPF/CNPJ: [RN497](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn497 "Regras de negócio")
 
 
-##### Endereços 
+###### Endereços 
 
 Aqui são cadastrados os endereços da parte.
 
@@ -1532,23 +1531,23 @@ A partir da identificação da parte (CPF ou CNPJ), pode-se ter acesso a endere�
 
 Regra relacionada: [exclusão de endereço](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn359 "Regras de negócio")
 
-##### Meios de contato
+###### Meios de contato
 
 O cadastro de meios de contato é exibido de acordo com a regra [RI216](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI216 "Regras de interface").
 
-##### Características pessoais 
+###### Características pessoais 
 
 O cadastro de característica pessoais estará disponível desde que a regra [RN508](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn508 "Regras de negócio")
 tenha sido satisfeita.
 
 O cadastro é exibido de acordo com a regra [RI217](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI217 "Regras de interface").
 
-#### Características 
+##### Características 
 
 Nessa opção, pode-se registrar pedido de segredo de justiça para o processo ([RN443](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn443 "Regras de negócio")),
 pedido de justiça gratuita, pedido de liminar ou de antecipação de tutela, o valor da causa e acrescentar as prioridades processuais, conforme regra [RN28](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn28 "Regras de negócio").
 
-#### Incluir petições e documentos
+##### Incluir petições e documentos
 
 Através dessa aba, o usuário poderá escrever a petição. Instruções a respeito dos requisitos de configuração da petição inicial estão disponíveis no [roteiro de configuração de
 documentos](http://titanio09.cnj.jus.br/wiki/index.php/Roteiro_de_configura%C3%A7%C3%A3o_de_documentos#Peti.C3.A7.C3.A3o_no_protocolo_de_processos "Roteiro de configuração de documentos").
@@ -1574,17 +1573,17 @@ Regras associadas:
 -   [RN565](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn565 "Regras de negócio")
 -   [RN566](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn566 "Regras de negócio")
 
-#### Dados específicos da classe 
+##### Dados específicos da classe 
 
 Através dessa aba, o usuário poderá incluir dados complementares configurados especificamente para a classe processual selecionada. Esta aba só deverá ser exibida se a classe processual estiver configurada com estes campos complementares. Os campos complementares deverão atender à configuração especificada em configuração de campos complementares dos dados específicos relacionada à
 [RN535](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn535 "Regras de negócio").
 
-#### Protocolar 
+##### Protocolar 
 
 Ao [protocolar](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn392 "Regras de negócio"), o processo será [distribuído](http://titanio09.cnj.jus.br/wiki/index.php/Distribui%C3%A7%C3%A3o "Distribuição"). A verificação de prevenção se dá nesse momento, conforme regras [RN303](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn303 "Regras de negócio") e [RN364](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn364 "Regras de negócio").
 
 
-### Novo processo incidental
+#### Novo processo incidental
 
 Perfil: advogado/procurador/servidor
 
@@ -1622,13 +1621,13 @@ Gerais
 
 
 
-### Novo processo com Jus Postulandi 
+#### Novo processo com Jus Postulandi 
 
 Perfil: jus postulandi (pessoa física validada)
 
 Jus postulandi é a capacidade que se faculta a alguém de postular, ou se defender, perante as instâncias judiciárias, as suas pretensões na Justiça, sem a necessidade de ser acompanhada por advogado. O cadastro de processo desta funcionalidade é adequado às características de peticionamento próprias, onde os dados a serem fornecidos são distintos. A restrição [RN493](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn493 "Regras de negócio") determina o comportamento do cadastro de partes no polo ativo.
 
-### Complementação do cadastro - Processo não protocolado 
+#### Processo não protocolado - Complementação do cadastro
 
 Perfil: advogado/procurador/servidor
 
@@ -1636,7 +1635,7 @@ Essa funcionalidade existe para permitir que o cadastro do processo seja iniciad
 
 A barra de paginação é exibida ao final da tabela em seu canto inferior esquerdo e o total de registros encontrados é exibido em seu canto inferior direito. Os botões da barra de paginação serão habilitados a partir de 12 processos, quantidade limite para exibição por página.
 
-### Pesquisa 
+#### Pesquisa 
 
 As pesquisas relacionados aos processos estão agrupadas nessa funcionalidade.
 <!--
