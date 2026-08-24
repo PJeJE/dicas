@@ -672,146 +672,80 @@ A inclusão de anotações é possível mesmo que a sessão não esteja em andam
 
 Perfil: oficial de justiça
 
-
 O usuário pode filtrar os expedientes através dos seguintes filtros:
 
--   Nome do destinatário ([campo de texto
-    livre](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Campos_de_texto_livre "Manual de referência"))
--   Grupo oficial de justiça ([caixa de
-    combinação](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Caixas_de_combina.C3.A7.C3.A3o "Manual de referência"))
--   Tipo de mandado ([caixa de
-    combinação](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Caixas_de_combina.C3.A7.C3.A3o "Manual de referência")) -
-    corresponde ao tipo de documento do expediente
+-   Nome do destinatário 
+-   Grupo oficial de justiça
+-   Tipo de mandado :corresponde ao tipo de documento do expediente
 
-Para cada mandado pendente segundo a regra
-[RN555](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn555 "Regras de negócio"),
-são retornadas as seguintes informações:
+Para cada mandado pendente segundo a regra [RN555](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn555 "Regras de negócio"), são retornadas as seguintes informações:
 
--   Ícone
-    [![Printer.png](Funcionalidades%20-%20PJe_arquivos/Printer.png){width="16"
-    height="16"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Printer.png){.image}
-    para exibição do mandado para impressão
--   Ícone
-    [![Lapis.jpg](Funcionalidades%20-%20PJe_arquivos/Lapis.jpg){width="16"
-    height="20"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Lapis.jpg){.image}
-    para exibição da tela de [cumprimento da
-    diligência](/wiki/funcionalidades.md#Controle_de_visita "Funcionalidades")
--   Ícone
-    [![Oculos.jpg](Funcionalidades%20-%20PJe_arquivos/Oculos.jpg){width="16"
-    height="21"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Oculos.jpg){.image}
-    para exibição dos documentos do processo
--   Ato de comunicação: resumo do expediente contendo as seguintes
-    informações:
+-   Ícone de impressora para exibição do mandado para impressão
+-   Ícone de lápis para exibição da tela de cumprimento da diligência
+-   Ícone de óculos para exibição dos documentos do processo
+-   Ato de comunicação: resumo do expediente contendo as seguintes informações:
     -   Órgão julgador ao qual o expediente está vinculado
-    -   Ícone
-        [![Indice.png](Funcionalidades%20-%20PJe_arquivos/Indice.png){width="20"
-        height="20"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Indice.png){.image}
-        caso tenha sido solicitada urgência na [confecção do
-        expediente](/wiki/funcionalidades.md#Preparar_comunica.C3.A7.C3.A3o "Funcionalidades")
-    -   Sigla da classe judicial ao lado do número do processo ao qual
-        está vinculado o expediente - tipo do documento
+    -   Ícone de exclamação caso tenha sido solicitada urgência na confecção do expediente (por meio do Preparar comunicação)
+    -   Sigla da classe judicial ao lado do número do processo ao qual está vinculado o expediente - tipo do documento
     -   Destinatários
     -   Expedição
     -   Distribuição
 -   Endereço (s)
 -   Anexos
 
-#### [ Controle de visita ]{#Controle_de_visita .mw-headline}
+#### Controle de visita (cumprimento da diligência)
 
-Através dessa tela, o usuário pode registrar as visitas realizadas até o
-encerramento da diligência.
+Através dessa tela, o usuário pode registrar as visitas realizadas até o encerramento da diligência.
 
-##### [ Controle de visita ]{#Controle_de_visita_2 .mw-headline}
+##### Aba Controle de visita
 
-Através dessa aba, o usuário pode registrar a data e a hora das visitas
-realizadas e suas respectivas descrições.
+Através dessa aba, o usuário pode registrar a data e a hora das visitas realizadas e suas respectivas descrições.
 
-##### [ Resultado da diligência ]{#Resultado_da_dilig.C3.AAncia .mw-headline}
+##### Aba Resultado da diligência
 
-Através dessa aba, o usuário seleciona através da [caixa de
-combinação](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Caixas_de_combina.C3.A7.C3.A3o "Manual de referência")
-de tipo de resultado da diligência o tipo correspondente. Os tipos são
-exibidos conforme regra
-[RN556](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn556 "Regras de negócio").
+Através dessa aba, o usuário seleciona o tipo de resultado da diligência correspondente. Os tipos são exibidos conforme regra [RN556](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn556 "Regras de negócio").
 
-Após o registro, a geração da movimentação fica condicionada à regra
-[RN557](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn556 "Regras de negócio").
+Após o registro, a geração da movimentação fica condicionada à regra [RN557](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn556 "Regras de negócio").
 
-### [ Painel do oficial de justiça ]{#Painel_do_oficial_de_justi.C3.A7a_2 .mw-headline}
+### Painel do oficial de justiça
 
 Perfil: oficial de justiça distribuidor
 
-O nome do painel é o mesmo do descrito anteriormente, mas trata-se do
-painel do oficial de justiça distribuidor.
+O nome do painel é o mesmo do descrito anteriormente, mas trata-se do painel do oficial de justiça distribuidor. Dessa forma, de acordo com o perfil que o usuário está, ou um ou outro é exibido.
 
 São exibidos os seguintes agrupadores:
 
-#### [ Expedientes para redistribuição ]{#Expedientes_para_redistribui.C3.A7.C3.A3o .mw-headline}
+#### Expedientes para redistribuição 
 
-Nesse agrupador são exibidos os processos que contém mandados de justiça
-pendentes de redistribuição. O agrupador contém ao lado de sua descrição
-a quantidade de expedientes pendentes.
+Nesse agrupador são exibidos os processos que contém mandados de justiça pendentes de redistribuição. O agrupador contém ao lado de sua descrição a quantidade de expedientes pendentes.
 
-Para cada mandado pendente segundo a regra
-[RN554](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn554 "Regras de negócio"),
-são retornadas as seguintes informações:
+Para cada mandado pendente segundo a regra [RN554](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn554 "Regras de negócio"), são retornadas as seguintes informações:
 
--   Ícone
-    [![Printer.png](Funcionalidades%20-%20PJe_arquivos/Printer.png){width="16"
-    height="16"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Printer.png){.image}
-    para exibição do mandado para impressão
--   Ícone
-    [![Oculos.jpg](Funcionalidades%20-%20PJe_arquivos/Oculos.jpg){width="16"
-    height="21"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Oculos.jpg){.image}
-    para exibição dos documentos do processo
--   Processo: número do processo ao qual o mandado está vinculado
--   Expediente: tipo de comunicação utilizada na [confecção do
-    mandado](/wiki/funcionalidades.md#Preparar_comunica.C3.A7.C3.A3o "Funcionalidades")
-    (o mesmo que tipo de documento)
--   Urgência: exibe o ícone
-    [![Indice.png](Funcionalidades%20-%20PJe_arquivos/Indice.png){width="20"
-    height="20"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Indice.png){.image}
-    caso tenha sido solicitada urgência na [confecção do
-    mandado](/wiki/funcionalidades.md#Preparar_comunica.C3.A7.C3.A3o "Funcionalidades")
+-   Ícone de impressora para exibição do mandado para impressão
+-   Ícone de óculos para exibição dos documentos do processo
+-   Processo: número do processo ao qual o mandado está vinculado - Expediente: tipo de comunicação utilizada na confecção do
+    mandado (por meio do Preparar comunicação - o mesmo que tipo de documento)
+-   Urgência: exibe o ícone de exclamação caso tenha sido solicitada urgência na confecção do mandado (por meio do Preparar comunicação)
 -   Distribuído em: data em que o mandado foi distribuído originalmente
 -   Destinatário
 -   Endereço(s)
--   [Campo de
-    seleção](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Campos_de_sele.C3.A7.C3.A3o "Manual de referência")
-    para possibilitar ao usuário a seleção de vários mandados que terão
-    a mesma distribuição
+-   Campo de seleção para possibilitar ao usuário a seleção de vários mandados que terão a mesma distribuição
 
-O usuário pode ordenar os mandados de forma a facilitar a organização de
-sua distribuição. A ordenação é determinada pela regra
-[RN560](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn560 "Regras de negócio").
+O usuário pode ordenar os mandados de forma a facilitar a organização de sua distribuição. A ordenação é determinada pela regra [RN560](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn560 "Regras de negócio").
 
-Ao selecionar algum mandado através do [campo de
-seleção](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Campos_de_sele.C3.A7.C3.A3o "Manual de referência")
-disponibilizado, o
-[botão](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Bot.C3.B5es "Manual de referência")
-[\"Redistribuir\"](/wiki/funcionalidades.md#Redistribuir "Funcionalidades")
-é habilitado.
+Ao selecionar algum mandado através do campo de seleção disponibilizado, o botão **Redistribuir** é habilitado.
 
-##### [ Redistribuir ]{#Redistribuir .mw-headline}
+##### Redistribuir 
 
-Após selecionar o(s) mandado(s), o usuário terá a opção de selecionar o
-grupo de oficiais de justiça para o qual o mandado será enviado e,
-opcionalmente, o oficial de justiça a que ele será atribuído.
+Após selecionar o(s) mandado(s), o usuário terá a opção de selecionar o grupo de oficiais de justiça para o qual o mandado será enviado e, opcionalmente, o oficial de justiça a que ele será atribuído.
 
-Na redistribuição, a regra
-[RN552](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn552 "Regras de negócio")
-é obedecida, ficando a geração de movimentação condicionada à regra
-[RN551](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn551 "Regras de negócio").
+Na redistribuição, a regra [RN552](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn552 "Regras de negócio") é obedecida, ficando a geração de movimentação condicionada à regra [RN551](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn551 "Regras de negócio").
 
-#### [ Expedientes para distribuição ]{#Expedientes_para_distribui.C3.A7.C3.A3o .mw-headline}
+#### Expedientes para distribuição 
 
-Nesse agrupador são exibidos os processos que contém mandados de justiça
-pendentes de distribuição. O agrupador contém ao lado de sua descrição a
-quantidade de expedientes pendentes.
+Nesse agrupador são exibidos os processos que contém mandados de justiça pendentes de distribuição. O agrupador contém ao lado de sua descrição a quantidade de expedientes pendentes.
 
-Para cada mandado pendente segundo a regra
-[RN553](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn553 "Regras de negócio"),
-são retornadas as seguintes informações:
+Para cada mandado pendente segundo a regra [RN553](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn553 "Regras de negócio"), são retornadas as seguintes informações:
 
 -   Ícone
     [![Printer.png](Funcionalidades%20-%20PJe_arquivos/Printer.png){width="16"
