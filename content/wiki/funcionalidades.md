@@ -2544,22 +2544,20 @@ Perfil: diretor de secretaria
 
 Essa funcionalidade permite a verificação das perícias agendadas, com
 designação dos peritos, datas e especificidades da atividade.
-
-### [ Recebimento de expediente físico ]{#Recebimento_de_expediente_f.C3.ADsico .mw-headline}
+-->
+### Recebimento de expediente físico 
 
 Perfil: oficial de justiça
 
-Essa funcionalidade permite que o usuário registre expedientes físicos
-em um processo judicial no sistema. Por exemplo, o registro de avisos de
-recebimento.
+Essa funcionalidade permite que o usuário registre expedientes físicos em um processo judicial no sistema. Por exemplo, o registro de avisos de recebimento.
 
-### [ Redistribuição de expediente ]{#Redistribui.C3.A7.C3.A3o_de_expediente .mw-headline}
+### Redistribuição de expediente 
 
 Perfil: oficial de justiça distribuidor
 
-A redistribuição de expediente permite que o usuário possa alterar a
-distribuição de expedientes já feita aos oficiais de justiça.
+A redistribuição de expediente permite que o usuário possa alterar a distribuição de expedientes já feita aos oficiais de justiça.
 
+<!--
 ### [ Registrar disponibilidade de perito ]{#Registrar_disponibilidade_de_perito .mw-headline}
 
 Perfil: perito / servidor perícia
