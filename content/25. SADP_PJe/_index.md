@@ -1,12 +1,12 @@
 +++
 title = "Migração SADP"
 date = 2026-08-08T15:07:27-03:00
-weight = 25
+weight = 24
 chapter = true
-pre = "<b>25. </b>"
+pre = "<b>24. </b>"
 +++
 
-### Seção 25
+### Seção 24
 
 
 # Guia prático para migração de processos físicos e híbridos para o PJe.
