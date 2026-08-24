@@ -1635,7 +1635,7 @@ Essa funcionalidade existe para permitir que o cadastro do processo seja iniciad
 
 A barra de paginação é exibida ao final da tabela em seu canto inferior esquerdo e o total de registros encontrados é exibido em seu canto inferior direito. Os botões da barra de paginação serão habilitados a partir de 12 processos, quantidade limite para exibição por página.
 
-#### Pesquisa 
+<!--#### Pesquisa 
 
 As pesquisas relacionados aos processos estão agrupadas nessa funcionalidade.
 <!--
@@ -1709,109 +1709,60 @@ height="21"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Oculos.jpg){.im
 Opção acionada através do ícone
 [![Cpver.png](Funcionalidades%20-%20PJe_arquivos/Cpver.png){width="48"
 height="48"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Cpver.png){.image}.
+-->
+#### Autos digitais
 
-###### [ Cabeçalho do processo ]{#Cabe.C3.A7alho_do_processo .mw-headline}
-
-O cabeçalho do processo é exibido no canto superior esquerdo da tela de
-detalhes, ao lado do ícone do
-[![Cpver.png](Funcionalidades%20-%20PJe_arquivos/Cpver.png){width="48"
-height="48"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Cpver.png){.image}.
+O cabeçalho do processo é exibido no canto superior esquerdo da tela de detalhes, ao lado do ícone de cortina.
 
 Ele é composto da seguintes informações:
 
--   Órgão julgador/Cargo - a descrição do órgão julgador do processo e
-    do cargo judicial a ele vinculado. Para instâncias de revisão, é
-    exibida primeiramente a descrição do órgão julgador colegiado.
+-   Órgão julgador/Cargo - a descrição do órgão julgador do processo e do cargo judicial a ele vinculado. Para instâncias de revisão, é exibida primeiramente a descrição do órgão julgador colegiado.
 -   abreviação da classe e número do processo -
 -   polo ativo X polo passivo
 
-###### [ Ferramentas ]{#Ferramentas .mw-headline}
+###### Ferramentas 
 
-Opção acionada através do ícone
-[![Sigilo.png](Funcionalidades%20-%20PJe_arquivos/Sigilo.png){width="32"
-height="32"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Sigilo.png){.image}.
+Opção acionada através do ícone de três barrinha horizontais
 
--   Iniciar atividade de digitalização: Regra
-    [RN519](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn519 "Regras de negócio")
-    contém restrições para que opção esteja disponível
--   Exibir situações atuais do processo / Ocultar situações atuais do
-    processo (Regra
-    [RN581](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn581 "Regras de negócio"))
+-   Iniciar atividade de digitalização: Regra [RN519](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn519 "Regras de negócio") contém restrições para que opção esteja disponível
+-   Exibir situações atuais do processo / Ocultar situações atuais do processo (Regra[RN581](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn581 "Regras de negócio"))
     (papel pje:papel:visualizaSituacoes)
 
-Ao acionar essa opção, são exibidas, em uma lista no topo da tela de
-detalhes, logo abaixo do cabeçalho do processo, as situações atuais do
-processo com a data e a hora de seu início. A opção ficará, então,
-disponível, como \"Ocultar situações atuais do processo\".
-
--   Exibir situações do processo / Ocultar situações do processo (Regra
-    [RN581](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn581 "Regras de negócio"))
+Ao acionar essa opção, são exibidas, em uma lista no topo da tela de detalhes, logo abaixo do cabeçalho do processo, as situações atuais do processo com a data e a hora de seu início. A opção ficará, então, disponível, como **Ocultar situações atuais do processo**. 
+-   Exibir situações do processo / Ocultar situações do processo (Regra [RN581](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn581 "Regras de negócio"))
     (papel pje:papel:visualizaSituacoes)
 
-Ao acionar essa opção, são exibidas, em uma lista no topo da tela de
-detalhes, logo abaixo do cabeçalho do processo, as situações já
-encerradas do processo com a data e a hora de seu início e data e a hora
-de seu encerramento. A opção ficará, então, disponível, como \"Ocultar
-situações do processo\".
+Ao acionar essa opção, são exibidas, em uma lista no topo da tela de detalhes, logo abaixo do cabeçalho do processo, as situações já encerradas do processo com a data e a hora de seu início e data e a hora de seu encerramento. A opção ficará, então, disponível, como **Ocultar situações do processo**.
 
 -   Editar objeto do processo
--   Controle de sigilo: Detalhamento das opções de sigilo disponível no
-    detalhamento do processo no [roteiro de
-    utilização](http://titanio09.cnj.jus.br/wiki/index.php/Roteiro_de_utiliza%C3%A7%C3%A3o_de_sigilo_e_segredo_de_justi%C3%A7a#Detalhes_do_processo "Roteiro de utilização de sigilo e segredo de justiça").
+-   Controle de sigilo: Detalhamento das opções de sigilo disponível no detalhamento do processo no [roteiro de utilização](http://titanio09.cnj.jus.br/wiki/index.php/Roteiro_de_utiliza%C3%A7%C3%A3o_de_sigilo_e_segredo_de_justi%C3%A7a#Detalhes_do_processo "Roteiro de utilização de sigilo e segredo de justiça").
 
-###### [ Dados do processo ]{#Dados_do_processo .mw-headline}
 
-###### [ Processo ]{#Processo_4 .mw-headline}
-
--   Detalhes do processo
-
-Para instalações de segundo grau, é exibido o [campo de
-seleção](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Campos_de_sele.C3.A7.C3.A3o "Manual de referência")
-para [selecionar para
-pauta](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn387 "Regras de negócio"),
-que permite que o processo seja selecionado através dessa tela,
-alternativamente à seleção através da opção pelo
-[fluxo](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn526 "Regras de negócio").
 
 -   Documentos
 
-Tabela que retorna todos os documentos que foram incluídos no processo.
-Para maiores detalhes, ver regra
-[RI309](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI309 "Regras de interface").
+Tabela que retorna todos os documentos que foram incluídos no processo. Para maiores detalhes, ver regra [RI309](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI309 "Regras de interface").
 
 -   Movimentações do Processo
 
-Tabela que retorna todos os movimentos registrados, respeitando as
-regras
+Tabela que retorna todos os movimentos registrados, respeitando as regras
+
 [RN567](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn567 "Regras de negócio")
 e
 [RN559](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn559 "Regras de negócio").
-A exibição dos movimentos é determinada pela regra
-[RI246](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI246 "Regras de interface").
+A exibição dos movimentos é determinada pela regra [RI246](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI246 "Regras de interface").
 
-###### [ Anexar documentos ]{#Anexar_documentos .mw-headline}
+###### Juntar documentos 
 
-Através dessa aba, o usuário poderá adicionar documentos, utilizando
-também a opção de anexos de documentos já produzidos em outros
-aplicativos. Podem ser adicionados documentos de acordo com a seguinte
-sistemática:
+Através dessa aba, o usuário poderá adicionar documentos, utilizando também a opção de anexos de documentos já produzidos em outros aplicativos. Podem ser adicionados documentos de acordo com a seguinte sistemática:
 
 -   o sistema apresenta ao usuário botão para adição de arquivos;
--   o usuário seleciona e envia um ou mais arquivos para adição,
-    limitando-se a lista aos arquivos de extensões específicas
-    configuradas na aplicação PJe;
--   o sistema recebe os arquivos, verifica o respeito aos tipos de
-    arquivos permitidos e seus respectivos tamanhos, exibindo tabela na
-    qual o usuário deverá preencher os dados necessários à gravação
-    definitiva; a tabela exibida também informará se o documento já está
-    assinado eletronicamente;
--   o usuário complementa os dados (tipo de documento, sua descrição, se
-    requer sigilo judicial a seu respeito e a ordem de inclusão) e
-    seleciona o botão \[Gravar\] ou o botão \[Assinar eletronicamente\]
+-   o usuário seleciona e envia um ou mais arquivos para adição, limitando-se a lista aos arquivos de extensões específicas configuradas na aplicação PJe;
+-   o sistema recebe os arquivos, verifica o respeito aos tipos de arquivos permitidos e seus respectivos tamanhos, exibindo tabela na qual o usuário deverá preencher os dados necessários à gravação definitiva; a tabela exibida também informará se o documento já está assinado eletronicamente;
+-   o usuário complementa os dados (tipo de documento, sua descrição, se requer sigilo judicial a seu respeito e a ordem de inclusão) e seleciona o botão **Gravar** ou o botão **Assinar eletronicamente**
 -   o sistema informa se a assinatura foi bem sucedida.
 
-O usuário tem a opção de remover um arquivo anteriormente adicionado até
-o momento da assinatura.
+O usuário tem a opção de remover um arquivo anteriormente adicionado até o momento da assinatura.
 
 Regras associadas:
 
@@ -1820,26 +1771,15 @@ Regras associadas:
 -   [RN286](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn286 "Regras de negócio")
 -   [RN287](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn287 "Regras de negócio")
 
-###### [ Aba Expedientes ]{#Aba_Expedientes .mw-headline}
+###### Aba Expedientes
 
-É por meio dessa aba que o usuário poderá
-[visualizar](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI310 "Regras de interface")
-todos expedientes do processo em questão, além de possuir a alternativa
-de tomar a ciência do ato de comunicação quando algum expediente lhe for
-designado.
+É por meio dessa aba que o usuário poderá visualizar todos expedientes do processo em questão, além de existir a alternativa de tomar a ciência do ato de comunicação quando algum expediente lhe for designado.
 
-###### [ Segredo ou sigilo ]{#Segredo_ou_sigilo .mw-headline}
+###### Segredo ou sigilo
 
-###### [ Associados ]{#Associados .mw-headline}
+###### Associados 
 
-Nessa aba são exibidos os processos associados ao processo objeto do
-detalhamento. Os processo associados são aqueles que foi registrada
-conexão por algum dos motivos [previstos no
-PJe](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD99 "Regras de domínio"),
-ou seja, dependência, desmembramento, prevenção ou vinculação indireta.
-Os processos físicos ou que não estão na instalação do PJe não são
-listados nessa opção em decorrência da regra
-[RN474](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn474 "Regras de negócio").
+Nessa aba são exibidos os processos associados ao processo objeto do detalhamento. Os processo associados são aqueles que foi registrada conexão por algum dos motivos previstos no PJe, ou seja, dependência, desmembramento, prevenção ou vinculação indireta. Os processos físicos ou que não estão na instalação do PJe não são listados nessa opção em decorrência da regra [RN474](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn474 "Regras de negócio").
 
 Para cada processo encontrado, são exibidas as seguintes informações:
 
@@ -1849,78 +1789,53 @@ Para cada processo encontrado, são exibidas as seguintes informações:
 -   Assunto
 -   Polo ativo
 -   Polo passivo
--   Situação - o motivo da associação, conforme opções do PJe da regra
-    [RD99](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD99 "Regras de domínio")
+-   Situação - o motivo da associação, conforme opções do PJe da regra [RD99](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD99 "Regras de domínio")
 -   Status
 -   Prevenção confirmada em
 -   Despacho
 -   Data de registro
 
-###### [ Petições avulsas ]{#Peti.C3.A7.C3.B5es_avulsas .mw-headline}
+###### Petições avulsas
 
-Nessa aba são exibidas as [petições avulsas não
-apreciadas](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn571 "Regras de negócio")
-de acordo com as permissões descritas na
-[RN570](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn570 "Regras de negócio").
+Nessa aba são exibidas as [petições avulsas não apreciadas](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn571 "Regras de negócio") de acordo com as permissões descritas na [RN570](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn570 "Regras de negócio").
 
-\
+
 Para cada petição não apreciada, são exibidas as seguintes informações:
 
 -   Documento - descrição do documento
 -   Tipo de documento
--   Visualizar petição - ícone
-    [![Oculos.jpg](Funcionalidades%20-%20PJe_arquivos/Oculos.jpg){width="16"
-    height="21"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Oculos.jpg){.image}
-    que permite visualizar o documento
--   Coluna contendo registro \"Declaro, sob as penas da lei, que neste
-    ato apresentei instrumento de mandato\"
+-   Visualizar petição - ícone de óculos que permite visualizar o documento
+-   Coluna contendo registro **Declaro, sob as penas da lei, que neste ato apresentei instrumento de mandato**
 
-###### [ Anexos ]{#Anexos .mw-headline}
+###### Anexos
 
-Aqui são exibidos os documentos juntados após a distribuição do processo
-por advogado ou procurador.
+Aqui são exibidos os documentos juntados após a distribuição do processo por advogado ou procurador.
 
-###### [ Acesso de terceiros ]{#Acesso_de_terceiros .mw-headline}
+###### Acesso de terceiros
 
-São listados os acessos registrados de terceiros interessados no
-processo conforme regra
-[RN452](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn452 "Regras de negócio").
+São listados os acessos registrados de terceiros interessados no processo conforme regra [RN452](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn452 "Regras de negócio").
 
-#### [ Localizações ]{#Localiza.C3.A7.C3.B5es .mw-headline}
 
-Perfil: servidor
+### Pesquisa 
 
-Localizações contemplam a estrutura interna de um tribunal. Ela é
-utilizada tanto para a definição da estrutura hierárquica do tribunal
-quanto para a organização interna de outras "entidades" participantes do
-processo, tais como os advogados, seus escritórios de advocacia, as
-procuradorias e defensorias públicas. Além disso, por meio dela, é
-possível definir os "setores" de um determinado órgão julgador, ou seja,
-indicar que uma vara será composta por um gabinete, pela direção de
-secretaria ou direção do cartório, e pelos setores de conhecimento,
-expedição de atos de comunicação, execução etc. A [localização limita o
-conjunto de processos visualizáveis pelos usuários]{.ul} do sistema.
-Através dessa funcionalidade, o [usuário
-interno](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn394 "Regras de negócio")
-(diretor de secretaria, magistrado, assessor\...) pode pesquisar onde se
-encontram os processos que ele tem permissão de visualizar. Ele
-visualiza a localização do processo, assim como as tarefas pelas quais o
-processo já passou. Além disso, ele tem acesso a um quantitativo de
-processos por tarefas.
+As pesquisas relacionados aos processos estão agrupadas nessa funcionalidade.
 
-#### [ Informações de distribuição ]{#Informa.C3.A7.C3.B5es_de_distribui.C3.A7.C3.A3o .mw-headline}
+
+#### Localizações
 
 Perfil: servidor
 
-Essa funcionalidade visa dar mais transparência ao processo de
-distribuição uma vez que permite que o [usuário
-interno](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn394 "Regras de negócio")
-pesquise e visualize o passo a passo do procedimento automático de
-distribuição por processo efetivamente distribuído, contemplando todos
-os valores levados em consideração para cálculo do peso e finalização do
-procedimento .
+Localizações contemplam a estrutura interna de um tribunal. Ela é utilizada tanto para a definição da estrutura hierárquica do tribunal quanto para a organização interna de outras "entidades" participantes do processo, tais como os advogados, seus escritórios de advocacia, as procuradorias e defensorias públicas. Além disso, por meio dela, é possível definir os "setores" de um determinado órgão julgador, ou seja, indicar que uma vara será composta por um gabinete, pela direção de secretaria ou direção do cartório, e pelos setores de conhecimento, expedição de atos de comunicação, execução etc. A localização limita o conjunto de processos visualizáveis pelos usuários do sistema. Através dessa funcionalidade, o [usuário interno](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn394 "Regras de negócio") (diretor de secretaria, magistrado, assessor\...) pode pesquisar onde se encontram os processos que ele tem permissão de visualizar. Ele visualiza a localização do processo, assim como as tarefas pelas quais o processo já passou. Além disso, ele tem acesso a um quantitativo de processos por tarefas.
 
-#### [ Processo não distribuído ]{#Processo_n.C3.A3o_distribu.C3.ADdo .mw-headline}
+#### Informações de distribuição
+
+Perfil: servidor
+
+Essa funcionalidade visa dar mais transparência ao processo de distribuição uma vez que permite que o [usuário interno](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn394 "Regras de negócio") pesquise e visualize o passo a passo do procedimento automático de distribuição por processo efetivamente distribuído, contemplando todos
+os valores levados em consideração para cálculo do peso e finalização do procedimento .
+
+<!--
+#### Processo não distribuído
 
 Perfil: servidor
 
@@ -1933,7 +1848,7 @@ ser distribuídos.
 
 Essa opção permite a consulta ao Banco Nacional de Devedores
 Trabalhistas através de integração via web service. Ela está disponível
-para usuários internos.
+para usuários internos. 
 
 #### [ Consulta de processos de terceiros ]{#Consulta_de_processos_de_terceiros .mw-headline}
 
@@ -2052,7 +1967,6 @@ Perfil: Usuário externo, sem necessidade de cadastramento no PJe
 Essa funcionalidade tem como objetivo realizar a pesquisa de certidões
 negativas, tendo como base a pessoa cadastrada nos polos de um processo.
 
-\
 TAG: certidão, certidão negativa
 
 ### [ Cadastro - Habilitação nos autos ]{#Cadastro_-_Habilita.C3.A7.C3.A3o_nos_autos .mw-headline}
@@ -2060,6 +1974,7 @@ TAG: certidão, certidão negativa
 Mesmo comportamento do [Solicitar
 habilitação](/wiki/funcionalidades.md#Solicitar_habilita.C3.A7.C3.A3o "Funcionalidades").
 
+-->
 ### Outras ações
 
 #### Ajustar movimentação 
