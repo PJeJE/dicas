@@ -768,33 +768,29 @@ Após selecionar o(s) mandado(s), o usuário terá a opção de selecionar o gru
 
 Na distribuição, a regra [RN552](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn552 "Regras de negócio") é obedecida, ficando a geração de movimentação condicionada à regra [RN551](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn551 "Regras de negócio").
 
-### [ Painel do perito ]{#Painel_do_perito .mw-headline}
+<!--### [ Painel do perito ]{#Painel_do_perito .mw-headline}
 
 Esse painel apresenta as perícias designadas para o perito identificado.
+-->
 
-### [ Painel do procurador na sessão ]{#Painel_do_procurador_na_sess.C3.A3o .mw-headline}
+### Painel do procurador na sessão
 
-A tela inicial exibirá um calendário com todas as sessões que tem
-processos pautados com o procurador vinculado, agrupadas por dia.
+A tela inicial exibirá um calendário com todas as sessões que tem processos pautados com o procurador vinculado, agrupadas por dia.
 
-### [ Painel do membro do Ministério Público na sessão ]{#Painel_do_membro_do_Minist.C3.A9rio_P.C3.BAblico_na_sess.C3.A3o .mw-headline}
+### Painel do membro do Ministério Público na sessão
 
-A tela inicial exibirá um calendário com todas as sessões que tem
-processos pautados com o membro do Ministério Público atuando, agrupadas
-por dia.
+A tela inicial exibirá um calendário com todas as sessões que tem processos pautados com o membro do Ministério Público atuando, agrupadas
+por dia. Caso a tela seja liberada para o perfil de advogado, o nome do item de menu passa a ser **Painel do membro da OAB na sessão**.
 
-### [ Painel do secretário da sessão ]{#Painel_do_secret.C3.A1rio_da_sess.C3.A3o .mw-headline}
+### Painel do secretário da sessão 
 
-A tela inicial exibirá um calendário com todas as sessões do órgão
-julgador colegiado ao qual o secretário está vinculado, agrupadas por
-dia.
+A tela inicial exibirá um calendário com todas as sessões do órgão julgador colegiado ao qual o secretário está vinculado, agrupadas por dia.
 
-### [ Quadro de avisos ]{#Quadro_de_avisos .mw-headline}
+### Quadro de avisos 
 
-O quadro de avisos aparece quando há avisos cadastrados para aquele
-perfil. Ele disponibiliza um agrupador que permite a pesquisa de avisos
-por período de publicação.
+O quadro de avisos aparece quando há avisos cadastrados para aquele perfil. Ele disponibiliza um agrupador que permite a pesquisa de avisos por período de publicação.
 
+<!--
 [ Tarefas ]{#Tarefas .mw-headline}
 ----------------------------------
 
@@ -2391,62 +2387,26 @@ Perfil: diretor de secretaria/administrador
 O magistrado poderá determinar que sejam realizados por meio eletrônico
 a exibição e o envio de dados e de documentos necessários à instrução do
 processo.
-
-#### [ Retificar autuação ]{#Retificar_autua.C3.A7.C3.A3o_2 .mw-headline}
+-->
+#### Retificar autuação
 
 Perfil: servidor retificador
 
-É permitida a retificação dos autos do processo para usuários
-servidores, ressalvada a regra
-[RN307](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn307 "Regras de negócio").
-A retificação de autuação pode ser demandada por diversos motivos. Uma
-das partes pode solicitar a retificação da autuação via petição anexada
-ao processo. Por exemplo, para incluir um novo advogado como
-representante da parte pode-se fazer através de petição, que será
-analisada internamente pela vara aonde o processo foi distribuído. Caso
-o pedido seja considerado válido, será realizada a retificação dos autos
-do processo através dessa opção. Outra situação é a intervenção de
-terceiro, que ocorre quando uma terceira parte, diante de um processo em
-andamento, deseja fazer parte do processo.\
-Antes de efetuar a retificação dos autos, é necessário que o
-administrador do sistema inclua o(s) tipo(s) de parte desejado(s) nas
-classes judiciais em uso no sistema. Essa inclusão pode ser feita por
-meio da **Aba Tipo da parte** localizada em ([Configuração → Tabelas
-Judiciais → Classe Judicial → Classe
-Judicial](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Classe_judicial_2 "Manual de referência")).
+É permitida a retificação dos autos do processo para usuários servidores, ressalvada a regra [RN307](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn307 "Regras de negócio"). A retificação de autuação pode ser demandada por diversos motivos. Uma das partes pode solicitar a retificação da autuação via petição anexada ao processo. Por exemplo, para incluir um novo advogado como representante da parte pode-se fazer através de petição, que será analisada internamente pela vara aonde o processo foi distribuído. Caso o pedido seja considerado válido, será realizada a retificação dos autos do processo através dessa opção. Outra situação é a intervenção de terceiro, que ocorre quando uma terceira parte, diante de um processo em andamento, deseja fazer parte do processo. Antes de efetuar a retificação dos autos, é necessário que o administrador do sistema inclua o(s) tipo(s) de parte desejado(s) nas classes judiciais em uso no sistema. Essa inclusão pode ser feita por meio da **Aba Tipo da parte** localizada em **Configuração → Tabelas Judiciais → Classe Judicial → Classe Judicial**
 
-Observação Recomenda-se utilizar a opção de configuração da atividade
-[em
-tarefa](/wiki/funcionalidades.md#Retificar_autua.C3.A7.C3.A3o "Funcionalidades")
-em detrimento da utilização do item de menu.
+Observação: Recomenda-se utilizar a opção de configuração da atividade em tarefa em detrimento da utilização do item de menu.
 
-#### [ Solicitar habilitação ]{#Solicitar_habilita.C3.A7.C3.A3o .mw-headline}
+#### Solicitar habilitação 
 
 Perfil: advogado
 
-\
-Essa funcionalidade permite que um advogado se [habilite em um processo
-(regra
-RN376)](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn376 "Regras de negócio")
-em andamento. Por exemplo, uma parte x (polo ativo) entra com uma ação,
-representada por seu advogado, contra uma outra parte y (polo passivo).
-O advogado que desejar se habilitar, de posse do nº do processo e da
-procuração respectiva, poderá solicitar habilitação nos autos para
-representar o seu cliente. O advogado solicita habilitação e o
-magistrado examina a petição e documentos anexados na solicitação de
-habilitação, mas a habilitação é realizada automaticamente. Deve ser
-observada ainda, a regra
-[RN300](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn300 "Regras de negócio")
-quando se tratar de processo em segredo de justiça. Para perfis que não
-devem ter acesso à funcionalidade, o sistema não deve disponibilizar o
-menu ou deve impedir a utilização, utilizando como referência a mensagem
-[MN176](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_mensagens#MN176 "Regras de mensagens").
-A possibilidade de habilitação e substituição prevê a notificação do
-substituído do fato. O advogado pode também realizar a habilitação por
-substabelecimento, que também prevê a notificação do substabelecente do
-fato. As notificações seguem a regra
-[RN620](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn620 "Regras de negócio")
+Essa funcionalidade permite que um advogado se [habilite em um processo (regra RN376)](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn376 "Regras de negócio")
+em andamento. Por exemplo, uma parte x (polo ativo) entra com uma ação, representada por seu advogado, contra uma outra parte y (polo passivo). O advogado que desejar se habilitar, de posse do nº do processo e da procuração respectiva, poderá solicitar habilitação nos autos para representar o seu cliente. O advogado solicita habilitação e o magistrado examina a petição e documentos anexados na solicitação de habilitação, mas a habilitação é realizada automaticamente. Deve ser observada ainda, a regra [RN300](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn300 "Regras de negócio") quando se tratar de processo em segredo de justiça. Para perfis que não devem ter acesso à funcionalidade, o sistema não deve disponibilizar o
+menu ou deve impedir a utilização.
 
+A possibilidade de habilitação e substituição prevê a notificação do substituído do fato. O advogado pode também realizar a habilitação por substabelecimento, que também prevê a notificação do substabelecente do fato. As notificações seguem a regra [RN620](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn620 "Regras de negócio")
+
+<!--
 #### [ Peticionamento avulso ]{#Peticionamento_avulso .mw-headline}
 
 (opção disponível a partir da versão 1.6.0 como \"Peticionar\"
@@ -2476,20 +2436,14 @@ Regras relacionadas:
     as
     petições](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn414 "Regras de negócio")
 
-[ Atividades ]{#Atividades .mw-headline}
-----------------------------------------
+-->
+## Atividades 
 
-### [ Assinar documentos pendentes ]{#Assinar_documentos_pendentes .mw-headline}
+### Assinar documentos pendentes 
 
 Perfil: advogado/procurador/servidor
 
-Permite que se
-[assine](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI244 "Regras de interface")
-os documentos principais que estão [pendentes de
-assinatura](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn378 "Regras de negócio"),
-respeitando as regras de
-[visibilidade](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn379 "Regras de negócio")
-do usuário logado.
+Permite que se assine os documentos principais que estão [pendentes de assinatura](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn378 "Regras de negócio"), respeitando as regras de [visibilidade](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn379 "Regras de negócio") do usuário logado.
 
 ### Avisos
 
