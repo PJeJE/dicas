@@ -381,13 +381,15 @@ da grid \"Meus Expedientes\"), o usuário pode registrar a
 feita pelo meio de envio \"**Correios**\".
 
 No campo \"Resultado\", os valores possíveis são os disponíveis na regra
-[RD102](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD102 "Regras de domínio").
+
+
+https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20dominio#rd102 "Regras de domínio").
 
 O registro da ciência para expedientes físicos, conforme regra
 [RN510](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn510 "Regras de negócio"),
 só será realizado se a intimação for efetivamente recebida, ou seja,
 \"Recebido\" de acordo com as opções da regra
-[RD102](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD102 "Regras de domínio").
+[RD102](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20dominio#rd102 "Regras de domínio").
 Esse registro será realizado utilizando como data da ciência o campo
 data de recebimento, que deve ser de preenchimento obrigatório apenas
 para o resultado \"Recebido\", conforme a mesma regra
@@ -543,7 +545,7 @@ seguintes informações:
 ##### [ Processos em análise de prevenção ]{#Processos_em_an.C3.A1lise_de_preven.C3.A7.C3.A3o .mw-headline}
 
 Todos os processos que tenham processos filhos associados cujo [tipo de
-associação](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD99 "Regras de domínio")
+associação](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20dominio#rd99 "Regras de domínio")
 seja uma prevenção apontada anteriormente e ainda [não
 validada](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn304 "Regras de negócio").
 Os processos previamente avaliados pelo assessor que tiverem minuta de
@@ -559,7 +561,7 @@ verificar a regra
 
 Para o caso do servidor, todos os processos que tenham processos filhos
 associados cujo [tipo de
-associação](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD99 "Regras de domínio")
+associação](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20dominio#rd99 "Regras de domínio")
 seja uma prevenção apontada anteriormente e ainda [não
 validadas](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn304 "Regras de negócio").
 O assessor consegue confirmar ou declinar provisoriamente a situação de
@@ -816,7 +818,7 @@ e de
 As duas tarefas têm em comum o controle de realização das audiências por
 [etapas](/wiki/funcionalidades.md#Etapas "Funcionalidades").
 Durante a execução da tarefa, as audiências passam de uma
-\"[etapa](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD113 "Regras de domínio")\"
+\"[etapa](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20dominio#rd113 "Regras de domínio")\"
 para outra, conforme opções disponíveis na tela. A tela é redesenhada de
 acordo com a etapa de execução da tarefa selecionada pelo usuário.
 
@@ -863,24 +865,24 @@ contendo as seguintes informações:
 -   Data da audiência
 -   Status
     -   \"Remarcado\" para audiências redesignadas
-        ([statusAudiencia](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD108 "Regras de domínio")
+        ([statusAudiencia](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20dominio#rd108 "Regras de domínio")
         = \'R\')
     -   \"Convertido em Diligência\" para audiências convertidas em
         diligência
-        ([statusAudiencia](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD108 "Regras de domínio")
+        ([statusAudiencia](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20dominio#rd108 "Regras de domínio")
         = \'D\')
     -   \"Cancelado\" para audiências canceladas
-        ([statusAudiencia](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD108 "Regras de domínio")
+        ([statusAudiencia](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20dominio#rd108 "Regras de domínio")
         = \'C\')
     -   \"Realizada\" para audiências realizadas
-        ([statusAudiencia](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD108 "Regras de domínio")
+        ([statusAudiencia](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20dominio#rd108 "Regras de domínio")
         = \'F\')
     -   \"Não realizada\" para audiências não realizadas
-        ([statusAudiencia](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD108 "Regras de domínio")
+        ([statusAudiencia](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20dominio#rd108 "Regras de domínio")
         = \'N\')
 -   Ações - Barra de ferramentas de audiência, disponível disponível
     apenas para usuários internos e para audiências designadas
-    ([statusAudiencia](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD108 "Regras de domínio")
+    ([statusAudiencia](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20dominio#rd108 "Regras de domínio")
     = \'M\'), exibindo as seguintes ações:
     -   Realização - quando o parâmetro
         [\"pje:audiencia:realizacaoEmFluxo\"](http://titanio09.cnj.jus.br/wiki/index.php?title=%22pje:audiencia:realizacaoEmFluxo%22&action=edit&redlink=1 ""pje:audiencia:realizacaoEmFluxo" (página inexistente)"){.new}
@@ -897,11 +899,11 @@ contendo as seguintes informações:
 
 Esse agrupador é exibido apenas quando a etapa da de execução da tarefa
 é a inicial ([etapaAudiencia =
-\'I\'](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD113 "Regras de domínio"))
+\'I\'](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20dominio#rd113 "Regras de domínio"))
 
 São exibidas, paginadas em grupos de 16, todas as audiências do processo
 [status diferente de
-\'P\'](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD108 "Regras de domínio")).
+\'P\'](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20dominio#rd108 "Regras de domínio")).
 
 Para cada audiência, serão exibidas as seguintes informações:
 
@@ -913,7 +915,7 @@ Para cada audiência, serão exibidas as seguintes informações:
 
 Para usuário que não sejam advogados ou procuradores, serão exibidas as
 opções de atuação na audiência já designada ([status =
-\'M\'](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD108 "Regras de domínio")):
+\'M\'](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20dominio#rd108 "Regras de domínio")):
 
 -   -   Realização (link disponível apenas se o parâmetro
         realizarAudienciaEmFluxo estiver marcado como false)
@@ -957,7 +959,7 @@ diferentes de marcação)
 
 Esse agrupador é exibido apenas quando a etapa da de execução da tarefa
 é a de marcação ([etapaAudiencia =
-\'M\'](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD113 "Regras de domínio"))
+\'M\'](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20dominio#rd113 "Regras de domínio"))
 
 Ele exibe as seguintes informações:
 
@@ -1045,8 +1047,8 @@ não assinados, aplica-se a regra
 
 São exibidos os processos pendentes da tarefa **Preparar comunicação** e que estejam vinculados à localização do usuário. Ao acionar a intimação de uma parte através do fluxo principal, o processo será encaminhado para essa tarefa. A configuração da tarefa de preparo de expedientes deve ser realizada, em geral, no subfluxo destinado a permitir o preparo de atos de comunicação, denominado **Preparar ato de comunicação(PAC)**.
 
-O usuário poderá escolher os destinatários com seus respectivos tipos e [meios](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD95 "Regras de domínio")
-de comunicação, [tipos de prazo](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD96 "Regras de domínio"), endereços e a vinculação do expediente em si, com possibilidade de
+O usuário poderá escolher os destinatários com seus respectivos tipos e [meios](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20dominio#rd95 "Regras de domínio")
+de comunicação, [tipos de prazo](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20dominio#rd96 "Regras de domínio"), endereços e a vinculação do expediente em si, com possibilidade de
 [vinculação de documentos do processo](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn382 "Regras de negócio") e posterior assinatura. A tarefa será exibida para papéis e localizações que tenham sido configurados.
 
 **Regras de negócio relacionadas:**
@@ -1255,7 +1257,7 @@ as informações do processo judicial corrente, réus do processo,
 movimentações e documentos vinculados e permite também cadastrar os
 dados pertinentes da \"Informação processual complementar do tipo
 prisão\" tais como: [\"tipo da
-prisão\"](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD3 "Regras de domínio"),
+prisão\"](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20dominio#rd3 "Regras de domínio"),
 \"data do fato\", \"local de prisão\", entre outras informações. Para
 configurar essa tarefa consulte em: [nó de tarefa \"Informação
 processual complementar do tipo
@@ -1631,7 +1633,7 @@ Jus postulandi é a capacidade que se faculta a alguém de postular, ou se defen
 
 Perfil: advogado/procurador/servidor
 
-Essa funcionalidade existe para permitir que o cadastro do processo seja iniciado em um momento e terminado em outro, com a guarda dos dados já digitados. Poderão ser visualizados todos os processos não protocolados ([em elaboração](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD104 "Regras de domínio")) de acordo com a [permissão do usuário](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn483 "Regras de negócio").
+Essa funcionalidade existe para permitir que o cadastro do processo seja iniciado em um momento e terminado em outro, com a guarda dos dados já digitados. Poderão ser visualizados todos os processos não protocolados ([em elaboração](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20dominio#rd104 "Regras de domínio")) de acordo com a [permissão do usuário](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn483 "Regras de negócio").
 
 A barra de paginação é exibida ao final da tabela em seu canto inferior esquerdo e o total de registros encontrados é exibido em seu canto inferior direito. Os botões da barra de paginação serão habilitados a partir de 12 processos, quantidade limite para exibição por página.
 
@@ -1789,7 +1791,7 @@ Para cada processo encontrado, são exibidas as seguintes informações:
 -   Assunto
 -   Polo ativo
 -   Polo passivo
--   Situação - o motivo da associação, conforme opções do PJe da regra [RD99](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_dom%C3%ADnio#RD99 "Regras de domínio")
+-   Situação - o motivo da associação, conforme opções do PJe da regra [RD99](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20dominio#rd99 "Regras de domínio")
 -   Status
 -   Prevenção confirmada em
 -   Despacho
