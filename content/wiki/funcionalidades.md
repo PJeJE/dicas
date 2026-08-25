@@ -1086,7 +1086,7 @@ minutar exibida contendo os processos selecionados para execução de
 tarefas em lote, permitindo que se visualize os
 [detalhes](/wiki/funcionalidades.md#Ver_detalhes "Funcionalidades")
 do processo ao clicar no número do processo, conforme [comportamento
-padrão](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI193 "Regras de interface")
+padrão](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20interface#ri193 "Regras de interface")
 na árvore de tarefas. Cada processo terá também as transições de saída
 na forma de uma [caixa de
 combinação](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Caixas_de_combina.C3.A7.C3.A3o "Manual de referência")
@@ -1132,7 +1132,7 @@ São exibidos os processos pendentes da tarefa **Reclassificar tipo de documento
 
 A tarefa **Reclassificar tipo de documento** permite que usuários autorizados possam retificar a classificação de um documento após este ter sido anexado em um processo judicial e, além disso, prosseguir com o processo judicial para a próxima tarefa do fluxo, de acordo com a configuração. Um papel específico foi definido para usar essa tarefa conforme regra [RN326](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn326 "Regras de negócio").
 
-A regra [RI194](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI194 "Regras de interface") explica a especificação da janela responsável por reclassificar tipo de
+A regra [RI194](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20interface#ri194 "Regras de interface") explica a especificação da janela responsável por reclassificar tipo de
 documento.
 
 Outras regras relacionadas:
@@ -1159,11 +1159,11 @@ no **roteiro** publicado em [Preparar remessa para o 2º
 grau](http://titanio09.cnj.jus.br/wiki/index.php/Preparar_remessa_para_o_2%C2%BA_grau "Preparar remessa para o 2º grau").
 
 A regra
-[RI4](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI4 "Regras de interface")
+[RI4](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20interface#ri4 "Regras de interface")
 explica a especificação da janela responsável por preparar remessa para
 o 2º grau.\
 A regra
-[RI104](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI104 "Regras de interface")
+[RI104](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20interface#ri104 "Regras de interface")
 explica a especificação da janela responsável pela baixa de processos do
 2º para o 1º grau.
 
@@ -1201,7 +1201,7 @@ Um papel específico foi definido para usar essa tarefa conforme regra
 [RN343](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn343 "Regras de negócio").
 
 A regra
-[RI195](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI195 "Regras de interface")
+[RI195](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20interface#ri195 "Regras de interface")
 explica a especificação da janela responsável por preparar remessa de
 manifestação processual para envio à instância superior. Esta
 funcionalidade possui casos de teste elaborados na ferramenta
@@ -1518,7 +1518,7 @@ Ao adicionar uma parte no polo ativo ou passivo, pode-se selecionar se é [uma p
 
 Regras relacionadas:
 
--   Cadastro de autoridades: [RI246](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI246 "Regras de interface")
+-   Cadastro de autoridades: [RI246](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20interface#ri246 "Regras de interface")
 -   Vinculação de representantes a processos: [RN444](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn444 "Regras de negócio")
 -   Fornecimento de CPF/CNPJ: [RN497](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn497 "Regras de negócio")
 
@@ -1535,14 +1535,14 @@ Regra relacionada: [exclusão de endereço](https://docs.pje.jus.br/configura%C3
 
 ###### Meios de contato
 
-O cadastro de meios de contato é exibido de acordo com a regra [RI216](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI216 "Regras de interface").
+O cadastro de meios de contato é exibido de acordo com a regra [RI216](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20interface#ri216 "Regras de interface").
 
 ###### Características pessoais 
 
 O cadastro de característica pessoais estará disponível desde que a regra [RN508](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn508 "Regras de negócio")
 tenha sido satisfeita.
 
-O cadastro é exibido de acordo com a regra [RI217](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI217 "Regras de interface").
+O cadastro é exibido de acordo com a regra [RI217](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20interface#ri217 "Regras de interface").
 
 ##### Características 
 
@@ -1601,9 +1601,9 @@ Processo incidente
 -   [RN464](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn464 "Regras de negócio")
 -   [RN465](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn465 "Regras de negócio")
 -   [RN466](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn466 "Regras de negócio")
--   [RI25](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI25 "Regras de interface")
--   [RI66](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI66 "Regras de interface")
--   [RI72](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI72 "Regras de interface")
+-   [RI25](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20interface#ri25 "Regras de interface")
+-   [RI66](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20interface#ri66 "Regras de interface")
+-   [RI72](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20interface#ri72 "Regras de interface")
 
 Gerais
 
@@ -1618,8 +1618,8 @@ Gerais
 -   [RN313](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn313 "Regras de negócio")
 -   [RN314](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn314 "Regras de negócio")
 -   [RN333](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn333 "Regras de negócio")
--   [RI75](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI75 "Regras de interface")
--   [RI150](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI75 "Regras de interface")
+-   [RI75](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20interface#ri75 "Regras de interface")
+-   [RI150](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20interface#ri75 "Regras de interface")
 
 
 
@@ -1743,7 +1743,7 @@ Ao acionar essa opção, são exibidas, em uma lista no topo da tela de detalhes
 
 -   Documentos
 
-Tabela que retorna todos os documentos que foram incluídos no processo. Para maiores detalhes, ver regra [RI309](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI309 "Regras de interface").
+Tabela que retorna todos os documentos que foram incluídos no processo. Para maiores detalhes, ver regra [RI309](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20interface#ri309 "Regras de interface").
 
 -   Movimentações do Processo
 
@@ -1752,7 +1752,7 @@ Tabela que retorna todos os movimentos registrados, respeitando as regras
 [RN567](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn567 "Regras de negócio")
 e
 [RN559](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn559 "Regras de negócio").
-A exibição dos movimentos é determinada pela regra [RI246](http://titanio09.cnj.jus.br/wiki/index.php/Regras_de_interface#RI246 "Regras de interface").
+A exibição dos movimentos é determinada pela regra [RI246](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20de%20interface#ri246 "Regras de interface").
 
 ###### Juntar documentos 
 
