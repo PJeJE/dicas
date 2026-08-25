@@ -1,5 +1,5 @@
 ---
-title: "Condução da sessão - painéis de visualização "
+title: "Condução da sessão - painéis de visualização"
 date: 2024-09-16T16:39:58-03:00
 weight: 5
 ---
