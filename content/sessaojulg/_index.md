@@ -14,5 +14,5 @@ pre = "<b>21. </b>"
 
 ### Material do Encontro de Gestores(as) do PJe de 2026"
 
-- [Sessões de julgamento](/docs/apresentacao_PJE_Sessees.pdf)
+- [Sessões de julgamento](/docs/apresentacao_encontro2026_sessoes.pdf)
 
