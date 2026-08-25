@@ -19,6 +19,5 @@ weight = 100
 linkTitle = "Encontro 2026"
 +++
 
-
-+ [Sessões de julgamento](/docs/encontro-gestores-2026/manual_competencia_por_municipio.pdf)
++ [Sessões de julgamento](/docs/encontro-gestores-2026/Apresentacao_PJE - Sessões.pptx.pdf)
 
