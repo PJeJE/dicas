@@ -12,7 +12,7 @@ pre = "<b>21. </b>"
 
 {{% children  %}}
 
-### Material do Encontro de Gestores(as) do PJe de 2026"
+### Material do Encontro de Gestoras e Gestores do PJe de 2026
 
 - [Sessões de julgamento](/docs/apresentacao_encontro2026_sessoes.pdf)
 
