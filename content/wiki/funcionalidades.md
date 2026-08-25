@@ -114,7 +114,7 @@ As tarefas que um servidor ou magistrado podem executar são configuráveis atra
 
 ### Painel do advogado, procurador ou defensor 
 
-Dicas úteis: [roteiro de configuração de procuradorias](http://titanio09.cnj.jus.br/wiki/index.php/Roteiro_de_configura%C3%A7%C3%A3o_de_procuradorias "Roteiro de configuração de procuradorias")
+Dicas úteis: [roteiro de configuração de procuradorias]
 
 Perfil: Advogado/Procurador/Defensor
 
@@ -225,9 +225,9 @@ A funcionalidade permite que o usuário pesquise processos com o objetivo
 de encontrar em qual tarefa/caixa eles estão.
 
 A opção \"Localizar caixa\" fica logo acima da [árvore de
-tarefas](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#.C3.81rvore_de_tarefas "Manual de referência").
+tarefas]
 Ao acioná-la, um [campo de
-sugestão](http://titanio09.cnj.jus.br/wiki/index.php/Manual_de_refer%C3%AAncia#Campos_de_sugest.C3.A3o "Manual de referência")
+sugestão]
 é disponibilizado para que o usuário forneça o número do processo a ser
 pesquisado ou parte dele. Ao selecionar o número do processo da lista
 disponível no campo de sugestão, ele é preenchido no campo e o usuário
@@ -246,7 +246,7 @@ Regras relacionadas:
 
 Opção acionada através do ícone
 [![Clips.jpg](Funcionalidades%20-%20PJe_arquivos/Clips.jpg){width="19"
-height="18"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Clips.jpg){.image}.
+height="18"}]
 
 Agrupa o processo associado ao ícone selecionado para uma caixa
 personalizada.
@@ -375,7 +375,7 @@ determinado pela regra
 
 Por meio dessa tarefa (ícone
 [![Lapis.jpg](Funcionalidades%20-%20PJe_arquivos/Lapis.jpg){width="16"
-height="20"}](http://titanio09.cnj.jus.br/wiki/index.php/Arquivo:Lapis.jpg){.image}
+height="20"}]
 da grid \"Meus Expedientes\"), o usuário pode registrar a
 [intimação](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn353 "Regras de negócio")
 feita pelo meio de envio \"**Correios**\".
@@ -1983,7 +1983,9 @@ habilitação](/wiki/funcionalidades.md#Solicitar_habilita.C3.A7.C3.A3o "Funcion
 
 Perfil: magistrado
 
-Por padrão, não há ajuste em movimentação. É permitido excluir apenas as que estão configuradas expressamente com essa característica através da [configuração da movimentação](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn375 "Regras de negócio").
+É permitido excluir movimentações que estão configuradas expressamente com essa característica através da [configuração da movimentação](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn375 "Regras de negócio").
+
+Além disso, há a possibilidade de ajuste também, conforme descrito no manual [Ajustar Movimentação](https://pjeje.github.io/dicas/docs/manual_ajustar_movimentacao.pdf).
 
 #### Associar processos 
 
@@ -2002,7 +2004,9 @@ A associação de processos ocorre quando se deseja que processos sejam vinculad
 
 Perfil: administrador
 
-Deve-se chamar o feito à ordem quando verificada a existência de erro material e deste decorram atos que não poderiam ser determinados, em face da decisão prolatada. Através dessa opção, faz-se o chamamento, suspendendo o processo. Essa atividade será possível para processos de classes judiciais cujo fluxo configurado tenha um nó de desvio. Sendo assim, tarefas que possibilitem a chamada terão como um dos possíveis destinos o nó de desvio.
+Deve-se chamar o feito à ordem quando verificada a existência de erro material e deste decorram atos que não poderiam ser determinados, em face da decisão prolatada. Através dessa opção, faz-se o chamamento, suspendendo o processo. Essa atividade será possível para processos de classes judiciais cujo fluxo configurado tenha um nó de desvio. Sendo assim, tarefas que possibilitem a chamada terão como um dos possíveis destinos o nó de desvio. Não é possível chamar à ordem processos que estão em mais de uma tarefa, já que o sistema não consegue identificar para qual nó de desvio deverá encaminhar o processo.
+
+Após execução da funcionalidade, caso seja bem sucedida, o processo estará disponível na tarefa nó de desvio do fluxo correspondente e poderá ser tramitado para as transições disponíveis no nó de desvio.
 
 #### Incluir alerta 
 
@@ -2203,31 +2207,21 @@ Essa opção permite a simulação do valor a ser compensado.
 Perfil: perito
 -->
 
-[ Audiências ]{#Audi.C3.AAncias .mw-headline}
+### Audiências e sessões
 ---------------------------------------------
 
-As funcionalidades referentes a audiências e sessões estão agrupadas no
-mesmo menu no PJe. O que acontece, na verdade, é que, via de regra, a
-utilização de um grupo exclui a utilização do outro grupo, já que as
-sessões existem para decisões colegiadas (segunda instância) e as
-audiências para as decisões monocráticas (primeira instância).
-Descreveremos aqui essas funcionalidades agrupadas pelo respectivo
-assunto principal, ou seja, audiências ou sessões.
+As funcionalidades referentes a audiências e sessões estão agrupadas no mesmo menu no PJe. O que acontece, na verdade, é que, via de regra, a utilização de um grupo exclui a utilização do outro grupo, já que as sessões existem para decisões colegiadas (segunda instância) e as audiências para as decisões monocráticas (primeira instância). Não há impedimento de se utilizar audiências para instância se segundo grau/especiais. Descreveremos aqui essas funcionalidades agrupadas pelo respectivo assunto principal, ou seja, audiências ou sessões.
 
-### [ Pauta de audiência ]{#Pauta_de_audi.C3.AAncia .mw-headline}
+### Pauta de audiência
 
 Perfil: advogado/procurador
 
-As marcações de audiências acontecem através de tarefas dentro do fluxo
-do processo (verifique descrição das tarefas referentes a
-[audiências](/wiki/funcionalidades.md#Tarefas_de_audi.C3.AAncias "Funcionalidades")).
-Através dessa funcionalidade, tem-se acesso a uma consolidação das
-marcações denominada Pauta de audiências, contendo os processos, datas e
-outros detalhes das audiências marcadas.
+As marcações de audiências acontecem através de tarefas dentro do fluxo do processo (verifique descrição das tarefas referentes a audiências. Através dessa funcionalidade, tem-se acesso a uma consolidação das marcações denominada Pauta de audiências, contendo os processos, datas e outros detalhes das audiências marcadas.
 
 Ver
 [RN587](https://docs.pje.jus.br/configura%C3%A7%C3%B5es-do-pje/Regras%20negociais#rn587 "Regras de negócio")
 
+<!--
 ### [ Integração com AUD ]{#Integra.C3.A7.C3.A3o_com_AUD .mw-headline}
 
 As funcionalidades dessa opção dizem respeito à integração com o sistema
@@ -2236,17 +2230,7 @@ AUD, que é o sistema de audiências da justiça do trabalho.
 #### [ Verificar audiências importadas ]{#Verificar_audi.C3.AAncias_importadas .mw-headline}
 
 #### [ Assinar atar de audiência ]{#Assinar_atar_de_audi.C3.AAncia .mw-headline}
-
- Sessões ]{#Sess.C3.B5es .mw-headline}
----------------------------------------
-
-As funcionalidades referentes a audiências e sessões estão agrupadas no mesmo menu no PJe. O que acontece, na verdade, é que, via de regra, a
-utilização de um grupo exclui a utilização do outro grupo, já que as
-sessões existem para decisões colegiadas (segunda instância) e as
-audiências para as decisões monocráticas (primeira instância).
-Descreveremos aqui essas funcionalidades agrupadas pelo respectivo
-assunto principal, ou seja, audiências ou sessões.
-<!--
+ 
 ### Acórdão 
 
 Perfil: assessor
