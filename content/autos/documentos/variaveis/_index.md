@@ -81,8 +81,10 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 | Partes do processo para uso em modelos de oficial de justiça | #{processoJudicialManager.recuperarParteFormatada(processoExpedienteCentralMandadoHome<br>.instance.processoExpediente.processoTrf, false,true,false,'A','P','T')} |  |
 | Partes formatadas | #{processoJudicialAction.recuperarParteFormatada(true, true, 'A', 'P', 'T')} | [Detalhamento]({{< relref "recuperarparteformatada" >}}) |
 | Partes formatadas para certidão de ciência | #{processoJudicialManager.recuperarParteFormatada(processoTrfHome.instance, false,true,false,'A','P','T')} |  |
-| Partes polo ativo | #{processoTrfHome.processoPartePoloAtivoSemAdvogadoStr} |  |
-| Partes polo passivo | #{processoTrfHome.processoPartePoloPassivoSemAdvogadoStr} |  |
+| Partes polo ativo sem advogado| #{processoTrfHome.processoPartePoloAtivoSemAdvogadoStr} |  |
+| Partes polo passivo sem advogado| #{processoTrfHome.processoPartePoloPassivoSemAdvogadoStr} |  |
+| Partes polo ativo sem representantes| #{processoTrfHome.instance.getProcessoPartePoloAtivoSemRepresentante(processoParteUtils.obterTiposRepresentantes())} |  |
+| Partes polo passivo sem representantes| #{processoTrfHome.instance.getProcessoPartePoloPassivoSemRepresentante(processoParteUtils.obterTiposRepresentantes())} |  |
 | Período (sessões contínuas) ou data (sessão presencial) da sessão - para uso no documento de intimação de Pauta | #{periodoSessao} |  |
 | Período (sessões contínuas) ou data (sessão presencial) da sessão - para uso na certidão de julgamento | #{sessaoProcessoDocumentoHome.getPeriodoSessao()} |  |
 | Presidente da sessão | #{sessaoComposicaoOrdemManager.obterPresidenteSessao(sessaoPautaProcessoTrfManager<br>.getSessaoPautaProcessoTrfJulgado(tramitacaoProcessualService.recuperaProcesso()).sessao, true)} |  |
