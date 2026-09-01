@@ -63,6 +63,10 @@ Em muitas situações o servidor precisa que o advogado deixe de atuar no PJe. T
 O procedimento automático que atualiza a situação da OAB dos advogados só faz atualização para cadastros que não tenham o registro da OAB recuperado ou cujo registro tenha sido recuperado a mais de quinze dias. Essa restrição existe para diminuir o ônus de processamento da execução do procedimento automático. 
 {{% /notice %}}
 
+{{% notice info %}}
+O procedimento automática que atualiza a situação da OAB, em algumas instalações, pode não estar habilitado. Para verificar se na sua instalação está, utilizar o menu **Configuração - Ambiente - Jobs da aplicação** e procure pelo termo **validarOABProcessor**. Se os campos **Previous Fire Time** e **Next Fire Time** estiverem preenchidos, vc saberá quando o procedimento foi executado pela última vez e quando o será novamente, respectivamente. Se o termo **validarOABProcessor** nem aparecer, significa que o procedimento não está sendo executado na sua instalação.
+{{% /notice %}}
+
 Está em curso o desenvolvimento de uma funcionalidade que apresentará ao servidor a possibilidade de ser inserida uma certidão automática de modelo configurável em todos os processos em que o advogado atue, de forma que possa ficar mais claro nos autos do processo o motivo pelo qual ocorreu a inativação. 
 
 ### Nova validação OAB
