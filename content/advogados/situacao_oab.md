@@ -64,3 +64,7 @@ O procedimento automático que atualiza a situação da OAB dos advogados só fa
 {{% /notice %}}
 
 Está em curso o desenvolvimento de uma funcionalidade que apresentará ao servidor a possibilidade de ser inserida uma certidão automática de modelo configurável em todos os processos em que o advogado atue, de forma que possa ficar mais claro nos autos do processo o motivo pelo qual ocorreu a inativação. 
+
+### Nova validação OAB
+
+Para usuários com permissão, existe um botão disponíveis por meio da opção **Configuração - Pessoa - Advogado - Confirmar credenciamento** que permite que o usuário faça uma **NOVA VALIDAÇÃO OAB**. O acionamento desse botão fará com que o sistema utilizar o CPF de cadastro do advogado e consulte o serviço da OAB para recuperar dados daquele advogado. Caso seja recuperado algum dado, a validação anterior, se existia, é apagada, e o sistema grava a nova validação recuperada. As validações já realizadas podem ser visualizadas pelo botão **MOSTRAR DADOS OAB** disponível pelo mesmo item da menu **Confirmar credenciamento**.
