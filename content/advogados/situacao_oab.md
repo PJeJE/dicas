@@ -62,7 +62,10 @@ Em muitas situações o servidor precisa que o advogado deixe de atuar no PJe. T
 Existe um procedimento automático que tem o objetivo de validar novamente advogados que já estão cadastrados como válidos no sistema. Esse procedimento recupera todos os advogados cujo registro de pessoa física esteja como **validado** e, a partir do CPF de cadastro, recupera consultas anteriores realizadas à OAB desse advogado. Caso não tenha sido feita consulta anterior ou caso tenha sido feita, mas a data da consulta é recente (dentro dos últimos quinze dias), o procedimento não recuperará aquele cadastro. A nova consulta, caso seja feita e recupere dados válidos, removerá o registro anterior e registrará o novo.
 
 
-Um cadastro é considerado **validado** quando é realizado pelo pelo próprio usuário (assinando um termo se responsabilizando pelo cadastro) ou quando foi feito por um administrador/servidor com autorização. Um cadastro de um advogado como parte em um processo, por exemplo, não é um cadastro validado.
+{{% notice warning %}}
+Um cadastro é considerado **validado** quando é realizado pelo pelo próprio usuário (assinando um termo se responsabilizando pelo cadastro) ou quando foi feito por um administrador/servidor com autorização. Um cadastro de um advogado como representante de uma parte em um processo, por exemplo, não é um cadastro validado. Se o servidor utilizar a funcionalidade de **Confirmar crecenciamento** e salvar o cadastro desse advogado vinculado a um processo, o cadastro dele passa a ser considerado **validado**.
+{{% /notice %}}
+
 
 {{% notice info %}}
 O procedimento automático que atualiza a situação da OAB dos advogados só faz atualização para cadastros que não tenham o registro da OAB recuperado ou cujo registro tenha sido recuperado a mais de quinze dias. Essa restrição dos quinze dias existe para diminuir o ônus de processamento da execução do procedimento automático. 
