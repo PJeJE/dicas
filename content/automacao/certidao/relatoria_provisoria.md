@@ -14,5 +14,5 @@ weight: 1
   - O valor desse parâmetro corresponde à mensagem que aparecerá para o usuário ao lado do nome do relator no protocolo de distribuição.
 
 {{% notice note %}}
-Para a correta utilização da funcionalidade, todos os parâmetros devem estar ativos e devidamente configurados.
+Para a correta utilização da funcionalidade, todos os parâmetros devem estar ativos e devidamente configurados..
 {{% /notice %}}
