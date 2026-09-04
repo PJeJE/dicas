@@ -64,7 +64,7 @@ O Regional que desejar utilizar a funcionalidade deverá seguir os seguintes pro
 
 ## Importante
 
-> [!IMPORTANTE]
+> [!IMPORTANT]
 > **A configuração poderá ser utilizada em todos os Regionais?**
 > Não. Nos Tribunais em que o fluxo foi personalizado para nunca redistribuir o processo, por adotarem esse entendimento, a melhoria não funcionará, mesmo se configurada.
 >
