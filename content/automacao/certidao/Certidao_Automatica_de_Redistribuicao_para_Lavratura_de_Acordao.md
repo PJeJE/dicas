@@ -20,23 +20,19 @@ Esta funcionalidade automatiza a emissão da certidão de redistribuição para 
 
 ## Como funciona (para o Assessor de Plenário)
 
-Durante a proclamação do julgamento, se a votação resultar em relator vencido, o sistema exibirá a pergunta: **"Deseja redistribuir o processo?"**. O Assessor de Plenário deverá obrigatoriamente selecionar **SIM** ou **NÃO**.
-<img width="662" height="517" alt="image" src="https://github.com/user-attachments/assets/7c7440a9-40ed-45a4-bc72-eed947be4386" />
-
+Durante a proclamação do julgamento, se a votação resultar em relator vencido, o sistema exibirá a pergunta: 
+**"Deseja redistribuir o processo?"**. 
+O Assessor de Plenário deverá obrigatoriamente selecionar **SIM** ou **NÃO**.
 
 ### Validações do sistema — Encerramento sem marcar a opção de redistribuição
 
 **No encerramento individual do processo**
 
-O sistema exibirá uma mensagem de bloqueio quando o processo tiver relator vencido e a marcação de redistribuição não tiver sido feita.
-<img width="662" height="272" alt="image" src="https://github.com/user-attachments/assets/6d79d6fd-66d9-4698-9913-7d8f5b6316a3" />
-
+O sistema exibirá uma mensagem de bloqueio caso o relator originário seja vencido e a opção sobre a redistribuição não tenha sido preenchida. Nesse caso, o Assessor de Plenário deverá retornar à tela de proclamação e efetuar a marcação pendente.
 
 **No encerramento da sessão plenária**
 
-O sistema exibirá a lista de processos pendentes de redistribuição, bloqueando o fechamento da sessão até que a marcação seja realizada.
-<img width="1302" height="375" alt="image" src="https://github.com/user-attachments/assets/eb585487-bbec-4ec0-8a1a-9829f2a95fc6" />
-
+Ao tentar fechar a sessão, o sistema exibirá os processos pendentes de redistribuição e bloqueará a ação. Para conseguir encerrar a sessão, o Assessor de Plenário precisará voltar à tela de proclamação e preencher a opção obrigatória.
 
 ## Como a funcionalidade opera
 
