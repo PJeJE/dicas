@@ -70,7 +70,7 @@ O Regional que desejar utilizar a funcionalidade deverá seguir os seguintes pro
 > Não. Nos Tribunais em que o fluxo foi personalizado para nunca redistribuir o processo, por adotarem esse entendimento, a melhoria não funcionará, mesmo se configurada.
 >
 > **Os Tribunais que já adotam o procedimento de redistribuir o feito quando o relator fica vencido poderão adotar a funcionalidade?**
-> Sim. Contudo, será preciso sempre marcar a opção de redistribuir ou não.
+> Sim. Contudo, será preciso sempre marcar a opção de redistribuir ou não..
 
 ---
 
