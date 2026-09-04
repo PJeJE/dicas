@@ -56,10 +56,10 @@ O Regional que desejar utilizar a funcionalidade deverá seguir os seguintes pro
 
 
 
-```#{processoTrfHome.recuperarClasseJudicial(processoTrfHome.instance)}```
-```Processo #{processoTrfHome.instance.numeroProcesso}```
-```#{processoTrfHome.getRedatorAcordao(processoTrfHome.instance)}```
-```#{dataAtual}```.
+`#{processoTrfHome.recuperarClasseJudicial(processoTrfHome.instance)}`
+`Processo #{processoTrfHome.instance.numeroProcesso}`
+`#{processoTrfHome.getRedatorAcordao(processoTrfHome.instance)}`
+`#{dataAtual}`.
 
 
 
