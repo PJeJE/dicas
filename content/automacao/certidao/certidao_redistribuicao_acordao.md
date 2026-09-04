@@ -3,7 +3,6 @@ title: "Certidão Automática de Redistribuição para Lavratura de Acórdão"
 date: 2026-09-03T13:35:00-03:00
 linkTitle: "Certidão Automática de Redistribuição para Lavratura de Acórdão"
 weight: 6
-draft: true
 ---
 
 (disponível a partir da versão 2.2.0.4.12)
@@ -48,7 +47,7 @@ Cabe destacar que, embora a demanda tenha sido motivada por uma necessidade espe
 O Regional que desejar utilizar a funcionalidade deverá seguir os seguintes procedimentos:
 
 1. Configurar a certidão automática que será assinada pelo sistema, no parâmetro `idModeloCertidaoRedistribuicao`.
-2. Marcar `true` no parâmetro `pje:sessao:permiteCertidaoRedistribuicaoAutomatica`.
+2. Marcar true no parâmetro pje:sessao:permiteCertidaoRedistribuicaoAutomatica.
 
    OBS: em caso de dúvida, consultar o suporte da ASPJE. (vide abaixo)
 
