@@ -1,6 +1,6 @@
 ---
 title: "Certidão Automática de Redistribuição para Lavratura de Acórdão"
-date: 2026-09-04T13:35:00-03:00
+date: 2026-09-03T13:35:00-03:00
 linkTitle: "Certidão Automática de Redistribuição para Lavratura de Acórdão"
 weight: 6
 draft: true
