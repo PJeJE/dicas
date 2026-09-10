@@ -8,20 +8,17 @@ O **Painel de tarefas** é utilizado pelos servidores e magistrados para trabalh
 
 Se você está com problemas de não carregamento das tarefas (se a tela for apresentada em branco), é provável que o navegador esteja bloqueando o uso de cookies de terceiros. Veja se não é necessário fazer a configuração conforme abaixo:
 
-[Chrome:] (https://support.google.com/accounts/answer/61416?hl=pt-BR&co=GENIE.Platform%3DDesktop )
-
     No computador, abra o Chrome.
     No canto superior direito, selecione "os três pontinhos verticais" e depois "Configurações".
     Clique em "Privacidade e segurança" e depois "Cookies de terceiros".
     Selecione a opção:
         Permitir cookies de terceiros.
 
+[Chrome:] (https://support.google.com/accounts/answer/61416?hl=pt-BR&co=GENIE.Platform%3DDesktop )
 
 A seguir, um **vídeo** que mostra o problema ocorrendo a a solução no chrome:
 
 {{< video src="/videos/chrome.mp4">}}        
-
-[Firefox:] (https://support.mozilla.org/pt-BR/kb/desative-cookies-terceiros-impedir-rastreamento )
 
     No computador, abra o Firefox.
     No canto superior direito, selecione "as três barrinhas horizontais" e depois "Configurações".
@@ -29,6 +26,7 @@ A seguir, um **vídeo** que mostra o problema ocorrendo a a solução no chrome:
     Na seção "Proteção aprimorada contra rastreamento", selecione o modo "Personalizado" 
     Desmarque a opção "Cookies"
 
+[Firefox:] (https://support.mozilla.org/pt-BR/kb/desative-cookies-terceiros-impedir-rastreamento )
 
 A seguir, um **vídeo** que mostra o problema ocorrendo a a solução no firefox:
 
