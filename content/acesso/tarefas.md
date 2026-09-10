@@ -4,7 +4,7 @@ date: 2026-09-10T16:30:36-03:00
 weight: 9
 ---
 
-O **Painel de tarefas** é utilizado pelos servidores e magistrados para trabalharem nos processos. Algumas vezes, pode ser que ele não carregue as tarefas e processos porque precisa de liberação no navegador do usuário (permissão de cookies de terceiros).
+O **Painel de tarefas** é utilizado pelos servidores e magistrados para trabalharem nos processos. O suporte do PJe já recebeu relatos de falha no carregamento das tarefas e processos e, em geral, isso ocorre porque é necessário a devida liberação no navegador do usuário (permissão de cookies de terceiros).
 
 Se você está com problemas de não carregamento das tarefas (se a tela for apresentada em branco), é provável que o navegador esteja bloqueando o uso de cookies de terceiros. Veja se não é necessário fazer a configuração conforme abaixo:
 
