@@ -16,7 +16,7 @@ Se você está com problemas de não carregamento das tarefas (se a tela for apr
 
 [Chrome:] (https://support.google.com/accounts/answer/61416?hl=pt-BR&co=GENIE.Platform%3DDesktop )
 
-A seguir, um **vídeo** que mostra o problema ocorrendo a a solução no chrome:
+A seguir, um **vídeo** que mostra o problema ocorrendo e a solução no chrome:
 
 {{< video src="/videos/chrome.mp4">}}        
 
@@ -28,6 +28,6 @@ A seguir, um **vídeo** que mostra o problema ocorrendo a a solução no chrome:
 
 [Firefox:] (https://support.mozilla.org/pt-BR/kb/desative-cookies-terceiros-impedir-rastreamento )
 
-A seguir, um **vídeo** que mostra o problema ocorrendo a a solução no firefox:
+A seguir, um **vídeo** que mostra o problema ocorrendo e a solução no firefox:
 
 {{< video src="/videos/firefox.mp4">}}
