@@ -20,10 +20,16 @@ Se você está com problemas de não carregamento das tarefas (se a tela for apr
 
     No computador, abra o Chrome.
     No canto superior direito, selecione **os três pontinhos verticais** e depois **Configurações**.
-    Clique em Privacidade e segurança e depois Cookies de terceiros.
+    Clique em **Privacidade e segurança** e depois **Cookies de terceiros**.
     Selecione a opção:
         Permitir cookies de terceiros.
 
 [Firefox:] (https://support.mozilla.org/pt-BR/kb/desative-cookies-terceiros-impedir-rastreamento )
+
+    No computador, abra o Firefox.
+    No canto superior direito, selecione **as três barrinhas horizontais** e depois **Configurações**.
+    Clique em **Privacidade e segurança**
+    Na seção **Proteção aprimorada contra rastreamento**, selecione o modo **Personalizado** 
+    Desmarque a opção **Cookies**
 
 {{% children  %}}
