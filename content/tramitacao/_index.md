@@ -14,7 +14,7 @@ Orientações gerais sobre tarefas e fluxos
 
 O **Painel de tarefas** é utilizado pelos servidores e magistrados para trabalharem nos processos. Algumas vezes, pode ser que ele não carregue as tarefas e processos porque precisa de liberação no navegador do usuário (permissão de cookies de terceiros).
 
-Se você está com problemas de não carregamento das tarefas (se a tela for apresentada em branco) é provável que o navegador esteja bloqueando o uso de cookies de terceiros. Veja se não é necessário fazer a configuração conforme abaixo:
+Se você está com problemas de não carregamento das tarefas (se a tela for apresentada em branco), é provável que o navegador esteja bloqueando o uso de cookies de terceiros. Veja se não é necessário fazer a configuração conforme abaixo:
 
 [Chrome:] (https://support.google.com/accounts/answer/61416?hl=pt-BR&co=GENIE.Platform%3DDesktop )
 
