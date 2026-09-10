@@ -23,3 +23,8 @@ Se você está com problemas de não carregamento das tarefas (se a tela for apr
     Clique em "Privacidade e segurança"
     Na seção "Proteção aprimorada contra rastreamento", selecione o modo "Personalizado" 
     Desmarque a opção "Cookies"
+
+
+A seguir, um **vídeo** que mostra o problema ocorrendo a a solução no firefox:
+
+{{< video src="/videos/firefox.mp4">}}
