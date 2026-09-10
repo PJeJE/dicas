@@ -18,6 +18,12 @@ Se você está com problemas de não carregamento das tarefas (se a tela for apr
 
 [Chrome:] (https://support.google.com/accounts/answer/61416?hl=pt-BR&co=GENIE.Platform%3DDesktop )
 
+    No computador, abra o Chrome.
+    No canto superior direito, selecione **os três pontinhos verticais** e depois **Configurações**.
+    Clique em Privacidade e segurança e depois Cookies de terceiros.
+    Selecione a opção:
+        Permitir cookies de terceiros.
+
 [Firefox:] (https://support.mozilla.org/pt-BR/kb/desative-cookies-terceiros-impedir-rastreamento )
 
 {{% children  %}}
