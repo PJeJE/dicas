@@ -89,7 +89,7 @@ Pode ocorrer de, no momento em que o processo foi pautado, o relator do processo
 
 ### Adicionar anotação
 
-Essa opção, que também está disponível no **Painel do magistrado na sessão**, permite que os magistrados troquem informações entre eles. Caso o julgamento não seja acompanhado pelos magistrados por meio do seu painel próprio, o **Assessor de plenário** pode preencher as notas por meio da opção aqui mencionada, registrando o órgão julgador responsável pela nota.
+Essa opção, que também está disponível no **Painel do magistrado na sessão**, permite que os magistrados troquem informações entre eles. Caso o julgamento não seja acompanhado pelos magistrados por meio do seu painel próprio, o **Assessor de plenário** pode preencher as notas por meio da opção aqui mencionada, registrando o órgão julgador responsável pela nota. Caso algum órgão julgador tenha registrado uma nota e queira que seja removida, pode solicitar ao **Assessor de plenário** e ele fará a exclusão pela opção atual.
 
 ## Visualização de documentos da sessão
 
