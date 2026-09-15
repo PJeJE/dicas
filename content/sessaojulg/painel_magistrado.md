@@ -33,3 +33,5 @@ Para poder utilizar o Painel do Magistrado na Sessão antes de iniciar a sessão
 {{% /notice %}}
 
 O magistrado relator tem a opção de **Retirar para reexame**. Nesse caso, quando o assessor de plenário encerrar a sessão, o processo ficará registrado como adiado e, internamente, o órgão julgador de retirada de julgamento será o órgão julgador relator do processo. 
+
+O magistrado pode também utilizar o campo **Anotação** para registrar comunicações com seus pares. As anotações ficam visíveis para todos que tenham acesso ao painel.
