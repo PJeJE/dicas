@@ -31,3 +31,6 @@ A seguir, um **vídeo** que mostra o problema ocorrendo e a solução no chrome:
 A seguir, um **vídeo** que mostra o problema ocorrendo e a solução no firefox:
 
 {{< video src="/videos/firefox.mp4">}}
+
+
+Essa liberação também é necessária para a nova consulta processual.
