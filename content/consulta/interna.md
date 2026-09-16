@@ -23,9 +23,32 @@ A consulta Processual do PJe Eleitoral é diferente da versão nacional do siste
 
 Se a tela for apresentada em branco, é provável que o navegador esteja bloqueando o uso de cookies de terceiros. Para corrigir o problema, será necessário fazer a configuração:
 
-[Chrome:] (https://support.google.com/accounts/answer/61416?hl=pt-BR&co=GENIE.Platform%3DDesktop)
+    No computador, abra o Chrome.
+    No canto superior direito, selecione "os três pontinhos verticais" e depois "Configurações".
+    Clique em "Privacidade e segurança" e depois "Cookies de terceiros".
+    Selecione a opção:
+        Permitir cookies de terceiros.
 
-[Firefox:] (https://support.mozilla.org/pt-BR/kb/desative-cookies-terceiros-impedir-rastreamento)
+[Chrome:] (https://support.google.com/accounts/answer/61416?hl=pt-BR&co=GENIE.Platform%3DDesktop )
+
+A seguir, um **vídeo** que mostra o problema ocorrendo e a solução no chrome:
+
+{{< video src="/videos/chrome.mp4">}}        
+
+    No computador, abra o Firefox.
+    No canto superior direito, selecione "as três barrinhas horizontais" e depois "Configurações".
+    Clique em "Privacidade e segurança"
+    Na seção "Proteção aprimorada contra rastreamento", selecione o modo "Personalizado" 
+    Desmarque a opção "Cookies"
+
+[Firefox:] (https://support.mozilla.org/pt-BR/kb/desative-cookies-terceiros-impedir-rastreamento )
+
+A seguir, um **vídeo** que mostra o problema ocorrendo e a solução no firefox:
+
+{{< video src="/videos/firefox.mp4">}}
+
+
+Essa liberação também é necessária para o painel de tarefas ser carregado corretamente.
 
 
 ## Consulta de processos para servidor de outra instância:
