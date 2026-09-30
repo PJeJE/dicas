@@ -14,6 +14,10 @@ Ao entrar na tela, deve-se selecionar uma data de sessão e selecionar a pesquis
 
 Depois, deve-se preencher, na linha do(s) processo(s) correspondente que se quer publicar, as opções da publicação: data, tipo do prazo, prazo. Se houver dois documentos, ou seja, o acórdão e a certidão, na coluna Documento deve-se marcar qual se quer publicar. Geralmente a certidão já vem marcada.
 
+{{% notice note %}}
+O campo **Data para publicação** vem automaticamente preenchido com a data da sessão. Caso seja uma sessão contínua, a data preenchida é a data de fim da sessão. Caso o usuário queira informar outra data (a sessão terminou depois da data fim planejada, por exemplo), é só alterar conforme sua necessidade.
+{{% /notice %}}
+
 Os processos que serão publicados devem estar selecionados por meio da caixa de seleção da primeira coluna. Os documentos só aparecerão se estiverem devidamente vinculados à sessão e se estiverem assinados. Depois de tudo pronto, deve-se selecionar o botão salvar e depois publicar. Essa ação não pode ser desfeita.
 
 Por meio dessa mesma tela, o usuário pode publicar em sessão decisões monocráticas. O procedimento é o mesmo, mas para que as decisões apareçam na consulta, o gabinete tem que usar uma tarefa específica sinalizando que a decisão monocrática deve ser publicada em sessão.
