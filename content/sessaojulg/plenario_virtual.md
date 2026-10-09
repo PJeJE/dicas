@@ -13,9 +13,13 @@ Algumas vezes, ouvimos o termo **Plenário Virtual** (ou PV) para fazer referên
 
 Os votos relacionados a cada processo são exibidos de acordo com algumas restrições:
 
-- De quem está presente ou é o relator (
+- De quem está presente ou é o relator
 
+{{% notice note %}} 
 Pode ocorrer de ser uma sessão virtual, cujo início acontece pelo sistema, e o assessor de plenário não ter gerado a composição da sessão. Se esse for o caso, os votos não serão exibidos.
+{{% /notice %}} 
+
+
 
 
   - Onde a situação de julgamento é AJ (Aguardando Julgamento) ou EJ (Em Julgamento) ou JG (Julgado) ou tem um pedido de vista e a        situação é NJ (Não julgado)
