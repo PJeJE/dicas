@@ -11,32 +11,30 @@ Algumas vezes, ouvimos o termo **Plenário Virtual** (ou PV) para fazer referên
 
 ## Exibição dos votos
 
-Os votos relacionados a cada processo são exibidos de acordo com algumas restrições:
-
-- De quem está presente ou é o relator
+Os votos relacionados a cada processo só serão exibidos quando o processo não estiver em segredo de justiça. Além disso, os votos precisam ser liberados para visualização pelo gabinete que votou.
 
 {{% notice note %}} 
-Pode ocorrer de ser uma sessão virtual, cujo início acontece pelo sistema, e o assessor de plenário não ter gerado a composição da sessão. Se esse for o caso, os votos não serão exibidos.
+Os votos inseridos pelo **Painel do magistrado na sessão** ou pelo **Painel do secretário da sessão** são sempre inseridos liberados para visualização. A não liberação é um recurso dos editores de texto de construção de voto presentes no painel de tarefas de cada gabinete. 
 {{% /notice %}} 
 
 
+Os votos também só são exibidos caso o órgão julgador esteja presente ou é o órgão julgador relator.
 
+{{% notice note %}} 
+Pode ocorrer de o processo estar em uma sessão virtual, cujo início acontece automaticamente pelo sistema, e o assessor de plenário não ter gerado a composição da sessão antes do início da sessão. Se esse for o caso, os votos não serão exibidos.
+{{% /notice %}} 
 
-  - Onde a situação de julgamento é AJ (Aguardando Julgamento) ou EJ (Em Julgamento) ou JG (Julgado) ou tem um pedido de vista e a        situação é NJ (Não julgado)
-  - Onde o julgamento está finalizado ou tenha uma data de realização da sessão
-  - Onde tem uma data de abertura da sessão
-  - Quando o processo não estiver em segredo de justiça
-  - Que estão liberados, exceto se o voto for do relator
-
-
-
-     
-20. O documento do voto é mostrado apenas quando:
+A respeito da situação da sessão, se iniciada ou finalizada, o sistema não exibirá os votos para sessão não iniciada. 
+- Quando a sessão está iniciada e a situação de julgamento do processo é AJ (Aguardando Julgamento) ou EJ (Em Julgamento) ou JG (Julgado) os votos são exibidos. Também são exibidos os votos quando há um registro de pedido de vista e a situação é NJ (Não julgado)
+- Quando a sessão está finalizada ou o julgamento daquele processo está finalizado, independente da situação de julgamento.
+  
+Já para o documento do voto, caso o voto seja exibido, há outras restrições. Ele é mostrado apenas quando:
   - Estiver ativo
   - Não for sigiloso
-  - Possuir assinatura (data de juntada).
+  - Tem data de juntada
+
     <!--Caso o parâmetro “pje:sessao:plenarioVirtual:documentoAssinado” do PJe estiver como false, não é necessário o documento possuir assinatura. Se estiver como true ou vazio, precisa estar assinado para mostrar -->
-21. Será mostrado sempre o último voto do votante
+
 
 ## Regras para o desenvolvimento
 
@@ -89,7 +87,7 @@ As regras que determinaram a construção da aplicação são as seguintes:
 20. O documento do voto é mostrado apenas quando:
   - Estiver ativo
   - Não for sigiloso
-  - Possuir assinatura (data de juntada).
+  - Tem assinatura (data de juntada).
     <!--Caso o parâmetro “pje:sessao:plenarioVirtual:documentoAssinado” do PJe estiver como false, não é necessário o documento possuir assinatura. Se estiver como true ou vazio, precisa estar assinado para mostrar -->
 21. Será mostrado sempre o último voto do votante
 22. A relatoria será de cada julgamento do processo. Se houve dois julgamentos e no primeiro o relator era um, mas no segundo, já era outro órgão, em cada julgamento será exibido o relator conforme informação respectiva.
