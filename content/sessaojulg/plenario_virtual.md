@@ -18,7 +18,7 @@ Os votos inseridos pelo **Painel do magistrado na sessão** ou pelo **Painel do 
 {{% /notice %}} 
 
 
-Os votos também só são exibidos caso o órgão julgador esteja presente ou é o órgão julgador relator.
+Os votos também só são exibidos caso o órgão julgador esteja presente ou é o órgão julgador relator do processo.
 
 {{% notice note %}} 
 Pode ocorrer de o processo estar em uma sessão virtual, cujo início acontece automaticamente pelo sistema, e o assessor de plenário não ter gerado a composição da sessão antes do início da sessão. Se esse for o caso, os votos não serão exibidos.
