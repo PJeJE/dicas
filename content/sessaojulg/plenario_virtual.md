@@ -8,7 +8,36 @@ A denominação **Plenário Virtual** é a exibição dos conteúdos da sessão 
 
 Algumas vezes, ouvimos o termo **Plenário Virtual** (ou PV) para fazer referência às sessões contínuas, ou seja, sessões não presenciais. Mesmo com essa mistura de termos, ressaltamos que as informações atuais dizem respeito à exibição das sessões na Internet, independente de serem sessões contínuas ou não. Para as sessões do TSE, essa funcionalidade fica disponível por meio de: https://www.tse.jus.br/servicos-judiciais/sessoes-de-julgamento/pautas-de-julgamento/pje
 
-As regras que determinam a exibição são as seguintes:
+
+## Exibição dos votos
+
+Os votos relacionados a cada processo são exibidos de acordo com algumas restrições:
+
+- De quem está presente ou é o relator (
+
+Pode ocorrer de ser uma sessão virtual, cujo início acontece pelo sistema, e o assessor de plenário não ter gerado a composição da sessão. Se esse for o caso, os votos não serão exibidos.
+
+
+  - Onde a situação de julgamento é AJ (Aguardando Julgamento) ou EJ (Em Julgamento) ou JG (Julgado) ou tem um pedido de vista e a        situação é NJ (Não julgado)
+  - Onde o julgamento está finalizado ou tenha uma data de realização da sessão
+  - Onde tem uma data de abertura da sessão
+  - Quando o processo não estiver em segredo de justiça
+  - Que estão liberados, exceto se o voto for do relator
+
+
+
+     
+20. O documento do voto é mostrado apenas quando:
+  - Estiver ativo
+  - Não for sigiloso
+  - Possuir assinatura (data de juntada).
+    <!--Caso o parâmetro “pje:sessao:plenarioVirtual:documentoAssinado” do PJe estiver como false, não é necessário o documento possuir assinatura. Se estiver como true ou vazio, precisa estar assinado para mostrar -->
+21. Será mostrado sempre o último voto do votante
+
+## Regras para o desenvolvimento
+
+
+As regras que determinaram a construção da aplicação são as seguintes:
 
 
 1. Horário de início da sessão: o próprio horário de início da sessão ou, caso ele esteja nulo, o horário de início da sala; (pode não se o horário efetivo de início, já que o assessor de plenário pode iniciar a sessão antes ou depois do planejado)
@@ -52,8 +81,7 @@ As regras que determinam a exibição são as seguintes:
   - Onde o julgamento está finalizado ou tenha uma data de realização da sessão
   - Onde tem uma data de abertura da sessão
   - Quando o processo não estiver em segredo de justiça
-  - Que estão liberados, exceto se o voto for do relator
-     
+  - Que estão liberados, exceto se o voto for do relator  
 20. O documento do voto é mostrado apenas quando:
   - Estiver ativo
   - Não for sigiloso
