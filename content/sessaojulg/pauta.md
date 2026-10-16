@@ -32,7 +32,17 @@ Após selecionar o processo para incluir em pauta, ele deve selecionar o botão 
 Após incluído em uma pauta, mesmo que a pauta onde ele tenha sido incluído não tenha sido fechada, o processo não deve estar mais disponível para inclusão em outras pautas.
 {{% /notice %}}
 
-Após fechamento da pauta, caso o usuário tenha permissão específica (papel ), o sistema exibirá o ícone de lixeira, permitindo a exclusão do processo da pauta. Nesses casos, será gerado um movimento de cancelamento de paute e o sistema gerará a certidão de cancelamento de pauta. O processo ficará disponível no final da aba de **Relação de julgamento** por meio do agrupamento **Processos removidos**
+## Ordenação de processos da pauta
+
+A ordem dos processos na pauta pode ser alterada desde que a sessão não tenha sido finalizada ainda. 
+
+Para pauta aberta, a alteração é livre e o sistema reordena os processos subsequentes conforme forem sendo retirados processos do meio da lista.
+
+Já para pauta fechada, a alteração na ordem só é permitida para detentores do papel PERMITE_ORDENAR_PAUTA_SESSAO. Nesses casos, os outros processos não são reordenados, já que a pauta foi publicada com aquele número de ordem, o que poderia prejudicar o correto apontamento de processos nos pedidos de sustentação oral.
+
+### Exclusão de processo da pauta após fechamento
+
+Após fechamento da pauta, caso o usuário tenha permissão específica (papel ), o sistema exibirá o ícone de lixeira, permitindo a exclusão do processo da pauta. Nesses casos, será gerado um movimento de cancelamento de paute e o sistema gerará a certidão de cancelamento de pauta. O processo ficará disponível no final da aba de **Relação de julgamento** por meio do agrupamento **Processos removidos da pauta**
 
 ## Intimação de pauta na publicação da lista e no fechamento da pauta:
 
