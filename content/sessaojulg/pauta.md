@@ -32,6 +32,7 @@ Após selecionar o processo para incluir em pauta, ele deve selecionar o botão 
 Após incluído em uma pauta, mesmo que a pauta onde ele tenha sido incluído não tenha sido fechada, o processo não deve estar mais disponível para inclusão em outras pautas.
 {{% /notice %}}
 
+Após fechamento da pauta, caso o usuário tenha permissão específica (papel ), o sistema exibirá o ícone de lixeira, permitindo a exclusão do processo da pauta. Nesses casos, será gerado um movimento de cancelamento de paute e o sistema gerará a certidão de cancelamento de pauta. O processo ficará disponível no final da aba de **Relação de julgamento** por meio do agrupamento **Processos removidos**
 
 ## Intimação de pauta na publicação da lista e no fechamento da pauta:
 
