@@ -42,7 +42,9 @@ Já para pauta fechada, a alteração na ordem só é permitida para detentores 
 
 ### Exclusão de processo da pauta após fechamento
 
-Após fechamento da pauta, caso o usuário tenha permissão específica (papel ), o sistema exibirá o ícone de lixeira, permitindo a exclusão do processo da pauta. Nesses casos, será gerado um movimento de cancelamento de paute e o sistema gerará a certidão de cancelamento de pauta. O processo ficará disponível no final da aba de **Relação de julgamento** por meio do agrupamento **Processos removidos da pauta**
+Processos poderão ser removidos de pauta fechada desde que a sessão não tenha sido finalizada ainda. Processos incluídos em mesa podem ser removidos. Já processos de classes que exigem pauta,  poderão ser removidos por usuários do mesmo órgão julgador colegiado da sessão e que detenham o papel PERMITE_REMOVER_PROCESSO_PAUTA_FECHADA. O sistema exibirá o ícone de lixeira, permitindo a exclusão do processo da pauta. Nesses casos, será gerado um movimento de cancelamento de pauta e o sistema gerará a certidão de cancelamento de pauta. O processo ficará disponível no final da aba de **Relação de julgamento** por meio do agrupamento **Processos removidos da pauta**
+
+
 
 ## Intimação de pauta na publicação da lista e no fechamento da pauta:
 
