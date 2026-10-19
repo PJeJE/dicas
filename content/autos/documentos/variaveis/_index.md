@@ -96,6 +96,8 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 | Recupera conteúdo do documento ementa vinculada à última sessão onde o processo foi "Julgado" e a sessão teve movimento registrado ou o processo teve o julgamento individual finalizado | #{sessaoProcessoDocumentoManager.getEmenta()} |  |
 | Recupera conteúdo do documento relatório à última sessão onde o processo foi "Julgado" e a sessão teve movimento registrado ou o processo teve o julgamento individual finalizado | #{sessaoProcessoDocumentoManager.getRelatorio(null)} |  |
 | Recupera conteúdo do documento voto vinculado à última sessão onde o processo foi "Julgado" e a sessão teve movimento registrado ou o processo teve o julgamento individual finalizado. O sistema procura o voto do vencedor. Caso não encontre, procura o voto do relator | #{sessaoProcessoDocumentoManager.getVoto(null)} |  |
+| Voto Vogal/Escrito - Retorna os votos dos demais membros que votaram, sem o do relator e sem o do vencedor - Elaborar Acórdão e Certidão de Julgamento - Processo julgado | ``` #{sessaoProcessoDocumentoManager.getVotosVogais(null)} ```|  |
+| Retorna o voto de quem venceu o julgamento. Fica vazia quando o vencedor é o próprio relator - Elaborar Acórdão e Certidão de Julgamento - Processo julgado  | ``` #{sessaoProcessoDocumentoManager.getVotoRelator(null)} ```| |
 | Recupera data da última sessão de julgamento onde o processo foi "Julgado" | #{sessaoProcessoDocumentoManager.getDataUltimaSessaoJulgamento(null)} |  |
 | Relator (processos de segundo grau/TSE) | #{processoTrfHome.nomeRelator} |  |
 | Revisor | #{pessoaMagistradoManager.getMagistradoTitular(orgaoJulgadorColegiadoOrgaoJulgadorManager<br>.recuperarOrgaoJulgadorRevisorPadrao(tramitacaoProcessualService.recuperaProcesso()).orgaoJulgadorRevisor.orgaoJulgador).getNome().toUpperCase()} |  |
@@ -108,9 +110,9 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 | Último dia do período da sessão contínua/virtual. Retorna a data final do período de votação (ex.: sessão de 11 a 15/05 → retorna 15/05) |``` #{sessaoPautaProcessoTrfManager.getSessaoPautaProcessoTrfJulgado(processoTrfHome.instance) != null and sessaoPautaProcessoTrfManager.getSessaoPautaProcessoTrfJulgado(processoTrfHome.instance).sessao.dataFimSessao != null ? dateUtil.dateToString(sessaoPautaProcessoTrfManager.getSessaoPautaProcessoTrfJulgado(processoTrfHome.instance).sessao.dataFimSessao) : ''} ```| Se a sessão não for contínua/virtual, a EL retorna string vazia |
 | Usuário Logado | #{usuarioLogado.nome} |  |
 | Acórdão (Nome da Classe Judicial e Recurso por extenso) | ``` #{processoTrfHome.instance.classeCadeiaRecursal} ```| Retorna Classes Judicial e Recursal por extenso |
-| Voto Vencedor | ``` #{sessaoProcessoDocumentoManager.getVotoRelator(null)} ```| Retorna o voto de quem venceu o julgamento. Fica vazia quando o vencedor é o próprio relator - Elaborar Acórdão e Certidão de Julgamento - Processo julgado |
-| Voto Vogal/Escrito | ``` #{sessaoProcessoDocumentoManager.getVotosVogais(null)} ```| Retorna os votos dos demais membros que votaram, sem o do relator e sem o do vencedor - Elaborar Acórdão e Certidão de Julgamento - Processo julgado |
-| Voto Relator | ``` #{sessaoProcessoDocumentoManager.getVotoRelator(null)} ```| Retorna o voto do relator do processo na pauta da última sessão em que o processo foi julgado, inclusive quando o relator ficou vencido - Elaborar Acórdão e Certidão de Julgamento - Processo julgado |
+
+
+
 
 {{</table>}}
 
