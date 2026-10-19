@@ -38,13 +38,13 @@ A ordem dos processos na pauta pode ser alterada desde que a sessão não tenha 
 
 Para pauta aberta, a alteração é livre e o sistema reordena os processos subsequentes conforme forem sendo retirados processos do meio da lista.
 
-Já para pauta fechada, a alteração na ordem só é permitida para detentores do papel **pje:relacaoJulgamento:permiteOrdenarPautaSessao**. Nesses casos, os outros processos não são reordenados, já que a pauta foi publicada com aquele número de ordem, o que poderia prejudicar o correto apontamento de processos nos pedidos de sustentação oral.
+Já para pauta fechada, a alteração na ordem só é permitida para detentores do papel **pje:relacaoJulgamento:permiteOrdenarPautaSessao**. Sem essa permissão, por padrão, não é possível alterar o número de ordem dos processos, já que a pauta foi publicada com aquele número de ordem, o que poderia prejudicar o correto apontamento de processos nos pedidos de sustentação oral. Com a permissão, o sistema permitirá ao usuário realizar essa alteração.
 
 ### Exclusão de processo da pauta após fechamento
 
-Processos poderão ser removidos de pauta fechada desde que a sessão não tenha sido finalizada ainda. Processos incluídos em mesa podem ser removidos, o ícone de lixeira é disponibilizado e o processo é removido simplesmente. 
+Processos poderão ser removidos de pauta fechada desde que a sessão não tenha sido finalizada ainda. Processos incluídos em mesa podem ser removidos, o ícone de lixeira é disponibilizado e o processo é removido simplesmente. A pauta é reordenada automaticamente para os processos que permaneceram.
 
-Já para processos de classes que exigem pauta, só poderão ser removidos por usuários do mesmo órgão julgador colegiado da sessão e que detenham o papel **pje:relacaoJulgamento:permiteRemoverProcessoPautaFechada**. O sistema exibirá o ícone de lixeira, permitindo a exclusão do processo da pauta. Nesses casos, será gerado um movimento de cancelamento de pauta e o sistema gerará também uma certidão de cancelamento de pauta. O processo ficará disponível no final da aba de **Relação de julgamento** por meio do agrupamento **Processos removidos da pauta**
+Já para processos de classes que exigem pauta, só poderão ser removidos por usuários do mesmo órgão julgador colegiado da sessão e que detenham o papel **pje:relacaoJulgamento:permiteRemoverProcessoPautaFechada**. O sistema exibirá o ícone de lixeira, permitindo a exclusão do processo da pauta. Nesses casos, será gerado um movimento de cancelamento de pauta e o sistema gerará também uma certidão de cancelamento de pauta. O processo ficará disponível no final da aba de **Relação de julgamento** por meio do agrupamento **Processos removidos da pauta**. Para esses casos, a pauta não é reordenada automaticamente. 
 
 
 ## Intimação de pauta na publicação da lista e no fechamento da pauta:
