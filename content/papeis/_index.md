@@ -220,9 +220,15 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
 - **pje:papel:administrarAutuacao**
   - Papel que permite cadastrar impedimentos para magistrado pela configuração do magistrado e pelos autos do processo
 
-
 - **pje:papel:podeInserirProcessoExistente**
   - Papel que permite cadastrar processo de referência não existente na instalação do PJe ao protocolar processo incidental
+
+- **pje:relacaoJulgamento:permiteOrdenarPautaSessao**
+  - Papel que permite (alterar)[sessaojulg/pauta/#ordenação-de-processos-da-pauta] o número da ordem de processos na pauta após pauta fechada
+
+- **pje:relacaoJulgamento:permiteRemoverProcessoPautaFechada**
+  - Papel que permite (remover)[sessaojulg/pauta/#exclusão-de-processo-da-pauta-após-fechamento] processos da pauta que já está fechada 
+
  
 <!--	
 	/pages/Processo/RetificacaoAutuacao/updateRetificacaoAutuacao.seam
