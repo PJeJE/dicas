@@ -181,8 +181,8 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
 - **pje:processoGravarSessaoPublicacao**
   - Papel da JE para atribuir a funcionalidade de gravar decisoes para publicação em sessão
    
-- **pje:relacaoJulgamento:permiteRemoverProcessoPautaFechada**
-  - Papel que permite remover processo da relação de julgamento quando a pauta já está fechada
+- **pje:relacaoJulgamento:permiteProcessoPautaFechada**
+  - Papel que permite  processo da relação de julgamento quando a pauta já está fechada
 
 - **pje:processo:objeto:editor**
   - Papel que permite editar o objeto do processo
@@ -245,7 +245,7 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
 	procChefeMP
     pje:peso:permiteAlterarPeso - permite consultar pesos
 	pje:peso:permiteConsultarPeso - permite alterar pesos
-    pje:relacaoJulgamento:permiteOrdenarPautaSessao
+    
 	pje:processo:expedientes:permiteFechar
 	pje:papel:exigeRecaptcha
 	pje:papel:cadastraParteSemDocumento
