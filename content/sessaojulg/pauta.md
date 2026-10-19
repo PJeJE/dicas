@@ -101,7 +101,7 @@ Depois, basta retornar o processo para a tarefa em que estava e seguir com a tra
 
 Outra opção para retirada da aptidão de julgamento é a utilização da transição **Retirar da aba Adiados do Assessor de Plenário,** disponível a partir das tarefas de análise, na unidade de processamento. 
 
-## Lista de pautas
+## Lista de pautas - Recursos e Sessões dos autos 
 
 O usuário detentor do papel **pje:papel:pesquisaRecursoInterno** nas instalações do PJe que não sejam de primeiro grau têm acesso, por meio dos autos digitais, a aba **Recursos e sessões**. Por meio dessa aba, pode-se visualizar todos os recursos associados àquela capa e também verificar todas as sessões onde o capa foi pautada.
 
