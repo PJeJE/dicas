@@ -229,8 +229,19 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
 - **pje:relacaoJulgamento:permiteRemoverProcessoPautaFechada**
   - Papel que permite [remover](/sessaojulg/pauta/#exclusão-de-processo-da-pauta-após-fechamento) processos da pauta que já está fechada 
 
- 
+- **pje:visualizaSigiloso**
+  - Papel que permite ao usuário visualizar processos sigilosos, respeitando também a localização do usuário (mesmo órgão julgador/mesmo órgão julgador colegiado). Os níveis de sigilo também precisam ser observados - [verificar regras](/sigilo/visualizacao/#regras-gerais)
+
+- **pje:manipulaSigiloso**
+  - Papel que permite ao usuário visualizar e alterar o sigilo de processos, respeitando também a localização do usuário (mesmo órgão julgador/mesmo órgão julgador colegiado). Os níveis de sigilo também precisam ser observados - [verificar regras](/sigilo/visualizacao/#regras-gerais)
+
+- **pje:visualizaHistoricoPartes**
+  - Papel que permite ao usuário visualizar o histórico de partes na retificação da autuação
+
+
 <!--	
+
+
 	/pages/Processo/RetificacaoAutuacao/updateRetificacaoAutuacao.seam
 	pje:papel:visualizaSituacoesAtuais
 	pje:processo:fluxo:deflagrar:digitalizacao
@@ -257,7 +268,7 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
 	pje:calendario:abrangencia:estadual
 	pje:calendario:abrangencia:municipal
 	pje:calendario:abrangencia:orgaoJulgador
-    pje:criminal:manipulaInformacaoCriminal
+    pje:criminal:InformacaoCriminal
 	pje:criminal:visualizaInformacaoCriminal
 	pje:papel:pesquisaRecursoInterno - permite que o usuário pesquise selecionando se quer ou não que a consulta processual retorne capas recursais
 	pje:papel:removeRecursoInterno - permite remover recurso
@@ -333,11 +344,7 @@ Abaixo, segue uma lista de papéis pré-definidos e têm comportamentos específ
 	 
 	public static final String SECRETARIO_SESSAO = "pje:secretariosessao";
 
-	public static final String VISUALIZA_SIGILOSO = "pje:visualizaSigiloso";
 	
-	public static final String VISUALIZA_HISTORICO_PARTES = "pje:visualizaHistoricoPartes";
-	
-	public static final String MANIPULA_SIGILOSO = "pje:manipulaSigiloso";
 
 	public static final String PODE_INICIAR_FLUXO_DIGITALIZACAO = "pje:processo:fluxo:deflagrar:digitalizacao";
 	
