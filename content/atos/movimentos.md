@@ -34,7 +34,7 @@ A configuração de movimentos é um ponto extremamente sensível para o correto
 
 Há instruções relevantes sobre as configurações de movimentações processuais no [link](https://docs.pje.jus.br/manuais-de-uso/Manual%20de%20referencia%20PJe%201.0#movimenta%C3%A7%C3%B5es)
 
-Gostaríamos e ressaltar alguns pontos importantes a respeito da configuração de complementos.
+Gostaríamos de ressaltar alguns pontos importantes a respeito da configuração de complementos.
 
 Na configuração da aplicabilidade do movimento, são configuradas as possibilidades de inserção de complementos dos movimentos. Isso significa que, ainda que o usuário tenha selecionado algum complemento de movimento, se a aplicabilidade não tiver corretamente configurada para conter o complemento, ele não será exibido na descrição do movimento lançado. Da mesma forma, caso seja inserido um complemento na configuração da aplicabilidade e o complemento não seja informado pelo usuário ou pela própria aplicação, o movimento é lançado sem o complemento e exibindo um texto sem sentido para o usuário. Por exemplo, se for configurado o complemento **tipo_da_decisao_anterior** no movimento de código SGT 945 e o usuário não tiver como informar esse complemento, o sistema lançará o movimento da seguinte forma:
 
