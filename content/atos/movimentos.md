@@ -18,7 +18,7 @@ No PJe da Justiça Eleitoral, as movimentações são incluídas nos processos p
 Dependendo do ponto do PJe, o conjunto de tipos de movimento a serem lançados são diferentes. Pode-se verificar os tipos de movimento existentes pelo link do [SGT](https://www.cnj.jus.br/sgt/consulta_publica_movimentos.php). 
 
 Por exemplo, nas tarefas onde o usuário seleciona o movimento a ser lançado que são apresentada após assinatura de documentos de ato proferido ou de condução de audiências  
-(**Lançar movimentos de Julgamento Colegiado**, **Lançar movimentos de julgamento colegiado**, **Lançar movimento**, **Lançar movimento - Corregedoria**, **Lançar Movimentação Processual** ou **Lançar Movimentação**), os movimentos possíveis são os relacionados à árvore de **Magistrado**. 
+(**Lançar movimentos de Julgamento Colegiado**, **Lançar movimentos de julgamento colegiado**, **Lançar movimento**, **Lançar movimento - Corregedoria**, **Lançar Movimentação Processual** ou **Lançar Movimentação**), os movimentos possíveis são os relacionados à árvore de **Magistrado**. A configuração das tarefas de lançamento de movimento é um procedimento que deve ser conduzido com muito critério apenas por administradores experientes. As instruções está disponíveis [aqui](/tramitacao/configurar/#configura%C3%A7%C3%A3o-de-lan%C3%A7amento-de-movimentos)
 
 Já movimentos lançados no decorrer da tramitação processual são, via de regra, da árvore de **Serventuário**. É o caso de movimentos que são lançados após remessa de processos entre instâncias. 
 
