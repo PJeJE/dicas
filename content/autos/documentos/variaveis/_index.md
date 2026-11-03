@@ -94,8 +94,8 @@ Ao utilizar variáveis, quando copiar o conteúdo/expressão - seja do próprio 
 | Procurador da sessão | #{pessoaProcuradorManager.getTituloProcurador(sessaoPautaProcessoTrfManager<br>.getSessaoPsautaProcessoTrfJulgado(tramitacaoProcessualService.recuperaProcesso()).sessao)} |  |
 | Recupera a última composição do processo na sessão. False = não traz o presidente. True = traz o presidente | #{sessaoComposicaoOrdemManager.obterComposicaoSessao(sessaoHome.instance, false)} |  |
 | Recupera conteúdo do documento ementa vinculada à última sessão onde o processo foi "Julgado" e a sessão teve movimento registrado ou o processo teve o julgamento individual finalizado | #{sessaoProcessoDocumentoManager.getEmenta()} |  |
-| Documento de Acórdão - | ``` #{acordaoModelo.relatorio} ```|  |
-| Documento de Acórdão - | ``` #{acordaoModelo.votoRelatorParaAcordao} ```|  |
+| Documento de Acórdão - Retorna o relatório | ``` #{acordaoModelo.relatorio} ```|  |
+| Documento de Acórdão - Retorna o voto do relator | ``` #{acordaoModelo.votoRelatorParaAcordao} ```|  |
 | Recupera conteúdo do documento relatório à última sessão onde o processo foi "Julgado" e a sessão teve movimento registrado ou o processo teve o julgamento individual finalizado | #{sessaoProcessoDocumentoManager.getRelatorio(null)} |  |
 | Recupera conteúdo do documento voto vinculado à última sessão onde o processo foi "Julgado" e a sessão teve movimento registrado ou o processo teve o julgamento individual finalizado. O sistema procura o voto do vencedor. Caso não encontre, procura o voto do relator | #{sessaoProcessoDocumentoManager.getVoto(null)} |  |
 | Voto Vogal/Escrito - Retorna os votos dos demais membros que votaram, sem o do relator e sem o do vencedor - Elaborar Acórdão e Certidão de Julgamento - Processo julgado | ``` #{sessaoProcessoDocumentoManager.getVotosVogais(null)} ```|  |
