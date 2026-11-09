@@ -117,3 +117,9 @@ Da mesma forma, a tarefa para complementação das informações sobre a central
 [neste link](/docs/perfil_oficial_de_justica.pdf), você encontra um Manual para o uso do perfil de Oficial de Justiça.
 {{% /notice %}}
 
+
+## Tarefas de aviso de publicação
+
+Os meios de comunicação Mural e Diário (DJE) são meios de comunicação que demandam uma integração do PJe com outros sistemas. Em 2020, tivemos muitos problema de erros retornados por esses meios que não era limitações para a intimações de outros meios, apenas para esses dois. Os erros eram retornados, mas o usuário não sabia o que estava errado no processo e impedia a finalização da intimação. Dessa forma, foi criado um tratamento de exceção para esses meios para recuperar a mensagem de erro enviada pelo sistema integrado e exibir para o usuário em uma tarefa de aviso, para facilitar a correção pontual daquele processo específico. As tarefas criadas são **Aviso de publicação** e **Aviso de publicação mural** para Diário e Mural, respectivamente. O usuário deve verificar o conteúdo do aviso e, possivelmente, tentar corrigir o que está sendo apontado como impedimento para a publicação. Depois da correção, deve tentar fazer a publicação novamente.
+
+Caso os meios Diário e Mural não estejam disponíveis para publicação, o sistema não deve exibir os meios para o usuário selecionar.
