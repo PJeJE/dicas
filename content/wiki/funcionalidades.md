@@ -2328,6 +2328,6 @@ A assinatura digital no PJe é realizada através do PjeOffice, aplicativo que e
 ##### Aplicativos PJe
 
 
--   [[PJeOffice](http://titanio09.cnj.jus.br/wiki/index.php/PJeOffice)]{#n-PJeOffice}
--   [[Navegador PJe](http://titanio09.cnj.jus.br/wiki/index.php/Navegador_PJe)]{#n-Navegador-PJe}
+-   [PJeOffice](https://docs.pje.jus.br/servicos-negociais/pjeoffice-pro/)
+
 
