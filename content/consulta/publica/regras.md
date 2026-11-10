@@ -19,18 +19,6 @@ IMPORTANTE: nomes de partes menores de idade serão abreviados.
 
 **RN004 -** Serão exibidos os **DOCUMENTOS** assinados, desde que: ativos na base de dados, que não sejam sigilosos e que cuja sua visibilidade esteja marcada como pública.
         
-Exceção: para as classes abaixo, todos os documentos serão apresentados (mesmo os não públicos), desde que o documento ou o processo não sejam sigilosos:
+Exceção: 
 
-• PRESTAÇÃO DE CONTAS ANUAL (Código: 12377);
-
-• PRESTAÇÃO DE CONTAS ELEITORAIS (Código: 12193);
-
-• REGISTRO DE CANDIDATURA (Código: 11532);
-
-• REQUERIMENTO DE REGULARIZAÇÃO DE OMISSÃO DE PRESTAÇÃO DE CONTAS ANUAL (Código: 12631);
-
-• REQUERIMENTO DE REGULARIZAÇÃO DE OMISSÃO DE PRESTAÇÃO DE CONTAS ELEITORAIS (Código: 12633);
-
-• PRESTAÇÃO DE CONTAS (Código: 11531);
-
-• PROPAGANDA PARTIDÁRIA (Código: 11536);
+• Se a classe estiver marcada como pública (na configuração da classe), todos os documentos serão retornados na Consulta Pública (sem a restrição final da RN004).
