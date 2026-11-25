@@ -24,7 +24,7 @@ Já movimentos lançados no decorrer da tramitação processual são, via de reg
 
 Os movimentos lançados pelo próprio PJe após execução de alguma atividades também são, via de regra, da árvore de **Serventuário**, como por exemplo, o movimento lançado ao final da realização da sessão de julgamento ou o movimento lançado após distribuição/redistribuição de processos.
 
-Há também casos onde as integrações são responsáveis pelo lançamento de movimentos, como, por exemplo, o movimento que sinaliza a totalização dos votos em uma eleição, que é lançado pela integração com o sistema de registro de candidaturas.
+Há também casos onde as integrações são responsáveis pelo lançamento de movimentos, como, por exemplo, o movimento que sinaliza a identificação de possível dissidência partidária, que é lançado pela integração com o sistema de registro de candidaturas.
 
 Temos na Justiça Eleitoral uma outra possibilidade de lançamento de movimentos que é pela funcionalidade **Ajustar movimentação**, cujas instruções de utilização podem ser encontradas [aqui](/docs/manual_ajustar_movimentacao.pdf).
 
